@@ -6,8 +6,10 @@ gem 'serve', '1.5.1'
 # gem 'serve', :git => 'git://github.com/jlong/serve.git'
 
 # Use Compass and Sass
-gem 'compass'
-gem 'compass-growl'
+group :development do
+  gem 'compass'
+  gem 'compass-growl'
+end
 
 # Markdown and Textile
 # gem 'rdiscount' # Markdown
