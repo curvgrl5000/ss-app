@@ -1,0 +1,40 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    activesupport (3.0.10)
+    chunky_png (1.2.0)
+    compass (0.11.5)
+      chunky_png (~> 1.2)
+      fssm (>= 0.2.7)
+      sass (~> 3.1)
+    compass-growl (0.0.5)
+      compass (~> 0.11.1)
+      growl_notify
+    fssm (0.2.7)
+    growl_notify (0.0.1)
+      rb-appscript
+    haml (3.1.3)
+    i18n (0.6.0)
+    rack (1.3.0)
+    rack-test (0.5.7)
+      rack (>= 1.0)
+    rb-appscript (0.6.1)
+    sass (3.1.3)
+    serve (1.5.1)
+      activesupport (~> 3.0)
+      i18n
+      rack (~> 1.2)
+      rack-test (~> 0.5)
+      tilt (~> 1.3)
+      tzinfo
+    tilt (1.3.3)
+    tzinfo (0.3.29)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  compass
+  compass-growl
+  haml
+  serve (= 1.5.1)

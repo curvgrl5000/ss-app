@@ -1,0 +1,39 @@
+#slidedeck_total_container
+  #slidedeck_frame.grid_22.prefix_1.suffix_1
+    %dl#my_slidedeck.slidedeck
+      %dt Slide 1
+      %dd.grid_22
+        %ul.slidesVertical
+          %li
+            %img{:src => 'images/Team-Start.png', :height => 335}
+          %li
+            %p Vertical Slide 2
+          %li
+            %p Vertical Slide 3
+          %li
+            %p Vertical Slide 4
+      %dt Slide 2
+      %dd Slide Content
+      %dt Slide 3
+      %dd Slide Content
+
+  #outer-slidedeck_nav.grid_22.prefix_1.suffix_1
+    .divider.grid_22
+    .grid_22{:style => 'margin:0;background-color:#fff;'}
+      #mission.grid_6
+        %h1 wisdom deployed optimally
+        %h2 Insightful Consultative Approach to Executive Search
+      %ul
+        %li
+          %a{:href=>"#1", :class => "nav-bottom-vantage"} The Vantage Team
+        %li
+          %a{:href=>"#2", :class => "nav-bottom-mission"} Our Mission
+        %li
+          %a{:href=>"#3", :class => "nav-bottom-catalyst"} Vantage Catalysts
+        %li
+          %a{:href=>"#4", :class => "nav-bottom-leadership"} Thought Leadership
+        %li.right
+          %a.prev{:href => "#prev"}
+          %a.next{:href => "#next"}  
+    
+      
