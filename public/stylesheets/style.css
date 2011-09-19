@@ -17,6 +17,7 @@
 }
 body {
    background: #fff url("../images/main_bkgrnd.png") repeat-x;
+   font: normal 62.5%/1.6em Arial, Helvetica, sans-serif;
 }    
 
 #wrapper {
