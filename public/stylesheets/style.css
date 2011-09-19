@@ -47,10 +47,12 @@ body {
   margin:0;
   padding:0 0 210px 0;
   height: 650px;
+  border-top: 1px solid #ccc;
 }
 
 #content {
   background-color: #b7c0c7;
+  padding-top: 20px;
 }  
 
 #infographic {
