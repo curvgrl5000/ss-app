@@ -9,6 +9,7 @@ gem 'serve', '1.5.1'
 group :development do
   gem 'compass'
   gem 'compass-growl'
+  #gem 'mongrel'
 end
 
 # Markdown and Textile
@@ -26,4 +27,4 @@ gem 'haml'
 # gem 'coffee-script'
 
 # Use mongrel for the Web server
-gem 'mongrel'
+
