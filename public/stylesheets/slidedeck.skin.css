@@ -182,8 +182,8 @@ Tags: flexible, white, black, multi-color
  * position it outside of the slide area it will not appear.
  */
 dl.slidedeck dd.slide ul.verticalSlideNav {
-    top: 10px;
-    right: 10px;
+    top: -1000px;
+    right: -1000px;
     margin: 0;
     padding: 0;
     list-style: none;
