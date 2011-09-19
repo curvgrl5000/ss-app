@@ -26,4 +26,4 @@ gem 'haml'
 # gem 'coffee-script'
 
 # Use mongrel for the Web server
-#gem 'mongrel'
+gem 'mongrel'

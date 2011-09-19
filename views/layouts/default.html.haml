@@ -92,8 +92,34 @@
               %a.sf-with-ul{:href => "#"} News        
       #main.grid_24{ :role => 'main' }
         = yield
-      %footer
-    
+  #footer
+    #foot
+      #left
+        #navigation-footer  
+          %ul#nav-footer.nav-bottom
+            %li
+              %a{:title => "Home", :href => "/"} Home
+            %li
+              %a{:title => "Approach", :href => "/"} Approach
+            %li
+              %a{:title => "Practice Areas", :href => "/"} Practice Areas
+            %li
+              %a{:title => "Team", :href => "/"} Team
+            %li
+              %a{:title => "Contact Us", :href => "/"} Contact Us
+            %li
+              %a{:title => "News", :href => "/"} News
+      #right
+        #logo
+        .clear
+        %h4
+          1840 Gateway Drive suite 125
+          %br
+          San Mateo CA 94404
+          %br  
+          605 579-7300
+          %a{:title => "Vantage Partners Home", :href => "/"} www.vantagepartners.net
+
 -# 
   Javascript at the bottom for fast page loading
   Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary
