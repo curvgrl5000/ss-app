@@ -465,7 +465,7 @@ body {
 #contact_top_container .ct {
   height: 331px;
   background-color: #fff;
-  /*background: url("../images/contactus_background_2.png") no-repeat 0 0;  */
+  background: url("../images/contactus_background_2.png") no-repeat 0 0; 
 }
 
 #contact_top_container .contact_content {
