@@ -314,111 +314,117 @@ body {
 
 /* Contact us page */
 #content-contact-us {
-  float:left;
-  margin:30px 37px 0 36px;
+  /*margin:30px 37px 0 36px;*/
+  margin-top:80px;
+}
+
+#content-contact-us .ct {
+  background: transparent url("../images/contact-us-bkgrnd_870px.png") no-repeat scroll 0 0;
+  margin:0;
   padding:0;
-  width:880px;
-  background: transparent url("../images/contact-us-bkgrnd.png") no-repeat scroll 0 -30px;
+  height: 360px;
 }
 
-#content-contact-us #top-content {
-  float:left;
-  margin:0px;
-  padding:35px 0px 15px 45px;
-}
-#content-contact-us #top-content .info {
-  float:left;
-  margin:0px;
-  padding:0px;
+#content-contact-us .address-info {
+  padding-top: 20px;
 }
 
-#content-contact-us #top-content .info h1 {   
+#content-contact-us .address-info h1 {   
   font: normal 1.5em Dante MT sans-serif;
   color:#5F6A72;
   line-height:1.65em;
 }
 
-#content-contact-us #top-content .info h2 {   
+#content-contact-us .address-info h2 {   
   font: bold 1.10em Arial, sans-serif;
   color:#5F6A72;
   line-height:2.16em;
 }
-#content-contact-us #top-content .info h2 a {   
+
+#content-contact-us .info h2 {
+  line-height: 34px;
+}
+
+#content-contact-us .address-info h2 a, #content-contact-us .info h2 a  {   
   font: bold 1.10em Arial, sans-serif;
   color:#5F6A72;
   line-height:2.05em;   
   text-decoration:none;
 }
-#content-contact-us #top-content .info h2 a:hover {   
+#content-contact-us .address-info h2 a:hover, #content-contact-us .info h2 a:hover {   
   font: bold 1.10em Arial, sans-serif;
   color:#F37421;
   line-height:2.05em;   
 }
 
-#content-contact-us #top-content .info .icons {
-  float:left;
-  margin:0px;
-  padding: 3px 0 0 0;
-  width:55px;
+#content-contact-us .info {
+  padding-top: 20px;
 }
-#content-contact-us #top-content .info #mail {
+
+#content-contact-us .info .icons {
+  float:left;
+  /*margin:0px;
+  padding: 3px 0 0 0;
+  width:55px; */
+}
+#content-contact-us .info #mail {
   width:41px;
   height:34px;
   background: transparent url("../images/contact_icons.png") no-repeat scroll -6px 0;
 }
-#content-contact-us #top-content .info #mail:hover {
+#content-contact-us .info #mail:hover {
   width:41px;
   height:34px;
   background: transparent url("../images/contact_icons-2.png") no-repeat scroll -6px 0;
 }
-#content-contact-us #top-content .info #direct {
+#content-contact-us .info #direct {
   width:41px;
   height:34px;
   background: transparent url("../images/contact_icons.png") no-repeat scroll -6px -33px;
 }
-#content-contact-us #top-content .info #direct:hover {
+#content-contact-us .info #direct:hover {
   width:41px;
   height:34px;
   background: transparent url("../images/contact_icons-2.png") no-repeat scroll -6px -33px;
 }
-#content-contact-us #top-content .info #fax {
+#content-contact-us .info #fax {
   width:41px;
   height:34px;
   background: transparent url("../images/contact_icons.png") no-repeat scroll -6px -66px;
 }
-#content-contact-us #top-content .info #fax:hover {
+#content-contact-us .info #fax:hover {
   width:41px;
   height:34px;
   background: transparent url("../images/contact_icons-2.png") no-repeat scroll -6px -66px;
 }
 
 
-#content-contact-us #top-content .info #tweet {
+#content-contact-us .info #tweet {
   width:39px;
   height:34px;
   background: transparent url("../images/socialmedia_icons.png") no-repeat scroll 6px 0;
 }
-#content-contact-us #top-content .info #tweet:hover {
+#content-contact-us .info #tweet:hover {
   width:39px;
   height:34px;
   background: transparent url("../images/socialmedia_icons-2.png") no-repeat scroll 6px 0;
 }
-#content-contact-us #top-content .info #facebook {
+#content-contact-us  .info #facebook {
   width:39px;
   height:34px;
   background: transparent url("../images/socialmedia_icons.png") no-repeat scroll 6px -33px;
 }
-#content-contact-us #top-content .info #facebook:hover {
+#content-contact-us .info #facebook:hover {
   width:39px;
   height:34px;
   background: transparent url("../images/socialmedia_icons-2.png") no-repeat scroll 6px -33px;
 }
-#content-contact-us #top-content .info #linkedin {
+#content-contact-us .info #linkedin {
   width:39px;
   height:34px;
   background: transparent url("../images/socialmedia_icons.png") no-repeat scroll 6px -65px;
 }
-#content-contact-us #top-content .info #linkedin:hover {
+#content-contact-us .info #linkedin:hover {
   width:39px;
   height:34px;
   background: transparent url("../images/socialmedia_icons-2.png") no-repeat scroll 6px -65px;
@@ -426,10 +432,12 @@ body {
 
 
 #content-contact-us #bottom-content {
-  float:left;
+  padding-top: 30px;
+  margin-bottom: 300px;
+  /*float:left;
   margin:0 0 300px 9px;
   padding:0;
-  background-color: #ffffff;
+  background-color: #ffffff;*/
 }
 #content-contact-us #bottom-content p {
   float:left;
@@ -449,12 +457,13 @@ body {
 }
 
 #contact_top_container {
-  height: 357px;
-  background: url("../images/contactus_background_2.png") no-repeat 0 0;
+  padding-top: 25px;
 }
 
 #contact_top_container .ct {
-  padding-top: 25px;
+  height: 331px;
+  background-color: #fff;
+  /*background: url("../images/contactus_background_2.png") no-repeat 0 0;  */
 }
 
 #contact_top_container .contact_content {
@@ -504,11 +513,7 @@ span.highlight_orange {
 }
 
 #contact_top_container .divider {
-	margin:0;
-	width: 870px;
-	height:40px;
-	display: block;
-	float:left;
+	height: 40px;
 	background: #fff url("../images/slidedeck-home-images/divider-graphic-a.png") no-repeat 0 0;
 }
 
