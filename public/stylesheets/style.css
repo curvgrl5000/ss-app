@@ -315,7 +315,7 @@ body {
 /* Contact us page */
 #content-contact-us {
   /*margin:30px 37px 0 36px;*/
-  margin-top:80px;
+  margin-top: 40px;
 }
 
 #content-contact-us .ct {
@@ -433,21 +433,23 @@ body {
 
 #content-contact-us #bottom-content {
   padding-top: 30px;
-  margin-bottom: 300px;
+  margin-bottom: 350px;
   /*float:left;
   margin:0 0 300px 9px;
   padding:0;
   background-color: #ffffff;*/
 }
 #content-contact-us #bottom-content p {
-  float:left;
+  /*float:left;
   margin: 0 30px 30px 30px;
   padding:20px;
-  width:770px;
+  width:770px;*/
   background-color: #C1CACF;
   font: normal 1.5em Dante MT sans-serif;
   color:#455560;
   line-height:1.2em;
+  height: 60px;
+  padding: 20px;
 }
 #category {
   font: 600 1.3em  Arial, sans-serif;
