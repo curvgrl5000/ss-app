@@ -319,14 +319,14 @@ body {
 }
 
 #content-contact-us .ct {
-  background: transparent url("../images/contact-us-bkgrnd_870px.png") no-repeat scroll 0 0;
+  background: transparent url("../images/contact-us-bkgrnd_870px.png") no-repeat scroll 0 -25px;
   margin:0;
   padding:0;
   height: 304px;
 }
 
 #content-contact-us .address-info {
-  padding-top: 30px;
+  padding-top: 37px;
 }
 
 #content-contact-us .address-info h1 {   
@@ -464,8 +464,7 @@ body {
 
 #contact_top_container .ct {
   height: 331px;
-  background-color: #fff;
-  background: url("../images/contactus_background_2.png") no-repeat 0 0; 
+  background: #fff url("../images/contactus_background_2.png") no-repeat 0 0; 
 }
 
 #contact_top_container .contact_content {
