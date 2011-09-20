@@ -441,14 +441,9 @@ body {
   background-color: #ffffff;*/
 }
 #content-contact-us #bottom-content p {
-  /*float:left;
-  margin: 0 30px 30px 30px;
-  padding:20px;
-  width:770px;*/
   background-color: #C1CACF;
   font: normal 1.5em Dante MT sans-serif;
   color:#455560;
-  line-height:1.2em;
   height: 60px;
   padding: 20px;
 }
