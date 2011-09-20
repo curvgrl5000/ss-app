@@ -329,10 +329,11 @@ body {
   padding-top: 37px;
 }
 
-#content-contact-us .address-info h1 {   
+#content-contact-us .address-info h1 {
+  padding-top: 10px;   
   font: normal 1.5em Dante MT sans-serif;
-  color:#5F6A72;
-  line-height:1.65em;
+  color: #5F6A72;
+  line-height:1.37em;
 }
 
 #content-contact-us .address-info h2 {   
