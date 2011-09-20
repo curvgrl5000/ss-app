@@ -26,4 +26,9 @@ $(function(){
   $('#main-nav').superfish({
     pathClass: 'current'
   });
+  
+  $('#main-nav li a').click(function(e){
+    $(this).parent().addClass('current');
+  });
+  
 });
