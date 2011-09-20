@@ -456,7 +456,7 @@ body {
 
 #contact_top_container {
   padding-top: 25px;
-  background: #fff url("../images/contactus_background_2.png") no-repeat 0 0; 
+  background: transparent url("../images/contactus_background_2.png") no-repeat 0 0; 
 }
 
 #contact_top_container .ct {
