@@ -40,7 +40,7 @@ body {
 }
 #main {
   float:left;
-  background-color:#a9b2ba;
+  /*background-color:#a9b2ba;*/
 }
 
 #content_home {
@@ -310,4 +310,228 @@ body {
   height:80px;
   width:240px;
   float: right;  
+}
+
+/* Contact us page */
+#content-contact-us {
+  float:left;
+  margin:30px 37px 0 36px;
+  padding:0;
+  width:880px;
+  background: transparent url("../images/contact-us-bkgrnd.png") no-repeat scroll 0 -30px;
+}
+
+#content-contact-us #top-content {
+  float:left;
+  margin:0px;
+  padding:35px 0px 15px 45px;
+}
+#content-contact-us #top-content .info {
+  float:left;
+  margin:0px;
+  padding:0px;
+}
+
+#content-contact-us #top-content .info h1 {   
+  font: normal 1.5em Dante MT sans-serif;
+  color:#5F6A72;
+  line-height:1.65em;
+}
+
+#content-contact-us #top-content .info h2 {   
+  font: bold 1.10em Arial, sans-serif;
+  color:#5F6A72;
+  line-height:2.16em;
+}
+#content-contact-us #top-content .info h2 a {   
+  font: bold 1.10em Arial, sans-serif;
+  color:#5F6A72;
+  line-height:2.05em;   
+  text-decoration:none;
+}
+#content-contact-us #top-content .info h2 a:hover {   
+  font: bold 1.10em Arial, sans-serif;
+  color:#F37421;
+  line-height:2.05em;   
+}
+
+#content-contact-us #top-content .info .icons {
+  float:left;
+  margin:0px;
+  padding: 3px 0 0 0;
+  width:55px;
+}
+#content-contact-us #top-content .info #mail {
+  width:41px;
+  height:34px;
+  background: transparent url("../images/contact_icons.png") no-repeat scroll -6px 0;
+}
+#content-contact-us #top-content .info #mail:hover {
+  width:41px;
+  height:34px;
+  background: transparent url("../images/contact_icons-2.png") no-repeat scroll -6px 0;
+}
+#content-contact-us #top-content .info #direct {
+  width:41px;
+  height:34px;
+  background: transparent url("../images/contact_icons.png") no-repeat scroll -6px -33px;
+}
+#content-contact-us #top-content .info #direct:hover {
+  width:41px;
+  height:34px;
+  background: transparent url("../images/contact_icons-2.png") no-repeat scroll -6px -33px;
+}
+#content-contact-us #top-content .info #fax {
+  width:41px;
+  height:34px;
+  background: transparent url("../images/contact_icons.png") no-repeat scroll -6px -66px;
+}
+#content-contact-us #top-content .info #fax:hover {
+  width:41px;
+  height:34px;
+  background: transparent url("../images/contact_icons-2.png") no-repeat scroll -6px -66px;
+}
+
+
+#content-contact-us #top-content .info #tweet {
+  width:39px;
+  height:34px;
+  background: transparent url("../images/socialmedia_icons.png") no-repeat scroll 6px 0;
+}
+#content-contact-us #top-content .info #tweet:hover {
+  width:39px;
+  height:34px;
+  background: transparent url("../images/socialmedia_icons-2.png") no-repeat scroll 6px 0;
+}
+#content-contact-us #top-content .info #facebook {
+  width:39px;
+  height:34px;
+  background: transparent url("../images/socialmedia_icons.png") no-repeat scroll 6px -33px;
+}
+#content-contact-us #top-content .info #facebook:hover {
+  width:39px;
+  height:34px;
+  background: transparent url("../images/socialmedia_icons-2.png") no-repeat scroll 6px -33px;
+}
+#content-contact-us #top-content .info #linkedin {
+  width:39px;
+  height:34px;
+  background: transparent url("../images/socialmedia_icons.png") no-repeat scroll 6px -65px;
+}
+#content-contact-us #top-content .info #linkedin:hover {
+  width:39px;
+  height:34px;
+  background: transparent url("../images/socialmedia_icons-2.png") no-repeat scroll 6px -65px;
+}
+
+
+#content-contact-us #bottom-content {
+  float:left;
+  margin:0 0 300px 9px;
+  padding:0;
+  background-color: #ffffff;
+}
+#content-contact-us #bottom-content p {
+  float:left;
+  margin: 0 30px 30px 30px;
+  padding:20px;
+  width:770px;
+  background-color: #C1CACF;
+  font: normal 1.5em Dante MT sans-serif;
+  color:#455560;
+  line-height:1.2em;
+}
+#category {
+  font: 600 1.3em  Arial, sans-serif;
+  letter-spacing: .11em;
+  color: #F37421;
+  padding:0;
+}
+
+#contact_top_container {
+  height: 357px;
+  background: url("../images/contactus_background_2.png") no-repeat 0 0;
+}
+
+#contact_top_container .ct {
+  padding-top: 25px;
+}
+
+#contact_top_container .contact_content {
+  margin:0;
+  padding: 50px 16px 0 30px;
+}
+
+#contact_top_container .company_mission {
+  margin:0;
+  padding: 0 16px 30px 30px;
+}
+
+
+#contact_top_container .contact_content h1 {
+  margin:0;
+  padding:0 0 15px 0;
+  font: 100 3.2em Dante MT Std serif ;
+  color:#5f6a72;
+  float:left;
+  line-height:1.125;
+  
+}
+span.highlight_orange {
+  color:#F37421;
+}                               
+
+#contact_top_container .contact_content p {
+  margin:0;
+  padding:0 0 15px 0; 
+  font: normal 1.5em Dante MT Std serif;
+  color:#5F6A72;
+  line-height:1.65em;
+}
+#contact_top_container #small-icon{
+  width:70px;
+  height:79px;
+  padding:0;
+  margin:0;
+  background-image: url("../images/small_icon.png");
+}
+#contact_top_container #side_container {
+  margin:0;
+  padding:0;
+  background-color:#e1e5e7;
+  float:left;
+  height:331px;
+}
+
+#contact_top_container .divider {
+	margin:0;
+	width: 870px;
+	height:40px;
+	display: block;
+	float:left;
+	background: #fff url("../images/slidedeck-home-images/divider-graphic-a.png") no-repeat 0 0;
+}
+
+#contact_top_container .company_mission h1 {
+  font: normal 1.75em Neue Helvetica Arial, sans-serif;
+  letter-spacing: .11em;
+  line-height:.7em;
+  color: #F37421; 
+}
+
+#contact_top_container .company_mission h2 {
+  font: italic 1.1em Georgia, Times sans-serif;
+  line-height:.2em;
+  letter-spacing: .06em; 
+  color: #5f6a72;
+  padding-top: 10px;
+}
+
+#bigshot {
+  margin-left:auto;
+  margin-right:auto;
+  padding:0px;
+  width:2012px;
+  height:1060px;
+  background: transparent url("../images/104379501_gettyimages.jpg") no-repeat 0 517px;
 }
