@@ -24,7 +24,7 @@ $(function(){
   
   $.fn.superfish.defaults.autoArrows = false;
   $('#main-nav').superfish({
-    pathClass: 'current'
+    pathClass: 'fugly'
   });
   
   $('#main-nav li a').click(function(e){

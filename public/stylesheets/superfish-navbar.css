@@ -49,6 +49,10 @@
   background: transparent url("../images/white_nav_icon.png") 50% 0 no-repeat;
 }
 
+.sf-navbar li.fugly {
+  background: #f37421 url("../images/white_nav_icon.png") 50% 0 no-repeat;
+}
+
 .sf-navbar ul li:hover,
 .sf-navbar ul li.sfHover,
 ul.sf-navbar ul li:hover li,
