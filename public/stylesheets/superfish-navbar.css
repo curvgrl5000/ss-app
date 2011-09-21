@@ -1,76 +1,81 @@
-
 /*** adding the class sf-navbar in addition to sf-menu creates an all-horizontal nav-bar menu ***/
 .sf-navbar {
-	background:	 #A9B2BA; 
-	height:			2.5em;
-	padding:0px;
-	position:		relative;
+  background: #A9B2BA; 
+  height: 2.5em;
+  padding:  0;
+  position: relative;
 }
 .sf-navbar li {
-	background:		#F37421; 
-	position:		static;
-	font-family: Dante MT Std serif;
+  background:   #F37421; 
+  position:   static;
+  font-family: Dante MT Std serif;
 }
 .sf-navbar a {
-	border-top:		none;
+  border-top: none;
 }
 .sf-navbar li ul {
-	width:			44em; /*IE6 soils itself without this*/
+  width:  44em; /*IE6 soils itself without this*/
 }
 .sf-navbar li li {
-	background:		#9ba3ab; 
-	position:		relative;
+  background:   #9ba3ab; 
+  position:   relative;
 }
 .sf-navbar li li ul {
-	width:			13em;
+  width:  13em;
 }
 .sf-navbar li li li {
-	width:			100%;
+  width:  100%;
 }
 .sf-navbar ul li {
-	width:			auto;
-	float:			left;
+  width:      auto;
+  float:      left;
 }
 .sf-navbar a, .sf-navbar a:visited {
-	border:			none;
+  border:     none;
 }
 .sf-navbar li.current {
-	background:		#F37421;
+  background:   #F37421;
 }
 
 .sf-navbar li:hover,
 .sf-navbar li.sfHover,
 .sf-navbar li li.current,
 .sf-navbar a:focus, .sf-navbar a:hover, .sf-navbar a:active {
-	background:	 #F37421;
-	color: #fff;
+  background-color: #f37421;
+  color: #fff;
 }
+
+.sf-navbar a:hover {
+  background: transparent url("../images/white_nav_icon.png") 50% 0 no-repeat;
+}
+
 .sf-navbar ul li:hover,
 .sf-navbar ul li.sfHover,
 ul.sf-navbar ul li:hover li,
 ul.sf-navbar ul li.sfHover li,
 .sf-navbar ul a:focus, .sf-navbar ul a:hover, .sf-navbar ul a:active {
-	background:		#848a91;
+  background-color: #848a91;
 }
+
 ul.sf-navbar li li li:hover,
 ul.sf-navbar li li li.sfHover,
 .sf-navbar li li.current li.current,
 .sf-navbar ul li li a:focus, .sf-navbar ul li li a:hover, .sf-navbar ul li li a:active {
-	background:		#E6EEFF;
+  background:   #E6EEFF;
 }
 ul.sf-navbar .current ul,
 ul.sf-navbar ul li:hover ul,
 ul.sf-navbar ul li.sfHover ul {
-	left:			0;
-	top:			2.5em; /* match top ul list item height */
+  left:     0;
+  top:      2.5em; /* match top ul list item height */
 }
 ul.sf-navbar .current ul ul {
-	top: 			-999em;
+  top:      -999em;
 }
 
 .sf-navbar li li.current > a {
-	font-weight: normal;
-	color: #fff;
+  font-weight: normal;
+  color: #fff;
 }
 
 /*** point all arrows down ***/
@@ -83,15 +88,15 @@ ul.sf-navbar .current ul ul {
 .sf-navbar ul a:active > .sf-sub-indicator,
 .sf-navbar ul li:hover > a > .sf-sub-indicator,
 .sf-navbar ul li.sfHover > a > .sf-sub-indicator {
-	background-position: -10px -100px; /* arrow hovers for modern browsers*/
+  background-position: -10px -100px; /* arrow hovers for modern browsers*/
 }
 
 /*** remove shadow on first submenu ***/
 .sf-navbar > li > ul {
-	background: transparent;
-	padding: 10px 0 0 86px;
-	-moz-border-radius-bottomleft: 0;
-	-moz-border-radius-topright: 0;
-	-webkit-border-top-right-radius: 0;
-	-webkit-border-bottom-left-radius: 0;
+  background: transparent;
+  padding: 20px 0 0 86px;
+  -moz-border-radius-bottomleft: 0;
+  -moz-border-radius-topright: 0;
+  -webkit-border-top-right-radius: 0;
+  -webkit-border-bottom-left-radius: 0;
 }

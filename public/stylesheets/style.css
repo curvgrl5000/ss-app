@@ -11,36 +11,24 @@
 
 /* Containers
 ----------------------------------------------------------------------------------------------------*/
-#body {
-  margin:0px;
-  padding:0px;
-}
 body {
    background: #fff url("../images/main_bkgrnd.png") repeat-x;
    font: normal 62.5%/1.6em Arial, Helvetica, sans-serif;
 }    
 
+#body {
+  margin:0
+  padding:0;
+}
+
 #wrapper {
-  margin:auto;
-  padding:0px;
+  margin:0 auto;
+  padding:0;
   width:960px;
 }
-.container {
-  /*background-color: #fff;*/
-}
-.container_24 {
-  width:960px;
-}
+
 #header {
-  margin:0 0 25px;
-  padding:0px;
-  float:left;
-  width:960px;
   background-color: #fff;
-}
-#main {
-  float:left;
-  /*background-color:#a9b2ba;*/
 }
 
 #content_home {
@@ -140,12 +128,8 @@ body {
 ----------------------------------------------------------------------------------------------------*/
 
 #navigation {
-  margin:0px;
-  padding:10px 0 0 50px;
-  float:left;
-  height:35px;
+  height:45px;
   background-color: #F37421;
-  width:910px;
 }
 
 #main-nav {  
@@ -299,7 +283,8 @@ body {
   margin:0;
   padding:0;
   float:right;
-  position:relative;  
+  position:relative;
+  height: 90px;  
 }
 
 #g-search {
@@ -435,18 +420,16 @@ body {
 #content-contact-us #bottom-content {
   padding-top: 30px;
   margin-bottom: 350px;
-  /*float:left;
-  margin:0 0 300px 9px;
-  padding:0;
-  background-color: #ffffff;*/
 }
+
 #content-contact-us #bottom-content p {
   background-color: #C1CACF;
   font: normal 1.5em Dante MT sans-serif;
   color:#455560;
   height: 60px;
   padding: 20px;
-}
+} 
+
 #category {
   font: 600 1.3em  Arial, sans-serif;
   letter-spacing: .11em;
@@ -461,7 +444,6 @@ body {
 
 #contact_top_container .ct {
   height: 331px;
-  
 }
 
 #contact_top_container .contact_content {
@@ -473,7 +455,6 @@ body {
   margin:0;
   padding: 0 16px 30px 30px;
 }
-
 
 #contact_top_container .contact_content h1 {
   margin:0;
