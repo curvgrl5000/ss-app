@@ -166,6 +166,22 @@ a.nav-bottom-vantage:hover {
     background-position: -22px 0;
   }
   
+   #slidedeck_frame .slide_14 {
+      background: #fff url("../images/Mission-1.png") no-repeat;
+   }
+   #slidedeck_frame .slide_15 {
+      background: #fff url("../images/Mission-2.png") no-repeat;
+   }
+   #slidedeck_frame .slide_16 {
+      background: #fff url("../images/Mission-3.png") no-repeat;
+   }
+   #slidedeck_frame .slide_17 {
+      background: #fff url("../images/VantageCatalyst.png") no-repeat;
+   }
+   #slidedeck_frame .slide_18 {
+      background: #fff url("../images/ThoughtLeadership.png") no-repeat;
+   }
+/*
  * The SlideDeck vertical slide navigation container.
  * 
  * This is the container for the vertical slide navigation. You can position

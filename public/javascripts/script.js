@@ -47,6 +47,11 @@ Vantage.utils = function () {
 
 $(function(){
   
+  $("a.nav-bottom-vantage").click(function(e){
+    e.preventDefault();
+    $('#my_slidedeck').slidedeck({hideSpines:true}).goTo(1).vertical().goTo(1);  
+  });
+  
   var tv;
   if($('#team_vantage').slidedeck() != null) { 
     tv = $('#team_vantage').slidedeck({ hideSpines: true, speed: 1000});
@@ -70,7 +75,7 @@ $(function(){
     $("a.vertical_menu").click(function(e){
       e.preventDefault();
       var slide = this.href.replace(/.+#/,'');
-      $('#my_slidedeck').slidedeck({scroll:true}).vertical().goTo(slide);  
+      $('#my_slidedeck').slidedeck({scroll:true}).goTo(1).vertical().goTo(slide);  
     });
   }
   
