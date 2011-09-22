@@ -49,7 +49,9 @@ $(function(){
   
   $("a.nav-bottom-vantage").click(function(e){
     e.preventDefault();
-    $('#my_slidedeck').slidedeck({hideSpines:true}).goTo(1).vertical().goTo(1);  
+    if(tv) {
+      tv.goTo(1)
+    }
   });
   
   var tv;
