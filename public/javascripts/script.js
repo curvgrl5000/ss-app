@@ -31,4 +31,9 @@ $(function(){
     $(this).parent().addClass('current');
   });
   
+  $(".mini-shot").hover(function(e){
+    e.preventDefault();
+    $(this).toggleClass("mini-shot-light");
+  })
+  
 });

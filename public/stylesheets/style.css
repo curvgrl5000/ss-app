@@ -538,3 +538,7 @@ span.highlight_orange {
   height: 230px;
   background-color: #e4e8eb;
 }
+
+.mini-shot-light {
+  opacity:0.5;
+}
