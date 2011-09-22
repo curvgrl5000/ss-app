@@ -523,10 +523,14 @@ span.highlight_orange {
 
 
 /******************* TEAM VANTAGE *******************/
-.team_vantage {
-  background-color: #fff;
+#team_vantage {
   height: 357px;
 }
+
+#team_vantage dd{
+  background-color: #fff;
+}
+
 
 .mini-shot {
   padding: 10px 0 0 0;
@@ -542,3 +546,24 @@ span.highlight_orange {
 .mini-shot-light {
   opacity:0.5;
 }
+
+.vantage_bio {
+  text-align: right;
+  padding-top: 10px;
+}
+
+.vantage_bio h1 {
+   font: 100 1.8em Dante MT Std serif ;
+   color: #F37421;  
+}
+
+.vantage_bio p {
+   font: 100 1.2em Dante MT Std serif ;
+   color: #000; 
+   margin:0;
+   padding:0;
+   line-height: 1.2em;
+     
+}
+
+
