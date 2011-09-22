@@ -519,3 +519,22 @@ span.highlight_orange {
   height:1060px;
   background: transparent url("../images/104379501_gettyimages.jpg") no-repeat 0 517px;
 }
+
+
+
+/******************* TEAM VANTAGE *******************/
+.team_vantage {
+  background-color: #fff;
+  height: 357px;
+}
+
+.mini-shot {
+  padding: 10px 0 0 0;
+  height: 110px;
+}                              
+
+.color_block {
+  margin-top: 10px;
+  height: 230px;
+  background-color: #e4e8eb;
+}
