@@ -549,16 +549,16 @@ span.highlight_orange {
 
 .vantage_bio {
   text-align: right;
-  padding-top: 10px;
+  padding-top: 15px;
 }
 
 .vantage_bio h1 {
-   font: 100 1.8em Dante MT Std serif ;
+   font: 100 1.6em Dante MT Std serif ;
    color: #F37421;  
 }
 
 .vantage_bio p {
-   font: 100 1.2em Dante MT Std serif ;
+   font: 100 1.1em Dante MT Std serif ;
    color: #000; 
    margin:0;
    padding:0;
