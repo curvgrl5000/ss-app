@@ -563,7 +563,18 @@ span.highlight_orange {
    margin:0;
    padding:0;
    line-height: 1.2em;
-     
 }
 
+h1.meet {
+  text-align: right;
+  padding-top: 20px;
+  font: normal 45px "Neue Helvetica", Arial, sans-serif;
+  color: #F37421;  
+}
 
+h2.master {
+  text-align: left;
+  padding-top: 35px;
+  font: italic 13px Georgia;
+  color: #000;
+}
