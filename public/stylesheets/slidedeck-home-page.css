@@ -5,7 +5,6 @@
 
 #slidedeck_total_container {
   height: 500px;
-  background-color: #b7c0c7;
   /*background: url("../images/slidedeck-home-images/sd_background.png") no-repeat 0 0;*/
 }
 
@@ -17,7 +16,7 @@
 	position: relative;
 	margin: 0;
   height: 336px;
-  padding-top: 24px;
+  padding-top: 50px;
 }
 
 #outer-slidedeck_nav {
@@ -35,19 +34,19 @@
 #outer-slidedeck_nav #mission {
   margin:0;
   background-color: #fff;
-  padding: 30px 15px 0 15px;
+  padding: 30px 20px 0 35px;
 }
 
 #outer-slidedeck_nav #mission h1 {
   font: normal 17px "Neue Helvetica", Arial, sans-serif;
-  /*letter-spacing: .11em;
-  line-height:.7em;*/
+  letter-spacing: .05em;
+  /*line-height:.7em;*/
   color: #F37421; 
 }
 
 #outer-slidedeck_nav #mission h2 {
-  font: italic 10px Georgia, Times sans-serif;
-  line-height:.2em;
+  font: italic 1.06em Georgia, Times sans-serif;
+  line-height:1.7em;
   letter-spacing: .03em; 
   color: #5f6a72;
 }
@@ -61,15 +60,15 @@
 
 #outer-slidedeck_nav ul li {
   float: left;
-  margin-right:-8px;
+  margin-right:-15px;
   color: #6a7870;
   text-align:center;
   line-height:.2em;
-  padding:4px 0 0 0; 
+  padding:2px 0 0 0; 
 }
 
 #outer-slidedeck_nav ul li a img, a {
-   font: italic normal 10.5px Georgia, serif;
+   font: italic normal 1.06em Georgia, serif;
    color:F37421;
    z-index: 1000;
 }
@@ -87,7 +86,7 @@ a.nav-bottom-vantage {
   background: #fff url("../images/slidedeck-home-images/nav-vantage-team_2.png") bottom;
   text-decoration:none;
   color:#6A7870;
-  line-height: 11.5em;
+  line-height: 11.1em;
 }
 
 a.nav-bottom-vantage:hover {
@@ -101,7 +100,7 @@ a.nav-bottom-vantage:hover {
   background: #fff url("../images/slidedeck-home-images/nav-vantatge_mission_2.png") bottom;
   text-decoration:none;
   color:#6A7870;
-  line-height: 11.5em;
+  line-height: 11.1em;
 }
 .nav-bottom-mission:hover {
   background-position: 0 0;
@@ -113,7 +112,7 @@ a.nav-bottom-vantage:hover {
   background: #fff url("../images/slidedeck-home-images/nav-vantage-catalyst_2.png") bottom;
   text-decoration:none;
   color:#6A7870;
-  line-height: 11.5em;
+  line-height: 11.1em;
 }
 .nav-bottom-catalyst:hover {
   background-position: 0 0;
@@ -125,7 +124,7 @@ a.nav-bottom-vantage:hover {
   background: #fff url("../images/slidedeck-home-images/nav-vantage-thought_2.png") bottom;
   text-decoration:none;
   color:#6A7870;
-  line-height: 11.5em;
+  line-height: 11.1em;
 }
 .nav-bottom-leadership:hover {
   background-position: 0 0;
@@ -146,7 +145,7 @@ a.nav-bottom-vantage:hover {
     background-color:transparent;
     background-size: 45px auto;
     position: absolute;
-    margin: 32px 3px 0 35px;   
+    margin: 32px 3px 0 -22px;   
   }
   #outer-slidedeck_nav .right .prev:hover {
     background-position: 0 0;
@@ -159,7 +158,7 @@ a.nav-bottom-vantage:hover {
     background-color:transparent;
     background-size: 45px auto;
     position: absolute;
-    margin:32px 0px 0 60px;
+    margin:32px 0px 0 5px;
     float:left;
   }
    #outer-slidedeck_nav .right .next:hover {
