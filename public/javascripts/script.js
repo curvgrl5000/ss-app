@@ -37,6 +37,7 @@ Vantage.utils = function () {
     "brynne": 12
   }
   
+  // these are the only decks worth keeping track of for the horizontal arrows
   var decks = ["#team_vantage","#team_mission"];
   var current_deck = 1;
   
