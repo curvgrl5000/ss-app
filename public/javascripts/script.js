@@ -37,8 +37,20 @@ Vantage.utils = function () {
     "brynne": 12
   }
   
+  var decks = ["#team_vantage","#team_mission"];
+  var current_deck = 1;
+  
   return {
-    getMapping: function (rel) {
+    
+    setCurrentDeck : function(deck){
+      current_deck = deck;
+    },
+    
+    getCurrentDeck : function() {
+      return decks[current_deck-1];
+    },
+    
+    getMapping : function (rel) {
       return mapping[rel];
     }
   }
@@ -54,36 +66,32 @@ $(function(){
     }
   });
   
-  var tv;
-  if($('#team_vantage').slidedeck() != null) { 
+  var tv, mission, deck;
+  if($('#team_vantage').length) { 
     tv = $('#team_vantage').slidedeck({ hideSpines: true, speed: 1000});
   }
   
-  if($('#team_mission').slidedeck() != null) {
-    var mission = $('#team_mission').slidedeck({ hideSpines: true, keys: false, touch: false, cycle: true, speed: 1000, transition: "linear" });
-    $('.inner_mission_nav .prev').click(function(e){
-      e.preventDefault();
-      mission.prev();
-    });
-
-    $('.inner_mission_nav .next').click(function(e){
-      e.preventDefault();
-      mission.next();
-    });
+  if($('#team_mission').length) {
+    mission = $('#team_mission').slidedeck({ hideSpines: true, keys: false, touch: false, cycle: true, speed: 1000, transition: "linear" });
   }
   
   if($('#my_slidedeck').length) {
-    $('#my_slidedeck').slidedeck({hideSpines:true}).vertical();
+    // init the main slidedeck if we're on a page that has one...
+    deck = $('#my_slidedeck').slidedeck({hideSpines:true});
+    deck.vertical();
+    
+    // these are clicks on the 4 bottom icons... so one of these will set the table for the current deck we want to control
     $("a.vertical_menu").click(function(e){
       e.preventDefault();
       var slide = this.href.replace(/.+#/,'');
-      $('#my_slidedeck').slidedeck({scroll:true}).goTo(1).vertical().goTo(slide);  
+      $('#my_slidedeck').slidedeck({scroll:true}).goTo(1).vertical().goTo(slide);
+      Vantage.utils.setCurrentDeck(slide);        
     });
   }
   
   $.fn.superfish.defaults.autoArrows = false;
   $('#main-nav').superfish({
-    pathClass: 'fugly'
+    pathClass: 'current'
   });
   
   $('#main-nav li a').click(function(e){
@@ -103,4 +111,17 @@ $(function(){
     }
   });
   
+  $("#outer-slidedeck_nav .right .next").click(function(e){
+    var currentDeck = Vantage.utils.getCurrentDeck();  
+    if(currentDeck) {
+      $(currentDeck).slidedeck().next();
+    }
+  }); 
+     
+  $("#outer-slidedeck_nav .right .prev").click(function(e){
+    var currentDeck = Vantage.utils.getCurrentDeck();  
+    if(currentDeck) {
+      $(currentDeck).slidedeck().prev();  
+    }
+  });
 });
