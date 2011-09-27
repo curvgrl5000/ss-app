@@ -637,16 +637,7 @@ h2.master {
   float:left;
   line-height:.5em;  
 }
-#newsfeed h4 {
-  font-family: pragmatica-web-n3,pragmatica-web,sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  color:#fff;
-  font-size: 1.5em;
-  margin:0;
-  padding: 2px 0 15px 15px;
-  letter-spacing:.03em;  
-}
+
 
 #newsfeed .rss-icon {
   height:20px;
@@ -794,4 +785,16 @@ h2.master {
 }
 #social-media .twitter:hover {
   background-position: -22px 0;
+}
+
+
+.social-media h4 {
+  font-family: pragmatica-web-n3,pragmatica-web,sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  color: #fff;
+  font-size: 1.5em;
+  margin:0;
+  padding: 2px 0 15px 15px;
+  letter-spacing:.03em;  
 }
