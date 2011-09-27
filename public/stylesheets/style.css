@@ -567,10 +567,13 @@ h2.master {
 
 
 #content_home {
+
   margin: 40px 0 20px 0;
 }
 
 #content_home .ct {
+  background: #A9B2BA url("../images/main-bkgrnd.png") 0 0 no-repeat;
+  height: 700px;
 }
 
 #left-content {
@@ -585,7 +588,7 @@ h2.master {
   font: normal 1.9em Dante MT sans-serif;
   color: #5a7e92;
   line-height:1.35em;
-  margin: 10px 0;
+  margin: 14px 0;
 }
 
 #left-content .ct p {
@@ -612,7 +615,7 @@ h2.master {
 }
 
 #right-content .divider-small {
-  background: #dd url("../images/rss-feed-graphic.png") no-repeat scroll 0 0;
+  background: #ddd url("../images/rss-feed-graphic.png") no-repeat scroll 0 0;
   height:45px;
   width:230px;
   margin:0;
