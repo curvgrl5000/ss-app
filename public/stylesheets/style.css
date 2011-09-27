@@ -798,3 +798,12 @@ h2.master {
   padding: 2px 0 15px 15px;
   letter-spacing:.03em;  
 }
+
+
+#pie-charts {
+  height: 300px;
+}
+
+.chart {
+  width: 230px;
+}
