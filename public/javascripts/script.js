@@ -138,6 +138,7 @@ $(function(){
          // Make this a pie chart.
          renderer: jQuery.jqplot.PieRenderer, 
          rendererOptions: {
+           diameter: 160,
            // Put data labels on the pie slices.
            // By default, labels show the percentage of the slice.
            showDataLabels: false
@@ -160,6 +161,7 @@ $(function(){
           rendererOptions: {
             // Put data labels on the pie slices.
             // By default, labels show the percentage of the slice.
+            diameter: 160,
             showDataLabels: false
           }
         }
@@ -179,6 +181,7 @@ $(function(){
            // Make this a pie chart.
            renderer: jQuery.jqplot.PieRenderer, 
            rendererOptions: {
+             diameter: 160,
              // Put data labels on the pie slices.
              // By default, labels show the percentage of the slice.
              showDataLabels: false
