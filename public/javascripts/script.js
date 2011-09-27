@@ -126,12 +126,7 @@ $(function(){
     }
   });
   
-  
-  var data = [
-     ['Heavy Industry', 12],['Retail', 9], ['Light Industry', 14], 
-     ['Out of home', 16],['Commuting', 7], ['Orientation', 9]
-   ];
-   var plot1 = jQuery.jqplot ('chart_1', [data], 
+   var plot1 = jQuery.jqplot ('chart_1', [[['Success Ratio', 99],['other', 1]]], 
      {
        defaultWidth: '200',
        seriesDefaults: {
@@ -146,7 +141,7 @@ $(function(){
      }
    );
    
-   var plot2 = jQuery.jqplot ('chart_2', [data], 
+   var plot2 = jQuery.jqplot ('chart_2', [[['Repeat Business', 87],['other', 13]]], 
       {
         defaultWidth: '200',
         seriesDefaults: {
@@ -161,7 +156,7 @@ $(function(){
       }
     );
     
-    var plot3 = jQuery.jqplot ('chart_3', [data], 
+    var plot3 = jQuery.jqplot ('chart_3',[[['High Growth Client', 88], ['Other', 12]]], 
        {
          defaultWidth: '200',
          seriesDefaults: {

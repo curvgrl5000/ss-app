@@ -582,6 +582,7 @@ h2.master {
 
 #left-content .ct {
   padding: 30px 20px 0 35px;
+  height: 325px;
 }
 
 #left-content .ct h1 {
@@ -802,8 +803,4 @@ h2.master {
 
 #pie-charts {
   height: 300px;
-}
-
-.chart {
-  width: 230px;
 }
