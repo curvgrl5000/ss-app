@@ -128,14 +128,19 @@ $(function(){
   
    var plot1 = jQuery.jqplot ('chart_1', [[['Success Ratio', 99],['other', 1]]], 
      {
-       defaultWidth: '200',
+       grid: {
+         background: "#ffffff",
+         borderColor: "#ffffff",
+         shadow: false
+       },
+       seriesColors: ["#5f6a72", "#FFFFFF"],
        seriesDefaults: {
          // Make this a pie chart.
          renderer: jQuery.jqplot.PieRenderer, 
          rendererOptions: {
            // Put data labels on the pie slices.
            // By default, labels show the percentage of the slice.
-           showDataLabels: true
+           showDataLabels: false
          }
        }
      }
@@ -143,14 +148,19 @@ $(function(){
    
    var plot2 = jQuery.jqplot ('chart_2', [[['Repeat Business', 87],['other', 13]]], 
       {
-        defaultWidth: '200',
+        grid: {
+           background: "#ffffff",
+           borderColor: "#ffffff",
+           shadow: false
+         },
+        seriesColors: ["#F37421", "#FFFFFF"],
         seriesDefaults: {
           // Make this a pie chart.
           renderer: jQuery.jqplot.PieRenderer, 
           rendererOptions: {
             // Put data labels on the pie slices.
             // By default, labels show the percentage of the slice.
-            showDataLabels: true
+            showDataLabels: false
           }
         }
       }
@@ -158,14 +168,20 @@ $(function(){
     
     var plot3 = jQuery.jqplot ('chart_3',[[['High Growth Client', 88], ['Other', 12]]], 
        {
-         defaultWidth: '200',
+         grid: {
+            background: "#ffffff",
+            borderColor: "#ffffff",
+            shadow: false
+          },
+          seriesColors: ["#a9b2ba", "#FFFFFF"],
+           
          seriesDefaults: {
            // Make this a pie chart.
            renderer: jQuery.jqplot.PieRenderer, 
            rendererOptions: {
              // Put data labels on the pie slices.
              // By default, labels show the percentage of the slice.
-             showDataLabels: true
+             showDataLabels: false
            }
          }
        }
