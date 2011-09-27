@@ -512,7 +512,9 @@
           %a.prev{:href => "#prev"}
           %a.next{:href => "#next"}  
 
-#content_home
-  #content.grid_22.prefix_1.suffix_1.alpha.omega
-    %img{:src => 'images/content-home-placeholder.png', :alt => 'temporary image'}/
-
+  #content_home.grid_22.prefix_1.suffix_1
+    .ct{:style => "background-color: #fff;height: 200px"}
+      #left-content.grid_16.alpha
+        %h1 Left Content
+      #right-content.grid_6.omega
+        %h1 Right Content
