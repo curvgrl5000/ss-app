@@ -73,7 +73,7 @@ $(function(){
   }
   
   if($('#team_mission').length) {
-    mission = $('#team_mission').slidedeck({ hideSpines: true, keys: false, touch: false, cycle: true, speed: 1000, transition: "linear" });
+    mission = $('#team_mission').slidedeck({ hideSpines: true, keys: false, touch: false, cycle: true, speed: 1000, transition: "easeInBounce" });
   }
   
   if($('#my_slidedeck').length) {
