@@ -800,6 +800,18 @@ h2.master {
   letter-spacing:.03em;  
 }
 
-#pie-charts {
-  height: 300px;
+.chart {
+  height: 200px;
+}
+
+P.average {
+  text-align: right;
+  font: normal 1.75em "Neue Helvetica" Arial, sans-serif;  
+  color:#5f6a72;
+}
+
+p.industry {
+  text-align: right;
+  font: normal 1.50em "Neue Helvetica" Arial, sans-serif;  
+  color:#F37421;  
 }
