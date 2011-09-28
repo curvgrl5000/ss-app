@@ -135,12 +135,9 @@ $(function(){
        },
        seriesColors: ["#5f6a72", "#FFFFFF"],
        seriesDefaults: {
-         // Make this a pie chart.
          renderer: jQuery.jqplot.PieRenderer, 
          rendererOptions: {
-           diameter: 160,
-           // Put data labels on the pie slices.
-           // By default, labels show the percentage of the slice.
+           diameter: 155,
            showDataLabels: false
          }
        }
@@ -156,12 +153,9 @@ $(function(){
          },
         seriesColors: ["#F37421", "#FFFFFF"],
         seriesDefaults: {
-          // Make this a pie chart.
           renderer: jQuery.jqplot.PieRenderer, 
           rendererOptions: {
-            // Put data labels on the pie slices.
-            // By default, labels show the percentage of the slice.
-            diameter: 160,
+            diameter: 155,
             showDataLabels: false
           }
         }
@@ -175,15 +169,11 @@ $(function(){
             borderColor: "#ffffff",
             shadow: false
           },
-          seriesColors: ["#a9b2ba", "#FFFFFF"],
-           
+         seriesColors: ["#a9b2ba", "#FFFFFF"],
          seriesDefaults: {
-           // Make this a pie chart.
            renderer: jQuery.jqplot.PieRenderer, 
            rendererOptions: {
-             diameter: 160,
-             // Put data labels on the pie slices.
-             // By default, labels show the percentage of the slice.
+             diameter: 155,
              showDataLabels: false
            }
          }
