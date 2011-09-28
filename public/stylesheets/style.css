@@ -600,6 +600,7 @@ h2.master {
 
 #right-content{
   background-color: #F37421;
+  height: 100%;
 }
 
 #right-content .ct {
