@@ -60,6 +60,10 @@ Vantage.utils = function () {
 
 $(function(){
   
+  for(var i = 0, len = 10; i < len; i++) {
+    $("#tvTemplate" ).tmpl({test: i}).appendTo("#left-content .ct");
+  }
+  
   $("a.nav-bottom-vantage").click(function(e){
     e.preventDefault();
     if(tv) {
