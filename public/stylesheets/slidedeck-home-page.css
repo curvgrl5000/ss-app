@@ -702,7 +702,7 @@ a.nav-bottom-vantage:hover {
 h1.mission-proactive {
  font: normal 3.125em Dante MT Std serif;
  color:#455560;
- top:-28px;
+ top:-24px;
  left:0;
  position:relative;
  z-index:1;
@@ -783,8 +783,8 @@ h1.mission-proactive {
       text-align:right;
      }
      #slidedeck_frame .clickforward  {
-      padding: 20px 0 0 0;
-      margin:0 -40px 0 0;
+      padding: 10px 0 0 0;
+      margin:0;
       float:right;
       
      }
