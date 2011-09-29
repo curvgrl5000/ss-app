@@ -21,20 +21,144 @@ if(!Vantage) {
 }
 
 Vantage.utils = function () {
-
+  
+  var defaultImages = {
+    "april": "mini-shot-april.png",
+    "tom": "mini-shot-tom.png",
+    "may": "mini-shot-may.png",
+    "mark": "mini-shot-mark.png",
+    "julie" : "mini-shot-julie.png",
+    "rich": "mini-shot-rich.png",
+    "gene": "mini-shot-gene.png",
+    "audrey": "mini-shot-audrey.png",
+    "steve": "mini-shot-steve.png",
+    "irene": "mini-shot-irene.png",
+    "brynne": "mini-shot-brynne.png" 
+  }
+  
   var mapping = {
     "home": 1,
-    "april": 2,
-    "tom": 3,
-    "may": 4,
-    "mark": 5,
-    "julie": 6,
-    "rich": 7,
-    "gene": 8,
-    "audrey": 9,
-    "steve": 10,
-    "irene": 11,
-    "brynne": 12
+    "april": {
+      logos: [
+        {image: "10gen", alt: "10 Gen", grid: 3},
+        {image: "mindflash", alt: "MindFlash!", grid: 3},
+        {image: "criteo", alt: "Criteo", grid: 3},
+        {image: "razoo", alt: "Razoo", grid: 2},
+      ],
+      bigpic: "April_HomePage_IMG_1472.png",
+      name: "April B. King",
+      jobs: ["Specializing in Software","Saas / Internet","Systems / CleanTech"]
+    },
+    "tom": {
+      logos:[
+        {image: "oracle", alt: "Oracle", grid: 3},
+        {image: "merced", alt: "Merced", grid: 2},
+        {image: "10gen", alt: "10 Gen", grid: 3},
+        {image: "betfair", alt: "BetFair", grid: 3}
+      ],
+      bigpic: "Tom_HomePage-IMG-284.png",
+      name: "Tom Callahan",
+      jobs: ["Specializing in Infrastructure","Consumer Internet","Saas / Software"]
+    },
+    "may": {
+      logos:[
+        {image: "tagged", alt: "Tagged", grid: 3},
+        {image: "lynda", alt: "Lynda", grid: 3},
+        {image: "razoo", alt: "Razoo", grid: 2},
+        {image: "webroot", alt: "Webroot", grid: 3}
+      ],
+      bigpic: "May_homepage_1581.png",
+      name: "May Young",
+      jobs: ["Specializing in Media","Interactive / Software","Consumer Internet"]
+    },
+    "mark": {
+      logos:[
+        {image: "zynga", alt: "Zynga", grid: 2},
+        {image: "tagged", alt: "Tagged", grid: 3},
+        {image: "songkick", alt: "SongKick", grid: 3},
+        {image: "turn", alt: "Turn", grid: 3}
+      ],
+      bigpic: "Mark_PersonalPage_IMG-1858.png",
+      name: "Mark Hubbell",
+      jobs: ["Specializing in Software","Internet Media / Interactive","Consumer Internet"]
+    },
+    "julie": {
+      logos:[
+        {image: "zynga", alt: "Zynga", grid: 2},
+        {image: "like", alt: "Like", grid: 3},
+        {image: "adchemy", alt: "Adchemy", grid: 3},
+        {image: "topsy", alt: "Topsy", grid: 3}
+      ],
+      bigpic: "Julie_HomePage_IMG-0954.png",
+      name: "Julie Locke",
+      jobs: ["Specializing in Media","Interactive / Consumer","Internet Software"]
+    },
+    "rich": {
+      logos:[
+        {image: "webroot", alt: "Webroot", grid: 3},
+        {image: "ebates", alt: "Ebates", grid: 3},
+        {image: "songkick", alt: "SongKick", grid: 2},
+        {image: "pubmatic", alt: "Pubmatic", grid: 3}
+      ],
+      bigpic: "Rich_HomePage_IMG-1132.png",
+      name: "Richard Lear",
+      jobs: ["Specializing in Media","Interactive / eCommerce","Saas Open Source"]
+    },
+    "gene": {
+      logos:[
+        {image: "yahoo", alt: "Yahoo", grid: 3},
+        {image: "markmonitor", alt: "Markmonitor", grid: 3},
+        {image: "razoo", alt: "Razoo", grid: 2},
+        {image: "marklogic", alt: "Marklogic", grid: 3}
+      ],
+      bigpic: "Gene_HomePg_IMG-1823.png",
+      name: "Gene Zaccor",
+      jobs: ["Specializing in Internet","Software / Cleantech"]
+    },
+    "audrey": {
+      logos:[
+        {image: "webroot", alt: "Webroot", grid: 3},
+        {image: "markmonitor", alt: "MarkMonitor", grid: 3},
+        {image: "yahoo_narrow", alt: "Yahoo", grid: 2},
+        {image: "marklogic", alt: "MarkLogic", grid: 3}
+      ],
+      bigpic: "Audrey_personal_IMG-0988.png",
+      name: "Audery Shuster",
+      jobs: ["Specializing in Software","Saas / Internet"]
+    },
+    "steve": {
+      logos:[
+        {image: "splunk", alt: "Splunk", grid: 3},
+        {image: "xen", alt: "Xen", grid: 3},
+        {image: "get-satisfaction", alt: "Get Satisfaction", grid: 3},
+        {image: "boomi", alt: "Boomi", grid: 2}
+      ],
+      bigpic: "Steve_HomePage_IMG-0601.png",
+      name: "Steve O'Deegan",
+      jobs: ["Specializing in Engineering","Infrastructure Application","Systems / Saas / Sales"]
+    },
+    "irene": {
+      logos:[
+        {image: "10gen", alt: "10 Gen", grid: 3},
+        {image: "rti", alt: "RTI", grid: 2},
+        {image: "infusion", alt: "IP Infusion", grid: 3},
+        {image: "ingres", alt: "Ingres", grid: 3}
+      ],
+      bigpic: "Irene_Home_IMG-0818.png",
+      name: "Irene Murphy",
+      jobs: ["Specializing in","Software / Internet","Cleantech / Saas"]
+    },
+    "brynne":  {
+      logos:[
+        {image: "", alt: ""},
+        {image: "", alt: ""},
+        {image: "", alt: ""},
+        {image: "", alt: ""}
+      ],
+      bigpic: "Brynne_HomePage_IMG-1416.png",
+      name: "Brynne Pogoncheff",
+      jobs: ["Vantage Team Coordinator"]
+    },
   }
   
   // these are the only decks worth keeping track of for the horizontal arrows
@@ -49,6 +173,14 @@ Vantage.utils = function () {
     
     getCurrentDeck : function() {
       return decks[current_deck-1];
+    }, 
+    
+    getTemplate: function(rel) {
+      var t = {};
+      $.extend(t, defaultImages);
+      t[rel] = t[rel].replace(/\.png/,"-hover.png");
+      $.extend(t, this.getMapping(rel))
+      return t;
     },
     
     getMapping : function (rel) {
@@ -60,9 +192,9 @@ Vantage.utils = function () {
 
 $(function(){
   
-  for(var i = 0, len = 10; i < len; i++) {
-    $("#tvTemplate" ).tmpl({test: i}).appendTo("#left-content .ct");
-  }
+  // for(var i = 0, len = 10; i < len; i++) {
+  //     $("#tvTemplate" ).tmpl({test: i}).appendTo("#left-content .ct");
+  //   }
   
   $("a.nav-bottom-vantage").click(function(e){
     e.preventDefault();
@@ -73,7 +205,7 @@ $(function(){
   
   var tv, mission, deck;
   if($('#team_vantage').length) { 
-    tv = $('#team_vantage').slidedeck({ hideSpines: true, speed: 1000});
+    //tv = $('#team_vantage').slidedeck({ hideSpines: true, speed: 1000});
   }
   
   if($('#team_mission').length) {
@@ -103,16 +235,28 @@ $(function(){
     $(this).parent().addClass('current');
   });
   
-  $(".mini-shot").hover(function(e){
+  $(".mini-shot").live('hover',function(e){
     e.preventDefault();
     $(this).find("img").toggleClass("mini-shot-light");
   });
   
-  $(".mini-shot").click(function(e){
+  $(".mini-shot").live('click', function(e){
     e.preventDefault();
     var rel = $(this).find("img").attr("rel");
-    if(rel && tv) {
-      tv.goTo(Vantage.utils.getMapping(rel));
+    if(rel) {
+      var t = Vantage.utils.getTemplate(rel);
+      // stamp out a template for the name
+      // of course the exception is the home page and the secretary
+      if(rel != 'brynne') {
+        $("dd#home").fadeOut('slow');
+        $("#other_slides").fadeOut('slow', function() {
+          $(this).html("");
+          $("#tvTemplate").tmpl(t).appendTo($(this));
+          $(".mini_logos").children(".grid_3:last").addClass("omega");
+          $(".mini_logos").children(".grid_3:first").addClass("alpha")
+          $(this).fadeIn('slow');
+        });
+      }
     }
   });
   
