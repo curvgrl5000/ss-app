@@ -36,6 +36,8 @@ Vantage.utils = function () {
     "brynne": "mini-shot-brynne.png" 
   }
   
+  var tv_slides = ["home", "april", "tom","may","mark","julie","rich","gene","audrey","steve","irene","brynne"];
+  
   var mapping = {
     "home": 1,
     "april": {
@@ -164,6 +166,7 @@ Vantage.utils = function () {
   // these are the only decks worth keeping track of for the horizontal arrows
   var decks = ["#team_vantage","#team_mission"];
   var current_deck = 1;
+  var current_TVSlide = 'home';
   
   return {
     
@@ -173,13 +176,38 @@ Vantage.utils = function () {
     
     getCurrentDeck : function() {
       return decks[current_deck-1];
+    },
+    
+    setCurrentTVSlide : function(key) {
+      current_TVSlide = key;
+    },
+    
+    getCurrentTVSlide : function() {
+      return current_TVSlide;
+    },
+    
+    getNextTVSlide : function() {
+      var current = current_TVSlide;
+      var idx = $.inArray(current_TVSlide, tv_slides);
+      var slide = (!tv_slides[idx+1])? tv_slides[0] : tv_slides[idx+1];
+      current_TVSlide = slide;
+      return slide;
+    },
+    
+    getPrevTVSlide : function() {
+      var current = current_TVSlide;
+      var idx = $.inArray(current_TVSlide, tv_slides);
+      var slide = (!tv_slides[idx-1])? tv_slides[tv_slides.length-1] : tv_slides[idx-1];
+      current_TVSlide = slide;
+      return slide;
     }, 
     
     getTemplate: function(rel) {
+      current_TVSlide = rel;
       var t = {};
       $.extend(t, defaultImages);
       t[rel] = t[rel].replace(/\.png/,"-hover.png");
-      $.extend(t, this.getMapping(rel))
+      $.extend(t, this.getMapping(rel));
       return t;
     },
     
@@ -224,11 +252,12 @@ $(function(){
       $('#my_slidedeck').slidedeck({scroll:true}).goTo(1).vertical().goTo(slide);
       if(slide == 1) {
         $("#other_slides").fadeOut('slow', function() {
-          $(this).html("");
+          $(this).empty();
           $("dd#home").fadeIn('slow');
+          Vantage.utils.setCurrentTVSlide('home');                
         });
       }
-      Vantage.utils.setCurrentDeck(slide);        
+      Vantage.utils.setCurrentDeck(slide);
     });
   }
   
@@ -248,36 +277,75 @@ $(function(){
   
   $(".mini-shot").live('click', function(e){
     e.preventDefault();
+    if(Vantage.utils.getCurrentTVSlide() == 'home') {
+      $("dd#home").fadeOut('slow');  
+    }
     var rel = $(this).find("img").attr("rel");
     if(rel) {
       var t = Vantage.utils.getTemplate(rel);
-      // stamp out a template for the name
-      // of course the exception is the home page and the secretary
-      if(rel != 'brynne') {
-        $("dd#home").fadeOut('slow');
-        $("#other_slides").fadeOut('slow', function() {
-          $(this).html("");
-          $("#tvTemplate").tmpl(t).appendTo($(this));
-          $(".mini_logos").children(".grid_3:last").addClass("omega");
-          $(".mini_logos").children(".grid_3:first").addClass("alpha")
-          $(this).fadeIn('slow');
-        });
-      }
+      switch_slide(rel);
     }
   });
   
-  $("#outer-slidedeck_nav .right .next").click(function(e){
-    var currentDeck = Vantage.utils.getCurrentDeck();  
-    if(currentDeck) {
+  $("#outer-slidedeck_nav .right .next").click(function() {
+    var currentDeck = Vantage.utils.getCurrentDeck();
+    if(currentDeck == "#team_vantage") {
+      var rel = Vantage.utils.getNextTVSlide();
+      if(rel == 'home') {
+        $("#other_slides").fadeOut('slow', function() {
+          $(this).empty();
+          $("dd#home").fadeIn();
+        });
+      } else {
+        if($("dd#home").is(":visible")) {
+          $("dd#home").fadeOut('slow', function(){
+            switch_slide(rel);
+          });
+        } else { 
+          switch_slide(rel);
+        }
+      }                
+    } else if (currentDeck) {
       $(currentDeck).slidedeck().next();
     }
-  }); 
+  });
+  
+  function switch_slide(rel) {
+    $("#other_slides").fadeOut('slow', function() {
+      var t = Vantage.utils.getTemplate(rel); 
+      $(this).empty(); 
+      if(rel == 'brynne') {
+        $("#brynneTemplate").tmpl(t).appendTo("#other_slides");
+      } else {
+        $("#tvTemplate").tmpl(t).appendTo("#other_slides");
+        $(".mini_logos").children(".grid_3:last").addClass("omega");
+        $(".mini_logos").children(".grid_3:first").addClass("alpha")
+      }
+      $(this).fadeIn('slow');
+    });
+  } 
      
   $("#outer-slidedeck_nav .right .prev").click(function(e){
-    var currentDeck = Vantage.utils.getCurrentDeck();  
-    if(currentDeck) {
-      $(currentDeck).slidedeck().prev();  
-    }
+     var currentDeck = Vantage.utils.getCurrentDeck();
+      if(currentDeck == "#team_vantage") {
+        var rel = Vantage.utils.getPrevTVSlide();
+        if(rel == 'home') {
+          $("#other_slides").fadeOut('slow', function() {
+            $(this).empty();
+            $("dd#home").fadeIn();
+          });
+        } else {
+          if($("dd#home").is(":visible")) {
+            $("dd#home").fadeOut('slow', function(){
+              switch_slide(rel);
+            });
+          } else { 
+            switch_slide(rel);
+          }
+        }                
+      } else if (currentDeck) {
+        $(currentDeck).slidedeck().prev();
+      }
   });
   
    var plot1 = jQuery.jqplot ('chart_1', [[['Success Ratio', 99],['other', 1]]], 
