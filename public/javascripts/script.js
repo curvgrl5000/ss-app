@@ -237,7 +237,7 @@ $(function(){
   }
   
   if($('#team_mission').length) {
-    mission = $('#team_mission').slidedeck({ hideSpines: true, keys: false, touch: false, cycle: true, speed: 1000, transition: "easeInBounce" });
+    mission = $('#team_mission').slidedeck({ hideSpines: true, keys: false, touch: false, cycle: true, speed: 1000, transition: "linear" });
   }
   
   if($('#my_slidedeck').length) {
@@ -287,11 +287,17 @@ $(function(){
     e.preventDefault();
     if(Vantage.utils.getCurrentTVSlide() == 'home') {
       $("dd#home").fadeOut('slow');  
-    }
-    var rel = $(this).find("img").attr("rel");
-    if(rel) {
-      var t = Vantage.utils.getTemplate(rel);
-      switch_slide(rel);
+      var rel = $(this).find("img").attr("rel");
+      if(rel) {
+        var t = Vantage.utils.getTemplate(rel);
+        switch_slide(rel);
+      }
+    } else {
+      var rel = $(this).find("img").attr("rel");
+      if(rel) {
+        var t = Vantage.utils.getTemplate(rel);
+        switch_slide(rel);
+      }
     }
   });
   
