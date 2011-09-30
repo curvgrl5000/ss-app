@@ -678,8 +678,8 @@ h2.master {
   color:#fff;
   letter-spacing: .18em;
   font-size: 1.25em;
-  padding: 0 92px 0 5px;
-  float:left;
+  padding: 0 0 0 5px;
+  float: left;
 }
 
 .content-block h3 {
