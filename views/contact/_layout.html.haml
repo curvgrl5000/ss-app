@@ -124,15 +124,21 @@
 -# 
   Javascript at the bottom for fast page loading
   Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary
-%script{ :src => "//ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.js" }
+%script{:src => "http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.js" }
+%script{:type => "text/javascript", :src => "http://ajax.microsoft.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js" }
+
 :javascript
   window.jQuery || document.write("<script src='js/jquery.min.js'>\x3C/script>")
 
 %script{ :src => "javascripts/slidedeck.jquery.js?v=1"}
 %script{ :src => "javascripts/plugins.js?v=1"}
+%script{ :src => "javascripts/templates.js?v=1"}
 %script{ :src => "javascripts/script.js?v=1"}
 %script{ :src => "javascripts/superfish.js?v=1"}
 %script{ :src => "javascripts/supersubs.js?v=1"}
+
+
+
 
 -#  asynchronous google analytics: mathiasbynens.be/notes/async-analytics-snippet
 -#  change the UA-XXXXX-X to be your site's ID

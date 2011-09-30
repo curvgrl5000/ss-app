@@ -129,6 +129,29 @@ a.nav-bottom-vantage:hover {
 .nav-bottom-leadership:hover {
   background-position: 0 0;
 }
+
+.close-button {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  width: 25px;
+  height: 25px;
+  background: transparent url("../images/close-button.png") 0 0 no-repeat;
+  text-decoration:none;
+  line-height: 11.1em;  
+}
+
+.close-button:hover {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  width: 25px;
+  height: 25px;
+  background: transparent url("../images/close-button-active.png") 0 0 no-repeat;
+  text-decoration:none;
+  line-height: 11.1em;  
+}
+
  #outer-slidedeck_nav .right {
    float: right;
    height: 87px;
@@ -166,7 +189,7 @@ a.nav-bottom-vantage:hover {
   }
   
    #slidedeck_frame .slide_14 {
-      background: #fff url("../images/Mission-1.png") no-repeat;
+      /*background: #fff url("../images/Mission-1.png") no-repeat;*/
    }
    #slidedeck_frame .slide_15 {
       background: #fff url("../images/Mission-2.png") no-repeat;
@@ -668,3 +691,417 @@ a.nav-bottom-vantage:hover {
 /**
  * END : Vertical slide previous/next button styling.
  */
+
+
+#team_mission .trustmark-icon {
+   background: transparent url("../images/trustmark-small.png") no-repeat 33px 19px;
+   background-color:#fff;
+   height:80px;
+   width:70px;
+   margin:86px 0 0 0;
+   padding:0;
+}
+
+#team_mission .mission-top-left {
+  background-color:#CED3D9;
+  height:86px;
+  width:310px;
+  margin:0 0 0 -10px;
+  padding:0 20px 0 0;
+}
+
+#team_mission .mission-top-right {
+  background: transparent url("../images/mission-top-right.png") no-repeat 0 0;
+  background-color:#f4ac7f;
+  height:137px;
+  width:470px;
+  margin:0;
+  padding-right:5px;
+  z-index:0;
+  position:relative;
+}
+  
+  
+h1.mission-proactive {
+ font: normal 3.125em Dante MT Std serif;
+ color:#455560;
+ top:-24px;
+ left:0;
+ position:relative;
+ z-index:1;
+ letter-spacing:.036em;
+}
+
+  h1.mission-conduct {
+   font: normal 3.125em Dante MT Std serif;
+   color:#455560;
+   padding:55px 0 5px 10px;  
+   position:relative;
+   letter-spacing:.03em;
+   margin:0;
+  }
+  h1.mission-collective {
+   font: normal 3.125em Dante MT Std serif;
+   color:#455560;
+   padding:55px 15px 5px 0px;  
+   position:relative;
+   letter-spacing:.03em;
+   margin:0;
+   float:right;
+  }
+  
+     h2.subheadline {
+      font: normal 2em Dante MT Std serif;
+      color:#455560;
+      padding:25px 0 0 10px;  
+      position:relative;
+      letter-spacing:.03em;
+      margin:0;
+     }
+     h2.subheadline-2 {
+      font: normal 2em Dante MT Std serif;
+      color:#455560;
+      padding:0 0 0 30px;  
+      position:relative;
+      letter-spacing:.01em;
+      margin:0;
+      float:left;   
+     }  
+
+#slidedeck_frame h1.mission-proactive span.orange, h1.mission-conduct span.orange, h1.mission-collective span.orange {
+   color: #F37421;
+} 
+     
+#slidedeck_frame h1.mission-proactive span.white {
+  color: #fff;
+  padding-left:5px; 
+}
+
+     #team_mission p {
+      font-family:Georgia;
+      font: normal 1.38em Georgia, serif;
+      line-height:2.25em;
+      color:#5f6a72;
+      padding: 0 78px 0 0;
+      margin-top: -13px;
+     }
+     
+     #slidedeck_frame p.left {
+      font-family:Georgia;
+      font: normal 1.3em Georgia, serif;
+      line-height:1.35em;
+      color:#5f6a72;
+      padding:0 30px 5px 0;
+      margin:0;
+      float:left;
+     }
+     #slidedeck_frame p.right {
+      font-family:Georgia;
+      font: normal 1.38em Georgia, serif;
+      line-height:2.25em;
+      color:#5f6a72;
+      padding:0 15px 10px 366px;
+      margin:0;
+      float:right;
+      text-align:right;
+     }
+     #slidedeck_frame .clickforward  {
+      padding: 10px 0 0 0;
+      margin:0;
+      float:right;
+      
+     }
+     #slidedeck_frame .clickforward_2  {
+      padding:0 18px 0 0;
+      margin:0;
+      float:right;
+     }
+     #slidedeck_frame .clickforward_2  {
+      padding:0 18px 0 0;
+      margin:0;
+      float:left;
+     }
+     #slidedeck_frame .clickforward_3  {
+      padding:0 18px 0 0;
+      margin:0;
+      float:left;
+     }
+     #slidedeck_frame .clickback  {
+      padding:0 70px 0 20px;
+      margin:0;
+      float:left;
+     }
+     #slidedeck_frame .highlight h2 {
+      font: normal 1em Helvetica, Arial, sans-serif; 
+      color:#F37421;
+      font-weight:600;
+      letter-spacing:.02em;
+      padding: 0 0 0 10px;
+      float:right;
+     }
+     #slidedeck_frame .highlight, .clickback h2 {
+      font: normal 1.35em Helvetica, Arial, sans-serif; 
+      color:#F37421;
+      font-weight:600;
+      letter-spacing:.02em;
+      padding: 0 0 5px 10px;
+     }
+     #slidedeck_frame .clickback h2 a {
+      font: normal 1em Helvetica, Arial, sans-serif; 
+      color:#F37421;
+      font-weight:600;
+      letter-spacing:.02em;
+      text-decoration:none; 
+     }
+     #slidedeck_frame .clickback  h2 a:hover {
+      color:#F37421;
+     }
+     #slidedeck_frame .clickforward, .clickforward_2 h2 {
+      font: normal 1.35em Helvetica, Arial, sans-serif; 
+      color:#F37421;
+      font-weight:600;
+      letter-spacing:.02em;
+     }
+     #slidedeck_frame .clickforward h2 a, .clickforward_2 h2 a {
+      font: normal 1em Helvetica, Arial, sans-serif; 
+      color:#F37421;
+      font-weight:600;
+      letter-spacing:.02em;
+      text-decoration:none;
+      margin: 20px 90px 0 0; 
+     }
+     #slidedeck_frame .clickforward, .clickback,  h2 a:hover {
+      color:#F37421;
+     }
+     #slidedeck_frame .clickforward_3 h2 {
+      font: normal 1.3em Helvetica, Arial, sans-serif; 
+      color:#F37421;
+      font-weight:600;
+      letter-spacing:.02em;
+      line-height:1em;
+      margin:0;
+      padding:5px 0 5px 0;
+     }
+     #slidedeck_frame .clickforward_3 h2 a {
+      font: normal 1em Helvetica, Arial, sans-serif; 
+      color:#F37421;
+      font-weight:600;
+      letter-spacing:.02em;
+      text-decoration:none; 
+     }
+     #slidedeck_frame .clickforward_3 h2 a:hover {
+      color:#455560;
+
+     }
+     #slidedeck_frame .clickforward_3, h2 a:hover {
+      color:#F37421;
+     }
+     #slidedeck_frame .clickback_3, h3 a:hover {
+      color:#F37421;
+     }
+     #slidedeck_frame .slide_1 .small-icon {
+       background: transparent url("../images/small_icon.png") no-repeat 0 0;
+       width:70px;
+       height:79px;
+       padding:0;
+       margin:0;
+     }
+     /*#slidedeck_frame .slide_15 {
+       background: #fff url("../images/connect-left.png") no-repeat 467px 20px;
+       width:327px;
+       height:224px;
+       padding:0;
+       margin:0;
+     }
+     #slidedeck_frame .slide_16 {
+         background: #fff url("../images/connect-right.png") no-repeat 0 20px;
+         width:327px;
+         height:224px;
+         padding:0;
+         margin:0;
+     } */
+     #slidedeck_frame .slide_17 {
+       background-color:#fff;
+       margin:0;
+       padding:0;
+    }
+     h2.catalyst-title{
+      font: 600 1.25em Helvetica, Arial, sans-serif;
+      color:#F37421;
+      padding:25px 135px 0px 0px;  
+      position:relative;
+      letter-spacing:.03em;
+      margin:0;
+      float:left;
+     }
+     h1.catalyst{
+      font: normal 2.5em Dante MT Std serif;
+      color:#455560;
+      padding:5px 65px 3px 0px;  
+      position:relative;
+      letter-spacing:.03em;
+      margin:0;
+      float:left;
+     }
+     h3.catalyst_subhead {
+      font: normal 1.3em Helvetica, Arial, sans-serif;
+      color:#455560;
+      padding:0 65px 5px 0;  
+      position: relative;
+      letter-spacing:.03em;
+      line-height:1.25em;
+      margin:0;
+      float:left;
+     }
+     h4.catalyst_speakers-blue  {
+      padding:0;  
+      margin:0;
+      float:left;
+     }
+     h4.catalyst_speakers-blue a {
+      font: 600 1.3em Helvetica, Arial, sans-serif;
+      color:#5D87A1;
+      padding:0 0 5px 0;  
+      position: relative;
+      letter-spacing:.03em;
+      line-height:1em;
+      margin:0;
+      float:left;
+      text-decoration:none;
+     }
+     h4.catalyst_speakers-blue a:hover {
+      text-decoration:underline;
+     }
+     h4.catalyst_speakers-grey {
+      font: 500 1.125em Helvetica, Arial, sans-serif;
+      color:#455560;
+      padding:0 0 5px 0;  
+      position: relative;
+      letter-spacing:.03em;
+      line-height:1.25em;
+      margin:0;
+      text-align:left;
+    }
+
+    #vimeo_holder {
+      position:relative;
+      width:560px;
+      height:312px;
+      margin:10px;
+      padding:0;
+    }
+
+     #slidedeck_frame .slide_1 {
+  /*      background: #fff url("../images/ThoughtLeadership.png") no-repeat;
+  */   }
+     #keygraphic {
+       margin:0;
+       padding:0;
+       background: #fff url("../images/think_shot.png") no-repeat scroll 0 0;
+       height:100%;
+     }
+     #agent {
+       margin:0;
+       padding:0;
+       height:100%;
+       background: #fff url("../images/mini-shot-rich.png") no-repeat 0 0;
+     }
+      h2.agent-title {
+      font: 600 1.125em Helvetica, Arial, sans-serif;
+      color:#F37421;
+      padding:0;  
+      position:relative;
+      letter-spacing:.03em;
+      margin:0;
+      float:left;
+     }
+      h2.agent-title a {
+      font: 600 1.005em Helvetica, Arial, sans-serif;
+      color:#F37421;
+      padding:0;  
+      position:relative;
+      letter-spacing:.03em;
+      margin:0;
+      float:left;
+      text-decoration:none;   
+     }
+      h2.agent-title a:hover {
+      text-decoration:underline;
+     }
+      h2.agent-title span.grey {
+      font: 600 1.005em Helvetica, Arial, sans-serif;
+      color:#455560;
+     }
+     h1.agent {
+      font: normal 2.125em Dante MT Std serif;
+      color:#455560;
+      padding:5px 0px 3px 0px;  
+      position:relative;
+      letter-spacing:.03em;
+      margin:0;
+      float:left;
+     }
+     #slidedeck_frame p.agent {
+      font-family:Georgia;
+      font: normal 1.22em Georgia, serif;
+      line-height:1.35em;
+      color:#5f6a72;
+      padding:0;
+      margin:0;
+      float:left;
+     }
+     h3.subscribe {
+      font: normal 1.25em Georgia, serif;
+      color:#455560;
+      padding:0 0px 5px 0;  
+      position: relative;
+      letter-spacing:.03em;
+      line-height:1.05em;
+      margin:0;
+      float:right;
+      font-style:italic
+     }
+      h2.subscribe  {
+      padding:5px 0px 0 0;
+      margin:0;
+      float:right; 
+      }
+      h2.subscribe a {
+      font: 600 .9em Helvetica, Arial, sans-serif;
+      color:#F37421;
+      letter-spacing:.03em;
+      text-decoration:none;
+      } 
+      h2.subscribe a:hover {
+      color:#455560;
+      }
+      .pointer-icon {
+       background: #fff;
+       margin: 0;
+       padding: 0;
+      }
+      .topicon {
+        margin:0;
+        padding:37px 10px 7px 170px;
+        float:left;
+      }
+      h5.topicon {
+       font: 600 .95em Helvetica, Arial sans-serif;
+       margin:0;
+       padding:45px 0 0 0;
+       float:left;
+       color:#455560; 
+      }
+      #quotes {
+      background: #fff url("../images/quotes.png") no-repeat scroll 0 0;
+      width:50px;
+      height:50px;
+      margin: 145px 0 0 50px;
+      }
+      #quotes-right {
+       background: #fff url("../images/quotes.png") no-repeat scroll -50px 0;
+       width:50px;
+       height:50px;
+       margin: 140px 0 0 5px;
+       }
+  
