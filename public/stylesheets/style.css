@@ -803,10 +803,13 @@ h2.master {
   height: 200px;
 }
 
-P.average {
-  text-align: right;
-  font: normal 1.75em "Neue Helvetica" Arial, sans-serif;  
-  color:#5f6a72;
+p.average {
+  color: #5F6A72;
+  font-family: franklin-gothic-urw-condensed,sans-serif;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.8px;
 }
 
 p.industry {
