@@ -259,7 +259,15 @@ $(function(){
       }
       Vantage.utils.setCurrentDeck(slide);
     });
-  }
+  } 
+  
+  $(".close-button").live('click', function(){
+    $("#other_slides").fadeOut('slow', function() {
+      $(this).empty();
+      $("dd#home").fadeIn('slow');
+      Vantage.utils.setCurrentTVSlide('home');                
+    });
+  });
   
   $.fn.superfish.defaults.autoArrows = false;
   $('#main-nav').superfish({

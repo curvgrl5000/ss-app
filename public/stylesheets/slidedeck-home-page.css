@@ -129,6 +129,29 @@ a.nav-bottom-vantage:hover {
 .nav-bottom-leadership:hover {
   background-position: 0 0;
 }
+
+.close-button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 25px;
+  height: 25px;
+  background: transparent url("../images/close-button.png") 0 0 no-repeat;
+  text-decoration:none;
+  line-height: 11.1em;  
+}
+
+.close-button:hover {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 25px;
+  height: 25px;
+  background: transparent url("../images/close-button-active.png") 0 0 no-repeat;
+  text-decoration:none;
+  line-height: 11.1em;  
+}
+
  #outer-slidedeck_nav .right {
    float: right;
    height: 87px;
