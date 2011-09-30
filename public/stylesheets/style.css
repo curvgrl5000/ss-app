@@ -813,7 +813,11 @@ p.average {
 }
 
 p.industry {
-  text-align: right;
-  font: normal 1.50em "Neue Helvetica" Arial, sans-serif;  
-  color:#F37421;  
+  color: #F37421;
+     font-family: franklin-gothic-urw-condensed,sans-serif;
+     font-size: 17px;
+     font-weight: 500;
+     letter-spacing: 0.3px;
+     padding-top: 5px;
+     text-align: right;  
 }
