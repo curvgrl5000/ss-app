@@ -319,7 +319,7 @@ $(function(){
   });
   
   function switch_slide(rel) {
-    $("#other_slides").fadeOut('slow', function() {
+    $("#other_slides").fadeOut('fast', function() {
       var t = Vantage.utils.getTemplate(rel); 
       $(this).empty(); 
       if(rel == 'brynne') {
@@ -367,6 +367,7 @@ $(function(){
        seriesDefaults: {
          renderer: jQuery.jqplot.PieRenderer, 
          rendererOptions: {
+           startAngle: 325,
            diameter: 155,
            showDataLabels: false
          }
@@ -374,7 +375,7 @@ $(function(){
      }
    );
    
-   var plot2 = jQuery.jqplot ('chart_2', [[['Repeat Business', 87],['other', 13]]], 
+   var plot2 = jQuery.jqplot ('chart_2', [[['Repeat Business', 95],['other', 5]]], 
       {
         grid: {
            background: "#ffffff",
@@ -385,6 +386,7 @@ $(function(){
         seriesDefaults: {
           renderer: jQuery.jqplot.PieRenderer, 
           rendererOptions: {
+            startAngle: 325,
             diameter: 155,
             showDataLabels: false
           }
@@ -392,7 +394,7 @@ $(function(){
       }
     );
     
-    var plot3 = jQuery.jqplot ('chart_3',[[['High Growth Client', 88], ['Other', 12]]], 
+    var plot3 = jQuery.jqplot ('chart_3',[[['High Growth Client', 94], ['Other', 6]]], 
        {
          grid: {
             background: "#ffffff",
@@ -403,6 +405,7 @@ $(function(){
          seriesDefaults: {
            renderer: jQuery.jqplot.PieRenderer, 
            rendererOptions: {
+             startAngle: 325,
              diameter: 155,
              showDataLabels: false
            }
