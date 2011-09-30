@@ -222,6 +222,12 @@ $(function(){
       e.preventDefault();
       var slide = this.href.replace(/.+#/,'');
       $('#my_slidedeck').slidedeck({scroll:true}).goTo(1).vertical().goTo(slide);
+      if(slide == 1) {
+        $("#other_slides").fadeOut('slow', function() {
+          $(this).html("");
+          $("dd#home").fadeIn('slow');
+        });
+      }
       Vantage.utils.setCurrentDeck(slide);        
     });
   }
