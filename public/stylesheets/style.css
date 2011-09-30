@@ -779,7 +779,7 @@ h2.master {
   background: transparent url("../images/twitter.png") no-repeat 0 0;
   float:left;
   height: 20px;
-  width:23px;
+  width: 23px;
   margin:17px 0 0 0;
   padding:0;
 }
@@ -803,13 +803,15 @@ h2.master {
   height: 200px;
 }
 
-p.average {
+span.average {
+  background: url("../images/down-arrow.png") 0 4px no-repeat;
   color: #5F6A72;
   font-family: franklin-gothic-urw-condensed,sans-serif;
   font-size: 23px;
   font-style: normal;
   font-weight: 600;
   letter-spacing: 0.8px;
+  padding-left:20px;
 }
 
 p.industry {
