@@ -804,7 +804,7 @@ h2.master {
 }
 
 span.average {
-  background: url("../images/down-arrow.png") 0 4px no-repeat;
+  background: url("../images/down-arrow.png") 0 5px no-repeat;
   color: #5F6A72;
   font-family: franklin-gothic-urw-condensed,sans-serif;
   font-size: 23px;
