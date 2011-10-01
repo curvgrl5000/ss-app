@@ -126,7 +126,7 @@ Vantage.utils = function () {
       ],
       bigpic: "Audrey_personal_IMG-0988.png",
       name: "Audery Shuster",
-      jobs: ["Specializing in Internet","Software & Services"]
+      jobs: ["Specializing in Internet","Software & Services", "Mobile / Wireless"]
     },
     "steve": {
       logos:[
