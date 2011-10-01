@@ -86,8 +86,8 @@ Vantage.utils = function () {
     },
     "julie": {
       logos:[ 
-        {image: "topsy", alt: "Topsy", grid: 3},
         {image: "zynga", alt: "Zynga", grid: 2},
+        {image: "topsy", alt: "Topsy", grid: 3},
         {image: "like", alt: "Like", grid: 3},
         {image: "adchemy", alt: "Adchemy", grid: 3}
 
