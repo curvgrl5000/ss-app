@@ -71,7 +71,7 @@ Vantage.utils = function () {
       ],
       bigpic: "May_homepage_1581.png",
       name: "May Young",
-      jobs: ["Specializing in Media","Interactive / Software","Consumer Internet"]
+      jobs: ["Specializing in Internet","Software & Services"]
     },
     "mark": {
       logos:[
@@ -82,7 +82,7 @@ Vantage.utils = function () {
       ],
       bigpic: "Mark_PersonalPage_IMG-1858.png",
       name: "Mark Hubbell",
-      jobs: ["Specializing in Software","Internet Media / Interactive","Consumer Internet"]
+      jobs: ["Specializing in Internet","Software & Services","Mobile / Wireless"]
     },
     "julie": {
       logos:[
@@ -93,7 +93,7 @@ Vantage.utils = function () {
       ],
       bigpic: "Julie_HomePage_IMG-0954.png",
       name: "Julie Locke",
-      jobs: ["Specializing in Media","Interactive / Consumer","Internet Software"]
+      jobs: ["Specializing in Internet","Software & Services","Mobile / Wireless"]
     },
     "rich": {
       logos:[
@@ -104,7 +104,7 @@ Vantage.utils = function () {
       ],
       bigpic: "Rich_HomePage_IMG-1132.png",
       name: "Richard Lear",
-      jobs: ["Specializing in Media","Interactive / eCommerce","Saas Open Source"]
+      jobs: ["Specializing in Internet","Software & Services"] 
     },
     "gene": {
       logos:[
@@ -115,7 +115,7 @@ Vantage.utils = function () {
       ],
       bigpic: "Gene_HomePg_IMG-1823.png",
       name: "Gene Zaccor",
-      jobs: ["Specializing in Internet","Software / Cleantech"]
+      jobs: ["Specializing in Internet","Software & Services"]
     },
     "audrey": {
       logos:[
@@ -126,7 +126,7 @@ Vantage.utils = function () {
       ],
       bigpic: "Audrey_personal_IMG-0988.png",
       name: "Audery Shuster",
-      jobs: ["Specializing in Software","Saas / Internet"]
+      jobs: ["Specializing in Internet","Software & Services"]
     },
     "steve": {
       logos:[
@@ -137,7 +137,7 @@ Vantage.utils = function () {
       ],
       bigpic: "Steve_HomePage_IMG-0601.png",
       name: "Steve O'Deegan",
-      jobs: ["Specializing in Engineering","Infrastructure Application","Systems / Saas / Sales"]
+      jobs: ["Specializing in Internet","Software & Services",]
     },
     "irene": {
       logos:[
@@ -148,7 +148,7 @@ Vantage.utils = function () {
       ],
       bigpic: "Irene_Home_IMG-0818.png",
       name: "Irene Murphy",
-      jobs: ["Specializing in","Software / Internet","Cleantech / Saas"]
+      jobs: ["Specializing in Internet","Software & Services","Mobile / Wireless","Cleantech"]
     },
     "brynne":  {
       logos:[
