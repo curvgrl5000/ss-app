@@ -75,9 +75,9 @@ Vantage.utils = function () {
     },
     "mark": {
       logos:[
-        {image: "zynga", alt: "Zynga", grid: 2},
+        {image: "zynga", alt: "Zynga", grid: 3},
         {image: "tagged", alt: "Tagged", grid: 3},
-        {image: "songkick", alt: "SongKick", grid: 3},
+        {image: "songkick", alt: "SongKick", grid: 2},
         {image: "turn", alt: "Turn", grid: 3}
       ],
       bigpic: "Mark_PersonalPage_IMG-1858.png",
@@ -85,11 +85,12 @@ Vantage.utils = function () {
       jobs: ["Specializing in Internet","Software & Services","Mobile / Wireless"]
     },
     "julie": {
-      logos:[
+      logos:[ 
+        {image: "topsy", alt: "Topsy", grid: 3},
         {image: "zynga", alt: "Zynga", grid: 2},
         {image: "like", alt: "Like", grid: 3},
-        {image: "adchemy", alt: "Adchemy", grid: 3},
-        {image: "topsy", alt: "Topsy", grid: 3}
+        {image: "adchemy", alt: "Adchemy", grid: 3}
+
       ],
       bigpic: "Julie_HomePage_IMG-0954.png",
       name: "Julie Locke",
