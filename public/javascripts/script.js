@@ -49,7 +49,7 @@ Vantage.utils = function () {
       ],
       bigpic: "April_HomePage_IMG_1472.png",
       name: "April B. King",
-      jobs: ["Specializing in Software","Saas / Internet","Systems / CleanTech"]
+      jobs: ["Specializing in Internet","Software & Services","Mobile / Wireless"]
     },
     "tom": {
       logos:[
@@ -60,7 +60,7 @@ Vantage.utils = function () {
       ],
       bigpic: "Tom_HomePage-IMG-284.png",
       name: "Tom Callahan",
-      jobs: ["Specializing in Infrastructure","Consumer Internet","Saas / Software"]
+      jobs: ["Specializing in Internet","Software & Services","Mobile / Wireless"]
     },
     "may": {
       logos:[
