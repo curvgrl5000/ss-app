@@ -88,9 +88,8 @@ Vantage.utils = function () {
       logos:[ 
         {image: "zynga", alt: "Zynga", grid: 2},
         {image: "topsy", alt: "Topsy", grid: 3},
-        {image: "like", alt: "Like", grid: 3},
-        {image: "adchemy", alt: "Adchemy", grid: 3}
-
+        {image: "adchemy", alt: "Adchemy", grid: 3},  
+        {image: "like", alt: "Like", grid: 3}
       ],
       bigpic: "Julie_HomePage_IMG-0954.png",
       name: "Julie Locke",
