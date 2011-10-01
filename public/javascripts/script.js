@@ -75,7 +75,7 @@ Vantage.utils = function () {
     },
     "mark": {
       logos:[
-        {image: "zynga", alt: "Zynga", grid: 3},
+        {image: "zynga", alt: "Zynga", grid: 2},
         {image: "tagged", alt: "Tagged", grid: 3},
         {image: "songkick", alt: "SongKick", grid: 2},
         {image: "turn", alt: "Turn", grid: 3}
