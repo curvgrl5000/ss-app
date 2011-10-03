@@ -361,28 +361,36 @@ $(function(){
         $(currentDeck).slidedeck().prev();
       }
   });
-  
-   var plot1 = jQuery.jqplot ('chart_1', [[['Success Ratio', 99],['other', 1]]], 
-     {
-       grid: {
-         background: "#ffffff",
-         borderColor: "#ffffff",
-         shadow: false
-       },
-       seriesColors: ["#5f6a72", "#FFFFFF"],
-       seriesDefaults: {
-         renderer: jQuery.jqplot.PieRenderer, 
-         rendererOptions: {
-           startAngle: 325,
-           diameter: 155,
-           showDataLabels: false
+   
+  if(Modernizr.canvas) {
+    var plot1 = jQuery.jqplot ('chart_1', [[['Success Ratio', 99],['other', 1]]],{
+         grid: {
+           background: "#ffffff",
+           borderColor: "#ffffff",
+           shadow: false
+         },
+         seriesColors: ["#5f6a72", "#FFFFFF"],
+         seriesDefaults: {
+           renderer: jQuery.jqplot.PieRenderer, 
+           rendererOptions: {
+             startAngle: 325,
+             diameter: 155,
+             showDataLabels: false
+           }
          }
        }
-     }
-   );
-   
-   var plot2 = jQuery.jqplot ('chart_2', [[['Repeat Business', 95],['other', 5]]], 
-      {
+    );
+    $("<div>", {
+      "class": 'chart_label_percentage',
+      text: "99.1%"
+    }).appendTo("#chart_1");
+    $("<div>", {
+        "class": 'chart_label_text',
+        text: "Success Ratio"
+    }).appendTo("#chart_1");
+    
+    
+    var plot2 = jQuery.jqplot ('chart_2', [[['Repeat Business', 95],['other', 5]]], {
         grid: {
            background: "#ffffff",
            borderColor: "#ffffff",
@@ -400,8 +408,16 @@ $(function(){
       }
     );
     
-    var plot3 = jQuery.jqplot ('chart_3',[[['High Growth Client', 94], ['Other', 6]]], 
-       {
+    $("<div>", {
+      "class": 'chart_label_percentage',
+      text: "87%"
+    }).appendTo("#chart_2");
+    $("<div>", {
+        "class": 'chart_label_text',
+        text: "Success Ratio"
+    }).appendTo("#chart_2");
+    
+    var plot3 = jQuery.jqplot ('chart_3',[[['High Growth Client', 94], ['Other', 6]]], {
          grid: {
             background: "#ffffff",
             borderColor: "#ffffff",
@@ -417,5 +433,20 @@ $(function(){
            }
          }
        }
-     );
+    );
+    
+    $("<div>", {
+      "class": 'chart_label_percentage',
+      text: "88%"
+    }).appendTo("#chart_3");
+    $("<div>", {
+        "class": 'chart_label_text',
+        text: "Success Ratio"
+    }).appendTo("#chart_3");
+    
+    
+  } else {
+    // load some cheesy image of the pie charts for the wimpy browser without a canvas element
+  }
+  
 });
