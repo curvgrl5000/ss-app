@@ -285,13 +285,16 @@ $(function(){
   
   $(".mini-shot").live('click', function(e){
     e.preventDefault();
+    var rel = $(this).find("img").attr("rel");
     if(Vantage.utils.getCurrentTVSlide() == 'home') {
-      $("dd#home").fadeOut('slow');  
-      var rel = $(this).find("img").attr("rel");
-      if(rel) {
-        var t = Vantage.utils.getTemplate(rel);
-        switch_slide(rel);
-      }
+      $("dd#home").fadeOut('slow', function() {
+        console.log("Fading out home page...");
+        if(rel) {
+          var t = Vantage.utils.getTemplate(rel);
+          console.log("switching in a new slide now...");
+          switch_slide(rel);
+        }
+      });  
     } else {
       var rel = $(this).find("img").attr("rel");
       if(rel) {
