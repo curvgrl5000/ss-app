@@ -71,7 +71,7 @@ Vantage.utils = function () {
       ],
       bigpic: "May_homepage_1581.png",
       name: "May Young",
-      jobs: ["Specializing in Internet","Software & Services"]
+      jobs: ["Specializing in Internet","Software & Services","Mobile / Wireless","Cleantech"] 
     },
     "mark": {
       logos:[
@@ -93,7 +93,7 @@ Vantage.utils = function () {
       ],
       bigpic: "Julie_HomePage_IMG-0954.png",
       name: "Julie Locke",
-      jobs: ["Specializing in Internet","Software & Services","Mobile / Wireless"]
+      jobs: ["Specializing in Internet","Software & Services"]
     },
     "rich": {
       logos:[
@@ -137,7 +137,7 @@ Vantage.utils = function () {
       ],
       bigpic: "Steve_HomePage_IMG-0601.png",
       name: "Steve O'Deegan",
-      jobs: ["Specializing in Internet","Software & Services",]
+      jobs: ["Specializing in Internet","Software & Services"] 
     },
     "irene": {
       logos:[
