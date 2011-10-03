@@ -286,6 +286,7 @@ $(function(){
   $(".mini-shot").live('click', function(e){
     e.preventDefault();
     var rel = $(this).find("img").attr("rel");
+    if(!rel) {return false;}
     if(Vantage.utils.getCurrentTVSlide() == 'home') {
       $("dd#home").fadeOut('slow', function() {
         console.log("Fading out home page...");
