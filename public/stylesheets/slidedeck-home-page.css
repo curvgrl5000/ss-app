@@ -188,12 +188,9 @@ a.nav-bottom-vantage:hover {
     background-position: -22px 0;
   }
   
-   #slidedeck_frame .slide_14 {
-      /*background: #fff url("../images/Mission-1.png") no-repeat;*/
-   }
-   #slidedeck_frame .slide_15 {
-      background: #fff url("../images/Mission-2.png") no-repeat;
-   }
+#slidedeck_frame .slide_15 {
+  background: #fff url("../images/connect-left.png") right bottom no-repeat;
+} 
    #slidedeck_frame .slide_16 {
       background: #fff url("../images/Mission-3.png") no-repeat;
    }
@@ -722,15 +719,63 @@ a.nav-bottom-vantage:hover {
 }
   
   
-h1.mission-proactive {
+#team_mission h1 {
  font: normal 3.125em Dante MT Std serif;
  color:#455560;
- top:-24px;
  left:0;
  position:relative;
  z-index:1;
  letter-spacing:.036em;
 }
+
+#team_mission h1.opener {
+  top: -28px;
+}
+
+#team_mission h1.connect_left {
+  padding-top: 40px;
+}
+
+#team_mission h2.connect_left {
+  padding-top: 40px;
+  font: normal 2.125em Dante MT Std serif;
+  color:#455560;
+  letter-spacing:.036em;
+  display: inline;
+}
+
+
+#team_mission h1 span.orange {
+  color: #F37421;  
+}
+
+#team_mission h1 span.white {
+  color: #fff;
+  padding-left:5px; 
+}
+
+#team_mission p.connect {
+  padding-top: 20px;
+}
+
+#team_mission p.trailer {
+  padding-top: 20px;
+  font: normal 1.38em Helvetica, Arial, sans-serif; 
+  color:#F37421;
+  font-weight:600;
+  letter-spacing:.02em;
+  text-decoration:none;
+}
+
+#team_mission .clickforward h3 a {
+  font: normal 1em Helvetica, Arial, sans-serif; 
+  color:#F37421;
+  font-weight:600;
+  letter-spacing:.02em;
+  text-decoration:none;
+  margin: 20px 40px 0 0; 
+ }
+
 
   h1.mission-conduct {
    font: normal 3.125em Dante MT Std serif;
