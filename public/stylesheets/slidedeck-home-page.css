@@ -188,12 +188,16 @@ a.nav-bottom-vantage:hover {
     background-position: -22px 0;
   }
   
-#slidedeck_frame .slide_15 {
+#team_mission .slide_2 {
   background: #fff url("../images/connect-left.png") right bottom no-repeat;
-} 
-   #slidedeck_frame .slide_16 {
-      background: #fff url("../images/Mission-3.png") no-repeat;
-   }
+}
+ 
+#team_mission .slide_3 {
+  background: #fff url("../images/connect-right.png") left bottom no-repeat;
+}
+
+
+
    #slidedeck_frame .slide_17 {
       background: #fff url("../images/VantageCatalyst.png") no-repeat;
    }
@@ -732,11 +736,11 @@ a.nav-bottom-vantage:hover {
   top: -28px;
 }
 
-#team_mission h1.connect_left {
+#team_mission h1.connect_left, #team_mission h1.connect_right {
   padding-top: 40px;
 }
 
-#team_mission h2.connect_left {
+#team_mission h2.connect_left, #team_mission h2.connect_right  {
   padding-top: 40px;
   font: normal 2.125em Dante MT Std serif;
   color:#455560;
@@ -744,6 +748,20 @@ a.nav-bottom-vantage:hover {
   display: inline;
 }
 
+#team_mission h2.right_slide {
+  padding-top: 20px;
+  font: normal 2.125em Dante MT Std serif;
+  color:#455560;
+  letter-spacing:.036em;
+  display: inline;
+  float:left;
+  margin-left: 30px;
+}
+
+
+#team_mission .slide_3 {
+  text-align: right;
+}
 
 #team_mission h1 span.orange {
   color: #F37421;  
@@ -756,6 +774,12 @@ a.nav-bottom-vantage:hover {
 
 #team_mission p.connect {
   padding-top: 20px;
+}
+
+#team_mission p.connect_right {
+  padding: 0;
+  padding-top: 20px;
+  text-align: right;
 }
 
 #team_mission p.trailer {
@@ -775,7 +799,17 @@ a.nav-bottom-vantage:hover {
   text-decoration:none;
   margin: 20px 40px 0 0; 
  }
+  
 
+#team_mission .clickback h3 a {
+ font: normal 1.4em Helvetica, Arial, sans-serif; 
+ color:#F37421;
+ font-weight:600;
+ letter-spacing:.02em;
+ text-decoration:none;
+ float: left;
+ margin-left: 30px;
+}
 
   h1.mission-conduct {
    font: normal 3.125em Dante MT Std serif;
@@ -872,9 +906,9 @@ a.nav-bottom-vantage:hover {
       float:left;
      }
      #slidedeck_frame .clickback  {
-      padding:0 70px 0 20px;
+      /*padding:0 70px 0 20px;
       margin:0;
-      float:left;
+      float:left; */
      }
      #slidedeck_frame .highlight h2 {
       font: normal 1em Helvetica, Arial, sans-serif; 
