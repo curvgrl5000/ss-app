@@ -775,8 +775,6 @@ a.nav-bottom-vantage:hover {
 }
 
 #team_mission p.connect {
-  padding-top: 20px;
-  padding-right:370px;
   padding-left: 10px;
 }
 
@@ -788,7 +786,7 @@ a.nav-bottom-vantage:hover {
 
 #team_mission p.trailer {
   padding: 0;
-  line-height:5.3em;
+  line-height:5.3em; 
   font: normal 1.38em Helvetica, Arial, sans-serif; 
   color:#F37421;
   font-weight:600;
