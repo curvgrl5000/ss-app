@@ -785,7 +785,8 @@ a.nav-bottom-vantage:hover {
 }
 
 #team_mission p.trailer {
-  padding: 0;
+  padding:0;
+  padding-left:10px;
   line-height:5.3em; 
   font: normal 1.38em Helvetica, Arial, sans-serif; 
   color:#F37421;
