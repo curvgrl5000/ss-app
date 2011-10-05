@@ -188,15 +188,16 @@ a.nav-bottom-vantage:hover {
     background-position: -22px 0;
   }
   
-   #slidedeck_frame .slide_14 {
-      /*background: #fff url("../images/Mission-1.png") no-repeat;*/
-   }
-   #slidedeck_frame .slide_15 {
-      background: #fff url("../images/Mission-2.png") no-repeat;
-   }
-   #slidedeck_frame .slide_16 {
-      background: #fff url("../images/Mission-3.png") no-repeat;
-   }
+#team_mission .slide_2 {
+  background: #fff url("../images/connect-left.png") right bottom no-repeat;
+}
+ 
+#team_mission .slide_3 {
+  background: #fff url("../images/connect-right.png") left bottom no-repeat;
+}
+
+
+
    #slidedeck_frame .slide_17 {
       background: #fff url("../images/VantageCatalyst.png") no-repeat;
    }
@@ -722,14 +723,92 @@ a.nav-bottom-vantage:hover {
 }
   
   
-h1.mission-proactive {
+#team_mission h1 {
  font: normal 3.125em Dante MT Std serif;
  color:#455560;
- top:-24px;
  left:0;
  position:relative;
  z-index:1;
  letter-spacing:.036em;
+}
+
+#team_mission h1.opener {
+  top: -28px;
+}
+
+#team_mission h1.connect_left, #team_mission h1.connect_right {
+  padding-top: 40px;
+}
+
+#team_mission h2.connect_left, #team_mission h2.connect_right  {
+  padding-top: 40px;
+  font: normal 2.125em Dante MT Std serif;
+  color:#455560;
+  letter-spacing:.036em;
+  display: inline;
+}
+
+#team_mission h2.right_slide {
+  padding-top: 20px;
+  font: normal 2.125em Dante MT Std serif;
+  color:#455560;
+  letter-spacing:.036em;
+  display: inline;
+  float:left;
+  margin-left: 30px;
+}
+
+
+#team_mission .slide_3 {
+  text-align: right;
+}
+
+#team_mission h1 span.orange {
+  color: #F37421;  
+}
+
+#team_mission h1 span.white {
+  color: #fff;
+  padding-left:5px; 
+}
+
+#team_mission p.connect {
+  padding-top: 20px;
+}
+
+#team_mission p.connect_right {
+  padding: 0;
+  padding-top: 20px;
+  text-align: right;
+}
+
+#team_mission p.trailer {
+  padding-top: 20px;
+  font: normal 1.38em Helvetica, Arial, sans-serif; 
+  color:#F37421;
+  font-weight:600;
+  letter-spacing:.02em;
+  text-decoration:none;
+}
+
+#team_mission .clickforward h3 a {
+  font: normal 1em Helvetica, Arial, sans-serif; 
+  color:#F37421;
+  font-weight:600;
+  letter-spacing:.02em;
+  text-decoration:none;
+  margin: 20px 40px 0 0; 
+ }
+  
+
+#team_mission .clickback h3 a {
+ font: normal 1.4em Helvetica, Arial, sans-serif; 
+ color:#F37421;
+ font-weight:600;
+ letter-spacing:.02em;
+ text-decoration:none;
+ float: left;
+ margin-left: 30px;
 }
 
   h1.mission-conduct {
@@ -827,9 +906,9 @@ h1.mission-proactive {
       float:left;
      }
      #slidedeck_frame .clickback  {
-      padding:0 70px 0 20px;
+      /*padding:0 70px 0 20px;
       margin:0;
-      float:left;
+      float:left; */
      }
      #slidedeck_frame .highlight h2 {
       font: normal 1em Helvetica, Arial, sans-serif; 
@@ -1105,20 +1184,74 @@ h1.mission-proactive {
        margin: 140px 0 0 5px;
        }
        
- .chart_label_percentage {
-   position: absolute;
-   top: 100px;
-   left: 50px;
-   color: #fff;
-   font-size: 18px;
-   font-weight: bold;
- } 
- 
- .chart_label_text {
-    position: absolute;
-    top: 120px;
-    left: 50px;
-    color: #000;
-    font-size: 12px;
-    font-weight: normal;
-  }
+.chart_label_percentage {
+ position: absolute;
+ top: 100px;
+ left: 50px;
+ color: #fff;
+ font-size: 18px;
+ font-weight: bold;
+} 
+
+.chart_label_text {
+  position: absolute;
+  top: 120px;
+  left: 50px;
+  color: #000;
+  font-size: 12px;
+  font-weight: normal;
+} 
+  
+#vantage_catalyst {
+  height: 335px;
+  overflow: hidden;
+  background-color: #fff;
+}  
+
+#vantage_catalyst h1{
+  padding-top: 20px;
+  font-size: 1.38em;
+  font-family: Helvetica, Arial, sans-serif; 
+  color:#F37421;
+  font-weight:600;
+  letter-spacing:.02em;
+}
+
+#vantage_catalyst h2 {
+  padding-top: 10px;
+  font: normal 2.125em Dante MT Std serif;
+  color:#455560;
+  letter-spacing:.036em;
+}
+  
+#vantage_catalyst h3{
+  font: normal 1.3em  Helvetica, Arial, sans-serif;
+  color:#455560;
+  letter-spacing:.036em;
+}
+
+#vantage_catalyst p {
+  font: normal 1.3em Dante MT Std serif;
+  color:#455560;
+}
+
+#vantage_catalyst .name_ct {
+  width: 150px;
+  float:left;
+}
+
+#vantage_catalyst p.list, #vantage_catalyst span {
+  font-style: normal;
+  font-size: 1.2em;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.4em;
+}
+
+#vantage_catalyst .clickforward h3 a {
+  font-style: normal;
+  font-size: 0.8em;
+  font-family: Helvetica, Arial, sans-serif; 
+  color:#F37421;
+  font-weight:600;
+  text-decoration:none;
+ }
