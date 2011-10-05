@@ -739,6 +739,7 @@ a.nav-bottom-vantage:hover {
 #team_mission h1.connect_left, #team_mission h1.connect_right {
   padding-top: 55px;
   padding-left:10px;
+  padding-right:10px;
   padding-bottom:20px;
 }
 
