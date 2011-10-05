@@ -743,10 +743,10 @@ a.nav-bottom-vantage:hover {
 }
 
 #team_mission h2.connect_left, #team_mission h2.connect_right  {
-  padding-top: 40px;
-  font: normal 2.125em Dante MT Std serif;
+  padding:0;
+  font: normal 2em Dante MT Std serif;
   color:#455560;
-  letter-spacing:.033em;
+  letter-spacing:.04em;
   display: inline;
 }
 
@@ -788,7 +788,7 @@ a.nav-bottom-vantage:hover {
   padding:0;
   padding-left:10px;
   font: normal 1.38em Helvetica, Arial, sans-serif;
-  line-height:5em; 
+  line-height:20em; 
   color:#F37421;
   font-weight:600;
   letter-spacing:.02em;
