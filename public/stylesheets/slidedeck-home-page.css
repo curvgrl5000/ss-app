@@ -739,14 +739,13 @@ a.nav-bottom-vantage:hover {
 #team_mission h1.connect_left, #team_mission h1.connect_right {
   padding-top: 55px;
   padding-left:10px;
-  padding-bottom:20px;
 }
 
 #team_mission h2.connect_left, #team_mission h2.connect_right  {
   padding-left:10px;
   font: normal 2em Dante MT Std serif;
   color:#455560;
-  letter-spacing:.04em;
+  letter-spacing:.03em;
   display: inline;
 }
 
