@@ -746,7 +746,7 @@ a.nav-bottom-vantage:hover {
   padding-top: 40px;
   font: normal 2.125em Dante MT Std serif;
   color:#455560;
-  letter-spacing:.036em;
+  letter-spacing:.033em;
   display: inline;
 }
 
@@ -787,8 +787,8 @@ a.nav-bottom-vantage:hover {
 #team_mission p.trailer {
   padding:0;
   padding-left:10px;
-  line-height:5.3em; 
-  font: normal 1.38em Helvetica, Arial, sans-serif; 
+  font: normal 1.38em Helvetica, Arial, sans-serif;
+  line-height:5em; 
   color:#F37421;
   font-weight:600;
   letter-spacing:.02em;
