@@ -885,13 +885,6 @@ a.nav-bottom-vantage:hover {
       float:right;
       text-align:right;
      }
-     .clickforward  {
-      padding:0;
-      margin:0;
-     }
-     .clickback  {
-
-     }
      .highlight h2 {
       font: normal 1em Helvetica, Arial, sans-serif; 
       color:#F37421;
@@ -955,9 +948,7 @@ a.nav-bottom-vantage:hover {
       letter-spacing:.02em;
       text-decoration:none; 
      }
-/*     .clickforward_3, h2 a:hover {
-      color:#F37421;
-     }  */
+
      .clickback_3, h3 a:hover {
       color:#F37421;
      }
