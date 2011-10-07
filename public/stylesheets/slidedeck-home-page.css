@@ -910,12 +910,10 @@ a.nav-bottom-vantage:hover {
       margin:0;
       float:left;
      }
-     #slidedeck_frame .clickback  {
-      /*padding:0 70px 0 20px;
-      margin:0;
-      float:left; */
+     .clickback  {
+
      }
-     #slidedeck_frame .highlight h2 {
+     .highlight h2 {
       font: normal 1em Helvetica, Arial, sans-serif; 
       color:#F37421;
       font-weight:600;
@@ -923,31 +921,31 @@ a.nav-bottom-vantage:hover {
       padding: 0 0 0 10px;
       float:right;
      }
-     #slidedeck_frame .highlight, .clickback h2 {
+     .highlight, .clickback h2 {
       font: normal 1.35em Helvetica, Arial, sans-serif; 
       color:#F37421;
       font-weight:600;
       letter-spacing:.02em;
       padding: 0 0 5px 10px;
      }
-     #slidedeck_frame .clickback h2 a {
+     .clickback h2 a {
       font: normal 1em Helvetica, Arial, sans-serif; 
       color:#F37421;
       font-weight:600;
       letter-spacing:.02em;
       text-decoration:none; 
      }
-     #slidedeck_frame .clickback  h2 a:hover {
+     .clickback  h2 a:hover {
       color:#F37421;
      }
-     #slidedeck_frame .clickforward, .clickforward_2 h2 {
+     .clickforward, .clickforward_2 h2 {
       font: normal 1.35em Helvetica, Arial, sans-serif; 
       color:#F37421;
       font-weight:600;
       letter-spacing:.02em;
       line-height: 2em;
      }
-     #slidedeck_frame .clickforward h2 a, .clickforward_2 h2 a {
+     .clickforward h2 a, .clickforward_2 h2 a {
       font: normal 1em Helvetica, Arial, sans-serif; 
       color:#F37421;
       font-weight:600;
@@ -955,10 +953,10 @@ a.nav-bottom-vantage:hover {
       text-decoration:none;
       margin: 20px 90px 0 0; 
      }
-     #slidedeck_frame .clickforward, .clickback,  h2 a:hover {
+     .clickforward, .clickback,  h2 a:hover {
       color:#F37421;
      }
-     #slidedeck_frame .clickforward_3 h2 {
+     .clickforward_3 h2 {
       font: normal 1.3em Helvetica, Arial, sans-serif; 
       color:#F37421;
       font-weight:600;
@@ -967,21 +965,20 @@ a.nav-bottom-vantage:hover {
       margin:0;
       padding:5px 0 5px 0;
      }
-     #slidedeck_frame .clickforward_3 h2 a {
+     .clickforward_3 h2 a {
       font: normal 1em Helvetica, Arial, sans-serif; 
       color:#F37421;
       font-weight:600;
       letter-spacing:.02em;
       text-decoration:none; 
      }
-     #slidedeck_frame .clickforward_3 h2 a:hover {
+     .clickforward_3 h2 a:hover {
       color:#455560;
-
      }
-     #slidedeck_frame .clickforward_3, h2 a:hover {
+     .clickforward_3, h2 a:hover {
       color:#F37421;
      }
-     #slidedeck_frame .clickback_3, h3 a:hover {
+     .clickback_3, h3 a:hover {
       color:#F37421;
      }
      #slidedeck_frame .slide_1 .small-icon {
