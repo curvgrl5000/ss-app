@@ -21,6 +21,28 @@ body {
   margin:0
   padding:0;
 }
+p {
+ font-family:Georgia;
+ font: normal 1.4em Georgia, serif;
+ color:#5f6a72;
+}
+h1 {
+  font: normal 2em Helvetica, Arial, sans-serif;
+  font-size-adjust: none;
+  font-stretch: normal;
+}
+h2 {
+  font: normal 1.4em Helvetica, Arial, sans-serif;
+  font-size-adjust: none;
+  font-stretch: normal;
+  letter-spacing:.02em;
+}
+h3 {
+  font-family: "Neue Helvetica",Arial,sans-serif;
+  font-size: 1em;
+  font-size-adjust: none;
+  font-stretch: normal;
+}
 
 #wrapper {
   margin:0 auto;

@@ -786,15 +786,11 @@ a.nav-bottom-vantage:hover {
   padding-left:380px;
 }
 
-#team_mission p.trailer {
-  padding:0;
+#team_mission h2.trailer {
   padding:10px 0 10px 10px;
-  font: normal 1.4em Helvetica, Arial, sans-serif;
   line-height:2.45em; 
   color:#F37421;
   font-weight:600;
-  letter-spacing:.02em;
-  text-decoration:none;
 }
 
 #team_mission .clickforward h3 a {
