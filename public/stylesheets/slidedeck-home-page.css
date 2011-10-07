@@ -749,7 +749,6 @@ a.nav-bottom-vantage:hover {
   color:#455560;
   letter-spacing:.03em;
   display: inline;
-  float:left;
 }
 
 #team_mission h2.right_slide {
@@ -791,7 +790,7 @@ a.nav-bottom-vantage:hover {
   padding:0;
   padding-left:10px;
   font: normal 1.38em Helvetica, Arial, sans-serif;
-  line-height:4.5em; 
+  line-height:5.25em; 
   color:#F37421;
   font-weight:600;
   letter-spacing:.02em;
@@ -892,7 +891,7 @@ a.nav-bottom-vantage:hover {
       text-align:right;
      }
      #slidedeck_frame .clickforward  {
-      padding: 0px 30px 10px 0;
+      padding: 0px 10px 0 0;
       margin:0;
       float:right;
       
@@ -947,6 +946,7 @@ a.nav-bottom-vantage:hover {
       color:#F37421;
       font-weight:600;
       letter-spacing:.02em;
+      line-height: 2em;
      }
      #slidedeck_frame .clickforward h2 a, .clickforward_2 h2 a {
       font: normal 1em Helvetica, Arial, sans-serif; 
