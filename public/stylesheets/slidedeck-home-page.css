@@ -749,6 +749,7 @@ a.nav-bottom-vantage:hover {
   color:#455560;
   letter-spacing:.03em;
   display: inline;
+  float:left;
 }
 
 #team_mission h2.right_slide {
