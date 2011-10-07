@@ -900,12 +900,27 @@ a.nav-bottom-vantage:hover {
       padding: 0 0 0 10px;
       float:right;
      }
-     .highlight, .clickback h2 {
+     .highlight {
       font: normal 1.35em Helvetica, Arial, sans-serif; 
       color:#F37421;
       font-weight:600;
       letter-spacing:.02em;
       padding: 0 0 5px 10px;
+     }
+     .clickforward {
+      font: normal 1.35em Helvetica, Arial, sans-serif; 
+      color:#F37421;
+      font-weight:600;
+      letter-spacing:.02em;
+      line-height: 2em;
+     }
+     .clickforward a {
+      font: normal 1em Helvetica, Arial, sans-serif; 
+      color:#F37421;
+      font-weight:600;
+      letter-spacing:.02em;
+      text-decoration:none;
+      margin: 20px 0 0 0; 
      }
      .clickback {
       font: normal 1em Helvetica, Arial, sans-serif; 
@@ -921,25 +936,7 @@ a.nav-bottom-vantage:hover {
       letter-spacing:.02em;
       text-decoration:none; 
      }
-     .clickback a:hover {
-      color:#F37421;
-     }
-     .clickforward, .clickforward_2 h2 {
-      font: normal 1.35em Helvetica, Arial, sans-serif; 
-      color:#F37421;
-      font-weight:600;
-      letter-spacing:.02em;
-      line-height: 2em;
-     }
-     .clickforward h2 a, .clickforward_2 h2 a {
-      font: normal 1em Helvetica, Arial, sans-serif; 
-      color:#F37421;
-      font-weight:600;
-      letter-spacing:.02em;
-      text-decoration:none;
-      margin: 20px 0 0 0; 
-     }
-     .clickforward, .clickback,  h2 a:hover {
+     .clickforward, .clickback, a:hover {
       color:#F37421;
      }
      .clickforward_3 h2 {
