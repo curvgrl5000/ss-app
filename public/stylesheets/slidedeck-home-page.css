@@ -797,8 +797,8 @@ a.nav-bottom-vantage:hover {
   text-decoration:none;
 }
 
-#team_mission .clickforward h3 a {
-  font: normal 1em Helvetica, Arial, sans-serif; 
+#team_mission .clickforward, .clickback h3 a {
+  font: normal 1.4em Helvetica, Arial, sans-serif; 
   color:#F37421;
   font-weight:600;
   letter-spacing:.02em;
@@ -807,7 +807,7 @@ a.nav-bottom-vantage:hover {
  }
   
 
-#team_mission .clickback h3 a {
+/*#team_mission .clickback h3 a {
  font: normal 1.4em Helvetica, Arial, sans-serif; 
  color:#F37421;
  font-weight:600;
@@ -815,7 +815,7 @@ a.nav-bottom-vantage:hover {
  text-decoration:none;
  float: left;
  margin-left: 30px;
-}
+} */
 
   h1.mission-conduct {
    font: normal 3.125em Dante MT Std serif;
