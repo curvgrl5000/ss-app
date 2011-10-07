@@ -892,23 +892,6 @@ a.nav-bottom-vantage:hover {
      .clickforward  {
       padding: 0px 10px 0 0;
       margin:0;
-      float:right;
-      
-     }
-     .clickforward_2  {
-      padding:0 18px 0 0;
-      margin:0;
-      float:right;
-     }
-     #slidedeck_frame .clickforward_2  {
-      padding:0 18px 0 0;
-      margin:0;
-      float:left;
-     }
-     #slidedeck_frame .clickforward_3  {
-      padding:0 18px 0 0;
-      margin:0;
-      float:left;
      }
      .clickback  {
 
