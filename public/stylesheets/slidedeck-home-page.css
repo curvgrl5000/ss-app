@@ -937,7 +937,7 @@ a.nav-bottom-vantage:hover {
       text-decoration:none; 
      }
      .clickforward, .clickback, a:hover {
-      color:#F37421;
+      color:#455560;
      }
      .clickforward_3 h2 {
       font: normal 1.3em Helvetica, Arial, sans-serif; 
@@ -955,12 +955,9 @@ a.nav-bottom-vantage:hover {
       letter-spacing:.02em;
       text-decoration:none; 
      }
-     .clickforward_3 h2 a:hover {
-      color:#455560;
-     }
-     .clickforward_3, h2 a:hover {
+/*     .clickforward_3, h2 a:hover {
       color:#F37421;
-     }
+     }  */
      .clickback_3, h3 a:hover {
       color:#F37421;
      }
