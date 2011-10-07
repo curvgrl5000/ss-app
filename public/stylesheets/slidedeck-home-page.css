@@ -889,13 +889,13 @@ a.nav-bottom-vantage:hover {
       float:right;
       text-align:right;
      }
-     #slidedeck_frame .clickforward  {
+     .clickforward  {
       padding: 0px 10px 0 0;
       margin:0;
       float:right;
       
      }
-     #slidedeck_frame .clickforward_2  {
+     .clickforward_2  {
       padding:0 18px 0 0;
       margin:0;
       float:right;
@@ -935,7 +935,7 @@ a.nav-bottom-vantage:hover {
       letter-spacing:.02em;
       text-decoration:none; 
      }
-     .clickback  h2 a:hover {
+     .clickback h2 a:hover {
       color:#F37421;
      }
      .clickforward, .clickforward_2 h2 {
@@ -951,7 +951,7 @@ a.nav-bottom-vantage:hover {
       font-weight:600;
       letter-spacing:.02em;
       text-decoration:none;
-      margin: 20px 90px 0 0; 
+      margin: 20px 0 0 0; 
      }
      .clickforward, .clickback,  h2 a:hover {
       color:#F37421;
