@@ -907,14 +907,21 @@ a.nav-bottom-vantage:hover {
       letter-spacing:.02em;
       padding: 0 0 5px 10px;
      }
-     .clickback h2 a {
+     .clickback {
       font: normal 1em Helvetica, Arial, sans-serif; 
       color:#F37421;
       font-weight:600;
       letter-spacing:.02em;
       text-decoration:none; 
      }
-     .clickback h2 a:hover {
+     .clickback a {
+      font: normal 1em Helvetica, Arial, sans-serif; 
+      color:#F37421;
+      font-weight:600;
+      letter-spacing:.02em;
+      text-decoration:none; 
+     }
+     .clickback a:hover {
       color:#F37421;
      }
      .clickforward, .clickforward_2 h2 {
