@@ -932,37 +932,10 @@ a.nav-bottom-vantage:hover {
      .clickforward, .clickback, a:hover {
       color:#455560;
      }
-     .clickforward_3 h2 {
-      font: normal 1.3em Helvetica, Arial, sans-serif; 
-      color:#F37421;
-      font-weight:600;
-      letter-spacing:.02em;
-      line-height:1em;
-      margin:0;
-      padding:5px 0 5px 0;
-     }
-     .clickforward_3 h2 a {
-      font: normal 1em Helvetica, Arial, sans-serif; 
-      color:#F37421;
-      font-weight:600;
-      letter-spacing:.02em;
-      text-decoration:none; 
-     }
-
-     .clickback_3, h3 a:hover {
-      color:#F37421;
-     }
      #slidedeck_frame .slide_1 .small-icon {
        background: transparent url("../images/small_icon.png") no-repeat 0 0;
        width:70px;
        height:79px;
-       padding:0;
-       margin:0;
-     }
-     /*#slidedeck_frame .slide_15 {
-       background: #fff url("../images/connect-left.png") no-repeat 467px 20px;
-       width:327px;
-       height:224px;
        padding:0;
        margin:0;
      }
