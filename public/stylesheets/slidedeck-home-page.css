@@ -901,34 +901,28 @@ a.nav-bottom-vantage:hover {
       padding: 0 0 5px 10px;
      }
      .clickforward {
+      color:#F37421;
+      margin: 20px 0 0 0; 
+     }
+     .clickback {
+      color:#F37421;
+      margin: 20px 0 0 0; 
+     }
+     .clickforward, .clickback a {
       font: normal 1.35em Helvetica, Arial, sans-serif; 
       color:#F37421;
       font-weight:600;
       letter-spacing:.02em;
       line-height: 2em;
-     }
-     .clickforward a {
-      font: normal 1em Helvetica, Arial, sans-serif; 
-      color:#F37421;
-      font-weight:600;
-      letter-spacing:.02em;
       text-decoration:none;
-      margin: 20px 0 0 0; 
      }
-     .clickback {
-      font: normal 1em Helvetica, Arial, sans-serif; 
+/*     .clickback a {
+      font: normal 1.35em Helvetica, Arial, sans-serif; 
       color:#F37421;
       font-weight:600;
       letter-spacing:.02em;
       text-decoration:none; 
-     }
-     .clickback a {
-      font: normal 1em Helvetica, Arial, sans-serif; 
-      color:#F37421;
-      font-weight:600;
-      letter-spacing:.02em;
-      text-decoration:none; 
-     }
+     }*/
      .clickforward, .clickback, a:hover {
       color:#455560;
      }
