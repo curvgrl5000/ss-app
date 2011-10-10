@@ -740,7 +740,7 @@ a.nav-bottom-vantage:hover {
   padding-top: 55px;
   padding-left:10px;
   padding-right:10px;
-  padding-bottom:20px;
+  padding-bottom:15px;
 }
 
 #team_mission h2.connect_left, #team_mission h2.connect_right  {
@@ -787,10 +787,10 @@ a.nav-bottom-vantage:hover {
 }
 
 #team_mission h2.trailer {
-  padding:10px 0 10px 10px;
+  padding:10px 0 20px 10px;
   color:#F37421;
   font-weight:600;
-  font-size:1.4em;
+  font-size:1.3em;
 }
 
 #team_mission .clickforward h3 a {
@@ -901,11 +901,9 @@ a.nav-bottom-vantage:hover {
       padding: 0 0 5px 10px;
      }
      .clickforward {
-      color:#F37421;
-      margin: 20px 0 0 0; 
+      margin: 0px 70px 5px 0; 
      }
      .clickback {
-      color:#F37421;
       margin: 20px 0 0 0; 
      }
      .clickforward a, .clickback a {
@@ -916,13 +914,6 @@ a.nav-bottom-vantage:hover {
       line-height: 2em;
       text-decoration:none;
      }
-/*     .clickback a {
-      font: normal 1.35em Helvetica, Arial, sans-serif; 
-      color:#F37421;
-      font-weight:600;
-      letter-spacing:.02em;
-      text-decoration:none; 
-     }*/
      .clickforward, .clickback, a:hover {
       color:#455560;
      }
