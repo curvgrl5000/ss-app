@@ -908,7 +908,7 @@ a.nav-bottom-vantage:hover {
       color:#F37421;
       margin: 20px 0 0 0; 
      }
-     .clickforward, .clickback a {
+     .clickforward a, .clickback a {
       font: normal 1.35em Helvetica, Arial, sans-serif; 
       color:#F37421;
       font-weight:600;
