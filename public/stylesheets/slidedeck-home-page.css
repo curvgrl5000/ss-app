@@ -193,7 +193,7 @@ a.nav-bottom-vantage:hover {
 }
  
 #team_mission .slide_3 {
-  background: #fff url("../images/connect-right.png") left bottom no-repeat;
+  background: #fff url("../images/connect-right.png") 0 25px no-repeat;
 }
 
 
@@ -744,7 +744,6 @@ a.nav-bottom-vantage:hover {
 }
 
 #team_mission h2.connect_left, #team_mission h2.connect_right  {
-  padding-left:10px;
   font: normal 2em Dante MT Std serif;
   color:#455560;
   letter-spacing:.03em;
@@ -901,7 +900,7 @@ a.nav-bottom-vantage:hover {
       padding: 0 0 5px 10px;
      }
      .clickforward {
-      margin: 0px 10px 5px 0; 
+      margin: 5px 10px 5px 0; 
      }
      .clickback {
       margin: -5px 0 5px 50px; 
