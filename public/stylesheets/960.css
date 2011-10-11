@@ -101,11 +101,17 @@ body {
 .omega {
     margin-right: 0;
 }
-.right {
+#left {
+    float:left;
+}
+#right {
     float:right;
 }
 .left {
     float:left;
+}
+.right {
+    float:right;
 }
  
 /* Grid >> 24 Columns
