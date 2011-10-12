@@ -1142,7 +1142,7 @@ a.nav-bottom-vantage:hover {
 }  
 
 #vantage_catalyst h1{
-  padding-top: 20px;
+  padding-top: 30px;
   font-size: 1.38em;
   font-family: Helvetica, Arial, sans-serif; 
   color:#F37421;
@@ -1158,14 +1158,17 @@ a.nav-bottom-vantage:hover {
 }
   
 #vantage_catalyst h3{
-  font: normal 1.3em  Helvetica, Arial, sans-serif;
+  font: normal 1.35em  Helvetica, Arial, sans-serif;
   color:#455560;
   letter-spacing:.036em;
+  line-height:1.4em;
 }
 
 #vantage_catalyst p {
-  font: normal 1.3em Dante MT Std serif;
+  font: normal 1.4em Dante MT Std serif;
   color:#455560;
+  line-height:1.35em;
+  padding-top:5px;
 }
 
 #vantage_catalyst .name_ct {
