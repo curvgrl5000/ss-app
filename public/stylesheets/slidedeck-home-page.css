@@ -693,7 +693,9 @@ a.nav-bottom-vantage:hover {
  * END : Vertical slide previous/next button styling.
  */
 
-
+#slidedeck_frame .slide_1 {
+ }
+ 
 #team_mission .trustmark-icon {
    background: transparent url("../images/trustmark-small.png") no-repeat 33px 19px;
    background-color:#fff;
@@ -721,7 +723,6 @@ a.nav-bottom-vantage:hover {
   z-index:0;
   position:relative;
 }
-  
   
 #team_mission h1 {
  font: normal 3.125em Dante MT Std serif;
@@ -762,11 +763,6 @@ a.nav-bottom-vantage:hover {
   margin-left: 30px;
 }
 
-
-#team_mission .slide_3 {
-  text-align: right;
-}
-
 #team_mission h1 span.orange {
   color: #F37421;  
 }
@@ -794,7 +790,7 @@ a.nav-bottom-vantage:hover {
   font-size:1.3em;
 }
 
-#team_mission .clickforward h3 a {
+/*#team_mission .clickforward h3 a {
   font: normal 1.4em Helvetica, Arial, sans-serif; 
   color:#F37421;
   font-weight:600;
@@ -812,8 +808,8 @@ a.nav-bottom-vantage:hover {
  text-decoration:none;
  float: left;
  margin-left: 30px;
-} 
-
+}*/ 
+/*
   h1.mission-conduct {
    font: normal 3.125em Dante MT Std serif;
    color:#455560;
@@ -830,9 +826,9 @@ a.nav-bottom-vantage:hover {
    letter-spacing:.03em;
    margin:0;
    float:right;
-  }
+  } */
   
-     h2.subheadline {
+/*     h2.subheadline {
       font: normal 2em Dante MT Std serif;
       color:#455560;
       padding:25px 0 0 10px;  
@@ -857,7 +853,7 @@ a.nav-bottom-vantage:hover {
 #slidedeck_frame h1.mission-proactive span.white {
   color: #fff;
   padding-left:5px; 
-}
+}  */
 
      #team_mission p {
       font-family:Georgia;
@@ -867,7 +863,7 @@ a.nav-bottom-vantage:hover {
       padding: 0;
      }
      
-     #slidedeck_frame p.left {
+/*     #slidedeck_frame p.left {
       font-family:Georgia;
       font: normal 1.3em Georgia, serif;
       line-height:1.35em;
@@ -885,8 +881,8 @@ a.nav-bottom-vantage:hover {
       margin:0;
       float:right;
       text-align:right;
-     }
-     .highlight h2 {
+     }*/
+/*     .highlight h2 {
       font: normal 1em Helvetica, Arial, sans-serif; 
       color:#F37421;
       font-weight:600;
@@ -900,7 +896,7 @@ a.nav-bottom-vantage:hover {
       font-weight:600;
       letter-spacing:.02em;
       padding: 0 0 5px 10px;
-     }
+     } */
      .clickforward {
       margin: 5px 10px 5px 0; 
      }
@@ -937,185 +933,7 @@ a.nav-bottom-vantage:hover {
        margin:0;
        padding:0;
     }
-     h2.catalyst-title{
-      font: 600 1.25em Helvetica, Arial, sans-serif;
-      color:#F37421;
-      padding:25px 135px 0px 0px;  
-      position:relative;
-      letter-spacing:.03em;
-      margin:0;
-      float:left;
-     }
-     h1.catalyst{
-      font: normal 2.5em Dante MT Std serif;
-      color:#455560;
-      padding:5px 65px 3px 0px;  
-      position:relative;
-      letter-spacing:.03em;
-      margin:0;
-      float:left;
-     }
-     h3.catalyst_subhead {
-      font: normal 1.3em Helvetica, Arial, sans-serif;
-      color:#455560;
-      padding:0 65px 5px 0;  
-      position: relative;
-      letter-spacing:.03em;
-      line-height:1.25em;
-      margin:0;
-      float:left;
-     }
-     h4.catalyst_speakers-blue  {
-      padding:0;  
-      margin:0;
-      float:left;
-     }
-     h4.catalyst_speakers-blue a {
-      font: 600 1.3em Helvetica, Arial, sans-serif;
-      color:#5D87A1;
-      padding:0 0 5px 0;  
-      position: relative;
-      letter-spacing:.03em;
-      line-height:1em;
-      margin:0;
-      float:left;
-      text-decoration:none;
-     }
-     h4.catalyst_speakers-blue a:hover {
-      text-decoration:underline;
-     }
-     h4.catalyst_speakers-grey {
-      font: 500 1.125em Helvetica, Arial, sans-serif;
-      color:#455560;
-      padding:0 0 5px 0;  
-      position: relative;
-      letter-spacing:.03em;
-      line-height:1.25em;
-      margin:0;
-      text-align:left;
-    }
 
-    #vimeo-holder {
-      position:relative;
-      width:510px;
-      height:315px;
-      margin:10px;
-      padding:0;
-    }
-
-     #slidedeck_frame .slide_1 {
-  /*      background: #fff url("../images/ThoughtLeadership.png") no-repeat;
-  */   }
-     #keygraphic {
-       margin:0;
-       padding:0;
-       background: #fff url("../images/think_shot.png") no-repeat scroll 0 0;
-       height:100%;
-     }
-     #agent {
-       margin:0;
-       padding:0;
-       height:100%;
-       background: #fff url("../images/mini-shot-rich.png") no-repeat 0 0;
-     }
-      h2.agent-title {
-      font: 600 1.125em Helvetica, Arial, sans-serif;
-      color:#F37421;
-      padding:0;  
-      position:relative;
-      letter-spacing:.03em;
-      margin:0;
-      float:left;
-     }
-      h2.agent-title a {
-      font: 600 1.005em Helvetica, Arial, sans-serif;
-      color:#F37421;
-      padding:0;  
-      position:relative;
-      letter-spacing:.03em;
-      margin:0;
-      float:left;
-      text-decoration:none;   
-     }
-      h2.agent-title a:hover {
-      text-decoration:underline;
-     }
-      h2.agent-title span.grey {
-      font: 600 1.005em Helvetica, Arial, sans-serif;
-      color:#455560;
-     }
-     h1.agent {
-      font: normal 2.125em Dante MT Std serif;
-      color:#455560;
-      padding:5px 0px 3px 0px;  
-      position:relative;
-      letter-spacing:.03em;
-      margin:0;
-      float:left;
-     }
-     #slidedeck_frame p.agent {
-      font-family:Georgia;
-      font: normal 1.22em Georgia, serif;
-      line-height:1.35em;
-      color:#5f6a72;
-      padding:0;
-      margin:0;
-      float:left;
-     }
-     h3.subscribe {
-      font: normal 1.25em Georgia, serif;
-      color:#455560;
-      padding:0 0px 5px 0;  
-      position: relative;
-      letter-spacing:.03em;
-      line-height:1.05em;
-      margin:0;
-      float:right;
-      font-style:italic
-     }
-      h2.subscribe  {
-      padding:5px 0px 0 0;
-      margin:0;
-      float:right; 
-      }
-      h2.subscribe a {
-      font: 600 .9em Helvetica, Arial, sans-serif;
-      color:#F37421;
-      letter-spacing:.03em;
-      text-decoration:none;
-      } 
-      h2.subscribe a:hover {
-      color:#455560;
-      }
-      .pointer-icon {
-       background: #fff;
-       margin: 0;
-       padding: 0;
-      }
-      .topicon {
-        margin:0;
-        padding:37px 10px 7px 170px;
-        float:left;
-      }
-      h5.topicon {
-       font: 600 .95em Helvetica, Arial sans-serif;
-       margin:0;
-       padding:45px 0 0 0;
-       float:left;
-       color:#455560; 
-      }
-      #quotes {
-      background: #fff url("../images/quotes.png") no-repeat scroll 0 0;
-      width:50px;
-      height:50px;
-      margin: 145px 0 0 50px;
-      }
-      #quotes-right {
-       background: #fff url("../images/quotes.png") no-repeat scroll -50px 0;
-       width:50px;
-       height:50px;
-       margin: 140px 0 0 5px;
-       }
        
 .chart_label_percentage {
  position: absolute;
@@ -1143,7 +961,7 @@ a.nav-bottom-vantage:hover {
 
 #vantage_catalyst h1{
   padding-top: 30px;
-  font-size: 1.38em;
+  font-size: 1.25em;
   font-family: Helvetica, Arial, sans-serif; 
   color:#F37421;
   font-weight:600;
@@ -1189,3 +1007,103 @@ a.nav-bottom-vantage:hover {
   font-family: Helvetica, Arial, sans-serif;
   line-height: 1.4em;
 }
+#vimeo-holder {
+  position:relative;
+  width:510px;
+  height:315px;
+  margin:10px;
+  padding:0;
+}
+/*Thought Leadership Section */
+ #thought-leadership h1 {
+     -moz-font-feature-settings: normal;
+     -moz-font-language-override: normal;
+     -x-system-font: none;
+     color: #455560;
+     font-family: Dante MT Std serif;
+     font-size: 3.125em;
+     font-size-adjust: none;
+     font-stretch: normal;
+     font-style: normal;
+     font-variant: normal;
+     font-weight: normal;
+     letter-spacing: 0.036em;
+     line-height: normal;
+     padding-bottom: 5px;
+     padding-top: 5px;
+ }
+ #thought-leadership h2.agent-title {
+   font: 600 1.125em Helvetica, Arial, sans-serif;
+   color:#F37421;
+   padding:0;  
+   position:relative;
+   letter-spacing:.03em;
+   margin:0;
+   float:left;
+  }
+ #thought-leadership h2.agent-title a {
+   font: 600 1em Helvetica, Arial, sans-serif;
+   color:#F37421;
+   padding:0;  
+   position:relative;
+   letter-spacing:.03em;
+   margin:0;
+   float:left;
+   text-decoration:none;   
+  }
+ #thought-leadership h2.agent-title a:hover {
+   text-decoration:underline;
+  }
+ #thought-leadership h2.grey {
+   font: 600 1em Helvetica, Arial, sans-serif;
+   color:#455560;
+  }
+ #thought-leadership .pointer-icon {
+       background: #fff url("../images/small_arrow_left.png") no-repeat scroll 0 0;
+       margin: 0;
+       padding: 0;
+  }
+ #thought-leadership p {
+  font-family:Georgia;
+  font: normal 1.22em Georgia, serif;
+  line-height:1.35em;
+  color:#455560;
+  padding:0;
+  margin:0;
+  float:left;
+ }
+ #thought-leadership h3.accent {
+  font: normal 1.25em Georgia, serif;
+  color:#455560;
+  padding:0 0px 5px 0;  
+  position: relative;
+  letter-spacing:.03em;
+  line-height:1.05em;
+  margin:0;
+  font-style:italic
+ }
+ #thought-leadership.topicon {
+    background: #fff url("../images/smallpie.png") no-repeat scroll 0 0;
+    margin:0;
+    padding:37px 10px 7px 170px;
+    float:left;
+  }
+ #thought-leadership h4.topicon {
+   font: 600 1em Helvetica, Arial sans-serif;
+   margin:0;
+   padding:45px 0 0 0;
+   float:left;
+   color:#455560; 
+  }
+ #thought-leadership .quote {
+  background: #fff url("../images/quotes.png") no-repeat scroll 0 0;
+  width:50px;
+  height:50px;
+  margin: 145px 0 0 50px;
+  }
+ #thought-leadership .quote-right {
+   background: #fff url("../images/quotes.png") no-repeat scroll -50px 0;
+   width:50px;
+   height:50px;
+   margin: 140px 0 0 5px;
+   }
