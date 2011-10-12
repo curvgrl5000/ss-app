@@ -1159,10 +1159,18 @@ a.nav-bottom-vantage:hover {
 }
   
 #vantage_catalyst h3{
+  font: normal 1.25em  Helvetica, Arial, sans-serif;
+  color:#455560;
+  letter-spacing:.036em;
+  line-height:1.4em;
+  padding-bottom:5px;
+}
+#vantage_catalyst h4{
   font: normal 1em  Helvetica, Arial, sans-serif;
   color:#455560;
   letter-spacing:.036em;
   line-height:1.4em;
+  padding-bottom:5px;
 }
 
 #vantage_catalyst p {
