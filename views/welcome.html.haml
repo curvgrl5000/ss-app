@@ -63,36 +63,36 @@
                 .grid_2.alpha{:style => "background: #CED3D9 url('../images/small_icon.png') 0 0 no-repeat; height: 100%;"}
                 .grid_20.omega
                   <h1 class="connect_left">Conducting super-charged <span class="orange">connect</span>ions</h1>
-                .grid_11.omega    
-                  %p.connect 
-                    Vantage Partners cultivates relationships with innovative talent in technology convergence. 
-                    And we nurture invaluable partnerships with leading venture capitalists and companies.
-                  %h2.trailer But these are only beginnings.
-                .grid_18.omega  
-                  %h2.clickforward.right
-                    %a{:title => "Meet your match", :href => "/"} MEET YOUR MATCH >
-                  .clear
-                .grid_11.omega    
-                  <h2 class="connect_left">Vantage Partners is about creating relevant</h2>
-                .grid_8.omega
-                  <h2 class="connect_left"> connections for maximum effect</h2>    
+                  .grid_11    
+                    %p.connect 
+                      Vantage Partners cultivates relationships with innovative talent in technology convergence. 
+                      And we nurture invaluable partnerships with leading venture capitalists and companies.
+                    %h2.trailer But these are only beginnings.
+                  .grid_18  
+                    %h2.clickforward.right
+                      %a{:title => "Meet your match", :href => "/"} MEET YOUR MATCH >
+                    .clear
+                  .grid_11    
+                    %h2.connect_left Vantage Partners is about creating relevant
+                  .grid_8
+                    %h2.connect_left connections for maximum effect
               %dd.slide.slide_3
                 .grid_20.alpha
-                  .grid_20.alpha
-                    <h1 class="connect_right">Collective fore<span class="orange">sight</span> for success</h1>
+                  .grid_20
+                    <h1 class="connect_right right">Collective fore<span class="orange">sight</span> for success</h1>
                     %p.connect_right 
                       Our discipline of planning will make your goals quite tangible from the start. Our team works proactively with CEOs, board members and entrepreneurs to identify milestones that will help define your business' future success.
                     %h2.clickforward.right
                       %a{:title => "Read more", :href => "/", :style => "margin-right:0;"} Read more about our results-driven approach >
                     .clear
-                  .grid_20.alpha 
+                  .grid_20 
                     %h2.clickback.left
                       %a{:title => "change the world", :href => "/"} < AND CHANGE THE WORLD
                     .clear
-                  .grid_9.alpha 
-                    <h2 class="connect_left">Our process ensures a comprehensive</h2>
-                  .grid_10.alpha
-                    <h2 class="connect_right">evaluation of your core business needs</h2>
+                  .grid_9 
+                    %h2.connect_left Our process ensures a comprehensive
+                  .grid_10
+                    %h2.connect_right.right evaluation of your core business needs
                     .clear
                 .grid_2.omega{:style => "background: #CED3D9 url('../images/small_icon.png') 0 0 no-repeat; height: 100%; float:right"}
           %li
@@ -124,41 +124,37 @@
                     .grid_4.omega
                       %span CEO of DotNetNuke
           %li 
-            -# 
-            -# Dave here is the markup that I created for this slide - I've commented it out
-            -# so that if there are any problems you can catch them before you get an error on the view.
-            -# %dl#thought-leadership.slidedeck{:style => "height: 335px; position: relative; overflow: hidden;"}
-            -#               %dd.slide.slide_15{:style => "position: absolute; left: 0px; z-index: 1; height: 335px; width: 870;background-color: #fff;"}
-            -#               #slide_container.grid_5.alpha{:style => "background: #fff url('../images/think_shot.png') 0 0 no-repeat; height: 100%;"}
-            -#               .grid_3.omega{:style => "background: #fff url('../images/mini-shot-rich.png') 0 0 no-repeat; height: 100%; float:right"}
-            -#                 .quote
-            -#               .clear
-            -#               .grid_6.alpha
-            -#                 .topicon
-            -#               .grid_6.omega
-            -#                 <h4 class="topicon">Our search completion rate since inception stands at 99.1%</h4>
-            -#               .grid_12.alpha
-            -#                  .pointer-icon
-            -#               .grid_6.alpha
-            -#                 <h2 class="agent-title">RICH LEAR </h2>
-            -#               .grid_6.omega
-            -#                 <h2 class="grey">CHAIRMAN & FOUNDING PARTNER</h2>
-            -#               .grid_12.alpha
-            -#                 <h1>Executive search is all about the match.</h1>
-            -#                   %p
-            -#                     In 2002 we developed the Vantage "success factors" framework to ehlp simplify finding an alignment
-            -#                     between our client companies and top candidates. Vantage Success Factors drive the match between the corporate culture,
-            -#                     people and goals of our client companies; and the competencies, passions, personalities and career objectives of impact players.
-            -#                     The success factors framework has workes so well, it has cut the average length of a search by 25 days -- all the while keeping the 
-            -#                     key stakeholders on the same page.
-            -#                   %h2.clickforward.right
-            -#                     %a{:title => "Subscribe", :href => "/"} subscribe to our newsletter >
-            -#                   %h3.accent
-            -#                     get up-to-the-minute viewpoints on emerging trends weekly
-            -#               .grid_3.omega
-            -#                 .quote-right 
-            -#
-            %img{:src => 'images/ThoughtLeadership.png', :height => 335} 
+            %dl#thought-leadership.slidedeck{:style => "height: 335px; position: relative; overflow: hidden;background-color: #fff;"}
+              %dd
+                .grid_7.alpha{:style=>"margin-right:0;"}
+                  .foo{:style => "background: #fff url('../images/think_shot.png') 0 0 no-repeat; height:335px"}
+                .grid_12{:style=>"margin-left:0;"}
+                  .grid_3.alpha
+                    .headshot{:style => "background: #fff url('../images/mini-shot-rich.png') 0 0 no-repeat; height: 110px;"}
+                    .quote
+                  .grid_9.omega
+                    .grid_9
+                      %h4.topquote Our search completion rate since inception stands at 99.1%
+                    .grid_9
+                      .pointer-icon
+                      %h2.agent-title 
+                        RICH LEAR 
+                        .grey CHAIRMAN & FOUNDING PARTNER  
+                    .grid_9
+                      %h1 Executive search is all about the match.
+                      %p
+                        In 2002 we developed the Vantage "success factors" framework to ehlp simplify finding an alignment
+                        between our client companies and top candidates. Vantage Success Factors drive the match between the corporate culture,
+                        people and goals of our client companies; and the competencies, passions, personalities and career objectives of impact players.
+                        The success factors framework has workes so well, it has cut the average length of a search by 25 days -- all the while keeping the 
+                        key stakeholders on the same page.
+                      %h2.clickforward.right
+                        %a{:title => "Subscribe", :href => "/"} subscribe to our newsletter >
+                      .clear  
+                      %h3.accent
+                        get up-to-the-minute viewpoints on emerging trends weekly    
+                .grid_3.omega
+                  .quote-right   
   #outer-slidedeck_nav.grid_22.prefix_1.suffix_1
     .divider.grid_22
     .grid_22{:style => 'margin:0;background-color:#fff;'}

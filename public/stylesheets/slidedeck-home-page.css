@@ -1014,6 +1014,7 @@ a.nav-bottom-vantage:hover {
   margin:10px;
   padding:0;
 }
+
 /*Thought Leadership Section */
  #thought-leadership h1 {
      -moz-font-feature-settings: normal;
@@ -1021,7 +1022,7 @@ a.nav-bottom-vantage:hover {
      -x-system-font: none;
      color: #455560;
      font-family: Dante MT Std serif;
-     font-size: 3.125em;
+     font-size: 2.125em;
      font-size-adjust: none;
      font-stretch: normal;
      font-style: normal;
@@ -1054,56 +1055,62 @@ a.nav-bottom-vantage:hover {
  #thought-leadership h2.agent-title a:hover {
    text-decoration:underline;
   }
- #thought-leadership h2.grey {
+ #thought-leadership .grey {
    font: 600 1em Helvetica, Arial, sans-serif;
    color:#455560;
+   display:inline;
   }
  #thought-leadership .pointer-icon {
        background: #fff url("../images/small_arrow_left.png") no-repeat scroll 0 0;
-       margin: 0;
        padding: 0;
+       height:17px;
+       width: 17px;
   }
  #thought-leadership p {
   font-family:Georgia;
   font: normal 1.22em Georgia, serif;
-  line-height:1.35em;
+  line-height:1.25em;
   color:#455560;
-  padding:0;
-  margin:0;
-  float:left;
  }
  #thought-leadership h3.accent {
-  font: normal 1.25em Georgia, serif;
+  font: normal 1.15em Georgia, serif;
   color:#455560;
-  padding:0 0px 5px 0;  
-  position: relative;
   letter-spacing:.03em;
   line-height:1.05em;
-  margin:0;
   font-style:italic
  }
- #thought-leadership.topicon {
+ #thought-leadership .topicon {
     background: #fff url("../images/smallpie.png") no-repeat scroll 0 0;
+    height:37px;
+    width: 37px;
     margin:0;
-    padding:37px 10px 7px 170px;
+    padding: 30px 10px 7px 170px;
     float:left;
   }
- #thought-leadership h4.topicon {
-   font: 600 1em Helvetica, Arial sans-serif;
-   margin:0;
-   padding:45px 0 0 0;
-   float:left;
-   color:#455560; 
-  }
+ 
+#thought-leadership .topquote {
+  background: #fff url("../images/smallpie.png") no-repeat scroll 0 0;
+  height: 40px;
+  padding: 6px 0 0 45px;
+  float: right;
+  width: 150px;
+  margin-top: 37px;
+}
+ 
+#thought-leadership h4 {
+  font: 600 1em Helvetica, Arial sans-serif;
+  color:#455560;
+}                  
+  
  #thought-leadership .quote {
   background: #fff url("../images/quotes.png") no-repeat scroll 0 0;
   width:50px;
   height:50px;
-  margin: 145px 0 0 50px;
+  margin: 15px 0 0 60px;
   }
  #thought-leadership .quote-right {
    background: #fff url("../images/quotes.png") no-repeat scroll -50px 0;
    width:50px;
    height:50px;
-   margin: 140px 0 0 5px;
+   margin: 250px 0 0 30px;
    }
