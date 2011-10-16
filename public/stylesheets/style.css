@@ -445,7 +445,7 @@ h3 {
 #contact_top_container {
   margin-top: 25px;
   padding-top: 25px;
-  background: transparent url("../images/contactus_background_3.png") no-repeat 0 0; 
+  background: transparent url("../images/contactus_background_3.png") no-repeat -3px 0; 
 }
 
 #contact_top_container .ct {
