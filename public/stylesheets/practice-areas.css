@@ -12,3 +12,35 @@
   height: 39px;
   background: #fff url("../images/slidedeck-home-images/divider-graphic-a.png") no-repeat 0 0;  
 }
+
+h1 { 
+  font: normal 3.125em Dante MT Std serif;
+  color: #455560;
+  letter-spacing:.036em;
+}
+
+h2 { 
+  font: normal 17px "Neue Helvetica" Arial sans-serif;
+  color: #F37421;
+  margin-top: 50px;  
+}
+
+p.insight {
+  font: italic 1.06em Georgia, Times sans-serif;
+  line-height: 1.7em;
+  letter-spacing: .03em;
+  color: #5F6A72;
+}
+
+ 
+h1 span.orange {
+  color: #F37421;  
+}
+
+.spotlight {
+  margin-top: 71px;
+}
+
+.spotlight p {
+  margin-top: 15px;
+}
