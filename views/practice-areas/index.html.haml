@@ -2,7 +2,7 @@
   .content_setup
     .grid_2.alpha{:style => "background: #CED3D9 url('../images/small_icon.png') 0 0 no-repeat; height: 100%;"}
     .grid_20.omega
-      .grid_11.alpha.prefix_1
+      .grid_10.alpha
         .spotlight
           %h1 <span class="orange">Spot</span>light on latest <span class="orange">search</span>es
           %p Vantage Partners specializes in building
@@ -10,7 +10,13 @@
           %p leaders and venture-backed startups.
           %h2 wisdom deployed optimally
         %p.insight Insightful Consultive Approach to Executive Search
-      .grid_8.omega
-        %h1 Recent Searches Here
-        %p watch out logos
+      .grid_10.omega
+        .recent
+          %h2.right Recent Searches Here
+          %img{:src => "../images/hp_lrglogo_oracle.png", :alt => "Oracle"}/
+          %img{:src => "../images/dots.png", :alt => "dots"}/
+          %p.stock_ticker NASDAQ (ORCL)
+          %p.cto CTO, Fusion Middleware
+          %p.vantage_partner
+            %a{:href => "#"} Tom Callahan
     .grid_22.divider.alpha.omega  

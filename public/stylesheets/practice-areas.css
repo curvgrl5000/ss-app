@@ -22,8 +22,11 @@ h1 {
 h2 { 
   font: normal 17px "Neue Helvetica" Arial sans-serif;
   color: #F37421;
-  margin-top: 50px;  
 }
+
+.spotlight h2 {
+  margin-top: 50px;
+} 
 
 p.insight {
   font: italic 1.06em Georgia, Times sans-serif;
@@ -32,7 +35,6 @@ p.insight {
   color: #5F6A72;
 }
 
- 
 h1 span.orange {
   color: #F37421;  
 }
@@ -43,4 +45,8 @@ h1 span.orange {
 
 .spotlight p {
   margin-top: 15px;
+}
+
+.recent h2 {
+  margin: 20px 20px 0 0;
 }
