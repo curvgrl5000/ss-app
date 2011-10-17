@@ -54,3 +54,44 @@ h1 span.orange {
 .recent h2 {
   margin: 20px 20px 0 0;
 }
+
+.sprite_logo {
+  height: 85px;
+  width: 100%;
+  text-decoration: none;
+  display: block;
+  text-indent: -10000px;
+}
+.adchemy {
+  background: #ccc url("../images/sprite_logos/Adchemy_logo.png") 0 0 no-repeat;
+}
+
+.adchemy:hover {
+  background: #ccc url("../images/sprite_logos/Adchemy_logo.png") 0 bottom no-repeat;  
+}
+
+.anchor_intelligence {
+  background: #ccc url("../images/sprite_logos/Anchor_Intelligence_logo.png") 0 0 no-repeat;
+}
+
+.anchor_intelligence:hover {
+  background: #ccc url("../images/sprite_logos/Anchor_Intelligence_logo.png") 0 bottom no-repeat;  
+}
+
+.aol {
+  background: #ccc url("../images/sprite_logos/aol_logo.png") 0 0 no-repeat;
+}
+
+.aol:hover {
+  background: #ccc url("../images/sprite_logos/aol_logo.png") 0 bottom no-repeat;  
+}
+
+.betfair {
+  background: #ccc url("../images/sprite_logos/betfair_logo.png") 0 0 no-repeat;
+}
+
+.betfair:hover {
+  background: #ccc url("../images/sprite_logos/betfair_logo.png") 0 bottom no-repeat;  
+}
+
+
