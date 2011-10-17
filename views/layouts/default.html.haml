@@ -35,26 +35,6 @@
     -# All JavaScript at the bottom, except for Modernizr and Respond.
     -# Modernizr enables HTML5 elements & feature detects; Respond is a polyfill for min/max-width CSS3 Media Queries
     %script{ :src => "javascripts/modernizr.js" }
-    %script{ :src => "javascripts/respond.js" }
-    :javascript
-      var gOverride = {
-        urlBase: 'http://gridder.andreehansson.se/releases/latest/',
-        gColor: '#EEEEEE',
-        gColumns: 24,
-        gOpacity: 0.35,
-        gWidth: 10,
-        pColor: '#C0C0C0',
-        pHeight: 15,
-        pOffset: 0,
-        pOpacity: 0.55,
-        center: true,
-        gEnabled: true,
-        pEnabled: true,
-        setupEnabled: true,
-        fixFlash: true,
-        size: 960
-      };
-    
     
   %body
     #container.container_24
@@ -83,7 +63,7 @@
                 %li
                   %a.sf-with-ul{:href => "#"} 9 Success Factors
             %li
-              %a.sf-with-ul{:href => "#"} Practice Areas
+              %a.sf-with-ul{:href => "/practice-areas"} Practice Areas
             %li
               %a.sf-with-ul{:href => "#"} Team
             %li

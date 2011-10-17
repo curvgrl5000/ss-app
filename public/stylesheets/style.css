@@ -1,4 +1,3 @@
-/* Dave Wuz Here */
 @font-face {
   font-family: 'Dante MT Std';
   src: url(../fonts/DanteMTStd.eot);
@@ -9,7 +8,6 @@
   font-family: 'Neue Helvetica';
   src: local('../fonts/HelveticaNeueLTW1G-Md'), url(../fonts/HelveticaNeueLTW1G-Md.otf) format('opentype');
 }
-/* Anna says meh */
 /* Containers
 ----------------------------------------------------------------------------------------------------*/
 body {
@@ -21,22 +19,26 @@ body {
   margin:0
   padding:0;
 }
+
 p {
  font-family:Georgia;
  font: normal 1.4em Georgia, serif;
  color:#5f6a72;
 }
+
 h1 {
   font: normal 2em Helvetica, Arial, sans-serif;
   font-size-adjust: none;
   font-stretch: normal;
 }
+
 h2 {
   font: normal 1.125em Helvetica, Arial, sans-serif;
   font-size-adjust: none;
   font-stretch: normal;
   letter-spacing:.02em;
 }
+
 h3 {
   font-family: "Neue Helvetica",Arial,sans-serif;
   font-size: 1em;

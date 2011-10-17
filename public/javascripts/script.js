@@ -366,7 +366,7 @@ $(function(){
       }
   });
    
-  if(Modernizr.canvas) {
+  if(Modernizr.canvas && $("#pie")[0]) {
     var plot1 = jQuery.jqplot ('chart_1', [[['Success Ratio', 99],['other', 1]]],{
          grid: {
            background: "#ffffff",

@@ -1,0 +1,14 @@
+#content {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}                 
+
+.content_setup {
+  background-color: #fff;
+  height: 335px;
+}
+
+.divider {
+  height: 39px;
+  background: #fff url("../images/slidedeck-home-images/divider-graphic-a.png") no-repeat 0 0;  
+}
