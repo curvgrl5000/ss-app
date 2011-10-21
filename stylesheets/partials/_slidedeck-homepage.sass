@@ -1,0 +1,1028 @@
+#vantage_machine
+  background-color: #ffc
+  height: 335px
+
+#slidedeck_total_container
+  height: 500px
+  /*background: url("../images/slidedeck-home-images/sd_background.png") no-repeat 0 0;
+
+.slidedeck
+  height: 335px
+
+#slidedeck_frame
+  position: relative
+  margin: 0
+  height: 336px
+  padding-top: 50px
+
+#outer-slidedeck_nav
+  position: relative
+  margin: 0
+  height: 128px
+  .divider
+    margin: 0
+    height: 40px
+    background: white url("../images/slidedeck-home-images/divider-graphic-a.png") no-repeat 0 0
+  #mission
+    margin: 0
+    background-color: #fff
+    padding: 30px 0 0 35px
+    h2
+      font: normal 17px "Neue Helvetica", Arial, sans-serif
+      letter-spacing: .05em
+      /*line-height:.7em;
+      color: $orange
+    p.tagline
+      font: italic 11px Georgia, Times sans-serif
+      line-height: 1.7em
+      letter-spacing: .03em
+      color: $crisp-grey
+  ul
+    display: block
+    margin: 0 auto
+    list-style-image: none
+    list-style-type: none
+    li
+      float: left
+      margin-right: -15px
+      color: #6a7870
+      text-align: center
+      line-height: .2em
+      padding: 2px 0 0 0
+      a
+        font: italic normal 11px Georgia, serif
+        line-height: 10.5em
+  
+#outer-slidedeck_nav ul li a
+  &:hover, &:active
+    color: #F37421
+    background-position: 0 0
+
+a.nav-bottom-vantage
+  display: block
+  width: 120px
+  height: 50px
+  background: white url("../images/slidedeck-home-images/nav-vantage-team_2.png") bottom
+  text-decoration: none
+  color: #6A7870
+  
+.nav-bottom-mission
+  display: block
+  width: 114px
+  height: 50px
+  background: white url("../images/slidedeck-home-images/nav-vantatge_mission_2.png") bottom
+  text-decoration: none
+  color: #6A7870
+  line-height: 11.1em
+  &:hover
+    background-position: 0 0
+
+.nav-bottom-catalyst
+  display: block
+  width: 108px
+  height: 50px
+  background: white url("../images/slidedeck-home-images/nav-vantage-catalyst_2.png") bottom
+  text-decoration: none
+  color: #6A7870
+  line-height: 11.1em
+  &:hover
+    background-position: 0 0
+
+.nav-bottom-leadership
+  display: block
+  width: 136px
+  height: 50px
+  background: white url("../images/slidedeck-home-images/nav-vantage-thought_2.png") bottom
+  text-decoration: none
+  color: #6A7870
+  line-height: 11.1em
+  &:hover
+    background-position: 0 0
+
+.close-button
+  position: absolute
+  right: 5px
+  top: 5px
+  width: 25px
+  height: 25px
+  background: transparent url("../images/close-button.png") 0 0 no-repeat
+  text-decoration: none
+  line-height: 11.1em
+  &:hover
+    position: absolute
+    right: 5px
+    top: 5px
+    width: 25px
+    height: 25px
+    background: transparent url("../images/close-button-active.png") 0 0 no-repeat
+    text-decoration: none
+    line-height: 11.1em
+
+#outer-slidedeck_nav .right
+  float: right
+  height: 87px
+  width: 107px
+  margin: 0
+  padding: 0
+  background: url("../images/slidedeck-home-images/dotted-bkgrnd-nav.png") no-repeat 0 0
+  .prev
+    height: 23px
+    width: 22px
+    padding: 0
+    background: url("../images/slidedeck-home-images/vertical-prev-next-colors.png") no-repeat 0 -22px
+    background-color: transparent
+    background-size: 45px auto
+    position: absolute
+    margin: 32px 3px 0 -22px
+    &:hover
+      background-position: 0 0
+  .next
+    height: 23px
+    width: 22px
+    padding: 0px
+    background: url("../images/slidedeck-home-images/vertical-prev-next-colors.png") no-repeat -22px -22px
+    background-color: transparent
+    background-size: 45px auto
+    position: absolute
+    margin: 32px 0px 0 5px
+    float: left
+    &:hover
+      background-position: -22px 0
+
+#team_mission
+  .slide_2
+    background: white url("../images/connect-left.png") right 30px no-repeat
+  .slide_3
+    background: white url("../images/connect-right.png") 0 25px no-repeat
+
+#slidedeck_frame
+  .slide_17
+    background: white url("../images/VantageCatalyst.png") no-repeat
+  .slide_18
+    background: white url("../images/ThoughtLeadership.png") no-repeat
+
+/*
+ * The SlideDeck vertical slide navigation container.
+ * 
+ * This is the container for the vertical slide navigation. You can position
+ * this anywhere you want within the containing slide's area. If you try to
+ * position it outside of the slide area it will not appear.
+
+.skin-slidedeck dl.slidedeck
+  dd.slide ul.verticalSlideNav
+    top: -1000px
+    right: -1000px
+    margin: 0
+    padding: 0
+    list-style: none
+    display: none
+    li
+      display: none
+      &.arrow
+        display: none
+      a
+        border: 0
+        outline: none
+        position: relative
+        display: block
+        width: 10px
+        height: 0
+        overflow: hidden
+        padding-top: 10px
+        background: #fff
+        outline: none
+        text-decoration: none
+        border: 1px solid #ccc
+        opacity: 0.5
+        -moz-opacity: 0.5
+        -webkit-opacity: 0.5
+        -khtml-opacity: 0.5
+        -ms-filter: "Alpha(opacity=50)"
+        filter: Alpha(opacity = 50)
+        border-radius: 3px
+        -moz-border-radius: 3px
+        -webkit-border-radius: 3px
+        -khtml-border-radius: 3px
+        -o-border-radius: 3px
+        &:link, &:visited
+          border: 0
+          outline: none
+          position: relative
+          display: block
+          width: 10px
+          height: 0
+          overflow: hidden
+          padding-top: 10px
+          background: #fff
+          outline: none
+          text-decoration: none
+          border: 1px solid #ccc
+          opacity: 0.5
+          -moz-opacity: 0.5
+          -webkit-opacity: 0.5
+          -khtml-opacity: 0.5
+          -ms-filter: "Alpha(opacity=50)"
+          filter: Alpha(opacity = 50)
+          border-radius: 3px
+          -moz-border-radius: 3px
+          -webkit-border-radius: 3px
+          -khtml-border-radius: 3px
+          -o-border-radius: 3px
+        &:hover
+          opacity: 0.75
+          -moz-opacity: 0.75
+          -webkit-opacity: 0.75
+          -khtml-opacity: 0.75
+          -ms-filter: "Alpha(opacity=75)"
+          filter: Alpha(opacity = 75)
+  ul.verticalSlideNav
+    height: 70px
+    width: 25px
+    background: none
+    position: relative
+    overflow: hidden
+    padding: 15px 0 0
+    margin: 0
+    top: 0
+    left: 125px
+    -webkit-transform: rotate(90deg)
+    -webkit-transform-origin: -7px 0
+    -moz-transform: rotate(90deg)
+    -moz-transform-origin: -7px 0
+    -ms-transform: rotate(90deg)
+    -ms-transform-origin: -7px 0
+    -o-transform: rotate(90deg)
+    -o-transform-origin: -7px 0
+    li
+      position: relative
+      width: 25px
+      height: 12px
+      line-height: 12px
+      padding: 0
+      margin: 0
+      overflow: hidden
+      float: left
+      clear: left
+  dd.slide ul.verticalSlideNav li.arrow
+    display: none
+  ul.verticalSlideNav li
+    a
+      position: relative
+      display: block
+      padding: 12px 0 0 0
+      margin: 0
+      width: 25px
+      height: 0
+      overflow: hidden
+      line-height: 12px
+      background: url('../images/slidedeck-home-images/vertical-nav.png') 0 0 no-repeat
+    &.active a
+      background-position: 0 -24px
+  dt
+    &.active ul.verticalSlideNav li.active a
+      background-position: 0 -12px
+    &.spine_2.active .index
+      margin-bottom: 0
+  .activeCorner
+    &.spine_2, &.spine_4
+      margin-left: -1px
+  .copy
+    position: absolute
+    width: 290px
+    height: 245px
+    top: 28px
+    left: 68px
+    color: #666
+    font-size: 1.3em
+    line-height: 1.5em
+  ul.slidesVertical
+    .copy
+      left: 40px
+      width: 280px
+    .cardImage
+      left: 340px
+  .copy.wide
+    width: 675px
+  dd.slide
+    .copy h5.small-title
+      color: #666
+      font: bold italic 13px Georgia, "Times New Roman", Times, serif
+      margin: -10px 0 0
+    ul.slidesVertical
+      > li
+        padding: 0
+      li.case div.case_text ul
+        color: #333
+        font: bold 12px Georgia, "Times New Roman", Times, serif
+        margin: 10px 0 0
+        overflow: hidden
+        padding: 0 0 0 15px
+        position: relative
+        line-height: 18px
+    .copy ul.no-float
+      color: #333
+      font: bold 12px Georgia, "Times New Roman", Times, serif
+      margin: 10px 0 0
+      overflow: hidden
+      padding: 0 0 0 15px
+      position: relative
+      line-height: 18px
+    ul
+      &.slidesVertical li.case div.case_text ul li
+        float: left
+        margin: 0
+        width: 48%
+      &.no-float li
+        float: left
+        margin: 0
+        width: 48%
+        float: none
+        width: 100%
+  .copy
+    &.wide a
+      display: block
+      position: absolute
+      top: 8px
+      right: 0
+      padding-right: 15px
+      background: url('../images/slidedeck-home-images/slide-3_link-arrow.png') right 5px no-repeat
+      color: #a53f79
+      font-family: Georgia, "Times New Roman", Times, serif
+      font-weight: bold
+      font-style: oblique
+    strong
+      color: #333
+      font-family: Georgia, "Times New Roman", Times, serif
+    h4.title
+      letter-spacing: 2px
+      text-transform: uppercase
+      font-weight: bold
+      font-size: 1.5em
+      line-height: 26px
+      margin: 0 0 10px
+      color: #252525
+    p
+      margin: 0 0 25px
+  .cardImage
+    position: absolute
+    top: 28px
+    left: 380px
+  .wideImage
+    position: absolute
+    top: 160px
+    left: 85px
+  .tagline
+    position: absolute
+    top: 240px
+    left: 380px
+    width: 374px
+    height: 20px
+    line-height: 20px
+    color: #191919
+    font-size: 1.35em
+    font-weight: bold
+    text-transform: uppercase
+    text-align: center
+  dd
+    &.slide_3
+      background-image: url("../images/slidedeck-home-images/slide-3_bg.png")
+    &.slide_4
+      background: url('../images/slidedeck-home-images/slide_5-bg.png') 0 0 repeat-x
+      color: #fff
+      padding-left: 78px !important
+      padding-right: 35px !important
+      width: 660px !important
+  .slide_4 div
+    &.head
+      position: relative
+      overflow: hidden
+      width: 100%
+      padding-top: 10px
+      h2
+        width: 282px
+        position: relative
+        overflow: hidden
+        height: 0
+        padding-top: 36px
+        background: url('slidedeck-home-images/slide_5_title.png') 0 0 no-repeat
+        float: left
+        margin: 5px 0 0
+        line-height: 80px
+      a
+        position: relative
+        overflow: hidden
+        width: 225px
+        height: 0
+        padding-top: 46px
+        background: url('slidedeck-home-images/slide_5_btn-download.png') 0 0 no-repeat
+        float: right
+        &:link
+          position: relative
+          overflow: hidden
+          width: 225px
+          height: 0
+          padding-top: 46px
+          background: url('slidedeck-home-images/slide_5_btn-download.png') 0 0 no-repeat
+          float: right
+        &:hover
+          background-position: 0 -46px
+        &:active
+          background-position: 0 -92px
+    &.body
+      width: 609px
+      height: 170px
+      background: url('slidedeck-home-images/slide_5_content-bg.png') 0 0 no-repeat
+      position: absolute
+      bottom: 0
+      padding: 25px
+      div
+        &.wordpress
+          width: 290px
+          float: right
+        &.jquery
+          width: 290px
+          float: left
+      h3
+        position: relative
+        overflow: hidden
+        height: 0
+        margin: 0 0 25px
+      div.wordpress h3
+        margin: 0 0 18px
+      ul
+        list-style: none
+        margin: 0
+        padding: 0
+      li
+        background: url('slidedeck-home-images/slide_5_bullet.png') 0 6px no-repeat
+        margin: 0 0 10px 0
+        padding: 0 0 0 15px
+        font-size: 12px
+      p
+        clear: both
+        position: relative
+        overflow: hidden
+        width: 521px
+        height: 0
+        padding-top: 21px
+        background: url('slidedeck-home-images/slide_5_pro.png') 0 0 no-repeat
+        position: absolute
+        bottom: 20px
+        left: 65px
+      div
+        &.jquery h3
+          width: 210px
+          padding-top: 29px
+          background: url('slidedeck-home-images/slide_5_javascript.png') 0 0 no-repeat
+        &.wordpress h3
+          width: 256px
+          padding-top: 36px
+          background: url('slidedeck-home-images/slide_5_wordpress.png') 0 0 no-repeat
+  span.divider
+    display: block
+    height: 0
+    width: 100%
+    position: relative
+    overflow: hidden
+    padding-top: 4px
+    background: url('slidedeck-home-images/title-seperator.png') 0 0 repeat-x
+    margin: 0 0 10px
+  > dt
+    &.spine_4.active
+      background-image: url('slidedeck-home-images/spine_slide-5.png')
+      &:hover
+        background-image: url('slidedeck-home-images/spine_slide-5.png')
+    &.spine_2.active, &.spine_4.active:hover
+      background-image: url('slidedeck-home-images/spine_slide-5.png')
+  dd
+    &.slide_2 div.use-cases
+      width: 374px
+      height: 245px
+      float: right
+      position: absolute
+      overflow: hidden
+      top: 28px
+      right: 20px
+      img
+        float: left
+        cursor: pointer
+    &.slide
+      ul.slidesVertical
+        li.verticalSlide_1
+          background: #fff
+        > li.case
+          background: url('slidedeck-home-images/vertical-slide_bg.png') 0 0 no-repeat
+          position: relative
+          overflow: hidden
+          padding: 25px 0 0
+          div
+            &.case_image
+              margin: 0 0 0 20px
+              width: 355px
+              float: left
+              text-align: right
+            &.case_text
+              margin: 25px 20px 0 0
+              width: 330px
+              float: right
+          &.verticalSlide_2 div
+            &.case_image
+              margin-top: 8px
+            &.case_text
+              margin-top: 60px
+          &.verticalSlide_3 div
+            &.case_image
+              margin-top: 2px
+            &.case_text
+              margin-top: 30px
+          &.verticalSlide_4 div
+            &.case_image
+              margin-top: 16px
+            &.case_text
+              margin-top: 30px
+          &.verticalSlide_5 div
+            &.case_image
+              margin-top: 16px
+            &.case_text
+              margin-top: 63px
+          div.case_text h5
+            font-family: Georgia, serif
+            font-size: 13px
+            font-style: italic
+            color: #666
+            margin-top: -10px 0 0
+      h5.small-title
+        font-family: Georgia, serif
+        font-size: 13px
+        font-style: italic
+        color: #666
+        margin-top: -10px 0 0
+  ul.slidesVertical li.case
+    h4.title
+      font-size: 18px
+      text-transform: uppercase
+      color: #1e1e1e
+      margin: 0
+    p
+      &.sub
+        font-size: 16px
+        font-family: Georgia, serif
+        font-style: italic
+        color: #858585
+        margin: 5px 0 10px
+      font-size: 12px
+      line-height: 18px
+      color: #666
+  a.vertical-prev-next
+    position: absolute
+    display: none
+    z-index: 20000
+    width: 27px
+    height: 0
+    padding: 27px 0 0
+    overflow: hidden
+    line-height: 27px
+    cursor: pointer
+    left: 50%
+    margin: 0 0 0 -13px
+    background: url('slidedeck-home-images/vertical-prev-next.png')
+  dd.slide:hover a.vertical-prev-next
+    display: block
+  a.vertical-prev-next
+    &.next
+      bottom: 6px
+      background-position: -27px 0
+    &.previous
+      top: 6px
+      background-position: 0 0
+  li.case a.next
+    bottom: 31px
+  a
+    &.next:hover
+      background-position: -27px -27px
+    &.previous:hover
+      background-position: 0 -27px
+  &:hover a.vertical-nav
+    display: block
+
+/*
+ * The SlideDeck vertical slide navigation link containers.
+ * 
+ * This is the container for a navigation link in the vertical slide navigation
+ * element. You can adjust the width and height of this element to accommodate
+ * for a larger vertical navigation button.
+ * 
+ * To increase the space between vertical navigation links, increase the bottom
+ * and/or top padding of this element.
+
+/*
+ * The SlideDeck vertical slide position indicator.
+ * 
+ * This is the element that slides behind the default navigation link list to
+ * show which is the current vertical slide being viewed. This should be given
+ * similar dimensions to the vertical slide navigation links.
+
+/*
+ * The SlideDeck veritcal slide navigation links.
+ * 
+ * These are the vertical slide navigation links. By default these are a small
+ * square that uses a sprite background image replacement method to hide the
+ * default text that is placed in the link ("Nav 1", "Nav 2", "Nav 3").
+ * 
+ * To change the appearance of the navigation elements, you will need to use a
+ * background image replacement as the text for the links cannot be changed.
+ * Each vertical slide navigation link is given a unique class so they can be
+ * styled individually. For example:
+ *     dl.slidedeck dd.slide ul.verticalSlideNav li a.nav_1
+ *     dl.slidedeck dd.slide ul.verticalSlideNav li a.nav_2
+ *     dl.slidedeck dd.slide ul.verticalSlideNav li a.nav_3
+ *     etc....
+
+/*
+ * The SlideDeck vertical slide navigation link hover state.
+
+/* Vertical nav in the spine
+
+/*
+ * The SlideDeck vertical slide position indicator.
+ * 
+ * This is the element that slides behind the default navigation link list to
+ * show which is the current vertical slide being viewed. This should be given
+ * similar dimensions to the vertical slide navigation links.
+ * 
+ * NOTE: This element is not used in this skin, so it is hidden
+
+/* Vertical slide navigation style for the currently active vertical slide navigation link
+
+/* Vertical slide navigation link style when the parent horizontal slide is active
+
+/**
+ * BEGIN : Vertical slide previous/next button styling.
+
+/**
+ * END : Vertical slide previous/next button styling.
+
+#slidedeck_frame .slide_1
+
+#team_mission
+  .trustmark-icon
+    background: transparent url("../images/trustmark-small.png") no-repeat 33px 19px
+    background-color: #fff
+    height: 80px
+    width: 70px
+    margin: 86px 0 0 0
+    padding: 0
+  .mission-top-left
+    background-color: #CED3D9
+    height: 86px
+    width: 310px
+    margin: 0 0 0 -10px
+    padding: 0 20px 0 0
+  .mission-top-right
+    background: transparent url("../images/mission-top-right.png") no-repeat 0 0
+    background-color: #f4ac7f
+    height: 137px
+    width: 470px
+    margin: 0
+    padding-right: 5px
+    z-index: 0
+    position: relative
+  h1
+    font: normal 3.125em Dante MT Std serif
+    color: #455560
+    left: 0
+    position: relative
+    z-index: 1
+    letter-spacing: .036em
+    &.opener
+      top: -28px
+    &.connect_left, &.connect_right
+      padding-top: 55px
+      padding-left: 10px
+      padding-right: 10px
+      padding-bottom: 15px
+  h2
+    &.connect_left, &.connect_right
+      font: normal 2em Dante MT Std serif
+      color: #455560
+      letter-spacing: .03em
+      display: inline
+      margin-left: 10px
+      margin-right: 10px
+    &.right_slide
+      padding-top: 20px
+      font: normal 2.125em Dante MT Std serif
+      color: #455560
+      letter-spacing: .036em
+      display: inline
+      float: left
+      margin-left: 30px
+  h1 span
+    &.orange
+      color: #F37421
+    &.white
+      color: #fff
+      padding-left: 5px
+  p
+    &.connect
+      padding-left: 10px
+    &.connect_right
+      padding: 0
+      padding-right: 10px
+      text-align: right
+      padding-left: 380px
+  h2.trailer
+    padding: 10px 0 30px 10px
+    color: #F37421
+    font-weight: 600
+    font-size: 1.3em
+  p
+    font-family: Georgia
+    font: normal 1.4em Georgia, serif
+    line-height: 2.025em
+    color: #5f6a72
+    padding: 0
+
+/*#team_mission .clickforward h3 a {
+ *  font: normal 1.4em Helvetica, Arial, sans-serif; 
+ *  color:#F37421;
+ *  font-weight:600;
+ *  letter-spacing:.02em;
+ *  text-decoration:none;
+ *  margin:0; 
+ * }
+ *  
+ *
+ *#team_mission .clickback h3 a {
+ * font: normal 1.4em Helvetica, Arial, sans-serif; 
+ * color:#F37421;
+ * font-weight:600;
+ * letter-spacing:.02em;
+ * text-decoration:none;
+ * float: left;
+ * margin-left: 30px;
+ *}
+/*
+ *h1.mission-conduct {
+ * font: normal 3.125em Dante MT Std serif;
+ * color:#455560;
+ * padding:55px 0 5px 10px;  
+ * position:relative;
+ * letter-spacing:.03em;
+ * margin:0;
+ *}
+ *h1.mission-collective {
+ * font: normal 3.125em Dante MT Std serif;
+ * color:#455560;
+ * padding:55px 15px 5px 0px;  
+ * position:relative;
+ * letter-spacing:.03em;
+ * margin:0;
+ * float:right;
+ *}
+
+/*     h2.subheadline {
+ *      font: normal 2em Dante MT Std serif;
+ *      color:#455560;
+ *      padding:25px 0 0 10px;  
+ *      position:relative;
+ *      letter-spacing:.03em;
+ *      margin:0;
+ *     }
+ *     h2.subheadline-2 {
+ *      font: normal 2em Dante MT Std serif;
+ *      color:#455560;
+ *      padding:0 0 0 30px;  
+ *      position:relative;
+ *      letter-spacing:.01em;
+ *      margin:0;
+ *      float:left;   
+ *     }  
+ *
+ *#slidedeck_frame h1.mission-proactive span.orange, h1.mission-conduct span.orange, h1.mission-collective span.orange {
+ *   color: #F37421;
+ *} 
+ *     
+ *#slidedeck_frame h1.mission-proactive span.white {
+ *  color: #fff;
+ *  padding-left:5px; 
+ *}
+
+/*     #slidedeck_frame p.left {
+ *    font-family:Georgia;
+ *    font: normal 1.3em Georgia, serif;
+ *    line-height:1.35em;
+ *    color:#5f6a72;
+ *    padding:0 30px 5px 0;
+ *    margin:0;
+ *    float:left;
+ *   }
+ *   #slidedeck_frame p.right {
+ *    font-family:Georgia;
+ *    font: normal 1.38em Georgia, serif;
+ *    line-height:2.25em;
+ *    color:#5f6a72;
+ *    padding:0 15px 10px 366px;
+ *    margin:0;
+ *    float:right;
+ *    text-align:right;
+ *   }
+/*     .highlight h2 {
+ *    font: normal 1em Helvetica, Arial, sans-serif; 
+ *    color:#F37421;
+ *    font-weight:600;
+ *    letter-spacing:.02em;
+ *    padding: 0 0 0 10px;
+ *    float:right;
+ *   }
+ *   .highlight {
+ *    font: normal 1.35em Helvetica, Arial, sans-serif; 
+ *    color:#F37421;
+ *    font-weight:600;
+ *    letter-spacing:.02em;
+ *    padding: 0 0 5px 10px;
+ *   }
+
+.clickforward
+  margin: 5px 10px 5px 0
+
+.clickback
+  margin: -5px 0 5px 50px
+
+.clickforward a, .clickback a
+  font: normal 1.35em Helvetica, Arial, sans-serif
+  color: #F37421
+  font-weight: 600
+  letter-spacing: .02em
+  line-height: 1.5em
+  text-decoration: none
+
+.clickforward, .clickback, a:hover
+  color: #455560
+
+#slidedeck_frame
+  .slide_1 .small-icon
+    background: transparent url("../images/small_icon.png") no-repeat 0 0
+    width: 70px
+    height: 79px
+    padding: 0
+    margin: 0
+  .slide_16
+    background: white url("../images/connect-right.png") no-repeat 0 20px
+    width: 327px
+    height: 224px
+    padding: 0
+    margin: 0
+  .slide_17
+    background-color: #fff
+    margin: 0
+    padding: 0
+
+.chart_label_percentage
+  position: absolute
+  top: 100px
+  left: 50px
+  color: #fff
+  font-size: 18px
+  font-weight: bold
+
+.chart_label_text
+  position: absolute
+  top: 120px
+  left: 50px
+  color: #000
+  font-size: 12px
+  font-weight: normal
+
+#vantage_catalyst
+  height: 335px
+  overflow: hidden
+  background-color: #fff
+  h1
+    padding-top: 30px
+    font-size: 1.25em
+    font-family: Helvetica, Arial, sans-serif
+    color: #F37421
+    font-weight: 600
+    letter-spacing: .02em
+  h2
+    padding-top: 5px
+    padding-bottom: 5px
+    font: normal 3.125em Dante MT Std serif
+    color: #455560
+    letter-spacing: .036em
+  h3
+    font: normal 1.25em  Helvetica, Arial, sans-serif
+    color: #455560
+    letter-spacing: .036em
+    line-height: 1.4em
+    padding-bottom: 5px
+  h4
+    font: normal 1em  Helvetica, Arial, sans-serif
+    color: #455560
+    letter-spacing: .036em
+    line-height: 1.4em
+  p
+    font: normal 1.4em Dante MT Std serif
+    color: #455560
+    line-height: 1.35em
+  .name_ct
+    width: 150px
+    float: left
+  p.list, span
+    font-style: normal
+    font-size: 1.2em
+    font-family: Helvetica, Arial, sans-serif
+    line-height: 1.4em
+
+#vimeo-holder
+  position: relative
+  width: 510px
+  height: 315px
+  margin: 10px
+  padding: 0
+
+/*Thought Leadership Section
+
+#thought-leadership
+  h1
+    -moz-font-feature-settings: normal
+    -moz-font-language-override: normal
+    -x-system-font: none
+    color: #455560
+    font-family: Dante MT Std serif
+    font-size: 2.125em
+    font-size-adjust: none
+    font-stretch: normal
+    font-style: normal
+    font-variant: normal
+    font-weight: normal
+    line-height: normal
+    padding-top: 5px
+  h2.agent-title
+    font: 600 1.125em Helvetica, Arial, sans-serif
+    color: #F37421
+    padding: 0
+    position: relative
+    letter-spacing: .03em
+    margin: 0
+    float: left
+    a
+      font: 600 1em Helvetica, Arial, sans-serif
+      color: #F37421
+      padding: 0
+      position: relative
+      letter-spacing: .03em
+      margin: 0
+      float: left
+      text-decoration: none
+      &:hover
+        text-decoration: underline
+  .grey
+    font: 600 1em Helvetica, Arial, sans-serif
+    color: #455560
+    display: inline
+  .pointer-icon
+    background: white url("../images/small_arrow_left.png") no-repeat scroll 0 0
+    padding-bottom: 5px
+    height: 17px
+    width: 17px
+  p
+    font-family: Georgia
+    font: normal 1.125em Georgia, serif
+    line-height: 1.35em
+    color: #455560
+  h3.accent
+    font: normal 1.15em Georgia, serif
+    color: #455560
+    letter-spacing: .03em
+    line-height: .5em
+    font-style: italic
+    text-align: right
+  .topicon
+    background: white url("../images/smallpie.png") no-repeat scroll 0 0
+    height: 37px
+    width: 37px
+    margin: 0
+    padding: 30px 10px 7px 170px
+    float: left
+  .topquote
+    background: white url("../images/smallpie.png") no-repeat scroll 0 0
+    height: 40px
+    padding: 6px 0 0 45px
+    float: right
+    width: 157px
+    margin-top: 35px
+  h4
+    font: 600 1em Helvetica, Arial sans-serif
+    color: #455560
+  .quote
+    background: white url("../images/quotes.png") no-repeat scroll 0 0
+    width: 50px
+    height: 50px
+    margin: 15px 0 0 60px
+  .quote-right
+    background: white url("../images/quotes.png") no-repeat scroll -50px 0
+    width: 50px
+    height: 50px
+    margin: 230px 0 0 0

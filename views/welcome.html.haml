@@ -5,7 +5,6 @@
         %ul.slidesVertical
           %li
             %dl#team_vantage.slidedeck{:style => 'background-color: #fff'}
-              -# this is the slidedeck home or default slide #
               %dd#home
                 .grid_18.alpha
                   .grid_3.mini-shot.alpha
@@ -158,28 +157,30 @@
   #outer-slidedeck_nav.grid_22.prefix_1.suffix_1
     .divider.grid_22
     .grid_22{:style => 'margin:0;background-color:#fff;'}
-      #mission.grid_7
-        %h1 wisdom deployed optimally
-        %h2 Insightful Consultative Approach to Executive Search
-      %ul
-        %li
-          %a.vertical_menu.nav-bottom-vantage{:href => "#1"} The Vantage Team
-        %li
-          %a.vertical_menu.nav-bottom-mission{:href => "#2"} Our Mission
-        %li
-          %a.vertical_menu.nav-bottom-catalyst{:href => "#3"} Vantage Catalysts
-        %li
-          %a.vertical_menu.nav-bottom-leadership{:href => "#4"} Thought Leadership
-        %li.right
-          %a.prev{:href => "#prev"}
-          %a.next{:href => "#next"}  
-
+      .grid_8.alpha
+        #mission
+          %h2 wisdom deployed optimally
+          %p.tagline Insightful Consultative Approach to Executive Search
+      .grid_14.omega  
+        %ul
+          %li
+            %a.vertical_menu.nav-bottom-vantage{:href => "#1"} The Vantage Team
+          %li
+            %a.vertical_menu.nav-bottom-mission{:href => "#2"} Our Mission
+          %li
+            %a.vertical_menu.nav-bottom-catalyst{:href => "#3"} Vantage Catalysts
+          %li
+            %a.vertical_menu.nav-bottom-leadership{:href => "#4"} Thought Leadership
+          %li.right
+            %a.prev{:href => "#prev"}
+            %a.next{:href => "#next"}  
+      
   #content_home.grid_22.prefix_1.suffix_1
     .ct
       #left-content.grid_16.alpha
         .ct
-          #category VANTAGE VALUE 
-          %h1 There's a confluence of art and reason behind each search we complete.
+          %h2 VANTAGE VALUE 
+          %h3 There's a confluence of art and reason behind each search we complete.
           %p
             Applying our proprietary approach is what guides us.  And mastering the art of building executive 
             teams is what stimulates us.  But closing searches that give our Clients a competitive edge is what
