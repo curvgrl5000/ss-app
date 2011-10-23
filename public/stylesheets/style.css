@@ -310,7 +310,7 @@ h3 {
 }
 
 #content-contact-us .ct {
-  background: transparent url("../images/contact-us-bkgrnd_870px.png") no-repeat scroll 0 -25px;
+  background-color:#fff;
   margin:0;
   padding:0;
   height: 314px;
