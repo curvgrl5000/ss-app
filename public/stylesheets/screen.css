@@ -2972,7 +2972,7 @@ ul.sf-navbar .current ul ul {
   background: transparent url("../images/socialmedia_icons-2.png") no-repeat scroll 6px 0;
 }
 /* line 288, ../../stylesheets/partials/_style.sass */
-#content-contact-us.info #facebook {
+#content-contact-us .info #facebook {
   width: 39px;
   height: 34px;
   background: transparent url("../images/socialmedia_icons.png") no-repeat scroll 6px -33px;
