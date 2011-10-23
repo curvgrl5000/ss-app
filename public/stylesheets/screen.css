@@ -3013,11 +3013,12 @@ ul.sf-navbar .current ul ul {
 #contact_top_container {
   margin-top: 25px;
   padding-top: 25px;
-  background: transparent url("../images/contactus_background_3.png") no-repeat -3px 0;
-}
+/*  background: transparent url("../images/contactus_background_3.png") no-repeat -3px 0;
+*/}
 /* line 319, ../../stylesheets/partials/_style.sass */
 #contact_top_container .ct {
   height: 331px;
+  background-color:#fff;
 }
 /* line 321, ../../stylesheets/partials/_style.sass */
 #contact_top_container .contact_content {
