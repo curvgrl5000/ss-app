@@ -1452,23 +1452,24 @@ ul.sf-navbar .current ul ul {
 #contact_top_container {
   margin-top: 25px;
   padding-top: 25px;
-  background: transparent url("../images/contactus_background_3.png") no-repeat -3px 0;
 }
-/* line 319, ../../stylesheets/partials/_style.sass */
+/* line 318, ../../stylesheets/partials/_style.sass */
 #contact_top_container .ct {
   height: 331px;
+  background-color: white;
+  box-shadow: 0 0 7px 5px rgba(0, 0, 0, 0.3);
 }
-/* line 321, ../../stylesheets/partials/_style.sass */
+/* line 322, ../../stylesheets/partials/_style.sass */
 #contact_top_container .contact_content {
   margin: 0;
-  padding: 50px 16px 0 30px;
+  padding: 50px 16px 15px 30px;
 }
-/* line 324, ../../stylesheets/partials/_style.sass */
+/* line 325, ../../stylesheets/partials/_style.sass */
 #contact_top_container .company_mission {
   margin: 0;
   padding: 0 16px 30px 30px;
 }
-/* line 327, ../../stylesheets/partials/_style.sass */
+/* line 328, ../../stylesheets/partials/_style.sass */
 #contact_top_container .contact_content h1 {
   margin: 0;
   padding: 0 0 15px 0;
@@ -1478,12 +1479,12 @@ ul.sf-navbar .current ul ul {
   line-height: 1.125;
 }
 
-/* line 335, ../../stylesheets/partials/_style.sass */
+/* line 336, ../../stylesheets/partials/_style.sass */
 span.highlight_orange {
   color: #f37421;
 }
 
-/* line 339, ../../stylesheets/partials/_style.sass */
+/* line 340, ../../stylesheets/partials/_style.sass */
 #contact_top_container .contact_content p {
   margin: 0;
   padding: 0 0 15px 0;
@@ -1491,7 +1492,7 @@ span.highlight_orange {
   color: #5f6a72;
   line-height: 1.65em;
 }
-/* line 345, ../../stylesheets/partials/_style.sass */
+/* line 346, ../../stylesheets/partials/_style.sass */
 #contact_top_container #small-icon {
   width: 70px;
   height: 79px;
@@ -1499,7 +1500,7 @@ span.highlight_orange {
   margin: 0;
   background-image: url("../images/small_icon.png");
 }
-/* line 351, ../../stylesheets/partials/_style.sass */
+/* line 352, ../../stylesheets/partials/_style.sass */
 #contact_top_container #side_container {
   margin: 0;
   padding: 0;
@@ -1507,19 +1508,19 @@ span.highlight_orange {
   float: left;
   height: 331px;
 }
-/* line 357, ../../stylesheets/partials/_style.sass */
+/* line 358, ../../stylesheets/partials/_style.sass */
 #contact_top_container .divider {
   height: 40px;
   background: white url("../images/slidedeck-home-images/divider-graphic-a.png") no-repeat 0 0;
 }
-/* line 361, ../../stylesheets/partials/_style.sass */
+/* line 362, ../../stylesheets/partials/_style.sass */
 #contact_top_container .company_mission h1 {
   font: normal 1.75em Neue Helvetica Arial, sans-serif;
   letter-spacing: 0.11em;
   line-height: 0.7em;
   color: #f37421;
 }
-/* line 366, ../../stylesheets/partials/_style.sass */
+/* line 367, ../../stylesheets/partials/_style.sass */
 #contact_top_container .company_mission h2 {
   font: italic 1.1em Georgia, Times sans-serif;
   line-height: 0.2em;
@@ -1528,7 +1529,7 @@ span.highlight_orange {
   padding-top: 10px;
 }
 
-/* line 373, ../../stylesheets/partials/_style.sass */
+/* line 374, ../../stylesheets/partials/_style.sass */
 #bigshot {
   margin-left: auto;
   margin-right: auto;
@@ -1539,47 +1540,47 @@ span.highlight_orange {
 }
 
 /****************** TEAM VANTAGE ****************** */
-/* line 383, ../../stylesheets/partials/_style.sass */
+/* line 384, ../../stylesheets/partials/_style.sass */
 #team_vantage {
   height: 357px;
 }
-/* line 385, ../../stylesheets/partials/_style.sass */
+/* line 386, ../../stylesheets/partials/_style.sass */
 #team_vantage dd {
   background-color: white;
 }
 
-/* line 388, ../../stylesheets/partials/_style.sass */
+/* line 389, ../../stylesheets/partials/_style.sass */
 .mini-shot {
   padding: 10px 0 0 0;
   height: 110px;
 }
 
-/* line 392, ../../stylesheets/partials/_style.sass */
+/* line 393, ../../stylesheets/partials/_style.sass */
 .color_block {
   margin-top: 10px;
   height: 230px;
   background-color: #f37421;
 }
 
-/* line 397, ../../stylesheets/partials/_style.sass */
+/* line 398, ../../stylesheets/partials/_style.sass */
 .mini-shot-light {
   opacity: 0.5;
   background-color: #f37321;
   opacity: 0.5;
 }
 
-/* line 402, ../../stylesheets/partials/_style.sass */
+/* line 403, ../../stylesheets/partials/_style.sass */
 .vantage_bio {
   text-align: right;
   padding-top: 15px;
   padding-right: 5px;
 }
-/* line 406, ../../stylesheets/partials/_style.sass */
+/* line 407, ../../stylesheets/partials/_style.sass */
 .vantage_bio h1 {
   font: 100 2.25em Dante MT Std serif;
   color: #f37421;
 }
-/* line 409, ../../stylesheets/partials/_style.sass */
+/* line 410, ../../stylesheets/partials/_style.sass */
 .vantage_bio p {
   font: 100 1.2em Dante MT Std serif;
   color: black;
@@ -1588,7 +1589,7 @@ span.highlight_orange {
   line-height: 1.15em;
 }
 
-/* line 416, ../../stylesheets/partials/_style.sass */
+/* line 417, ../../stylesheets/partials/_style.sass */
 h1.meet {
   text-align: right;
   padding-top: 25px;
@@ -1597,7 +1598,7 @@ h1.meet {
   color: #f37421;
 }
 
-/* line 423, ../../stylesheets/partials/_style.sass */
+/* line 424, ../../stylesheets/partials/_style.sass */
 h2.master {
   text-align: left;
   padding-top: 42px;
@@ -1605,33 +1606,33 @@ h2.master {
   color: black;
 }
 
-/* line 429, ../../stylesheets/partials/_style.sass */
+/* line 430, ../../stylesheets/partials/_style.sass */
 #content_home {
   margin: 40px 0 20px 0;
 }
-/* line 431, ../../stylesheets/partials/_style.sass */
+/* line 432, ../../stylesheets/partials/_style.sass */
 #content_home .ct {
   background: #a9b2ba url("../images/main-bkgrnd.png") 0 0 no-repeat;
   height: 700px;
 }
-/* line 434, ../../stylesheets/partials/_style.sass */
+/* line 435, ../../stylesheets/partials/_style.sass */
 #content_home .ct h2 {
   font: normal normal 600 1.3em Arial, sans-serif;
   letter-spacing: 0.11em;
   color: #f37421;
 }
-/* line 438, ../../stylesheets/partials/_style.sass */
+/* line 439, ../../stylesheets/partials/_style.sass */
 #content_home .ct h3 {
   font: normal normal normal 1.9em Dante MT sans-serif;
   color: #5d87a1;
   margin: 14px 0;
 }
-/* line 442, ../../stylesheets/partials/_style.sass */
+/* line 443, ../../stylesheets/partials/_style.sass */
 #content_home .ct p {
   font: normal normal normal 1.35em/1.85em Georgia, Times, serif;
   color: #2f404c;
 }
-/* line 445, ../../stylesheets/partials/_style.sass */
+/* line 446, ../../stylesheets/partials/_style.sass */
 #content_home .ct span.average {
   background: url("../images/down-arrow.png") 0 5px no-repeat;
   color: #5f6a72;
@@ -1642,7 +1643,7 @@ h2.master {
   letter-spacing: 0.8px;
   padding-left: 22px;
 }
-/* line 454, ../../stylesheets/partials/_style.sass */
+/* line 455, ../../stylesheets/partials/_style.sass */
 #content_home .ct p.industry {
   color: #f37421;
   font-family: franklin-gothic-urw-condensed, sans-serif;
@@ -1652,17 +1653,17 @@ h2.master {
   text-align: right;
 }
 
-/* line 462, ../../stylesheets/partials/_style.sass */
+/* line 463, ../../stylesheets/partials/_style.sass */
 #left-content {
   background-color: white;
 }
-/* line 464, ../../stylesheets/partials/_style.sass */
+/* line 465, ../../stylesheets/partials/_style.sass */
 #left-content .ct {
   padding: 30px 20px 0 35px;
   height: 325px;
 }
 
-/* line 468, ../../stylesheets/partials/_style.sass */
+/* line 469, ../../stylesheets/partials/_style.sass */
 #infographic {
   background: transparent url("../images/infographic-placeholder.png") no-repeat 0 0;
   height: 300px;
@@ -1671,23 +1672,23 @@ h2.master {
   display: block;
 }
 
-/* line 475, ../../stylesheets/partials/_style.sass */
+/* line 476, ../../stylesheets/partials/_style.sass */
 #right-content {
   background-color: #f37421;
   height: 100%;
 }
-/* line 478, ../../stylesheets/partials/_style.sass */
+/* line 479, ../../stylesheets/partials/_style.sass */
 #right-content .divider-small {
   background: #dddddd url("../images/divider.png") no-repeat scroll 0 0;
   height: 39px;
   width: 230px;
 }
-/* line 482, ../../stylesheets/partials/_style.sass */
+/* line 483, ../../stylesheets/partials/_style.sass */
 #right-content #newsfeed {
   margin: 0;
   padding: 10px 0 0 0;
 }
-/* line 485, ../../stylesheets/partials/_style.sass */
+/* line 486, ../../stylesheets/partials/_style.sass */
 #right-content #newsfeed h1 {
   font-family: pragmatica-web-n3, pragmatica-web, sans-serif;
   font-style: normal;
@@ -1700,7 +1701,7 @@ h2.master {
   float: left;
   line-height: 0.5em;
 }
-/* line 496, ../../stylesheets/partials/_style.sass */
+/* line 497, ../../stylesheets/partials/_style.sass */
 #right-content #newsfeed .rss-icon {
   height: 20px;
   width: 21px;
@@ -1709,25 +1710,25 @@ h2.master {
   background: transparent url("../images/rss-feed.png") no-repeat 0 0;
   float: left;
 }
-/* line 503, ../../stylesheets/partials/_style.sass */
+/* line 504, ../../stylesheets/partials/_style.sass */
 #right-content .content-block {
   float: left;
   margin: 0;
   padding: 0 0 0 15px;
 }
-/* line 507, ../../stylesheets/partials/_style.sass */
+/* line 508, ../../stylesheets/partials/_style.sass */
 #right-content .content-block .date {
   font: normal normal 300 12px/16px pragmatica-web-n3, pragmatica-web, sans-serif;
   color: white;
   letter-spacing: 0.075em;
   float: left;
 }
-/* line 512, ../../stylesheets/partials/_style.sass */
+/* line 513, ../../stylesheets/partials/_style.sass */
 #right-content .content-block span.date-divider {
   font: normal normal 300 18px/16px pragmatica-web-n3, pragmatica-web, sans-serif;
   color: white;
 }
-/* line 515, ../../stylesheets/partials/_style.sass */
+/* line 516, ../../stylesheets/partials/_style.sass */
 #right-content .content-block .author {
   font: italic normal 300 12px/20px Georgia, serif;
   color: white;
@@ -1735,7 +1736,7 @@ h2.master {
   padding: 0 0 0 5px;
   float: left;
 }
-/* line 521, ../../stylesheets/partials/_style.sass */
+/* line 522, ../../stylesheets/partials/_style.sass */
 #right-content .content-block h3 {
   font: normal normal 300 16px/16px Helvetica, Arial, sans-serif;
   color: #2f404c;
@@ -1744,7 +1745,7 @@ h2.master {
   margin: 0;
   float: left;
 }
-/* line 528, ../../stylesheets/partials/_style.sass */
+/* line 529, ../../stylesheets/partials/_style.sass */
 #right-content .content-block .photo-credit {
   font-family: Helvetica, Arial, sans-serif;
   font-style: normal;
@@ -1756,14 +1757,14 @@ h2.master {
   margin: 0;
   float: left;
 }
-/* line 538, ../../stylesheets/partials/_style.sass */
+/* line 539, ../../stylesheets/partials/_style.sass */
 #right-content .content-block .photo {
   margin: 0;
   padding: 0;
   width: 76px;
   height: 73px;
 }
-/* line 543, ../../stylesheets/partials/_style.sass */
+/* line 544, ../../stylesheets/partials/_style.sass */
 #right-content .content-block p {
   font: normal normal normal 12px/12px Helvetica, Arial, sans-serif;
   color: white;
@@ -1772,7 +1773,7 @@ h2.master {
   padding: 5px 16px 0 0;
   letter-spacing: 0.07em;
 }
-/* line 550, ../../stylesheets/partials/_style.sass */
+/* line 551, ../../stylesheets/partials/_style.sass */
 #right-content .content-block .more {
   font-family: italic normal normal 12px/12px Georgia, Times, serif;
   color: white;
@@ -1780,18 +1781,18 @@ h2.master {
   padding: 0 5px 0px 142px;
   letter-spacing: 0.2em;
 }
-/* line 556, ../../stylesheets/partials/_style.sass */
+/* line 557, ../../stylesheets/partials/_style.sass */
 #right-content .content-block .more a {
   color: white;
   text-decoration: none;
   font-size: 12px;
 }
-/* line 560, ../../stylesheets/partials/_style.sass */
+/* line 561, ../../stylesheets/partials/_style.sass */
 #right-content .content-block .more a:hover {
   color: #2f404c;
   text-decoration: none;
 }
-/* line 563, ../../stylesheets/partials/_style.sass */
+/* line 564, ../../stylesheets/partials/_style.sass */
 #right-content .content-block .dots {
   background: transparent url("../images/dots.png") no-repeat 0 0;
   float: left;
@@ -1799,7 +1800,7 @@ h2.master {
   height: 3px;
   margin: 5px 0 10px 0;
 }
-/* line 569, ../../stylesheets/partials/_style.sass */
+/* line 570, ../../stylesheets/partials/_style.sass */
 #right-content .content-block .arrows {
   float: left;
   background: transparent url("../images/four-arrows.png") no-repeat -11px -10px;
@@ -1807,14 +1808,14 @@ h2.master {
   height: 10px;
   margin: 8px 0 0 0;
 }
-/* line 575, ../../stylesheets/partials/_style.sass */
+/* line 576, ../../stylesheets/partials/_style.sass */
 #right-content .social-media h4 {
   font: normal normal 300 14px/14px pragmatica-web-n3, pragmatica-web, sans-serif;
   color: white;
   padding-top: 5px;
   text-align: center;
 }
-/* line 580, ../../stylesheets/partials/_style.sass */
+/* line 581, ../../stylesheets/partials/_style.sass */
 #right-content #social-media {
   background: transparent url("../images/social-media.png") no-repeat center center;
   float: left;
@@ -1822,7 +1823,7 @@ h2.master {
   height: 54px;
   padding: 0 55px 5px 55px;
 }
-/* line 586, ../../stylesheets/partials/_style.sass */
+/* line 587, ../../stylesheets/partials/_style.sass */
 #right-content #social-media .facebook {
   background: transparent url("../images/facebook.png") no-repeat 0 0;
   float: left;
@@ -1831,11 +1832,11 @@ h2.master {
   margin: 9px 15px 0 18px;
   padding: 12px 0 0 20px;
 }
-/* line 593, ../../stylesheets/partials/_style.sass */
+/* line 594, ../../stylesheets/partials/_style.sass */
 #right-content #social-media .facebook:hover {
   background-position: -32px 0;
 }
-/* line 595, ../../stylesheets/partials/_style.sass */
+/* line 596, ../../stylesheets/partials/_style.sass */
 #right-content #social-media .twitter {
   background: transparent url("../images/twitter.png") no-repeat 0 0;
   float: left;
@@ -1844,58 +1845,58 @@ h2.master {
   margin: 17px 0 0 0;
   padding: 0;
 }
-/* line 602, ../../stylesheets/partials/_style.sass */
+/* line 603, ../../stylesheets/partials/_style.sass */
 #right-content #social-media .twitter:hover {
   background-position: -22px 0;
 }
 
-/* line 606, ../../stylesheets/partials/_style.sass */
+/* line 607, ../../stylesheets/partials/_style.sass */
 .chart {
   height: 200px;
 }
 
-/* line 1, ../../stylesheets/partials/team_sprite.sass */
+/* line 1, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #content-teams ol, ul {
   list-style-image: none;
   list-style-position: outside;
   list-style-type: none;
 }
 
-/* line 7, ../../stylesheets/partials/team_sprite.sass */
+/* line 7, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #content-teams table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-/* line 10, ../../stylesheets/partials/team_sprite.sass */
+/* line 10, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #content-teams caption {
   font-weight: normal;
   text-align: left;
   vertical-align: middle;
 }
 
-/* line 15, ../../stylesheets/partials/team_sprite.sass */
+/* line 15, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 th, td {
   font-weight: normal;
   text-align: left;
   vertical-align: middle;
 }
 
-/* line 20, ../../stylesheets/partials/team_sprite.sass */
+/* line 20, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #content-teams q, blockquote {
   quotes: none;
 }
 
-/* line 23, ../../stylesheets/partials/team_sprite.sass */
+/* line 23, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #content-teams q:before, q:after {
   content: none;
 }
 
-/* line 27, ../../stylesheets/partials/team_sprite.sass */
+/* line 27, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 blockquote:before, blockquote:after {
   content: none;
 }
 
-/* line 31, ../../stylesheets/partials/team_sprite.sass */
+/* line 31, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #content-teams a img {
   -moz-border-bottom-colors: none;
   -moz-border-image: none;
@@ -1927,17 +1928,17 @@ blockquote:before, blockquote:after {
   border-top-style: none;
   border-top-width: medium;
 }
-/* line 61, ../../stylesheets/partials/team_sprite.sass */
+/* line 61, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #content-teams article {
   display: block;
 }
 
-/* line 64, ../../stylesheets/partials/team_sprite.sass */
+/* line 64, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
 
-/* line 67, ../../stylesheets/partials/team_sprite.sass */
+/* line 67, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #content-teams .pictos-free-black-sprite, .pictos-free-black-icn1, .pictos-free-black-icn10, .pictos-free-black-icn11, .pictos-free-black-icn12, .pictos-free-black-icn13, .pictos-free-black-icn14, .pictos-free-black-icn15, .pictos-free-black-icn16, .pictos-free-black-icn17, .pictos-free-black-icn18, .pictos-free-black-icn19, .pictos-free-black-icn2, .pictos-free-black-icn20, .pictos-free-black-icn21, .pictos-free-black-icn3, .pictos-free-black-icn4, .pictos-free-black-icn5, .pictos-free-black-icn6, .pictos-free-black-icn7, .pictos-free-black-icn8, .pictos-free-black-icn9 {
   background-attachment: scroll;
   background-clip: border-box;
@@ -1949,93 +1950,93 @@ aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, 
   background-size: auto auto;
 }
 
-/* line 78, ../../stylesheets/partials/team_sprite.sass */
+/* line 78, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #content-teams .pictos-free-black-icn1 {
   background-position: 0 0;
 }
-/* line 80, ../../stylesheets/partials/team_sprite.sass */
+/* line 80, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #content-teams .pictos-free-black-icn10 {
   background-position: 0 -122px;
 }
-/* line 82, ../../stylesheets/partials/team_sprite.sass */
+/* line 82, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #content-teams .pictos-free-black-icn11 {
   background-position: 0 -245px;
 }
-/* line 84, ../../stylesheets/partials/team_sprite.sass */
+/* line 84, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #content-teams .pictos-free-black-icn12 {
   background-position: 0 -368px;
 }
-/* line 86, ../../stylesheets/partials/team_sprite.sass */
+/* line 86, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #content-teams .pictos-free-black-icn13 {
   background-position: 0 -490px;
 }
-/* line 88, ../../stylesheets/partials/team_sprite.sass */
+/* line 88, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #content-teams .pictos-free-black-icn14 {
   background-position: 0 -613px;
 }
-/* line 90, ../../stylesheets/partials/team_sprite.sass */
+/* line 90, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #content-teams .pictos-free-black-icn15 {
   background-position: 0 -736px;
 }
-/* line 92, ../../stylesheets/partials/team_sprite.sass */
+/* line 92, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #content-teams .pictos-free-black-icn16 {
   background-position: 0 -859px;
 }
-/* line 94, ../../stylesheets/partials/team_sprite.sass */
+/* line 94, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #content-teams .pictos-free-black-icn17 {
   background-position: 0 -982px;
 }
-/* line 96, ../../stylesheets/partials/team_sprite.sass */
+/* line 96, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #content-teams .pictos-free-black-icn18 {
   background-position: 0 -1105px;
 }
-/* line 98, ../../stylesheets/partials/team_sprite.sass */
+/* line 98, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #content-teams .pictos-free-black-icn19 {
   background-position: 0 -1228px;
 }
-/* line 100, ../../stylesheets/partials/team_sprite.sass */
+/* line 100, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #content-teams .pictos-free-black-icn2 {
   background-position: 0 -1351px;
 }
-/* line 102, ../../stylesheets/partials/team_sprite.sass */
+/* line 102, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #content-teams .pictos-free-black-icn20 {
   background-position: 0 -1473px;
 }
-/* line 104, ../../stylesheets/partials/team_sprite.sass */
+/* line 104, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #content-teams .pictos-free-black-icn21 {
   background-position: 0 -1596px;
 }
-/* line 106, ../../stylesheets/partials/team_sprite.sass */
+/* line 106, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #content-teams .pictos-free-black-icn3 {
   background-position: 0 -1719px;
 }
-/* line 108, ../../stylesheets/partials/team_sprite.sass */
+/* line 108, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #content-teams .pictos-free-black-icn4 {
   background-position: 0 -1841px;
 }
-/* line 110, ../../stylesheets/partials/team_sprite.sass */
+/* line 110, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #content-teams .pictos-free-black-icn5 {
   background-position: 0 -1963px;
 }
-/* line 112, ../../stylesheets/partials/team_sprite.sass */
+/* line 112, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #content-teams .pictos-free-black-icn6 {
   background-position: 0 -2086px;
 }
-/* line 114, ../../stylesheets/partials/team_sprite.sass */
+/* line 114, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #content-teams .pictos-free-black-icn7 {
   background-position: 0 -2209px;
 }
-/* line 116, ../../stylesheets/partials/team_sprite.sass */
+/* line 116, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #content-teams .pictos-free-black-icn8 {
   background-position: 0 -2332px;
 }
 
-/* line 119, ../../stylesheets/partials/team_sprite.sass */
+/* line 119, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 .pictos-free-black-icn9 {
   background-position: 0 -2455px;
 }
 
-/* line 122, ../../stylesheets/partials/team_sprite.sass */
+/* line 122, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #content-teams .pictos-free-white-sprite, .pictos-free-white-icn1, .pictos-free-white-icn10, .pictos-free-white-icn11, .pictos-free-white-icn12, .pictos-free-white-icn13, .pictos-free-white-icn14, .pictos-free-white-icn15, .pictos-free-white-icn16, .pictos-free-white-icn17, .pictos-free-white-icn18, .pictos-free-white-icn19, .pictos-free-white-icn2, .pictos-free-white-icn20, .pictos-free-white-icn21, .pictos-free-white-icn3, .pictos-free-white-icn4, .pictos-free-white-icn5, .pictos-free-white-icn6, .pictos-free-white-icn7, .pictos-free-white-icn8, .pictos-free-white-icn9 {
   background-attachment: scroll;
   background-clip: border-box;
@@ -2046,76 +2047,76 @@ aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, 
   background-size: auto auto;
 }
 
-/* line 132, ../../stylesheets/partials/team_sprite.sass */
+/* line 132, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #content-teams .pictos-free-white-icn1 {
   background-position: 0 0;
   background-image: url("../images/top_sprite.png");
   z-index: 4;
 }
-/* line 136, ../../stylesheets/partials/team_sprite.sass */
+/* line 136, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #content-teams .pictos-free-white-icn2 {
   background-position: -130px 0;
   background-image: url("../images/top_sprite.png");
   z-index: 3;
 }
-/* line 140, ../../stylesheets/partials/team_sprite.sass */
+/* line 140, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #content-teams .pictos-free-white-icn3 {
   background-position: -262px 0;
   background-image: url("../images/top_sprite.png");
   z-index: 2;
 }
-/* line 144, ../../stylesheets/partials/team_sprite.sass */
+/* line 144, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #content-teams .pictos-free-white-icn4 {
   background-position: -391px 0;
   background-image: url("../images/top_sprite.png");
   z-index: 1;
 }
-/* line 148, ../../stylesheets/partials/team_sprite.sass */
+/* line 148, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #content-teams .pictos-free-white-icn5 {
   background-position: -523px 0;
   background-image: url("../images/top_sprite.png");
   z-index: 4;
 }
-/* line 152, ../../stylesheets/partials/team_sprite.sass */
+/* line 152, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #content-teams .pictos-free-white-icn6 {
   background-position: 0 -2086px;
   z-index: 4;
 }
-/* line 155, ../../stylesheets/partials/team_sprite.sass */
+/* line 155, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #content-teams .pictos-free-white-icn7 {
   background-position: 0 -2209px;
   z-index: 4;
 }
-/* line 158, ../../stylesheets/partials/team_sprite.sass */
+/* line 158, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #content-teams .pictos-free-white-icn8 {
   background-position: 0 -2332px;
   z-index: 4;
 }
-/* line 161, ../../stylesheets/partials/team_sprite.sass */
+/* line 161, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #content-teams .pictos-free-white-icn9 {
   background-position: 0 -2455px;
   z-index: 4;
 }
-/* line 164, ../../stylesheets/partials/team_sprite.sass */
+/* line 164, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #content-teams .pictos-free-white-icn10 {
   background-position: 0 -122px;
   z-index: 4;
 }
 
-/* line 172, ../../stylesheets/partials/team_sprite.sass */
+/* line 172, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #content-teams ul:after {
   clear: both;
   content: "";
   display: table;
 }
-/* line 176, ../../stylesheets/partials/team_sprite.sass */
+/* line 176, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #content-teams ul li {
   -moz-transition-duration: 1s;
   -moz-transition-property: all;
   display: inline;
   float: left;
 }
-/* line 181, ../../stylesheets/partials/team_sprite.sass */
+/* line 181, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #content-teams ul li a {
   cursor: pointer;
   display: block;
@@ -2123,15 +2124,15 @@ aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, 
   text-indent: -99999px;
   width: 130px;
 }
-/* line 187, ../../stylesheets/partials/team_sprite.sass */
+/* line 187, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #content-teams .white ul li {
   opacity: 1;
 }
-/* line 189, ../../stylesheets/partials/team_sprite.sass */
+/* line 189, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #content-teams .white ul li:hover {
   opacity: 1;
 }
-/* line 191, ../../stylesheets/partials/team_sprite.sass */
+/* line 191, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #content-teams .white ul li a:hover {
   box-shadow: 0 0 7px 5px rgba(0, 0, 0, 0.2);
   border: 15px solid #95a0a9;
@@ -2139,7 +2140,7 @@ aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, 
   background-image: url("../images/top_sprite_2.png");
   z-index: 10;
 }
-/* line 197, ../../stylesheets/partials/team_sprite.sass */
+/* line 197, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #content-teams ul li div {
   -moz-transition-delay: 0s;
   -moz-transition-duration: 0.2s;
@@ -2151,7 +2152,7 @@ aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, 
   position: absolute;
   width: 200px;
 }
-/* line 207, ../../stylesheets/partials/team_sprite.sass */
+/* line 207, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #content-teams ul li div h3 {
   background-color: #5f6a72;
   color: #455560;
@@ -2170,51 +2171,51 @@ aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, 
   font-family: Georgia, serif;
   height: 35px;
 }
-/* line 224, ../../stylesheets/partials/team_sprite.sass */
+/* line 224, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #content-teams.black ul li {
   opacity: 0.02;
 }
-/* line 227, ../../stylesheets/partials/team_sprite.sass */
+/* line 227, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #content-teams .black ul li:hover {
   opacity: 1;
 }
-/* line 229, ../../stylesheets/partials/team_sprite.sass */
+/* line 229, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #content-teams .black ul li a:hover {
   box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.3);
 }
 
 /* */
-/* line 233, ../../stylesheets/partials/team_sprite.sass */
+/* line 233, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #content-teams {
   margin-top: 40px;
 }
-/* line 235, ../../stylesheets/partials/team_sprite.sass */
+/* line 235, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #content-teams .ct {
   background: transparent url("../images/main-bkgrnd.png") no-repeat scroll 0 -25px;
   margin: 0;
   padding: 0;
   height: 635px;
 }
-/* line 240, ../../stylesheets/partials/team_sprite.sass */
+/* line 240, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #content-teams .ct .content-block {
   padding-top: 37px;
   padding-bottom: 20px;
   padding-left: 0;
 }
-/* line 245, ../../stylesheets/partials/team_sprite.sass */
+/* line 245, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #content-teams .ct .content-block h1 {
   padding-top: 10px;
   font: normal normal normal 1.45em/1.37em Dante MT Std serif;
   color: #5f6a72;
 }
-/* line 249, ../../stylesheets/partials/team_sprite.sass */
+/* line 249, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #content-teams .ct #middle-content {
   background-color: #f37421;
   margin-top: 15px;
   margin-bottom: 15px;
   width: 650px;
 }
-/* line 254, ../../stylesheets/partials/team_sprite.sass */
+/* line 254, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #content-teams .ct #middle-content h1 {
   font: normal normal 400 1.5em/1.3em pragmatica-web-condensed, sans-serif;
   color: white;
@@ -2222,7 +2223,7 @@ aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, 
   padding-top: 60px;
   text-align: right;
 }
-/* line 260, ../../stylesheets/partials/team_sprite.sass */
+/* line 260, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #content-teams .ct #middle-content h2 {
   font: normal normal 400 1.25em/1.35em Arial, sans-serif;
   color: #ced5db;
@@ -2230,47 +2231,47 @@ aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, 
   padding-bottom: 25px;
   text-align: left;
 }
-/* line 266, ../../stylesheets/partials/team_sprite.sass */
+/* line 266, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #content-teams .ct h4 {
   font: normal normal 400 1.25em/4.29em Arial, sans-serif;
   padding: 80px 0 0 0;
   text-align: left;
 }
-/* line 270, ../../stylesheets/partials/team_sprite.sass */
+/* line 270, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #content-teams .ct h4 a {
   color: #5d87a1;
   font: normal normal normal 1.2em Arial, sans-serif;
   text-decoration: none;
 }
-/* line 274, ../../stylesheets/partials/team_sprite.sass */
+/* line 274, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #content-teams .ct h4 a:hover {
   color: #f37421 !important;
   text-decoration: none !important;
 }
 
-/* line 278, ../../stylesheets/partials/team_sprite.sass */
+/* line 278, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #teams_top_container {
   margin-top: 25px;
   background: transparent url("../images/contactus_background_3.png") no-repeat -3px 1px;
   box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
 }
-/* line 282, ../../stylesheets/partials/team_sprite.sass */
+/* line 282, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #teams_top_container .ct {
   height: 331px;
   background: url("../images/stock-photo-5559317-golden-gate-bridge-and-san-francisco.jpg") no-repeat 0 0;
 }
-/* line 285, ../../stylesheets/partials/team_sprite.sass */
+/* line 285, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #teams_top_container #headline {
   height: 210px;
   margin-top: -210px;
 }
-/* line 288, ../../stylesheets/partials/team_sprite.sass */
+/* line 288, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #teams_top_container #headline h1 {
   font: normal normal normal 3.25em/1.25 Dante MT sans-serif;
   color: #f37421;
   padding: 25px 0 0 35px;
 }
-/* line 292, ../../stylesheets/partials/team_sprite.sass */
+/* line 292, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #teams_top_container .transparent {
   background-color: white;
   zoom: 1;
@@ -2278,12 +2279,12 @@ aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, 
   opacity: 0.5;
   height: 210px;
 }
-/* line 298, ../../stylesheets/partials/team_sprite.sass */
+/* line 298, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #teams_top_container .contact_content {
   margin: 0;
   padding: 50px 16px 0 30px;
 }
-/* line 301, ../../stylesheets/partials/team_sprite.sass */
+/* line 301, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #teams_top_container .contact_content h1 {
   margin: 0;
   padding: 0 0 15px 0;
@@ -2291,25 +2292,25 @@ aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, 
   color: #5f6a72;
   float: left;
 }
-/* line 307, ../../stylesheets/partials/team_sprite.sass */
+/* line 307, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #teams_top_container .company_mission {
   margin: 0;
   padding: 0 16px 30px 30px;
 }
-/* line 310, ../../stylesheets/partials/team_sprite.sass */
+/* line 310, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #teams_top_container .company_mission h1 {
   font: normal normal normal 1.75em/0.7em Neue Helvetica Arial, sans-serif;
   letter-spacing: 0.11em;
   color: #f37421;
 }
-/* line 314, ../../stylesheets/partials/team_sprite.sass */
+/* line 314, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #teams_top_container .company_mission h2 {
   font: italic normal normal 1.1em/0.2em Georgia, Times sans-serif;
   letter-spacing: 0.06em;
   color: #5f6a72;
   padding-top: 10px;
 }
-/* line 319, ../../stylesheets/partials/team_sprite.sass */
+/* line 319, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/team_sprite.sass */
 #teams_top_container .divider {
   height: 40px;
   background: white url("../images/slidedeck-home-images/divider-graphic-a.png") no-repeat 0 0;
