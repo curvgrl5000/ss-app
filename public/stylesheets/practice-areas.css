@@ -1947,35 +1947,35 @@ h2.master {
 }
 /* line 62, ../../stylesheets/partials/_practice-area.sass */
 #logo_content .adchemy {
-  background: #cccccc url("../images/sprite_logos/Adchemy_logo.png") 0 0 no-repeat;
+  background: #cccccc url("../images/sprite_logos/adchemy.png") 0 0 no-repeat;
 }
 /* line 64, ../../stylesheets/partials/_practice-area.sass */
 #logo_content .adchemy:hover {
-  background: #cccccc url("../images/sprite_logos/Adchemy_logo.png") 0 bottom no-repeat;
+  background: #cccccc url("../images/sprite_logos/adchemy.png") 0 bottom no-repeat;
 }
 /* line 66, ../../stylesheets/partials/_practice-area.sass */
 #logo_content .anchor_intelligence {
-  background: #cccccc url("../images/sprite_logos/Anchor_Intelligence_logo.png") 0 0 no-repeat;
+  background: #cccccc url("../images/sprite_logos/anchor_intelligence.png") 0 0 no-repeat;
 }
 /* line 68, ../../stylesheets/partials/_practice-area.sass */
 #logo_content .anchor_intelligence:hover {
-  background: #cccccc url("../images/sprite_logos/Anchor_Intelligence_logo.png") 0 bottom no-repeat;
+  background: #cccccc url("../images/sprite_logos/anchor_intelligence.png") 0 bottom no-repeat;
 }
 /* line 70, ../../stylesheets/partials/_practice-area.sass */
 #logo_content .aol {
-  background: #cccccc url("../images/sprite_logos/aol_logo.png") 0 0 no-repeat;
+  background: #cccccc url("../images/sprite_logos/aol.png") 0 0 no-repeat;
 }
 /* line 72, ../../stylesheets/partials/_practice-area.sass */
 #logo_content .aol:hover {
-  background: #cccccc url("../images/sprite_logos/aol_logo.png") 0 bottom no-repeat;
+  background: #cccccc url("../images/sprite_logos/aol.png") 0 bottom no-repeat;
 }
 /* line 74, ../../stylesheets/partials/_practice-area.sass */
 #logo_content .betfair {
-  background: #cccccc url("../images/sprite_logos/betfair_logo.png") 0 0 no-repeat;
+  background: #cccccc url("../images/sprite_logos/betfair.png") 0 0 no-repeat;
 }
 /* line 76, ../../stylesheets/partials/_practice-area.sass */
 #logo_content .betfair:hover {
-  background: #cccccc url("../images/sprite_logos/betfair_logo.png") 0 bottom no-repeat;
+  background: #cccccc url("../images/sprite_logos/betfair.png") 0 bottom no-repeat;
 }
 
 /* jQuery UI CSS Framework 1.8.16

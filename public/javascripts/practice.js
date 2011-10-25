@@ -133,8 +133,8 @@ return {
   },
   
   filterByCategory : function(category) {
-    _.filter(assets, function(asset){
-       return _.include(asset.categories, category);
+    return _.filter(assets, function(asset){
+      return _.include(asset.categories, category);
     });
   }
   
