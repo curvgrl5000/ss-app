@@ -1,4 +1,27 @@
+#container
+  +grid-container
+  #header
+    +grid(24)
+    #logo
+      +grid(8)
+      +alpha
+    #globalsearch
+      +grid(16)
+      +omega
+    #navigation
+      +grid(22)
+      +grid-prefix(1)
+      +grid-suffix(1)
+      +alpha
+      +omega
+  #main
+    +grid(24)
+    
+    
 #practice-area
+  +grid(22)
+  +grid-prefix(1)
+  +grid-suffix(1)
   .content_setup
     height: 335px
     margin-top: 30px
@@ -12,7 +35,6 @@
     h2
       font: normal normal normal 17px "Neue Helvetica" Arial sans-serif
       color: $orange
-
     .spotlight
       margin-top: 71px
       h2
@@ -25,59 +47,99 @@
       h2
         margin: 20px 20px 0 0
     .divider
+      +grid(22)
+      +alpha
+      +omega
       height: 39px
       background: white url("../images/slidedeck-home-images/divider-graphic-a.png") no-repeat 0 0
     p.insight
       font: italic normal normal 1.06em/1.7em Georgia, Times sans-serif
       letter-spacing: .03em
       color: $crisp-grey
-                       
+    .left-grid
+      +grid(2)
+      +alpha
+      background: #CED3D9 url('../images/small_icon.png') 0 0 no-repeat
+      height: 100%
+    .right-grid
+      +grid(20)
+      +omega  
+      .lefthalf
+        +grid(10)
+        +alpha  
+      .righthalf
+        +grid(10)
+        +omega
+      
 #logo_content, #practice-area
   .content_setup
     background-color: #fff
 
 #logo_content
+  +grid(22)
+  +grid-prefix(1)
+  +grid-suffix(1)
+  margin-top: 30px
   .content_setup
     margin-bottom: 30px  
-    height: 700px
+    height: 800px
     background: $grey url("../images/main-bkgrnd.png") 0 0 no-repeat
-    h2
-      font: normal normal 600 1.3em Arial, sans-serif
-      letter-spacing: .11em
-      color: $orange
-    h3
-      font: normal normal normal 1.9em Dante MT sans-serif
-      color: $logo-blue
-      margin: 14px 0  
-    p
-      font: normal normal normal 1.35em/1.85em Georgia, Times, serif
-      color: $copy-grey  
-    
-    #client-portfolio
-      margin-top: 20px
-      p
-        font: normal normal normal 1.1em "Neue Helvetica" Arial sans-serif
+    .ct
+      +grid(20)
+      +grid-prefix(1)
+      +grid-suffix(1)
+      margin: 30px 0 0 0
+      h2
+        font: normal normal 600 1.6em Arial, sans-serif
+        letter-spacing: .11em
+        color: $orange
+      h3
+        font: normal normal normal 1.9em Dante MT sans-serif
         color: $logo-blue
+        margin: 14px 0  
+      p
+        font: normal normal normal 1.35em/1.85em Georgia, Times, serif
+        color: $copy-grey  
+    
+      #client-portfolio
+        margin-top: 20px
+        .clients
+          +grid(4)
+          p
+            font: normal normal normal 0.8em "Neue Helvetica" Arial sans-serif
+            color: $logo-blue
+        .alpha
+          +alpha
+        .omega
+          +omega
+      #internet
+        .logo-column
+          +grid(5)
+        .alpha
+          +alpha
+        .omega
+          +omega
         
-  .sprite_logo
-    height: 85px
-    width: 100%
-    text-decoration: none
-    display: block
-    text-indent: -10000px
-  .adchemy
-    background: #cccccc url("../images/sprite_logos/adchemy.png") 0 0 no-repeat
-    &:hover
-      background: #cccccc url("../images/sprite_logos/adchemy.png") 0 bottom no-repeat
-  .anchor_intelligence
-    background: #cccccc url("../images/sprite_logos/anchor_intelligence.png") 0 0 no-repeat
-    &:hover
-      background: #cccccc url("../images/sprite_logos/anchor_intelligence.png") 0 bottom no-repeat
-  .aol
-    background: #cccccc url("../images/sprite_logos/aol.png") 0 0 no-repeat
-    &:hover
-      background: #cccccc url("../images/sprite_logos/aol.png") 0 bottom no-repeat
-  .betfair
-    background: #cccccc url("../images/sprite_logos/betfair.png") 0 0 no-repeat
-    &:hover
-      background: #cccccc url("../images/sprite_logos/betfair.png") 0 bottom no-repeat
+    .sprite_logo
+      height: 85px
+      width: 100%
+      text-decoration: none
+      display: block
+      text-indent: -10000px
+    .adchemy
+      background: #cccccc url("../images/sprite_logos/adchemy.png") 0 0 no-repeat
+      &:hover
+        background: #cccccc url("../images/sprite_logos/adchemy.png") 0 bottom no-repeat
+    .anchor_intelligence
+      background: #cccccc url("../images/sprite_logos/anchor_intelligence.png") 0 0 no-repeat
+      &:hover
+        background: #cccccc url("../images/sprite_logos/anchor_intelligence.png") 0 bottom no-repeat
+    .aol
+      background: #cccccc url("../images/sprite_logos/aol.png") 0 0 no-repeat
+      &:hover
+        background: #cccccc url("../images/sprite_logos/aol.png") 0 bottom no-repeat
+    .betfair
+      background: #cccccc url("../images/sprite_logos/betfair.png") 0 0 no-repeat
+      &:hover
+        background: #cccccc url("../images/sprite_logos/betfair.png") 0 bottom no-repeat
+

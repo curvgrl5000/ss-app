@@ -140,8 +140,17 @@ return {
     });
   },    
   
-  getCompaniesPerColumn : function () {
+  getNumCompaniesPerColumn : function () {
     return Math.ceil(assets.length / PORTFOLIO_COLUMNS);
+  },
+  
+  // look inside the assets for companies with the right category, and get that from start up to max
+  getCompanies : function (start, max) {
+    var companies = this.filterByCategory(5);
+    if(start+max > companies.length) {
+      console.log("we are asking for too many companies here ", start, max, companies.length);
+    }
+    return companies.splice(start, max);
   }
 }
 }();
@@ -149,7 +158,34 @@ return {
 (function ($) {
 
   $.renderClientPortfolio = function () {
-    console.log("I am going to render all the client companies now... ");
+    var max = Vantage.practice.getNumCompaniesPerColumn(); // we know how many companies we want per column now... 
+    var clients = $(".clients", "#logo_content");
+    _.each(clients, function(client, idx){
+      var sublist = Vantage.practice.getCompanies(max*(idx), max);
+      _.each(sublist, function(list){
+        $("<p>",{
+          text: list.company
+        }).appendTo($(client));
+      });
+    });
   } 
   
-})(jQuery); 
+})(jQuery);
+
+$(function(){
+  
+  if($("#tabs")[0]) {
+    $("#tabs").tabs();
+  } 
+  
+  $('#tabs').bind('tabsselect', function(event, ui) {
+      //ui.tab     // anchor element of the selected (clicked) tab
+      //ui.panel   // element, that contains the selected/clicked tab contents
+      //ui.index   // zero-based index of the selected (clicked) tab
+      if(ui.index == 4) {
+        $.renderClientPortfolio();
+      }
+  });
+  
+    
+}); 

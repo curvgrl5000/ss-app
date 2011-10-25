@@ -220,10 +220,6 @@ Vantage.utils = function () {
 
 $(function(){
 
-  if($("#tabs")[0]) {
-    $("#tabs").tabs();
-  }
-  
   $("a.nav-bottom-vantage").click(function(e){
     e.preventDefault();
     if(tv) {

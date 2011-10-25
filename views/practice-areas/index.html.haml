@@ -1,8 +1,8 @@
-#practice-area.grid_22.prefix_1.suffix_1
+#practice-area
   .content_setup
-    .grid_2.alpha{:style => "background: #CED3D9 url('../images/small_icon.png') 0 0 no-repeat; height: 100%;"}
-    .grid_20.omega
-      .grid_10.alpha
+    .left-grid
+    .right-grid
+      .lefthalf
         .spotlight
           %h1 <span class="orange">Spot</span>light on latest <span class="orange">search</span>es
           %p Vantage Partners specializes in building
@@ -10,7 +10,7 @@
           %p leaders and venture-backed startups.
           %h2 wisdom deployed optimally
         %p.insight Insightful Consultive Approach to Executive Search
-      .grid_10.omega
+      .righthalf
         .recent
           %h2.right Recent Searches Here
           %img{:src => "../images/hp_lrglogo_oracle.png", :alt => "Oracle"}/
@@ -19,15 +19,14 @@
           %p.cto CTO, Fusion Middleware
           %p.vantage_partner
             %a{:href => "#"} Tom Callahan
-    .grid_22.divider.alpha.omega
+    .divider
     
-#logo_content.grid_22.prefix_1.suffix_1
+#logo_content
   .content_setup
-    .grid_20.prefix_1.suffix_1{:style => "margin:0"}
+    .ct
       %h2 Practice Areas
       %h3 Our clients advance software enterprise, consumer internet, and converging technologies
       %p The Vantage Team partners with innovators of prominent technology companies who require the most forward-thinking and creative leaders in the high-tech arena.
-      
       #tabs
         %ul
           %li
@@ -41,22 +40,14 @@
           %li
             %a{:href => "#client-portfolio"} Client Portfolio    
         #internet
-         
-         
-          .grid_5.alpha
+          .logo-column.alpha
             %a.adchemy.sprite_logo{:href => "#", :title => "adchemy"} Adchemy
-          .grid_5
+          .logo-column
             %a.anchor_intelligence.sprite_logo{:href => "#", :title => "anchor_intelligence"} Anchor Intelligence
-          .grid_5
+          .logo-column
             %a.aol.sprite_logo{:href => "#", :title => "AOL"} AOL
-          .grid_5.omega
+          .logo-column.omega
             %a.betfair.sprite_logo{:href => "#", :title => "BetFair"} BetFair  
-            
-            
-            
-            
-            
-            
         #software-services
           %p Software and Services
         #mobile-wireless
@@ -64,14 +55,9 @@
         #clean-tech
           %p Clean Tech
         #client-portfolio
-          .grid_4.alpha
-            %p Jeffrey
-          .grid_4
-            %p Jeffrey
-          .grid_4
-            %p Jeffrey
-          .grid_4
-            %p Jeffrey
-          .grid_4.omega
-            %p Jeffrey
+          .clients.alpha
+          .clients
+          .clients
+          .clients
+          .clients.omega
           
