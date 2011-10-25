@@ -12,6 +12,8 @@ var keys = {
   "clients": 5
 }
 
+var PORTFOLIO_COLUMNS = 5;
+
 var assets = [
   {company: "10GEN", logo: "10gen.png", categories: [5]},
   {company: "ADCHEMY", logo: "adchemy.png", categories: [5]},
@@ -136,7 +138,18 @@ return {
     return _.filter(assets, function(asset){
       return _.include(asset.categories, category);
     });
-  }
+  },    
   
+  getCompaniesPerColumn : function () {
+    return Math.ceil(assets.length / PORTFOLIO_COLUMNS);
+  }
 }
-}(); 
+}();
+
+$(function () {
+
+  $.renderClientPortfolio = function () {
+    console.log("I am going to render all the client companies now... ");
+  } 
+  
+})(jQuery); 
