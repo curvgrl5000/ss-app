@@ -146,7 +146,7 @@ return {
 }
 }();
 
-$(function () {
+(function ($) {
 
   $.renderClientPortfolio = function () {
     console.log("I am going to render all the client companies now... ");
