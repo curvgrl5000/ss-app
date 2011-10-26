@@ -1571,61 +1571,70 @@ h2.master {
 #logo_content .content_setup .ct #client-portfolio .omega {
   margin-right: 0;
 }
-/* line 116, ../../stylesheets/partials/_practice-area.sass */
+/* line 115, ../../stylesheets/partials/_practice-area.sass */
+#logo_content .content_setup .ct #internet {
+  margin-top: 20px;
+}
+/* line 117, ../../stylesheets/partials/_practice-area.sass */
+#logo_content .content_setup .ct #internet .spacer {
+  display: inline;
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 790px;
+  height: 10px;
+}
+/* line 120, ../../stylesheets/partials/_practice-area.sass */
 #logo_content .content_setup .ct #internet .logo-column {
   display: inline;
   float: left;
   margin-left: 5px;
   margin-right: 5px;
   width: 190px;
+  height: 85px;
+  text-decoration: none;
+  text-indent: -10000px;
+  box-shadow: 0 0 7px 5px rgba(0, 0, 0, 0.1);
 }
-/* line 118, ../../stylesheets/partials/_practice-area.sass */
+/* line 126, ../../stylesheets/partials/_practice-area.sass */
+#logo_content .content_setup .ct #internet div.adchemy {
+  background: #cccccc url("../images/sprite_logos/adchemy.png") 0 0 no-repeat;
+}
+/* line 128, ../../stylesheets/partials/_practice-area.sass */
+#logo_content .content_setup .ct #internet div.adchemy:hover {
+  background: #cccccc url("../images/sprite_logos/adchemy.png") 0 bottom no-repeat;
+}
+/* line 130, ../../stylesheets/partials/_practice-area.sass */
+#logo_content .content_setup .ct #internet div.anchor_intelligence {
+  background: #cccccc url("../images/sprite_logos/anchor_intelligence.png") 0 0 no-repeat;
+}
+/* line 132, ../../stylesheets/partials/_practice-area.sass */
+#logo_content .content_setup .ct #internet div.anchor_intelligence:hover {
+  background: #cccccc url("../images/sprite_logos/anchor_intelligence.png") 0 bottom no-repeat;
+}
+/* line 134, ../../stylesheets/partials/_practice-area.sass */
+#logo_content .content_setup .ct #internet div.aol {
+  background: #cccccc url("../images/sprite_logos/aol.png") 0 0 no-repeat;
+}
+/* line 136, ../../stylesheets/partials/_practice-area.sass */
+#logo_content .content_setup .ct #internet div.aol:hover {
+  background: #cccccc url("../images/sprite_logos/aol.png") 0 bottom no-repeat;
+}
+/* line 138, ../../stylesheets/partials/_practice-area.sass */
+#logo_content .content_setup .ct #internet div.betfair {
+  background: #cccccc url("../images/sprite_logos/betfair.png") 0 0 no-repeat;
+}
+/* line 140, ../../stylesheets/partials/_practice-area.sass */
+#logo_content .content_setup .ct #internet div.betfair:hover {
+  background: #cccccc url("../images/sprite_logos/betfair.png") 0 bottom no-repeat;
+}
+/* line 142, ../../stylesheets/partials/_practice-area.sass */
 #logo_content .content_setup .ct #internet .alpha {
   margin-left: 0;
 }
-/* line 120, ../../stylesheets/partials/_practice-area.sass */
+/* line 144, ../../stylesheets/partials/_practice-area.sass */
 #logo_content .content_setup .ct #internet .omega {
   margin-right: 0;
-}
-/* line 123, ../../stylesheets/partials/_practice-area.sass */
-#logo_content .content_setup .sprite_logo {
-  height: 85px;
-  width: 100%;
-  text-decoration: none;
-  display: block;
-  text-indent: -10000px;
-}
-/* line 129, ../../stylesheets/partials/_practice-area.sass */
-#logo_content .content_setup .adchemy {
-  background: #cccccc url("../images/sprite_logos/adchemy.png") 0 0 no-repeat;
-}
-/* line 131, ../../stylesheets/partials/_practice-area.sass */
-#logo_content .content_setup .adchemy:hover {
-  background: #cccccc url("../images/sprite_logos/adchemy.png") 0 bottom no-repeat;
-}
-/* line 133, ../../stylesheets/partials/_practice-area.sass */
-#logo_content .content_setup .anchor_intelligence {
-  background: #cccccc url("../images/sprite_logos/anchor_intelligence.png") 0 0 no-repeat;
-}
-/* line 135, ../../stylesheets/partials/_practice-area.sass */
-#logo_content .content_setup .anchor_intelligence:hover {
-  background: #cccccc url("../images/sprite_logos/anchor_intelligence.png") 0 bottom no-repeat;
-}
-/* line 137, ../../stylesheets/partials/_practice-area.sass */
-#logo_content .content_setup .aol {
-  background: #cccccc url("../images/sprite_logos/aol.png") 0 0 no-repeat;
-}
-/* line 139, ../../stylesheets/partials/_practice-area.sass */
-#logo_content .content_setup .aol:hover {
-  background: #cccccc url("../images/sprite_logos/aol.png") 0 bottom no-repeat;
-}
-/* line 141, ../../stylesheets/partials/_practice-area.sass */
-#logo_content .content_setup .betfair {
-  background: #cccccc url("../images/sprite_logos/betfair.png") 0 0 no-repeat;
-}
-/* line 143, ../../stylesheets/partials/_practice-area.sass */
-#logo_content .content_setup .betfair:hover {
-  background: #cccccc url("../images/sprite_logos/betfair.png") 0 bottom no-repeat;
 }
 
 /* jQuery UI CSS Framework 1.8.16

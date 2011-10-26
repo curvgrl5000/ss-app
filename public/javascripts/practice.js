@@ -87,8 +87,8 @@ var assets = [
   {company: "PUBMATIC", logo: "pubmatic.png", categories: [5]},
   {company: "QUANTIVO", logo: "quantivo.png", categories: [5]},
   {company: "RAZOO", logo: "razoo.png", categories: [1,5]},
-  {company: "REALNETWORKS", logo: "real_networks.png", categories: [5]},
-  {company: "REPLAY SOLUTIONS", logo: "replay.png", categories: [5]},
+  {company: "REALNETWORKS", logo: "real_networks.png", categories: [1,5]},
+  {company: "REPLAY SOLUTIONS", logo: "replay.png", categories: [1,5]},
   {company: "RETREVO", logo: "retrovo.png", categories: [5]},
   {company: "RHAPSODY NETWORKS", logo: "rhapsody.png", categories: [5]},
   {company: "RINGCUBE", logo: "ringcube.png", categories: [5]},
@@ -98,7 +98,7 @@ var assets = [
   {company: "SKYBOX SECURITY", logo: "skybox.png", categories: [5]},
   {company: "SNAP SHOTS", logo: "snapshots.png", categories: [5]},
   {company: "SNAPVINE", logo: "snapvine.png", categories: [5]},
-  {company: "SOCIALTEXT", logo: "socialtext.png", categories: [5]},
+  {company: "SOCIALTEXT", logo: "socialtext.png", categories: [1,5]},
   {company: "SONGKICK", logo: "songkick.png", categories: [1,5]},
   {company: "SPLUNK", logo: "splunk.png", categories: [5]},
   {company: "SPRINGCM", logo: "springCM.png", categories: [5]},
@@ -108,7 +108,7 @@ var assets = [
   {company: "TAGGED", logo: "tagged.png", categories: [5]},
   {company: "TELEPHIA", logo: "telephia.png", categories: [5]},
   {company: "TEROS", logo: "teros.png", categories: [5]},
-  {company: "TOPSY", logo: "topsy.png", categories: [5]},
+  {company: "TOPSY", logo: "topsy.png", categories: [1,5]},
   {company: "TOTAL DEFENSE", logo: "total_defense.png", categories: [5]},
   {company: "TURN", logo: "turn.png", categories: [5]},
   {company: "UNTANGLE", logo: "untangle.png", categories: [5]},
@@ -145,8 +145,8 @@ return {
   },
   
   // look inside the assets for companies with the right category, and get that from start up to max
-  getCompanies : function (start, max) {
-    var companies = this.filterByCategory(5);
+  getCompanies : function (category, start, max) {
+    var companies = this.filterByCategory(category);
     if(start+max > companies.length) {
       console.log("we are asking for too many companies here ", start, max, companies.length);
     }
@@ -161,7 +161,7 @@ return {
     var max = Vantage.practice.getNumCompaniesPerColumn(); // we know how many companies we want per column now... 
     var clients = $(".clients", "#logo_content");
     _.each(clients, function(client, idx){
-      var sublist = Vantage.practice.getCompanies(max*(idx), max);
+      var sublist = Vantage.practice.getCompanies(5, max*(idx), max);
       _.each(sublist, function(list){
         $("<p>",{
           text: list.company
@@ -170,12 +170,62 @@ return {
     });
   } 
   
+  // any company that gets the category == 1 will be rendered here. 
+  // they can be randomly shown or alphabetical... or as a luxury, in a user determined ordering...
+  $.renderInternetClients = function(ordering, page) {
+    var setup = (ordering)? ordering : 'alphabetical';
+    var curr_page = (page)? page : 1;
+    var ROWS = 3;
+    var internet = Vantage.practice.filterByCategory(1);
+    // we have 12 squares to fill... even if they are blank, we will render 3x a grid of 4... and then some... using paging. 
+    // assume for now that internet contains up to 12 Internet client, so let's render their logos now...
+    for(var i = 0, len = ROWS; i < len; i++) {
+      // stamp out a template of 4 logos, or less.. depending on where we are in the array
+      var logos = internet.splice(0,4);
+      _.each(logos, function(logo,idx){
+         if(logo){
+           var style = "background: #cccccc url(/images/sprite_logos/"+logo.logo+") 0 0 no-repeat;"; 
+           var klass = "logo-column";
+           if(!idx) {
+             klass += " alpha";
+           } else if(idx == 3){
+             klass += " omega";
+           }
+           $("<div>",{
+             "class": klass,
+             style: style
+           }).appendTo("#internet");
+         } else {
+           var klass = "logo-column";
+           var style = "background-color: #cccccc";
+           if(!idx) {
+             klass += "alpha";
+           } else if (idx == 3){
+             klass += "omega";
+           }
+           $("<div>",{
+             "class": klass,
+             style: style
+            }).appendTo("#internet");
+         }
+         if(idx == 3) {
+           $("<div>",{
+              "class": "spacer"
+           }).appendTo("#internet");
+         }
+      });
+    }
+  }
+  
+  
 })(jQuery);
 
 $(function(){
   
   if($("#tabs")[0]) {
     $("#tabs").tabs();
+    // initially setup the internet tab...
+    $.renderInternetClients();
   } 
   
   $('#tabs').bind('tabsselect', function(event, ui) {
