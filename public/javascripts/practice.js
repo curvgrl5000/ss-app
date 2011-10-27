@@ -72,7 +72,7 @@ var assets = [
   {company: "MICROSOFT", name: "microsoft", categories: [5]},
   {company: "M!NDFLASH", name: "mindflash", categories: [5]},
   {company: "MOKAFIVE", name: "mokafive", categories: [5]},
-  {company: "MSN", name: "msn", categories: [1,5]},
+  {company: "MSN", name: "msn", categories: [5]},
   {company: "NEARBY NOW", name: "nearby_now", categories: [5]},
   {company: "NEOSCALE", name: "neoscale", categories: [5]},
   {company: "NETLI", name: "netli", categories: [5]},
@@ -176,12 +176,15 @@ return {
     var setup = (ordering)? ordering : 'alphabetical';
     var curr_page = (page)? page : 1;
     var ROWS = 3;
+    var COLS = 4;
     var internet = Vantage.practice.filterByCategory(1);
     // we have 12 squares to fill... even if they are blank, we will render 3x a grid of 4... and then some... using paging. 
     // assume for now that internet contains up to 12 Internet client, so let's render their logos now...
     for(var i = 0, len = ROWS; i < len; i++) {
       // stamp out a template of 4 logos, or less.. depending on where we are in the array
-      var logos = internet.splice(0,4);
+      var logos = internet.splice(0,COLS);
+      var blanks = COLS - logos.length;
+      console.log("We received %d logos, we need %d blanks", logos.length, blanks);      
       _.each(logos, function(logo,idx){
         var klass = logo.name;
         var margin = (!idx)? "alpha" : "";
@@ -195,6 +198,18 @@ return {
            }).appendTo("#internet");
          }
       });
+      
+      if(blanks) {
+        for(var i = 0, len = blanks; i < blanks; i++) {
+          var margin = (!i && blanks == COLS)? "alpha" : null;
+          if(!margin){
+            margin = (i == (len-1))? "omega" : "";  
+          }
+          $("#logoTemplate").tmpl({klass: "", margin: margin, href: "#", title: "", name: ""}).appendTo("#internet");
+        }
+      }
+      
+      
     }
   }
   

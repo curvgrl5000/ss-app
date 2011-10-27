@@ -8,6 +8,8 @@ GEM
       chunky_png (~> 1.2)
       fssm (>= 0.2.7)
       sass (~> 3.1)
+    compass-960-plugin (0.10.4)
+      compass (>= 0.10.0)
     compass-growl (0.0.5)
       compass (~> 0.11.1)
       growl_notify
@@ -37,6 +39,7 @@ PLATFORMS
 
 DEPENDENCIES
   compass
+  compass-960-plugin
   compass-growl
   haml
   serve (= 1.5.1)

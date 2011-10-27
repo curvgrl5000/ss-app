@@ -9,6 +9,7 @@ gem 'serve', '1.5.1'
 group :development do
   gem 'compass'
   gem 'compass-growl'
+  gem 'compass-960-plugin'
   #gem 'mongrel'
 end
 
