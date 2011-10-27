@@ -13,12 +13,9 @@
       .righthalf
         .recent
           %h2.right Recent Searches Here
-          %img{:src => "../images/hp_lrglogo_oracle.png", :alt => "Oracle"}/
+          #recent_logo
           %img{:src => "../images/dots.png", :alt => "dots"}/
-          %p.stock_ticker NASDAQ (ORCL)
-          %p.cto CTO, Fusion Middleware
-          %p.vantage_partner
-            %a{:href => "#"} Tom Callahan
+          #recent_details
     .divider
     
 #logo_content
@@ -57,5 +54,13 @@
         <a href="${href}" title="${title}">${name}</a>
       </div>
     </div>  
+  </script>
+   
+  <script id="recentTemplate" type="text/x-jquery-tmpl">          
+    <p class="stock_ticker">${ticker}</p>
+    <p class="cto">${cto}</p>
+    <p class="vantage_partner">
+      <a href="${url}" title="${partner}">${partner}</a>
+    </p>
   </script>
           

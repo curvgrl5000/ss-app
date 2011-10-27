@@ -1440,6 +1440,11 @@ h2.master {
   margin: 20px 20px 0 0;
 }
 /* line 49, ../../stylesheets/partials/_practice-area.sass */
+#practice-area .content_setup .recent #recent_logo {
+  width: 190px;
+  height: 85px;
+}
+/* line 52, ../../stylesheets/partials/_practice-area.sass */
 #practice-area .content_setup .divider {
   display: inline;
   float: left;
@@ -1451,13 +1456,13 @@ h2.master {
   height: 39px;
   background: white url("../images/slidedeck-home-images/divider-graphic-a.png") no-repeat 0 0;
 }
-/* line 55, ../../stylesheets/partials/_practice-area.sass */
+/* line 58, ../../stylesheets/partials/_practice-area.sass */
 #practice-area .content_setup p.insight {
   font: italic normal normal 1.06em/1.7em Georgia, Times sans-serif;
   letter-spacing: 0.03em;
   color: #5f6a72;
 }
-/* line 59, ../../stylesheets/partials/_practice-area.sass */
+/* line 62, ../../stylesheets/partials/_practice-area.sass */
 #practice-area .content_setup .left-grid {
   display: inline;
   float: left;
@@ -1468,7 +1473,7 @@ h2.master {
   background: #ced3d9 url("../images/small_icon.png") 0 0 no-repeat;
   height: 100%;
 }
-/* line 64, ../../stylesheets/partials/_practice-area.sass */
+/* line 67, ../../stylesheets/partials/_practice-area.sass */
 #practice-area .content_setup .right-grid {
   display: inline;
   float: left;
@@ -1477,7 +1482,7 @@ h2.master {
   width: 790px;
   margin-right: 0;
 }
-/* line 67, ../../stylesheets/partials/_practice-area.sass */
+/* line 70, ../../stylesheets/partials/_practice-area.sass */
 #practice-area .content_setup .right-grid .lefthalf {
   display: inline;
   float: left;
@@ -1486,7 +1491,7 @@ h2.master {
   width: 390px;
   margin-left: 0;
 }
-/* line 70, ../../stylesheets/partials/_practice-area.sass */
+/* line 73, ../../stylesheets/partials/_practice-area.sass */
 #practice-area .content_setup .right-grid .righthalf {
   display: inline;
   float: left;
@@ -1496,12 +1501,12 @@ h2.master {
   margin-right: 0;
 }
 
-/* line 75, ../../stylesheets/partials/_practice-area.sass */
+/* line 78, ../../stylesheets/partials/_practice-area.sass */
 #logo_content .content_setup, #practice-area .content_setup {
   background-color: white;
 }
 
-/* line 78, ../../stylesheets/partials/_practice-area.sass */
+/* line 81, ../../stylesheets/partials/_practice-area.sass */
 #logo_content {
   display: inline;
   float: left;
@@ -1512,13 +1517,13 @@ h2.master {
   padding-right: 40px;
   margin-top: 30px;
 }
-/* line 83, ../../stylesheets/partials/_practice-area.sass */
+/* line 86, ../../stylesheets/partials/_practice-area.sass */
 #logo_content .content_setup {
   margin-bottom: 30px;
   height: 800px;
   background: #a9b2ba url("../images/main-bkgrnd.png") 0 0 no-repeat;
 }
-/* line 87, ../../stylesheets/partials/_practice-area.sass */
+/* line 90, ../../stylesheets/partials/_practice-area.sass */
 #logo_content .content_setup .ct {
   display: inline;
   float: left;
@@ -1529,28 +1534,28 @@ h2.master {
   padding-right: 40px;
   margin: 30px 0 0 0;
 }
-/* line 92, ../../stylesheets/partials/_practice-area.sass */
+/* line 95, ../../stylesheets/partials/_practice-area.sass */
 #logo_content .content_setup .ct h2 {
   font: normal normal 600 1.6em Arial, sans-serif;
   letter-spacing: 0.11em;
   color: #f37421;
 }
-/* line 96, ../../stylesheets/partials/_practice-area.sass */
+/* line 99, ../../stylesheets/partials/_practice-area.sass */
 #logo_content .content_setup .ct h3 {
   font: normal normal normal 1.9em Dante MT sans-serif;
   color: #5d87a1;
   margin: 14px 0;
 }
-/* line 100, ../../stylesheets/partials/_practice-area.sass */
+/* line 103, ../../stylesheets/partials/_practice-area.sass */
 #logo_content .content_setup .ct p {
   font: normal normal normal 1.35em/1.85em Georgia, Times, serif;
   color: #2f404c;
 }
-/* line 104, ../../stylesheets/partials/_practice-area.sass */
+/* line 107, ../../stylesheets/partials/_practice-area.sass */
 #logo_content .content_setup .ct #client-portfolio {
   margin-top: 20px;
 }
-/* line 106, ../../stylesheets/partials/_practice-area.sass */
+/* line 109, ../../stylesheets/partials/_practice-area.sass */
 #logo_content .content_setup .ct #client-portfolio .clients {
   display: inline;
   float: left;
@@ -1558,24 +1563,24 @@ h2.master {
   margin-right: 5px;
   width: 150px;
 }
-/* line 108, ../../stylesheets/partials/_practice-area.sass */
+/* line 111, ../../stylesheets/partials/_practice-area.sass */
 #logo_content .content_setup .ct #client-portfolio .clients p {
   font: normal normal normal 0.8em "Neue Helvetica" Arial sans-serif;
   color: #5d87a1;
 }
-/* line 111, ../../stylesheets/partials/_practice-area.sass */
+/* line 114, ../../stylesheets/partials/_practice-area.sass */
 #logo_content .content_setup .ct #client-portfolio .alpha {
   margin-left: 0;
 }
-/* line 113, ../../stylesheets/partials/_practice-area.sass */
+/* line 116, ../../stylesheets/partials/_practice-area.sass */
 #logo_content .content_setup .ct #client-portfolio .omega {
   margin-right: 0;
 }
-/* line 115, ../../stylesheets/partials/_practice-area.sass */
+/* line 118, ../../stylesheets/partials/_practice-area.sass */
 #logo_content .content_setup .ct #internet, #logo_content .content_setup .ct #software-services, #logo_content .content_setup .ct #mobile-wireless, #logo_content .content_setup .ct #clean-tech {
   margin-top: 20px;
 }
-/* line 117, ../../stylesheets/partials/_practice-area.sass */
+/* line 120, ../../stylesheets/partials/_practice-area.sass */
 #logo_content .content_setup .ct #internet .spacer, #logo_content .content_setup .ct #software-services .spacer, #logo_content .content_setup .ct #mobile-wireless .spacer, #logo_content .content_setup .ct #clean-tech .spacer {
   display: inline;
   float: left;
@@ -1584,7 +1589,7 @@ h2.master {
   width: 790px;
   height: 10px;
 }
-/* line 120, ../../stylesheets/partials/_practice-area.sass */
+/* line 123, ../../stylesheets/partials/_practice-area.sass */
 #logo_content .content_setup .ct #internet .logo-background, #logo_content .content_setup .ct #software-services .logo-background, #logo_content .content_setup .ct #mobile-wireless .logo-background, #logo_content .content_setup .ct #clean-tech .logo-background {
   display: inline;
   float: left;
@@ -1595,7 +1600,7 @@ h2.master {
   height: 85px;
   box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1);
 }
-/* line 125, ../../stylesheets/partials/_practice-area.sass */
+/* line 128, ../../stylesheets/partials/_practice-area.sass */
 #logo_content .content_setup .ct #internet .logo-column, #logo_content .content_setup .ct #software-services .logo-column, #logo_content .content_setup .ct #mobile-wireless .logo-column, #logo_content .content_setup .ct #clean-tech .logo-column {
   display: inline;
   float: left;
@@ -1606,11 +1611,11 @@ h2.master {
   text-decoration: none;
   text-indent: -10000px;
 }
-/* line 130, ../../stylesheets/partials/_practice-area.sass */
+/* line 133, ../../stylesheets/partials/_practice-area.sass */
 #logo_content .content_setup .ct #internet .alpha, #logo_content .content_setup .ct #software-services .alpha, #logo_content .content_setup .ct #mobile-wireless .alpha, #logo_content .content_setup .ct #clean-tech .alpha {
   margin-left: 0;
 }
-/* line 132, ../../stylesheets/partials/_practice-area.sass */
+/* line 135, ../../stylesheets/partials/_practice-area.sass */
 #logo_content .content_setup .ct #internet .omega, #logo_content .content_setup .ct #software-services .omega, #logo_content .content_setup .ct #mobile-wireless .omega, #logo_content .content_setup .ct #clean-tech .omega {
   margin-right: 0;
 }
