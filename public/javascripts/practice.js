@@ -184,18 +184,9 @@ return {
     var ROWS = 3;
     var COLS = 4;
     var internet = Vantage.practice.filterByCategory(category);
-    console.log("rendering category %s, %d", id, category);
     for(var i = 0, len = ROWS; i < len; i++) {
-      console.log("iteration %d of %d", i, len);
-      if(internet) {
-        console.log("internet ", internet);
-      } else {
-        internet = [];
-      }
       var logos = internet.splice(0,COLS);
-      console.log("Logos ", logos);
       var blanks = COLS - logos.length;
-      console.log("Found %d logos, be needing %d blanks", logos.length, blanks);
       _.each(logos, function(logo,idx){
         var klass = logo.name;
         var margin = (!idx)? "alpha" : "";
@@ -209,17 +200,20 @@ return {
            }).appendTo("#"+id);
          }
       });
-      console.log("checking in on blanks ", blanks);
       if(blanks) {
-        for(var x = 0, len = blanks; x < blanks; x++) {
+        for(var x = 0, xlen = blanks; x < xlen; x++) {
           var margin = (!x && blanks == COLS)? "alpha" : null;
           if(!margin){
-            margin = (x == (len-1))? "omega" : "";  
+            margin = (x == (xlen-1))? "omega" : "";  
           }
           $("#logoTemplate").tmpl({klass: "", margin: margin, href: "#", title: "", name: ""}).appendTo("#"+id);
+          if(margin == "omega") {
+             $("<div>",{
+                "class": "spacer"
+             }).appendTo("#"+id);
+          }
         }
       }
-      console.log("next iterations... ", i);
     }
   }
 })(jQuery);
