@@ -1,4 +1,4 @@
-/* line 17, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/vendor/bundle/ruby/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, /Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,45 +20,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 20, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/vendor/bundle/ruby/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 20, /Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 body {
   line-height: 1;
 }
 
-/* line 22, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/vendor/bundle/ruby/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, /Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 24, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/vendor/bundle/ruby/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, /Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 26, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/vendor/bundle/ruby/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, /Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 28, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/vendor/bundle/ruby/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, /Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 101, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/vendor/bundle/ruby/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 101, /Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 30, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/vendor/bundle/ruby/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, /Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 114, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/vendor/bundle/ruby/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 114, /Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -79,7 +79,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   src: local("../fonts/HelveticaNeueLTW1G-Md"), url(../fonts/HelveticaNeueLTW1G-Md.otf) format("opentype");
 }
 
-/* line 17, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/vendor/bundle/ruby/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, /Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -101,50 +101,50 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 20, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/vendor/bundle/ruby/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 20, /Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 body {
   line-height: 1;
 }
 
-/* line 22, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/vendor/bundle/ruby/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, /Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 24, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/vendor/bundle/ruby/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, /Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 26, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/vendor/bundle/ruby/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, /Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 28, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/vendor/bundle/ruby/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, /Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 101, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/vendor/bundle/ruby/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 101, /Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 30, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/vendor/bundle/ruby/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, /Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 114, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/vendor/bundle/ruby/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 114, /Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
 
-/* line 114, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/vendor/bundle/ruby/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 114, /Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -1572,11 +1572,11 @@ h2.master {
   margin-right: 0;
 }
 /* line 115, ../../stylesheets/partials/_practice-area.sass */
-#logo_content .content_setup .ct #internet {
+#logo_content .content_setup .ct #internet, #logo_content .content_setup .ct #software-services, #logo_content .content_setup .ct #mobile-wireless, #logo_content .content_setup .ct #clean-tech {
   margin-top: 20px;
 }
 /* line 117, ../../stylesheets/partials/_practice-area.sass */
-#logo_content .content_setup .ct #internet .spacer {
+#logo_content .content_setup .ct #internet .spacer, #logo_content .content_setup .ct #software-services .spacer, #logo_content .content_setup .ct #mobile-wireless .spacer, #logo_content .content_setup .ct #clean-tech .spacer {
   display: inline;
   float: left;
   margin-left: 5px;
@@ -1585,7 +1585,7 @@ h2.master {
   height: 10px;
 }
 /* line 120, ../../stylesheets/partials/_practice-area.sass */
-#logo_content .content_setup .ct #internet .logo-background {
+#logo_content .content_setup .ct #internet .logo-background, #logo_content .content_setup .ct #software-services .logo-background, #logo_content .content_setup .ct #mobile-wireless .logo-background, #logo_content .content_setup .ct #clean-tech .logo-background {
   display: inline;
   float: left;
   margin-left: 5px;
@@ -1596,7 +1596,7 @@ h2.master {
   box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1);
 }
 /* line 125, ../../stylesheets/partials/_practice-area.sass */
-#logo_content .content_setup .ct #internet .logo-column {
+#logo_content .content_setup .ct #internet .logo-column, #logo_content .content_setup .ct #software-services .logo-column, #logo_content .content_setup .ct #mobile-wireless .logo-column, #logo_content .content_setup .ct #clean-tech .logo-column {
   display: inline;
   float: left;
   margin-left: 5px;
@@ -1607,11 +1607,11 @@ h2.master {
   text-indent: -10000px;
 }
 /* line 130, ../../stylesheets/partials/_practice-area.sass */
-#logo_content .content_setup .ct #internet .alpha {
+#logo_content .content_setup .ct #internet .alpha, #logo_content .content_setup .ct #software-services .alpha, #logo_content .content_setup .ct #mobile-wireless .alpha, #logo_content .content_setup .ct #clean-tech .alpha {
   margin-left: 0;
 }
 /* line 132, ../../stylesheets/partials/_practice-area.sass */
-#logo_content .content_setup .ct #internet .omega {
+#logo_content .content_setup .ct #internet .omega, #logo_content .content_setup .ct #software-services .omega, #logo_content .content_setup .ct #mobile-wireless .omega, #logo_content .content_setup .ct #clean-tech .omega {
   margin-right: 0;
 }
 

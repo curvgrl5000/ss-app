@@ -4,15 +4,17 @@ if(!Vantage) {
 
 Vantage.practice = function () { 
 
-var keys = {
-  "internet": 1,
-  "software": 2,
-  "mobile": 3,
-  "cleantech": 4,
-  "clients": 5
-}
+var keys = [
+  {name: "internet", value: 1},
+  {name: "software-services", value: 2},
+  {name: "mobile-wireless", value: 3},
+  {name: "clean-tech", value: 4},
+  {name: "client-portfolio", value: 5}
+]
 
 var PORTFOLIO_COLUMNS = 5;
+var ROWS = 3;
+var COLS = 4;
 
 var assets = [
   {company: "10GEN", name: "ten_gen", categories: [5]},
@@ -130,6 +132,10 @@ var assets = [
 // return some functions that do things like sort, filter, etc. on these things.
 return {
   
+  getKeys : function () {
+    return keys;
+  },
+  
   getAssets : function() {
     return assets;
   },
@@ -172,66 +178,64 @@ return {
   
   // any company that gets the category == 1 will be rendered here. 
   // they can be randomly shown or alphabetical... or as a luxury, in a user determined ordering...
-  $.renderInternetClients = function(ordering, page) {
+  $.renderClientLogos = function(id, category, ordering, page) {
     var setup = (ordering)? ordering : 'alphabetical';
     var curr_page = (page)? page : 1;
     var ROWS = 3;
     var COLS = 4;
-    var internet = Vantage.practice.filterByCategory(1);
-    // we have 12 squares to fill... even if they are blank, we will render 3x a grid of 4... and then some... using paging. 
-    // assume for now that internet contains up to 12 Internet client, so let's render their logos now...
+    var internet = Vantage.practice.filterByCategory(category);
+    console.log("rendering category %s, %d", id, category);
     for(var i = 0, len = ROWS; i < len; i++) {
-      // stamp out a template of 4 logos, or less.. depending on where we are in the array
+      console.log("iteration %d of %d", i, len);
+      if(internet) {
+        console.log("internet ", internet);
+      } else {
+        internet = [];
+      }
       var logos = internet.splice(0,COLS);
+      console.log("Logos ", logos);
       var blanks = COLS - logos.length;
-      console.log("We received %d logos, we need %d blanks", logos.length, blanks);      
+      console.log("Found %d logos, be needing %d blanks", logos.length, blanks);
       _.each(logos, function(logo,idx){
         var klass = logo.name;
         var margin = (!idx)? "alpha" : "";
         if(!margin){
           margin = (idx == 3)? "omega" : "";  
         }
-        $("#logoTemplate").tmpl({klass: klass, margin: margin, href: "#"+logo.name, title: logo.name, name: logo.company}).appendTo("#internet");
+        $("#logoTemplate").tmpl({klass: klass, margin: margin, href: "#"+logo.name, title: logo.name, name: logo.company}).appendTo("#"+id);
          if(idx == 3) {
            $("<div>",{
               "class": "spacer"
-           }).appendTo("#internet");
+           }).appendTo("#"+id);
          }
       });
-      
+      console.log("checking in on blanks ", blanks);
       if(blanks) {
-        for(var i = 0, len = blanks; i < blanks; i++) {
-          var margin = (!i && blanks == COLS)? "alpha" : null;
+        for(var x = 0, len = blanks; x < blanks; x++) {
+          var margin = (!x && blanks == COLS)? "alpha" : null;
           if(!margin){
-            margin = (i == (len-1))? "omega" : "";  
+            margin = (x == (len-1))? "omega" : "";  
           }
-          $("#logoTemplate").tmpl({klass: "", margin: margin, href: "#", title: "", name: ""}).appendTo("#internet");
+          $("#logoTemplate").tmpl({klass: "", margin: margin, href: "#", title: "", name: ""}).appendTo("#"+id);
         }
       }
-      
-      
+      console.log("next iterations... ", i);
     }
   }
-  
-  
 })(jQuery);
 
 $(function(){
-  
   if($("#tabs")[0]) {
     $("#tabs").tabs();
-    // initially setup the internet tab...
-    $.renderInternetClients();
-  } 
-  
-  $('#tabs').bind('tabsselect', function(event, ui) {
-      //ui.tab     // anchor element of the selected (clicked) tab
-      //ui.panel   // element, that contains the selected/clicked tab contents
-      //ui.index   // zero-based index of the selected (clicked) tab
-      if(ui.index == 4) {
-        $.renderClientPortfolio();
+    var keys = Vantage.practice.getKeys();
+    _.each(keys, function(k){
+      if(k.name != "client-portfolio") {
+        $.renderClientLogos(k.name, k.value);
+      } else {
+        $.renderClientPortfolio(); 
       }
+    });
+  } 
+  $('#tabs').bind('tabsselect', function(event, ui) {
   });
-  
-    
 }); 
