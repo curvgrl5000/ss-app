@@ -285,10 +285,8 @@ $(function(){
     if(!rel) {return false;}
     if(Vantage.utils.getCurrentTVSlide() == 'home') {
       $("dd#home").fadeOut('slow', function() {
-        console.log("Fading out home page...");
         if(rel) {
           var t = Vantage.utils.getTemplate(rel);
-          console.log("switching in a new slide now...");
           switch_slide(rel);
         }
       });  

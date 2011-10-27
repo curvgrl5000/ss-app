@@ -1585,6 +1585,17 @@ h2.master {
   height: 10px;
 }
 /* line 120, ../../stylesheets/partials/_practice-area.sass */
+#logo_content .content_setup .ct #internet .logo-background {
+  display: inline;
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 190px;
+  background: url(../images/sprite_logos/logo_grid_bkgrnd.png) 0 0 no-repeat;
+  height: 85px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+/* line 125, ../../stylesheets/partials/_practice-area.sass */
 #logo_content .content_setup .ct #internet .logo-column {
   display: inline;
   float: left;
@@ -1594,45 +1605,12 @@ h2.master {
   height: 85px;
   text-decoration: none;
   text-indent: -10000px;
-  box-shadow: 0 0 7px 5px rgba(0, 0, 0, 0.1);
-}
-/* line 126, ../../stylesheets/partials/_practice-area.sass */
-#logo_content .content_setup .ct #internet div.adchemy {
-  background: #cccccc url("../images/sprite_logos/adchemy.png") 0 0 no-repeat;
-}
-/* line 128, ../../stylesheets/partials/_practice-area.sass */
-#logo_content .content_setup .ct #internet div.adchemy:hover {
-  background: #cccccc url("../images/sprite_logos/adchemy.png") 0 bottom no-repeat;
 }
 /* line 130, ../../stylesheets/partials/_practice-area.sass */
-#logo_content .content_setup .ct #internet div.anchor_intelligence {
-  background: #cccccc url("../images/sprite_logos/anchor_intelligence.png") 0 0 no-repeat;
-}
-/* line 132, ../../stylesheets/partials/_practice-area.sass */
-#logo_content .content_setup .ct #internet div.anchor_intelligence:hover {
-  background: #cccccc url("../images/sprite_logos/anchor_intelligence.png") 0 bottom no-repeat;
-}
-/* line 134, ../../stylesheets/partials/_practice-area.sass */
-#logo_content .content_setup .ct #internet div.aol {
-  background: #cccccc url("../images/sprite_logos/aol.png") 0 0 no-repeat;
-}
-/* line 136, ../../stylesheets/partials/_practice-area.sass */
-#logo_content .content_setup .ct #internet div.aol:hover {
-  background: #cccccc url("../images/sprite_logos/aol.png") 0 bottom no-repeat;
-}
-/* line 138, ../../stylesheets/partials/_practice-area.sass */
-#logo_content .content_setup .ct #internet div.betfair {
-  background: #cccccc url("../images/sprite_logos/betfair.png") 0 0 no-repeat;
-}
-/* line 140, ../../stylesheets/partials/_practice-area.sass */
-#logo_content .content_setup .ct #internet div.betfair:hover {
-  background: #cccccc url("../images/sprite_logos/betfair.png") 0 bottom no-repeat;
-}
-/* line 142, ../../stylesheets/partials/_practice-area.sass */
 #logo_content .content_setup .ct #internet .alpha {
   margin-left: 0;
 }
-/* line 144, ../../stylesheets/partials/_practice-area.sass */
+/* line 132, ../../stylesheets/partials/_practice-area.sass */
 #logo_content .content_setup .ct #internet .omega {
   margin-right: 0;
 }
@@ -3705,4 +3683,994 @@ button.ui-button::-moz-focus-inner {
 .ui-progressbar .ui-progressbar-value {
   margin: -1px;
   height: 100%;
+}
+
+/* line 1, ../../stylesheets/partials/_logos.sass */
+.ten_gen {
+  background: transparent url("../images/sprite_logos/10gen.png") 0 0 no-repeat;
+}
+/* line 3, ../../stylesheets/partials/_logos.sass */
+.ten_gen:hover {
+  background: transparent url("../images/sprite_logos/10gen.png") 0 bottom no-repeat;
+}
+
+/* line 5, ../../stylesheets/partials/_logos.sass */
+.adchemy {
+  background: transparent url("../images/sprite_logos/adchemy.png") 0 0 no-repeat;
+}
+/* line 7, ../../stylesheets/partials/_logos.sass */
+.adchemy:hover {
+  background: transparent url("../images/sprite_logos/adchemy.png") 0 bottom no-repeat;
+}
+
+/* line 9, ../../stylesheets/partials/_logos.sass */
+.agiliance {
+  background: transparent url("../images/sprite_logos/agiliance.png") 0 0 no-repeat;
+}
+/* line 11, ../../stylesheets/partials/_logos.sass */
+.agiliance:hover {
+  background: transparent url("../images/sprite_logos/agiliance.png") 0 bottom no-repeat;
+}
+
+/* line 13, ../../stylesheets/partials/_logos.sass */
+.amitive {
+  background: transparent url("../images/sprite_logos/amitive.png") 0 0 no-repeat;
+}
+/* line 15, ../../stylesheets/partials/_logos.sass */
+.amitive:hover {
+  background: transparent url("../images/sprite_logos/amitive.png") 0 bottom no-repeat;
+}
+
+/* line 17, ../../stylesheets/partials/_logos.sass */
+.anchor_intelligence {
+  background: transparent url("../images/sprite_logos/anchor_intelligence.png") 0 0 no-repeat;
+}
+/* line 19, ../../stylesheets/partials/_logos.sass */
+.anchor_intelligence:hover {
+  background: transparent url("../images/sprite_logos/anchor_intelligence.png") 0 bottom no-repeat;
+}
+
+/* line 21, ../../stylesheets/partials/_logos.sass */
+.announce_media {
+  background: transparent url("../images/sprite_logos/announce_media.png") 0 0 no-repeat;
+}
+/* line 23, ../../stylesheets/partials/_logos.sass */
+.announce_media:hover {
+  background: transparent url("../images/sprite_logos/announce_media.png") 0 bottom no-repeat;
+}
+
+/* line 25, ../../stylesheets/partials/_logos.sass */
+.aol {
+  background: transparent url("../images/sprite_logos/aol.png") 0 0 no-repeat;
+}
+/* line 27, ../../stylesheets/partials/_logos.sass */
+.aol:hover {
+  background: transparent url("../images/sprite_logos/aol.png") 0 bottom no-repeat;
+}
+
+/* line 29, ../../stylesheets/partials/_logos.sass */
+.aptera {
+  background: transparent url("../images/sprite_logos/aptera.png") 0 0 no-repeat;
+}
+/* line 31, ../../stylesheets/partials/_logos.sass */
+.aptera:hover {
+  background: transparent url("../images/sprite_logos/aptera.png") 0 bottom no-repeat;
+}
+
+/* line 33, ../../stylesheets/partials/_logos.sass */
+.bea {
+  background: transparent url("../images/sprite_logos/bea.png") 0 0 no-repeat;
+}
+/* line 35, ../../stylesheets/partials/_logos.sass */
+.bea:hover {
+  background: transparent url("../images/sprite_logos/bea.png") 0 bottom no-repeat;
+}
+
+/* line 37, ../../stylesheets/partials/_logos.sass */
+.betfair {
+  background: transparent url("../images/sprite_logos/betfair.png") 0 0 no-repeat;
+}
+/* line 39, ../../stylesheets/partials/_logos.sass */
+.betfair:hover {
+  background: transparent url("../images/sprite_logos/betfair.png") 0 bottom no-repeat;
+}
+
+/* line 41, ../../stylesheets/partials/_logos.sass */
+.bloom_energy {
+  background: transparent url("../images/sprite_logos/bloom_energy.png") 0 0 no-repeat;
+}
+/* line 43, ../../stylesheets/partials/_logos.sass */
+.bloom_energy:hover {
+  background: transparent url("../images/sprite_logos/bloom_energy.png") 0 bottom no-repeat;
+}
+
+/* line 45, ../../stylesheets/partials/_logos.sass */
+.blue_roads {
+  background: transparent url("../images/sprite_logos/blue_roads.png") 0 0 no-repeat;
+}
+/* line 47, ../../stylesheets/partials/_logos.sass */
+.blue_roads:hover {
+  background: transparent url("../images/sprite_logos/blue_roads.png") 0 bottom no-repeat;
+}
+
+/* line 49, ../../stylesheets/partials/_logos.sass */
+.boomi {
+  background: transparent url("../images/sprite_logos/boomi.png") 0 0 no-repeat;
+}
+/* line 51, ../../stylesheets/partials/_logos.sass */
+.boomi:hover {
+  background: transparent url("../images/sprite_logos/boomi.png") 0 bottom no-repeat;
+}
+
+/* line 53, ../../stylesheets/partials/_logos.sass */
+.cake {
+  background: transparent url("../images/sprite_logos/cake.png") 0 0 no-repeat;
+}
+/* line 55, ../../stylesheets/partials/_logos.sass */
+.cake:hover {
+  background: transparent url("../images/sprite_logos/cake.png") 0 bottom no-repeat;
+}
+
+/* line 57, ../../stylesheets/partials/_logos.sass */
+.click_forensics {
+  background: transparent url("../images/sprite_logos/click_forensics.png") 0 0 no-repeat;
+}
+/* line 59, ../../stylesheets/partials/_logos.sass */
+.click_forensics:hover {
+  background: transparent url("../images/sprite_logos/click_forensics.png") 0 bottom no-repeat;
+}
+
+/* line 61, ../../stylesheets/partials/_logos.sass */
+.copan {
+  background: transparent url("../images/sprite_logos/copan.png") 0 0 no-repeat;
+}
+/* line 63, ../../stylesheets/partials/_logos.sass */
+.copan:hover {
+  background: transparent url("../images/sprite_logos/copan.png") 0 bottom no-repeat;
+}
+
+/* line 65, ../../stylesheets/partials/_logos.sass */
+.corner_stone {
+  background: transparent url("../images/sprite_logos/corner_stone.png") 0 0 no-repeat;
+}
+/* line 67, ../../stylesheets/partials/_logos.sass */
+.corner_stone:hover {
+  background: transparent url("../images/sprite_logos/corner_stone.png") 0 bottom no-repeat;
+}
+
+/* line 69, ../../stylesheets/partials/_logos.sass */
+.course_smart {
+  background: transparent url("../images/sprite_logos/course_smart.png") 0 0 no-repeat;
+}
+/* line 71, ../../stylesheets/partials/_logos.sass */
+.course_smart:hover {
+  background: transparent url("../images/sprite_logos/course_smart.png") 0 bottom no-repeat;
+}
+
+/* line 73, ../../stylesheets/partials/_logos.sass */
+.criteo {
+  background: transparent url("../images/sprite_logos/criteo.png") 0 0 no-repeat;
+}
+/* line 75, ../../stylesheets/partials/_logos.sass */
+.criteo:hover {
+  background: transparent url("../images/sprite_logos/criteo.png") 0 bottom no-repeat;
+}
+
+/* line 77, ../../stylesheets/partials/_logos.sass */
+.crowdcast {
+  background: transparent url("../images/sprite_logos/crowdcast.png") 0 0 no-repeat;
+}
+/* line 79, ../../stylesheets/partials/_logos.sass */
+.crowdcast:hover {
+  background: transparent url("../images/sprite_logos/crowdcast.png") 0 bottom no-repeat;
+}
+
+/* line 81, ../../stylesheets/partials/_logos.sass */
+.daintree {
+  background: transparent url("../images/sprite_logos/daintree.png") 0 0 no-repeat;
+}
+/* line 83, ../../stylesheets/partials/_logos.sass */
+.daintree:hover {
+  background: transparent url("../images/sprite_logos/daintree.png") 0 bottom no-repeat;
+}
+
+/* line 85, ../../stylesheets/partials/_logos.sass */
+.daptiv {
+  background: transparent url("../images/sprite_logos/daptiv.png") 0 0 no-repeat;
+}
+/* line 87, ../../stylesheets/partials/_logos.sass */
+.daptiv:hover {
+  background: transparent url("../images/sprite_logos/daptiv.png") 0 bottom no-repeat;
+}
+
+/* line 89, ../../stylesheets/partials/_logos.sass */
+.ebates {
+  background: transparent url("../images/sprite_logos/ebates.png") 0 0 no-repeat;
+}
+/* line 91, ../../stylesheets/partials/_logos.sass */
+.ebates:hover {
+  background: transparent url("../images/sprite_logos/ebates.png") 0 bottom no-repeat;
+}
+
+/* line 93, ../../stylesheets/partials/_logos.sass */
+.emsense {
+  background: transparent url("../images/sprite_logos/emsense.png") 0 0 no-repeat;
+}
+/* line 95, ../../stylesheets/partials/_logos.sass */
+.emsense:hover {
+  background: transparent url("../images/sprite_logos/emsense.png") 0 bottom no-repeat;
+}
+
+/* line 97, ../../stylesheets/partials/_logos.sass */
+.everyone {
+  background: transparent url("../images/sprite_logos/everyone.png") 0 0 no-repeat;
+}
+/* line 99, ../../stylesheets/partials/_logos.sass */
+.everyone:hover {
+  background: transparent url("../images/sprite_logos/everyone.png") 0 bottom no-repeat;
+}
+
+/* line 101, ../../stylesheets/partials/_logos.sass */
+.facetime {
+  background: transparent url("../images/sprite_logos/facetime.png") 0 0 no-repeat;
+}
+/* line 103, ../../stylesheets/partials/_logos.sass */
+.facetime:hover {
+  background: transparent url("../images/sprite_logos/facetime.png") 0 bottom no-repeat;
+}
+
+/* line 105, ../../stylesheets/partials/_logos.sass */
+.fansnap {
+  background: transparent url("../images/sprite_logos/fansnap.png") 0 0 no-repeat;
+}
+/* line 107, ../../stylesheets/partials/_logos.sass */
+.fansnap:hover {
+  background: transparent url("../images/sprite_logos/fansnap.png") 0 bottom no-repeat;
+}
+
+/* line 109, ../../stylesheets/partials/_logos.sass */
+.fireeye {
+  background: transparent url("../images/sprite_logos/fireeye.png") 0 0 no-repeat;
+}
+/* line 111, ../../stylesheets/partials/_logos.sass */
+.fireeye:hover {
+  background: transparent url("../images/sprite_logos/fireeye.png") 0 bottom no-repeat;
+}
+
+/* line 113, ../../stylesheets/partials/_logos.sass */
+.funambol {
+  background: transparent url("../images/sprite_logos/funambol.png") 0 0 no-repeat;
+}
+/* line 115, ../../stylesheets/partials/_logos.sass */
+.funambol:hover {
+  background: transparent url("../images/sprite_logos/funambol.png") 0 bottom no-repeat;
+}
+
+/* line 117, ../../stylesheets/partials/_logos.sass */
+.genius {
+  background: transparent url("../images/sprite_logos/genius.png") 0 0 no-repeat;
+}
+/* line 119, ../../stylesheets/partials/_logos.sass */
+.genius:hover {
+  background: transparent url("../images/sprite_logos/genius.png") 0 bottom no-repeat;
+}
+
+/* line 121, ../../stylesheets/partials/_logos.sass */
+.get_satisfaction {
+  background: transparent url("../images/sprite_logos/get_satisfaction.png") 0 0 no-repeat;
+}
+/* line 123, ../../stylesheets/partials/_logos.sass */
+.get_satisfaction:hover {
+  background: transparent url("../images/sprite_logos/get_satisfaction.png") 0 bottom no-repeat;
+}
+
+/* line 125, ../../stylesheets/partials/_logos.sass */
+.gigaom {
+  background: transparent url("../images/sprite_logos/gigaom.png") 0 0 no-repeat;
+}
+/* line 127, ../../stylesheets/partials/_logos.sass */
+.gigaom:hover {
+  background: transparent url("../images/sprite_logos/gigaom.png") 0 bottom no-repeat;
+}
+
+/* line 129, ../../stylesheets/partials/_logos.sass */
+.google {
+  background: transparent url("../images/sprite_logos/google.png") 0 0 no-repeat;
+}
+/* line 131, ../../stylesheets/partials/_logos.sass */
+.google:hover {
+  background: transparent url("../images/sprite_logos/google.png") 0 bottom no-repeat;
+}
+
+/* line 133, ../../stylesheets/partials/_logos.sass */
+.green_road {
+  background: transparent url("../images/sprite_logos/green_road.png") 0 0 no-repeat;
+}
+/* line 135, ../../stylesheets/partials/_logos.sass */
+.green_road:hover {
+  background: transparent url("../images/sprite_logos/green_road.png") 0 bottom no-repeat;
+}
+
+/* line 137, ../../stylesheets/partials/_logos.sass */
+.guardian_edge {
+  background: transparent url("../images/sprite_logos/guardian_edge.png") 0 0 no-repeat;
+}
+/* line 139, ../../stylesheets/partials/_logos.sass */
+.guardian_edge:hover {
+  background: transparent url("../images/sprite_logos/guardian_edge.png") 0 bottom no-repeat;
+}
+
+/* line 141, ../../stylesheets/partials/_logos.sass */
+.helpstream {
+  background: transparent url("../images/sprite_logos/helpstream.png") 0 0 no-repeat;
+}
+/* line 143, ../../stylesheets/partials/_logos.sass */
+.helpstream:hover {
+  background: transparent url("../images/sprite_logos/helpstream.png") 0 bottom no-repeat;
+}
+
+/* line 145, ../../stylesheets/partials/_logos.sass */
+.host_analytics {
+  background: transparent url("../images/sprite_logos/host_analytics.png") 0 0 no-repeat;
+}
+/* line 147, ../../stylesheets/partials/_logos.sass */
+.host_analytics:hover {
+  background: transparent url("../images/sprite_logos/host_analytics.png") 0 bottom no-repeat;
+}
+
+/* line 149, ../../stylesheets/partials/_logos.sass */
+.human_concepts {
+  background: transparent url("../images/sprite_logos/human_concepts.png") 0 0 no-repeat;
+}
+/* line 151, ../../stylesheets/partials/_logos.sass */
+.human_concepts:hover {
+  background: transparent url("../images/sprite_logos/human_concepts.png") 0 bottom no-repeat;
+}
+
+/* line 153, ../../stylesheets/partials/_logos.sass */
+.infinian {
+  background: transparent url("../images/sprite_logos/infinian.png") 0 0 no-repeat;
+}
+/* line 155, ../../stylesheets/partials/_logos.sass */
+.infinian:hover {
+  background: transparent url("../images/sprite_logos/infinian.png") 0 bottom no-repeat;
+}
+
+/* line 157, ../../stylesheets/partials/_logos.sass */
+.infoblox {
+  background: transparent url("../images/sprite_logos/infoblox.png") 0 0 no-repeat;
+}
+/* line 159, ../../stylesheets/partials/_logos.sass */
+.infoblox:hover {
+  background: transparent url("../images/sprite_logos/infoblox.png") 0 bottom no-repeat;
+}
+
+/* line 161, ../../stylesheets/partials/_logos.sass */
+.ingres {
+  background: transparent url("../images/sprite_logos/ingres.png") 0 0 no-repeat;
+}
+/* line 163, ../../stylesheets/partials/_logos.sass */
+.ingres:hover {
+  background: transparent url("../images/sprite_logos/ingres.png") 0 bottom no-repeat;
+}
+
+/* line 165, ../../stylesheets/partials/_logos.sass */
+.inigral {
+  background: transparent url("../images/sprite_logos/inigral.png") 0 0 no-repeat;
+}
+/* line 167, ../../stylesheets/partials/_logos.sass */
+.inigral:hover {
+  background: transparent url("../images/sprite_logos/inigral.png") 0 bottom no-repeat;
+}
+
+/* line 169, ../../stylesheets/partials/_logos.sass */
+.IP_infusion {
+  background: transparent url("../images/sprite_logos/IP_infusion.png") 0 0 no-repeat;
+}
+/* line 171, ../../stylesheets/partials/_logos.sass */
+.IP_infusion:hover {
+  background: transparent url("../images/sprite_logos/IP_infusion.png") 0 bottom no-repeat;
+}
+
+/* line 173, ../../stylesheets/partials/_logos.sass */
+.kabira {
+  background: transparent url("../images/sprite_logos/kabira.png") 0 0 no-repeat;
+}
+/* line 175, ../../stylesheets/partials/_logos.sass */
+.kabira:hover {
+  background: transparent url("../images/sprite_logos/kabira.png") 0 bottom no-repeat;
+}
+
+/* line 177, ../../stylesheets/partials/_logos.sass */
+.komli {
+  background: transparent url("../images/sprite_logos/komli.png") 0 0 no-repeat;
+}
+/* line 179, ../../stylesheets/partials/_logos.sass */
+.komli:hover {
+  background: transparent url("../images/sprite_logos/komli.png") 0 bottom no-repeat;
+}
+
+/* line 181, ../../stylesheets/partials/_logos.sass */
+.like {
+  background: transparent url("../images/sprite_logos/like.png") 0 0 no-repeat;
+}
+/* line 183, ../../stylesheets/partials/_logos.sass */
+.like:hover {
+  background: transparent url("../images/sprite_logos/like.png") 0 bottom no-repeat;
+}
+
+/* line 185, ../../stylesheets/partials/_logos.sass */
+.limelife {
+  background: transparent url("../images/sprite_logos/limelife.png") 0 0 no-repeat;
+}
+/* line 187, ../../stylesheets/partials/_logos.sass */
+.limelife:hover {
+  background: transparent url("../images/sprite_logos/limelife.png") 0 bottom no-repeat;
+}
+
+/* line 189, ../../stylesheets/partials/_logos.sass */
+.loomia {
+  background: transparent url("../images/sprite_logos/loomia.png") 0 0 no-repeat;
+}
+/* line 191, ../../stylesheets/partials/_logos.sass */
+.loomia:hover {
+  background: transparent url("../images/sprite_logos/loomia.png") 0 bottom no-repeat;
+}
+
+/* line 193, ../../stylesheets/partials/_logos.sass */
+.lynda {
+  background: transparent url("../images/sprite_logos/lynda.png") 0 0 no-repeat;
+}
+/* line 195, ../../stylesheets/partials/_logos.sass */
+.lynda:hover {
+  background: transparent url("../images/sprite_logos/lynda.png") 0 bottom no-repeat;
+}
+
+/* line 197, ../../stylesheets/partials/_logos.sass */
+.mark_logic {
+  background: transparent url("../images/sprite_logos/mark_logic.png") 0 0 no-repeat;
+}
+/* line 199, ../../stylesheets/partials/_logos.sass */
+.mark_logic:hover {
+  background: transparent url("../images/sprite_logos/mark_logic.png") 0 bottom no-repeat;
+}
+
+/* line 201, ../../stylesheets/partials/_logos.sass */
+.mark_monitor {
+  background: transparent url("../images/sprite_logos/mark_monitor.png") 0 0 no-repeat;
+}
+/* line 203, ../../stylesheets/partials/_logos.sass */
+.mark_monitor:hover {
+  background: transparent url("../images/sprite_logos/mark_monitor.png") 0 bottom no-repeat;
+}
+
+/* line 205, ../../stylesheets/partials/_logos.sass */
+.meez {
+  background: transparent url("../images/sprite_logos/meez.png") 0 0 no-repeat;
+}
+/* line 207, ../../stylesheets/partials/_logos.sass */
+.meez:hover {
+  background: transparent url("../images/sprite_logos/meez.png") 0 bottom no-repeat;
+}
+
+/* line 209, ../../stylesheets/partials/_logos.sass */
+.merced_systems {
+  background: transparent url("../images/sprite_logos/merced_systems.png") 0 0 no-repeat;
+}
+/* line 211, ../../stylesheets/partials/_logos.sass */
+.merced_systems:hover {
+  background: transparent url("../images/sprite_logos/merced_systems.png") 0 bottom no-repeat;
+}
+
+/* line 213, ../../stylesheets/partials/_logos.sass */
+.meta_cafe {
+  background: transparent url("../images/sprite_logos/meta_cafe.png") 0 0 no-repeat;
+}
+/* line 215, ../../stylesheets/partials/_logos.sass */
+.meta_cafe:hover {
+  background: transparent url("../images/sprite_logos/meta_cafe.png") 0 bottom no-repeat;
+}
+
+/* line 217, ../../stylesheets/partials/_logos.sass */
+.microsoft {
+  background: transparent url("../images/sprite_logos/microsoft.png") 0 0 no-repeat;
+}
+/* line 219, ../../stylesheets/partials/_logos.sass */
+.microsoft:hover {
+  background: transparent url("../images/sprite_logos/microsoft.png") 0 bottom no-repeat;
+}
+
+/* line 221, ../../stylesheets/partials/_logos.sass */
+.mindflash {
+  background: transparent url("../images/sprite_logos/mindflash.png") 0 0 no-repeat;
+}
+/* line 223, ../../stylesheets/partials/_logos.sass */
+.mindflash:hover {
+  background: transparent url("../images/sprite_logos/mindflash.png") 0 bottom no-repeat;
+}
+
+/* line 225, ../../stylesheets/partials/_logos.sass */
+.mokafive {
+  background: transparent url("../images/sprite_logos/mokafive.png") 0 0 no-repeat;
+}
+/* line 227, ../../stylesheets/partials/_logos.sass */
+.mokafive:hover {
+  background: transparent url("../images/sprite_logos/mokafive.png") 0 bottom no-repeat;
+}
+
+/* line 229, ../../stylesheets/partials/_logos.sass */
+.msn {
+  background: transparent url("../images/sprite_logos/msn.png") 0 0 no-repeat;
+}
+/* line 231, ../../stylesheets/partials/_logos.sass */
+.msn:hover {
+  background: transparent url("../images/sprite_logos/msn.png") 0 bottom no-repeat;
+}
+
+/* line 233, ../../stylesheets/partials/_logos.sass */
+.nearby_now {
+  background: transparent url("../images/sprite_logos/nearby_now.png") 0 0 no-repeat;
+}
+/* line 235, ../../stylesheets/partials/_logos.sass */
+.nearby_now:hover {
+  background: transparent url("../images/sprite_logos/nearby_now.png") 0 bottom no-repeat;
+}
+
+/* line 237, ../../stylesheets/partials/_logos.sass */
+.neoscale {
+  background: transparent url("../images/sprite_logos/neoscale.png") 0 0 no-repeat;
+}
+/* line 239, ../../stylesheets/partials/_logos.sass */
+.neoscale:hover {
+  background: transparent url("../images/sprite_logos/neoscale.png") 0 bottom no-repeat;
+}
+
+/* line 241, ../../stylesheets/partials/_logos.sass */
+.netli {
+  background: transparent url("../images/sprite_logos/netli.png") 0 0 no-repeat;
+}
+/* line 243, ../../stylesheets/partials/_logos.sass */
+.netli:hover {
+  background: transparent url("../images/sprite_logos/netli.png") 0 bottom no-repeat;
+}
+
+/* line 245, ../../stylesheets/partials/_logos.sass */
+.niku {
+  background: transparent url("../images/sprite_logos/niku.png") 0 0 no-repeat;
+}
+/* line 247, ../../stylesheets/partials/_logos.sass */
+.niku:hover {
+  background: transparent url("../images/sprite_logos/niku.png") 0 bottom no-repeat;
+}
+
+/* line 249, ../../stylesheets/partials/_logos.sass */
+.ON_vantage {
+  background: transparent url("../images/sprite_logos/ON_vantage.png") 0 0 no-repeat;
+}
+/* line 251, ../../stylesheets/partials/_logos.sass */
+.ON_vantage:hover {
+  background: transparent url("../images/sprite_logos/ON_vantage.png") 0 bottom no-repeat;
+}
+
+/* line 253, ../../stylesheets/partials/_logos.sass */
+.oracle {
+  background: transparent url("../images/sprite_logos/oracle.png") 0 0 no-repeat;
+}
+/* line 255, ../../stylesheets/partials/_logos.sass */
+.oracle:hover {
+  background: transparent url("../images/sprite_logos/oracle.png") 0 bottom no-repeat;
+}
+
+/* line 257, ../../stylesheets/partials/_logos.sass */
+.phoenix {
+  background: transparent url("../images/sprite_logos/phoenix.png") 0 0 no-repeat;
+}
+/* line 259, ../../stylesheets/partials/_logos.sass */
+.phoenix:hover {
+  background: transparent url("../images/sprite_logos/phoenix.png") 0 bottom no-repeat;
+}
+
+/* line 261, ../../stylesheets/partials/_logos.sass */
+.pinc {
+  background: transparent url("../images/sprite_logos/pinc.png") 0 0 no-repeat;
+}
+/* line 263, ../../stylesheets/partials/_logos.sass */
+.pinc:hover {
+  background: transparent url("../images/sprite_logos/pinc.png") 0 bottom no-repeat;
+}
+
+/* line 265, ../../stylesheets/partials/_logos.sass */
+.plum {
+  background: transparent url("../images/sprite_logos/plum.png") 0 0 no-repeat;
+}
+/* line 267, ../../stylesheets/partials/_logos.sass */
+.plum:hover {
+  background: transparent url("../images/sprite_logos/plum.png") 0 bottom no-repeat;
+}
+
+/* line 269, ../../stylesheets/partials/_logos.sass */
+.proximic {
+  background: transparent url("../images/sprite_logos/proximic.png") 0 0 no-repeat;
+}
+/* line 271, ../../stylesheets/partials/_logos.sass */
+.proximic:hover {
+  background: transparent url("../images/sprite_logos/proximic.png") 0 bottom no-repeat;
+}
+
+/* line 273, ../../stylesheets/partials/_logos.sass */
+.PSS_atlas {
+  background: transparent url("../images/sprite_logos/PSS_atlas.png") 0 0 no-repeat;
+}
+/* line 275, ../../stylesheets/partials/_logos.sass */
+.PSS_atlas:hover {
+  background: transparent url("../images/sprite_logos/PSS_atlas.png") 0 bottom no-repeat;
+}
+
+/* line 277, ../../stylesheets/partials/_logos.sass */
+.pubmatic {
+  background: transparent url("../images/sprite_logos/pubmatic.png") 0 0 no-repeat;
+}
+/* line 279, ../../stylesheets/partials/_logos.sass */
+.pubmatic:hover {
+  background: transparent url("../images/sprite_logos/pubmatic.png") 0 bottom no-repeat;
+}
+
+/* line 281, ../../stylesheets/partials/_logos.sass */
+.quantivo {
+  background: transparent url("../images/sprite_logos/quantivo.png") 0 0 no-repeat;
+}
+/* line 283, ../../stylesheets/partials/_logos.sass */
+.quantivo:hover {
+  background: transparent url("../images/sprite_logos/quantivo.png") 0 bottom no-repeat;
+}
+
+/* line 285, ../../stylesheets/partials/_logos.sass */
+.razoo {
+  background: transparent url("../images/sprite_logos/razoo.png") 0 0 no-repeat;
+}
+/* line 287, ../../stylesheets/partials/_logos.sass */
+.razoo:hover {
+  background: transparent url("../images/sprite_logos/razoo.png") 0 bottom no-repeat;
+}
+
+/* line 289, ../../stylesheets/partials/_logos.sass */
+.real_networks {
+  background: transparent url("../images/sprite_logos/real_networks.png") 0 0 no-repeat;
+}
+/* line 291, ../../stylesheets/partials/_logos.sass */
+.real_networks:hover {
+  background: transparent url("../images/sprite_logos/real_networks.png") 0 bottom no-repeat;
+}
+
+/* line 293, ../../stylesheets/partials/_logos.sass */
+.replay {
+  background: transparent url("../images/sprite_logos/replay.png") 0 0 no-repeat;
+}
+/* line 295, ../../stylesheets/partials/_logos.sass */
+.replay:hover {
+  background: transparent url("../images/sprite_logos/replay.png") 0 bottom no-repeat;
+}
+
+/* line 297, ../../stylesheets/partials/_logos.sass */
+.retrevo {
+  background: transparent url("../images/sprite_logos/retrevo.png") 0 0 no-repeat;
+}
+/* line 299, ../../stylesheets/partials/_logos.sass */
+.retrevo:hover {
+  background: transparent url("../images/sprite_logos/retrevo.png") 0 bottom no-repeat;
+}
+
+/* line 301, ../../stylesheets/partials/_logos.sass */
+.rhapsody {
+  background: transparent url("../images/sprite_logos/rhapsody.png") 0 0 no-repeat;
+}
+/* line 303, ../../stylesheets/partials/_logos.sass */
+.rhapsody:hover {
+  background: transparent url("../images/sprite_logos/rhapsody.png") 0 bottom no-repeat;
+}
+
+/* line 305, ../../stylesheets/partials/_logos.sass */
+.ringcube {
+  background: transparent url("../images/sprite_logos/ringcube.png") 0 0 no-repeat;
+}
+/* line 307, ../../stylesheets/partials/_logos.sass */
+.ringcube:hover {
+  background: transparent url("../images/sprite_logos/ringcube.png") 0 bottom no-repeat;
+}
+
+/* line 309, ../../stylesheets/partials/_logos.sass */
+.RTI {
+  background: transparent url("../images/sprite_logos/RTI.png") 0 0 no-repeat;
+}
+/* line 311, ../../stylesheets/partials/_logos.sass */
+.RTI:hover {
+  background: transparent url("../images/sprite_logos/RTI.png") 0 bottom no-repeat;
+}
+
+/* line 313, ../../stylesheets/partials/_logos.sass */
+.saynow {
+  background: transparent url("../images/sprite_logos/saynow.png") 0 0 no-repeat;
+}
+/* line 315, ../../stylesheets/partials/_logos.sass */
+.saynow:hover {
+  background: transparent url("../images/sprite_logos/saynow.png") 0 bottom no-repeat;
+}
+
+/* line 317, ../../stylesheets/partials/_logos.sass */
+.scancafe {
+  background: transparent url("../images/sprite_logos/scancafe.png") 0 0 no-repeat;
+}
+/* line 319, ../../stylesheets/partials/_logos.sass */
+.scancafe:hover {
+  background: transparent url("../images/sprite_logos/scancafe.png") 0 bottom no-repeat;
+}
+
+/* line 321, ../../stylesheets/partials/_logos.sass */
+.skybox {
+  background: transparent url("../images/sprite_logos/skybox.png") 0 0 no-repeat;
+}
+/* line 323, ../../stylesheets/partials/_logos.sass */
+.skybox:hover {
+  background: transparent url("../images/sprite_logos/skybox.png") 0 bottom no-repeat;
+}
+
+/* line 325, ../../stylesheets/partials/_logos.sass */
+.snapshots {
+  background: transparent url("../images/sprite_logos/snapshots.png") 0 0 no-repeat;
+}
+/* line 327, ../../stylesheets/partials/_logos.sass */
+.snapshots:hover {
+  background: transparent url("../images/sprite_logos/snapshots.png") 0 bottom no-repeat;
+}
+
+/* line 329, ../../stylesheets/partials/_logos.sass */
+.snapvine {
+  background: transparent url("../images/sprite_logos/snapvine.png") 0 0 no-repeat;
+}
+/* line 331, ../../stylesheets/partials/_logos.sass */
+.snapvine:hover {
+  background: transparent url("../images/sprite_logos/snapvine.png") 0 bottom no-repeat;
+}
+
+/* line 333, ../../stylesheets/partials/_logos.sass */
+.socialtext {
+  background: transparent url("../images/sprite_logos/socialtext.png") 0 0 no-repeat;
+}
+/* line 335, ../../stylesheets/partials/_logos.sass */
+.socialtext:hover {
+  background: transparent url("../images/sprite_logos/socialtext.png") 0 bottom no-repeat;
+}
+
+/* line 337, ../../stylesheets/partials/_logos.sass */
+.songkick {
+  background: transparent url("../images/sprite_logos/songkick.png") 0 0 no-repeat;
+}
+/* line 339, ../../stylesheets/partials/_logos.sass */
+.songkick:hover {
+  background: transparent url("../images/sprite_logos/songkick.png") 0 bottom no-repeat;
+}
+
+/* line 341, ../../stylesheets/partials/_logos.sass */
+.splunk {
+  background: transparent url("../images/sprite_logos/splunk.png") 0 0 no-repeat;
+}
+/* line 343, ../../stylesheets/partials/_logos.sass */
+.splunk:hover {
+  background: transparent url("../images/sprite_logos/splunk.png") 0 bottom no-repeat;
+}
+
+/* line 345, ../../stylesheets/partials/_logos.sass */
+.springCM {
+  background: transparent url("../images/sprite_logos/springCM.png") 0 0 no-repeat;
+}
+/* line 347, ../../stylesheets/partials/_logos.sass */
+.springCM:hover {
+  background: transparent url("../images/sprite_logos/springCM.png") 0 bottom no-repeat;
+}
+
+/* line 349, ../../stylesheets/partials/_logos.sass */
+.streetline {
+  background: transparent url("../images/sprite_logos/streetline.png") 0 0 no-repeat;
+}
+/* line 351, ../../stylesheets/partials/_logos.sass */
+.streetline:hover {
+  background: transparent url("../images/sprite_logos/streetline.png") 0 bottom no-repeat;
+}
+
+/* line 353, ../../stylesheets/partials/_logos.sass */
+.supportsoft {
+  background: transparent url("../images/sprite_logos/supportsoft.png") 0 0 no-repeat;
+}
+/* line 355, ../../stylesheets/partials/_logos.sass */
+.supportsoft:hover {
+  background: transparent url("../images/sprite_logos/supportsoft.png") 0 bottom no-repeat;
+}
+
+/* line 357, ../../stylesheets/partials/_logos.sass */
+.symantec {
+  background: transparent url("../images/sprite_logos/symantec.png") 0 0 no-repeat;
+}
+/* line 359, ../../stylesheets/partials/_logos.sass */
+.symantec:hover {
+  background: transparent url("../images/sprite_logos/symantec.png") 0 bottom no-repeat;
+}
+
+/* line 361, ../../stylesheets/partials/_logos.sass */
+.tagged {
+  background: transparent url("../images/sprite_logos/tagged.png") 0 0 no-repeat;
+}
+/* line 363, ../../stylesheets/partials/_logos.sass */
+.tagged:hover {
+  background: transparent url("../images/sprite_logos/tagged.png") 0 bottom no-repeat;
+}
+
+/* line 365, ../../stylesheets/partials/_logos.sass */
+.telephia {
+  background: transparent url("../images/sprite_logos/telephia.png") 0 0 no-repeat;
+}
+/* line 367, ../../stylesheets/partials/_logos.sass */
+.telephia:hover {
+  background: transparent url("../images/sprite_logos/telephia.png") 0 bottom no-repeat;
+}
+
+/* line 369, ../../stylesheets/partials/_logos.sass */
+.teros {
+  background: transparent url("../images/sprite_logos/teros.png") 0 0 no-repeat;
+}
+/* line 371, ../../stylesheets/partials/_logos.sass */
+.teros:hover {
+  background: transparent url("../images/sprite_logos/teros.png") 0 bottom no-repeat;
+}
+
+/* line 373, ../../stylesheets/partials/_logos.sass */
+.topsy {
+  background: transparent url("../images/sprite_logos/topsy.png") 0 0 no-repeat;
+}
+/* line 375, ../../stylesheets/partials/_logos.sass */
+.topsy:hover {
+  background: transparent url("../images/sprite_logos/topsy.png") 0 bottom no-repeat;
+}
+
+/* line 377, ../../stylesheets/partials/_logos.sass */
+.total_defense {
+  background: transparent url("../images/sprite_logos/total_defense.png") 0 0 no-repeat;
+}
+/* line 379, ../../stylesheets/partials/_logos.sass */
+.total_defense:hover {
+  background: transparent url("../images/sprite_logos/total_defense.png") 0 bottom no-repeat;
+}
+
+/* line 381, ../../stylesheets/partials/_logos.sass */
+.turn {
+  background: transparent url("../images/sprite_logos/turn.png") 0 0 no-repeat;
+}
+/* line 383, ../../stylesheets/partials/_logos.sass */
+.turn:hover {
+  background: transparent url("../images/sprite_logos/turn.png") 0 bottom no-repeat;
+}
+
+/* line 385, ../../stylesheets/partials/_logos.sass */
+.untangle {
+  background: transparent url("../images/sprite_logos/untangle.png") 0 0 no-repeat;
+}
+/* line 387, ../../stylesheets/partials/_logos.sass */
+.untangle:hover {
+  background: transparent url("../images/sprite_logos/untangle.png") 0 bottom no-repeat;
+}
+
+/* line 389, ../../stylesheets/partials/_logos.sass */
+.verix {
+  background: transparent url("../images/sprite_logos/verix.png") 0 0 no-repeat;
+}
+/* line 391, ../../stylesheets/partials/_logos.sass */
+.verix:hover {
+  background: transparent url("../images/sprite_logos/verix.png") 0 bottom no-repeat;
+}
+
+/* line 393, ../../stylesheets/partials/_logos.sass */
+.volomedia {
+  background: transparent url("../images/sprite_logos/volomedia.png") 0 0 no-repeat;
+}
+/* line 395, ../../stylesheets/partials/_logos.sass */
+.volomedia:hover {
+  background: transparent url("../images/sprite_logos/volomedia.png") 0 bottom no-repeat;
+}
+
+/* line 397, ../../stylesheets/partials/_logos.sass */
+.wazap {
+  background: transparent url("../images/sprite_logos/wazap.png") 0 0 no-repeat;
+}
+/* line 399, ../../stylesheets/partials/_logos.sass */
+.wazap:hover {
+  background: transparent url("../images/sprite_logos/wazap.png") 0 bottom no-repeat;
+}
+
+/* line 401, ../../stylesheets/partials/_logos.sass */
+.weatherbill {
+  background: transparent url("../images/sprite_logos/weatherbill.png") 0 0 no-repeat;
+}
+/* line 403, ../../stylesheets/partials/_logos.sass */
+.weatherbill:hover {
+  background: transparent url("../images/sprite_logos/weatherbill.png") 0 bottom no-repeat;
+}
+
+/* line 405, ../../stylesheets/partials/_logos.sass */
+.webroot {
+  background: transparent url("../images/sprite_logos/webroot.png") 0 0 no-repeat;
+}
+/* line 407, ../../stylesheets/partials/_logos.sass */
+.webroot:hover {
+  background: transparent url("../images/sprite_logos/webroot.png") 0 bottom no-repeat;
+}
+
+/* line 409, ../../stylesheets/partials/_logos.sass */
+.whitepages {
+  background: transparent url("../images/sprite_logos/whitepages.png") 0 0 no-repeat;
+}
+/* line 411, ../../stylesheets/partials/_logos.sass */
+.whitepages:hover {
+  background: transparent url("../images/sprite_logos/whitepages.png") 0 bottom no-repeat;
+}
+
+/* line 413, ../../stylesheets/partials/_logos.sass */
+.wide_orbit {
+  background: transparent url("../images/sprite_logos/wide_orbit.png") 0 0 no-repeat;
+}
+/* line 415, ../../stylesheets/partials/_logos.sass */
+.wide_orbit:hover {
+  background: transparent url("../images/sprite_logos/wide_orbit.png") 0 bottom no-repeat;
+}
+
+/* line 417, ../../stylesheets/partials/_logos.sass */
+.WSO2 {
+  background: transparent url("../images/sprite_logos/WSO2.png") 0 0 no-repeat;
+}
+/* line 419, ../../stylesheets/partials/_logos.sass */
+.WSO2:hover {
+  background: transparent url("../images/sprite_logos/WSO2.png") 0 bottom no-repeat;
+}
+
+/* line 421, ../../stylesheets/partials/_logos.sass */
+.yahoo {
+  background: transparent url("../images/sprite_logos/yahoo.png") 0 0 no-repeat;
+}
+/* line 423, ../../stylesheets/partials/_logos.sass */
+.yahoo:hover {
+  background: transparent url("../images/sprite_logos/yahoo.png") 0 bottom no-repeat;
+}
+
+/* line 425, ../../stylesheets/partials/_logos.sass */
+.yola {
+  background: transparent url("../images/sprite_logos/yola.png") 0 0 no-repeat;
+}
+/* line 427, ../../stylesheets/partials/_logos.sass */
+.yola:hover {
+  background: transparent url("../images/sprite_logos/yola.png") 0 bottom no-repeat;
+}
+
+/* line 429, ../../stylesheets/partials/_logos.sass */
+.zend {
+  background: transparent url("../images/sprite_logos/zend.png") 0 0 no-repeat;
+}
+/* line 431, ../../stylesheets/partials/_logos.sass */
+.zend:hover {
+  background: transparent url("../images/sprite_logos/zend.png") 0 bottom no-repeat;
+}
+
+/* line 433, ../../stylesheets/partials/_logos.sass */
+.zone_labs {
+  background: transparent url("../images/sprite_logos/zone_labs.png") 0 0 no-repeat;
+}
+/* line 435, ../../stylesheets/partials/_logos.sass */
+.zone_labs:hover {
+  background: transparent url("../images/sprite_logos/zone_labs.png") 0 bottom no-repeat;
+}
+
+/* line 437, ../../stylesheets/partials/_logos.sass */
+.zynga {
+  background: transparent url("../images/sprite_logos/zynga.png") 0 0 no-repeat;
+}
+/* line 439, ../../stylesheets/partials/_logos.sass */
+.zynga:hover {
+  background: transparent url("../images/sprite_logos/zynga.png") 0 bottom no-repeat;
 }
