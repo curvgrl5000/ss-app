@@ -252,13 +252,14 @@ $(function(){
   $('#tabs').bind('tabsselect', function(event, ui) {
   });
   
-  $(".logo-column").click(function(e){
-     e.preventDefault();
-     var record = _.first(Vantage.practice.filterByName(_.first(_.without($(this).attr("class").split(" "), "logo-column"))));
-     $.extend(record, {url: "#"})
-     $("#recent_logo").removeClass().addClass(record.name);
-     $("#recent_details").empty();
-     $("#recentTemplate").tmpl(record).appendTo("#recent_details");
-  });
+  // $(".logo-column").click(function(e){
+  //      e.preventDefault();
+  //      var record = _.first(Vantage.practice.filterByName(_.first(_.without($(this).attr("class").split(" "), "logo-column"))));
+  //      $.extend(record, {url: "#"})
+  //      $("#recent_logo").removeClass().addClass(record.name);
+  //      $("#recent_details").empty();
+  //      $("#recentTemplate").tmpl(record).appendTo("#recent_details");
+  //   });
   
+  $(".lightitupbud").fancybox();
 }); 

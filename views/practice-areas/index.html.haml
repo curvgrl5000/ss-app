@@ -45,12 +45,14 @@
           .clients.omega
 
 :plain
-  <script id="logoTemplate" type="text/x-jquery-tmpl">          
-    <div class="logo-background ${margin}">
-      <div class="logo-column ${klass}">
-        <a href="${href}" title="${title}">${name}</a>
+  <script id="logoTemplate" type="text/x-jquery-tmpl">
+    <a href="#foobaz_${title}" class="lightitupbud">        
+      <div class="logo-background ${margin}">
+        <div class="logo-column ${klass}">
+        </div>
+        <div style="display:none"><div id="foobaz_${title}"><h1>${title}</h1></div></div>
       </div>
-    </div>  
+    </a>  
   </script>
    
   <script id="recentTemplate" type="text/x-jquery-tmpl">          
