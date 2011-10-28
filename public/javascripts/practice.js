@@ -5,10 +5,9 @@ if(!Vantage) {
 Vantage.practice = function () { 
 
 var keys = [
-  {name: "internet", value: 1},
-  {name: "software-services", value: 2},
+  {name: "consumer-internet", value: 1},
+  {name: "enterprise-saas", value: 2},
   {name: "mobile-wireless", value: 3},
-  {name: "clean-tech", value: 4},
   {name: "client-portfolio", value: 5}
 ]
 
@@ -136,6 +135,18 @@ return {
     return keys;
   },
   
+  getNumRows : function () {
+    return ROWS;
+  },
+  
+  getNumCols : function () {
+    return COLS;
+  },
+  
+  getNumPortfolioCols : function () {
+    return PORTFOLIO_COLUMNS;
+  },
+  
   getAssets : function() {
     return assets;
   },
@@ -171,9 +182,10 @@ return {
 
   $.renderClientPortfolio = function () {
     var max = Vantage.practice.getNumCompaniesPerColumn(); // we know how many companies we want per column now... 
+    var num_cols = Vantage.practice.getNumPortfolioCols();
     var clients = $(".clients", "#logo_content");
     _.each(clients, function(client, idx){
-      var sublist = Vantage.practice.getCompanies(5, max*(idx), max);
+      var sublist = Vantage.practice.getCompanies(num_cols, max*(idx), max);
       _.each(sublist, function(list){
         $("<p>",{
           text: list.company
@@ -187,8 +199,8 @@ return {
   $.renderClientLogos = function(id, category, ordering, page) {
     var setup = (ordering)? ordering : 'alphabetical';
     var curr_page = (page)? page : 1;
-    var ROWS = 3;
-    var COLS = 4;
+    var ROWS = Vantage.practice.getNumRows();
+    var COLS = Vantage.practice.getNumCols();
     var internet = Vantage.practice.filterByCategory(category);
     for(var i = 0, len = ROWS; i < len; i++) {
       var logos = internet.splice(0,COLS);
@@ -242,7 +254,7 @@ $(function(){
   
   $(".logo-column").click(function(e){
      e.preventDefault();
-     var record = Vantage.practice.filterByName(_.without($(this).attr("class").split(" "), "logo-column")[0])[0];
+     var record = _.first(Vantage.practice.filterByName(_.first(_.without($(this).attr("class").split(" "), "logo-column"))));
      $.extend(record, {url: "#"})
      $("#recent_logo").removeClass().addClass(record.name);
      $("#recent_details").empty();

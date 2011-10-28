@@ -1565,7 +1565,7 @@ h2.master {
 }
 /* line 111, ../../stylesheets/partials/_practice-area.sass */
 #logo_content .content_setup .ct #client-portfolio .clients p {
-  font: normal normal normal 0.8em "Neue Helvetica" Arial sans-serif;
+  font: normal normal normal 0.8em Arial, Helvetica, sans-serif;
   color: #5d87a1;
 }
 /* line 114, ../../stylesheets/partials/_practice-area.sass */
@@ -1577,11 +1577,11 @@ h2.master {
   margin-right: 0;
 }
 /* line 118, ../../stylesheets/partials/_practice-area.sass */
-#logo_content .content_setup .ct #internet, #logo_content .content_setup .ct #software-services, #logo_content .content_setup .ct #mobile-wireless, #logo_content .content_setup .ct #clean-tech {
+#logo_content .content_setup .ct #consumer-internet, #logo_content .content_setup .ct #enterprise-saas, #logo_content .content_setup .ct #mobile-wireless {
   margin-top: 20px;
 }
 /* line 120, ../../stylesheets/partials/_practice-area.sass */
-#logo_content .content_setup .ct #internet .spacer, #logo_content .content_setup .ct #software-services .spacer, #logo_content .content_setup .ct #mobile-wireless .spacer, #logo_content .content_setup .ct #clean-tech .spacer {
+#logo_content .content_setup .ct #consumer-internet .spacer, #logo_content .content_setup .ct #enterprise-saas .spacer, #logo_content .content_setup .ct #mobile-wireless .spacer {
   display: inline;
   float: left;
   margin-left: 5px;
@@ -1590,7 +1590,7 @@ h2.master {
   height: 10px;
 }
 /* line 123, ../../stylesheets/partials/_practice-area.sass */
-#logo_content .content_setup .ct #internet .logo-background, #logo_content .content_setup .ct #software-services .logo-background, #logo_content .content_setup .ct #mobile-wireless .logo-background, #logo_content .content_setup .ct #clean-tech .logo-background {
+#logo_content .content_setup .ct #consumer-internet .logo-background, #logo_content .content_setup .ct #enterprise-saas .logo-background, #logo_content .content_setup .ct #mobile-wireless .logo-background {
   display: inline;
   float: left;
   margin-left: 5px;
@@ -1601,7 +1601,7 @@ h2.master {
   box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1);
 }
 /* line 128, ../../stylesheets/partials/_practice-area.sass */
-#logo_content .content_setup .ct #internet .logo-column, #logo_content .content_setup .ct #software-services .logo-column, #logo_content .content_setup .ct #mobile-wireless .logo-column, #logo_content .content_setup .ct #clean-tech .logo-column {
+#logo_content .content_setup .ct #consumer-internet .logo-column, #logo_content .content_setup .ct #enterprise-saas .logo-column, #logo_content .content_setup .ct #mobile-wireless .logo-column {
   display: inline;
   float: left;
   margin-left: 5px;
@@ -1612,11 +1612,11 @@ h2.master {
   text-indent: -10000px;
 }
 /* line 133, ../../stylesheets/partials/_practice-area.sass */
-#logo_content .content_setup .ct #internet .alpha, #logo_content .content_setup .ct #software-services .alpha, #logo_content .content_setup .ct #mobile-wireless .alpha, #logo_content .content_setup .ct #clean-tech .alpha {
+#logo_content .content_setup .ct #consumer-internet .alpha, #logo_content .content_setup .ct #enterprise-saas .alpha, #logo_content .content_setup .ct #mobile-wireless .alpha {
   margin-left: 0;
 }
 /* line 135, ../../stylesheets/partials/_practice-area.sass */
-#logo_content .content_setup .ct #internet .omega, #logo_content .content_setup .ct #software-services .omega, #logo_content .content_setup .ct #mobile-wireless .omega, #logo_content .content_setup .ct #clean-tech .omega {
+#logo_content .content_setup .ct #consumer-internet .omega, #logo_content .content_setup .ct #enterprise-saas .omega, #logo_content .content_setup .ct #mobile-wireless .omega {
   margin-right: 0;
 }
 
