@@ -197,7 +197,7 @@ var assets2 = [
    },
    {
       "company":"COURSESMART",
-      "name":"course_mart",
+      "name":"course_smart",
       "categories":[
          1,
          2
