@@ -23,8 +23,8 @@ var assets2 = [
          2
       ],
       "details":[
-         "{\"position\":\"VP Engineering\",\"lead\":\"Tom\",\"recruit\":[],\"investors\":\"Flybridge Capital Partners, Sequoia, Union Square Ventures\"}",
-         "{\"position\":\"VP Marketing\",\"lead\":\"April\",\"recruit\":[\"Irene\"],\"investors\":\"Flybridge Capital Partners, Sequoia, Union Square Ventures\"}"
+         {position:"VP Engineering","lead":"Tom","recruit":[],"investors":"Flybridge Capital Partners, Sequoia, Union Square Ventures"},
+         {position:"VP Marketing","lead":"April","recruit":["Irene"],"investors":"Flybridge Capital Partners, Sequoia, Union Square Ventures"}
       ]
    },
    {
@@ -34,8 +34,8 @@ var assets2 = [
          1
       ],
       "details":[
-         "{\"position\":\"VP Marketing\",\"lead\":\"Rich\",\"recruit\":[\"Julie\"],\"investors\":\"August Capital, Mayfield Fund, Sandhill Capital\"}",
-         "{\"position\":\"VP Media\",\"lead\":\"Rich\",\"recruit\":[\"Mark\",\"Gene\"],\"investors\":\"August Capital, Mayfield Fund, Sandhill Capital\"}"
+         {position:"VP Marketing","lead":"Rich","recruit":["Julie"],"investors":"August Capital, Mayfield Fund, Sandhill Capital"},
+         {position:"VP Media","lead":"Rich","recruit":["Mark","Gene"],"investors":"August Capital, Mayfield Fund, Sandhill Capital"}
       ]
    },
    {
@@ -45,7 +45,7 @@ var assets2 = [
          2
       ],
       "details":[
-         "{\"position\":\"VP Sales\",\"lead\":\"Irene\",\"recruit\":[],\"investors\":\"Castile Ventures, Walden International, Intel Capital, Red Rock Ventures\"}"
+         {position:"VP Sales","lead":"Irene","recruit":[],"investors":"Castile Ventures, Walden International, Intel Capital, Red Rock Ventures"}
       ]
    },
    {
@@ -55,8 +55,8 @@ var assets2 = [
          2
       ],
       "details":[
-         "{\"position\":\"VP Marketing\",\"lead\":\"Audrey\",\"recruit\":[\"Gene\"],\"investors\":\"Logispring, CMEA Ventures\"}",
-         "{\"position\":\"VP Sales\",\"lead\":\"Audrey\",\"recruit\":[\"Gene\"],\"investors\":\"Logispring, CMEA Ventures\"}"
+         {position:"VP Marketing","lead":"Audrey","recruit":["Gene"],"investors":"Logispring, CMEA Ventures"},
+         {position:"VP Sales","lead":"Audrey","recruit":["Gene"],"investors":"Logispring, CMEA Ventures"}
       ]
    },
    {
@@ -67,7 +67,7 @@ var assets2 = [
          2
       ],
       "details":[
-         "{\"position\":\"VP Business Development\",\"lead\":\"Rich\",\"recruit\":[\"Mark\"],\"investors\":\"JK&B Capital, Maples Investments, Baseline Ventures\"}"
+         {position:"VP Business Development","lead":"Rich","recruit":["Mark"],"investors":"JK&B Capital, Maples Investments, Baseline Ventures"}
       ]
    },
    {
@@ -77,7 +77,7 @@ var assets2 = [
          2
       ],
       "details":[
-         "{\"position\":\"VP Corporate & Business Development\",\"lead\":\"Mark\",\"recruit\":[\"Mark\",\"Rich\"],\"investors\":\"Summit Partners\"}"
+         {position:"VP Corporate & Business Development","lead":"Mark","recruit":["Mark","Rich"],"investors":"Summit Partners"}
       ]
    },
    {
@@ -87,7 +87,7 @@ var assets2 = [
          1
       ],
       "details":[
-         "{\"position\":\"VP Interactive\",\"lead\":\"Rich\",\"recruit\":[\"Carren\"],\"investors\":\"Criterion Capital Partners\"}"
+         {position:"VP Interactive","lead":"Rich","recruit":["Carren"],"investors":"Criterion Capital Partners"}
       ]
    },
    {
@@ -98,7 +98,7 @@ var assets2 = [
          3
       ],
       "details":[
-         "{\"position\":\"SVP Sales\",\"lead\":\"Irene\",\"recruit\":[],\"investors\":\"Alloy Ventures, Lightspeed Venture Partners, Walden International\"}"
+         {position:"SVP Sales","lead":"Irene","recruit":[],"investors":"Alloy Ventures, Lightspeed Venture Partners, Walden International"}
       ]
    },
    {
@@ -108,8 +108,8 @@ var assets2 = [
          2
       ],
       "details":[
-         "{\"position\":\"VP Product Marketing\",\"lead\":\"Rich\",\"recruit\":[\"Gene\"],\"investors\":\"Acquired by Oracle (NASDAQ: ORCL)\"}",
-         "{\"position\":\"VP Business Development\",\"lead\":\"Rich\",\"recruit\":[],\"investors\":\"Acquired by Oracle (NASDAQ: ORCL)\"}"
+         {position:"VP Product Marketing","lead":"Rich","recruit":["Gene"],"investors":"Acquired by Oracle (NASDAQ: ORCL)"},
+         {position:"VP Business Development","lead":"Rich","recruit":[],"investors":"Acquired by Oracle (NASDAQ: ORCL)"}
       ]
    },
    {
@@ -119,8 +119,8 @@ var assets2 = [
          1
       ],
       "details":[
-         "{\"position\":\"VP Social Media\",\"lead\":\"April\",\"recruit\":[\"Mark\"],\"investors\":\"Wholly owned subsidiary of Betfair  Group (UK)\"}",
-         "{\"position\":\"VP Engineering\",\"lead\":\"April\",\"recruit\":[\"Tom\"],\"investors\":\"Wholly owned subsidiary of Betfair  Group (UK)\"}"
+         {position:"VP Social Media","lead":"April","recruit":["Mark"],"investors":"Wholly owned subsidiary of Betfair  Group (UK)"},
+         {position:"VP Engineering","lead":"April","recruit":["Tom"],"investors":"Wholly owned subsidiary of Betfair  Group (UK)"}
       ]
    },
    {
@@ -140,8 +140,8 @@ var assets2 = [
          2
       ],
       "details":[
-         "{\"position\":\"SVP Engineering & Operations\",\"lead\":\"April\",\"recruit\":[],\"investors\":\"Cardinal Venture Capital, ArrowPath, El Dorado Ventures \"}",
-         "{\"position\":\"SVP Marketing & Sales\",\"lead\":\"April\",\"recruit\":[],\"investors\":\"Cardinal Venture Capital, ArrowPath, El Dorado Ventures \"}"
+         {position:"SVP Engineering & Operations","lead":"April","recruit":[],"investors":"Cardinal Venture Capital, ArrowPath, El Dorado Ventures "},
+         {position:"SVP Marketing & Sales","lead":"April","recruit":[],"investors":"Cardinal Venture Capital, ArrowPath, El Dorado Ventures "}
       ]
    },
    {
@@ -151,7 +151,7 @@ var assets2 = [
          2
       ],
       "details":[
-         "{\"position\":\"VP Sales\",\"lead\":\"Steve\",\"recruit\":[],\"investors\":\"FirstMark Capital\"}"
+         {position:"VP Sales","lead":"Steve","recruit":[],"investors":"FirstMark Capital"}
       ]
    },
    {
@@ -161,7 +161,7 @@ var assets2 = [
          1
       ],
       "details":[
-         "{\"position\":\"VP Marketing & Strategy\",\"lead\":\"April\",\"recruit\":[\"Mark\"],\"investors\":\"Alsop Louie \"}"
+         {position:"VP Marketing & Strategy","lead":"April","recruit":["Mark"],"investors":"Alsop Louie "}
       ]
    },
    {
@@ -172,7 +172,7 @@ var assets2 = [
          2
       ],
       "details":[
-         "{\"position\":\"VP Sales\",\"lead\":\"April\",\"recruit\":[\"Mark\"],\"investors\":\"Austin Ventures, Shasta Ventures, Sierra Ventures\"}"
+         {position:"VP Sales","lead":"April","recruit":["Mark"],"investors":"Austin Ventures, Shasta Ventures, Sierra Ventures"}
       ]
    },
    {
@@ -192,7 +192,7 @@ var assets2 = [
          2
       ],
       "details":[
-         "{\"position\":\"VP Sales\",\"lead\":\"Irene\",\"recruit\":[],\"investors\":\"Bay Partners, Bessemer Venture Partners\"}"
+         {position:"VP Sales","lead":"Irene","recruit":[],"investors":"Bay Partners, Bessemer Venture Partners"}
       ]
    },
    {
@@ -203,8 +203,8 @@ var assets2 = [
          2
       ],
       "details":[
-         "{\"position\":\"CMO\",\"lead\":\"April\",\"recruit\":[\"Rich\"],\"investors\":\"Joint Venture\"}",
-         "{\"position\":\"SVP Products\",\"lead\":\"April\",\"recruit\":[\"Tom\"],\"investors\":\"Joint Venture\"}"
+         {position:"CMO","lead":"April","recruit":["Rich"],"investors":"Joint Venture"},
+         {position:"SVP Products","lead":"April","recruit":["Tom"],"investors":"Joint Venture"}
       ]
    },
    {
@@ -224,7 +224,7 @@ var assets2 = [
          2
       ],
       "details":[
-         "{\"position\":\"VP Marketing\",\"lead\":\"Irene\",\"recruit\":[],\"investors\":\"Alsop Louie Partners\"}"
+         {position:"VP Marketing","lead":"Irene","recruit":[],"investors":"Alsop Louie Partners"}
       ]
    },
    {
@@ -235,7 +235,7 @@ var assets2 = [
          3
       ],
       "details":[
-         "{\"position\":\"VP Business Development\",\"lead\":\"Irene\",\"recruit\":[\"Tom\"],\"investors\":\"Jolimont Capital\"}"
+         {position:"VP Business Development","lead":"Irene","recruit":["Tom"],"investors":"Jolimont Capital"}
       ]
    },
    {
@@ -245,7 +245,7 @@ var assets2 = [
          2
       ],
       "details":[
-         "{\"position\":\"VP Engineering\",\"lead\":\"Steve\",\"recruit\":[],\"investors\":\"Draper Fisher Jurvetson, Bay Partners, Kennet Venture  Partners\"}"
+         {position:"VP Engineering","lead":"Steve","recruit":[],"investors":"Draper Fisher Jurvetson, Bay Partners, Kennet Venture  Partners"}
       ]
    },
    {
@@ -255,7 +255,7 @@ var assets2 = [
          1
       ],
       "details":[
-         "{\"position\":\"CEO\",\"lead\":\"Rich\",\"recruit\":[\"Julie\"],\"investors\":\"Foundation Capital, August Capital, Cannan Partners, Rembrandt Venture Partners\"}"
+         {position:"CEO","lead":"Rich","recruit":["Julie"],"investors":"Foundation Capital, August Capital, Cannan Partners, Rembrandt Venture Partners"}
       ]
    },
    {
@@ -266,9 +266,9 @@ var assets2 = [
          2
       ],
       "details":[
-         "{\"position\":\"SVP Sales & Marketing\",\"lead\":\"Mark\",\"recruit\":[\"Irene\"],\"investors\":\"The Foundry Group\"}",
-         "{\"position\":\"Regional Vice President\",\"lead\":\"Mark\",\"recruit\":[\"Irene\"],\"investors\":\"The Foundry Group\"}",
-         "{\"position\":\"CFO\",\"lead\":\"Mark\",\"recruit\":[\"Irene\"],\"investors\":\"The Foundry Group\"}"
+         {position:"SVP Sales & Marketing","lead":"Mark","recruit":["Irene"],"investors":"The Foundry Group"},
+         {position:"Regional Vice President","lead":"Mark","recruit":["Irene"],"investors":"The Foundry Group"},
+         {position:"CFO","lead":"Mark","recruit":["Irene"],"investors":"The Foundry Group"}
       ]
    },
    {
@@ -279,7 +279,7 @@ var assets2 = [
          3
       ],
       "details":[
-         "{\"position\":\"VP Engineering\",\"lead\":\"April\",\"recruit\":[],\"investors\":\"El Dorado Ventures, Labrador Ventures \"}"
+         {position:"VP Engineering","lead":"April","recruit":[],"investors":"El Dorado Ventures, Labrador Ventures "}
       ]
    },
    {
@@ -289,8 +289,8 @@ var assets2 = [
          2
       ],
       "details":[
-         "{\"position\":\"VP WW Sales\",\"lead\":\"Irene\",\"recruit\":[],\"investors\":\"Scale Ventures, Sutter Hill Ventures\"}",
-         "{\"position\":\"VP Marketing\",\"lead\":\"Rich\",\"recruit\":[\"Gene\"],\"investors\":\"Scale Ventures, Sutter Hill Ventures\"}"
+         {position:"VP WW Sales","lead":"Irene","recruit":[],"investors":"Scale Ventures, Sutter Hill Ventures"},
+         {position:"VP Marketing","lead":"Rich","recruit":["Gene"],"investors":"Scale Ventures, Sutter Hill Ventures"}
       ]
    },
    {
@@ -300,7 +300,7 @@ var assets2 = [
          1
       ],
       "details":[
-         "{\"position\":\"VP Products\",\"lead\":\"April\",\"recruit\":[\"Mark\"],\"investors\":\"General Catalyst Partners, Highland Capital Partners\"}"
+         {position:"VP Products","lead":"April","recruit":["Mark"],"investors":"General Catalyst Partners, Highland Capital Partners"}
       ]
    },
    {
@@ -310,7 +310,7 @@ var assets2 = [
          2
       ],
       "details":[
-         "{\"position\":\"VP Marketing\",\"lead\":\"Rich\",\"recruit\":[],\"investors\":\"Sequoia Capital, Norwest Venture Partners, JAFCO Ventures, SVB Capital, DAG Ventures, Juniper Networks\"}"
+         {position:"VP Marketing","lead":"Rich","recruit":[],"investors":"Sequoia Capital, Norwest Venture Partners, JAFCO Ventures, SVB Capital, DAG Ventures, Juniper Networks"}
       ]
    },
    {
@@ -321,8 +321,8 @@ var assets2 = [
          3
       ],
       "details":[
-         "{\"position\":\"VP Marketing\",\"lead\":\"Irene\",\"recruit\":[],\"investors\":\"Walden International, HIG Ventures\"}",
-         "{\"position\":\"VP Sales\",\"lead\":\"Irene\",\"recruit\":[],\"investors\":\"Walden International, HIG Ventures\"}"
+         {position:"VP Marketing","lead":"Irene","recruit":[],"investors":"Walden International, HIG Ventures"},
+         {position:"VP Sales","lead":"Irene","recruit":[],"investors":"Walden International, HIG Ventures"}
       ]
    },
    {
@@ -332,7 +332,7 @@ var assets2 = [
          2
       ],
       "details":[
-         "{\"position\":\"VP WW Sales\",\"lead\":\"Irene\",\"recruit\":[],\"investors\":\"Accel Partners, Mohr Davidow, Walden International, Emergence Capital\"}"
+         {position:"VP WW Sales","lead":"Irene","recruit":[],"investors":"Accel Partners, Mohr Davidow, Walden International, Emergence Capital"}
       ]
    },
    {
@@ -342,7 +342,7 @@ var assets2 = [
          2
       ],
       "details":[
-         "{\"position\":\"VP Product Management\",\"lead\":\"Steve\",\"recruit\":[],\"investors\":\"First Round Capital, Azure Capital Partners, O\\ufffd\\ufffd\\ufffdReilly Alphatech Ventures, SoftTech VC\"}"
+         {position:"VP Product Management","lead":"Steve","recruit":[],"investors":"First Round Capital, Azure Capital Partners, OufffdufffdufffdReilly Alphatech Ventures, SoftTech VC"}
       ]
    },
    {
@@ -352,7 +352,7 @@ var assets2 = [
          1
       ],
       "details":[
-         "{\"position\":\"SVP Marketing & Product Management\",\"lead\":\"Tom\",\"recruit\":[\"Mark\"],\"investors\":\"Alloy Ventures, True Ventures\"}"
+         {position:"SVP Marketing & Product Management","lead":"Tom","recruit":["Mark"],"investors":"Alloy Ventures, True Ventures"}
       ]
    },
    {
@@ -362,7 +362,7 @@ var assets2 = [
          1
       ],
       "details":[
-         "{\"position\":\"Corporate Controller\",\"lead\":\"Rich\",\"recruit\":[],\"investors\":\"NASDAQ: GOOG\"}"
+         {position:"Corporate Controller","lead":"Rich","recruit":[],"investors":"NASDAQ: GOOG"}
       ]
    },
    {
@@ -373,8 +373,8 @@ var assets2 = [
          3
       ],
       "details":[
-         "{\"position\":\"GM\",\"lead\":\"April\",\"recruit\":[\"Tom\"],\"investors\":\"Benchmark Israel, Virgin Green Fund\"}",
-         "{\"position\":\"SVP Marketing\",\"lead\":\"Dan\",\"recruit\":[\"April\"],\"investors\":\"Benchmark Israel, Virgin Green Fund \"}"
+         {position:"GM","lead":"April","recruit":["Tom"],"investors":"Benchmark Israel, Virgin Green Fund"},
+         {position:"SVP Marketing","lead":"Dan","recruit":["April"],"investors":"Benchmark Israel, Virgin Green Fund "}
       ]
    },
    {
@@ -384,7 +384,7 @@ var assets2 = [
          2
       ],
       "details":[
-         "{\"position\":\"VP Products\",\"lead\":\"Gene\",\"recruit\":[],\"investors\":\"Cargill Ventures, Thomvest Ventures, Altos Ventures, Cardinal Venture Capital\"}"
+         {position:"VP Products","lead":"Gene","recruit":[],"investors":"Cargill Ventures, Thomvest Ventures, Altos Ventures, Cardinal Venture Capital"}
       ]
    },
    {
@@ -394,8 +394,8 @@ var assets2 = [
          2
       ],
       "details":[
-         "{\"position\":\"CEO\",\"lead\":\"Steve\",\"recruit\":[],\"investors\":\"Foundation Capital, Mohr Davidow Ventures\"}",
-         "{\"position\":\"VP Marketing\",\"lead\":\"Steve\",\"recruit\":[],\"investors\":\"Foundation Capital, Mohr Davidow Ventures\"}"
+         {position:"CEO","lead":"Steve","recruit":[],"investors":"Foundation Capital, Mohr Davidow Ventures"},
+         {position:"VP Marketing","lead":"Steve","recruit":[],"investors":"Foundation Capital, Mohr Davidow Ventures"}
       ]
    },
    {
@@ -405,7 +405,7 @@ var assets2 = [
          2
       ],
       "details":[
-         "{\"position\":\"VP Services\",\"lead\":\"Steve\",\"recruit\":[],\"investors\":\"Trident Capital, ATV, Next World Capital, StarVest Partners\"}"
+         {position:"VP Services","lead":"Steve","recruit":[],"investors":"Trident Capital, ATV, Next World Capital, StarVest Partners"}
       ]
    },
    {
@@ -415,7 +415,7 @@ var assets2 = [
          2
       ],
       "details":[
-         "{\"position\":\"Director of Product Marketing\",\"lead\":\"Gene\",\"recruit\":[],\"investors\":\"Privately held\"}"
+         {position:"Director of Product Marketing","lead":"Gene","recruit":[],"investors":"Privately held"}
       ]
    },
    {
@@ -426,7 +426,7 @@ var assets2 = [
          3
       ],
       "details":[
-         "{\"position\":\"CEO\",\"lead\":\"April\",\"recruit\":[],\"investors\":\"Self-funded\"}"
+         {position:"CEO","lead":"April","recruit":[],"investors":"Self-funded"}
       ]
    },
    {
@@ -436,7 +436,7 @@ var assets2 = [
          2
       ],
       "details":[
-         "{\"position\":\"Sr. Director of Marketing Communications\",\"lead\":\"Julie\",\"recruit\":[],\"investors\":\"Sequoia Capital, Lehman Brothers, Duchossois Technology Partners \"}"
+         {position:"Sr. Director of Marketing Communications","lead":"Julie","recruit":[],"investors":"Sequoia Capital, Lehman Brothers, Duchossois Technology Partners "}
       ]
    },
    {
@@ -446,7 +446,7 @@ var assets2 = [
          2
       ],
       "details":[
-         "{\"position\":\"CEO\",\"lead\":\"April\",\"recruit\":[\"Steve\"],\"investors\":\"Founders Fund, Retro Ventures, Gates Foundation\"}"
+         {position:"CEO","lead":"April","recruit":["Steve"],"investors":"Founders Fund, Retro Ventures, Gates Foundation"}
       ]
    },
    {
@@ -456,8 +456,8 @@ var assets2 = [
          2
       ],
       "details":[
-         "{\"position\":\"Director Business Development\",\"lead\":\"Irene\",\"recruit\":[],\"investors\":\"Garnett & Helfrich Capital\"}",
-         "{\"position\":\"VP Sales, NA\",\"lead\":\"Irene\",\"recruit\":[\"Steve\"],\"investors\":\"Garnett & Helfrich Capital\"}"
+         {position:"Director Business Development","lead":"Irene","recruit":[],"investors":"Garnett & Helfrich Capital"},
+         {position:"VP Sales, NA","lead":"Irene","recruit":["Steve"],"investors":"Garnett & Helfrich Capital"}
       ]
    },
    {
@@ -467,7 +467,7 @@ var assets2 = [
          2
       ],
       "details":[
-         "{\"position\":\"SVP Global Sales & Business Dev\",\"lead\":\"Audrey\",\"recruit\":[\"Irene\"],\"investors\":\"Privately held\"}"
+         {position:"SVP Global Sales & Business Dev","lead":"Audrey","recruit":["Irene"],"investors":"Privately held"}
       ]
    },
    {
@@ -477,8 +477,8 @@ var assets2 = [
          2
       ],
       "details":[
-         "{\"position\":\"VP Sales\",\"lead\":\"Irene\",\"recruit\":[],\"investors\":\"Acquired by Tibco Software\"}",
-         "{\"position\":\"VP Business Development\",\"lead\":\"Tom\",\"recruit\":[],\"investors\":\"Acquired by Tibco Software\"}"
+         {position:"VP Sales","lead":"Irene","recruit":[],"investors":"Acquired by Tibco Software"},
+         {position:"VP Business Development","lead":"Tom","recruit":[],"investors":"Acquired by Tibco Software"}
       ]
    },
    {
@@ -488,7 +488,7 @@ var assets2 = [
          1
       ],
       "details":[
-         "{\"position\":\"COO \",\"lead\":\"Rich\",\"recruit\":[\"Mark\"],\"investors\":\"Nexus Venture Partners, Helion Venture Partners, Norwest, DFJ\"}"
+         {position:"COO ","lead":"Rich","recruit":["Mark"],"investors":"Nexus Venture Partners, Helion Venture Partners, Norwest, DFJ"}
       ]
    },
    {
@@ -499,8 +499,8 @@ var assets2 = [
          2
       ],
       "details":[
-         "{\"position\":\"VP Finance\",\"lead\":\"Julie\",\"recruit\":[],\"investors\":\"Menlo Ventures, Crosslink Capital, BlueRun Ventures, Bay Partners, Leapfrog Ventures\"}",
-         "{\"position\":\"VP Online Marketing\",\"lead\":\"Mark\",\"recruit\":[],\"investors\":\"Menlo Ventures, Crosslink Capital, BlueRun Ventures, Bay Partners, Leapfrog Ventures\"}"
+         {position:"VP Finance","lead":"Julie","recruit":[],"investors":"Menlo Ventures, Crosslink Capital, BlueRun Ventures, Bay Partners, Leapfrog Ventures"},
+         {position:"VP Online Marketing","lead":"Mark","recruit":[],"investors":"Menlo Ventures, Crosslink Capital, BlueRun Ventures, Bay Partners, Leapfrog Ventures"}
       ]
    },
    {
@@ -511,8 +511,8 @@ var assets2 = [
          3
       ],
       "details":[
-         "{\"position\":\"COO / SVP Product\",\"lead\":\"Mark \",\"recruit\":[],\"investors\":\"Rustic Canyon Partners, US Venture Partners, i-Hatch Ventures, Monitor Ventures\"}",
-         "{\"position\":\"CTO/VP Engineering\",\"lead\":\"Mark \",\"recruit\":[\"Mark\",\"Tom\"],\"investors\":\"Rustic Canyon Partners, US Venture Partners, i-Hatch Ventures, Monitor Ventures\"}"
+         {position:"COO / SVP Product","lead":"Mark ","recruit":[],"investors":"Rustic Canyon Partners, US Venture Partners, i-Hatch Ventures, Monitor Ventures"},
+         {position:"CTO/VP Engineering","lead":"Mark ","recruit":["Mark","Tom"],"investors":"Rustic Canyon Partners, US Venture Partners, i-Hatch Ventures, Monitor Ventures"}
       ]
    },
    {
@@ -522,8 +522,8 @@ var assets2 = [
          1
       ],
       "details":[
-         "{\"position\":\"CEO/VP Marketing\",\"lead\":\"April\",\"recruit\":[],\"investors\":\"Asset Management Company, Telefonica Capital, NBC/Peacock Capital \"}",
-         "{\"position\":\"VP Sales\",\"lead\":\"April\",\"recruit\":[\"Irene\"],\"investors\":\"Ron Conway, Teleonica Capital, Asset Management Company\"}"
+         {position:"CEO/VP Marketing","lead":"April","recruit":[],"investors":"Asset Management Company, Telefonica Capital, NBC/Peacock Capital "},
+         {position:"VP Sales","lead":"April","recruit":["Irene"],"investors":"Ron Conway, Teleonica Capital, Asset Management Company"}
       ]
    },
    {
@@ -533,7 +533,7 @@ var assets2 = [
          2
       ],
       "details":[
-         "{\"position\":\"VP Marketing\",\"lead\":\"April\",\"recruit\":[\"Rich\",\"Mark\",\"May\"],\"investors\":\"Self-funded\"}"
+         {position:"VP Marketing","lead":"April","recruit":["Rich","Mark","May"],"investors":"Self-funded"}
       ]
    },
    {
@@ -543,8 +543,8 @@ var assets2 = [
          2
       ],
       "details":[
-         "{\"position\":\"Director of Software Engineering\",\"lead\":\"Tom\",\"recruit\":[],\"investors\":\"Sequoia Capital\"}",
-         "{\"position\":\"VP Professional Services, Media Market\",\"lead\":\"Audrey\",\"recruit\":[\"Gene\"],\"investors\":\"Sequoia Capital\"}"
+         {position:"Director of Software Engineering","lead":"Tom","recruit":[],"investors":"Sequoia Capital"},
+         {position:"VP Professional Services, Media Market","lead":"Audrey","recruit":["Gene"],"investors":"Sequoia Capital"}
       ]
    },
    {
@@ -554,8 +554,8 @@ var assets2 = [
          2
       ],
       "details":[
-         "{\"position\":\"Sr Director Business Development\",\"lead\":\"Audrey\",\"recruit\":[\"Gene\"],\"investors\":\"Cargill Ventures, Focus Ventures, Foundation Capital, Institutional Venture Partners\"}",
-         "{\"position\":\"VP Human Resources\",\"lead\":\"Rich\",\"recruit\":[\"Tom\"],\"investors\":\"Cargill Ventures, Focus Ventures, Foundation Capital, Institutional Venture Partners\"}"
+         {position:"Sr Director Business Development","lead":"Audrey","recruit":["Gene"],"investors":"Cargill Ventures, Focus Ventures, Foundation Capital, Institutional Venture Partners"},
+         {position:"VP Human Resources","lead":"Rich","recruit":["Tom"],"investors":"Cargill Ventures, Focus Ventures, Foundation Capital, Institutional Venture Partners"}
       ]
    },
    {
@@ -565,7 +565,7 @@ var assets2 = [
          1
       ],
       "details":[
-         "{\"position\":\"CTO\",\"lead\":\"Mark \",\"recruit\":[\"Tom\"],\"investors\":\"Battery Ventures, Transcosmos\"}"
+         {position:"CTO","lead":"Mark ","recruit":["Tom"],"investors":"Battery Ventures, Transcosmos"}
       ]
    },
    {
@@ -575,7 +575,7 @@ var assets2 = [
          2
       ],
       "details":[
-         "{\"position\":\"CTO\",\"lead\":\"Tom\",\"recruit\":[],\"investors\":\"Sutter Hil Ventures\"}"
+         {position:"CTO","lead":"Tom","recruit":[],"investors":"Sutter Hil Ventures"}
       ]
    },
    {
@@ -585,7 +585,7 @@ var assets2 = [
          1
       ],
       "details":[
-         "{\"position\":\"VP Product\",\"lead\":\"Mark \",\"recruit\":[\"Julie\"],\"investors\":\"Accel Partners, Benchmark Capital, DAG Ventures, Highland Capital Partners\"}"
+         {position:"VP Product","lead":"Mark ","recruit":["Julie"],"investors":"Accel Partners, Benchmark Capital, DAG Ventures, Highland Capital Partners"}
       ]
    },
    {
@@ -595,7 +595,7 @@ var assets2 = [
          1
       ],
       "details":[
-         "{\"position\":\"Assistant Controller\",\"lead\":null,\"recruit\":[],\"investors\":\"NASDAQ: MSFT\"}"
+         {position:"Assistant Controller","lead":null,"recruit":[],"investors":"NASDAQ: MSFT"}
       ]
    },
    {
@@ -606,7 +606,7 @@ var assets2 = [
          2
       ],
       "details":[
-         "{\"position\":\"CEO\",\"lead\":\"April\",\"recruit\":[\"Rich\"],\"investors\":\"IGSB\"}"
+         {position:"CEO","lead":"April","recruit":["Rich"],"investors":"IGSB"}
       ]
    },
    {
@@ -616,8 +616,8 @@ var assets2 = [
          2
       ],
       "details":[
-         "{\"position\":\"VP WW Sales\",\"lead\":\"April\",\"recruit\":[\"Irene\"],\"investors\":\"Khosla Ventures, Highland Capital Partners \"}",
-         "{\"position\":\"VP Products\",\"lead\":\"Rich\",\"recruit\":[\"April\"],\"investors\":\"Khosla Ventures, Highland Capital Partners \"}"
+         {position:"VP WW Sales","lead":"April","recruit":["Irene"],"investors":"Khosla Ventures, Highland Capital Partners "},
+         {position:"VP Products","lead":"Rich","recruit":["April"],"investors":"Khosla Ventures, Highland Capital Partners "}
       ]
    },
    {
@@ -638,8 +638,8 @@ var assets2 = [
          2
       ],
       "details":[
-         "{\"position\":\"VP Marketing\",\"lead\":null,\"recruit\":[\"Rich\"],\"investors\":\"Norwest Venture Partners, Draper Fisher Jurvetson, Draper Richards\"}",
-         "{\"position\":\"BOARD\",\"lead\":null,\"recruit\":[\"Rich\"],\"investors\":\"Norwest Venture Partners, Draper Fisher Jurvetson, Draper Richards\"}"
+         {position:"VP Marketing","lead":null,"recruit":["Rich"],"investors":"Norwest Venture Partners, Draper Fisher Jurvetson, Draper Richards"},
+         {position:"BOARD","lead":null,"recruit":["Rich"],"investors":"Norwest Venture Partners, Draper Fisher Jurvetson, Draper Richards"}
       ]
    },
    {
@@ -649,7 +649,7 @@ var assets2 = [
          2
       ],
       "details":[
-         "{\"position\":\"VP Sales\",\"lead\":\"Rich\",\"recruit\":[],\"investors\":\"Advanced Technology Ventures, Bay Partners, Sevin Rosen Funds, Lightspeed Venture Partners\"}"
+         {position:"VP Sales","lead":"Rich","recruit":[],"investors":"Advanced Technology Ventures, Bay Partners, Sevin Rosen Funds, Lightspeed Venture Partners"}
       ]
    },
    {
@@ -659,7 +659,7 @@ var assets2 = [
          2
       ],
       "details":[
-         "{\"position\":\"Board Member\",\"lead\":null,\"recruit\":[],\"investors\":\"Acquired byAkami (NASDAQ: AKAM)\"}"
+         {position:"Board Member","lead":null,"recruit":[],"investors":"Acquired byAkami (NASDAQ: AKAM)"}
       ]
    },
    {
@@ -669,7 +669,7 @@ var assets2 = [
          2
       ],
       "details":[
-         "{\"position\":\"EVP WW Sales\",\"lead\":\"Irene\",\"recruit\":[],\"investors\":\"Acquired by Computer Associates (NYSE: CA)\"}"
+         {position:"EVP WW Sales","lead":"Irene","recruit":[],"investors":"Acquired by Computer Associates (NYSE: CA)"}
       ]
    },
    {
@@ -679,7 +679,7 @@ var assets2 = [
          2
       ],
       "details":[
-         "{\"position\":\"VP Sales\",\"lead\":\"Irene\",\"recruit\":[],\"investors\":\"Acquired by StarCite\"}"
+         {position:"VP Sales","lead":"Irene","recruit":[],"investors":"Acquired by StarCite"}
       ]
    },
    {
@@ -689,8 +689,8 @@ var assets2 = [
          2
       ],
       "details":[
-         "{\"position\":\"VP Engineering, Enterprise 2.0\",\"lead\":\"Tom\",\"recruit\":[\"Steve\"],\"investors\":\"NASDAQ:ORCL\"}",
-         "{\"position\":\"SVP (GM) Enterprise 2.0\",\"lead\":\"Tom\",\"recruit\":[\"Steve\"],\"investors\":\"NASDAQ:ORCL\"}"
+         {position:"VP Engineering, Enterprise 2.0","lead":"Tom","recruit":["Steve"],"investors":"NASDAQ:ORCL"},
+         {position:"SVP (GM) Enterprise 2.0","lead":"Tom","recruit":["Steve"],"investors":"NASDAQ:ORCL"}
       ]
    },
    {
@@ -700,8 +700,8 @@ var assets2 = [
          2
       ],
       "details":[
-         "{\"position\":\"VP Product Management\",\"lead\":null,\"recruit\":[],\"investors\":\"eSupport.com\"}",
-         "{\"position\":\"VP Engineering\",\"lead\":\"Tom\",\"recruit\":[\"Tom\"],\"investors\":\"eSupport.com\"}"
+         {position:"VP Product Management","lead":null,"recruit":[],"investors":"eSupport.com"},
+         {position:"VP Engineering","lead":"Tom","recruit":["Tom"],"investors":"eSupport.com"}
       ]
    },
    {
@@ -711,7 +711,7 @@ var assets2 = [
          2
       ],
       "details":[
-         "{\"position\":\"VP Engineering\",\"lead\":\"Tom\",\"recruit\":[\"Tom\"],\"investors\":\"Horizon Ventures, Sutter Hill Ventures \"}"
+         {position:"VP Engineering","lead":"Tom","recruit":["Tom"],"investors":"Horizon Ventures, Sutter Hill Ventures "}
       ]
    },
    {
@@ -731,7 +731,7 @@ var assets2 = [
          1
       ],
       "details":[
-         "{\"position\":\"CEO\",\"lead\":\"Rich\",\"recruit\":[\"Julie\"],\"investors\":\"Wellington Partners\"}"
+         {position:"CEO","lead":"Rich","recruit":["Julie"],"investors":"Wellington Partners"}
       ]
    },
    {
@@ -741,7 +741,7 @@ var assets2 = [
          2
       ],
       "details":[
-         "{\"position\":\"VP Strategic Sales\",\"lead\":\"Rich\",\"recruit\":[\"Gene\"],\"investors\":\"Azure Capital, Granite Ventures, Cipio Partners, FTVentures, NBC Universal, Hercules Technology Growth Capital\"}"
+         {position:"VP Strategic Sales","lead":"Rich","recruit":["Gene"],"investors":"Azure Capital, Granite Ventures, Cipio Partners, FTVentures, NBC Universal, Hercules Technology Growth Capital"}
       ]
    },
    {
@@ -752,8 +752,8 @@ var assets2 = [
          2
       ],
       "details":[
-         "{\"position\":\"VP Business Development\",\"lead\":\"Rich\",\"recruit\":[\"Gene\"],\"investors\":\"Draper Fisher Jurvetson, Nexus India Capital, Helion Ventures\"}",
-         "{\"position\":\"VP Publisher Services\",\"lead\":\"April/Rich\",\"recruit\":[\"Gene\"],\"investors\":\"Draper Fisher Jurvetson, Nexus India Capital, Helion Ventures\"}"
+         {position:"VP Business Development","lead":"Rich","recruit":["Gene"],"investors":"Draper Fisher Jurvetson, Nexus India Capital, Helion Ventures"},
+         {position:"VP Publisher Services","lead":"April/Rich","recruit":["Gene"],"investors":"Draper Fisher Jurvetson, Nexus India Capital, Helion Ventures"}
       ]
    },
    {
@@ -763,7 +763,7 @@ var assets2 = [
          2
       ],
       "details":[
-         "{\"position\":\"VP Engineering\",\"lead\":\"April\",\"recruit\":[\"Tom\"],\"investors\":\"Foundation Capital, Partech International \"}"
+         {position:"VP Engineering","lead":"April","recruit":["Tom"],"investors":"Foundation Capital, Partech International "}
       ]
    },
    {
@@ -773,7 +773,7 @@ var assets2 = [
          1
       ],
       "details":[
-         "{\"position\":\"CEO\",\"lead\":\"April\",\"recruit\":[\"Gene\",\"May\"],\"investors\":\"Legatum Capital\"}"
+         {position:"CEO","lead":"April","recruit":["Gene","May"],"investors":"Legatum Capital"}
       ]
    },
    {
@@ -783,8 +783,8 @@ var assets2 = [
          1
       ],
       "details":[
-         "{\"position\":\"SVP Sales & Marketing\",\"lead\":\"Rich\",\"recruit\":[\"Gene\"],\"investors\":\"NASDAQ:RNWK\"}",
-         "{\"position\":\"GM Consumer\",\"lead\":\"Rich\",\"recruit\":[\"Gene\"],\"investors\":\"NASDAQ:RNWK\"}"
+         {position:"SVP Sales & Marketing","lead":"Rich","recruit":["Gene"],"investors":"NASDAQ:RNWK"},
+         {position:"GM Consumer","lead":"Rich","recruit":["Gene"],"investors":"NASDAQ:RNWK"}
       ]
    },
    {
@@ -794,7 +794,7 @@ var assets2 = [
          2
       ],
       "details":[
-         "{\"position\":\"VPE\",\"lead\":\"Tom\",\"recruit\":[\"Tom\"],\"investors\":\"Hummer Winblad, Sigma Partners, Partech \"}"
+         {position:"VPE","lead":"Tom","recruit":["Tom"],"investors":"Hummer Winblad, Sigma Partners, Partech "}
       ]
    },
    {
@@ -804,8 +804,8 @@ var assets2 = [
          1
       ],
       "details":[
-         "{\"position\":\"VP Product Management\",\"lead\":\"Rich\",\"recruit\":[\"Mark\",\"Julie\"],\"investors\":\"Alloy Ventures, Norwest Venture Partners, \"}",
-         "{\"position\":\"VP Business Development\",\"lead\":\"Rich\",\"recruit\":[\"Mark\"],\"investors\":\"Alloy Ventures, Norwest Venture Partners, \"}"
+         {position:"VP Product Management","lead":"Rich","recruit":["Mark","Julie"],"investors":"Alloy Ventures, Norwest Venture Partners, "},
+         {position:"VP Business Development","lead":"Rich","recruit":["Mark"],"investors":"Alloy Ventures, Norwest Venture Partners, "}
       ]
    },
    {
@@ -815,7 +815,7 @@ var assets2 = [
          2
       ],
       "details":[
-         "{\"position\":\"CFO\",\"lead\":\"April\",\"recruit\":[],\"investors\":\"Acquired by Brocade (NASDAQ: BRCD)\"}"
+         {position:"CFO","lead":"April","recruit":[],"investors":"Acquired by Brocade (NASDAQ: BRCD)"}
       ]
    },
    {
@@ -825,7 +825,7 @@ var assets2 = [
          2
       ],
       "details":[
-         "{\"position\":\"VP Marketing\",\"lead\":\"Rich\",\"recruit\":[],\"investors\":\"NEA, Mohr Davidow Ventures\"}"
+         {position:"VP Marketing","lead":"Rich","recruit":[],"investors":"NEA, Mohr Davidow Ventures"}
       ]
    },
    {
@@ -835,7 +835,7 @@ var assets2 = [
          2
       ],
       "details":[
-         "{\"position\":\"VP Marketing\",\"lead\":\"Irene\",\"recruit\":[],\"investors\":\"Privately held\"}"
+         {position:"VP Marketing","lead":"Irene","recruit":[],"investors":"Privately held"}
       ]
    },
    {
@@ -846,7 +846,7 @@ var assets2 = [
          3
       ],
       "details":[
-         "{\"position\":\"SVP Sales & Strategy\",\"lead\":\"April\",\"recruit\":[\"Mark\"],\"investors\":\"Shasta Ventures, Tugboat Ventures, Altos Ventures\"}"
+         {position:"SVP Sales & Strategy","lead":"April","recruit":["Mark"],"investors":"Shasta Ventures, Tugboat Ventures, Altos Ventures"}
       ]
    },
    {
@@ -856,7 +856,7 @@ var assets2 = [
          1
       ],
       "details":[
-         "{\"position\":\"CMO\",\"lead\":\"Rich\",\"recruit\":[],\"investors\":\"Sigma Partners\"}"
+         {position:"CMO","lead":"Rich","recruit":[],"investors":"Sigma Partners"}
       ]
    },
    {
@@ -876,7 +876,7 @@ var assets2 = [
          1
       ],
       "details":[
-         "{\"position\":\"VP Product\",\"lead\":\"Mark \",\"recruit\":[],\"investors\":\"Mayfield Fund, Idealab\"}"
+         {position:"VP Product","lead":"Mark ","recruit":[],"investors":"Mayfield Fund, Idealab"}
       ]
    },
    {
@@ -886,7 +886,7 @@ var assets2 = [
          1
       ],
       "details":[
-         "{\"position\":\"CRO\",\"lead\":\"Mark \",\"recruit\":[\"Gene\"],\"investors\":\"Russell Siegelman, DFJ, First Round Capital, Bridgescale Partners\"}"
+         {position:"CRO","lead":"Mark ","recruit":["Gene"],"investors":"Russell Siegelman, DFJ, First Round Capital, Bridgescale Partners"}
       ]
    },
    {
@@ -896,8 +896,8 @@ var assets2 = [
          2
       ],
       "details":[
-         "{\"position\":\"VP Sales\",\"lead\":\"April\",\"recruit\":[\"Irene\"],\"investors\":\"Omidyar Network, DFJ, SAP Ventures\"}",
-         "{\"position\":\"CMO\",\"lead\":\"April\",\"recruit\":[\"Irene\"],\"investors\":\"Omidyar Network, DFJ, SAP Ventures\"}"
+         {position:"VP Sales","lead":"April","recruit":["Irene"],"investors":"Omidyar Network, DFJ, SAP Ventures"},
+         {position:"CMO","lead":"April","recruit":["Irene"],"investors":"Omidyar Network, DFJ, SAP Ventures"}
       ]
    },
    {
@@ -907,7 +907,7 @@ var assets2 = [
          1
       ],
       "details":[
-         "{\"position\":\"VP/GM Business Development\",\"lead\":\"Rich\",\"recruit\":[\"Mark\"],\"investors\":\"Y Combinator, SoftTech VC, Index Ventures\"}"
+         {position:"VP/GM Business Development","lead":"Rich","recruit":["Mark"],"investors":"Y Combinator, SoftTech VC, Index Ventures"}
       ]
    },
    {
@@ -917,7 +917,7 @@ var assets2 = [
          2
       ],
       "details":[
-         "{\"position\":\"VP Marketing\",\"lead\":\"Steve\",\"recruit\":[],\"investors\":\"Ignition Partners, August Captial , JK&B Capital, Sevin Rosen Funds\"}"
+         {position:"VP Marketing","lead":"Steve","recruit":[],"investors":"Ignition Partners, August Captial , JK&B Capital, Sevin Rosen Funds"}
       ]
    },
    {
@@ -927,7 +927,7 @@ var assets2 = [
          2
       ],
       "details":[
-         "{\"position\":\"VP Marketing\",\"lead\":\"Steve\",\"recruit\":[],\"investors\":\"Foundation Capital, Northbridge Venture Partners\"}"
+         {position:"VP Marketing","lead":"Steve","recruit":[],"investors":"Foundation Capital, Northbridge Venture Partners"}
       ]
    },
    {
@@ -938,8 +938,8 @@ var assets2 = [
          3
       ],
       "details":[
-         "{\"position\":\"SVP Sales & Marketing\",\"lead\":\"Irene\",\"recruit\":[],\"investors\":\"Sutter Hill Ventures\"}",
-         "{\"position\":\"VP Applications\",\"lead\":\"Tom\",\"recruit\":[\"Tom\"],\"investors\":\"Sutter Hill Ventures\"}"
+         {position:"SVP Sales & Marketing","lead":"Irene","recruit":[],"investors":"Sutter Hill Ventures"},
+         {position:"VP Applications","lead":"Tom","recruit":["Tom"],"investors":"Sutter Hill Ventures"}
       ]
    },
    {
@@ -949,7 +949,7 @@ var assets2 = [
          2
       ],
       "details":[
-         "{\"position\":\"Board Member\",\"lead\":\"Irene\",\"recruit\":[],\"investors\":\"NASDAQ: SPRT\"}"
+         {position:"Board Member","lead":"Irene","recruit":[],"investors":"NASDAQ: SPRT"}
       ]
    },
    {
@@ -959,8 +959,8 @@ var assets2 = [
          2
       ],
       "details":[
-         "{\"position\":\"VP Product Management\",\"lead\":\"Audrey\",\"recruit\":[\"Gene\"],\"investors\":\"NASDAQ: SYMC\"}",
-         "{\"position\":\"VP Product Marketing, Consulting Svcs\",\"lead\":\"Audrey\",\"recruit\":[\"Gene\"],\"investors\":\"NASDAQ: SYMC\"}"
+         {position:"VP Product Management","lead":"Audrey","recruit":["Gene"],"investors":"NASDAQ: SYMC"},
+         {position:"VP Product Marketing, Consulting Svcs","lead":"Audrey","recruit":["Gene"],"investors":"NASDAQ: SYMC"}
       ]
    },
    {
@@ -970,8 +970,8 @@ var assets2 = [
          1
       ],
       "details":[
-         "{\"position\":\"Chief Customer Officer\",\"lead\":\"Mark\",\"recruit\":[\"Julie\"],\"investors\":\"Mayfield\"}",
-         "{\"position\":\"VP Online Marketing\",\"lead\":\"Mark\",\"recruit\":[\"Mark\",\"May\"],\"investors\":\"Mayfield\"}"
+         {position:"Chief Customer Officer","lead":"Mark","recruit":["Julie"],"investors":"Mayfield"},
+         {position:"VP Online Marketing","lead":"Mark","recruit":["Mark","May"],"investors":"Mayfield"}
       ]
    },
    {
@@ -982,7 +982,7 @@ var assets2 = [
          3
       ],
       "details":[
-         "{\"position\":\"VP/GM\",\"lead\":\"Rich\",\"recruit\":[\"Irene\"],\"investors\":\"Acquired by Nielsen\"}"
+         {position:"VP/GM","lead":"Rich","recruit":["Irene"],"investors":"Acquired by Nielsen"}
       ]
    },
    {
@@ -992,8 +992,8 @@ var assets2 = [
          2
       ],
       "details":[
-         "{\"position\":\"VP Business Development\",\"lead\":\"Rich\",\"recruit\":[\"Julie\",\"Gene\"],\"investors\":\"Institutional Venture Partners, NEA. CMEA Ventures, Scale Venture Partners, GF Private Equity, Chevron Technology Ventures, Symantec\"}",
-         "{\"position\":\"VP Marketing\",\"lead\":\"Rich\",\"recruit\":[\"Audrey\"],\"investors\":\"Institutional Venture Partners, NEA. CMEA Ventures, Scale Venture Partners, GF Private Equity, Chevron Technology Ventures, Symantec\"}"
+         {position:"VP Business Development","lead":"Rich","recruit":["Julie","Gene"],"investors":"Institutional Venture Partners, NEA. CMEA Ventures, Scale Venture Partners, GF Private Equity, Chevron Technology Ventures, Symantec"},
+         {position:"VP Marketing","lead":"Rich","recruit":["Audrey"],"investors":"Institutional Venture Partners, NEA. CMEA Ventures, Scale Venture Partners, GF Private Equity, Chevron Technology Ventures, Symantec"}
       ]
    },
    {
@@ -1003,7 +1003,7 @@ var assets2 = [
          1
       ],
       "details":[
-         "{\"position\":\"VP Operations\",\"lead\":\"Mark\",\"recruit\":[\"Julie\"],\"investors\":\"BlueRun Ventures, Ignition Partners, The Founders Fund\"}"
+         {position:"VP Operations","lead":"Mark","recruit":["Julie"],"investors":"BlueRun Ventures, Ignition Partners, The Founders Fund"}
       ]
    },
    {
@@ -1013,7 +1013,7 @@ var assets2 = [
          2
       ],
       "details":[
-         "{\"position\":\"VP Online Marketing\",\"lead\":\"Rich\",\"recruit\":[\"Julie\"],\"investors\":\"Privately held\"}"
+         {position:"VP Online Marketing","lead":"Rich","recruit":["Julie"],"investors":"Privately held"}
       ]
    },
    {
@@ -1023,8 +1023,8 @@ var assets2 = [
          1
       ],
       "details":[
-         "{\"position\":\"Chief Scientist\",\"lead\":\"Mark \",\"recruit\":[],\"investors\":\"Norwest Venture Partners, Shasta Ventures, Trident Capital, Focus Ventures\"}",
-         "{\"position\":\"VP Product Management\",\"lead\":\"Mark \",\"recruit\":[\"Gene\"],\"investors\":\"Norwest Venture Partners, Shasta Ventures, Trident Capital, Focus Ventures\"}"
+         {position:"Chief Scientist","lead":"Mark ","recruit":[],"investors":"Norwest Venture Partners, Shasta Ventures, Trident Capital, Focus Ventures"},
+         {position:"VP Product Management","lead":"Mark ","recruit":["Gene"],"investors":"Norwest Venture Partners, Shasta Ventures, Trident Capital, Focus Ventures"}
       ]
    },
    {
@@ -1034,8 +1034,8 @@ var assets2 = [
          2
       ],
       "details":[
-         "{\"position\":\"SVP Online Sales & Marketing\",\"lead\":\"Audrey\",\"recruit\":[\"Gene\"],\"investors\":\"CMEA Ventures, Rustic Canyon Ventures\"}",
-         "{\"position\":\"VP Business Development\",\"lead\":\"Audrey\",\"recruit\":[],\"investors\":\"CMEA Ventures, Rustic Canyon Ventures\"}"
+         {position:"SVP Online Sales & Marketing","lead":"Audrey","recruit":["Gene"],"investors":"CMEA Ventures, Rustic Canyon Ventures"},
+         {position:"VP Business Development","lead":"Audrey","recruit":[],"investors":"CMEA Ventures, Rustic Canyon Ventures"}
       ]
    },
    {
@@ -1045,7 +1045,7 @@ var assets2 = [
          2
       ],
       "details":[
-         "{\"position\":\"VP WW Sales\",\"lead\":\"Audrey\",\"recruit\":[\"Irene\"],\"investors\":\"Gemini Israel Funds, Hillsven Capital. Carmel Ventures\"}"
+         {position:"VP WW Sales","lead":"Audrey","recruit":["Irene"],"investors":"Gemini Israel Funds, Hillsven Capital. Carmel Ventures"}
       ]
    },
    {
@@ -1055,7 +1055,7 @@ var assets2 = [
          1
       ],
       "details":[
-         "{\"position\":\"CEO\",\"lead\":\"Rich\",\"recruit\":[\"Julie\"],\"investors\":\"Worldview Technology Partners, Mayfield Fund, Sutter Hill Ventures, Leader Ventures\"}"
+         {position:"CEO","lead":"Rich","recruit":["Julie"],"investors":"Worldview Technology Partners, Mayfield Fund, Sutter Hill Ventures, Leader Ventures"}
       ]
    },
    {
@@ -1065,7 +1065,7 @@ var assets2 = [
          1
       ],
       "details":[
-         "{\"position\":\"GM/Counrtry Manager\",\"lead\":null,\"recruit\":[\"Mark\"],\"investors\":\"Wellington Partners, Partech International\"}"
+         {position:"GM/Counrtry Manager","lead":null,"recruit":["Mark"],"investors":"Wellington Partners, Partech International"}
       ]
    },
    {
@@ -1075,8 +1075,8 @@ var assets2 = [
          2
       ],
       "details":[
-         "{\"position\":\"VP Sales\",\"lead\":\"Irene\",\"recruit\":[],\"investors\":\"Khosla Ventures, Google Ventures, NEA, Index Ventures, Allen & Company, First Round Capital\"}",
-         "{\"position\":\"VP Engineering\",\"lead\":\"Tom\",\"recruit\":[],\"investors\":\"Khosla Ventures, Google Ventures, NEA, Index Ventures, Allen & Company, First Round Capital\"}"
+         {position:"VP Sales","lead":"Irene","recruit":[],"investors":"Khosla Ventures, Google Ventures, NEA, Index Ventures, Allen & Company, First Round Capital"},
+         {position:"VP Engineering","lead":"Tom","recruit":[],"investors":"Khosla Ventures, Google Ventures, NEA, Index Ventures, Allen & Company, First Round Capital"}
       ]
    },
    {
@@ -1087,7 +1087,7 @@ var assets2 = [
          2
       ],
       "details":[
-         "{\"position\":\"SVP Global Online\",\"lead\":\"Rich\",\"recruit\":[\"Audrey\",\"May\"],\"investors\":\"Accel Partners, Mayfield, Technology Crossover Ventures\"}"
+         {position:"SVP Global Online","lead":"Rich","recruit":["Audrey","May"],"investors":"Accel Partners, Mayfield, Technology Crossover Ventures"}
       ]
    },
    {
@@ -1097,7 +1097,7 @@ var assets2 = [
          1
       ],
       "details":[
-         "{\"position\":\"CTO\",\"lead\":\"April\",\"recruit\":[\"Tom\"],\"investors\":\"Madrona Venture Group, Technology Crossover Ventures \"}"
+         {position:"CTO","lead":"April","recruit":["Tom"],"investors":"Madrona Venture Group, Technology Crossover Ventures "}
       ]
    },
    {
@@ -1107,8 +1107,8 @@ var assets2 = [
          2
       ],
       "details":[
-         "{\"position\":\"SVP Engineering\",\"lead\":\"April\",\"recruit\":[\"Tom\"],\"investors\":\"Khosla Ventures, Mayfield Fund \"}",
-         "{\"position\":\"CMO\",\"lead\":\"Rich\",\"recruit\":[\"April\"],\"investors\":\"Khosla Ventures, Mayfield Fund \"}"
+         {position:"SVP Engineering","lead":"April","recruit":["Tom"],"investors":"Khosla Ventures, Mayfield Fund "},
+         {position:"CMO","lead":"Rich","recruit":["April"],"investors":"Khosla Ventures, Mayfield Fund "}
       ]
    },
    {
@@ -1118,7 +1118,7 @@ var assets2 = [
          2
       ],
       "details":[
-         "{\"position\":\"VP Business Development\",\"lead\":\"Tom\",\"recruit\":[],\"investors\":\"Intel Capital\"}"
+         {position:"VP Business Development","lead":"Tom","recruit":[],"investors":"Intel Capital"}
       ]
    },
    {
@@ -1128,8 +1128,8 @@ var assets2 = [
          1
       ],
       "details":[
-         "{\"position\":\"VP Customer Experience\",\"lead\":\"Audrey\",\"recruit\":[\"Gene\"],\"investors\":\"NSDQ: YHOO\"}",
-         "{\"position\":\"VP Ad Operations\",\"lead\":\"Audrey\",\"recruit\":[\"Gene\"],\"investors\":\"NSDQ: YHOO\"}"
+         {position:"VP Customer Experience","lead":"Audrey","recruit":["Gene"],"investors":"NSDQ: YHOO"},
+         {position:"VP Ad Operations","lead":"Audrey","recruit":["Gene"],"investors":"NSDQ: YHOO"}
       ]
    },
    {
@@ -1139,8 +1139,8 @@ var assets2 = [
          2
       ],
       "details":[
-         "{\"position\":\"SVP Engineering\",\"lead\":\"Tom\",\"recruit\":[],\"investors\":\"Columbus Venture Capital, Reinet Investments S.C.A.\"}",
-         "{\"position\":\"SVP Product Management\",\"lead\":\"Tom\",\"recruit\":[],\"investors\":\"Columbus Venture Capital, Reinet Investments S.C.A.\"}"
+         {position:"SVP Engineering","lead":"Tom","recruit":[],"investors":"Columbus Venture Capital, Reinet Investments S.C.A."},
+         {position:"SVP Product Management","lead":"Tom","recruit":[],"investors":"Columbus Venture Capital, Reinet Investments S.C.A."}
       ]
    },
    {
@@ -1150,8 +1150,8 @@ var assets2 = [
          2
       ],
       "details":[
-         "{\"position\":\"CMO\",\"lead\":\"Rich\",\"recruit\":[\"Audrey\"],\"investors\":\"Azure Capital, Index Ventures, SAP Ventures, Intel Capital, Walden Israel Venture Capital, Greylock Partners, Platinum Neurom Ventures (PNV)\"}",
-         "{\"position\":\"VP Sales\",\"lead\":\"Rich\",\"recruit\":[\"Audrey\"],\"investors\":\"Azure Capital, Index Ventures, SAP Ventures, Intel Capital, Walden Israel Venture Capital, Greylock Partners, Platinum Neurom Ventures (PNV)\"}"
+         {position:"CMO","lead":"Rich","recruit":["Audrey"],"investors":"Azure Capital, Index Ventures, SAP Ventures, Intel Capital, Walden Israel Venture Capital, Greylock Partners, Platinum Neurom Ventures (PNV)"},
+         {position:"VP Sales","lead":"Rich","recruit":["Audrey"],"investors":"Azure Capital, Index Ventures, SAP Ventures, Intel Capital, Walden Israel Venture Capital, Greylock Partners, Platinum Neurom Ventures (PNV)"}
       ]
    },
    {
@@ -1162,8 +1162,8 @@ var assets2 = [
          2
       ],
       "details":[
-         "{\"position\":\"Head of Professional Services\",\"lead\":\"Gene\",\"recruit\":[\"Gene\"],\"investors\":\"Acquired by Checkpoint Software NASDAQ: CHKP\"}",
-         "{\"position\":\"VP Sales\",\"lead\":\"Rich\",\"recruit\":[\"Gene\"],\"investors\":\"Acquired by Checkpoint Software NASDAQ: CHKP\"}"
+         {position:"Head of Professional Services","lead":"Gene","recruit":["Gene"],"investors":"Acquired by Checkpoint Software NASDAQ: CHKP"},
+         {position:"VP Sales","lead":"Rich","recruit":["Gene"],"investors":"Acquired by Checkpoint Software NASDAQ: CHKP"}
       ]
    },
    {
@@ -1173,12 +1173,11 @@ var assets2 = [
          1
       ],
       "details":[
-         "{\"position\":\"VP Customer Service\",\"lead\":\"Mark\",\"recruit\":[\"Jule\"],\"investors\":\"Kleiner Perkins, IVP, Union Square Ventures, Foundry Group, Avalon Ventures, Clarium Capital, Pilot Group, individual Investors\"}",
-         "{\"position\":\"SVP Network Operations\",\"lead\":\"Mark\",\"recruit\":[\"Julie\"],\"investors\":\"Kleiner Perkins, IVP, Union Square Ventures, Foundry Group, Avalon Ventures, Clarium Capital, Pilot Group, individual Investors\"}"
+         {position:"VP Customer Service","lead":"Mark","recruit":["Jule"],"investors":"Kleiner Perkins, IVP, Union Square Ventures, Foundry Group, Avalon Ventures, Clarium Capital, Pilot Group, individual Investors"},
+         {position:"SVP Network Operations","lead":"Mark","recruit":["Julie"],"investors":"Kleiner Perkins, IVP, Union Square Ventures, Foundry Group, Avalon Ventures, Clarium Capital, Pilot Group, individual Investors"}
       ]
    }
 ]
-
 var assets = [
   {company: "10GEN", name: "ten_gen", categories: [5], ticker: "NASDAQ", cto: "D. Lazar", partner: "T. Callahan"},
   {company: "ADCHEMY", name: "adchemy", categories: [5], ticker: "NASDAQ (Foo)", cto: "D. Lazar", partner: "T. Callahan"},
@@ -1342,7 +1341,6 @@ return {
   
   getAllCompanies : function (start, max) {
     var companies = assets2;
-    console.log("Asking for start %d, max %d of total %d", start, max, companies.length);
     return companies.splice(start, max);
   }
 }
@@ -1356,7 +1354,6 @@ return {
     var clients = $(".clients", "#logo_content");
     _.each(clients, function(client, idx){
       var sublist = Vantage.practice.getAllCompanies(0, max);
-      console.log("Sublist is ", sublist);
       _.each(sublist, function(list){
         $("<p>",{
           text: list.company
@@ -1382,7 +1379,7 @@ return {
         if(!margin){
           margin = (idx == 3)? "omega" : "";  
         }
-        $("#logoTemplate").tmpl({klass: klass, margin: margin, href: "#"+logo.name, title: logo.name, name: logo.company}).appendTo("#"+id);
+        $("#logoTemplate").tmpl({klass: klass, margin: margin, href: "#"+logo.name, title: logo.name, name: logo.company, details: logo.details}).appendTo("#"+id);
          if(idx == 3) {
            $("<div>",{
               "class": "spacer"

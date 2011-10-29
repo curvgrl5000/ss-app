@@ -46,11 +46,19 @@
 
 :plain
   <script id="logoTemplate" type="text/x-jquery-tmpl">
-    <a href="#foobaz_${title}" class="lightitupbud">        
+    <a href="#search_${title}" class="lightitupbud">        
       <div class="logo-background ${margin}">
         <div class="logo-column ${klass}">
         </div>
-        <div style="display:none"><div id="foobaz_${title}"><h1>${title}</h1></div></div>
+        <div style="display:none">
+          <div id="search_${title}">
+            {{each details}}
+            <h1>Position: ${$value['position']}</h1>
+            <h1>Lead : ${$value['lead']}</h1>
+            <h1>Investors : ${$value['investors']}</h1>  
+            {{/each}}
+          </div>
+        </div>
       </div>
     </a>  
   </script>
