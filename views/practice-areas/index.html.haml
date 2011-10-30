@@ -13,12 +13,9 @@
       .righthalf
         .recent
           %h2.right Recent Searches Here
-          %img{:src => "../images/hp_lrglogo_oracle.png", :alt => "Oracle"}/
+          #recent_logo
           %img{:src => "../images/dots.png", :alt => "dots"}/
-          %p.stock_ticker NASDAQ (ORCL)
-          %p.cto CTO, Fusion Middleware
-          %p.vantage_partner
-            %a{:href => "#"} Tom Callahan
+          #recent_details
     .divider
     
 #logo_content
@@ -30,34 +27,47 @@
       #tabs
         %ul
           %li
-            %a{:href => "#internet"} Internet
+            %a{:href => "#consumer-internet"} Consumer / Internet
           %li
-            %a{:href => "#software-services"} Software and Services
+            %a{:href => "#enterprise-saas"} Enterprise SAAS
           %li
             %a{:href => "#mobile-wireless"} Mobile and Wireless
           %li
-            %a{:href => "#clean-tech"} CleanTech
-          %li
             %a{:href => "#client-portfolio"} Client Portfolio    
-        #internet
-          .logo-column.alpha
-            %a.adchemy.sprite_logo{:href => "#", :title => "adchemy"} Adchemy
-          .logo-column
-            %a.anchor_intelligence.sprite_logo{:href => "#", :title => "anchor_intelligence"} Anchor Intelligence
-          .logo-column
-            %a.aol.sprite_logo{:href => "#", :title => "AOL"} AOL
-          .logo-column.omega
-            %a.betfair.sprite_logo{:href => "#", :title => "BetFair"} BetFair  
-        #software-services
-          %p Software and Services
+        #consumer-internet
+        #enterprise-saas
         #mobile-wireless
-          %p Mobile and Wireless stuff
-        #clean-tech
-          %p Clean Tech
         #client-portfolio
           .clients.alpha
           .clients
           .clients
           .clients
           .clients.omega
+
+:plain
+  <script id="logoTemplate" type="text/x-jquery-tmpl">
+    <a href="#search_${title}" class="lightitupbud">        
+      <div class="logo-background ${margin}">
+        <div class="logo-column ${klass}">
+        </div>
+        <div style="display:none">
+          <div id="search_${title}">
+            {{each details}}
+            <h1>Position: ${$value['position']}</h1>
+            <h1>Lead : ${$value['lead']}</h1>
+            <h1>Investors : ${$value['investors']}</h1>  
+            {{/each}}
+          </div>
+        </div>
+      </div>
+    </a>  
+  </script>
+   
+  <script id="recentTemplate" type="text/x-jquery-tmpl">          
+    <p class="stock_ticker">${ticker}</p>
+    <p class="cto">${cto}</p>
+    <p class="vantage_partner">
+      <a href="${url}" title="${partner}">${partner}</a>
+    </p>
+  </script>
           
