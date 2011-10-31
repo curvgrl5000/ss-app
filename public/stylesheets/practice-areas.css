@@ -1623,7 +1623,7 @@ h2.master {
 /* line 140, ../../stylesheets/partials/_practice-area.sass */
 .fancybox_search .investors {
   color: #a9b2ba;
-  font: normal normal normal 1.2em Arial, sans-serif;
+  font: normal normal normal 1.2em/2em Arial, sans-serif;
   margin: 20px 0;
 }
 /* line 144, ../../stylesheets/partials/_practice-area.sass */
@@ -1636,7 +1636,7 @@ h2.master {
   margin-left: 5px;
   margin-right: 5px;
   width: 310px;
-  margin-top: 40px;
+  height: 40px;
   border-bottom: 3px solid #f37421;
 }
 /* line 149, ../../stylesheets/partials/_practice-area.sass */
