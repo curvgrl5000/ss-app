@@ -2330,6 +2330,15 @@ $(function(){
     });
   } 
   
+  $(".vantage-link").each(function(i,v){
+    var name = $(v).text();
+    var anchor = $("<a>",{
+      text: name,
+      href: "#"
+    });
+    $(this).html(anchor);
+  });
+  
   $('#tabs').bind('tabsselect', function(event, ui) {
   });
   

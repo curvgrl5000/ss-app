@@ -1649,6 +1649,16 @@ h2.master {
   font: normal normal normal 1.2em Arial, sans-serif;
   color: #f37421;
 }
+/* line 155, ../../stylesheets/partials/_practice-area.sass */
+.fancybox_search a {
+  color: #f37421;
+  text-decoration: none;
+}
+/* line 158, ../../stylesheets/partials/_practice-area.sass */
+.fancybox_search a:hover {
+  color: #f37421;
+  text-decoration: underline;
+}
 
 /* jQuery UI CSS Framework 1.8.16
  *
