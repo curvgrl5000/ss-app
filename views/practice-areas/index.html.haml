@@ -48,14 +48,19 @@
   <script id="logoTemplate" type="text/x-jquery-tmpl">
     <a href="#search_${title}" class="lightitupbud">        
       <div class="logo-background ${margin}">
-        <div class="logo-column ${klass}">
-        </div>
+        <div class="logo-column ${klass}"></div>
         <div style="display:none">
-          <div id="search_${title}">
+          <div id="search_${title}" class="fancybox_search">
+            <div class="logo-header"></div>
+            <div class="clear"></div>
             {{each details}}
-            <h1>Position: ${$value['position']}</h1>
-            <h1>Lead : ${$value['lead']}</h1>
-            <h1>Investors : ${$value['investors']}</h1>  
+            <p class="investors">${$value['investors']}</p>
+            <p>${$value['position']}</p>  
+            <p>Vantage Team:</p>
+            <span>${$value['lead']}</span>
+              {{each $value['recruit'] }}
+                <span class="vantage-link">${$value}</span>
+              {{/each}}
             {{/each}}
           </div>
         </div>

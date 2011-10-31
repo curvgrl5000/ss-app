@@ -1620,6 +1620,36 @@ h2.master {
   margin-right: 0;
 }
 
+/* line 140, ../../stylesheets/partials/_practice-area.sass */
+.fancybox_search .investors {
+  color: #a9b2ba;
+  font: normal normal normal 1.2em Arial, sans-serif;
+  margin: 20px 0;
+}
+/* line 144, ../../stylesheets/partials/_practice-area.sass */
+.fancybox_search .logo-header {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+  display: inline;
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 310px;
+  margin-top: 40px;
+  border-bottom: 3px solid #f37421;
+}
+/* line 149, ../../stylesheets/partials/_practice-area.sass */
+.fancybox_search p {
+  color: #5f6a72;
+  font: normal normal normal 1.3em Arial, sans-serif;
+}
+/* line 152, ../../stylesheets/partials/_practice-area.sass */
+.fancybox_search span {
+  font: normal normal normal 1.2em Arial, sans-serif;
+  color: #f37421;
+}
+
 /* jQuery UI CSS Framework 1.8.16
  *
  * Copyright 2011, AUTHORS.txt (http://jqueryui.com/about)
