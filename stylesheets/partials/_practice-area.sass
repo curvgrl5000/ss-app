@@ -24,7 +24,7 @@
   +grid-suffix(1)
   .content_setup
     height: 335px
-    margin-top: 30px
+    margin-top: 50px
     margin-bottom: 30px
     h1
       font: normal normal normal 3.125em Dante MT Std serif
@@ -33,10 +33,13 @@
       span.orange
         color: $orange
     h2
-      font: normal normal normal 17px "Neue Helvetica" Arial sans-serif
+      font: normal 1.7em Neue Helvetica Arial, sans-serif
       color: $orange
+      letter-spacing: .05em
+      line-height: .7em
     .spotlight
-      margin-top: 71px
+      margin-top: 50px
+      margin-bottom: 80px
       h2
         margin-top: 50px
       p
@@ -44,8 +47,11 @@
         color: $crisp-grey  
         margin-top: 15px
     .recent
+      margin-top: 55px
       h2
         margin: 20px 20px 0 0
+        font: normal 1.3em Neue Helvetica Arial, sans-serif
+        color: $orange
       #recent_logo
         width: 190px
         height: 85px
@@ -56,8 +62,8 @@
       height: 39px
       background: white url("../images/slidedeck-home-images/divider-graphic-a.png") no-repeat 0 0
     p.insight
-      font: italic normal normal 1.06em/1.7em Georgia, Times sans-serif
-      letter-spacing: .03em
+      font: italic normal normal 1.1em/2.25em Georgia, Times sans-serif
+      letter-spacing: .06em
       color: $crisp-grey
     .left-grid
       +grid(2)
@@ -69,15 +75,17 @@
       +omega  
       .lefthalf
         +grid(10)
-        +alpha  
+        +alpha
+        margin-left: 30px
       .righthalf
-        +grid(10)
+        +grid(8)
         +omega
+        margin-left: 20px
       
 #logo_content, #practice-area
   .content_setup
     background-color: #fff
-
+    box-shadow: 0 0 7px 5px rgba(0, 0, 0, 0.3)
 #logo_content
   +grid(22)
   +grid-prefix(1)
@@ -85,15 +93,16 @@
   margin-top: 30px
   .content_setup
     margin-bottom: 30px  
-    height: 800px
+    height: 650px
     background: $grey url("../images/main-bkgrnd.png") 0 0 no-repeat
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0)
     .ct
       +grid(20)
       +grid-prefix(1)
       +grid-suffix(1)
       margin: 30px 0 0 0
       h2
-        font: normal normal 600 1.6em Arial, sans-serif
+        font: normal normal 600 1.3em Arial, sans-serif
         letter-spacing: .11em
         color: $orange
       h3
@@ -101,16 +110,17 @@
         color: $logo-blue
         margin: 14px 0  
       p
-        font: normal normal normal 1.35em/1.85em Georgia, Times, serif
+        font: normal normal normal 1.35em/1.5em Georgia, Times, serif
         color: $copy-grey  
     
       #client-portfolio
-        margin-top: 20px
+        margin: 20px 0 0 20px
         .clients
           +grid(4)
           p
-            font: normal normal normal 0.8em Arial, Helvetica, sans-serif
+            font: normal normal normal 0.8em/1.5em Arial, Helvetica, sans-serif
             color: $logo-blue
+          margin-right: 0px
         .alpha
           +alpha
         .omega
@@ -123,18 +133,21 @@
         .logo-background
           +grid(5)
           background: url(../images/sprite_logos/logo_grid_bkgrnd.png) 0 0 no-repeat
-          height: 85px
-          box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1)
+          height: 110px
+          box-shadow: 7px 4px 9px 2px rgba(0, 0, 0, 0.3)
         .logo-column
           +grid(5)
           height: 85px
           text-decoration: none
           text-indent: -10000px
+          margin-top: 10px
+          margin-left: 0
         .alpha
           +alpha
         .omega
           +omega
           
   
+
 
   
