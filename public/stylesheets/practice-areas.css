@@ -63,6 +63,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
+/* $ninesixty-gutter-width: 20px !default */
+/* $ninesixty-grid-width: 960px !default */
+/* $ninesixty-columns: 12 !default */
+/* $ninesixty-class-separator: "_" !default */
 @font-face {
   font-family: "Neue Helvetica";
   src: url('../fonts/HelveticaNeueLTW1G-Md.otf') format('opentype');
@@ -158,10 +162,59 @@ body {
   line-height: 1.6em;
 }
 
-/* $ninesixty-gutter-width: 20px !default */
-/* $ninesixty-grid-width: 960px !default */
-/* $ninesixty-columns: 12 !default */
-/* $ninesixty-class-separator: "_" !default */
+/* line 77, ../../stylesheets/partials/_base.sass */
+#container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+}
+/* line 79, ../../stylesheets/partials/_base.sass */
+#container #header {
+  display: inline;
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 950px;
+}
+/* line 81, ../../stylesheets/partials/_base.sass */
+#container #header #logo {
+  display: inline;
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 310px;
+  margin-left: 0;
+}
+/* line 84, ../../stylesheets/partials/_base.sass */
+#container #header #globalsearch {
+  display: inline;
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 630px;
+  margin-right: 0;
+}
+/* line 87, ../../stylesheets/partials/_base.sass */
+#container #header #navigation {
+  display: inline;
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 870px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-left: 0;
+  margin-right: 0;
+}
+/* line 93, ../../stylesheets/partials/_base.sass */
+#container #main {
+  display: inline;
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 950px;
+}
+
 /** ESSENTIAL STYLES ** */
 /* line 3, ../../stylesheets/partials/_superfish.sass */
 .sf-menu {
