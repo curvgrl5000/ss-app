@@ -21,17 +21,17 @@
     -# Modernizr enables HTML5 elements & feature detects; Respond is a polyfill for min/max-width CSS3 Media Queries
     %script{ :src => "javascripts/modernizr.js" }
   %body
-    #container.container_24
-      #header.grid_24 
-        #logo.grid_8.alpha
-        #globalsearch.grid_16.omega
+    #container
+      #header
+        #logo
+        #globalsearch
           .search
             %form#search_form{:method => "get", :action => ""}
               %input{:type => "hidden", :value => "", :name => "exclude_pages"}
               %div
                 %input#q{:type => "text", :alt => "search", :size => "15", :value => "", :name => "q"}
                 %input{:type => "image", :alt => ""}
-        #navigation.grid_22.prefix_1.suffix_1.alpha.omega	
+        #navigation
           %ul#main-nav.sf-menu.sf-navbar.sf-js-enabled.sf-shadow
             %li
               %a.sf-with-ul{:href => "/"} Home
@@ -54,7 +54,7 @@
               %a.sf-with-ul{:href => "contact"} Contact Us
             %li
               %a.sf-with-ul{:href => "#"} News        
-      #main.grid_24
+      #main
         = yield
   #footer
     #foot
@@ -98,8 +98,8 @@
 %script{ :src => "javascripts/script.js?v=1"}
 %script{ :src => "javascripts/superfish.js?v=1"}
 %script{ :src => "javascripts/supersubs.js?v=1"}
-%script{ :src => "javascripts/jquery-ui-1.8.16.custom.min.js?v=1"}
-
+%script{ :src => "javascripts/underscore.min.js?v=1"}
+%script{ :src => "javascripts/teams.js?v=1"}
 
 -#  asynchronous google analytics: mathiasbynens.be/notes/async-analytics-snippet
 -#  change the UA-XXXXX-X to be your site's ID

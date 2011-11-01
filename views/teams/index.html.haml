@@ -1,91 +1,168 @@
-#teams_top_container.grid_22.push_1
-  .ct 
-    .transparent.grid_7.push_14.omega
-    #headline.grid_7.prefix_14.omega
-      %h1
-        Bridging the
-        %br/
-        gap between 
-        %br/
-        Silicon Valley
-        %br/
-        and the world
-  .grid_22.alpha.omega
-    .divider
+#slidedeck_frame            
+  %dl#teams_slidedeck.slidedeck
+    %dd
+      %ul.slidesVertical
+        %li
+          %dl#team_vantage.slidedeck
+            %dd.slide
+              #teams_top_container
+                .ct 
+                  .transparent
+                  #headline
+                    %h1
+                      Bridging the
+                      %br/
+                      gap between 
+                      %br/
+                      Silicon Valley
+                      %br/
+                      and the world
+        %li
+          %dl#team_mission.slidedeck
+            %dd.slide
+              .teamshot
+                %img{:src => "../images/team-shot-1.jpg"}
+            %dd.slide
+              .teamshot
+                %img{:src => "../images/team-shot-2.jpg"}
 
-#content-teams.grid_22.prefix_1.suffix_1
+#slidedeck_nav
   .ct
-    #left-content.grid_18.alpha{:style => "background-color:transparent;"}
-      .grid_17.prefix_1.alpha
-        .content-block
-          #category MEET THE TEAM
-          %h1 Our culture is as robust as the individuals that make up our practice. Meet the people that make it happen.
-      .white.grid_17.push_1.alpha
-        %ul
-          %li
-            %a.pictos-free-white-icn1{:href => "#", :title => ""}
-              %div
-                %h3 April King
-                %h4 Managing Partner
-                %br/
-                king@vantagepartners.net
-                %br/
-                MEET APRIL
-          %li
-            %a.pictos-free-white-icn2
-          %li
-            %a.pictos-free-white-icn3
-          %li
-            %a.pictos-free-white-icn4
-          %li
-            %a.pictos-free-white-icn5
-      #middle-content.grid_17.push_1.alpha
-        %h1.grid_8.suffix_1
-          SPECIALIZING IN THESE CATEGORIES
-          %br/
-          IN THE TECH SECTOR
-        %h2.grid_4{:style => "padding-top: 55px;"} 
-          Enterprise SAAS
-          %br/
-          Consumer / Internet
-          %br/
-          Mobile / Wireless
-          %br/
-        %h2.grid_3> 
-          C-Level
-          %br/
-          Engineering
-          %br/
-          Finance
-          %br/
-          Marketing
-          %br/
-          Product
-          %br/
-          Sales / Business Development
-          %br/
-          Services
-          %br/
-      .white.grid_17.push_1.alpha
-        %ul
-          %li
-            %a.pictos-free-white-icn1
-              %div
-                %h3 April King
-                %h4 Managing Partner
-                %br/
-                king@vantagepartners.net
-                %br/
-                MEET APRIL
-          %li
-            %a.pictos-free-white-icn2
-          %li
-            %a.pictos-free-white-icn3
-          %li
-            %a.pictos-free-white-icn4
-          %li
-            %a.pictos-free-white-icn5
-    #right-content.grid_4.omega{:style => "background-color:#fff;"}
+    .divider
+    .mission
+      %h2 wisdom deployed optimally
+      %p.tagline Insightful Consultative Approach to Executive Search
+    .controls
+      %ul
+        %li
+          %a.vertical_menu.nav-bottom-mission{:href => '#1'} Our Mission
+        %li
+          %a.vertical_menu.nav-bottom-vantage{:href => '#2'} The Vantage Team
+        %li.right
+          %a.prev{:href => '#prev'}
+          %a.next{:href => '#next'}
+
+#content-teams
+  .ct
+    #left-content
+      #top-block
+        %h2 MEET THE TEAM
+        %p Our culture is as robust as the individuals that make up our practice. Meet the people that make it happen.
+      .ct  
+        #white
+          %ul
+            %li.vantage-shots-icn1
+              %a{:href =>'#', :title => ''}
+                %div
+                  %h3 April King
+                  %h4
+                    Managing Partner
+                    %br/ 
+                    MEET APRIL
+            %li.vantage-shots-icn2
+              %a{:href => '#', :title => ''}
+                %div
+                  %h3 Tom Callahan
+                  %h4
+                    Managing Director
+                    %br/
+                    MEET TOM
+            %li.vantage-shots-icn3
+              %a{:href => '#', :title => ''}
+                %div
+                  %h3 May Young
+                  %h4
+                    Principal
+                    %br/ 
+                    MEET MAY
+            %li.vantage-shots-icn4
+              %a{:href => '#', :title => ''}
+                %div
+                  %h3 Mark Hubbell
+                  %h4
+                    Managing Director
+                    %br/ 
+                    MEET MARK
+            %li.vantage-shots-icn5
+              %a{:href => '#', :title => ''}
+                %div{:style => 'width:110px'}
+                  %h3 Julie Locke
+                  %h4
+                    Managing Director
+                    %br/ 
+                    MEET JULIE
+        #middle-content
+          .left
+            %h1
+              SPECIALIZING IN THESE CATEGORIES
+              %br/
+              IN THE TECH SECTOR
+          .middle    
+            %h2
+              Enterprise SAAS
+              %br/
+              Consumer / Internet
+              %br/
+              Mobile / Wireless
+              %br/ 
+          .right    
+            %h2
+              C-Level
+              %br/
+              Engineering
+              %br/
+              Finance
+              %br/
+              Marketing
+              %br/
+              Product
+              %br/
+              Sales / Business Development
+              %br/
+              Services
+              %br/
+        #black
+          %ul
+            %li.vantage-shots-icn6
+              %a{:href => '#', :title => ''}
+                %div
+                  %h3 Richard A. Lear
+                  %h4
+                    Chairman & Founder
+                    %br/ 
+                    MEET RICH
+            %li.vantage-shots-icn7
+              %a{:href => '#', :title => ''}
+                %div
+                  %h3 Audrey Shuster
+                  %h4 
+                    Managing Director
+                    %br/
+                    MEET AUDREY
+            %li.vantage-shots-icn8
+              %a{:href => '#', :title => ''}
+                %div
+                  %h3 Gene Zaccor
+                  %h4 
+                    Managing Director
+                    %br/ 
+                    MEET GENE
+            %li.vantage-shots-icn9
+              %a{:href => '#', :title => ''}
+                %div
+                  %h3 Irene Murphy
+                  %h4 Managing Director
+                  %br/ 
+                  MEET IRENE
+            %li.vantage-shots-icn10
+              %a{:href => '#', :title => ''}
+                %div{:style =>'width:146px'}
+                  %h3 Steve O'Deegan
+                  %h4
+                    Managing Director
+                    %br/ 
+                  MEET STEVE
+    #right-content
       %h4
         %a{:title=>"Meet Tom", :href => "/"} Tom Callahan
         %br/

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @font-face {
   font-family: "Neue Helvetica";
   src: url('../fonts/HelveticaNeueLTW1G-Md.otf') format('opentype');
@@ -3432,3 +3433,71 @@ h2.master {
 .chart {
   height: 200px;
 }
+=======
+/*
+Syntax error: Undefined mixin 'grid-container'.
+        on line 78 of ./stylesheets/partials/_base.sass, in `grid-container'
+        from line 78 of ./stylesheets/partials/_base.sass
+        from line 1 of ./stylesheets/screen.sass
+
+Backtrace:
+./stylesheets/partials/_base.sass:78:in `grid-container'
+./stylesheets/partials/_base.sass:78
+./stylesheets/screen.sass:1
+/Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/tree/visitors/perform.rb:169:in `visit_mixin'
+/Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/tree/visitors/perform.rb:18:in `visit'
+/Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/tree/visitors/base.rb:53:in `map'
+/Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/tree/visitors/perform.rb:27:in `block in visit_children'
+/Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/tree/visitors/perform.rb:39:in `with_environment'
+/Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/tree/visitors/perform.rb:26:in `visit_children'
+/Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/tree/visitors/perform.rb:235:in `visit_rule'
+/Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/tree/visitors/perform.rb:18:in `visit'
+/Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/tree/visitors/perform.rb:145:in `block in visit_import'
+/Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/tree/visitors/perform.rb:145:in `map'
+/Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/tree/visitors/perform.rb:145:in `visit_import'
+/Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/tree/visitors/perform.rb:18:in `visit'
+/Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/tree/visitors/base.rb:53:in `map'
+/Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/tree/visitors/perform.rb:27:in `block in visit_children'
+/Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/tree/visitors/perform.rb:39:in `with_environment'
+/Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/tree/visitors/perform.rb:26:in `visit_children'
+/Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/tree/visitors/perform.rb:47:in `visit_root'
+/Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/tree/visitors/perform.rb:18:in `visit'
+/Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/tree/root_node.rb:20:in `render'
+/Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/engine.rb:293:in `_render'
+/Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/engine.rb:240:in `render'
+/Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/plugin/compiler.rb:319:in `update_stylesheet'
+/Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/plugin/compiler.rb:181:in `block (2 levels) in update_stylesheets'
+/Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/plugin/compiler.rb:175:in `each'
+/Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/plugin/compiler.rb:175:in `block in update_stylesheets'
+/Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/plugin/compiler.rb:173:in `each'
+/Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/plugin/compiler.rb:173:in `update_stylesheets'
+/Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/plugin.rb:81:in `update_stylesheets'
+/Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/plugin.rb:54:in `check_for_updates'
+/Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.7/lib/sass/plugin/rack.rb:51:in `call'
+/Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.3/lib/rack/lint.rb:48:in `_call'
+/Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.3/lib/rack/lint.rb:36:in `call'
+/Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.3/lib/rack/showexceptions.rb:24:in `call'
+/Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.3/lib/rack/commonlogger.rb:20:in `call'
+/Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.3/lib/rack/chunked.rb:41:in `call'
+/Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.3/lib/rack/content_length.rb:14:in `call'
+/Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/rack-1.3.3/lib/rack/handler/webrick.rb:59:in `service'
+/Users/dlazar/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+/Users/dlazar/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+/Users/dlazar/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Undefined mixin 'grid-container'.\A         on line 78 of ./stylesheets/partials/_base.sass, in `grid-container'\A         from line 78 of ./stylesheets/partials/_base.sass\A         from line 1 of ./stylesheets/screen.sass"; }
+>>>>>>> dd0581d324be77781fb74082ee1a0cf8dab42444

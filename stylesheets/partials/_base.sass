@@ -67,4 +67,28 @@ $default-border-radius: 8px
 
 body
   background: $grey url("../images/main_bkgrnd.png") 0 0 repeat-x
-  +base-font
+  +base-font                                                          
+  
+$ninesixty-gutter-width: 10px !default
+$ninesixty-grid-width: 960px !default
+$ninesixty-columns: 24 !default
+$ninesixty-class-separator: "_" !default
+
+#container
+  +grid-container
+  #header
+    +grid(24)
+    #logo
+      +grid(8)
+      +alpha
+    #globalsearch
+      +grid(16)
+      +omega
+    #navigation
+      +grid(22)
+      +grid-prefix(1)
+      +grid-suffix(1)
+      +alpha
+      +omega
+  #main
+    +grid(24)

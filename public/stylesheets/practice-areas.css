@@ -63,6 +63,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
+/* $ninesixty-gutter-width: 20px !default */
+/* $ninesixty-grid-width: 960px !default */
+/* $ninesixty-columns: 12 !default */
+/* $ninesixty-class-separator: "_" !default */
 @font-face {
   font-family: "Neue Helvetica";
   src: url('../fonts/HelveticaNeueLTW1G-Md.otf') format('opentype');
@@ -158,10 +162,59 @@ body {
   line-height: 1.6em;
 }
 
-/* $ninesixty-gutter-width: 20px !default */
-/* $ninesixty-grid-width: 960px !default */
-/* $ninesixty-columns: 12 !default */
-/* $ninesixty-class-separator: "_" !default */
+/* line 77, ../../stylesheets/partials/_base.sass */
+#container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+}
+/* line 79, ../../stylesheets/partials/_base.sass */
+#container #header {
+  display: inline;
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 950px;
+}
+/* line 81, ../../stylesheets/partials/_base.sass */
+#container #header #logo {
+  display: inline;
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 310px;
+  margin-left: 0;
+}
+/* line 84, ../../stylesheets/partials/_base.sass */
+#container #header #globalsearch {
+  display: inline;
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 630px;
+  margin-right: 0;
+}
+/* line 87, ../../stylesheets/partials/_base.sass */
+#container #header #navigation {
+  display: inline;
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 870px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-left: 0;
+  margin-right: 0;
+}
+/* line 93, ../../stylesheets/partials/_base.sass */
+#container #main {
+  display: inline;
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 950px;
+}
+
 /** ESSENTIAL STYLES ** */
 /* line 3, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_superfish.sass */
 .sf-menu {
@@ -1651,6 +1704,46 @@ h2.master {
 /* line 147, ../../stylesheets/partials/_practice-area.sass */
 #logo_content .content_setup .ct #consumer-internet .omega, #logo_content .content_setup .ct #enterprise-saas .omega, #logo_content .content_setup .ct #mobile-wireless .omega {
   margin-right: 0;
+}
+
+/* line 140, ../../stylesheets/partials/_practice-area.sass */
+.fancybox_search .investors {
+  color: #a9b2ba;
+  font: normal normal normal 1.2em/2em Arial, sans-serif;
+  margin: 20px 0;
+}
+/* line 144, ../../stylesheets/partials/_practice-area.sass */
+.fancybox_search .logo-header {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+  display: inline;
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 310px;
+  height: 40px;
+  border-bottom: 3px solid #f37421;
+}
+/* line 149, ../../stylesheets/partials/_practice-area.sass */
+.fancybox_search p {
+  color: #5f6a72;
+  font: normal normal normal 1.3em Arial, sans-serif;
+}
+/* line 152, ../../stylesheets/partials/_practice-area.sass */
+.fancybox_search span {
+  font: normal normal normal 1.2em Arial, sans-serif;
+  color: #f37421;
+}
+/* line 155, ../../stylesheets/partials/_practice-area.sass */
+.fancybox_search a {
+  color: #f37421;
+  text-decoration: none;
+}
+/* line 158, ../../stylesheets/partials/_practice-area.sass */
+.fancybox_search a:hover {
+  color: #f37421;
+  text-decoration: underline;
 }
 
 /* jQuery UI CSS Framework 1.8.16
