@@ -25,3 +25,4 @@ pkg
 .bundle
 .rbenv-version
 tmp/
+public/stylesheets/partials
