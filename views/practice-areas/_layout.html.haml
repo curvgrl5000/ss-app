@@ -39,7 +39,7 @@
         #navigation	
           %ul#main-nav.sf-menu.sf-navbar.sf-js-enabled.sf-shadow
             %li
-              %a.sf-with-ul{:href => "/"} Home
+              %a.sf-with-ul{:href => "welcome"} Home
             %li.sf-breadcrumb.sfHover
               %a.sf-with-ul{:href => "#"}
                 Approach
@@ -58,7 +58,7 @@
             %li
               %a.sf-with-ul{:href => "contact"} Contact Us
             %li
-              %a.sf-with-ul{:href => "#"} News        
+              %a.sf-with-ul{:title => "Coming Soon!",:href => "#"} News        
       #main
         = yield
   #footer
@@ -77,7 +77,7 @@
             %li
               %a{:title => "Contact Us", :href => "contact"} Contact Us
             %li
-              %a{:title => "News", :href => "/"} News
+              %a{:title => "Coming Soon!", :href => "/"} News
       #right
         #logo
         .clear
@@ -87,7 +87,7 @@
           San Mateo CA 94404
           %br  
           605 579-7300
-          %a{:title => "Vantage Partners Home", :href => "/"} www.vantagepartners.net
+          %a{:title => "Vantage Partners", :href => "/"} www.vantagepartners.net
 
 -# 
   Javascript at the bottom for fast page loading

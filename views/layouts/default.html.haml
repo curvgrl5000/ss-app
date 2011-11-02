@@ -61,7 +61,8 @@
             %li
               %a.sf-with-ul{:href => "/contact"} Contact Us
             %li
-              %a.sf-with-ul{:href => "#"} News        
+              %a.sf-with-ul{:title => "Coming Soon!", :href => "#"} News
+                      
       #main.grid_24{ :role => 'main' }
         = yield
   #footer
@@ -70,17 +71,17 @@
         #navigation-footer  
           %ul#nav-footer.nav-bottom
             %li
-              %a{:title => "Home", :href => "/"} Home
+              %a{:title => "Home", :href => "welcome"} Home
             %li
               %a{:title => "Approach", :href => "/"} Approach
             %li
-              %a{:title => "Practice Areas", :href => "/"} Practice Areas
+              %a{:title => "Practice Areas", :href => "practice-areas"} Practice Areas
             %li
-              %a{:title => "Team", :href => "/"} Team
+              %a{:title => "Team", :href => "teams"} Team
             %li
               %a{:title => "Contact Us", :href => "contact"} Contact Us
             %li
-              %a{:title => "News", :href => "/"} News
+              %a{:title => "Coming Soon!", :href => "/"} News
       #right
         #logo
         .clear
