@@ -156,7 +156,7 @@ var assets2 = [
         "position": "VP Interactive",
         "lead": "Richard Lear",
         "recruit": [
-          "Carren"
+          ""
         ],
         "investors": "Criterion Capital Partners"
       }
@@ -672,7 +672,7 @@ var assets2 = [
       },
       {
         "position": "SVP Marketing",
-        "lead": "Dan",
+        "lead": "",
         "recruit": [
           "April King"
         ],
