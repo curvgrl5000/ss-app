@@ -577,14 +577,14 @@ ul.sf-navbar .current ul ul {
 /* point right for anchors in subs */
 /* apply hovers to modern browsers */
 /** remove shadow on first submenu ** */
-/* line 1, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 1, ../../stylesheets/partials/_general_layout.sass */
 #wrapper {
   margin: 0 auto;
   padding: 0;
   width: 960px;
 }
 
-/* line 6, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 6, ../../stylesheets/partials/_general_layout.sass */
 #footer {
   float: left;
   background: #36434d url("../images/footer.png") repeat-x scroll 0 0;
@@ -595,7 +595,7 @@ ul.sf-navbar .current ul ul {
   position: relative;
 }
 
-/* line 15, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 15, ../../stylesheets/partials/_general_layout.sass */
 #foot {
   background: #a9b2ba url("../images/foot-bkgrng.png") no-repeat scroll 0 16px;
   width: 960px;
@@ -606,7 +606,7 @@ ul.sf-navbar .current ul ul {
   margin-bottom: 0;
   padding: 0;
 }
-/* line 24, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 24, ../../stylesheets/partials/_general_layout.sass */
 #foot #left {
   float: left;
   padding: 0;
@@ -615,7 +615,7 @@ ul.sf-navbar .current ul ul {
   margin: 0;
   padding: 0;
 }
-/* line 31, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 31, ../../stylesheets/partials/_general_layout.sass */
 #foot #right {
   float: right;
   padding: 37px 0 0 27px;
@@ -625,7 +625,7 @@ ul.sf-navbar .current ul ul {
   background-color: white;
   background: white url("../images/foot-right-bkgrnd.png") no-repeat scroll 0 0;
 }
-/* line 39, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 39, ../../stylesheets/partials/_general_layout.sass */
 #foot #logo {
   float: right;
   padding: 0 20px 0 0;
@@ -635,7 +635,7 @@ ul.sf-navbar .current ul ul {
   background: white url("../images/footer-logo.png") no-repeat scroll 0 0;
 }
 
-/* line 47, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 47, ../../stylesheets/partials/_general_layout.sass */
 #footer h4 {
   font-family: pragmatica-web, sans-serif;
   font-style: normal;
@@ -647,15 +647,16 @@ ul.sf-navbar .current ul ul {
   line-height: 1.3;
   letter-spacing: 0.02em;
 }
-/* line 57, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 57, ../../stylesheets/partials/_general_layout.sass */
 #footer h4 a {
   color: #f37421;
+  font-weight: 600;
   text-decoration: none;
   line-height: 2.2;
   font-family: pragmatica-web, sans-serif;
   font-style: normal;
 }
-/* line 63, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 64, ../../stylesheets/partials/_general_layout.sass */
 #footer h4 a:hover {
   color: #2f404c;
   text-decoration: none;
@@ -663,13 +664,13 @@ ul.sf-navbar .current ul ul {
 
 /* Navigation
  *---------------------------------------------------------------------------------------------------- */
-/* line 70, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 71, ../../stylesheets/partials/_general_layout.sass */
 #navigation {
   height: 45px;
   background-color: #f37421;
 }
 
-/* line 76, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 77, ../../stylesheets/partials/_general_layout.sass */
 .nav-top {
   line-height: 1;
   list-style: none outside none;
@@ -678,12 +679,12 @@ ul.sf-navbar .current ul ul {
   z-index: 99;
   float: left;
 }
-/* line 83, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 84, ../../stylesheets/partials/_general_layout.sass */
 .nav-top li {
   float: left;
   width: auto;
 }
-/* line 86, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 87, ../../stylesheets/partials/_general_layout.sass */
 .nav-top li a {
   color: #2f404c !important;
   display: block;
@@ -696,13 +697,13 @@ ul.sf-navbar .current ul ul {
   font: normal 12px Dante MT Std serif;
   letter-spacing: 0.08em;
 }
-/* line 97, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 98, ../../stylesheets/partials/_general_layout.sass */
 .nav-top a:hover {
   color: white !important;
   text-decoration: none !important;
 }
 
-/* line 101, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 102, ../../stylesheets/partials/_general_layout.sass */
 #navigation-footer {
   margin: 0px;
   padding: 10px 0 0 50px;
@@ -711,7 +712,7 @@ ul.sf-navbar .current ul ul {
   width: 500px;
 }
 
-/* line 110, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 111, ../../stylesheets/partials/_general_layout.sass */
 .nav-bottom {
   line-height: 1;
   list-style: none outside none;
@@ -720,12 +721,12 @@ ul.sf-navbar .current ul ul {
   z-index: 99;
   float: left;
 }
-/* line 117, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 118, ../../stylesheets/partials/_general_layout.sass */
 .nav-bottom li {
   float: left;
   width: auto;
 }
-/* line 120, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 121, ../../stylesheets/partials/_general_layout.sass */
 .nav-bottom li a {
   color: #a9b2ba !important;
   display: block;
@@ -738,13 +739,13 @@ ul.sf-navbar .current ul ul {
   font: normal 12px Dante MT Std serif;
   letter-spacing: 0.08em;
 }
-/* line 131, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 132, ../../stylesheets/partials/_general_layout.sass */
 .nav-bottom a:hover {
   color: #f37421 !important;
   text-decoration: none !important;
 }
 
-/* line 135, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 136, ../../stylesheets/partials/_general_layout.sass */
 #logo {
   margin: 0;
   padding: 0;
@@ -753,7 +754,7 @@ ul.sf-navbar .current ul ul {
   height: 90px;
 }
 
-/* line 144, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 145, ../../stylesheets/partials/_general_layout.sass */
 .search {
   float: right;
   margin: 40px 44px 0 0;
@@ -765,14 +766,14 @@ ul.sf-navbar .current ul ul {
   display: block;
 }
 
-/* line 154, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 155, ../../stylesheets/partials/_general_layout.sass */
 #search_form {
   float: left;
   margin: 0;
   padding: 0px;
   height: 23px;
 }
-/* line 159, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 160, ../../stylesheets/partials/_general_layout.sass */
 #search_form #q {
   width: 182px;
   height: 17px;
@@ -786,11 +787,11 @@ ul.sf-navbar .current ul ul {
   float: left;
   background: none;
 }
-/* line 171, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 172, ../../stylesheets/partials/_general_layout.sass */
 #search_form #q:hover {
   background-color: #dddddd;
 }
-/* line 173, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 174, ../../stylesheets/partials/_general_layout.sass */
 #search_form input {
   background: white url("../images/magnifying_glass.png") no-repeat 0 0;
   height: 24px;
@@ -802,12 +803,12 @@ ul.sf-navbar .current ul ul {
   margin: 0 0 0 6px;
   border: none;
 }
-/* line 183, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 184, ../../stylesheets/partials/_general_layout.sass */
 #search_form input:hover {
   background-position: -25px 0;
 }
 
-/* line 186, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 187, ../../stylesheets/partials/_general_layout.sass */
 #globalsearch {
   margin: 0;
   padding: 0;
@@ -816,7 +817,7 @@ ul.sf-navbar .current ul ul {
   height: 90px;
 }
 
-/* line 193, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 194, ../../stylesheets/partials/_general_layout.sass */
 #g-search {
   display: block;
   background: white url("../images/search-placeholder.png") no-repeat scroll 0 40px;
@@ -825,6 +826,16 @@ ul.sf-navbar .current ul ul {
   height: 80px;
   width: 240px;
   float: right;
+}
+
+/* line 203, ../../stylesheets/partials/_general_layout.sass */
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
 }
 
 /* line 1, ../../stylesheets/partials/teams.sass */
@@ -878,17 +889,19 @@ ul.sf-navbar .current ul ul {
   width: 270px;
   padding-left: 560px;
   margin-right: 0;
-  height: 210px;
-  margin-top: -210px;
+  height: 0px;
+  position: absolute;
+  opacity: 1;
+  z-index: 2;
 }
-/* line 30, ../../stylesheets/partials/teams.sass */
+/* line 32, ../../stylesheets/partials/teams.sass */
 #team_vantage #teams_top_container .ct #headline h1 {
   font: normal normal normal 3.25em/1.25 Dante MT sans-serif;
   color: #f37421;
   padding: 25px 0 0 30px;
 }
-/* line 34, ../../stylesheets/partials/teams.sass */
-#team_vantage #teams_top_container .ct .transparent {
+/* line 36, ../../stylesheets/partials/teams.sass */
+#team_vantage #teams_top_container .ct #transparent {
   background-color: white;
   display: inline;
   float: left;
@@ -898,12 +911,14 @@ ul.sf-navbar .current ul ul {
   position: relative;
   left: 560px;
   margin-right: 0;
+  position: absolute;
   zoom: 1;
   filter: alpha(opacity=50);
   opacity: 0.5;
   height: 210px;
+  z-index: 1;
 }
-/* line 43, ../../stylesheets/partials/teams.sass */
+/* line 47, ../../stylesheets/partials/teams.sass */
 #team_vantage #teams_top_container .ct .teamshot {
   display: inline;
   float: left;
@@ -915,7 +930,7 @@ ul.sf-navbar .current ul ul {
   height: 336px;
 }
 
-/* line 49, ../../stylesheets/partials/teams.sass */
+/* line 53, ../../stylesheets/partials/teams.sass */
 #slidedeck_nav {
   display: inline;
   float: left;
@@ -925,7 +940,7 @@ ul.sf-navbar .current ul ul {
   padding-left: 40px;
   padding-right: 40px;
 }
-/* line 53, ../../stylesheets/partials/teams.sass */
+/* line 57, ../../stylesheets/partials/teams.sass */
 #slidedeck_nav .divider {
   display: inline;
   float: left;
@@ -937,7 +952,7 @@ ul.sf-navbar .current ul ul {
   height: 40px;
   background: white url("../images/slidedeck-home-images/divider-graphic-a.png") no-repeat 0 0;
 }
-/* line 59, ../../stylesheets/partials/teams.sass */
+/* line 63, ../../stylesheets/partials/teams.sass */
 #slidedeck_nav .ct {
   display: inline;
   float: left;
@@ -948,7 +963,7 @@ ul.sf-navbar .current ul ul {
   height: 128px;
   background-color: white;
 }
-/* line 64, ../../stylesheets/partials/teams.sass */
+/* line 68, ../../stylesheets/partials/teams.sass */
 #slidedeck_nav .ct .mission {
   display: inline;
   float: left;
@@ -957,7 +972,7 @@ ul.sf-navbar .current ul ul {
   width: 390px;
   margin-left: 0;
 }
-/* line 67, ../../stylesheets/partials/teams.sass */
+/* line 71, ../../stylesheets/partials/teams.sass */
 #slidedeck_nav .ct .mission h2 {
   font: normal 17px "Neue Helvetica", Arial, sans-serif;
   letter-spacing: 0.05em;
@@ -965,14 +980,14 @@ ul.sf-navbar .current ul ul {
   padding-top: 30px;
   padding-left: 40px;
 }
-/* line 73, ../../stylesheets/partials/teams.sass */
+/* line 77, ../../stylesheets/partials/teams.sass */
 #slidedeck_nav .ct .mission p.tagline {
   font: italic 11px Georgia, Times sans-serif;
   letter-spacing: 0.03em;
   color: #5f6a72;
   padding-left: 40px;
 }
-/* line 78, ../../stylesheets/partials/teams.sass */
+/* line 82, ../../stylesheets/partials/teams.sass */
 #slidedeck_nav .ct .controls {
   display: inline;
   float: left;
@@ -981,14 +996,14 @@ ul.sf-navbar .current ul ul {
   width: 470px;
   margin-right: 0;
 }
-/* line 81, ../../stylesheets/partials/teams.sass */
+/* line 85, ../../stylesheets/partials/teams.sass */
 #slidedeck_nav .ct .controls ul {
   display: block;
   margin: 0 auto;
   list-style-image: none;
   list-style-type: none;
 }
-/* line 86, ../../stylesheets/partials/teams.sass */
+/* line 90, ../../stylesheets/partials/teams.sass */
 #slidedeck_nav .ct .controls ul li {
   float: left;
   margin-right: -15px;
@@ -997,17 +1012,17 @@ ul.sf-navbar .current ul ul {
   line-height: 0.2em;
   padding: 2px 0 0 0;
 }
-/* line 93, ../../stylesheets/partials/teams.sass */
+/* line 97, ../../stylesheets/partials/teams.sass */
 #slidedeck_nav .ct .controls ul li a {
   font: italic normal 11px Georgia, serif;
   line-height: 10.5em;
 }
-/* line 96, ../../stylesheets/partials/teams.sass */
+/* line 100, ../../stylesheets/partials/teams.sass */
 #slidedeck_nav .ct .controls ul li a:hover, #slidedeck_nav .ct .controls ul li a:active {
   color: #f37421;
   background-position: 0 0;
 }
-/* line 100, ../../stylesheets/partials/teams.sass */
+/* line 104, ../../stylesheets/partials/teams.sass */
 #slidedeck_nav .ct .controls ul li.right {
   float: right;
   height: 88px;
@@ -1016,7 +1031,7 @@ ul.sf-navbar .current ul ul {
   padding: 0;
   background: url("../images/slidedeck-home-images/dotted-bkgrnd-nav.png") no-repeat 0 0;
 }
-/* line 107, ../../stylesheets/partials/teams.sass */
+/* line 111, ../../stylesheets/partials/teams.sass */
 #slidedeck_nav .ct .controls ul li.right .prev {
   height: 23px;
   width: 22px;
@@ -1027,11 +1042,11 @@ ul.sf-navbar .current ul ul {
   position: absolute;
   margin: 32px 3px 0 -22px;
 }
-/* line 116, ../../stylesheets/partials/teams.sass */
+/* line 120, ../../stylesheets/partials/teams.sass */
 #slidedeck_nav .ct .controls ul li.right .prev:hover {
   background-position: 0 0;
 }
-/* line 118, ../../stylesheets/partials/teams.sass */
+/* line 122, ../../stylesheets/partials/teams.sass */
 #slidedeck_nav .ct .controls ul li.right .next {
   height: 23px;
   width: 22px;
@@ -1043,12 +1058,12 @@ ul.sf-navbar .current ul ul {
   margin: 32px 0px 0 5px;
   float: left;
 }
-/* line 128, ../../stylesheets/partials/teams.sass */
+/* line 132, ../../stylesheets/partials/teams.sass */
 #slidedeck_nav .ct .controls ul li.right .next:hover {
   background-position: -22px 0;
 }
 
-/* line 131, ../../stylesheets/partials/teams.sass */
+/* line 135, ../../stylesheets/partials/teams.sass */
 a.nav-bottom-vantage {
   display: block;
   width: 120px;
@@ -1058,7 +1073,7 @@ a.nav-bottom-vantage {
   color: #6a7870;
 }
 
-/* line 139, ../../stylesheets/partials/teams.sass */
+/* line 143, ../../stylesheets/partials/teams.sass */
 a.nav-bottom-mission {
   display: block;
   width: 114px;
@@ -1068,24 +1083,24 @@ a.nav-bottom-mission {
   color: #6a7870;
   line-height: 11.1em;
 }
-/* line 147, ../../stylesheets/partials/teams.sass */
+/* line 151, ../../stylesheets/partials/teams.sass */
 a.nav-bottom-mission:hover {
   background-position: 0 0;
 }
 
-/* line 150, ../../stylesheets/partials/teams.sass */
+/* line 154, ../../stylesheets/partials/teams.sass */
 ul.verticalSlideNav {
   display: none;
 }
 
-/* line 153, ../../stylesheets/partials/teams.sass */
+/* line 157, ../../stylesheets/partials/teams.sass */
 #content-teams ol, ul {
   list-style-image: none;
   list-style-position: outside;
   list-style-type: none;
 }
 
-/* line 159, ../../stylesheets/partials/teams.sass */
+/* line 163, ../../stylesheets/partials/teams.sass */
 #content-teams a img {
   border-bottom-color: -moz-use-text-color;
   border-bottom-style: none;
@@ -1095,7 +1110,7 @@ ul.verticalSlideNav {
   border-top-width: medium;
 }
 
-/* line 168, ../../stylesheets/partials/teams.sass */
+/* line 172, ../../stylesheets/partials/teams.sass */
 #content-teams #white {
   background-attachment: scroll;
   background-clip: border-box;
@@ -1109,7 +1124,7 @@ ul.verticalSlideNav {
   content: "";
   z-index: 20;
 }
-/* line 180, ../../stylesheets/partials/teams.sass */
+/* line 184, ../../stylesheets/partials/teams.sass */
 #content-teams #black {
   background-attachment: scroll;
   background-clip: border-box;
@@ -1124,7 +1139,7 @@ ul.verticalSlideNav {
   z-index: 20;
 }
 
-/* line 193, ../../stylesheets/partials/teams.sass */
+/* line 197, ../../stylesheets/partials/teams.sass */
 #content-teams .vantage-shots-icn1 a:hover, .vantage-shots-icn2 a:hover, .vantage-shots-icn3 a:hover, .vantage-shots-icn4 a:hover, .vantage-shots-icn5 a:hover {
   background-image: url("../images/top_sprite_2.png");
   border-color: #95a0a9;
@@ -1135,7 +1150,7 @@ ul.verticalSlideNav {
   opacity: 1;
 }
 
-/* line 202, ../../stylesheets/partials/teams.sass */
+/* line 206, ../../stylesheets/partials/teams.sass */
 #content-teams .vantage-shots-icn6 a:hover, .vantage-shots-icn7 a:hover, .vantage-shots-icn8 a:hover, .vantage-shots-icn9 a:hover, .vantage-shots-icn10 a:hover {
   background-image: url("../images/bottom_sprite_3.png");
   border-color: #95a0a9;
@@ -1146,92 +1161,92 @@ ul.verticalSlideNav {
   opacity: 1;
 }
 
-/* line 212, ../../stylesheets/partials/teams.sass */
+/* line 216, ../../stylesheets/partials/teams.sass */
 #content-teams.vantage-shots-icn1 {
   width: 130px;
 }
-/* line 214, ../../stylesheets/partials/teams.sass */
+/* line 218, ../../stylesheets/partials/teams.sass */
 #content-teams .vantage-shots-icn1 a:hover {
   background-position: 0 0;
 }
-/* line 216, ../../stylesheets/partials/teams.sass */
+/* line 220, ../../stylesheets/partials/teams.sass */
 #content-teams .vantage-shots-icn2 {
   width: 130px;
 }
-/* line 218, ../../stylesheets/partials/teams.sass */
+/* line 222, ../../stylesheets/partials/teams.sass */
 #content-teams .vantage-shots-icn2 a:hover {
   background-position: -130px 0;
 }
-/* line 220, ../../stylesheets/partials/teams.sass */
+/* line 224, ../../stylesheets/partials/teams.sass */
 #content-teams .pictos-free-white-icn3 {
   width: 130px;
 }
-/* line 222, ../../stylesheets/partials/teams.sass */
+/* line 226, ../../stylesheets/partials/teams.sass */
 #content-teams .vantage-shots-icn3 a:hover {
   background-position: -260px 0;
 }
-/* line 224, ../../stylesheets/partials/teams.sass */
+/* line 228, ../../stylesheets/partials/teams.sass */
 #content-teams .vantage-shots-icn4 {
   width: 130px;
 }
-/* line 226, ../../stylesheets/partials/teams.sass */
+/* line 230, ../../stylesheets/partials/teams.sass */
 #content-teams .vantage-shots-icn4 a:hover {
   background-position: -391px 0;
   width: 129px;
 }
-/* line 229, ../../stylesheets/partials/teams.sass */
+/* line 233, ../../stylesheets/partials/teams.sass */
 #content-teams .vantage-shots-icn5 {
   width: 130px;
 }
-/* line 231, ../../stylesheets/partials/teams.sass */
+/* line 235, ../../stylesheets/partials/teams.sass */
 #content-teams .vantage-shots-icn5 a:hover {
   background-position: -521px 0;
   width: 129px;
 }
-/* line 234, ../../stylesheets/partials/teams.sass */
+/* line 238, ../../stylesheets/partials/teams.sass */
 #content-teams.vantage-shots-icn6 {
   width: 130px;
 }
-/* line 236, ../../stylesheets/partials/teams.sass */
+/* line 240, ../../stylesheets/partials/teams.sass */
 #content-teams .vantage-shots-icn6 a:hover {
   background-position: 0 0;
 }
-/* line 238, ../../stylesheets/partials/teams.sass */
+/* line 242, ../../stylesheets/partials/teams.sass */
 #content-teams .vantage-shots-icn7 {
   width: 130px;
 }
-/* line 240, ../../stylesheets/partials/teams.sass */
+/* line 244, ../../stylesheets/partials/teams.sass */
 #content-teams .vantage-shots-icn7 a:hover {
   background-position: -130px 0;
 }
-/* line 242, ../../stylesheets/partials/teams.sass */
+/* line 246, ../../stylesheets/partials/teams.sass */
 #content-teams .pictos-free-white-icn8 {
   width: 130px;
 }
-/* line 244, ../../stylesheets/partials/teams.sass */
+/* line 248, ../../stylesheets/partials/teams.sass */
 #content-teams .vantage-shots-icn8 a:hover {
   background-position: -260px 0;
 }
-/* line 246, ../../stylesheets/partials/teams.sass */
+/* line 250, ../../stylesheets/partials/teams.sass */
 #content-teams .vantage-shots-icn9 {
   width: 130px;
 }
-/* line 248, ../../stylesheets/partials/teams.sass */
+/* line 252, ../../stylesheets/partials/teams.sass */
 #content-teams .vantage-shots-icn9 a:hover {
   background-position: -390px 0;
   width: 129px;
 }
-/* line 251, ../../stylesheets/partials/teams.sass */
+/* line 255, ../../stylesheets/partials/teams.sass */
 #content-teams .vantage-shots-icn10 {
   width: 130px;
 }
-/* line 253, ../../stylesheets/partials/teams.sass */
+/* line 257, ../../stylesheets/partials/teams.sass */
 #content-teams .vantage-shots-icn10 a:hover {
   background-position: -520px 0;
   width: 129px;
 }
 
-/* line 257, ../../stylesheets/partials/teams.sass */
+/* line 261, ../../stylesheets/partials/teams.sass */
 #content-teams #white ul li a, #black ul li a {
   cursor: pointer;
   display: block;
@@ -1239,18 +1254,18 @@ ul.verticalSlideNav {
   width: 130px;
 }
 
-/* line 263, ../../stylesheets/partials/teams.sass */
+/* line 267, ../../stylesheets/partials/teams.sass */
 #content-teams #white ul li a.div, #black ul li a.div {
   opacity: 0;
 }
 
-/* line 266, ../../stylesheets/partials/teams.sass */
+/* line 270, ../../stylesheets/partials/teams.sass */
 #content-teams #white ul li a:hover div, #black ul li a:hover div {
   display: block;
   opacity: 1;
 }
 
-/* line 270, ../../stylesheets/partials/teams.sass */
+/* line 274, ../../stylesheets/partials/teams.sass */
 #content-teams #white ul li a div, #black ul li a div {
   background-color: #95a0a9;
   margin: 120px 0 0 20px;
@@ -1260,7 +1275,20 @@ ul.verticalSlideNav {
   position: absolute;
 }
 
-/* line 278, ../../stylesheets/partials/teams.sass */
+/* line 282, ../../stylesheets/partials/teams.sass */
+#content-teams #white ul li a div h3, #black ul li a div h3 {
+  color: #455560;
+  font: normal normal 400 2em Georgia, sans-serif;
+}
+
+/* line 287, ../../stylesheets/partials/teams.sass */
+#content-teams #white ul li a div h4, #black ul li a div h4 {
+  color: white;
+  font: normal normal 400 1.125em Arial, serif;
+  text-align: left;
+}
+
+/* line 292, ../../stylesheets/partials/teams.sass */
 #content-teams {
   display: inline;
   float: left;
@@ -1271,7 +1299,7 @@ ul.verticalSlideNav {
   padding-right: 40px;
   margin-top: 40px;
 }
-/* line 283, ../../stylesheets/partials/teams.sass */
+/* line 297, ../../stylesheets/partials/teams.sass */
 #content-teams .ct {
   display: inline;
   float: left;
@@ -1280,7 +1308,7 @@ ul.verticalSlideNav {
   width: 870px;
   background-color: white;
 }
-/* line 286, ../../stylesheets/partials/teams.sass */
+/* line 300, ../../stylesheets/partials/teams.sass */
 #content-teams .ct #right-content {
   display: inline;
   float: left;
@@ -1288,26 +1316,26 @@ ul.verticalSlideNav {
   margin-right: 5px;
   width: 150px;
   margin-right: 0;
+  padding: 80px 0 0 0;
   background-color: white;
 }
-/* line 290, ../../stylesheets/partials/teams.sass */
+/* line 305, ../../stylesheets/partials/teams.sass */
 #content-teams .ct #right-content h4 {
-  font: normal normal 400 1.25em/4.29em Arial, sans-serif;
-  padding: 80px 0 0 0;
+  font: normal normal 400 1.25em/4.25em Arial, sans-serif;
   text-align: left;
 }
-/* line 294, ../../stylesheets/partials/teams.sass */
+/* line 308, ../../stylesheets/partials/teams.sass */
 #content-teams .ct #right-content h4 a {
   color: #5d87a1;
   font: normal normal normal 1.2em Arial, sans-serif;
   text-decoration: none;
 }
-/* line 298, ../../stylesheets/partials/teams.sass */
+/* line 312, ../../stylesheets/partials/teams.sass */
 #content-teams .ct #right-content h4 a:hover {
   color: #f37421 !important;
   text-decoration: none !important;
 }
-/* line 301, ../../stylesheets/partials/teams.sass */
+/* line 315, ../../stylesheets/partials/teams.sass */
 #content-teams .ct #left-content {
   display: inline;
   float: left;
@@ -1317,7 +1345,7 @@ ul.verticalSlideNav {
   margin-left: 0;
   background-color: white;
 }
-/* line 305, ../../stylesheets/partials/teams.sass */
+/* line 319, ../../stylesheets/partials/teams.sass */
 #content-teams .ct #left-content #top-block {
   display: inline;
   float: left;
@@ -1330,20 +1358,20 @@ ul.verticalSlideNav {
   height: 100px;
   background: #a9b2ba url("../images/main-bkgrnd.png") no-repeat scroll 0 0;
 }
-/* line 312, ../../stylesheets/partials/teams.sass */
+/* line 326, ../../stylesheets/partials/teams.sass */
 #content-teams .ct #left-content #top-block h2 {
   color: #f37421;
   font: normal normal 600 1.3em Arial, sans-serif;
   letter-spacing: 0.11em;
   margin-top: 35px;
 }
-/* line 317, ../../stylesheets/partials/teams.sass */
+/* line 331, ../../stylesheets/partials/teams.sass */
 #content-teams .ct #left-content #top-block p {
   font: normal normal normal 1.45em/1.37em Dante MT Std serif;
   color: #5f6a72;
   margin-top: 10px;
 }
-/* line 321, ../../stylesheets/partials/teams.sass */
+/* line 335, ../../stylesheets/partials/teams.sass */
 #content-teams .ct #left-content .ct {
   background-color: white;
   display: inline;
@@ -1353,8 +1381,9 @@ ul.verticalSlideNav {
   width: 710px;
   margin-left: 0;
   height: 510px;
+  padding: 0 0 30px 0;
 }
-/* line 326, ../../stylesheets/partials/teams.sass */
+/* line 341, ../../stylesheets/partials/teams.sass */
 #content-teams .ct #left-content .ct #white {
   display: inline;
   float: left;
@@ -1367,13 +1396,13 @@ ul.verticalSlideNav {
   margin-right: 0;
   background-color: white;
 }
-/* line 333, ../../stylesheets/partials/teams.sass */
+/* line 348, ../../stylesheets/partials/teams.sass */
 #content-teams .ct #left-content .ct #white ul li {
   display: inline;
   float: left;
   height: 138px;
 }
-/* line 337, ../../stylesheets/partials/teams.sass */
+/* line 352, ../../stylesheets/partials/teams.sass */
 #content-teams .ct #left-content .ct #black {
   display: inline;
   float: left;
@@ -1386,13 +1415,13 @@ ul.verticalSlideNav {
   margin-right: 0;
   background-color: white;
 }
-/* line 344, ../../stylesheets/partials/teams.sass */
+/* line 359, ../../stylesheets/partials/teams.sass */
 #content-teams .ct #left-content .ct #black ul li {
   display: inline;
   float: left;
   height: 138px;
 }
-/* line 348, ../../stylesheets/partials/teams.sass */
+/* line 363, ../../stylesheets/partials/teams.sass */
 #content-teams .ct #left-content .ct #middle-content {
   width: 650px;
   float: left;
@@ -1401,21 +1430,22 @@ ul.verticalSlideNav {
   background-color: #f37421;
   margin-top: 15px;
   margin-bottom: 15px;
+  padding: 25px 0 25px 0;
 }
-/* line 356, ../../stylesheets/partials/teams.sass */
+/* line 373, ../../stylesheets/partials/teams.sass */
 #content-teams .ct #left-content .ct #middle-content h2 {
   font: normal normal 400 1.25em/1.35em Arial, sans-serif;
   color: #ced5db;
   text-align: left;
 }
-/* line 360, ../../stylesheets/partials/teams.sass */
+/* line 377, ../../stylesheets/partials/teams.sass */
 #content-teams .ct #left-content .ct #middle-content h1 {
   font: normal normal 400 1.5em/1.3em pragmatica-web-condensed, sans-serif;
   color: white;
   text-align: right;
   padding-top: 40px;
 }
-/* line 365, ../../stylesheets/partials/teams.sass */
+/* line 382, ../../stylesheets/partials/teams.sass */
 #content-teams .ct #left-content .ct #middle-content .left {
   display: inline;
   float: left;
@@ -1424,7 +1454,7 @@ ul.verticalSlideNav {
   width: 310px;
   padding-right: 40px;
 }
-/* line 368, ../../stylesheets/partials/teams.sass */
+/* line 385, ../../stylesheets/partials/teams.sass */
 #content-teams .ct #left-content .ct #middle-content .middle {
   display: inline;
   float: left;
@@ -1433,7 +1463,7 @@ ul.verticalSlideNav {
   width: 150px;
   padding-top: 40px;
 }
-/* line 371, ../../stylesheets/partials/teams.sass */
+/* line 388, ../../stylesheets/partials/teams.sass */
 #content-teams .ct #left-content .ct #middle-content .right {
   display: inline;
   float: left;
