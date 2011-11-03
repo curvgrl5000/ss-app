@@ -2312,7 +2312,7 @@ var assets2 = [
     getKeys : function () {
       return keys;
     },
-  
+    
     getNumRows : function () {
       return ROWS;
     },
@@ -2355,7 +2355,7 @@ var assets2 = [
     },
   
     getAllCompanies : function (start, max) {
-      var companies = assets2;
+      var companies = _.clone(assets2);
       return companies.splice(start, max);
     },
   
@@ -2384,14 +2384,27 @@ var assets2 = [
   
   // any company that gets the category == 1 will be rendered here. 
   // they can be randomly shown or alphabetical... or as a luxury, in a user determined ordering...
-  $.renderClientLogos = function(id, category, ordering, page) {
+  $.renderClientLogos = function(id, category, ordering, curr_page) {
     var setup = (ordering)? ordering : 'alphabetical';
-    var curr_page = (page)? page : 1;
+    var page = (curr_page)? curr_page : 1;
     var ROWS = Vantage.practice.getNumRows();
     var COLS = Vantage.practice.getNumCols();
+    console.log("looking for category ", category);
     var internet = Vantage.practice.filterByCategory(category);
+    console.log("internet length ", internet.length);
+    var num_pages = Math.ceil(internet.length / (ROWS*COLS));
+    // this is ALL the companies... now, zero in and grab the right page #
+    var start = (page-1)*(ROWS*COLS);
+    var num_logos = (ROWS*COLS);
+    console.log("start %d, num logos %d", start, num_logos); 
+    var source_logos = internet.splice(start, num_logos);
+    console.log("Subset of logos ", source_logos);
+    // clean out the current logos if there are any in this container
+    $("#"+id).empty();
+    $('<div class="paging"></div><div class="clear"></div>').appendTo("#"+id);
     for(var i = 0, len = ROWS; i < len; i++) {
-      var logos = internet.splice(0,COLS);
+      var logos = source_logos.splice(0,COLS);
+      console.log("logos ", logos);
       var blanks = COLS - logos.length;
       _.each(logos, function(logo,idx){
         var klass = logo.name;
@@ -2399,7 +2412,7 @@ var assets2 = [
         if(!margin){
           margin = (idx == 3)? "omega" : "";  
         }
-        $("#logoTemplate").tmpl({klass: klass, margin: margin, href: "#"+logo.name, title: logo.name, name: logo.company, details: logo.details}).appendTo("#"+id);
+        $("#logoTemplate").tmpl({klass: klass, margin: margin, href: "#"+logo.name, title: logo.name, name: logo.company, details: logo.details}).insertBefore("#"+id+" .paging");
         $("#search_"+logo.name).find(".logo-header").attr("style", "background: url(/images/sprite_logos/"+logo.name+".png) 0 0 no-repeat;height: 85px;margin:0 auto;");
          if(idx == 3) {
            $("<div>",{
@@ -2413,7 +2426,7 @@ var assets2 = [
           if(!margin){
             margin = (x == (xlen-1))? "omega" : "";  
           }
-          $("#logoTemplate").tmpl({klass: "", margin: margin, href: "#", title: "", name: ""}).appendTo("#"+id);
+          $("#logoTemplate").tmpl({klass: "", margin: margin, href: "#", title: "", name: ""}).insertBefore("#"+id+" .paging");
           if(margin == "omega") {
              $("<div>",{
                 "class": "spacer"
@@ -2422,10 +2435,29 @@ var assets2 = [
         }
       }
     }
+    if(num_pages > 1) {
+      for(var i = 0, len = num_pages; i < len; i++) {
+        $("#pagingTemplate").tmpl({page: i+1, category: id}).appendTo("#"+id+" .paging");
+      }
+    }
   }
 })(jQuery);
 
 $(function(){
+  
+  $(".page-link").live('click',function(e){
+    e.preventDefault();
+    var page = this.href.replace(/.+#/,'');
+    var keys = Vantage.practice.getKeys();
+    var ref = $(this).attr("ref"); 
+    _.each(keys, function(k){
+      if(k.name == ref) {
+        console.log("category ", ref, k.value);
+        $.renderClientLogos(ref, k.value, "alpha", page);
+      }
+    });
+  });
+  
   if($("#tabs")[0]) {
     $("#tabs").tabs();
     var keys = Vantage.practice.getKeys();
