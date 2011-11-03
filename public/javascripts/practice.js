@@ -15,6 +15,108 @@ var PORTFOLIO_COLUMNS = 5;
 var ROWS = 3;
 var COLS = 4;
 
+var recent_searches = [
+  {
+    company: "Razoo",
+    category: "Consumer / Internet",
+    position: "CEO",
+    lead: "April" ,
+    recruit: ["Gene", "May"],
+    investors: "Legatum Capital",
+    logo: "razoo"
+  },
+  {
+    company: "Songkick",
+    category: "Consumer / Internet",
+    position: "VP/GM Business Development",
+    lead: "Rich" ,
+    recruit: ["Mark"],
+    investors: "Y Combinator, SoftTech VC, Index Ventures",
+    logo: "songkick"
+  },
+  {
+    company: "Inigral",
+    category: "Enterprise / SaaS",
+    position: "CEO",
+    lead: "April" ,
+    recruit: ["Steve"],
+    investors: "Founders Fund, Retro Ventures, Gates Foundation",
+    logo: "inigral"
+  },
+  {
+    company: "Inflection",
+    category: "Consumer / Internet",
+    position: "CTO",
+    lead: "Tom" ,
+    recruit: ["May"],
+    investors: "Matrix Partners. Sutter Hill Ventures",
+    logo: ""
+  },
+  {
+    company: "Webroot",
+    category: "Consumer / Internet and Enterprise / SaaS",
+    position: "SVP Global Online",
+    lead: "Rich" ,
+    recruit: ["Audrey", "May"],
+    investors: "Accel Partners, Mayfield, Technology Crossover Ventures",
+    logo: "webroot"
+  },
+  {
+    company: "CourseSmart",
+    category: "Consumer / Internet and Enterprise / SaaS",
+    position: "SVP Business Development",
+    lead: "April" ,
+    recruit: ["Irene"],
+    investors: "Joint Venture",
+    logo: "course_smart"
+  },
+  {
+    company: "IP Infusion",
+    category: "Enterprise / SaaS",
+    position: "SVP Global Sales & Business Dev",
+    lead: "Audrey" ,
+    recruit: ["Irene"],
+    investors: "Privately Held",
+    logo: "IP_infusion"
+  },
+  {
+    company: "Total Defense",
+    category: "Enterprise / SaaS",
+    position: "VP Online Marketing",
+    lead: "Rich" ,
+    recruit: ["Julie"],
+    investors: "Privately Held",
+    logo: "total_defense"
+  },
+  {
+    company: "Get Satisfaction",
+    category: "Enterprise / SaaS",
+    position: "VP Product Management",
+    lead: "Steve" ,
+    recruit: [],
+    investors: "First Round Capital, Azure Capital Partners, O’Reilly Alphatech Ventures, SoftTech VC",
+    logo: "get_satisfaction"
+  },
+  {
+    company: "Ingres",
+    category: "Enterprise / SaaS",
+    position: "VP Sales, NA",
+    lead: "Irene" ,
+    recruit: ["Steve"],
+    investors: "Garnett & Helfrich Capital",
+    logo: "ingres"
+  },
+  {
+    company: "MarkMonitor",
+    category: "Enterprise / SaaS",
+    position: "VP Professional Services",
+    lead: "Audrey" ,
+    recruit: ["Gene"],
+    investors: "Cargill Ventures, Focus Ventures, Foundation Capital, Institutional Venture Partners",
+    logo: "mark_monitor"
+  }
+]
+
 var assets2 = [
   {
     "company": "10GEN",
@@ -2204,59 +2306,64 @@ var assets2 = [
   }
 ]
 
-// return some functions that do things like sort, filter, etc. on these things.
-return {
+  // return some functions that do things like sort, filter, etc. on these things.
+  return {
   
-  getKeys : function () {
-    return keys;
-  },
+    getKeys : function () {
+      return keys;
+    },
   
-  getNumRows : function () {
-    return ROWS;
-  },
+    getNumRows : function () {
+      return ROWS;
+    },
   
-  getNumCols : function () {
-    return COLS;
-  },
+    getNumCols : function () {
+      return COLS;
+    },
   
-  getNumPortfolioCols : function () {
-    return PORTFOLIO_COLUMNS;
-  },
+    getNumPortfolioCols : function () {
+      return PORTFOLIO_COLUMNS;
+    },
   
-  getAssets : function() {
-    return assets2;
-  },
+    getAssets : function() {
+      return assets2;
+    },
   
-  filterByCategory : function(category) {
-    return _.filter(assets2, function(asset){
-      return _.include(asset.categories, category);
-    });
-  },
+    filterByCategory : function(category) {
+      return _.filter(assets2, function(asset){
+        return _.include(asset.categories, category);
+      });
+    },
   
-  filterByName : function(name) {
-    return _.filter(assets2, function(asset){
-      return asset.name == name;
-    });
-  },    
+    filterByName : function(name) {
+      return _.filter(assets2, function(asset){
+        return asset.name == name;
+      });
+    },    
   
-  getNumCompaniesPerColumn : function () {
-    return Math.ceil(assets2.length / PORTFOLIO_COLUMNS);
-  },
+    getNumCompaniesPerColumn : function () {
+      return Math.ceil(assets2.length / PORTFOLIO_COLUMNS);
+    },
   
-  // look inside the assets for companies with the right category, and get that from start up to max
-  getCompanies : function (category, start, max) {
-    var companies = this.filterByCategory(category);
-    if(start+max > companies.length) {
-      console.log("we are asking for too many companies here ", start, max, companies.length);
+    // look inside the assets for companies with the right category, and get that from start up to max
+    getCompanies : function (category, start, max) {
+      var companies = this.filterByCategory(category);
+      if(start+max > companies.length) {
+        console.log("we are asking for too many companies here ", start, max, companies.length);
+      }
+      return companies.splice(start, max);
+    },
+  
+    getAllCompanies : function (start, max) {
+      var companies = assets2;
+      return companies.splice(start, max);
+    },
+  
+    getRecentSearches : function () {
+      return recent_searches;
     }
-    return companies.splice(start, max);
-  },
   
-  getAllCompanies : function (start, max) {
-    var companies = assets2;
-    return companies.splice(start, max);
   }
-}
 }();
 
 (function ($) {
@@ -2341,15 +2448,21 @@ $(function(){
   
   $('#tabs').bind('tabsselect', function(event, ui) {
   });
-  
-  // $(".logo-column").click(function(e){
-  //      e.preventDefault();
-  //      var record = _.first(Vantage.practice.filterByName(_.first(_.without($(this).attr("class").split(" "), "logo-column"))));
-  //      $.extend(record, {url: "#"})
-  //      $("#recent_logo").removeClass().addClass(record.name);
-  //      $("#recent_details").empty();
-  //      $("#recentTemplate").tmpl(record).appendTo("#recent_details");
-  //   });
-  
   $(".lightitupbud").fancybox();
+  
+  // setup a cycling slidedeck on the recent searchs
+  var list = Vantage.practice.getRecentSearches();
+  _.each(list, function(rs){
+    $.extend(rs, {src: "/images/sprite_logos/"+rs.logo+".png"});
+    $("#recentSearchTemplate").tmpl(rs).appendTo("#recent_searches_slidedeck dl");
+    $("#recent_searches_slidedeck dd:last").find(".recent_search_logo").attr("style","background: url(/images/sprite_logos/"+rs.logo+".png) 0 0 no-repeat; width: 200px; height: 85px");
+  });
+  
+  $("dl.slidedeck").slidedeck({
+    speed: 500,
+    hideSpines: true,
+    autoPlay: true,
+    cycle: true
+  });
+  
 }); 
