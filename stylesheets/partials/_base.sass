@@ -47,9 +47,6 @@ $banner-color: #973b12
 // Found these colors in the CSS but what the hell are they called???
 // #CED5DB
 
-
-
-
 // Paragraphs
 $indented-paragraphs: false
 
@@ -73,22 +70,3 @@ $ninesixty-gutter-width: 10px !default
 $ninesixty-grid-width: 960px !default
 $ninesixty-columns: 24 !default
 $ninesixty-class-separator: "_" !default
-
-#container
-  +grid-container
-  #header
-    +grid(24)
-    #logo
-      +grid(8)
-      +alpha
-    #globalsearch
-      +grid(16)
-      +omega
-    #navigation
-      +grid(22)
-      +grid-prefix(1)
-      +grid-suffix(1)
-      +alpha
-      +omega
-  #main
-    +grid(24)

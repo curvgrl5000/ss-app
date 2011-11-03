@@ -1,3 +1,23 @@
+/* This little bit of Sass is used all over the layouts.. .assume we have loaded the grid module before this one...
+#container
+  +grid-container
+  #header
+    +grid(24)
+    #logo
+      +grid(8)
+      +alpha
+    #globalsearch
+      +grid(16)
+      +omega
+    #navigation
+      +grid(22)
+      +grid-prefix(1)
+      +grid-suffix(1)
+      +alpha
+      +omega
+  #main
+    +grid(24)
+
 #wrapper
   margin: 0 auto
   padding: 0
