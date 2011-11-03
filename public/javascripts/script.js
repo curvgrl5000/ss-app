@@ -2,6 +2,8 @@
  * Team Vantage Javascript
  * Resistor Software Inc.
  * (c) David Lazar, 2011
+ * Curve Design, 2011
+ * (c) Anna Mendoza, 2011
  */
 if (typeof(console) === 'undefined') {
     var console = {
@@ -49,7 +51,7 @@ Vantage.utils = function () {
       ],
       bigpic: "April_HomePage_IMG_1472.png",
       name: "April B. King",
-      jobs: ["Specializing in Internet","Software & Services","Mobile / Wireless"]
+      jobs: ["Specializing in Consumer / Internet","Enterprise / SaaS","Mobile / Wireless"]
     },
     "tom": {
       logos:[
