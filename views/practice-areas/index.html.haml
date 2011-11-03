@@ -13,9 +13,9 @@
       .righthalf
         .recent
           %h2.right Recent Searches Here
-          #recent_logo
-          %img{:src => "../images/dots.png", :alt => "dots"}/
-          #recent_details
+          #recent_searches_slidedeck.skin-slidedeck
+            %dl.slidedeck
+            
     .divider
     
 #logo_content
@@ -67,12 +67,24 @@
       </div>
     </a>  
   </script>
-   
-  <script id="recentTemplate" type="text/x-jquery-tmpl">          
-    <p class="stock_ticker">${ticker}</p>
-    <p class="cto">${cto}</p>
-    <p class="vantage_partner">
-      <a href="${url}" title="${partner}">${partner}</a>
-    </p>
+  
+  <script id="pagingTemplate" type="text/x-jquery-tmpl">
+    <span class="paging-link">
+      <a href="#${page}" class="page-link" ref="${category}" title="view page ${page}">${page}</a>
+    </span>
   </script>
-          
+   
+  <script id="recentSearchTemplate" type="text/x-jquery-tmpl">
+    <dt>${title}</dt>
+    <dd>
+      <div class="recent_search_logo"></div>
+      <div class="recent_search_company">${company}</div>
+      <div class="recent_search_category">${category}</div>      
+      <div class="recent_search_position">${position}</div>
+      <div class="recent_search_lead">${lead}</div>
+      {{each recruit}}  
+        <div class="recent_search_recruit">${$value['recruit']}</div>
+      {{/each}}
+      <div class="recent_search_investor">${investors}</div>
+    </dd>
+  </script>        
