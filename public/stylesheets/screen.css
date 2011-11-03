@@ -3344,7 +3344,7 @@ h2.master {
 }
 /* line 556, ../../stylesheets/partials/_style.sass */
 #right-content .content-block p {
-  font: normal normal normal 12px/12px Helvetica, Arial, sans-serif;
+  font: normal normal normal 1.17em/1.2em Helvetica, Arial, sans-serif;
   color: white;
   float: left;
   margin: 0;
