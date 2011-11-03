@@ -3353,7 +3353,7 @@ h2.master {
 }
 /* line 563, ../../stylesheets/partials/_style.sass */
 #right-content .content-block .more {
-  font: italic normal normal 12px/12px Georgia, Times, serif;
+  font: italic normal normal 1.25/1.75em Georgia, Times, serif;
   color: white;
   float: left;
   padding: 0 5px 0px 142px;
