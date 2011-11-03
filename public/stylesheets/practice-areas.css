@@ -1083,9 +1083,9 @@ span.highlight_orange {
 .vantage_bio p {
   font: 100 1.2em Dante MT Std serif;
   color: black;
-  margin: 0;
+  margin: 0 0 0 25px;
   padding: 0;
-  line-height: 1.15em;
+  line-height: 1em;
 }
 
 /* line 429, ../../stylesheets/partials/_style.sass */
@@ -1265,7 +1265,7 @@ h2.master {
 }
 /* line 556, ../../stylesheets/partials/_style.sass */
 #right-content .content-block p {
-  font: normal normal normal 12px/12px Helvetica, Arial, sans-serif;
+  font: normal normal normal 1.17em/1.2em Helvetica, Arial, sans-serif;
   color: white;
   float: left;
   margin: 0;
@@ -1274,7 +1274,7 @@ h2.master {
 }
 /* line 563, ../../stylesheets/partials/_style.sass */
 #right-content .content-block .more {
-  font-family: italic normal normal 12px/12px Georgia, Times, serif;
+  font: italic normal 300 12px/20px Georgia, serif;
   color: white;
   float: left;
   padding: 0 5px 0px 142px;

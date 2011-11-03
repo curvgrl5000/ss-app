@@ -2400,6 +2400,7 @@ var assets2 = [
           margin = (idx == 3)? "omega" : "";  
         }
         $("#logoTemplate").tmpl({klass: klass, margin: margin, href: "#"+logo.name, title: logo.name, name: logo.company, details: logo.details}).appendTo("#"+id);
+        $("#search_"+logo.name).find(".logo-header").attr("style", "background: url(/images/sprite_logos/"+logo.name+".png) 0 0 no-repeat;height: 85px;margin:0 auto;");
          if(idx == 3) {
            $("<div>",{
               "class": "spacer"
