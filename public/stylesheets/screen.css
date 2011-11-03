@@ -3162,9 +3162,9 @@ span.highlight_orange {
 .vantage_bio p {
   font: 100 1.2em Dante MT Std serif;
   color: black;
-  margin: 0;
+  margin: 0 0 0 25px;
   padding: 0;
-  line-height: 1.15em;
+  line-height: 1em;
 }
 
 /* line 429, ../../stylesheets/partials/_style.sass */
