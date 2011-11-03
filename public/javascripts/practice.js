@@ -1718,7 +1718,7 @@ var assets2 = [
     "details": [
       {
         "position": "CRO",
-        "lead": "Mark Hubbell ",
+        "lead": "Mark Hubbell",
         "recruit": [
           "Gene Zaccor"
         ],
