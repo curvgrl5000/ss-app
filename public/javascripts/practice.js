@@ -2478,9 +2478,8 @@ $(function(){
   // setup a cycling slidedeck on the recent searchs
   var list = Vantage.practice.getRecentSearches();
   _.each(list, function(rs){
-    $.extend(rs, {src: "/images/top_logos/"+rs.logo+".png"});
     $("#recentSearchTemplate").tmpl(rs).appendTo("#recent_searches_slidedeck dl");
-    $("#recent_searches_slidedeck dd:last").find(".recent_search_logo").attr("style","background: url(/images/top_logos/"+rs.logo+".png) 0 0 no-repeat; width: 200px; height: 85px");
+    $("#recent_searches_slidedeck dd:last").find(".recent_search_logo").attr("style","background: url(/images/recent-searches/"+rs.logo+".png) 0 0 no-repeat; width: 200px; height: 85px");
   });
   
   $("dl.slidedeck").slidedeck({
