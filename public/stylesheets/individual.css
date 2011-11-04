@@ -153,7 +153,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 65, ../../stylesheets/partials/_base.sass */
+/* line 67, ../../stylesheets/partials/_base.sass */
 body {
   background: #a9b2ba url("../images/main_bkgrnd.png") 0 0 repeat-x;
   color: black;
@@ -837,4 +837,479 @@ ul.sf-navbar .current ul ul {
   visibility: hidden;
   width: 0;
   height: 0;
+}
+
+/* line 1, ../../stylesheets/partials/_individual.sass */
+#top_container {
+  margin-top: 45px;
+  display: inline;
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 870px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+/* line 6, ../../stylesheets/partials/_individual.sass */
+#top_container .ct {
+  box-shadow: 0 0 7px 5px rgba(0, 0, 0, 0.25);
+  height: 336px;
+  background: url("../images/golden-gate-bridge.png") no-repeat 0 0;
+}
+/* line 10, ../../stylesheets/partials/_individual.sass */
+#top_container .ct #bio {
+  display: inline;
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 270px;
+  padding-left: 560px;
+  margin-right: 0;
+  opacity: 1;
+  z-index: 2;
+  position: absolute;
+  right: 275px;
+  width: 225px;
+  padding-top: 20px;
+}
+/* line 20, ../../stylesheets/partials/_individual.sass */
+#top_container .ct #bio h1 {
+  font: normal normal normal 3.25em/1.25 Dante MT sans-serif;
+  color: #f37421;
+}
+/* line 23, ../../stylesheets/partials/_individual.sass */
+#top_container .ct #bio h2 {
+  font: normal normal bold 1.3em Dante MT Std serif;
+  color: black;
+}
+/* line 26, ../../stylesheets/partials/_individual.sass */
+#top_container .ct #bio p {
+  font: normal normal normal 1.3em Dante MT Std serif;
+  color: black;
+}
+/* line 29, ../../stylesheets/partials/_individual.sass */
+#top_container .ct #transparent {
+  background-color: white;
+  display: inline;
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 270px;
+  position: relative;
+  left: 560px;
+  margin-right: 0;
+  zoom: 1;
+  filter: alpha(opacity=50);
+  opacity: 0.5;
+  height: 210px;
+  z-index: 1;
+}
+/* line 39, ../../stylesheets/partials/_individual.sass */
+#top_container .divider {
+  display: inline;
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 870px;
+  margin-left: 0;
+  margin-right: 0;
+  height: 40px;
+  background: white url("../images/slidedeck-home-images/divider-graphic-a.png") no-repeat 0 0;
+}
+
+/* line 46, ../../stylesheets/partials/_individual.sass */
+#biography-content {
+  display: inline;
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 870px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 40px;
+}
+/* line 51, ../../stylesheets/partials/_individual.sass */
+#biography-content #heading {
+  padding-left: 40px;
+  height: 80px;
+  background: #a9b2ba url("../images/main-bkgrnd.png") no-repeat scroll 0 0;
+}
+/* line 55, ../../stylesheets/partials/_individual.sass */
+#biography-content #heading h2 {
+  color: #f37421;
+  font: normal normal 600 1.3em Arial, sans-serif;
+  letter-spacing: 0.11em;
+  padding-top: 35px;
+}
+/* line 60, ../../stylesheets/partials/_individual.sass */
+#biography-content .ct {
+  background-color: white;
+  min-height: 600px;
+}
+/* line 63, ../../stylesheets/partials/_individual.sass */
+#biography-content .ct #left-content {
+  display: inline;
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 710px;
+  margin-left: 0;
+}
+/* line 66, ../../stylesheets/partials/_individual.sass */
+#biography-content .ct #left-content .bio-info {
+  display: inline;
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 350px;
+  position: relative;
+  left: 40px;
+  margin-left: 0;
+}
+/* line 70, ../../stylesheets/partials/_individual.sass */
+#biography-content .ct #left-content .bio-info p {
+  color: #455560;
+  font: normal normal 400 1.3em/1.5em Georgia, sans-serif;
+  padding: 0 0 19px 5px;
+  text-align: justify;
+}
+/* line 75, ../../stylesheets/partials/_individual.sass */
+#biography-content .ct #left-content .ct {
+  display: inline;
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 270px;
+  position: relative;
+  left: 40px;
+}
+/* line 78, ../../stylesheets/partials/_individual.sass */
+#biography-content .ct #left-content .ct #partner {
+  display: inline;
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 110px;
+  margin-left: 0;
+  background: url(../images/top_sprite_2.png) 0 0 no-repeat;
+  height: 138px;
+  padding-right: 20px;
+}
+/* line 84, ../../stylesheets/partials/_individual.sass */
+#biography-content .ct #left-content .ct #partner-tag {
+  display: inline;
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 110px;
+  margin: 0;
+  background-color: #95a0a9;
+  height: 45px;
+  padding: 8px 0 5px 12px;
+}
+/* line 90, ../../stylesheets/partials/_individual.sass */
+#biography-content .ct #left-content .ct #partner-tag h3 {
+  color: #455560;
+  text-align: left;
+  font: normal 2em/1em Georgia, serif;
+}
+/* line 94, ../../stylesheets/partials/_individual.sass */
+#biography-content .ct #left-content .ct #partner-tag h4 {
+  color: white;
+  text-align: left;
+  font: normal 1.125em/1.4em Arial, serif;
+  padding-top: 4px;
+}
+/* line 99, ../../stylesheets/partials/_individual.sass */
+#biography-content .ct #left-content .ct #icons {
+  display: inline;
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 70px;
+  margin-left: 0;
+  margin-top: 15px;
+}
+/* line 103, ../../stylesheets/partials/_individual.sass */
+#biography-content .ct #left-content .ct #icons #mail {
+  background-clip: border-box;
+  background: transparent url("../images/contact_icons.png") -6px 0 no-repeat scroll;
+  background-origin: padding-box;
+  background-size: auto auto;
+  height: 34px;
+  width: 41px;
+}
+/* line 110, ../../stylesheets/partials/_individual.sass */
+#biography-content .ct #left-content .ct #icons #direct {
+  background-clip: border-box;
+  background: transparent url("../images/contact_icons.png") -6px -33px no-repeat scroll;
+  background-origin: padding-box;
+  background-size: auto auto;
+  height: 34px;
+  width: 41px;
+}
+/* line 117, ../../stylesheets/partials/_individual.sass */
+#biography-content .ct #left-content .ct #icons #fax {
+  background-clip: border-box;
+  background-image: url("../images/contact_icons.png") -6px -66px no-repeat scroll;
+  background-origin: padding-box;
+  background-size: auto auto;
+  height: 34px;
+  width: 41px;
+}
+/* line 124, ../../stylesheets/partials/_individual.sass */
+#biography-content .ct #left-content .ct #icons #linkedin {
+  background-clip: border-box;
+  background: transparent url("../images/socialmedia_icons.png") 0 -65px no-repeat scroll;
+  background-origin: padding-box;
+  background-size: auto auto;
+  height: 34px;
+  width: 39px;
+}
+/* line 131, ../../stylesheets/partials/_individual.sass */
+#biography-content .ct #left-content .ct #icons #tweet {
+  background-clip: border-box;
+  background: transparent url("../images/socialmedia_icons.png") 0 0 no-repeat scroll;
+  background-origin: padding-box;
+  background-size: auto auto;
+  height: 34px;
+  width: 39px;
+}
+/* line 138, ../../stylesheets/partials/_individual.sass */
+#biography-content .ct #left-content .ct #info {
+  display: inline;
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 190px;
+  margin-right: 0;
+  margin-top: 15px;
+}
+/* line 142, ../../stylesheets/partials/_individual.sass */
+#biography-content .ct #left-content .ct #info h2 {
+  font: normal normal bold 1.2em/2.9em Arial, Helvetica, sans-serif;
+  color: #5f6a72;
+  margin-left: -15px;
+  letter-spacing: 0.02em;
+}
+/* line 147, ../../stylesheets/partials/_individual.sass */
+#biography-content .ct #left-content .ct #info h2 a {
+  color: #5f6a72;
+}
+/* line 149, ../../stylesheets/partials/_individual.sass */
+#biography-content .ct #left-content .ct #info h2 a:hover {
+  color: #f37421;
+}
+/* line 151, ../../stylesheets/partials/_individual.sass */
+#biography-content .ct #right-content {
+  display: inline;
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 150px;
+  margin-right: 0;
+  padding-top: 30px;
+}
+/* line 155, ../../stylesheets/partials/_individual.sass */
+#biography-content .ct #right-content span.orange {
+  color: #f37421;
+}
+/* line 157, ../../stylesheets/partials/_individual.sass */
+#biography-content .ct #right-content a {
+  color: #5d87a1;
+  font: normal 1.4em Arial, sans-serif;
+  line-height: 3.35em;
+  text-decoration: none;
+}
+/* line 162, ../../stylesheets/partials/_individual.sass */
+#biography-content .ct #right-content a:hover {
+  color: #f37421;
+}
+
+/* line 165, ../../stylesheets/partials/_individual.sass */
+#domain-review {
+  display: inline;
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 870px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin: 0;
+}
+/* line 170, ../../stylesheets/partials/_individual.sass */
+#domain-review .domain-review {
+  display: inline;
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 630px;
+  padding-left: 40px;
+  padding-right: 200px;
+  background-color: white;
+}
+/* line 175, ../../stylesheets/partials/_individual.sass */
+#domain-review .domain-review #domain {
+  display: inline;
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 230px;
+  margin: 0;
+  background-color: #f37421;
+  height: 100%;
+}
+/* line 180, ../../stylesheets/partials/_individual.sass */
+#domain-review .domain-review #domain .domain-ct {
+  margin-bottom: 15px;
+  margin-top: 0;
+  padding: 25px 25px 25px 30px;
+}
+/* line 184, ../../stylesheets/partials/_individual.sass */
+#domain-review .domain-review #domain .domain-ct h1 {
+  color: white;
+  font: normal normal 400 1.5em/1.3em pragmatica-web-condensed, sans-serif;
+}
+/* line 187, ../../stylesheets/partials/_individual.sass */
+#domain-review .domain-review #domain .domain-ct h2 {
+  color: #ced5db;
+  font: normal normal 400 1.125em/1.35em Arial, sans-serif;
+  text-align: left;
+  letter-spacing: 0.11em;
+}
+/* line 193, ../../stylesheets/partials/_individual.sass */
+#domain-review .domain-review #domain .domain-ct #reviews p {
+  margin: 0;
+  padding-bottom: 5px;
+  font: normal normal normal 1.2em/1.5em Arial, sans-serif;
+  color: white;
+  text-align: left;
+}
+/* line 199, ../../stylesheets/partials/_individual.sass */
+#domain-review .domain-review #recent {
+  display: inline;
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 390px;
+  margin: 0;
+  background-color: #95a0a9;
+}
+/* line 203, ../../stylesheets/partials/_individual.sass */
+#domain-review .domain-review #recent .recent-ct {
+  margin: 0;
+  padding: 25px 50px 25px 25px;
+}
+/* line 206, ../../stylesheets/partials/_individual.sass */
+#domain-review .domain-review #recent .recent-ct h1 {
+  color: white;
+  font: normal normal 400 1.5em/1.3em pragmatica-web-condensed, sans-serif;
+}
+/* line 209, ../../stylesheets/partials/_individual.sass */
+#domain-review .domain-review #recent .recent-ct h2 {
+  color: white;
+  font: normal normal 400 1.125em/1.35 Arial, sans-serif;
+  text-align: left;
+}
+/* line 213, ../../stylesheets/partials/_individual.sass */
+#domain-review .domain-review #recent .recent-ct h3 {
+  color: #ced5db;
+  font: normal normal 400 1.125em Arial, sans-serif;
+  text-align: left;
+}
+
+/* line 218, ../../stylesheets/partials/_individual.sass */
+#bottom-content {
+  display: inline;
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 870px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-left: 0;
+}
+/* line 223, ../../stylesheets/partials/_individual.sass */
+#bottom-content .container {
+  display: inline;
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 790px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: white;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+/* line 230, ../../stylesheets/partials/_individual.sass */
+#bottom-content .container #slideToggle {
+  color: #455560;
+}
+/* line 232, ../../stylesheets/partials/_individual.sass */
+#bottom-content .container #slideToggle .more {
+  -webkit-border-radius: 8px;
+  border: 2px solid #cccccc;
+  font-family: Georgia, serif;
+  font-size: 1.2em;
+  font-style: italic;
+  float: right;
+  padding: 5px 10px;
+  margin-right: 157px;
+  margin-bottom: 10px;
+  letter-spacing: 0px;
+  cursor: pointer;
+}
+/* line 244, ../../stylesheets/partials/_individual.sass */
+#bottom-content .container #slideToggle .more:hover {
+  color: #f37421;
+}
+/* line 247, ../../stylesheets/partials/_individual.sass */
+#bottom-content .container .slideTogglebox table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  font: 11px/24px Arial, Helvetica, sans-serif;
+  margin-bottom: 20px;
+  width: 100%;
+}
+/* line 253, ../../stylesheets/partials/_individual.sass */
+#bottom-content .container .slideTogglebox table tr.orange {
+  background-color: #f37421;
+}
+/* line 255, ../../stylesheets/partials/_individual.sass */
+#bottom-content .container .slideTogglebox table tr.orange td {
+  background-color: #f37421;
+  margin-top: 0;
+  padding: 5px 0 5px 30px;
+  color: white;
+  font: normal normal 400 1.25em/1.3em pragmatica-web-condensed, sans-serif;
+}
+/* line 262, ../../stylesheets/partials/_individual.sass */
+#bottom-content .container .slideTogglebox table tr.stripe td.info {
+  color: #5f6a72;
+  padding: 5px 0 5px 30px;
+  font: normal normal bold 1.1em/2.05em Arial, Helvetica, sans-serif;
+  letter-spacing: 0.02em;
+}
+/* line 267, ../../stylesheets/partials/_individual.sass */
+#bottom-content .container .slideTogglebox table tr.stripe.even {
+  background-color: #a9b2ba;
+}
+/* line 270, ../../stylesheets/partials/_individual.sass */
+#bottom-content .container .slideTogglebox #clickme .close {
+  -webkit-border-radius: 8px;
+  border: 2px solid #cccccc;
+  font-family: Georgia, serif;
+  font-size: 1.2em;
+  font-style: italic;
+  float: right;
+  padding: 5px 10px;
+  margin-right: 157px;
+  margin-bottom: 10px;
+  letter-spacing: 0px;
+  cursor: pointer;
+}
+/* line 282, ../../stylesheets/partials/_individual.sass */
+#bottom-content .container .slideTogglebox #clickme .close:hover {
+  color: #f37421;
 }
