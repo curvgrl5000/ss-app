@@ -208,6 +208,7 @@ Vantage.utils = function () {
       current_TVSlide = rel;
       var t = {};
       $.extend(t, defaultImages);
+      $.extend(t, {ref: rel});
       t[rel] = t[rel].replace(/\.png/,"-hover.png");
       $.extend(t, this.getMapping(rel));
       return t;
