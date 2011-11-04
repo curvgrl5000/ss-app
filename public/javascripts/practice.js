@@ -2373,7 +2373,8 @@ var assets2 = [
     var num_cols = Vantage.practice.getNumPortfolioCols();
     var clients = $(".clients", "#logo_content");
     _.each(clients, function(client, idx){
-      var sublist = Vantage.practice.getAllCompanies(0, max);
+      start = idx * max;
+      var sublist = Vantage.practice.getAllCompanies(start, max);
       _.each(sublist, function(list){
         $("<p>",{
           text: list.company
@@ -2389,22 +2390,13 @@ var assets2 = [
     var page = (curr_page)? curr_page : 1;
     var ROWS = Vantage.practice.getNumRows();
     var COLS = Vantage.practice.getNumCols();
-    console.log("looking for category ", category);
     var internet = Vantage.practice.filterByCategory(category);
-    console.log("internet length ", internet.length);
     var num_pages = Math.ceil(internet.length / (ROWS*COLS));
-    // this is ALL the companies... now, zero in and grab the right page #
-    var start = (page-1)*(ROWS*COLS);
-    var num_logos = (ROWS*COLS);
-    console.log("start %d, num logos %d", start, num_logos); 
-    var source_logos = internet.splice(start, num_logos);
-    console.log("Subset of logos ", source_logos);
-    // clean out the current logos if there are any in this container
+    var source_logos = internet.splice((page-1)*(ROWS*COLS), (ROWS*COLS));
     $("#"+id).empty();
     $('<div class="paging"></div><div class="clear"></div>').appendTo("#"+id);
     for(var i = 0, len = ROWS; i < len; i++) {
       var logos = source_logos.splice(0,COLS);
-      console.log("logos ", logos);
       var blanks = COLS - logos.length;
       _.each(logos, function(logo,idx){
         var klass = logo.name;
