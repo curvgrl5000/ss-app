@@ -20,8 +20,8 @@ var recent_searches = [
     company: "Razoo",
     category: "Consumer / Internet",
     position: "CEO",
-    lead: "April" ,
-    recruit: ["Gene", "May"],
+    lead: "April King",
+    recruit: ["Gene Zaccor", "May Young"],
     investors: "Legatum Capital",
     logo: "razoo"
   },
@@ -29,8 +29,8 @@ var recent_searches = [
     company: "Songkick",
     category: "Consumer / Internet",
     position: "VP/GM Business Development",
-    lead: "Rich" ,
-    recruit: ["Mark"],
+    lead: "Richard Lear" ,
+    recruit: ["Mark Hubbell"],
     investors: "Y Combinator, SoftTech VC, Index Ventures",
     logo: "songkick"
   },
@@ -38,8 +38,8 @@ var recent_searches = [
     company: "Inigral",
     category: "Enterprise / SaaS",
     position: "CEO",
-    lead: "April" ,
-    recruit: ["Steve"],
+    lead: "April King",
+    recruit: ["Steve O'Deegan"],
     investors: "Founders Fund, Retro Ventures, Gates Foundation",
     logo: "inigral"
   },
@@ -47,26 +47,26 @@ var recent_searches = [
     company: "Inflection",
     category: "Consumer / Internet",
     position: "CTO",
-    lead: "Tom" ,
-    recruit: ["May"],
+    lead: "Tom Callahan" ,
+    recruit: ["May Young"],
     investors: "Matrix Partners. Sutter Hill Ventures",
     logo: ""
   },
   {
     company: "Webroot",
-    category: "Consumer / Internet and Enterprise / SaaS",
+    category: "Consumer / Internet & Enterprise / SaaS",
     position: "SVP Global Online",
-    lead: "Rich" ,
-    recruit: ["Audrey", "May"],
+    lead: "Richard Lear",
+    recruit: ["Audrey Shuster", "May Young"],
     investors: "Accel Partners, Mayfield, Technology Crossover Ventures",
     logo: "webroot"
   },
   {
     company: "CourseSmart",
-    category: "Consumer / Internet and Enterprise / SaaS",
+    category: "Consumer / Internet & Enterprise / SaaS",
     position: "SVP Business Development",
-    lead: "April" ,
-    recruit: ["Irene"],
+    lead: "April King",
+    recruit: ["Irene Murphy"],
     investors: "Joint Venture",
     logo: "course_smart"
   },
@@ -74,8 +74,8 @@ var recent_searches = [
     company: "IP Infusion",
     category: "Enterprise / SaaS",
     position: "SVP Global Sales & Business Dev",
-    lead: "Audrey" ,
-    recruit: ["Irene"],
+    lead: "Audrey Shuster" ,
+    recruit: ["Irene Murphy"],
     investors: "Privately Held",
     logo: "IP_infusion"
   },
@@ -83,8 +83,8 @@ var recent_searches = [
     company: "Total Defense",
     category: "Enterprise / SaaS",
     position: "VP Online Marketing",
-    lead: "Rich" ,
-    recruit: ["Julie"],
+    lead: "Richard Lear" ,
+    recruit: ["Julie Locke"],
     investors: "Privately Held",
     logo: "total_defense"
   },
@@ -92,7 +92,7 @@ var recent_searches = [
     company: "Get Satisfaction",
     category: "Enterprise / SaaS",
     position: "VP Product Management",
-    lead: "Steve" ,
+    lead: "Steve O'Deegan",
     recruit: [],
     investors: "First Round Capital, Azure Capital Partners, O’Reilly Alphatech Ventures, SoftTech VC",
     logo: "get_satisfaction"
@@ -101,8 +101,8 @@ var recent_searches = [
     company: "Ingres",
     category: "Enterprise / SaaS",
     position: "VP Sales, NA",
-    lead: "Irene" ,
-    recruit: ["Steve"],
+    lead: "Irene Murphy" ,
+    recruit: ["Steve O'Deegan"],
     investors: "Garnett & Helfrich Capital",
     logo: "ingres"
   },
@@ -110,8 +110,8 @@ var recent_searches = [
     company: "MarkMonitor",
     category: "Enterprise / SaaS",
     position: "VP Professional Services",
-    lead: "Audrey" ,
-    recruit: ["Gene"],
+    lead: "Audrey Shuster" ,
+    recruit: ["Gene Zaccor"],
     investors: "Cargill Ventures, Focus Ventures, Foundation Capital, Institutional Venture Partners",
     logo: "mark_monitor"
   }
@@ -1572,7 +1572,7 @@ var assets2 = [
   },
   {
     "company": "RETREVO",
-    "name": "retrovo",
+    "name": "retrevo",
     "categories": [
       1
     ],
@@ -1621,7 +1621,7 @@ var assets2 = [
     ],
     "details": [
       {
-        "position": "VP Marketing",
+        "position": "VP Marketing",                              
         "lead": "Richard Lear",
         "recruit": [
 
@@ -2290,7 +2290,7 @@ var assets2 = [
         "position": "VP Customer Service",
         "lead": "Mark Hubbell",
         "recruit": [
-          "Jule"
+          "Jule Lock"
         ],
         "investors": "Kleiner Perkins, IVP, Union Square Ventures, Foundry Group, Avalon Ventures, Clarium Capital, Pilot Group, individual Investors"
       },
@@ -2405,7 +2405,7 @@ var assets2 = [
           margin = (idx == 3)? "omega" : "";  
         }
         $("#logoTemplate").tmpl({klass: klass, margin: margin, href: "#"+logo.name, title: logo.name, name: logo.company, details: logo.details}).insertBefore("#"+id+" .paging");
-        $("#search_"+logo.name).find(".logo-header").attr("style", "background: url(/images/sprite_logos/"+logo.name+".png) 0 0 no-repeat;height: 85px;margin:0 auto;");
+        $("#search_"+logo.name).find(".logo-header").attr("style", "background: url(/images/recent-searches/"+logo.name+".png) 0 0 no-repeat;height: 85px;margin:0 auto;");
          if(idx == 3) {
            $("<div>",{
               "class": "spacer"
@@ -2478,9 +2478,9 @@ $(function(){
   // setup a cycling slidedeck on the recent searchs
   var list = Vantage.practice.getRecentSearches();
   _.each(list, function(rs){
-    $.extend(rs, {src: "/images/sprite_logos/"+rs.logo+".png"});
+    $.extend(rs, {src: "/images/top_logos/"+rs.logo+".png"});
     $("#recentSearchTemplate").tmpl(rs).appendTo("#recent_searches_slidedeck dl");
-    $("#recent_searches_slidedeck dd:last").find(".recent_search_logo").attr("style","background: url(/images/sprite_logos/"+rs.logo+".png) 0 0 no-repeat; width: 200px; height: 85px");
+    $("#recent_searches_slidedeck dd:last").find(".recent_search_logo").attr("style","background: url(/images/top_logos/"+rs.logo+".png) 0 0 no-repeat; width: 200px; height: 85px");
   });
   
   $("dl.slidedeck").slidedeck({

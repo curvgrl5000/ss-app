@@ -49,7 +49,7 @@
     .recent
       margin-top: 55px
       h2
-        margin: 20px 20px 0 0
+        margin: 20px 20px 0 30px
         font: normal 1.3em Neue Helvetica Arial, sans-serif
         color: $orange
       #recent_logo
@@ -128,12 +128,20 @@
       #consumer-internet, #enterprise-saas, #mobile-wireless
         margin-top: 20px
         .paging
-          +grid(6)
-          +grid_push(14)
-          background-color: #ffc
-          border: 1px solid red
+          +grid(7)
+          +grid_push(15)
           height: 30px
           margin-top: 20px
+          font: normal normal normal 1.125em Arial, Helvetica, sans-serif
+        .paging-link
+          a 
+            color: $orange
+            border-radius: 50px
+            text-decoration: none
+            padding: 5px 10px
+            &:hover
+              text-decoration: none
+              background-color: #CED3D9
         .spacer
           +grid(20)
           height: 10px
