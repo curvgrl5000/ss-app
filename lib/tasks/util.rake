@@ -7,10 +7,16 @@ namespace :vantage do
     v = Vantage::Utilities.new(args)
     v.test
   end
+  
+  desc "consult"
+  task :constult, :environment do |t, args|
+    v = Vantage::Utilities.new(args)
+    v.get_files
+  end
 end
 
 module Vantage
-  class Utilties
+  class Utilities
     
     attr_accessor :json_data, :csv_data
     
@@ -21,6 +27,26 @@ module Vantage
     end
     
     def get_files
+      list = Dir.entries("tmp/consultants")
+      result = {}
+      list.each do |f|
+        unless File.directory?(f)
+          # open the file, and read the csv, making a new entry in a data structure
+          key = File.basename(f, ".csv")
+          CSV.read("tmp/consultants/#{f}").each do |line|
+            if result.has_key?(key)
+              result[key] << {:company => line[0], :sector => line[1], :position => line[2]}
+            else
+              result[key] = []
+              result[key] << {:company => line[0], :sector => line[1], :position => line[2]}
+            end
+          end
+        end
+        puts "Result\n\n#{result.inspect}\n\n"
+        File.open("tmp/consultants.json", "w") do |f|
+          f.puts JSON.pretty_generate(result)
+        end
+      end
       
     end
 
