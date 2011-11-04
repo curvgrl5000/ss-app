@@ -1,0 +1,283 @@
+#top_container
+  margin-top: 45px
+  +grid(22)
+  +grid_prefix(1)
+  +grid_suffix(1)
+  .ct
+    box-shadow: 0 0 7px 5px rgba(0, 0, 0, 0.25)
+    height: 336px
+    background: url("../images/golden-gate-bridge.png") no-repeat 0 0
+    #bio
+      +grid(7)
+      +grid_prefix(14)
+      +omega
+      opacity: 1
+      z-index: 2
+      position: absolute
+      right: 275px
+      width: 225px
+      padding-top: 20px
+      h1
+        font: normal normal normal 3.25em/1.25 Dante MT sans-serif
+        color: $orange
+      h2
+        font: normal normal bold 1.3em Dante MT Std serif
+        color: #000
+      p
+        font: normal normal normal 1.3em Dante MT Std serif
+        color: #000
+    #transparent
+      background-color: #fff
+      +grid(7)
+      +grid_push(14)
+      +omega
+      zoom: 1
+      filter: alpha(opacity=50)
+      opacity: 0.5
+      height: 210px
+      z-index: 1
+  .divider
+    +grid(22)
+    +alpha
+    +omega
+    height: 40px
+    background: #fff url("../images/slidedeck-home-images/divider-graphic-a.png") no-repeat 0 0
+    
+#biography-content
+  +grid(22)
+  +grid_prefix(1)
+  +grid_suffix(1)
+  margin-top: 40px
+  #heading
+    +grid_prefix(1)
+    height: 80px
+    background: $grey url("../images/main-bkgrnd.png") no-repeat scroll 0 0
+    h2
+      color: $orange
+      font: normal normal 600 1.3em Arial, sans-serif
+      letter-spacing: .11em
+      padding-top: 35px
+  .ct
+    background-color: #fff
+    min-height: 600px
+    #left-content
+      +grid(18)
+      +alpha
+      .bio-info
+        +grid(9)
+        +grid_push(1)
+        +alpha
+        p
+          color: $bio-text
+          font: normal normal 400 1.3em/1.5em Georgia, sans-serif
+          padding: 0 0 19px 5px
+          text-align: justify
+      .ct
+        +grid(7)
+        +grid_push(1)
+        #partner
+          +grid(3)
+          +alpha
+          background: url(../images/top_sprite_2.png) 0 0 no-repeat
+          height: 138px
+          padding-right: 20px
+        #partner-tag
+          +grid(3)
+          margin: 0
+          background-color: $bio-grey
+          height: 45px
+          padding: 8px 0 5px 12px
+          h3
+            color: $bio-text
+            text-align: left
+            font: normal 2em/1em Georgia,serif
+          h4
+            color: white
+            text-align: left
+            font: normal 1.125em/1.4em Arial,serif
+            padding-top: 4px
+        #icons
+          +grid(2)
+          +alpha
+          margin-top: 15px
+          #mail
+            background-clip: border-box
+            background: transparent url("../images/contact_icons.png") -6px 0 no-repeat scroll
+            background-origin: padding-box
+            background-size: auto auto
+            height: 34px
+            width: 41px
+          #direct
+            background-clip: border-box
+            background: transparent url("../images/contact_icons.png") -6px -33px no-repeat scroll
+            background-origin: padding-box
+            background-size: auto auto
+            height: 34px
+            width: 41px
+          #fax
+            background-clip: border-box
+            background-image: url("../images/contact_icons.png") -6px -66px no-repeat scroll
+            background-origin: padding-box
+            background-size: auto auto
+            height: 34px
+            width: 41px
+          #linkedin
+            background-clip: border-box
+            background: transparent url("../images/socialmedia_icons.png") 0 -65px no-repeat scroll
+            background-origin: padding-box
+            background-size: auto auto
+            height: 34px
+            width: 39px
+          #tweet
+            background-clip: border-box
+            background: transparent url("../images/socialmedia_icons.png") 0 0 no-repeat scroll
+            background-origin: padding-box
+            background-size: auto auto
+            height: 34px
+            width: 39px
+        #info
+          +grid(5)
+          +omega
+          margin-top: 15px
+          h2
+            font: normal normal bold 1.2em/2.9em Arial,Helvetica, sans-serif
+            color: $crisp-grey
+            margin-left: -15px
+            letter-spacing: 0.02em
+            a
+              color: $crisp-grey
+            a:hover
+              color: $orange
+    #right-content
+      +grid(4)
+      +omega
+      padding-top: 30px
+      span.orange
+        color: $orange
+      a
+        color: #5D87A1
+        font: normal 1.4em Arial,sans-serif
+        line-height: 3.35em
+        text-decoration: none
+        &:hover
+          color: $orange
+
+#domain-review
+  +grid(22)
+  +grid_prefix(1)
+  +grid_suffix(1)
+  margin: 0
+  .domain-review
+    +grid(16)
+    +grid_prefix(1)
+    +grid_suffix(5)
+    background-color: #fff
+    #domain
+      +grid(6)
+      margin: 0
+      background-color: $orange
+      height: 100%
+      .domain-ct
+        margin-bottom: 15px
+        margin-top: 0
+        padding: 25px 25px 25px 30px
+        h1
+          color: white
+          font: normal normal 400 1.5em/1.3em pragmatica-web-condensed,sans-serif
+        h2
+          color: #CED5DB
+          font: normal normal 400 1.125em/1.35em Arial, sans-serif
+          text-align: left
+          letter-spacing: 0.11em
+        #reviews
+          p
+            margin: 0
+            padding-bottom: 5px
+            font: normal normal normal 1.2em/1.5em Arial, sans-serif
+            color: white
+            text-align: left  
+    #recent
+      +grid(10)
+      margin: 0
+      background-color: $bio-grey
+      .recent-ct
+        margin: 0
+        padding: 25px 50px 25px 25px
+        h1
+          color: white
+          font: normal normal 400 1.5em/1.3em pragmatica-web-condensed,sans-serif
+        h2
+          color: white
+          font: normal normal 400 1.125em/1.35 Arial, sans-serif
+          text-align: left
+        h3
+          color: #CED5DB
+          font: normal normal 400 1.125em Arial, sans-serif
+          text-align: left
+          
+#bottom-content
+  +grid(22)
+  +grid_prefix(1)
+  +grid_suffix(1)
+  +alpha
+  .container
+    +grid(20)
+    +grid_prefix(1)
+    +grid_suffix(1)
+    background-color: white
+    padding-top: 25px
+    padding-bottom: 25px
+    #slideToggle
+      color: #455560
+      .more
+        -webkit-border-radius: 8px
+        border: 2px solid #CCC
+        font-family: Georgia, serif
+        font-size: 1.2em
+        font-style: italic
+        float: right
+        padding: 5px 10px
+        margin-right: 157px
+        margin-bottom: 10px
+        letter-spacing: 0px
+        cursor: pointer
+        &:hover
+          color: $orange
+    .slideTogglebox
+      table
+        border-collapse: collapse
+        border-spacing: 0
+        font: 11px/24px Arial, Helvetica, sans-serif
+        margin-bottom: 20px
+        width: 100%
+        tr.orange
+          background-color: $orange
+          td
+            background-color: $orange
+            margin-top: 0
+            padding: 5px 0 5px 30px
+            color: white
+            font: normal normal 400 1.25em/1.3em pragmatica-web-condensed,sans-serif
+        tr.stripe
+          td.info
+            color: #5F6A72
+            padding: 5px 0 5px 30px
+            font: normal normal bold 1.1em/2.05em Arial,Helvetica,sans-serif
+            letter-spacing: 0.02em
+        tr.stripe.even
+          background-color: $grey
+      #clickme
+        .close
+          -webkit-border-radius: 8px
+          border: 2px solid #CCC
+          font-family: Georgia, serif
+          font-size: 1.2em
+          font-style: italic
+          float: right
+          padding: 5px 10px
+          margin-right: 157px
+          margin-bottom: 10px
+          letter-spacing: 0px
+          cursor: pointer
+          &:hover
+            color: $orange
