@@ -1077,6 +1077,14 @@ ul.sf-navbar .current ul ul {
   height: 34px;
   width: 39px;
 }
+#biography-content .ct #left-content .ct #icons #podcast {
+  background-clip: border-box;
+  background: transparent url("../images/socialmedia_podcast.png") 0 0 no-repeat scroll;
+  background-origin: padding-box;
+  background-size: auto auto;
+  height: 34px;
+  width: 39px;
+}
 /* line 138, ../../stylesheets/partials/_individual.sass */
 #biography-content .ct #left-content .ct #info {
   display: inline;
