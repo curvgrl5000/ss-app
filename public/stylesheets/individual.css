@@ -869,9 +869,9 @@ ul.sf-navbar .current ul ul {
   opacity: 1;
   z-index: 2;
   position: absolute;
-  right: 275px;
+  right: 50px;
   width: 225px;
-  padding-top: 20px;
+  padding-top: 30px;
 }
 /* line 20, ../../stylesheets/partials/_individual.sass */
 #top_container .ct #bio h1 {
