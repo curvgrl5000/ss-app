@@ -17,9 +17,10 @@
       position: absolute
       right: 50px
       width: 225px
-      padding-top: 30px
+      padding-top: 20px
       h1
-        font: normal normal normal 3.25em/1.25 Dante MT sans-serif
+        font: normal normal normal 3.25em/1em Dante MT sans-serif
+        padding-bottom: 5px
         color: $orange
       h2
         font: normal normal bold 1.3em Dante MT Std serif
@@ -61,7 +62,8 @@
       padding-top: 35px
   .ct
     background-color: #fff
-    min-height: 530px
+    height: 100%
+    float: left
     #left-content
       +grid(18)
       +alpha
@@ -69,6 +71,7 @@
         +grid(9)
         +grid_push(1)
         +alpha
+        padding-bottom: 20px
         p
           color: $bio-text
           font: normal normal 400 1.3em/1.5em Georgia, sans-serif
@@ -80,14 +83,13 @@
         #partner
           +grid(3)
           +alpha
-          background: url(../images/top_sprite_2.png) 0 0 no-repeat
           height: 138px
           padding-right: 20px
         #partner-tag
           +grid(3)
           margin: 0
           background-color: $bio-grey
-          height: 45px
+          height: 100%
           padding: 8px 0 5px 12px
           h3
             color: $bio-text
@@ -194,20 +196,21 @@
       .domain-ct
         margin-bottom: 15px
         margin-top: 0
-        padding: 25px 25px 25px 30px
+        padding: 25px 25px 0px 30px
         h1
           color: white
           font: normal normal 400 1.5em/1.3em pragmatica-web-condensed,sans-serif
         h2
           color: #CED5DB
-          font: normal normal 400 1.125em/1.35em Arial, sans-serif
+          font: normal normal 400 1.2em/1.35em Arial, sans-serif
           text-align: left
           letter-spacing: 0.11em
         #reviews
+          padding-top: 0px
           p
             margin: 0
             padding-bottom: 5px
-            font: normal normal normal 1.2em/1.5em Arial, sans-serif
+            font: normal normal normal 1.125em/1.25em Arial, sans-serif
             color: white
             text-align: left  
     #recent
@@ -224,12 +227,12 @@
           color: white
           font: normal normal 400 1.125em Arial, sans-serif
           text-align: left
-          padding: 0 2 0 0
+          padding: 0 2px 0 0
         h3
           color: #CED5DB
           font: normal normal 400 1.125em Arial, sans-serif
           text-align: left
-          padding: 0 10 0 0
+          padding: 0 0 10px 0 
           
 #bottom-content
   +grid(22)
@@ -265,8 +268,12 @@
         border-collapse: collapse
         border-spacing: 0
         font: 11px/24px Arial, Helvetica, sans-serif
-        margin: 20px 0 20px 0
+        margin: 50px 0 20px 0
         width: 100%
+        th
+          color: #fff
+          font: normal normal bold 1.25em/3em Arial, Helvetica,sans-serif
+          padding-left: 30px
         tr.orange
           background-color: $orange
           td
@@ -279,7 +286,7 @@
           td.info
             color: #5F6A72
             padding: 5px 0 5px 30px
-            font: normal normal bold 1.1em/2.05em Arial,Helvetica,sans-serif
+            font: normal normal normal 1.1em/2.05em Arial,Helvetica,sans-serif
             letter-spacing: 0.02em
         tr.stripe.even
           background-color: $grey
