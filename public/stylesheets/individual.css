@@ -882,6 +882,7 @@ ul.sf-navbar .current ul ul {
 #top_container .ct #bio h2 {
   font: normal normal bold 1.3em Dante MT Std serif;
   color: black;
+  padding-top:10px;
 }
 /* line 26, ../../stylesheets/partials/_individual.sass */
 #top_container .ct #bio p {
