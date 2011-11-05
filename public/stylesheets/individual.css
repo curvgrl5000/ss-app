@@ -855,6 +855,7 @@ ul.sf-navbar .current ul ul {
   box-shadow: 0 0 7px 5px rgba(0, 0, 0, 0.25);
   height: 336px;
   background: url("../images/golden-gate-bridge.png") no-repeat 0 0;
+  position: relative;
 }
 /* line 10, ../../stylesheets/partials/_individual.sass */
 #top_container .ct #bio {
