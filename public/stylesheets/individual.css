@@ -1051,7 +1051,7 @@ ul.sf-navbar .current ul ul {
 /* line 117, ../../stylesheets/partials/_individual.sass */
 #biography-content .ct #left-content .ct #icons #fax {
   background-clip: border-box;
-  background-image: url("../images/contact_icons.png") -6px -66px no-repeat scroll;
+  background: transparent url("../images/contact_icons.png") -6px -66px no-repeat scroll;
   background-origin: padding-box;
   background-size: auto auto;
   height: 34px;
