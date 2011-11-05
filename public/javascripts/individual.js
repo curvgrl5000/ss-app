@@ -1267,7 +1267,13 @@ Vantage.individual = function () {
 })(jQuery);
 
 
-$(function(){
+$(function() {
+  
+  var list = Vantage.individual.getConsultant(document.location.pathname.replace(/\//,""));
+  _.each(list, function(row){
+     $("#archiveTemplate").tmpl(row).appendTo("#archives > tbody");
+  });
+  
   $("#slideToggle").click(function () {
     $('.slideTogglebox').slideDown('slow');
   });
