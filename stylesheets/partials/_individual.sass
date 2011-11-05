@@ -24,7 +24,7 @@
       h2
         font: normal normal bold 1.3em Dante MT Std serif
         color: #000
-        padding-top:10px
+        padding-top: 10px
       p
         font: normal normal normal 1.3em Dante MT Std serif
         color: #000
@@ -61,7 +61,7 @@
       padding-top: 35px
   .ct
     background-color: #fff
-    min-height: 600px
+    min-height: 530px
     #left-content
       +grid(18)
       +alpha
@@ -155,6 +155,7 @@
             letter-spacing: 0.02em
             a
               color: $crisp-grey
+              text-decoration: none
             a:hover
               color: $orange
     #right-content
@@ -181,11 +182,15 @@
     +grid_prefix(1)
     +grid_suffix(5)
     background-color: #fff
+    #domain-background
+      +grid(16)
+      background-color: $orange
     #domain
       +grid(6)
       margin: 0
       background-color: $orange
       height: 100%
+      margin-right: 10px
       .domain-ct
         margin-bottom: 15px
         margin-top: 0
@@ -211,18 +216,20 @@
       background-color: $bio-grey
       .recent-ct
         margin: 0
-        padding: 25px 50px 25px 25px
+        padding: 25px 50px 25px 40px
         h1
           color: white
           font: normal normal 400 1.5em/1.3em pragmatica-web-condensed,sans-serif
         h2
           color: white
-          font: normal normal 400 1.125em/1.35 Arial, sans-serif
+          font: normal normal 400 1.125em Arial, sans-serif
           text-align: left
+          padding: 0 2 0 0
         h3
           color: #CED5DB
           font: normal normal 400 1.125em Arial, sans-serif
           text-align: left
+          padding: 0 10 0 0
           
 #bottom-content
   +grid(22)
@@ -240,6 +247,7 @@
       color: #455560
       .more
         -webkit-border-radius: 8px
+        border-radius: 8px
         border: 2px solid #CCC
         font-family: Georgia, serif
         font-size: 1.2em
@@ -257,7 +265,7 @@
         border-collapse: collapse
         border-spacing: 0
         font: 11px/24px Arial, Helvetica, sans-serif
-        margin-bottom: 20px
+        margin: 20px 0 20px 0
         width: 100%
         tr.orange
           background-color: $orange
@@ -278,6 +286,7 @@
       #clickme
         .close
           -webkit-border-radius: 8px
+          border-radius: 8px
           border: 2px solid #CCC
           font-family: Georgia, serif
           font-size: 1.2em
