@@ -128,34 +128,22 @@
     #slideToggle
       .more more searches >
     .slideTogglebox{:style => "display:none"}
-      %table
-        %tr
-          %th{:colspan => "16"} ARCHIVE OF SEARCHES
-        %tr.orange 
-          %td{:colspan => 4} Role
-          %td{:colspan => 4} Client
-          %td{:colspan => 4} Sector
-          %td{:colspan => 4} Investors
-        %tr.stripe
-          %td.info{:colspan => 4} Role Information
-          %td.info{:colspan => 4} Client Information
-          %td.info{:colspan => 4} Sector Information
-          %td.info{:colspan => 4} Investor Information
-        %tr.stripe
-          %td.info{:colspan => 4} Role Information
-          %td.info{:colspan => 4} Client Information
-          %td.info{:colspan => 4} Sector Information
-          %td.info{:colspan => 4} Investor Information
-        %tr.stripe
-          %td.info{:colspan => 4} Role Information
-          %td.info{:colspan => 4} Client Information
-          %td.info{:colspan => 4} Sector Information
-          %td.info{:colspan => 4} Investor Information
-        %tr.stripe
-          %td.info{:colspan => 4} Role Information
-          %td.info{:colspan => 4} Client Information
-          %td.info{:colspan => 4} Sector Information
-          %td.info{:colspan => 4} Investor Information
+      %table#archives
+        %thead
+          %tr.orange 
+            %th{:colspan => 3} Role
+            %th{:colspan => 3} Client
+            %th{:colspan => 3} Sector
+        %tbody
+        
       #clickme
         .close close >
 
+:plain
+  <script id="archiveTemplate" type="text/x-jquery-tmpl">
+    <tr class="stripe">
+      <td class="info" colspan="3">${position}</td>
+      <td class="info" colspan="3">${company}</td>
+      <td class="info" colspan="3">${sector}</td>
+    </tr>
+  </script>
