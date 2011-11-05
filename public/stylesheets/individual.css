@@ -855,6 +855,7 @@ ul.sf-navbar .current ul ul {
   box-shadow: 0 0 7px 5px rgba(0, 0, 0, 0.25);
   height: 336px;
   background: url("../images/golden-gate-bridge.png") no-repeat 0 0;
+  position: relative;
 }
 /* line 10, ../../stylesheets/partials/_individual.sass */
 #top_container .ct #bio {
@@ -868,9 +869,9 @@ ul.sf-navbar .current ul ul {
   opacity: 1;
   z-index: 2;
   position: absolute;
-  right: 275px;
+  right: 50px;
   width: 225px;
-  padding-top: 20px;
+  padding-top: 30px;
 }
 /* line 20, ../../stylesheets/partials/_individual.sass */
 #top_container .ct #bio h1 {
@@ -881,6 +882,7 @@ ul.sf-navbar .current ul ul {
 #top_container .ct #bio h2 {
   font: normal normal bold 1.3em Dante MT Std serif;
   color: black;
+  padding-top:10px;
 }
 /* line 26, ../../stylesheets/partials/_individual.sass */
 #top_container .ct #bio p {
@@ -1051,7 +1053,7 @@ ul.sf-navbar .current ul ul {
 /* line 117, ../../stylesheets/partials/_individual.sass */
 #biography-content .ct #left-content .ct #icons #fax {
   background-clip: border-box;
-  background-image: url("../images/contact_icons.png") -6px -66px no-repeat scroll;
+  background: transparent url("../images/contact_icons.png") -6px -66px no-repeat scroll;
   background-origin: padding-box;
   background-size: auto auto;
   height: 34px;
@@ -1070,6 +1072,14 @@ ul.sf-navbar .current ul ul {
 #biography-content .ct #left-content .ct #icons #tweet {
   background-clip: border-box;
   background: transparent url("../images/socialmedia_icons.png") 0 0 no-repeat scroll;
+  background-origin: padding-box;
+  background-size: auto auto;
+  height: 34px;
+  width: 39px;
+}
+#biography-content .ct #left-content .ct #icons #podcast {
+  background-clip: border-box;
+  background: transparent url("../images/socialmedia_podcast.png") 0 0 no-repeat scroll;
   background-origin: padding-box;
   background-size: auto auto;
   height: 34px;

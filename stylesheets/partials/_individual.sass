@@ -7,22 +7,24 @@
     box-shadow: 0 0 7px 5px rgba(0, 0, 0, 0.25)
     height: 336px
     background: url("../images/golden-gate-bridge.png") no-repeat 0 0
+    position: relative
     #bio
-      +grid(7)
+      +grid(8)
       +grid_prefix(14)
       +omega
       opacity: 1
       z-index: 2
       position: absolute
-      right: 275px
+      right: 50px
       width: 225px
-      padding-top: 20px
+      padding-top: 30px
       h1
         font: normal normal normal 3.25em/1.25 Dante MT sans-serif
         color: $orange
       h2
         font: normal normal bold 1.3em Dante MT Std serif
         color: #000
+        padding-top:10px
       p
         font: normal normal normal 1.3em Dante MT Std serif
         color: #000
@@ -116,7 +118,7 @@
             width: 41px
           #fax
             background-clip: border-box
-            background-image: url("../images/contact_icons.png") -6px -66px no-repeat scroll
+            background: transparent url("../images/contact_icons.png") -6px -66px no-repeat scroll
             background-origin: padding-box
             background-size: auto auto
             height: 34px
@@ -131,6 +133,13 @@
           #tweet
             background-clip: border-box
             background: transparent url("../images/socialmedia_icons.png") 0 0 no-repeat scroll
+            background-origin: padding-box
+            background-size: auto auto
+            height: 34px
+            width: 39px
+          #podcast
+            background-clip: border-box
+            background: transparent url("../images/socialmedia_podcast.png") 0 0 no-repeat scroll
             background-origin: padding-box
             background-size: auto auto
             height: 34px
