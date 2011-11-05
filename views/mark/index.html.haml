@@ -1,0 +1,150 @@
+#top_container
+  .ct 
+    #transparent
+    #bio
+      %h1 Mark Hubbell
+      %p “Mark knows almost everyone associated with the Internet - a testament to his hard work and ability to strike strong relationships with everyone, including the Valley’s most prominent players”
+      %h2 Gene Zaccor,
+      %p Managing Director Vantage Partners.
+  .divider
+  
+#biography-content
+  #heading
+    %h2 MEET THE TEAM  / MARK HUBBELL
+  .ct  
+    #left-content
+      .ct
+        #partner
+          <img src='images/mark_partner.png'/>
+        #partner-tag
+          %h3 Mark Hubbell
+          %h4 Managing Director
+        .clear  
+        #icons
+          #mail
+          #direct
+          #fax
+          %a{:href => "http://www.linkedin.com/in/markhubbellbio"}
+            #linkedin
+          %a{:href => "/"}
+            #tweet
+          %a{:href => "/"}
+            #podcast
+        #info
+          %h2
+            %a{:href => "mailto:mark@vantagepartners.net"} mark@vantagepartners.net
+          %h2 Direct: (650) 579-7300, ext 103
+          %h2 Fax: (650) 590-7470
+          %h2
+            %a{:title => "/", :href => "http://www.linkedin.com/in/markhubbellbio"} Mark On LinkedIn
+          %h2
+            %a{:title => "/", :href => "/"} Mark's Tweets
+          %h2
+            %a{:title => "/", :href => "/"} Mark's Podcasts
+      .bio-info
+        %p Mark Hubbell joined Vantage Partners in 2003 with more than a decade of success in high-tech executive search. 
+        %p Mark has successfully completed multiple VP/C- level searches in the B2C space - including multiple searches at companies like Zynga, Topsy, Tagged, FanSnap and Songkick and in the B2B space for companies like EmSense, Turn, Announce Media, Adchemy and Pubmatic, for top-tier venture capital firms, including Accel, Benchmark Capital, First Round, Foundry Group, Shasta Ventures, Khosla Ventures, Highland Capital, Rustic Canyon, Battery, Norwest Venture Partners, and Mayfield Fund.  
+        %p Prior to joining Vantage Partners, Mark was the Managing Partner at Optimum Executive Search in San Francisco, where he successfully completed executive searches for world-class organizations like, Amazon, Netsuite, and Altavista. Mark's understanding of the technology markets, passionate interaction with candidates, and ability and enthusiasm for translating client needs into tangible results has allowed him to excel across multiple domains within the search space.
+        %p Mark graduated with top-honors from Indiana University with a Bachelors Degree in Economics.
+    #right-content
+      %a{:href=>'/',:title=>'Meet Tom'} Tom Callahan
+      %br/
+      %a{:href=>'/',:title=>'Meek Mark'} 
+        %span.orange Mark Hubbell
+      %br/
+      %a{:href=>'/april',:title=>'Meet April'} April King
+      %br/
+      %a{:href=>'/',:title=>'Meet Rich'} Rich Lear
+      %br/
+      %a{:href=>'/',:title=>'Meet Julie'} Julie Locke
+      %br/
+      %a{:href=>'/',:title=>'Meet Irene'} Irene Murphy
+      %br/
+      %a{:href=>'/',:title=>'Meet Steve'} Steve O'Deegan
+      %br/
+      %a{:href=>'/',:title=>'Meet Audrey'} Audrey Shuster
+      %br/
+      %a{:href=>'/',:title=>'Meet May'} May Young
+      %br/
+      %a{:href=>'/',:title=>'Meet Gene'} Gene Zaccor
+      %br/
+
+#domain-review
+  .domain-review
+    #domain-background
+      #domain
+        .domain-ct
+          %h1 DOMAIN FOCUS:
+          %br/
+          %h2
+            Enterprise / SaaS
+            %br/ 
+            Consumer / Internet
+            %br/ 
+            Mobile / Wireless
+            %br/
+            %br/
+          #reviews
+            %h2 REVIEWS
+            %p
+              “Mark is a hiring manager's dream recruiter -- he's high-energy, smart, articulate, aggressive, connected, and fun. Mark has a great innate sense for the right person for the position and is a trust-worthy business partner during the recruiting process. 
+              %br/ 
+              I highly recommend Mark for exec searches in the wireless and Internet industries.”
+            %h2 Kristin McDonnell, CEO, Co-founder & Chairman, LimeLife Inc.
+      #recent
+        .recent-ct
+          %h1 RECENT SEARCHES:
+          %br/
+          %h2 • Chief Customer Officer, Tagged 
+          %h3
+            Platform for Social Discovery
+            %br/
+            (Mayfield)
+          %h2 • GM – US, Songkick 
+          %h3
+            Consumer Internet, Music Portal
+            %br/
+            (Index Ventures)
+            %br/
+          %h2 • VP Operations, Topsy 
+          %h3
+            Real-time Search
+            %br/
+            (BlueRun Ventures, Ignition Partners, The Founders Fund)
+            %br/
+          %h2 • VP Products, FanSnap 
+          %h3
+            Ticket-Comparison Shopping Site
+            %br/
+            (Highland Capital Partners, General Catalyst Partners, Harrison Metal Capital)
+            %br/
+          %h2 • Executive Director of Business and Corporate Development, Announce Media 
+          %h3
+            Performance-based Social Marketing and Media
+            %br/
+            (Summit Partners)
+  
+#bottom-content
+  .container
+    #slideToggle
+      .more more searches >
+    .slideTogglebox{:style => "display:none"}
+      %table#archives
+        %thead
+          %tr.orange 
+            %th{:colspan => 3} Role
+            %th{:colspan => 3} Client
+            %th{:colspan => 3} Sector
+        %tbody
+        
+      #clickme
+        .close close x
+
+:plain
+  <script id="archiveTemplate" type="text/x-jquery-tmpl">
+    <tr class="stripe">
+      <td class="info" colspan="3">${position}</td>
+      <td class="info" colspan="3">${company}</td>
+      <td class="info" colspan="3">${sector}</td>
+    </tr>
+  </script>

@@ -1,0 +1,141 @@
+#top_container
+  .ct 
+    #transparent
+    #bio
+      %h1 Brynne Pogoncheff
+      %p  
+        “Brynne is a force at Vantage – the most efficient administrative person I have ever worked with. 
+        She is unflappable and is always prepared for the unforeseen twist.” 
+      %h2 Rich Lear
+      %p Chairman, Vantage Partners
+  .divider
+  
+#biography-content
+  #heading
+    %h2 MEET THE TEAM  / BRYNNE POGONCHEFF
+  .ct  
+    #left-content
+      .ct
+        #partner
+          <img src='images/brynne_partner.png'/>
+        #partner-tag
+          %h3 Brynne Pogoncheff
+          %h4 Executive Assistant
+        .clear  
+        #icons
+          #mail
+          #direct
+          #fax
+        #info
+          %h2
+            %a{:href => "mailto:tom@vantagepartners.net"} tom@vantagepartners.net
+          %h2 Direct: (650) 579-7300, ext ?
+          %h2 Fax: (650) 590-7470
+
+      .bio-info
+        %p Brynne Pogoncheff joined Vantage Partners in 2008, and serves as Executive Assistant to the team. She brings her many years of managerial experience to the firm acting as a dedicated liaison, expertly handling all transactions between customers and vendors; while keeping the office working smoothly  
+        %p Before joining Vantage Partners, she devoted herself self to raising her two sons as a full-time mom. Prior to her family time, she spent several years in retail management, and previously acted as the Sales Manager for a financial advisory services company, where she obtained a Series 7 license.    
+        %p Always enthusiastic, Brynne has consistently helped her teammates with all levels of projects  where she brings her deft touch and welcoming spirit.
+        %p Brynne graduated with a Bachelors of Science from Western Michigan University Cum Laude, and is a member of the Alpha Lambda Delta National Honor Society.
+        
+    #right-content
+      %a{:href=>'/',:title=>'Meet Tom'} Tom Callahan 
+      %br/
+      %a{:href=>'/',:title=>'Meek Mark'} Mark Hubbell
+      %br/
+      %a{:href=>'/april',:title=>'Meet April'} April King
+      %br/
+      %a{:href=>'/',:title=>'Meet Rich'} Rich Lear
+      %br/
+      %a{:href=>'/',:title=>'Meet Julie'} Julie Locke
+      %br/
+      %a{:href=>'/',:title=>'Meet Irene'} Irene Murphy
+      %br/
+      %a{:href=>'/',:title=>'Meet Steve'} Steve O'Deegan
+      %br/
+      %a{:href=>'/',:title=>'Meet Audrey'} Audrey Shuster
+      %br/
+      %a{:href=>'/',:title=>'Meet May'} May Young
+      %br/
+      %a{:href=>'/',:title=>'Meet Gene'} Gene Zaccor
+      %br/
+
+/ #domain-review
+/   .domain-review
+/     #domain-background
+/       #domain
+/         .domain-ct
+/           %h1 DOMAIN FOCUS:
+/           %br/
+/           %h2
+/             Enterprise / SaaS
+/             %br/ 
+/             Consumer / Internet
+/             %br/ 
+/             Mobile / Wireless
+/             %br/
+/             %br/
+/           #reviews
+/             %h2 REVIEWS
+/             %p
+/               “I chose Tom / Vantage Partners for a critical and hard-to-fill engineering search. He found an excellent candidate quickly. Moreover, he was a pleasure to work with and demonstrated a keen grasp of our market / technology, but also brought a deep network on relevant talent.  
+/               %br/ 
+/               We were delighted with the process and the result, and I recommend him strongly.”
+/             %h2 Joshua Narva, VP HR, MarkLogic
+/       #recent
+/         .recent-ct
+/           %h1 RECENT SEARCHES:
+/           %br/
+/           %h2 • CTO, Merced Systems 
+/           %h3
+/             Sales and Service Performance Management Software 
+/             %br/
+/             (Sutter Hill Ventures)
+/           %h2 • SVP (GM) Enterprise 2.0, Oracle 
+/           %h3
+/             Database and Enterprise Orientated Technologies and Software
+/             %br/
+/             (Nasdaq: ORCL)
+/           %h2 • SVP Engineering, PINC Solutions 
+/           %h3
+/             RTLS-based Asset Tracking Technology 
+/             %br/
+/             (Sutter Hill Ventures) 
+/             %br/
+/           %h2 • SVP Engineering, Streetline Networks 
+/           %h3
+/             Parking Sensors and Mobile Apps 
+/             %br/
+/             (Sutter Hill Ventures)
+/             %br/
+/           %h2 • VP Engineering, 10gen 
+/           %h3
+/             Document Orientated Database "noSQL"
+/             %br/
+/             (Sequoia Capital) 
+/             %br/
+  
+/ #bottom-content
+/   .container
+/     #slideToggle
+/       .more more searches >
+/     .slideTogglebox{:style => "display:none"}
+/       %table#archives
+/         %thead
+/           %tr.orange 
+/             %th{:colspan => 3} Role
+/             %th{:colspan => 3} Client
+/             %th{:colspan => 3} Sector
+/         %tbody
+/         
+/       #clickme
+/         .close close x
+
+:plain
+  <script id="archiveTemplate" type="text/x-jquery-tmpl">
+    <tr class="stripe">
+      <td class="info" colspan="3">${position}</td>
+      <td class="info" colspan="3">${company}</td>
+      <td class="info" colspan="3">${sector}</td>
+    </tr>
+  </script>

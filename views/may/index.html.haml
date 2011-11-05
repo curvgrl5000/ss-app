@@ -1,0 +1,154 @@
+#top_container
+  .ct 
+    #transparent
+    #bio
+      %h1 May Young
+      %p 
+        “May is creative and inquisitive.  
+        %br/ 
+        Her ability to connect the dots, think beyond the typical boundaries of a search, and uncover great people is unmatched.”
+      %h2 Steve O'Deegan
+      %p Managing Director Vantage Partners.
+
+  .divider
+  
+#biography-content
+  #heading
+    %h2 MEET THE TEAM  / MAY YOUNG
+  .ct  
+    #left-content
+      .ct
+        #partner
+          <img src='images/may_partner.png'/>
+        #partner-tag
+          %h3 May Young
+          %h4 Principal
+        .clear  
+        #icons
+          #mail
+          #direct
+          #fax
+          %a{:href => "http://www.linkedin.com/in/abking"}
+            #linkedin
+          %a{:href => "/"}
+            #tweet
+          %a{:href => "/"}
+            #podcast
+        #info
+          %h2
+            %a{:href => "mailto:may@vantagepartners.net"} may@vantagepartners.net
+          %h2 Direct: (650) 579-7300, ext 106
+          %h2 Fax: (650) 590-7470
+          %h2
+            %a{:title => "/", :href => "http://www.linkedin.com/pub/may-young/16/a47/771"} May On LinkedIn
+          %h2
+            %a{:title => "/", :href => "/"} May's Tweets
+          %h2
+            %a{:title => "/", :href => "/"} May's Podcasts
+      .bio-info
+        %p May Young is the newest member of the Vantage Partners retained search team.  Her background draws from dynamic, consultative and creative companies in New York, Chicago and SF/Silicon Valley. 
+        %p May brings a confluence of strategic thinking, a creative mindset, management skills, and exceptional attention to Client service.  Having served in key management roles at DDB Needham/New York and J. Walter Thompson/Chicago, as well as other leading NY-based advertising agencies, May successfully managed multi-disciplinary teams on high-profile/Fortune 500 brands in technology and consumer goods and services.  May’s creative interests later focused her professional attention toward interior architecture, designing and managing both commercial and high-end residential interiors projects in Chicago and the Bay Area  
+        %p After a hiatus from corporate-centric assignments, May decided to return to her roots in Client management to employ her strategic discipline, consultative approach, and service-orientation in retained executive search.  Her multi-faceted background in account management, branding, and design, as well as her keen interest in companies focused on "social good,” serve her well with both entrepreneurial and corporate clients in the areas of Consumer Internet/Digital Media, SaaS, and Social Enterprises. 
+        %p May received her undergraduate degree from UCLA with an additional degree in design at the Harrington Institute in Chicago.  May has a personal interest in modern architecture and green/sustainable design.
+    #right-content
+      %a{:href=>'/',:title=>'Meet Tom'} Tom Callahan
+      %br/
+      %a{:href=>'/',:title=>'Meek Mark'} Mark Hubbell
+      %br/
+      %a{:href=>'/april',:title=>'Meet April'} April King
+      %br/
+      %a{:href=>'/',:title=>'Meet Rich'} Rich Lear
+      %br/
+      %a{:href=>'/',:title=>'Meet Julie'} Julie Locke
+      %br/
+      %a{:href=>'/',:title=>'Meet Irene'} Irene Murphy
+      %br/
+      %a{:href=>'/',:title=>'Meet Steve'} Steve O'Deegan
+      %br/
+      %a{:href=>'/',:title=>'Meet Audrey'} Audrey Shuster
+      %br/
+      %a{:href=>'/',:title=>'Meet May'}
+        %span.orange May Young
+      %br/
+      %a{:href=>'/',:title=>'Meet Gene'} Gene Zaccor
+      %br/
+
+#domain-review
+  .domain-review
+    #domain-background
+      #domain
+        .domain-ct
+          %h1 DOMAIN FOCUS:
+          %br/
+          %h2
+            Enterprise / SaaS
+            %br/ 
+            Consumer / Internet
+            %br/ 
+            Mobile / Wireless
+            %br/
+            %br/
+          #reviews
+            / %h2 REVIEWS
+            / %p
+            /   "When there is a review this is where the copy will sit"
+            /   %br/ 
+            /   Here is where the copy will sit.”
+            / %h2 Name, Position, Company
+      #recent
+        .recent-ct
+          %h1 RECENT SEARCHES:
+          %br/
+          %h2 • CEO, Razoo
+          %h3
+            Social Enterprise Connecting Consumers to Causes
+            %br/
+            (Legatum Capital)
+          %h2 • SVP of Global Online Business, Webroot Software
+          %h3
+            B2C and B2B Security solutions
+            %br/
+            (Accel Partners, Mayfield, Technology Crossover Ventures)
+            %br/
+          %h2 • Head of Performance Marketing, Tagged 
+          %h3
+            Platform for Social Discovery
+            %br/
+            (Mayfield)
+            %br/
+          / %h2 • Position, Name of Company
+          / %h3
+          /   Kind of Service
+          /   %br/
+          /   (The VC Information)
+          /   %br/
+          / %h2 • Position, Name of Company
+          / %h3
+          /   Kind of Service
+          /   %br/
+          /   (The VC Information) 
+  
+#bottom-content
+  .container
+    #slideToggle
+      .more more searches >
+    .slideTogglebox{:style => "display:none"}
+      %table#archives
+        %thead
+          %tr.orange 
+            %th{:colspan => 3} Role
+            %th{:colspan => 3} Client
+            %th{:colspan => 3} Sector
+        %tbody
+        
+      #clickme
+        .close close x
+
+:plain
+  <script id="archiveTemplate" type="text/x-jquery-tmpl">
+    <tr class="stripe">
+      <td class="info" colspan="3">${position}</td>
+      <td class="info" colspan="3">${company}</td>
+      <td class="info" colspan="3">${sector}</td>
+    </tr>
+  </script>

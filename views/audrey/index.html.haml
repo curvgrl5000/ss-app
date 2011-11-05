@@ -1,0 +1,152 @@
+#top_container
+  .ct 
+    #transparent
+    #bio
+      %h1 Audrey Shuster
+      %p “Audrey is thoughtful and measured in her approach. She is methodical and professional and dedicated to her customer’s success.”
+      %h2 Irene Murphy
+      %p Managing Director, Vantage Partners
+  .divider
+  
+#biography-content
+  #heading
+    %h2 MEET THE TEAM  / AUDREY SHUSTER
+  .ct  
+    #left-content
+      .ct
+        #partner
+          <img src='images/audrey_partner.png'/>            
+        #partner-tag
+          %h3 Audrey Shuster
+          %h4 Managing Partner
+        .clear  
+        #icons
+          #mail
+          #direct
+          #fax
+          %a{:href => "http://www.linkedin.com/in/audreyshuster"}
+            #linkedin
+          %a{:href => "/"}
+            #tweet
+          %a{:href => "/"}
+            #podcast
+        #info
+          %h2
+            %a{:href => "mailto:audrey@vantagepartners.net"} audrey@.vantagepartners.net
+          %h2 Direct: (650) 579-7300, ext 101
+          %h2 Fax: (650) 590-7470
+          %h2
+            %a{:title => "/", :href => "http://www.linkedin.com/in/audreyshuster"} Audrey On LinkedIn
+          %h2
+            %a{:title => "/", :href => "/"} Audrey's Tweets
+          %h2
+            %a{:title => "/", :href => "/"} Audrey's Podcasts
+      .bio-info
+        %p Audrey Shuster is a 20+ year veteran of the technology industry and has been an executive search consultant for nearly 15 years. Her experience and expertise includes SVP and VP positions in professional services, marketing, sales, and business development.  
+        %p Her consultative practice has included advising many of the world’s leading public technology  firms as well as numerous private companies – all funded by top-tier venture capital firms. A partial list of public & private clients include: Yahoo!, Symantec / VERITAS, Oracle, SAP,   HP / Mercury, HP / Palm Computing, 3Com, MarkLogic,  Webroot Software, MarkMonitor and Zend Technologies.
+        %p 
+          Previous to Vantage, Audrey was a founding Partner at Silicon Search Partners, a boutique executive search firm serving the tech sector. Prior to her career in executive search, Audrey has held key leadership and operational roles that span Sales (direct and OEM), Marketing, Strategic Alliances and channels with both domestic and international scope and reach. As an operational lead at Fortune 100 and venture-backed technology firms, she has acquired a knowledge base of the tech sectors’ most
+          %br/
+          profound needs and requirements for successful outcomes. 
+        %p Audrey received her a Bachelors degree from California Polytechnic State University, San Luis Obispo
+    #right-content
+      %a{:href=>'/',:title=>'Meet Tom'} Tom Callahan
+      %br/
+      %a{:href=>'/',:title=>'Meek Mark'} Mark Hubbell
+      %br/
+      %a{:href=>'/april',:title=>'Meet April'} April King
+      %br/                                         
+      %a{:href=>'/',:title=>'Meet Rich'} Rich Lear
+      %br/
+      %a{:href=>'/',:title=>'Meet Julie'} Julie Locke
+      %br/
+      %a{:href=>'/',:title=>'Meet Irene'} Irene Murphy
+      %br/
+      %a{:href=>'/',:title=>'Meet Steve'} Steve O'Deegan
+      %br/
+      %a{:href=>'/',:title=>'Meet Audrey'} 
+        %span.orange Audrey Shuster 
+      %br/
+      %a{:href=>'/',:title=>'Meet May'} May Young
+      %br/
+      %a{:href=>'/',:title=>'Meet Gene'} Gene Zaccor
+      %br/
+
+#domain-review
+  .domain-review
+    #domain-background
+      #domain
+        .domain-ct
+          %h1 DOMAIN FOCUS:
+          %br/
+          %h2
+            Enterprise / SaaS
+            %br/ 
+            Consumer / Internet
+            %br/ 
+            Mobile / Wireless
+            %br/
+            %br/
+          #reviews
+            %h2 REVIEWS
+            %p
+              "We retained Vantage Partners for a critical Vice President search that had a very high bar and, heretofore, had been extremely difficult to find.  
+              In record time and with incredible attention to detail regarding our needs for the right Executive, Audrey Shuster and Gene Zaccor brought us the talent, quality and experience that we were looking for in our VP of Media Consulting.  I highly recommend Audrey and Gene - The Vantage Partners Team -  for key executive hires, particularly those with a high bar and critical time needs."
+            %h2 Max Schireson, former EVP, COO, MarkLogic
+      #recent
+        .recent-ct
+          %h1 RECENT SEARCHES:
+          %br/
+          %h2 • SVP of Global Advertising Operations & Experience, Yahoo!
+          %h3
+            Digital Media
+            %br/
+            (Nasdaq:YHOO)
+          %h2 • SVP of Global Online Business,  Webroot Software
+          %h3
+            B2C and B2B Security solutions
+            %br/
+            (Accel Partners, Mayfield, Technology Crossover Ventures)
+            %br/
+          %h2 • VP Professional Services, Media and Communications, MarkLogic
+          %h3
+            The Database for Unstructured Information and Big Data
+            %br/
+            (Sequoia Capital, Tenaya Capital)
+            %br/
+          %h2 • VP Global Professional Services, MarkMonitor 
+          %h3
+            SaaS Global Brand Protection
+            %br/
+            (Foundation Capital, Polaris Ventures, IVP)
+            %br/
+          %h2 • VP Global Sales and Business Development - IP Infusion 
+          %h3
+            Next Generation Mobile Infrastructure Software 
+            %br/
+            (Wholly owned subsidiary of Access Co., LTD of Japan)
+  
+#bottom-content
+  .container
+    #slideToggle
+      .more more searches >
+    .slideTogglebox{:style => "display:none"}
+      %table#archives
+        %thead
+          %tr.orange 
+            %th{:colspan => 3} Role
+            %th{:colspan => 3} Client
+            %th{:colspan => 3} Sector
+        %tbody
+        
+      #clickme
+        .close close x
+
+:plain
+  <script id="archiveTemplate" type="text/x-jquery-tmpl">
+    <tr class="stripe">
+      <td class="info" colspan="3">${position}</td>
+      <td class="info" colspan="3">${company}</td>
+      <td class="info" colspan="3">${sector}</td>
+    </tr>
+  </script>

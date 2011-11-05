@@ -1,0 +1,157 @@
+#top_container
+  .ct 
+    #transparent
+    #bio
+      %h1 Steve O'Deegan
+      %p “Steve’s strategic and creative disposition allows him to be a role model for other experienced search professionals.  Expect to learn something anytime you interact with him.” 
+      %h2 Tom Callahan
+      %p Managing Director Vantage Partners.
+  .divider
+  
+#biography-content
+  #heading
+    %h2 MEET THE TEAM  / STEVE O'DEEGAN
+  .ct  
+    #left-content
+      .ct
+        #partner
+          <img src='images/steve_partner.png'/>
+        #partner-tag
+          %h3 Steve O'Deegan
+          %h4 Managing Partner
+        .clear  
+        #icons
+          #mail
+          #direct
+          #fax
+          %a{:href => "http://www.linkedin.com/in/sodeegan"}
+            #linkedin
+          %a{:href => "/"}
+            #tweet
+          %a{:href => "/"}
+            #podcast
+        #info
+          %h2
+            %a{:href => "mailto:steve@vantagepartners.net"} steve@vantagepartners.net
+          %h2 Direct: (650) 579-7300, ext 107
+          %h2 Fax: (650) 590-7470
+          %h2
+            %a{:title => "/", :href => "http://www.linkedin.com/in/sodeegan"} Steve On LinkedIn
+          %h2
+            %a{:title => "/", :href => "/"} Steve's Tweets
+          %h2
+            %a{:title => "/", :href => "/"} Steve's Podcasts
+      .bio-info
+        %p Steve O’Deegan joined Vantage Partners in 2010.   His background combines 16 years in executive search and recent start-up operating experience.  He has started a search firm from scratch (Celerity), served as a Managing Partner of two other firms (Laurel Group, Austin McGregor) and was a key Principal at leading search firms Howard Fischer and Quest Search Associates.  Prior to Vantage Partners, Steve was VP Sales and Marketing of Web 2.0 start-up Fastpencil (ebook self-publishing industry).  Prior to his search career, Steve was a Corporal in the U.S. Army (25th I.D./Ranger) and certified athletic trainer 
+        %p Steve’s own entrepreneurial experience within the SaaS sector coupled with his extensive search work with early stage companies, has shaped Steve’s appreciation for the many challenges a young company faces during its maturation process. Steve’s current focus is in two key market areas; SaaS/Open-Source software and Consumer Internet Services (all things Social).  Within SaaS/Open-Source, his clients have included, Boomi (acquired by Dell), SpringCM, Host Analytics, Helpstream (acq. by Innotas), Daptiv, Xensource (acq. by Citrix) and Splunk.  Within Consumer Services/Social, his clients have included, Get Satisfaction, Oracle (Social Collaboration BU), Inigral (Schools on Facebook) and Medpedia (Consumer healthcare Wikipedia) among many others.  
+        %p 
+          Steve’s recent Writings: 
+          %br/ 
+          Whitepaper: Thought Leaders of the SaaS Revolution 
+          %br/ 
+          Whitepaper: Living in the Cloud, Meanings, Myths and Opportunities
+          %br/
+          Podcast Series: Catalyst’s in the Cloud, Changing the Way People, Work, Connect and Collaborate
+        
+    #right-content
+      %a{:href=>'/',:title=>'Meet Tom'} Tom Callahan
+      %br/
+      %a{:href=>'/',:title=>'Meek Mark'} Mark Hubbell
+      %br/
+      %a{:href=>'/april',:title=>'Meet April'} April King
+      %br/
+      %a{:href=>'/',:title=>'Meet Rich'} Rich Lear
+      %br/
+      %a{:href=>'/',:title=>'Meet Julie'} Julie Locke
+      %br/
+      %a{:href=>'/',:title=>'Meet Irene'} Irene Murphy
+      %br/
+      %a{:href=>'/',:title=>'Meet Steve'} 
+        %span.orange Steve O'Deegan
+      %br/
+      %a{:href=>'/',:title=>'Meet Audrey'} Audrey Shuster
+      %br/
+      %a{:href=>'/',:title=>'Meet May'} May Young
+      %br/
+      %a{:href=>'/',:title=>'Meet Gene'} Gene Zaccor
+      %br/
+
+#domain-review
+  .domain-review
+    #domain-background
+      #domain
+        .domain-ct
+          %h1 DOMAIN FOCUS:
+          %br/
+          %h2
+            Enterprise / SaaS
+            %br/ 
+            Consumer / Internet
+            %br/ 
+            Mobile / Wireless
+            %br/
+            %br/
+          #reviews
+            %h2 REVIEWS
+            %p
+              “I’ve engaged with Steve on multiple searches over several years—both as a candidate and as a client.  His professionalism, tenacity, attention to detail, and work ethic are unmatched.   
+              %br/ 
+              Steve (Vantage) has delivered great candidates and results every single time.”
+            %h2 Tony Nemelka, CEO, Helpstream
+      #recent
+        .recent-ct
+          %h1 RECENT SEARCHES:
+          %br/
+          %h2 • CEO, Inigral
+          %h3
+            Schools on Facebook
+            %br/
+            (Retro Ventures, Founders Fund, Gates Foundation)
+          %h2 • Chief Product Officer, Get Satisfaction
+          %h3
+            Social Community Software
+            %br/
+            (InterWest, Azure Capital, OATV and First Round Capital)
+            %br/
+          %h2 • SVP (GM) Enterprise 2.0, Oracle 
+          %h3
+            Database and Enterprise Orientated Technologies and Software
+            %br/
+            (Nasdaq: ORCL)
+            %br/
+          %h2 • VP Marketing and VP Business Development, Splunk 
+          %h3
+            Operational Intelligence Software
+            %br/
+            (Ignition Partners, August Capital, Seven Rosen, JK&B)
+            %br/
+          %h2 • VP Sales, Boomi (acq. By Dell)
+          %h3
+            Cloud Integration Software
+            %br/
+            (Firstmark Capital)
+  
+#bottom-content
+  .container
+    #slideToggle
+      .more more searches >
+    .slideTogglebox{:style => "display:none"}
+      %table#archives
+        %thead
+          %tr.orange 
+            %th{:colspan => 3} Role
+            %th{:colspan => 3} Client
+            %th{:colspan => 3} Sector
+        %tbody
+        
+      #clickme
+        .close close x
+
+:plain
+  <script id="archiveTemplate" type="text/x-jquery-tmpl">
+    <tr class="stripe">
+      <td class="info" colspan="3">${position}</td>
+      <td class="info" colspan="3">${company}</td>
+      <td class="info" colspan="3">${sector}</td>
+    </tr>
+  </script>
