@@ -9,7 +9,7 @@ namespace :vantage do
   end
   
   desc "consult"
-  task :constult, :environment do |t, args|
+  task :consult, :environment do |t, args|
     v = Vantage::Utilities.new(args)
     v.get_files
   end
@@ -33,12 +33,14 @@ module Vantage
         unless File.directory?(f)
           # open the file, and read the csv, making a new entry in a data structure
           key = File.basename(f, ".csv")
-          CSV.read("tmp/consultants/#{f}").each do |line|
-            if result.has_key?(key)
-              result[key] << {:company => line[0], :sector => line[1], :position => line[2]}
-            else
-              result[key] = []
-              result[key] << {:company => line[0], :sector => line[1], :position => line[2]}
+          if(key == "mark")
+            CSV.read("tmp/consultants/#{f}").each do |line|
+              if result.has_key?(key)
+                result[key] << {:company => line[0], :sector => line[1], :position => line[2]}
+              else
+                result[key] = []
+                result[key] << {:company => line[0], :sector => line[1], :position => line[2]}
+              end
             end
           end
         end

@@ -4,6 +4,193 @@ if(!Vantage) {
 
 Vantage.individual = function () {
   var consultants = {
+    "mark": [
+      {
+        "company": "Komli",
+        "sector": "Consumer / Internet",
+        "position": "COO "
+      },
+      {
+        "company": "Limelife",
+        "sector": "Consumer / Internet and Mobile / Wireless",
+        "position": "COO / SVP Product"
+      },
+      {
+        "company": "Emsense",
+        "sector": "Consumer / Internet and Enterprise / SaaS",
+        "position": "CFO"
+      },
+      {
+        "company": "Tagged",
+        "sector": "Consumer / Internet",
+        "position": "Chief Customer Officer"
+      },
+      {
+        "company": "Turn",
+        "sector": "Consumer / Internet",
+        "position": "Chief Scientist"
+      },
+      {
+        "company": "Betfair",
+        "sector": "Consumer / Internet",
+        "position": "CRO"
+      },
+      {
+        "company": "Snapvine",
+        "sector": "Consumer / Internet",
+        "position": "CRO"
+      },
+      {
+        "company": "Meez",
+        "sector": "Consumer / Internet",
+        "position": "CTO"
+      },
+      {
+        "company": "Limelife",
+        "sector": "Consumer / Internet and Mobile / Wireless",
+        "position": "CTO/VP Engineering"
+      },
+      {
+        "company": "EmSense",
+        "sector": "Consumer / Internet and Enterprise / SaaS",
+        "position": "Regional Vice President"
+      },
+      {
+        "company": "Tagged",
+        "sector": "Consumer / Internet",
+        "position": "Senior Director of Analytics"
+      },
+      {
+        "company": "GigaOm",
+        "sector": "Consumer / Internet ",
+        "position": "SVP Marketing & Product Management"
+      },
+      {
+        "company": "Zynga",
+        "sector": "Consumer / Internet",
+        "position": "SVP Network Operations"
+      },
+      {
+        "company": "EmSense",
+        "sector": "Consumer / Internet and Enterprise / SaaS",
+        "position": "SVP Sales & Marketing"
+      },
+      {
+        "company": "SayNow",
+        "sector": "Consumer / Internet and Mobile / Wireless",
+        "position": "SVP Sales & Strategy"
+      },
+      {
+        "company": "Wazap",
+        "sector": "Consumer / Internet",
+        "position": "GM/Counrtry Manager"
+      },
+      {
+        "company": "Songkick",
+        "sector": "Consumer / Internet",
+        "position": "VP/GM Business Development"
+      },
+      {
+        "company": "Anchor Intelligence",
+        "sector": "Consumer / Internet and Enterprise / SaaS",
+        "position": "VP Business Development"
+      },
+      {
+        "company": "Like.com",
+        "sector": "Consumer / Internet and Enterprise / SaaS",
+        "position": "VP Business Development"
+      },
+      {
+        "company": "Retrevo",
+        "sector": "Consumer / Internet",
+        "position": "VP Business Development"
+      },
+      {
+        "company": "Turn",
+        "sector": "Consumer / Internet",
+        "position": "VP Business Development"
+      },
+      {
+        "company": "Announce Media",
+        "sector": "Enterprise / SaaS",
+        "position": "VP Corporate & Business Development"
+      },
+      {
+        "company": "Zynga",
+        "sector": "Consumer / Internet",
+        "position": "VP Customer Service"
+      },
+      {
+        "company": "Cake Financial",
+        "sector": "Consumer / Internet",
+        "position": "VP Marketing & Strategy"
+      },
+      {
+        "company": "Adchemy",
+        "sector": "Consumer / Internet",
+        "position": "VP Media"
+      },
+      {
+        "company": "Like.com",
+        "sector": "Consumer / Internet and Enterprise / SaaS",
+        "position": "VP Online Marketing"
+      },
+      {
+        "company": "Tagged",
+        "sector": "Consumer / Internet",
+        "position": "VP Online Marketing"
+      },
+      {
+        "company": "EmSense",
+        "sector": "Consumer / Internet and Enterprise / SaaS",
+        "position": "VP Operations"
+      },
+      {
+        "company": "Topsy",
+        "sector": "Consumer / Internet",
+        "position": "VP Operations"
+      },
+      {
+        "company": "MetaCafe",
+        "sector": "Consumer / Internet",
+        "position": "VP Product"
+      },
+      {
+        "company": "Snap Shots",
+        "sector": "Consumer / Internet",
+        "position": "VP Product"
+      },
+      {
+        "company": "Retrevo",
+        "sector": "Consumer / Internet",
+        "position": "VP Product Management"
+      },
+      {
+        "company": "Turn",
+        "sector": "Consumer / Internet",
+        "position": "VP Product Management"
+      },
+      {
+        "company": "Fansnap",
+        "sector": "Consumer / Internet",
+        "position": "VP Products"
+      },
+      {
+        "company": "ClickForensics",
+        "sector": "Consumer / Internet and Enterprise / SaaS",
+        "position": "VP Sales"
+      },
+      {
+        "company": "Betfair",
+        "sector": "Consumer / Internet",
+        "position": "VP Social Media"
+      },
+      {
+        "company": "Tagged",
+        "sector": "Consumer / Internet",
+        "position": "Director of Security"
+      }
+    ],
     "april": [
       {
         "company": "Razoo",
