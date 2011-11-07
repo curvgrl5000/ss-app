@@ -42,8 +42,8 @@ Vantage.situation = function () {
   $.updateSlides = function(slide) {
     $(".small-trustmark").attr('style','background: white url("../images/approach-trustmark-'+slide+'.png") no-repeat 0 0');
     var info = Vantage.situation.getInfo(slide);
-    $(".mission > h2").text(info.heading);
-    $(".mission > p").text(info.tagline);
+    $("#slidedeck_mini .mission > h2").text(info.heading);
+    $("#slidedeck_mini .mission > p").text(info.tagline);
   }
   
 })(jQuery);
