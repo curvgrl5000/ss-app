@@ -18,9 +18,9 @@ $(function(){
   // first deck has no left/right motions.. so hide the left/right arrows
   $("#slidedeck_nav li.right").hide();
   
-  deck = $('#teams_slidedeck').slidedeck({hideSpines:true});
+  var deck = $('#teams_slidedeck').slidedeck({hideSpines:true});
   deck.vertical();  
-  mission = $('#team_mission').slidedeck({ hideSpines: true, keys: false, touch: false, cycle: true, speed: 1000, transition: "linear" });
+  var mission = $('#team_mission').slidedeck({ hideSpines: true, keys: false, touch: false, cycle: true, speed: 1000, transition: "linear" });
   
   // these are clicks on the 4 bottom icons... so one of these will set the table for the current deck we want to control
   $("a.vertical_menu").click(function(e){
