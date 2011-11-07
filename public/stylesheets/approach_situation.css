@@ -839,7 +839,7 @@ ul.sf-navbar .current ul ul {
   height: 0;
 }
 
-/* line 1, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 1, ../../stylesheets/partials/_approach_situation.sass */
 #slidedeck_frame {
   display: inline;
   float: left;
@@ -850,12 +850,12 @@ ul.sf-navbar .current ul ul {
   padding-right: 40px;
   padding-top: 50px;
 }
-/* line 6, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 6, ../../stylesheets/partials/_approach_situation.sass */
 #slidedeck_frame #teams_slidedeck {
-  height: 336px;
+  height: 407px;
   box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
 }
-/* line 9, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 9, ../../stylesheets/partials/_approach_situation.sass */
 #slidedeck_frame #teams_slidedeck dd {
   display: inline;
   float: left;
@@ -866,12 +866,12 @@ ul.sf-navbar .current ul ul {
   margin-right: 0;
 }
 
-/* line 14, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 14, ../../stylesheets/partials/_approach_situation.sass */
 #team_mission {
-  height: 336px;
+  height: 407px;
   background-color: white;
 }
-/* line 18, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 18, ../../stylesheets/partials/_approach_situation.sass */
 #team_mission #teams_top_container #approach-area {
   display: inline;
   float: left;
@@ -881,49 +881,49 @@ ul.sf-navbar .current ul ul {
   margin-left: 0;
   margin-right: 0;
 }
-/* line 22, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 22, ../../stylesheets/partials/_approach_situation.sass */
 #team_mission #teams_top_container #approach-area .content_setup {
   height: 335px;
   margin-top: 0px;
   margin-bottom: 30px;
 }
-/* line 26, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 26, ../../stylesheets/partials/_approach_situation.sass */
 #team_mission #teams_top_container #approach-area .content_setup .heroshot {
   display: inline;
   float: left;
   margin-left: 5px;
   margin-right: 5px;
   width: 230px;
-  height: 336px;
+  height: 407px;
   background: url("../images/approach-placements.png") 0 0 no-repeat;
   margin: 0px;
   padding: 0px;
   letter-spacing: 0.02em;
 }
-/* line 33, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 33, ../../stylesheets/partials/_approach_situation.sass */
 #team_mission #teams_top_container #approach-area .content_setup .greybox {
   width: 800px;
   background-color: #ced3d9;
   height: 79px;
 }
-/* line 37, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 37, ../../stylesheets/partials/_approach_situation.sass */
 #team_mission #teams_top_container #approach-area .content_setup h1 {
   font: normal normal normal 2.85em Dante MT Std serif;
   color: #455560;
   letter-spacing: 0.05em;
 }
-/* line 41, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 41, ../../stylesheets/partials/_approach_situation.sass */
 #team_mission #teams_top_container #approach-area .content_setup h1 span.orange {
   color: #f37421;
 }
-/* line 43, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 43, ../../stylesheets/partials/_approach_situation.sass */
 #team_mission #teams_top_container #approach-area .content_setup h2 {
   font: normal 1.7em Neue Helvetica Arial, sans-serif;
   color: #f37421;
   letter-spacing: 0.05em;
   line-height: 0.7em;
 }
-/* line 48, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 48, ../../stylesheets/partials/_approach_situation.sass */
 #team_mission #teams_top_container #approach-area .content_setup .spotlight {
   display: inline;
   float: left;
@@ -932,28 +932,28 @@ ul.sf-navbar .current ul ul {
   width: 510px;
   margin: 32px 0 80px 30px;
 }
-/* line 51, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 51, ../../stylesheets/partials/_approach_situation.sass */
 #team_mission #teams_top_container #approach-area .content_setup .spotlight h2 {
   margin-top: 30px;
 }
-/* line 53, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 53, ../../stylesheets/partials/_approach_situation.sass */
 #team_mission #teams_top_container #approach-area .content_setup .spotlight p {
   font: normal normal normal 1.4em/2.5em Georgia;
   color: #5f6a72;
   margin-top: 15px;
 }
-/* line 57, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 57, ../../stylesheets/partials/_approach_situation.sass */
 #team_mission #teams_top_container #approach-area .content_setup .spotlight p span.orange {
   font: normal normal bold 1em Arial, Helvetica, sans-serif;
   color: #f37421;
 }
-/* line 60, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 60, ../../stylesheets/partials/_approach_situation.sass */
 #team_mission #teams_top_container #approach-area .content_setup p.insight {
   font: italic normal normal 1.1em/2.25em Georgia, Times serif;
   letter-spacing: 0.06em;
   color: #5f6a72;
 }
-/* line 65, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 65, ../../stylesheets/partials/_approach_situation.sass */
 #team_mission #teams_top_container #approach-area .content_setup .left-grid {
   display: inline;
   float: left;
@@ -964,7 +964,7 @@ ul.sf-navbar .current ul ul {
   margin-right: 0;
   margin-right: 10px;
 }
-/* line 70, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 70, ../../stylesheets/partials/_approach_situation.sass */
 #team_mission #teams_top_container #approach-area .content_setup .right-grid {
   display: inline;
   float: left;
@@ -977,12 +977,12 @@ ul.sf-navbar .current ul ul {
   height: 100%;
 }
 
-/* line 77, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 77, ../../stylesheets/partials/_approach_situation.sass */
 #team_vantage {
   background-color: white;
-  height: 336px;
+  height: 407px;
 }
-/* line 81, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 81, ../../stylesheets/partials/_approach_situation.sass */
 #team_vantage #teams_top_container #approach-area {
   display: inline;
   float: left;
@@ -992,13 +992,13 @@ ul.sf-navbar .current ul ul {
   margin-left: 0;
   margin-right: 0;
 }
-/* line 85, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 85, ../../stylesheets/partials/_approach_situation.sass */
 #team_vantage #teams_top_container #approach-area .content_setup {
   height: 335px;
   margin-top: 0px;
   margin-bottom: 30px;
 }
-/* line 89, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 89, ../../stylesheets/partials/_approach_situation.sass */
 #team_vantage #teams_top_container #approach-area .content_setup .greybox {
   display: inline;
   float: left;
@@ -1009,50 +1009,50 @@ ul.sf-navbar .current ul ul {
   margin-left: 0;
   height: 79px;
 }
-/* line 94, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 94, ../../stylesheets/partials/_approach_situation.sass */
 #team_vantage #teams_top_container #approach-area .content_setup h1 {
   font: normal normal normal 3.125em Dante MT Std serif;
   color: #455560;
   letter-spacing: 0.05em;
 }
-/* line 98, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 98, ../../stylesheets/partials/_approach_situation.sass */
 #team_vantage #teams_top_container #approach-area .content_setup h1 span.orange {
   color: #f37421;
 }
-/* line 100, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 100, ../../stylesheets/partials/_approach_situation.sass */
 #team_vantage #teams_top_container #approach-area .content_setup h2 {
   font: normal 1.7em Neue Helvetica Arial, sans-serif;
   color: #f37421;
   letter-spacing: 0.05em;
   line-height: 0.7em;
 }
-/* line 105, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 105, ../../stylesheets/partials/_approach_situation.sass */
 #team_vantage #teams_top_container #approach-area .content_setup .spotlight {
   margin-top: 32px;
   margin-bottom: 80px;
 }
-/* line 108, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 108, ../../stylesheets/partials/_approach_situation.sass */
 #team_vantage #teams_top_container #approach-area .content_setup .spotlight h2 {
   margin-top: 30px;
 }
-/* line 110, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 110, ../../stylesheets/partials/_approach_situation.sass */
 #team_vantage #teams_top_container #approach-area .content_setup .spotlight p {
   font: normal normal normal 1.4em/2.5em Georgia;
   color: #5f6a72;
   margin-top: 15px;
 }
-/* line 114, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 114, ../../stylesheets/partials/_approach_situation.sass */
 #team_vantage #teams_top_container #approach-area .content_setup .spotlight p span.orange {
   font: normal normal bold 1em Arial, Helvetica, sans-serif;
   color: #f37421;
 }
-/* line 117, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 117, ../../stylesheets/partials/_approach_situation.sass */
 #team_vantage #teams_top_container #approach-area .content_setup p.insight {
   font: italic normal normal 1.1em/2.25em Georgia, Times sans-serif;
   letter-spacing: 0.06em;
   color: #5f6a72;
 }
-/* line 121, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 121, ../../stylesheets/partials/_approach_situation.sass */
 #team_vantage #teams_top_container #approach-area .content_setup .heroshot {
   height: 117px;
   background: #314b60 url("../images/approach_heroshot.png") 20px 0 no-repeat;
@@ -1060,13 +1060,13 @@ ul.sf-navbar .current ul ul {
   padding: 110px 270px 0 20px;
   letter-spacing: 0.02em;
 }
-/* line 124, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 124, ../../stylesheets/partials/_approach_situation.sass */
 #team_vantage #teams_top_container #approach-area .content_setup .heroshot h1 {
   font: normal normal normal 3.125em Dante MT Std serif;
   color: white;
   letter-spacing: 0.05em;
 }
-/* line 131, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 131, ../../stylesheets/partials/_approach_situation.sass */
 #team_vantage #teams_top_container #approach-area .content_setup .left-grid {
   display: inline;
   float: left;
@@ -1078,7 +1078,7 @@ ul.sf-navbar .current ul ul {
   background: #ced3d9 url("../images/small_icon.png") 0 0 no-repeat;
   height: 100%;
 }
-/* line 137, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 137, ../../stylesheets/partials/_approach_situation.sass */
 #team_vantage #teams_top_container #approach-area .content_setup .right-grid {
   display: inline;
   float: left;
@@ -1088,7 +1088,7 @@ ul.sf-navbar .current ul ul {
   margin-left: 0;
   margin-right: 0;
 }
-/* line 141, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 141, ../../stylesheets/partials/_approach_situation.sass */
 #team_vantage #teams_top_container #approach-area .content_setup .right-grid .lefthalf {
   display: inline;
   float: left;
@@ -1098,7 +1098,7 @@ ul.sf-navbar .current ul ul {
   margin-left: 0;
   margin-left: 30px;
 }
-/* line 145, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 145, ../../stylesheets/partials/_approach_situation.sass */
 #team_vantage #teams_top_container #approach-area .content_setup .righthalf {
   display: inline;
   float: left;
@@ -1109,7 +1109,7 @@ ul.sf-navbar .current ul ul {
   margin-left: 0;
 }
 
-/* line 150, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 150, ../../stylesheets/partials/_approach_situation.sass */
 #slidedeck_nav {
   display: inline;
   float: left;
@@ -1119,7 +1119,7 @@ ul.sf-navbar .current ul ul {
   padding-left: 40px;
   padding-right: 40px;
 }
-/* line 154, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 154, ../../stylesheets/partials/_approach_situation.sass */
 #slidedeck_nav .divider {
   display: inline;
   float: left;
@@ -1131,7 +1131,7 @@ ul.sf-navbar .current ul ul {
   height: 40px;
   background: white url("../images/slidedeck-home-images/divider-graphic-a.png") no-repeat 0 0;
 }
-/* line 160, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 160, ../../stylesheets/partials/_approach_situation.sass */
 #slidedeck_nav .ct {
   display: inline;
   float: left;
@@ -1142,7 +1142,7 @@ ul.sf-navbar .current ul ul {
   height: 128px;
   background-color: white;
 }
-/* line 165, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 165, ../../stylesheets/partials/_approach_situation.sass */
 #slidedeck_nav .ct .mission {
   display: inline;
   float: left;
@@ -1151,7 +1151,7 @@ ul.sf-navbar .current ul ul {
   width: 390px;
   margin-left: 0;
 }
-/* line 168, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 168, ../../stylesheets/partials/_approach_situation.sass */
 #slidedeck_nav .ct .mission h2 {
   font: normal 17px "Neue Helvetica", Arial, sans-serif;
   letter-spacing: 0.05em;
@@ -1159,14 +1159,14 @@ ul.sf-navbar .current ul ul {
   padding-top: 30px;
   padding-left: 40px;
 }
-/* line 174, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 174, ../../stylesheets/partials/_approach_situation.sass */
 #slidedeck_nav .ct .mission p.tagline {
   font: italic 11px Georgia, Times sans-serif;
   letter-spacing: 0.03em;
   color: #5f6a72;
   padding-left: 40px;
 }
-/* line 179, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 179, ../../stylesheets/partials/_approach_situation.sass */
 #slidedeck_nav .ct .controls {
   display: inline;
   float: left;
@@ -1175,14 +1175,14 @@ ul.sf-navbar .current ul ul {
   width: 470px;
   margin-right: 0;
 }
-/* line 182, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 182, ../../stylesheets/partials/_approach_situation.sass */
 #slidedeck_nav .ct .controls ul {
   display: block;
   margin: 0 auto;
   list-style-image: none;
   list-style-type: none;
 }
-/* line 187, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 187, ../../stylesheets/partials/_approach_situation.sass */
 #slidedeck_nav .ct .controls ul li {
   float: left;
   margin-right: -15px;
@@ -1191,17 +1191,17 @@ ul.sf-navbar .current ul ul {
   line-height: 0.2em;
   padding: 2px 0 0 0;
 }
-/* line 194, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 194, ../../stylesheets/partials/_approach_situation.sass */
 #slidedeck_nav .ct .controls ul li a {
   font: italic normal 11px Georgia, serif;
   line-height: 10.5em;
 }
-/* line 197, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 197, ../../stylesheets/partials/_approach_situation.sass */
 #slidedeck_nav .ct .controls ul li a:hover, #slidedeck_nav .ct .controls ul li a:active {
   color: #f37421;
   background-position: 0 0;
 }
-/* line 201, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 201, ../../stylesheets/partials/_approach_situation.sass */
 #slidedeck_nav .ct .controls ul li.right {
   float: right;
   height: 88px;
@@ -1210,7 +1210,7 @@ ul.sf-navbar .current ul ul {
   padding: 0;
   background: url("../images/slidedeck-home-images/dotted-bkgrnd-nav.png") no-repeat 0 0;
 }
-/* line 208, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 208, ../../stylesheets/partials/_approach_situation.sass */
 #slidedeck_nav .ct .controls ul li.right .prev {
   height: 23px;
   width: 22px;
@@ -1221,11 +1221,11 @@ ul.sf-navbar .current ul ul {
   position: absolute;
   margin: 32px 3px 0 -22px;
 }
-/* line 217, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 217, ../../stylesheets/partials/_approach_situation.sass */
 #slidedeck_nav .ct .controls ul li.right .prev:hover {
   background-position: 0 0;
 }
-/* line 219, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 219, ../../stylesheets/partials/_approach_situation.sass */
 #slidedeck_nav .ct .controls ul li.right .next {
   height: 23px;
   width: 22px;
@@ -1239,7 +1239,7 @@ ul.sf-navbar .current ul ul {
   background-position: -22px 0;
 }
 
-/* line 232, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 232, ../../stylesheets/partials/_approach_situation.sass */
 a.nav-bottom-target {
   display: block;
   width: 120px;
@@ -1249,7 +1249,7 @@ a.nav-bottom-target {
   color: #6a7870;
 }
 
-/* line 240, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 240, ../../stylesheets/partials/_approach_situation.sass */
 a.nav-bottom-matching {
   display: block;
   width: 114px;
@@ -1259,24 +1259,24 @@ a.nav-bottom-matching {
   color: #6a7870;
   line-height: 11.1em;
 }
-/* line 248, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 248, ../../stylesheets/partials/_approach_situation.sass */
 a.nav-bottom-matching:hover {
   background-position: 0 0;
 }
 
-/* line 251, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 251, ../../stylesheets/partials/_approach_situation.sass */
 ul.verticalSlideNav {
   display: none;
 }
 
-/* line 254, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 254, ../../stylesheets/partials/_approach_situation.sass */
 #content-approach ol, ul {
   list-style-image: none;
   list-style-position: outside;
   list-style-type: none;
 }
 
-/* line 260, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 260, ../../stylesheets/partials/_approach_situation.sass */
 #content-approach a img {
   border-bottom-color: -moz-use-text-color;
   border-bottom-style: none;
@@ -1286,7 +1286,7 @@ ul.verticalSlideNav {
   border-top-width: medium;
 }
 
-/* line 268, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 268, ../../stylesheets/partials/_approach_situation.sass */
 #slidedeck_mini {
   display: inline;
   float: left;
@@ -1300,7 +1300,7 @@ ul.verticalSlideNav {
   margin-left: 40px;
   padding: 20px 10px 10px 20px;
 }
-/* line 277, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 277, ../../stylesheets/partials/_approach_situation.sass */
 #slidedeck_mini .small-trustmark {
   background: white url("../images/approach-trustmark-1.png") no-repeat 0 0;
   height: 57px;
@@ -1308,7 +1308,7 @@ ul.verticalSlideNav {
   float: left;
   padding-right: 20px;
 }
-/* line 283, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 283, ../../stylesheets/partials/_approach_situation.sass */
 #slidedeck_mini .mission {
   display: inline;
   float: left;
@@ -1318,21 +1318,21 @@ ul.verticalSlideNav {
   margin-left: 0;
   margin-right: 80px;
 }
-/* line 287, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 287, ../../stylesheets/partials/_approach_situation.sass */
 #slidedeck_mini .mission h2 {
   font: normal 17px "Neue Helvetica", Arial, sans-serif;
   letter-spacing: 0.05em;
   color: #f37421;
   padding-top: 5px;
 }
-/* line 292, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 292, ../../stylesheets/partials/_approach_situation.sass */
 #slidedeck_mini .mission p.tagline {
   font: italic 11px Georgia, Times sans-serif;
   letter-spacing: 0.03em;
   color: #5f6a72;
   padding: 0 10 0 40px;
 }
-/* line 297, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 297, ../../stylesheets/partials/_approach_situation.sass */
 #slidedeck_mini .controls {
   display: inline;
   float: left;
@@ -1341,14 +1341,14 @@ ul.verticalSlideNav {
   width: 70px;
   margin-right: 0;
 }
-/* line 300, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 300, ../../stylesheets/partials/_approach_situation.sass */
 #slidedeck_mini .controls ul {
   display: block;
   margin: 0 auto;
   list-style-image: none;
   list-style-type: none;
 }
-/* line 305, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 305, ../../stylesheets/partials/_approach_situation.sass */
 #slidedeck_mini .controls ul li {
   float: left;
   margin-right: -15px;
@@ -1357,17 +1357,17 @@ ul.verticalSlideNav {
   line-height: 0.2em;
   padding: 2px 0 0 0;
 }
-/* line 312, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 312, ../../stylesheets/partials/_approach_situation.sass */
 #slidedeck_mini .controls ul li a {
   font: italic normal 11px Georgia, serif;
   line-height: 10.5em;
 }
-/* line 315, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 315, ../../stylesheets/partials/_approach_situation.sass */
 #slidedeck_mini .controls ul li a:hover, #slidedeck_mini .controls ul li a:active {
   color: #f37421;
   background-position: 0 0;
 }
-/* line 319, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 319, ../../stylesheets/partials/_approach_situation.sass */
 #slidedeck_mini .controls li.right {
   float: right;
   height: 65px;
@@ -1375,7 +1375,7 @@ ul.verticalSlideNav {
   margin: 0;
   padding: 0;
 }
-/* line 325, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 325, ../../stylesheets/partials/_approach_situation.sass */
 #slidedeck_mini .controls li.right .prev {
   height: 23px;
   width: 22px;
@@ -1387,7 +1387,7 @@ ul.verticalSlideNav {
   margin: 32px 3px 0 -22px;
   background-position: 0 0;
 }
-/* line 336, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 336, ../../stylesheets/partials/_approach_situation.sass */
 #slidedeck_mini .controls li.right .next {
   height: 23px;
   width: 22px;
@@ -1401,7 +1401,7 @@ ul.verticalSlideNav {
   background-position: -22px 0;
 }
 
-/* line 349, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 349, ../../stylesheets/partials/_approach_situation.sass */
 #slidedeck_box {
   display: inline;
   float: left;
@@ -1411,11 +1411,11 @@ ul.verticalSlideNav {
   padding-right: 40px;
   padding-top: 25px;
 }
-/* line 353, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 353, ../../stylesheets/partials/_approach_situation.sass */
 #slidedeck_box #approach_slidedeck {
-  height: 336px;
+  height: 407px;
 }
-/* line 355, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 355, ../../stylesheets/partials/_approach_situation.sass */
 #slidedeck_box #approach_slidedeck dd {
   display: inline;
   float: left;
@@ -1425,7 +1425,7 @@ ul.verticalSlideNav {
   margin-left: 0;
   margin-right: 0;
 }
-/* line 359, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 359, ../../stylesheets/partials/_approach_situation.sass */
 #slidedeck_box #approach_slidedeck dd #middle-content {
   display: inline;
   float: left;
@@ -1438,7 +1438,7 @@ ul.verticalSlideNav {
   height: 435px;
 }
 
-/* line 366, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 366, ../../stylesheets/partials/_approach_situation.sass */
 #content-approach {
   display: inline;
   float: left;
@@ -1449,7 +1449,7 @@ ul.verticalSlideNav {
   padding-right: 40px;
   margin: 40px 0 0 0;
 }
-/* line 371, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 371, ../../stylesheets/partials/_approach_situation.sass */
 #content-approach .ct {
   display: inline;
   float: left;
@@ -1459,7 +1459,7 @@ ul.verticalSlideNav {
   background-color: white;
   padding-bottom: 20px;
 }
-/* line 375, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 375, ../../stylesheets/partials/_approach_situation.sass */
 #content-approach .ct #right-content {
   display: inline;
   float: left;
@@ -1470,23 +1470,23 @@ ul.verticalSlideNav {
   padding: 80px 0 0 0;
   background-color: white;
 }
-/* line 380, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 380, ../../stylesheets/partials/_approach_situation.sass */
 #content-approach .ct #right-content h4 {
   font: normal normal 400 1.25em/4.25em Arial, sans-serif;
   text-align: left;
 }
-/* line 383, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 383, ../../stylesheets/partials/_approach_situation.sass */
 #content-approach .ct #right-content h4 a {
   color: #5d87a1;
   font: normal normal normal 1.2em Arial, sans-serif;
   text-decoration: none;
 }
-/* line 387, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 387, ../../stylesheets/partials/_approach_situation.sass */
 #content-approach .ct #right-content h4 a:hover {
   color: #f37421 !important;
   text-decoration: none !important;
 }
-/* line 390, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 390, ../../stylesheets/partials/_approach_situation.sass */
 #content-approach .ct #left-content {
   display: inline;
   float: left;
@@ -1496,7 +1496,7 @@ ul.verticalSlideNav {
   margin-left: 0;
   background-color: white;
 }
-/* line 394, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 394, ../../stylesheets/partials/_approach_situation.sass */
 #content-approach .ct #left-content #top-block {
   display: inline;
   float: left;
@@ -1508,26 +1508,26 @@ ul.verticalSlideNav {
   margin-right: 0;
   background: #a9b2ba url("../images/main-bkgrnd.png") no-repeat scroll 0 0;
 }
-/* line 400, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 400, ../../stylesheets/partials/_approach_situation.sass */
 #content-approach .ct #left-content #top-block h2 {
   color: #f37421;
   font: normal normal 600 1.3em Arial, sans-serif;
   letter-spacing: 0.11em;
   margin-top: 35px;
 }
-/* line 405, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 405, ../../stylesheets/partials/_approach_situation.sass */
 #content-approach .ct #left-content #top-block h3 {
   font: normal normal normal 1.9em Dante MT sans-serif;
   color: #5d87a1;
   margin: 14px 0;
 }
-/* line 409, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 409, ../../stylesheets/partials/_approach_situation.sass */
 #content-approach .ct #left-content #top-block p {
   font: normal normal normal 1.45em/1.37em Dante MT Std serif;
   color: #5f6a72;
   margin-top: 10px;
 }
-/* line 413, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 413, ../../stylesheets/partials/_approach_situation.sass */
 #content-approach .ct #bottom-content {
   display: inline;
   float: left;
@@ -1536,28 +1536,28 @@ ul.verticalSlideNav {
   width: 790px;
   padding-left: 80px;
 }
-/* line 416, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 416, ../../stylesheets/partials/_approach_situation.sass */
 #content-approach .ct #bottom-content h1 {
   font: normal normal 400 4.25em Arial, sans-serif;
   color: #5d87a1;
   color: #ced5db;
 }
-/* line 421, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 421, ../../stylesheets/partials/_approach_situation.sass */
 #content-approach .ct #bottom-content h1 a {
   color: #5d87a1;
   text-decoration: none;
 }
-/* line 424, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 424, ../../stylesheets/partials/_approach_situation.sass */
 #content-approach .ct #bottom-content h1 a a:hover {
   color: #f37421 !important;
   text-decoration: none !important;
 }
-/* line 427, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 427, ../../stylesheets/partials/_approach_situation.sass */
 #content-approach .ct #bottom-content h1 a a:hover {
   color: #f37421 !important;
   text-decoration: underline !important;
 }
-/* line 430, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 430, ../../stylesheets/partials/_approach_situation.sass */
 #content-approach .ct #bottom-content h1 a .left {
   display: inline;
   float: left;
@@ -1566,7 +1566,7 @@ ul.verticalSlideNav {
   width: 310px;
   padding-right: 40px;
 }
-/* line 433, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 433, ../../stylesheets/partials/_approach_situation.sass */
 #content-approach .ct #bottom-content h1 a .middle {
   display: inline;
   float: left;
@@ -1575,7 +1575,7 @@ ul.verticalSlideNav {
   width: 150px;
   padding-top: 40px;
 }
-/* line 436, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_approach_situation.sass */
+/* line 436, ../../stylesheets/partials/_approach_situation.sass */
 #content-approach .ct #bottom-content h1 a .right {
   display: inline;
   float: left;
