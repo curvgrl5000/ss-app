@@ -1,0 +1,437 @@
+#slidedeck_frame
+  +grid(22)
+  +grid_prefix(1)
+  +grid_suffix(1)
+  padding-top: 50px
+  #teams_slidedeck
+    height: 336px
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2)
+    dd
+      +grid(22)
+      +alpha
+      +omega
+    
+#team_mission
+  height: 336px
+  background-color: #fff
+  #teams_top_container
+    #approach-area
+      +grid(22)
+      +alpha
+      +omega
+      .content_setup
+        height: 335px
+        margin-top: 0px
+        margin-bottom: 30px
+        .heroshot
+          +grid(6)
+          height: 336px
+          background: url('../images/approach-placements.png') 0 0 no-repeat
+          margin: 0px
+          padding: 0px
+          letter-spacing: .02em
+        .greybox
+          width: 800px 
+          background-color: #CED3D9
+          height: 79px
+        h1
+          font: normal normal normal 2.85em Dante MT Std serif
+          color: #455560
+          letter-spacing: .05em
+          span.orange
+            color: $orange
+        h2
+          font: normal 1.7em Neue Helvetica Arial, sans-serif
+          color: $orange
+          letter-spacing: .05em
+          line-height: .7em
+        .spotlight
+          +grid (13)
+          margin: 32px 0 80px 30px
+          h2
+            margin-top: 30px
+          p
+            font: normal normal normal 1.4em/2.5em Georgia
+            color: $crisp-grey  
+            margin-top: 15px
+            span.orange
+              font: normal normal bold 1em Arial, Helvetica, sans-serif
+              color: $orange
+        p.insight
+          font: italic normal normal 1.1em/2.25em Georgia, Times serif
+          letter-spacing: .06em
+          color: $crisp-grey
+                
+        .left-grid
+          +grid(20)
+          +alpha
+          +omega
+          margin-right: 10px  
+        .right-grid
+          +grid(2)
+          +alpha
+          +omega
+          background: #CED3D9 url('../images/small_icon.png') 0 0 no-repeat
+          height: 100%
+          
+#team_vantage
+  background-color: #fff
+  height: 336px
+  #teams_top_container
+    #approach-area
+      +grid(22)
+      +alpha
+      +omega
+      .content_setup
+        height: 335px
+        margin-top: 0px
+        margin-bottom: 30px
+        .greybox
+          +grid(13)
+          background-color: #CED3D9
+          +alpha
+          height: 79px
+        h1
+          font: normal normal normal 3.125em Dante MT Std serif
+          color: #455560
+          letter-spacing: .05em
+          span.orange
+            color: $orange
+        h2
+          font: normal 1.7em Neue Helvetica Arial, sans-serif
+          color: $orange
+          letter-spacing: .05em
+          line-height: .7em
+        .spotlight
+          margin-top: 32px
+          margin-bottom: 80px
+          h2
+            margin-top: 30px
+          p
+            font: normal normal normal 1.4em/2.5em Georgia
+            color: $crisp-grey  
+            margin-top: 15px
+            span.orange
+              font: normal normal bold 1em Arial, Helvetica, sans-serif
+              color: $orange
+        p.insight
+          font: italic normal normal 1.1em/2.25em Georgia, Times sans-serif
+          letter-spacing: .06em
+          color: $crisp-grey
+        .heroshot
+          height: 117px
+          background: #314B60 url('../images/approach_heroshot.png') 20px 0 no-repeat
+          h1
+            font: normal normal normal 3.125em Dante MT Std serif
+            color: #fff
+            letter-spacing: .05em
+          margin: 0px
+          padding: 110px 270px 0 20px
+          letter-spacing: .02em         
+        .left-grid
+          +grid(2)
+          +alpha
+          +omega
+          background: #CED3D9 url('../images/small_icon.png') 0 0 no-repeat
+          height: 100%
+        .right-grid
+          +grid(13)
+          +alpha
+          +omega  
+          .lefthalf
+            +grid(12)
+            +alpha
+            margin-left: 30px
+        .righthalf
+          +grid(7)
+          +omega
+          +alpha
+
+#slidedeck_nav
+  +grid(22)
+  +grid_prefix(1)
+  +grid_suffix(1)
+  .divider
+    +grid(22)
+    +alpha
+    +omega
+    height: 40px
+    background: #fff url("../images/slidedeck-home-images/divider-graphic-a.png") no-repeat 0 0
+  .ct
+    +grid(22)
+    margin: 0
+    height: 128px
+    background-color: #fff
+    .mission
+      +grid(10)
+      +alpha
+      h2
+        font: normal 17px "Neue Helvetica", Arial, sans-serif
+        letter-spacing: .05em
+        color: $orange
+        padding-top: 30px
+        padding-left: 40px
+      p.tagline
+        font: italic 11px Georgia, Times sans-serif
+        letter-spacing: .03em
+        color: $crisp-grey
+        padding-left: 40px
+    .controls
+      +grid(12)
+      +omega
+      ul
+        display: block
+        margin: 0 auto
+        list-style-image: none
+        list-style-type: none
+        li
+          float: left
+          margin-right: -15px
+          color: #6a7870
+          text-align: center
+          line-height: .2em
+          padding: 2px 0 0 0
+          a
+            font: italic normal 11px Georgia, serif
+            line-height: 10.5em
+            &:hover, &:active
+              color: $orange
+              background-position: 0 0
+            
+        li.right
+          float: right
+          height: 88px
+          width: 107px
+          margin: 0
+          padding: 0
+          background: url("../images/slidedeck-home-images/dotted-bkgrnd-nav.png") no-repeat 0 0
+          .prev
+            height: 23px
+            width: 22px
+            padding: 0
+            background: url("../images/slidedeck-home-images/vertical-prev-next-colors.png") no-repeat 0 -22px
+            background-color: transparent
+            background-size: 45px auto
+            position: absolute
+            margin: 32px 3px 0 -22px
+            &:hover
+              background-position: 0 0
+          .next
+            height: 23px
+            width: 22px
+            padding: 0px
+            background: url("../images/slidedeck-home-images/vertical-prev-next-colors.png") no-repeat -22px -22px
+            background-color: transparent
+            background-size: 45px auto
+            position: absolute
+            margin: 32px 0px 0 5px
+            float: left
+            &:hover
+            background-position: -22px 0  
+
+a.nav-bottom-target
+  display: block
+  width: 120px
+  height: 50px
+  background: white url("../images/slidedeck-home-images/nav-vantage-target.png") bottom
+  text-decoration: none
+  color: #6A7870
+
+a.nav-bottom-matching
+  display: block
+  width: 114px
+  height: 50px
+  background: white url("../images/slidedeck-home-images/nav-vantage_matching.png") bottom
+  text-decoration: none
+  color: #6A7870
+  line-height: 11.1em
+  &:hover
+    background-position: 0 0
+
+ul.verticalSlideNav
+  display: none
+
+#content-approach ol, ul
+  list-style-image: none
+  list-style-position: outside
+  list-style-type: none
+
+#content-approach
+  a img
+    border-bottom-color: -moz-use-text-color
+    border-bottom-style: none
+    border-bottom-width: medium
+    border-top-color: -moz-use-text-color
+    border-top-style: none
+    border-top-width: medium
+
+#slidedeck_mini
+  +grid(19)
+  +omega
+  +alpha
+  prefix
+  border-radius: 8px
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2)
+  margin-left: 40px
+  padding: 20px 10px 10px 20px
+  .small-trustmark
+    background: white url("../images/approach-trustmark-1.png") no-repeat 0 0
+    height: 57px
+    width: 62px
+    float: left
+    padding-right: 20px 
+  .mission
+    +grid(15)
+    +alpha
+    margin-right: 80px
+    h2
+      font: normal 17px "Neue Helvetica", Arial, sans-serif
+      letter-spacing: .05em
+      color: $orange
+      padding-top: 5px
+    p.tagline
+      font: italic 11px Georgia, Times sans-serif
+      letter-spacing: .03em
+      color: $crisp-grey
+      padding: 0 10 0 40px
+  .controls
+    +grid(2)
+    +omega
+    ul
+      display: block
+      margin: 0 auto
+      list-style-image: none
+      list-style-type: none
+      li
+        float: left
+        margin-right: -15px
+        color: #6a7870
+        text-align: center
+        line-height: .2em
+        padding: 2px 0 0 0
+        a
+          font: italic normal 11px Georgia, serif
+          line-height: 10.5em
+          &:hover, &:active
+            color: $orange
+            background-position: 0 0
+
+    li.right
+      float: right
+      height: 65px
+      width: 100px
+      margin: 0
+      padding: 0
+      .prev
+        height: 23px
+        width: 22px
+        padding: 0
+        background: url("../images/slidedeck-home-images/vertical-prev-next-colors.png") no-repeat 0 -22px
+        background-color: transparent
+        background-size: 45px auto
+        position: absolute
+        margin: 32px 3px 0 -22px
+        &:hover
+        background-position: 0 0
+      .next
+        height: 23px
+        width: 22px
+        padding: 0px
+        background: url("../images/slidedeck-home-images/vertical-prev-next-colors.png") no-repeat -22px -22px
+        background-color: transparent
+        background-size: 45px auto
+        position: absolute
+        margin: 32px 0px 0 5px
+        float: left
+        &:hover
+        background-position: -22px 0 
+
+#slidedeck_box
+  +grid(20)
+  +grid_suffix(1)
+  padding-top: 25px
+  #approach_slidedeck
+    height: 336px
+    dd
+      +grid(20)
+      +alpha
+      +omega
+      #middle-content
+        +grid(20)
+        display: inline
+        margin: 0px
+        padding: 0px
+        height: 435px
+              
+#content-approach
+  +grid(22)
+  +grid_prefix(1)
+  +grid_suffix(1)
+  margin: 40px 0 0 0
+  .ct
+    +grid(22)
+    background-color: #fff
+    padding-bottom: 20px
+    #right-content
+      +grid(4)
+      +omega
+      padding: 80px 0 0 0
+      background-color: #fff
+      h4
+        font: normal normal 400 1.25em/4.25em Arial,sans-serif
+        text-align: left
+        a
+          color: $logo-blue
+          font: normal normal normal 1.2em Arial,sans-serif
+          text-decoration: none
+        a:hover
+          color: $orange !important
+          text-decoration: none !important
+    #left-content
+      +grid(22)
+      +alpha
+      background-color: #fff
+      #top-block
+        +grid(17)
+        +grid_prefix(1)
+        +alpha
+        +omega
+        background: $grey url("../images/main-bkgrnd.png") no-repeat scroll 0 0
+        h2
+          color: $orange
+          font: normal normal 600 1.3em Arial, sans-serif
+          letter-spacing: .11em
+          margin-top: 35px
+        h3
+          font: normal normal normal 1.9em Dante MT sans-serif
+          color: $logo-blue
+          margin: 14px 0 
+        p
+          font: normal normal normal 1.45em/1.37em Dante MT Std serif
+          color: $crisp-grey
+          margin-top: 10px
+    #bottom-content
+      +grid(20)
+      +grid_prefix(2) 
+      h1
+        font: normal normal 400 4.25em Arial,sans-serif
+        color: #5D87A1
+        span.plus
+        color: #CED5DB 
+        a
+          color: #5D87A1 
+          text-decoration: none
+          a:hover
+            color: $orange !important
+            text-decoration: none !important
+          a:hover
+            color: $orange !important
+            text-decoration: underline !important 
+          .left
+            +grid(8)
+            +grid_suffix(1)
+          .middle    
+            +grid(4)
+            padding-top: 40px
+          .right
+            +grid(3)
