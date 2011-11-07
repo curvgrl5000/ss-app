@@ -1407,7 +1407,7 @@ ul.verticalSlideNav {
   margin-left: 0;
   margin-right: 0;
   display: inline;
-  background: white url("../images/success_analysis.png") no-repeat scroll 0 0;
+  background: white url("../images/approach-dot-background.png") no-repeat scroll 0 0;
   margin: 30px 0 15px 40px;
   padding-top: 425px;
   height: 65px;
@@ -1422,11 +1422,21 @@ ul.verticalSlideNav {
   color: #ced5db;
 }
 /* line 343, ../../stylesheets/partials/_approach_method.sass */
+#content-approach .ct #left-content #middle-content h1 a {
+  color: #5d87a1;
+  text-decoration: none;
+}
+/* line 346, ../../stylesheets/partials/_approach_method.sass */
+#content-approach .ct #left-content #middle-content h1 a:hover {
+  color: #f37421 !important;
+  text-decoration: none !important;
+}
+/* line 349, ../../stylesheets/partials/_approach_method.sass */
 #content-approach .ct #left-content #middle-content h1 a:hover {
   color: #f37421 !important;
   text-decoration: underline !important;
 }
-/* line 346, ../../stylesheets/partials/_approach_method.sass */
+/* line 352, ../../stylesheets/partials/_approach_method.sass */
 #content-approach .ct #left-content #middle-content h1 .left {
   display: inline;
   float: left;
@@ -1435,7 +1445,7 @@ ul.verticalSlideNav {
   width: 310px;
   padding-right: 40px;
 }
-/* line 349, ../../stylesheets/partials/_approach_method.sass */
+/* line 355, ../../stylesheets/partials/_approach_method.sass */
 #content-approach .ct #left-content #middle-content h1 .middle {
   display: inline;
   float: left;
@@ -1444,7 +1454,7 @@ ul.verticalSlideNav {
   width: 150px;
   padding-top: 40px;
 }
-/* line 352, ../../stylesheets/partials/_approach_method.sass */
+/* line 358, ../../stylesheets/partials/_approach_method.sass */
 #content-approach .ct #left-content #middle-content h1 .right {
   display: inline;
   float: left;
