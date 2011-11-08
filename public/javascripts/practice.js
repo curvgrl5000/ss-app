@@ -2444,10 +2444,10 @@ $(function(){
     var ref = $(this).attr("ref"); 
     _.each(keys, function(k){
       if(k.name == ref) {
-        console.log("category ", ref, k.value);
         $.renderClientLogos(ref, k.value, "alpha", page);
       }
     });
+    $(".lightitupbud").fancybox(); 
   });
   
   if($("#tabs")[0]) {
