@@ -270,7 +270,7 @@ $(function(){
   
   $.fn.superfish.defaults.autoArrows = false;
   $('ul.sf-menu').superfish({
-    pathClass: 'active'
+    delay: 200
   });
   
   $('#main-nav li a').click(function(e){
