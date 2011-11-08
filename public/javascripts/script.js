@@ -269,8 +269,8 @@ $(function(){
   });
   
   $.fn.superfish.defaults.autoArrows = false;
-  $('#main-nav').superfish({
-    pathClass: 'current'
+  $('ul.sf-menu').superfish({
+    pathClass: 'active'
   });
   
   $('#main-nav li a').click(function(e){
