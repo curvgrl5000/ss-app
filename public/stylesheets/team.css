@@ -69,7 +69,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* $ninesixty-class-separator: "_" !default */
 @font-face {
   font-family: "Neue Helvetica";
-  src: url('../fonts/HelveticaNeueLTW1G-Md.otf') format('opentype');
+  src: url('/public/fonts/HelveticaNeueLTW1G-Md.otf') format('opentype');
 }
 
 @font-face {
