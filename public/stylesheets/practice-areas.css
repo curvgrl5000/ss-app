@@ -524,22 +524,14 @@ ul.sf-navbar .current ul ul {
 /* point right for anchors in subs */
 /* apply hovers to modern browsers */
 /** remove shadow on first submenu ** */
-<<<<<<< HEAD
-/* line 1, ../../stylesheets/partials/_style.sass */
-=======
 /* line 1, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
 #wrapper {
   margin: 0 auto;
   padding: 0;
   width: 960px;
 }
 
-<<<<<<< HEAD
-/* line 6, ../../stylesheets/partials/_style.sass */
-=======
 /* line 6, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
 #footer {
   float: left;
   background: #36434d url("../images/footer.png") repeat-x scroll 0 0;
@@ -550,11 +542,7 @@ ul.sf-navbar .current ul ul {
   position: relative;
 }
 
-<<<<<<< HEAD
-/* line 15, ../../stylesheets/partials/_style.sass */
-=======
 /* line 15, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
 #foot {
   background: #a9b2ba url("../images/foot-bkgrng.png") no-repeat scroll 0 16px;
   width: 960px;
@@ -565,11 +553,7 @@ ul.sf-navbar .current ul ul {
   margin-bottom: 0;
   padding: 0;
 }
-<<<<<<< HEAD
-/* line 24, ../../stylesheets/partials/_style.sass */
-=======
 /* line 24, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
 #foot #left {
   float: left;
   padding: 0;
@@ -578,11 +562,7 @@ ul.sf-navbar .current ul ul {
   margin: 0;
   padding: 0;
 }
-<<<<<<< HEAD
-/* line 31, ../../stylesheets/partials/_style.sass */
-=======
 /* line 31, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
 #foot #right {
   float: right;
   padding: 37px 0 0 27px;
@@ -592,11 +572,7 @@ ul.sf-navbar .current ul ul {
   background-color: white;
   background: white url("../images/foot-right-bkgrnd.png") no-repeat scroll -9px 0;
 }
-<<<<<<< HEAD
-/* line 39, ../../stylesheets/partials/_style.sass */
-=======
 /* line 39, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
 #foot #logo {
   float: right;
   padding: 0 20px 0 0;
@@ -606,11 +582,7 @@ ul.sf-navbar .current ul ul {
   background: white url("../images/footer-logo.png") no-repeat scroll 0 0;
 }
 
-<<<<<<< HEAD
-/* line 47, ../../stylesheets/partials/_style.sass */
-=======
 /* line 47, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
 #footer h4 {
   font-family: pragmatica-web, sans-serif;
   font-style: normal;
@@ -622,11 +594,7 @@ ul.sf-navbar .current ul ul {
   line-height: 1.3;
   letter-spacing: 0.02em;
 }
-<<<<<<< HEAD
-/* line 57, ../../stylesheets/partials/_style.sass */
-=======
 /* line 57, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
 #footer h4 a {
   color: #f37421;
   text-decoration: none;
@@ -636,21 +604,13 @@ ul.sf-navbar .current ul ul {
   font-family: pragmatica-web, sans-serif;
   font-style: normal;
 }
-<<<<<<< HEAD
-/* line 65, ../../stylesheets/partials/_style.sass */
-=======
 /* line 65, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
 #footer h4 a:hover {
   color: #2f404c;
   text-decoration: none;
 }
 
-<<<<<<< HEAD
-/* line 68, ../../stylesheets/partials/_style.sass */
-=======
 /* line 68, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
 .clear {
   clear: both;
   display: block;
@@ -662,21 +622,13 @@ ul.sf-navbar .current ul ul {
 
 /* Navigation
  *---------------------------------------------------------------------------------------------------- */
-<<<<<<< HEAD
-/* line 79, ../../stylesheets/partials/_style.sass */
-=======
 /* line 79, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
 #navigation {
   height: 45px;
   background-color: #f37421;
 }
 
-<<<<<<< HEAD
-/* line 85, ../../stylesheets/partials/_style.sass */
-=======
 /* line 85, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
 .nav-top {
   line-height: 1;
   list-style: none outside none;
@@ -685,20 +637,12 @@ ul.sf-navbar .current ul ul {
   z-index: 99;
   float: left;
 }
-<<<<<<< HEAD
-/* line 92, ../../stylesheets/partials/_style.sass */
-=======
 /* line 92, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
 .nav-top li {
   float: left;
   width: auto;
 }
-<<<<<<< HEAD
-/* line 95, ../../stylesheets/partials/_style.sass */
-=======
 /* line 95, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
 .nav-top li a {
   color: #2f404c !important;
   display: block;
@@ -711,21 +655,13 @@ ul.sf-navbar .current ul ul {
   font: normal 12px Dante MT Std serif;
   letter-spacing: 0.08em;
 }
-<<<<<<< HEAD
-/* line 106, ../../stylesheets/partials/_style.sass */
-=======
 /* line 106, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
 .nav-top a:hover {
   color: white !important;
   text-decoration: none !important;
 }
 
-<<<<<<< HEAD
-/* line 110, ../../stylesheets/partials/_style.sass */
-=======
 /* line 110, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
 #navigation-footer {
   margin: 0px;
   padding: 10px 0 0 50px;
@@ -734,11 +670,7 @@ ul.sf-navbar .current ul ul {
   width: 500px;
 }
 
-<<<<<<< HEAD
-/* line 119, ../../stylesheets/partials/_style.sass */
-=======
 /* line 119, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
 .nav-bottom {
   line-height: 1;
   list-style: none outside none;
@@ -747,20 +679,12 @@ ul.sf-navbar .current ul ul {
   z-index: 99;
   float: left;
 }
-<<<<<<< HEAD
-/* line 126, ../../stylesheets/partials/_style.sass */
-=======
 /* line 126, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
 .nav-bottom li {
   float: left;
   width: auto;
 }
-<<<<<<< HEAD
-/* line 129, ../../stylesheets/partials/_style.sass */
-=======
 /* line 129, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
 .nav-bottom li a {
   color: #a9b2ba !important;
   display: block;
@@ -773,11 +697,7 @@ ul.sf-navbar .current ul ul {
   font: normal 12px Dante MT Std serif;
   letter-spacing: 0.08em;
 }
-<<<<<<< HEAD
-/* line 140, ../../stylesheets/partials/_style.sass */
-=======
 /* line 140, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
 .nav-bottom a:hover {
   color: #f37421 !important;
   text-decoration: none !important;
@@ -786,11 +706,7 @@ ul.sf-navbar .current ul ul {
 /* I'm leaving this up to your discretion */
 /*     Content
  * ---------------------------------------------------------------------------------------------------- */
-<<<<<<< HEAD
-/* line 151, ../../stylesheets/partials/_style.sass */
-=======
 /* line 151, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
 #logo {
   margin: 0;
   padding: 0;
@@ -801,11 +717,7 @@ ul.sf-navbar .current ul ul {
 
 /*     Search
  * ---------------------------------------------------------------------------------------------------- */
-<<<<<<< HEAD
-/* line 163, ../../stylesheets/partials/_style.sass */
-=======
 /* line 163, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
 .search {
   float: right;
   margin: 40px 44px 0 0;
@@ -817,22 +729,14 @@ ul.sf-navbar .current ul ul {
   display: block;
 }
 
-<<<<<<< HEAD
-/* line 173, ../../stylesheets/partials/_style.sass */
-=======
 /* line 173, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
 #search_form {
   float: left;
   margin: 0;
   padding: 0px;
   height: 23px;
 }
-<<<<<<< HEAD
-/* line 178, ../../stylesheets/partials/_style.sass */
-=======
 /* line 178, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
 #search_form #q {
   width: 182px;
   height: 17px;
@@ -846,19 +750,11 @@ ul.sf-navbar .current ul ul {
   float: left;
   background: none;
 }
-<<<<<<< HEAD
-/* line 190, ../../stylesheets/partials/_style.sass */
-#search_form #q:hover {
-  background-color: #dddddd;
-}
-/* line 192, ../../stylesheets/partials/_style.sass */
-=======
 /* line 190, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 #search_form #q:hover {
   background-color: #dddddd;
 }
 /* line 192, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
 #search_form input {
   background: white url("../images/magnifying_glass.png") no-repeat 0 0;
   height: 24px;
@@ -870,20 +766,12 @@ ul.sf-navbar .current ul ul {
   margin: 0 0 0 6px;
   border: none;
 }
-<<<<<<< HEAD
-/* line 202, ../../stylesheets/partials/_style.sass */
-=======
 /* line 202, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
 #search_form input:hover {
   background-position: -25px 0;
 }
 
-<<<<<<< HEAD
-/* line 205, ../../stylesheets/partials/_style.sass */
-=======
 /* line 205, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
 #globalsearch {
   margin: 0;
   padding: 0;
@@ -892,11 +780,7 @@ ul.sf-navbar .current ul ul {
   height: 90px;
 }
 
-<<<<<<< HEAD
-/* line 212, ../../stylesheets/partials/_style.sass */
-=======
 /* line 212, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
 #g-search {
   display: block;
   background: white url("../images/search-placeholder.png") no-repeat scroll 0 40px;
@@ -908,260 +792,156 @@ ul.sf-navbar .current ul ul {
 }
 
 /* Contact us page */
-<<<<<<< HEAD
-/* line 223, ../../stylesheets/partials/_style.sass */
-=======
 /* line 223, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
 #content-contact-us {
   /*margin:30px 37px 0 36px; */
   margin-top: 40px;
 }
-<<<<<<< HEAD
-/* line 226, ../../stylesheets/partials/_style.sass */
-=======
 /* line 226, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
 #content-contact-us .ct {
   background: transparent url("../images/contact-us-bkgrnd_870px.png") no-repeat scroll 0 -25px;
   margin: 0;
   padding: 0;
   height: 314px;
 }
-<<<<<<< HEAD
-/* line 231, ../../stylesheets/partials/_style.sass */
-#content-contact-us .address-info {
-  padding-top: 37px;
-}
-/* line 233, ../../stylesheets/partials/_style.sass */
-=======
 /* line 231, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 #content-contact-us .address-info {
   padding-top: 37px;
 }
 /* line 233, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
 #content-contact-us .address-info #category {
   font: normal normal 600 1.3em Arial, sans-serif;
   letter-spacing: 0.11em;
   color: #f37421;
 }
-<<<<<<< HEAD
-/* line 237, ../../stylesheets/partials/_style.sass */
-=======
 /* line 237, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
 #content-contact-us .address-info h1 {
   padding-top: 10px;
   font: normal 1.45em Dante MT sans-serif;
   color: #5f6a72;
   line-height: 1.37em;
 }
-<<<<<<< HEAD
-/* line 242, ../../stylesheets/partials/_style.sass */
-=======
 /* line 242, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
 #content-contact-us .address-info h2 {
   font: bold 1.1em Arial, sans-serif;
   color: #5f6a72;
   line-height: 2.16em;
 }
-<<<<<<< HEAD
-/* line 246, ../../stylesheets/partials/_style.sass */
-=======
 /* line 246, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
 #content-contact-us .info h2 {
   line-height: 34px;
   color: #5f6a72;
   font-weight: 600;
 }
-<<<<<<< HEAD
-/* line 250, ../../stylesheets/partials/_style.sass */
-=======
-/* line 248, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 250, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 #content-contact-us .address-info h2 a, #content-contact-us .info h2 a {
   font: bold 1.1em Arial, sans-serif;
   color: #5f6a72;
   line-height: 2.05em;
   text-decoration: none;
 }
-<<<<<<< HEAD
-/* line 255, ../../stylesheets/partials/_style.sass */
-=======
-/* line 253, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 255, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 #content-contact-us .address-info h2 a:hover {
   font: bold 1.1em Arial, sans-serif;
   color: #f37421;
   line-height: 2.05em;
 }
-<<<<<<< HEAD
-/* line 259, ../../stylesheets/partials/_style.sass */
-=======
-/* line 257, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 259, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 #content-contact-us .info {
   padding-top: 30px;
   padding-left: 10px;
 }
-<<<<<<< HEAD
-/* line 260, ../../stylesheets/partials/_style.sass */
-=======
-/* line 258, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 260, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 #content-contact-us .info h2 a:hover {
   font: bold 1.1em Arial, sans-serif;
   color: #f37421;
   line-height: 2.05em;
 }
-<<<<<<< HEAD
-/* line 266, ../../stylesheets/partials/_style.sass */
-=======
-/* line 264, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 266, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 #content-contact-us .info .icons {
   float: right;
   /*margin:0px;
    *padding: 3px 0 0 0;
    *width:55px; */
 }
-<<<<<<< HEAD
-/* line 271, ../../stylesheets/partials/_style.sass */
-=======
-/* line 269, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 271, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 #content-contact-us .info #mail {
   width: 41px;
   height: 34px;
   background: transparent url("../images/contact_icons.png") no-repeat scroll -6px 0;
 }
-<<<<<<< HEAD
-/* line 275, ../../stylesheets/partials/_style.sass */
-=======
-/* line 273, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 275, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 #content-contact-us .info #mail:hover {
   width: 41px;
   height: 34px;
   background: transparent url("../images/contact_icons-2.png") no-repeat scroll -6px 0;
 }
-<<<<<<< HEAD
-/* line 279, ../../stylesheets/partials/_style.sass */
-=======
-/* line 277, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 279, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 #content-contact-us .info #direct {
   width: 41px;
   height: 34px;
   background: transparent url("../images/contact_icons.png") no-repeat scroll -6px -33px;
 }
-<<<<<<< HEAD
-/* line 283, ../../stylesheets/partials/_style.sass */
-=======
-/* line 281, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 283, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 #content-contact-us .info #direct:hover {
   width: 41px;
   height: 34px;
   background: transparent url("../images/contact_icons-2.png") no-repeat scroll -6px -33px;
 }
-<<<<<<< HEAD
-/* line 287, ../../stylesheets/partials/_style.sass */
-=======
-/* line 285, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 287, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 #content-contact-us .info #fax {
   width: 41px;
   height: 34px;
   background: transparent url("../images/contact_icons.png") no-repeat scroll -6px -66px;
 }
-<<<<<<< HEAD
-/* line 291, ../../stylesheets/partials/_style.sass */
-=======
-/* line 289, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 291, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 #content-contact-us .info #fax:hover {
   width: 41px;
   height: 34px;
   background: transparent url("../images/contact_icons-2.png") no-repeat scroll -6px -66px;
 }
-<<<<<<< HEAD
-/* line 295, ../../stylesheets/partials/_style.sass */
-=======
-/* line 293, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 295, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 #content-contact-us .info #tweet {
   width: 39px;
   height: 34px;
   background: transparent url("../images/socialmedia_icons.png") no-repeat scroll 6px 0;
 }
-<<<<<<< HEAD
-/* line 299, ../../stylesheets/partials/_style.sass */
-=======
-/* line 297, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 299, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 #content-contact-us .info #tweet:hover {
   width: 39px;
   height: 34px;
   background: transparent url("../images/socialmedia_icons-2.png") no-repeat scroll 6px 0;
 }
-<<<<<<< HEAD
-/* line 303, ../../stylesheets/partials/_style.sass */
-=======
-/* line 301, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 303, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 #content-contact-us #facebook {
   width: 39px;
   height: 34px;
   background: transparent url("../images/socialmedia_icons.png") no-repeat scroll 6px -33px;
 }
-<<<<<<< HEAD
-/* line 308, ../../stylesheets/partials/_style.sass */
-=======
-/* line 306, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 308, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 #content-contact-us .info #facebook:hover {
   width: 39px;
   height: 34px;
   background: transparent url("../images/socialmedia_icons-2.png") no-repeat scroll 6px -33px;
 }
-<<<<<<< HEAD
-/* line 312, ../../stylesheets/partials/_style.sass */
-=======
-/* line 310, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 312, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 #content-contact-us .info #linkedin {
   width: 39px;
   height: 34px;
   background: transparent url("../images/socialmedia_icons.png") no-repeat scroll 6px -65px;
 }
-<<<<<<< HEAD
-/* line 316, ../../stylesheets/partials/_style.sass */
-=======
-/* line 314, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 316, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 #content-contact-us .info #linkedin:hover {
   width: 39px;
   height: 34px;
   background: transparent url("../images/socialmedia_icons-2.png") no-repeat scroll 6px -65px;
 }
-<<<<<<< HEAD
-/* line 320, ../../stylesheets/partials/_style.sass */
-=======
-/* line 318, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 320, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 #content-contact-us #bottom-content {
   padding-top: 30px;
   margin-bottom: 350px;
 }
-<<<<<<< HEAD
-/* line 323, ../../stylesheets/partials/_style.sass */
-=======
-/* line 321, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 323, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 #content-contact-us #bottom-content p {
   background-color: #c1cacf;
   font: normal 1.5em Dante MT sans-serif;
@@ -1170,48 +950,28 @@ ul.sf-navbar .current ul ul {
   padding: 20px;
 }
 
-<<<<<<< HEAD
-/* line 330, ../../stylesheets/partials/_style.sass */
-=======
-/* line 328, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 330, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 #contact_top_container {
   margin-top: 25px;
   padding-top: 25px;
 }
-<<<<<<< HEAD
-/* line 333, ../../stylesheets/partials/_style.sass */
-=======
-/* line 331, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 333, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 #contact_top_container .ct {
   height: 331px;
   background-color: white;
   box-shadow: 0 0 7px 5px rgba(0, 0, 0, 0.3);
 }
-<<<<<<< HEAD
-/* line 337, ../../stylesheets/partials/_style.sass */
-=======
-/* line 335, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 337, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 #contact_top_container .contact_content {
   margin: 0;
   padding: 50px 16px 15px 30px;
 }
-<<<<<<< HEAD
-/* line 340, ../../stylesheets/partials/_style.sass */
-=======
-/* line 338, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 340, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 #contact_top_container .company_mission {
   margin: 0;
   padding: 0 16px 30px 30px;
 }
-<<<<<<< HEAD
-/* line 343, ../../stylesheets/partials/_style.sass */
-=======
-/* line 341, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 343, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 #contact_top_container .contact_content h1 {
   margin: 0;
   padding: 0 0 15px 0;
@@ -1221,20 +981,12 @@ ul.sf-navbar .current ul ul {
   line-height: 1.125;
 }
 
-<<<<<<< HEAD
-/* line 351, ../../stylesheets/partials/_style.sass */
-=======
-/* line 349, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 351, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 span.highlight_orange {
   color: #f37421;
 }
 
-<<<<<<< HEAD
-/* line 355, ../../stylesheets/partials/_style.sass */
-=======
-/* line 353, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 355, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 #contact_top_container .contact_content p {
   margin: 0;
   padding: 0 0 15px 0;
@@ -1242,11 +994,7 @@ span.highlight_orange {
   color: #5f6a72;
   line-height: 1.65em;
 }
-<<<<<<< HEAD
-/* line 361, ../../stylesheets/partials/_style.sass */
-=======
-/* line 359, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 361, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 #contact_top_container #small-icon {
   width: 70px;
   height: 79px;
@@ -1254,11 +1002,7 @@ span.highlight_orange {
   margin: 0;
   background-image: url("../images/small_icon.png");
 }
-<<<<<<< HEAD
-/* line 367, ../../stylesheets/partials/_style.sass */
-=======
-/* line 365, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 367, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 #contact_top_container #side_container {
   margin: 0;
   padding: 0;
@@ -1266,31 +1010,19 @@ span.highlight_orange {
   float: left;
   height: 331px;
 }
-<<<<<<< HEAD
-/* line 373, ../../stylesheets/partials/_style.sass */
-=======
-/* line 371, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 373, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 #contact_top_container .divider {
   height: 40px;
   background: white url("../images/slidedeck-home-images/divider-graphic-a.png") no-repeat 0 0;
 }
-<<<<<<< HEAD
-/* line 377, ../../stylesheets/partials/_style.sass */
-=======
-/* line 375, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 377, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 #contact_top_container .company_mission h1 {
   font: normal 1.7em Neue Helvetica Arial, sans-serif;
   letter-spacing: 0.05em;
   line-height: 0.7em;
   color: #f37421;
 }
-<<<<<<< HEAD
-/* line 382, ../../stylesheets/partials/_style.sass */
-=======
-/* line 380, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 382, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 #contact_top_container .company_mission h2 {
   font: italic 1.1em Georgia, Times sans-serif;
   line-height: 2.25em;
@@ -1298,11 +1030,7 @@ span.highlight_orange {
   color: #5f6a72;
 }
 
-<<<<<<< HEAD
-/* line 388, ../../stylesheets/partials/_style.sass */
-=======
-/* line 386, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 388, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 #bigshot {
   margin-left: auto;
   margin-right: auto;
@@ -1313,79 +1041,47 @@ span.highlight_orange {
 }
 
 /****************** TEAM VANTAGE ****************** */
-<<<<<<< HEAD
-/* line 398, ../../stylesheets/partials/_style.sass */
-#team_vantage {
-  height: 357px;
-}
-/* line 400, ../../stylesheets/partials/_style.sass */
-=======
-/* line 396, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
-#team_vantage {
-  height: 357px;
-}
 /* line 398, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+#team_vantage {
+  height: 357px;
+}
+/* line 400, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 #team_vantage dd {
   background-color: white;
 }
 
-<<<<<<< HEAD
-/* line 403, ../../stylesheets/partials/_style.sass */
-=======
-/* line 401, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 403, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 .mini-shot {
   padding: 10px 0 0 0;
   height: 110px;
 }
 
-<<<<<<< HEAD
-/* line 407, ../../stylesheets/partials/_style.sass */
-=======
-/* line 405, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 407, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 .color_block {
   margin-top: 10px;
   height: 230px;
   background-color: #f37421;
 }
 
-<<<<<<< HEAD
-/* line 412, ../../stylesheets/partials/_style.sass */
-=======
-/* line 410, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 412, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 .mini-shot-light {
   opacity: 0.5;
   background-color: #f37321;
   opacity: 0.5;
 }
 
-<<<<<<< HEAD
-/* line 417, ../../stylesheets/partials/_style.sass */
-=======
-/* line 415, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 417, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 .vantage_bio {
   text-align: right;
   padding-top: 10px;
   padding-right: 5px;
 }
-<<<<<<< HEAD
-/* line 421, ../../stylesheets/partials/_style.sass */
-=======
-/* line 419, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 421, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 .vantage_bio h1 {
   font: 100 2.25em Dante MT Std serif;
   color: #f37421;
 }
-<<<<<<< HEAD
-/* line 424, ../../stylesheets/partials/_style.sass */
-=======
-/* line 422, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 424, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 .vantage_bio p {
   font: 100 1.2em Dante MT Std serif;
   color: black;
@@ -1394,11 +1090,7 @@ span.highlight_orange {
   line-height: 1em;
 }
 
-<<<<<<< HEAD
-/* line 431, ../../stylesheets/partials/_style.sass */
-=======
-/* line 429, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 431, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 h1.meet {
   text-align: right;
   padding-top: 25px;
@@ -1407,11 +1099,7 @@ h1.meet {
   color: #f37421;
 }
 
-<<<<<<< HEAD
-/* line 438, ../../stylesheets/partials/_style.sass */
-=======
-/* line 436, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 438, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 h2.master {
   text-align: left;
   padding-top: 42px;
@@ -1419,57 +1107,33 @@ h2.master {
   color: black;
 }
 
-<<<<<<< HEAD
-/* line 444, ../../stylesheets/partials/_style.sass */
-#content_home {
-  margin: 40px 0 20px 0;
-}
-/* line 446, ../../stylesheets/partials/_style.sass */
-=======
-/* line 442, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
-#content_home {
-  margin: 40px 0 20px 0;
-}
 /* line 444, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+#content_home {
+  margin: 40px 0 20px 0;
+}
+/* line 446, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 #content_home .ct {
   background: #a9b2ba url("../images/main-bkgrnd.png") 0 0 no-repeat;
   height: 700px;
 }
-<<<<<<< HEAD
-/* line 449, ../../stylesheets/partials/_style.sass */
-=======
-/* line 447, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 449, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 #content_home .ct h2 {
   font: normal normal 600 1.3em Arial, sans-serif;
   letter-spacing: 0.11em;
   color: #f37421;
 }
-<<<<<<< HEAD
-/* line 453, ../../stylesheets/partials/_style.sass */
-=======
-/* line 451, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 453, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 #content_home .ct h3 {
   font: normal normal normal 1.9em Dante MT sans-serif;
   color: #5d87a1;
   margin: 14px 0;
 }
-<<<<<<< HEAD
-/* line 457, ../../stylesheets/partials/_style.sass */
-=======
-/* line 455, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 457, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 #content_home .ct p {
   font: normal normal normal 1.35em/1.85em Georgia, Times, serif;
   color: #2f404c;
 }
-<<<<<<< HEAD
-/* line 460, ../../stylesheets/partials/_style.sass */
-=======
-/* line 458, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 460, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 #content_home .ct span.average {
   background: url("../images/down-arrow.png") 0 5px no-repeat;
   color: #5f6a72;
@@ -1480,11 +1144,7 @@ h2.master {
   letter-spacing: 0.8px;
   padding-left: 22px;
 }
-<<<<<<< HEAD
-/* line 469, ../../stylesheets/partials/_style.sass */
-=======
-/* line 467, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 469, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 #content_home .ct p.industry {
   color: #f37421;
   font-family: franklin-gothic-urw-condensed, sans-serif;
@@ -1494,29 +1154,17 @@ h2.master {
   text-align: right;
 }
 
-<<<<<<< HEAD
-/* line 477, ../../stylesheets/partials/_style.sass */
-#left-content {
-  background-color: white;
-}
-/* line 479, ../../stylesheets/partials/_style.sass */
-=======
-/* line 475, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
-#left-content {
-  background-color: white;
-}
 /* line 477, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+#left-content {
+  background-color: white;
+}
+/* line 479, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 #left-content .ct {
   padding: 30px 20px 0 35px;
   height: 325px;
 }
 
-<<<<<<< HEAD
-/* line 483, ../../stylesheets/partials/_style.sass */
-=======
-/* line 481, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 483, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 #infographic {
   background: transparent url("../images/infographic-placeholder.png") no-repeat 0 0;
   height: 300px;
@@ -1525,39 +1173,23 @@ h2.master {
   display: block;
 }
 
-<<<<<<< HEAD
-/* line 490, ../../stylesheets/partials/_style.sass */
-=======
-/* line 488, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 490, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 #right-content {
   background-color: #f37421;
   height: 100%;
 }
-<<<<<<< HEAD
-/* line 493, ../../stylesheets/partials/_style.sass */
-=======
-/* line 491, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 493, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 #right-content .divider-small {
   background: #dddddd url("../images/divider.png") no-repeat scroll 0 0;
   height: 39px;
   width: 230px;
 }
-<<<<<<< HEAD
-/* line 497, ../../stylesheets/partials/_style.sass */
-=======
-/* line 495, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 497, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 #right-content #newsfeed {
   margin: 0;
   padding: 10px 0 0 0;
 }
-<<<<<<< HEAD
-/* line 500, ../../stylesheets/partials/_style.sass */
-=======
-/* line 498, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 500, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 #right-content #newsfeed h1 {
   font-family: pragmatica-web-n3, pragmatica-web, sans-serif;
   font-style: normal;
@@ -1570,11 +1202,7 @@ h2.master {
   float: left;
   line-height: 0.5em;
 }
-<<<<<<< HEAD
-/* line 511, ../../stylesheets/partials/_style.sass */
-=======
-/* line 509, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 511, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 #right-content #newsfeed .rss-icon {
   height: 20px;
   width: 21px;
@@ -1583,41 +1211,25 @@ h2.master {
   background: transparent url("../images/rss-feed.png") no-repeat 0 0;
   float: left;
 }
-<<<<<<< HEAD
-/* line 518, ../../stylesheets/partials/_style.sass */
-=======
-/* line 516, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 518, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 #right-content .content-block {
   float: left;
   margin: 0;
   padding: 0 0 0 15px;
 }
-<<<<<<< HEAD
-/* line 522, ../../stylesheets/partials/_style.sass */
-=======
-/* line 520, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 522, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 #right-content .content-block .date {
   font: normal normal 300 12px/16px pragmatica-web-n3, pragmatica-web, sans-serif;
   color: white;
   letter-spacing: 0.075em;
   float: left;
 }
-<<<<<<< HEAD
-/* line 527, ../../stylesheets/partials/_style.sass */
-=======
-/* line 525, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 527, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 #right-content .content-block span.date-divider {
   font: normal normal 300 18px/16px pragmatica-web-n3, pragmatica-web, sans-serif;
   color: white;
 }
-<<<<<<< HEAD
-/* line 530, ../../stylesheets/partials/_style.sass */
-=======
-/* line 528, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 530, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 #right-content .content-block .author {
   font: italic normal 300 12px/20px Georgia, serif;
   color: white;
@@ -1625,11 +1237,7 @@ h2.master {
   padding: 0 0 0 5px;
   float: left;
 }
-<<<<<<< HEAD
-/* line 536, ../../stylesheets/partials/_style.sass */
-=======
-/* line 534, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 536, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 #right-content .content-block h3 {
   font: normal normal 300 16px/16px Helvetica, Arial, sans-serif;
   color: #2f404c;
@@ -1638,11 +1246,7 @@ h2.master {
   margin: 0;
   float: left;
 }
-<<<<<<< HEAD
-/* line 543, ../../stylesheets/partials/_style.sass */
-=======
-/* line 541, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 543, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 #right-content .content-block .photo-credit {
   font-family: Helvetica, Arial, sans-serif;
   font-style: normal;
@@ -1654,22 +1258,14 @@ h2.master {
   margin: 0;
   float: left;
 }
-<<<<<<< HEAD
-/* line 553, ../../stylesheets/partials/_style.sass */
-=======
-/* line 551, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 553, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 #right-content .content-block .photo {
   margin: 0;
   padding: 0;
   width: 76px;
   height: 73px;
 }
-<<<<<<< HEAD
-/* line 558, ../../stylesheets/partials/_style.sass */
-=======
-/* line 556, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 558, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 #right-content .content-block p {
   font: normal normal normal 1.17em/1.2em Helvetica, Arial, sans-serif;
   color: white;
@@ -1678,11 +1274,7 @@ h2.master {
   padding: 5px 16px 0 0;
   letter-spacing: 0.07em;
 }
-<<<<<<< HEAD
-/* line 565, ../../stylesheets/partials/_style.sass */
-=======
-/* line 563, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 565, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 #right-content .content-block .more {
   font: italic normal 300 12px/20px Georgia, serif;
   color: white;
@@ -1690,30 +1282,18 @@ h2.master {
   padding: 0 5px 0px 142px;
   letter-spacing: 0.2em;
 }
-<<<<<<< HEAD
-/* line 571, ../../stylesheets/partials/_style.sass */
-=======
-/* line 569, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 571, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 #right-content .content-block .more a {
   color: white;
   text-decoration: none;
   font-size: 12px;
 }
-<<<<<<< HEAD
-/* line 575, ../../stylesheets/partials/_style.sass */
-=======
-/* line 573, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 575, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 #right-content .content-block .more a:hover {
   color: #2f404c;
   text-decoration: none;
 }
-<<<<<<< HEAD
-/* line 578, ../../stylesheets/partials/_style.sass */
-=======
-/* line 576, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 578, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 #right-content .content-block .dots {
   background: transparent url("../images/dots.png") no-repeat 0 0;
   float: left;
@@ -1721,11 +1301,7 @@ h2.master {
   height: 3px;
   margin: 5px 0 10px 0;
 }
-<<<<<<< HEAD
-/* line 584, ../../stylesheets/partials/_style.sass */
-=======
-/* line 582, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 584, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 #right-content .content-block .arrows {
   float: left;
   background: transparent url("../images/four-arrows.png") no-repeat -11px -10px;
@@ -1733,22 +1309,14 @@ h2.master {
   height: 10px;
   margin: 8px 0 0 0;
 }
-<<<<<<< HEAD
-/* line 590, ../../stylesheets/partials/_style.sass */
-=======
-/* line 588, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 590, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 #right-content .social-media h4 {
   font: normal normal 300 14px/14px pragmatica-web-n3, pragmatica-web, sans-serif;
   color: white;
   padding-top: 5px;
   text-align: center;
 }
-<<<<<<< HEAD
-/* line 595, ../../stylesheets/partials/_style.sass */
-=======
-/* line 593, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 595, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 #right-content #social-media {
   background: transparent url("../images/social-media.png") no-repeat center center;
   float: left;
@@ -1756,11 +1324,7 @@ h2.master {
   height: 54px;
   padding: 0 55px 5px 55px;
 }
-<<<<<<< HEAD
-/* line 601, ../../stylesheets/partials/_style.sass */
-=======
-/* line 599, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 601, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 #right-content #social-media .facebook {
   background: transparent url("../images/facebook.png") no-repeat 0 0;
   float: left;
@@ -1769,19 +1333,11 @@ h2.master {
   margin: 9px 15px 0 18px;
   padding: 12px 0 0 20px;
 }
-<<<<<<< HEAD
-/* line 608, ../../stylesheets/partials/_style.sass */
-#right-content #social-media .facebook:hover {
-  background-position: -32px 0;
-}
-/* line 610, ../../stylesheets/partials/_style.sass */
-=======
-/* line 606, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
-#right-content #social-media .facebook:hover {
-  background-position: -32px 0;
-}
 /* line 608, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+#right-content #social-media .facebook:hover {
+  background-position: -32px 0;
+}
+/* line 610, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 #right-content #social-media .twitter {
   background: transparent url("../images/twitter.png") no-repeat 0 0;
   float: left;
@@ -1790,20 +1346,12 @@ h2.master {
   margin: 17px 0 0 0;
   padding: 0;
 }
-<<<<<<< HEAD
-/* line 617, ../../stylesheets/partials/_style.sass */
-=======
-/* line 615, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 617, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 #right-content #social-media .twitter:hover {
   background-position: -22px 0;
 }
 
-<<<<<<< HEAD
-/* line 621, ../../stylesheets/partials/_style.sass */
-=======
-/* line 619, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
->>>>>>> 6a94941b2736779bbc976f2d059284fed1d12837
+/* line 621, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
 .chart {
   height: 200px;
 }
