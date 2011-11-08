@@ -374,8 +374,8 @@ li:hover > a > .sf-sub-indicator, li.sfHover > a > .sf-sub-indicator {
 /* line 3, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish-navbar.sass */
 .sf-navbar {
   background: #a9b2ba;
-  height: 2.5em;
-  padding: 0;
+  height: 45px;
+  padding-bottom: 50px;
   position: relative;
 }
 /* line 8, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish-navbar.sass */
