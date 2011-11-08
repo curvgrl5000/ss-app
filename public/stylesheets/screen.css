@@ -84,7 +84,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 67, ../../stylesheets/partials/_base.sass */
+/* line 67, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_base.sass */
 body {
   background: #a9b2ba url("../images/main_bkgrnd.png") 0 0 repeat-x;
   color: black;
@@ -103,14 +103,14 @@ body {
  * Increase this if your layout is wider.
  *
  * Note: IE6 works fine without this fix. */
-/* line 15, ../../stylesheets/partials/_960.sass */
+/* line 15, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 body {
   min-width: 960px;
 }
 
 /* Containers
  *---------------------------------------------------------------------------------------------------- */
-/* line 21, ../../stylesheets/partials/_960.sass */
+/* line 21, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 {
   margin-left: auto;
   margin-right: auto;
@@ -119,7 +119,7 @@ body {
 
 /* Grid >> Global
  *---------------------------------------------------------------------------------------------------- */
-/* line 29, ../../stylesheets/partials/_960.sass */
+/* line 29, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8, .grid_9, .grid_10, .grid_11, .grid_12, .grid_13, .grid_14, .grid_15, .grid_16, .grid_17, .grid_18, .grid_19, .grid_20, .grid_21, .grid_22, .grid_23, .grid_24 {
   display: inline;
   float: left;
@@ -128,506 +128,506 @@ body {
   margin-right: 5px;
 }
 
-/* line 36, ../../stylesheets/partials/_960.sass */
+/* line 36, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .push_1, .pull_1, .push_2, .pull_2, .push_3, .pull_3, .push_4, .pull_4, .push_5, .pull_5, .push_6, .pull_6, .push_7, .pull_7, .push_8, .pull_8, .push_9, .pull_9, .push_10, .pull_10, .push_11, .pull_11, .push_12, .pull_12, .push_13, .pull_13, .push_14, .pull_14, .push_15, .pull_15, .push_16, .pull_16, .push_17, .pull_17, .push_18, .pull_18, .push_19, .pull_19, .push_20, .pull_20, .push_21, .pull_21, .push_22, .pull_22, .push_23, .pull_23, .push_24, .pull_24 {
   position: relative;
 }
 
 /* Grid >> Children (Alpha ~ First, Omega ~ Last)
  *---------------------------------------------------------------------------------------------------- */
-/* line 42, ../../stylesheets/partials/_960.sass */
+/* line 42, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .alpha {
   margin-left: 0;
 }
 
-/* line 45, ../../stylesheets/partials/_960.sass */
+/* line 45, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .omega {
   margin-right: 0;
 }
 
-/* line 48, ../../stylesheets/partials/_960.sass */
+/* line 48, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 #left {
   float: left;
 }
 
-/* line 51, ../../stylesheets/partials/_960.sass */
+/* line 51, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 #right {
   float: right;
 }
 
-/* line 54, ../../stylesheets/partials/_960.sass */
+/* line 54, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .left {
   float: left;
 }
 
-/* line 57, ../../stylesheets/partials/_960.sass */
+/* line 57, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .right {
   float: right;
 }
 
 /* Grid >> 24 Columns
  *---------------------------------------------------------------------------------------------------- */
-/* line 64, ../../stylesheets/partials/_960.sass */
+/* line 64, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .grid_1 {
   width: 30px;
 }
-/* line 66, ../../stylesheets/partials/_960.sass */
+/* line 66, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .grid_2 {
   width: 70px;
 }
-/* line 68, ../../stylesheets/partials/_960.sass */
+/* line 68, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .grid_3 {
   width: 110px;
 }
-/* line 70, ../../stylesheets/partials/_960.sass */
+/* line 70, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .grid_4 {
   width: 150px;
 }
-/* line 72, ../../stylesheets/partials/_960.sass */
+/* line 72, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .grid_5 {
   width: 190px;
 }
-/* line 74, ../../stylesheets/partials/_960.sass */
+/* line 74, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .grid_6 {
   width: 230px;
 }
-/* line 76, ../../stylesheets/partials/_960.sass */
+/* line 76, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .grid_7 {
   width: 270px;
 }
-/* line 78, ../../stylesheets/partials/_960.sass */
+/* line 78, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .grid_8 {
   width: 310px;
 }
-/* line 80, ../../stylesheets/partials/_960.sass */
+/* line 80, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .grid_9 {
   width: 350px;
 }
-/* line 82, ../../stylesheets/partials/_960.sass */
+/* line 82, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .grid_10 {
   width: 390px;
 }
-/* line 84, ../../stylesheets/partials/_960.sass */
+/* line 84, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .grid_11 {
   width: 430px;
 }
-/* line 86, ../../stylesheets/partials/_960.sass */
+/* line 86, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .grid_12 {
   width: 470px;
 }
-/* line 88, ../../stylesheets/partials/_960.sass */
+/* line 88, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .grid_13 {
   width: 510px;
 }
-/* line 90, ../../stylesheets/partials/_960.sass */
+/* line 90, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .grid_14 {
   width: 550px;
 }
-/* line 92, ../../stylesheets/partials/_960.sass */
+/* line 92, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .grid_15 {
   width: 590px;
 }
-/* line 94, ../../stylesheets/partials/_960.sass */
+/* line 94, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .grid_16 {
   width: 630px;
 }
-/* line 96, ../../stylesheets/partials/_960.sass */
+/* line 96, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .grid_17 {
   width: 670px;
 }
-/* line 98, ../../stylesheets/partials/_960.sass */
+/* line 98, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .grid_18 {
   width: 710px;
 }
-/* line 100, ../../stylesheets/partials/_960.sass */
+/* line 100, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .grid_19 {
   width: 750px;
 }
-/* line 102, ../../stylesheets/partials/_960.sass */
+/* line 102, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .grid_20 {
   width: 790px;
 }
-/* line 104, ../../stylesheets/partials/_960.sass */
+/* line 104, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .grid_21 {
   width: 830px;
 }
-/* line 106, ../../stylesheets/partials/_960.sass */
+/* line 106, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .grid_22 {
   width: 870px;
 }
-/* line 108, ../../stylesheets/partials/_960.sass */
+/* line 108, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .grid_23 {
   width: 910px;
 }
-/* line 110, ../../stylesheets/partials/_960.sass */
+/* line 110, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .grid_24 {
   width: 950px;
 }
-/* line 112, ../../stylesheets/partials/_960.sass */
+/* line 112, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .prefix_1 {
   padding-left: 40px;
 }
-/* line 114, ../../stylesheets/partials/_960.sass */
+/* line 114, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .prefix_2 {
   padding-left: 80px;
 }
-/* line 116, ../../stylesheets/partials/_960.sass */
+/* line 116, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .prefix_3 {
   padding-left: 120px;
 }
-/* line 118, ../../stylesheets/partials/_960.sass */
+/* line 118, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .prefix_4 {
   padding-left: 160px;
 }
-/* line 120, ../../stylesheets/partials/_960.sass */
+/* line 120, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .prefix_5 {
   padding-left: 200px;
 }
-/* line 122, ../../stylesheets/partials/_960.sass */
+/* line 122, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .prefix_6 {
   padding-left: 240px;
 }
-/* line 124, ../../stylesheets/partials/_960.sass */
+/* line 124, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .prefix_7 {
   padding-left: 280px;
 }
-/* line 126, ../../stylesheets/partials/_960.sass */
+/* line 126, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .prefix_8 {
   padding-left: 320px;
 }
-/* line 128, ../../stylesheets/partials/_960.sass */
+/* line 128, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .prefix_9 {
   padding-left: 360px;
 }
-/* line 130, ../../stylesheets/partials/_960.sass */
+/* line 130, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .prefix_10 {
   padding-left: 400px;
 }
-/* line 132, ../../stylesheets/partials/_960.sass */
+/* line 132, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .prefix_11 {
   padding-left: 440px;
 }
-/* line 134, ../../stylesheets/partials/_960.sass */
+/* line 134, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .prefix_12 {
   padding-left: 480px;
 }
-/* line 136, ../../stylesheets/partials/_960.sass */
+/* line 136, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .prefix_13 {
   padding-left: 520px;
 }
-/* line 138, ../../stylesheets/partials/_960.sass */
+/* line 138, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .prefix_14 {
   padding-left: 560px;
 }
-/* line 140, ../../stylesheets/partials/_960.sass */
+/* line 140, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .prefix_15 {
   padding-left: 600px;
 }
-/* line 142, ../../stylesheets/partials/_960.sass */
+/* line 142, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .prefix_16 {
   padding-left: 640px;
 }
-/* line 144, ../../stylesheets/partials/_960.sass */
+/* line 144, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .prefix_17 {
   padding-left: 680px;
 }
-/* line 146, ../../stylesheets/partials/_960.sass */
+/* line 146, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .prefix_18 {
   padding-left: 720px;
 }
-/* line 148, ../../stylesheets/partials/_960.sass */
+/* line 148, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .prefix_19 {
   padding-left: 760px;
 }
-/* line 150, ../../stylesheets/partials/_960.sass */
+/* line 150, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .prefix_20 {
   padding-left: 800px;
 }
-/* line 152, ../../stylesheets/partials/_960.sass */
+/* line 152, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .prefix_21 {
   padding-left: 840px;
 }
-/* line 154, ../../stylesheets/partials/_960.sass */
+/* line 154, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .prefix_22 {
   padding-left: 880px;
 }
-/* line 156, ../../stylesheets/partials/_960.sass */
+/* line 156, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .prefix_23 {
   padding-left: 920px;
 }
-/* line 158, ../../stylesheets/partials/_960.sass */
+/* line 158, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .suffix_1 {
   padding-right: 40px;
 }
-/* line 160, ../../stylesheets/partials/_960.sass */
+/* line 160, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .suffix_2 {
   padding-right: 80px;
 }
-/* line 162, ../../stylesheets/partials/_960.sass */
+/* line 162, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .suffix_3 {
   padding-right: 120px;
 }
-/* line 164, ../../stylesheets/partials/_960.sass */
+/* line 164, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .suffix_4 {
   padding-right: 160px;
 }
-/* line 166, ../../stylesheets/partials/_960.sass */
+/* line 166, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .suffix_5 {
   padding-right: 200px;
 }
-/* line 168, ../../stylesheets/partials/_960.sass */
+/* line 168, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .suffix_6 {
   padding-right: 240px;
 }
-/* line 170, ../../stylesheets/partials/_960.sass */
+/* line 170, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .suffix_7 {
   padding-right: 280px;
 }
-/* line 172, ../../stylesheets/partials/_960.sass */
+/* line 172, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .suffix_8 {
   padding-right: 320px;
 }
-/* line 174, ../../stylesheets/partials/_960.sass */
+/* line 174, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .suffix_9 {
   padding-right: 360px;
 }
-/* line 176, ../../stylesheets/partials/_960.sass */
+/* line 176, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .suffix_10 {
   padding-right: 400px;
 }
-/* line 178, ../../stylesheets/partials/_960.sass */
+/* line 178, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .suffix_11 {
   padding-right: 440px;
 }
-/* line 180, ../../stylesheets/partials/_960.sass */
+/* line 180, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .suffix_12 {
   padding-right: 480px;
 }
-/* line 182, ../../stylesheets/partials/_960.sass */
+/* line 182, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .suffix_13 {
   padding-right: 520px;
 }
-/* line 184, ../../stylesheets/partials/_960.sass */
+/* line 184, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .suffix_14 {
   padding-right: 560px;
 }
-/* line 186, ../../stylesheets/partials/_960.sass */
+/* line 186, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .suffix_15 {
   padding-right: 600px;
 }
-/* line 188, ../../stylesheets/partials/_960.sass */
+/* line 188, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .suffix_16 {
   padding-right: 640px;
 }
-/* line 190, ../../stylesheets/partials/_960.sass */
+/* line 190, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .suffix_17 {
   padding-right: 680px;
 }
-/* line 192, ../../stylesheets/partials/_960.sass */
+/* line 192, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .suffix_18 {
   padding-right: 720px;
 }
-/* line 194, ../../stylesheets/partials/_960.sass */
+/* line 194, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .suffix_19 {
   padding-right: 760px;
 }
-/* line 196, ../../stylesheets/partials/_960.sass */
+/* line 196, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .suffix_20 {
   padding-right: 800px;
 }
-/* line 198, ../../stylesheets/partials/_960.sass */
+/* line 198, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .suffix_21 {
   padding-right: 840px;
 }
-/* line 200, ../../stylesheets/partials/_960.sass */
+/* line 200, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .suffix_22 {
   padding-right: 880px;
 }
-/* line 202, ../../stylesheets/partials/_960.sass */
+/* line 202, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .suffix_23 {
   padding-right: 920px;
 }
-/* line 204, ../../stylesheets/partials/_960.sass */
+/* line 204, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .push_1 {
   left: 40px;
 }
-/* line 206, ../../stylesheets/partials/_960.sass */
+/* line 206, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .push_2 {
   left: 80px;
 }
-/* line 208, ../../stylesheets/partials/_960.sass */
+/* line 208, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .push_3 {
   left: 120px;
 }
-/* line 210, ../../stylesheets/partials/_960.sass */
+/* line 210, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .push_4 {
   left: 160px;
 }
-/* line 212, ../../stylesheets/partials/_960.sass */
+/* line 212, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .push_5 {
   left: 200px;
 }
-/* line 214, ../../stylesheets/partials/_960.sass */
+/* line 214, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .push_6 {
   left: 240px;
 }
-/* line 216, ../../stylesheets/partials/_960.sass */
+/* line 216, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .push_7 {
   left: 280px;
 }
-/* line 218, ../../stylesheets/partials/_960.sass */
+/* line 218, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .push_8 {
   left: 320px;
 }
-/* line 220, ../../stylesheets/partials/_960.sass */
+/* line 220, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .push_9 {
   left: 360px;
 }
-/* line 222, ../../stylesheets/partials/_960.sass */
+/* line 222, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .push_10 {
   left: 400px;
 }
-/* line 224, ../../stylesheets/partials/_960.sass */
+/* line 224, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .push_11 {
   left: 440px;
 }
-/* line 226, ../../stylesheets/partials/_960.sass */
+/* line 226, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .push_12 {
   left: 480px;
 }
-/* line 228, ../../stylesheets/partials/_960.sass */
+/* line 228, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .push_13 {
   left: 520px;
 }
-/* line 230, ../../stylesheets/partials/_960.sass */
+/* line 230, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .push_14 {
   left: 560px;
 }
-/* line 232, ../../stylesheets/partials/_960.sass */
+/* line 232, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .push_15 {
   left: 600px;
 }
-/* line 234, ../../stylesheets/partials/_960.sass */
+/* line 234, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .push_16 {
   left: 640px;
 }
-/* line 236, ../../stylesheets/partials/_960.sass */
+/* line 236, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .push_17 {
   left: 680px;
 }
-/* line 238, ../../stylesheets/partials/_960.sass */
+/* line 238, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .push_18 {
   left: 720px;
 }
-/* line 240, ../../stylesheets/partials/_960.sass */
+/* line 240, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .push_19 {
   left: 760px;
 }
-/* line 242, ../../stylesheets/partials/_960.sass */
+/* line 242, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .push_20 {
   left: 800px;
 }
-/* line 244, ../../stylesheets/partials/_960.sass */
+/* line 244, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .push_21 {
   left: 840px;
 }
-/* line 246, ../../stylesheets/partials/_960.sass */
+/* line 246, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .push_22 {
   left: 880px;
 }
-/* line 248, ../../stylesheets/partials/_960.sass */
+/* line 248, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .push_23 {
   left: 920px;
 }
-/* line 250, ../../stylesheets/partials/_960.sass */
+/* line 250, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .pull_1 {
   left: -40px;
 }
-/* line 252, ../../stylesheets/partials/_960.sass */
+/* line 252, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .pull_2 {
   left: -80px;
 }
-/* line 254, ../../stylesheets/partials/_960.sass */
+/* line 254, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .pull_3 {
   left: -120px;
 }
-/* line 256, ../../stylesheets/partials/_960.sass */
+/* line 256, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .pull_4 {
   left: -160px;
 }
-/* line 258, ../../stylesheets/partials/_960.sass */
+/* line 258, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .pull_5 {
   left: -200px;
 }
-/* line 260, ../../stylesheets/partials/_960.sass */
+/* line 260, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .pull_6 {
   left: -240px;
 }
-/* line 262, ../../stylesheets/partials/_960.sass */
+/* line 262, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .pull_7 {
   left: -280px;
 }
-/* line 264, ../../stylesheets/partials/_960.sass */
+/* line 264, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .pull_8 {
   left: -320px;
 }
-/* line 266, ../../stylesheets/partials/_960.sass */
+/* line 266, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .pull_9 {
   left: -360px;
 }
-/* line 268, ../../stylesheets/partials/_960.sass */
+/* line 268, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .pull_10 {
   left: -400px;
 }
-/* line 270, ../../stylesheets/partials/_960.sass */
+/* line 270, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .pull_11 {
   left: -440px;
 }
-/* line 272, ../../stylesheets/partials/_960.sass */
+/* line 272, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .pull_12 {
   left: -480px;
 }
-/* line 274, ../../stylesheets/partials/_960.sass */
+/* line 274, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .pull_13 {
   left: -520px;
 }
-/* line 276, ../../stylesheets/partials/_960.sass */
+/* line 276, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .pull_14 {
   left: -560px;
 }
-/* line 278, ../../stylesheets/partials/_960.sass */
+/* line 278, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .pull_15 {
   left: -600px;
 }
-/* line 280, ../../stylesheets/partials/_960.sass */
+/* line 280, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .pull_16 {
   left: -640px;
 }
-/* line 282, ../../stylesheets/partials/_960.sass */
+/* line 282, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .pull_17 {
   left: -680px;
 }
-/* line 284, ../../stylesheets/partials/_960.sass */
+/* line 284, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .pull_18 {
   left: -720px;
 }
-/* line 286, ../../stylesheets/partials/_960.sass */
+/* line 286, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .pull_19 {
   left: -760px;
 }
-/* line 288, ../../stylesheets/partials/_960.sass */
+/* line 288, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .pull_20 {
   left: -800px;
 }
-/* line 290, ../../stylesheets/partials/_960.sass */
+/* line 290, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .pull_21 {
   left: -840px;
 }
-/* line 292, ../../stylesheets/partials/_960.sass */
+/* line 292, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .pull_22 {
   left: -880px;
 }
-/* line 294, ../../stylesheets/partials/_960.sass */
+/* line 294, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .container_24 .pull_23 {
   left: -920px;
 }
@@ -643,7 +643,7 @@ body {
 /* `Clear Floated Elements
  *---------------------------------------------------------------------------------------------------- */
 /* http://sonspring.com/journal/clearing-floats */
-/* line 314, ../../stylesheets/partials/_960.sass */
+/* line 314, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .clear {
   clear: both;
   display: block;
@@ -654,11 +654,11 @@ body {
 }
 
 /* http://www.yuiblog.com/blog/2010/09/27/clearfix-reloaded-overflowhidden-demystified */
-/* line 324, ../../stylesheets/partials/_960.sass */
+/* line 324, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .clearfix {
   zoom: 1;
 }
-/* line 325, ../../stylesheets/partials/_960.sass */
+/* line 325, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .clearfix:before {
   content: "\0020";
   display: block;
@@ -667,7 +667,7 @@ body {
   width: 0;
   height: 0;
 }
-/* line 332, ../../stylesheets/partials/_960.sass */
+/* line 332, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
 .clearfix:after {
   content: "\0020";
   display: block;
@@ -1974,7 +1974,7 @@ a.nav-bottom-vantage {
  * 
  * Customize the width, height, padding and background to customize the area 
  * surrounding your SlideDeck. */
-/* line 16, ../../stylesheets/partials/_slidedeck-skin.sass */
+/* line 16, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-skin.sass */
 .skin-slidedeck {
   position: relative;
   padding: 11px;
@@ -1984,7 +1984,7 @@ a.nav-bottom-vantage {
   -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
-/* line 24, ../../stylesheets/partials/_slidedeck-skin.sass */
+/* line 24, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-skin.sass */
 .skin-slidedeck dl.slidedeck {
   position: relative;
   width: 100%;
@@ -1992,7 +1992,7 @@ a.nav-bottom-vantage {
   margin: 0;
   padding: 0;
 }
-/* line 31, ../../stylesheets/partials/_slidedeck-skin.sass */
+/* line 31, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-skin.sass */
 .skin-slidedeck dl.slidedeck > dd {
   position: relative;
   height: 294px;
@@ -2003,13 +2003,13 @@ a.nav-bottom-vantage {
   /* Note: you should position the background with pixel measurements in IE7 as it improperly calculates the height of the DD element when containing vertical slides */
   overflow: hidden;
 }
-/* line 40, ../../stylesheets/partials/_slidedeck-skin.sass */
+/* line 40, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-skin.sass */
 .skin-slidedeck dl.slidedeck > dd dd {
   position: relative;
   margin: 0;
   padding: 10px 15px;
 }
-/* line 44, ../../stylesheets/partials/_slidedeck-skin.sass */
+/* line 44, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-skin.sass */
 .skin-slidedeck dl.slidedeck > dt {
   position: relative;
   cursor: pointer;
@@ -2025,24 +2025,24 @@ a.nav-bottom-vantage {
   margin: 0;
   padding: 0;
 }
-/* line 59, ../../stylesheets/partials/_slidedeck-skin.sass */
+/* line 59, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-skin.sass */
 .skin-slidedeck dl.slidedeck dt.spine:hover {
   color: black;
   background-position: center left;
 }
-/* line 62, ../../stylesheets/partials/_slidedeck-skin.sass */
+/* line 62, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-skin.sass */
 .skin-slidedeck dl.slidedeck dt.spine.active {
   cursor: default;
   color: white;
   background-position: bottom left;
 }
-/* line 66, ../../stylesheets/partials/_slidedeck-skin.sass */
+/* line 66, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-skin.sass */
 .skin-slidedeck dl.slidedeck dt.spine.active:hover {
   cursor: default;
   color: white;
   background-position: bottom left;
 }
-/* line 70, ../../stylesheets/partials/_slidedeck-skin.sass */
+/* line 70, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-skin.sass */
 .skin-slidedeck dl.slidedeck dt.spine .index {
   margin-bottom: 2px;
   font-size: 24px;
@@ -2050,26 +2050,26 @@ a.nav-bottom-vantage {
   font-family: Arial, Helvetica, sans-serif;
   color: #505050;
 }
-/* line 76, ../../stylesheets/partials/_slidedeck-skin.sass */
+/* line 76, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-skin.sass */
 .skin-slidedeck dl.slidedeck dt.spine.active .index {
   margin-bottom: 0;
 }
-/* line 78, ../../stylesheets/partials/_slidedeck-skin.sass */
+/* line 78, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-skin.sass */
 .skin-slidedeck dl.slidedeck dt.spine:hover .index {
   color: black;
 }
-/* line 80, ../../stylesheets/partials/_slidedeck-skin.sass */
+/* line 80, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-skin.sass */
 .skin-slidedeck dl.slidedeck dt.spine.active .index {
   color: white;
 }
-/* line 82, ../../stylesheets/partials/_slidedeck-skin.sass */
+/* line 82, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-skin.sass */
 .skin-slidedeck dl.slidedeck .activeCorner {
   margin-left: -6px;
   background-image: url("corner.png");
   width: 12px;
   height: 25px;
 }
-/* line 87, ../../stylesheets/partials/_slidedeck-skin.sass */
+/* line 87, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-skin.sass */
 .skin-slidedeck dl.slidedeck dd.slide ul.slidesVertical > li {
   overflow: hidden;
   padding: 10px;
@@ -2134,7 +2134,7 @@ a.nav-bottom-vantage {
  * This is the container for the vertical slide navigation. You can position
  * this anywhere you want within the containing slide's area. If you try to
  * position it outside of the slide area it will not appear. */
-/* line 172, ../../stylesheets/partials/_slidedeck-skin.sass */
+/* line 172, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-skin.sass */
 dl.slidedeck dd.slide ul.verticalSlideNav {
   top: -1000px;
   right: -1000px;
@@ -2142,7 +2142,7 @@ dl.slidedeck dd.slide ul.verticalSlideNav {
   padding: 0;
   list-style: none;
 }
-/* line 178, ../../stylesheets/partials/_slidedeck-skin.sass */
+/* line 178, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-skin.sass */
 dl.slidedeck dd.slide ul.verticalSlideNav li {
   position: relative;
   z-index: 2;
@@ -2156,7 +2156,7 @@ dl.slidedeck dd.slide ul.verticalSlideNav li {
   font-size: 1px;
   /* Stupid IE */
 }
-/* line 190, ../../stylesheets/partials/_slidedeck-skin.sass */
+/* line 190, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-skin.sass */
 dl.slidedeck dd.slide ul.verticalSlideNav li.arrow {
   position: absolute;
   display: block;
@@ -2179,7 +2179,7 @@ dl.slidedeck dd.slide ul.verticalSlideNav li.arrow {
   -khtml-border-radius: 3px;
   -o-border-radius: 3px;
 }
-/* line 211, ../../stylesheets/partials/_slidedeck-skin.sass */
+/* line 211, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-skin.sass */
 dl.slidedeck dd.slide ul.verticalSlideNav li a {
   position: relative;
   display: block;
@@ -2203,7 +2203,7 @@ dl.slidedeck dd.slide ul.verticalSlideNav li a {
   -khtml-border-radius: 3px;
   -o-border-radius: 3px;
 }
-/* line 233, ../../stylesheets/partials/_slidedeck-skin.sass */
+/* line 233, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-skin.sass */
 dl.slidedeck dd.slide ul.verticalSlideNav li a:hover {
   opacity: 0.75;
   -moz-opacity: 0.75;
@@ -2242,46 +2242,46 @@ dl.slidedeck dd.slide ul.verticalSlideNav li a:hover {
  *     etc.... */
 /* The SlideDeck vertical slide navigation link hover state. */
 /** ESSENTIAL STYLES ** */
-/* line 3, ../../stylesheets/partials/_superfish.sass */
+/* line 3, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish.sass */
 .sf-menu {
   margin: 0;
   padding: 0;
   list-style: none;
   line-height: 1;
 }
-/* line 7, ../../stylesheets/partials/_superfish.sass */
+/* line 7, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish.sass */
 .sf-menu * {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-/* line 12, ../../stylesheets/partials/_superfish.sass */
+/* line 12, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish.sass */
 .sf-menu ul {
   position: absolute;
   top: -999em;
   width: 10em;
   /* left offset of submenus need to match (see below) */
 }
-/* line 17, ../../stylesheets/partials/_superfish.sass */
+/* line 17, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish.sass */
 .sf-menu ul li {
   width: 100%;
 }
-/* line 19, ../../stylesheets/partials/_superfish.sass */
+/* line 19, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish.sass */
 .sf-menu li {
   float: left;
   position: relative;
 }
-/* line 20, ../../stylesheets/partials/_superfish.sass */
+/* line 20, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish.sass */
 .sf-menu li:hover {
   visibility: inherit;
   /* fixes IE7 'sticky bug' */
 }
-/* line 25, ../../stylesheets/partials/_superfish.sass */
+/* line 25, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish.sass */
 .sf-menu a {
   display: block;
   position: relative;
 }
-/* line 29, ../../stylesheets/partials/_superfish.sass */
+/* line 29, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish.sass */
 .sf-menu li:hover ul, .sf-menu li.sfHover ul {
   left: 0;
   /*top: 2.5em */
@@ -2290,21 +2290,21 @@ dl.slidedeck dd.slide ul.verticalSlideNav li a:hover {
   z-index: 99;
 }
 
-/* line 37, ../../stylesheets/partials/_superfish.sass */
+/* line 37, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish.sass */
 ul.sf-menu li:hover li ul, ul.sf-menu li.sfHover li ul {
   top: -999em;
 }
-/* line 40, ../../stylesheets/partials/_superfish.sass */
+/* line 40, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish.sass */
 ul.sf-menu li li:hover ul, ul.sf-menu li li.sfHover ul {
   left: 10em;
   /* match ul width */
   top: 0;
 }
-/* line 44, ../../stylesheets/partials/_superfish.sass */
+/* line 44, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish.sass */
 ul.sf-menu li li:hover li ul, ul.sf-menu li li.sfHover li ul {
   top: -999em;
 }
-/* line 47, ../../stylesheets/partials/_superfish.sass */
+/* line 47, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish.sass */
 ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
   left: 10em;
   /* match ul width */
@@ -2312,12 +2312,12 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 }
 
 /** DEMO SKIN ** */
-/* line 54, ../../stylesheets/partials/_superfish.sass */
+/* line 54, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish.sass */
 .sf-menu {
   float: left;
   margin-bottom: 1em;
 }
-/* line 57, ../../stylesheets/partials/_superfish.sass */
+/* line 57, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish.sass */
 .sf-menu a {
   border-left: 1px solid white;
   border-top: 1px solid #cfdeff;
@@ -2333,7 +2333,7 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
   font: normal 12px Dante MT Std serif;
   letter-spacing: 0.08em;
 }
-/* line 71, ../../stylesheets/partials/_superfish.sass */
+/* line 71, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish.sass */
 .sf-menu a:visited {
   /* visited pseudo selector so IE6 applies text colour */
   color: #2f404c !important;
@@ -2345,29 +2345,29 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
   font: normal 12px Dante MT Std serif;
   letter-spacing: 0.08em;
 }
-/* line 81, ../../stylesheets/partials/_superfish.sass */
+/* line 81, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish.sass */
 .sf-menu li {
   background: #bdd2ff;
 }
-/* line 83, ../../stylesheets/partials/_superfish.sass */
+/* line 83, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish.sass */
 .sf-menu li li {
   background: #aabde6;
 }
-/* line 85, ../../stylesheets/partials/_superfish.sass */
+/* line 85, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish.sass */
 .sf-menu li li li {
   background: #9aaedb;
 }
-/* line 87, ../../stylesheets/partials/_superfish.sass */
+/* line 87, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish.sass */
 .sf-menu li:hover, .sf-menu li.sfHover {
   background: #cfdeff;
   outline: 0;
 }
-/* line 91, ../../stylesheets/partials/_superfish.sass */
+/* line 91, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish.sass */
 .sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {
   background: #cfdeff;
   outline: 0;
 }
-/* line 94, ../../stylesheets/partials/_superfish.sass */
+/* line 94, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish.sass */
 .sf-menu a.sf-with-ul {
   /*padding-right: 	2.25em; */
   min-width: 1px;
@@ -2378,7 +2378,7 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 }
 
 /** arrows */
-/* line 104, ../../stylesheets/partials/_superfish.sass */
+/* line 104, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish.sass */
 .sf-sub-indicator {
   position: absolute;
   display: block;
@@ -2393,41 +2393,41 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
   /* 8-bit indexed alpha png. IE6 gets solid image only */
 }
 
-/* line 118, ../../stylesheets/partials/_superfish.sass */
+/* line 118, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish.sass */
 a > .sf-sub-indicator {
   /* give all except IE6 the correct values */
   top: 0.8em;
   background-position: 0 -100px;
   /* use translucent arrow for modern browsers */
 }
-/* line 123, ../../stylesheets/partials/_superfish.sass */
+/* line 123, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish.sass */
 a:focus > .sf-sub-indicator, a:hover > .sf-sub-indicator, a:active > .sf-sub-indicator {
   background-position: -10px -100px;
   /* arrow hovers for modern browsers */
 }
 
 /* apply hovers to modern browsers */
-/* line 130, ../../stylesheets/partials/_superfish.sass */
+/* line 130, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish.sass */
 li:hover > a > .sf-sub-indicator, li.sfHover > a > .sf-sub-indicator {
   background-position: -10px -100px;
   /* arrow hovers for modern browsers */
 }
 
 /* point right for anchors in subs */
-/* line 137, ../../stylesheets/partials/_superfish.sass */
+/* line 137, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish.sass */
 .sf-menu ul .sf-sub-indicator {
   background-position: -10px 0;
 }
-/* line 140, ../../stylesheets/partials/_superfish.sass */
+/* line 140, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish.sass */
 .sf-menu ul a > .sf-sub-indicator {
   background-position: 0 0;
 }
-/* line 142, ../../stylesheets/partials/_superfish.sass */
+/* line 142, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish.sass */
 .sf-menu ul a:focus > .sf-sub-indicator, .sf-menu ul a:hover > .sf-sub-indicator, .sf-menu ul a:active > .sf-sub-indicator {
   background-position: -10px 0;
   /* arrow hovers for modern browsers */
 }
-/* line 146, ../../stylesheets/partials/_superfish.sass */
+/* line 146, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish.sass */
 .sf-menu ul li:hover > a > .sf-sub-indicator, .sf-menu ul li.sfHover > a > .sf-sub-indicator {
   background-position: -10px 0;
   /* arrow hovers for modern browsers */
@@ -2435,7 +2435,7 @@ li:hover > a > .sf-sub-indicator, li.sfHover > a > .sf-sub-indicator {
 
 /* apply hovers to modern browsers */
 /** shadows for all but IE6 ** */
-/* line 154, ../../stylesheets/partials/_superfish.sass */
+/* line 154, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish.sass */
 .sf-shadow ul {
   background: url("../images/shadow.png") no-repeat bottom right;
   padding: 0 8px 9px 0;
@@ -2444,152 +2444,152 @@ li:hover > a > .sf-sub-indicator, li.sfHover > a > .sf-sub-indicator {
   -webkit-border-top-right-radius: 17px;
   -webkit-border-bottom-left-radius: 17px;
 }
-/* line 161, ../../stylesheets/partials/_superfish.sass */
+/* line 161, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish.sass */
 .sf-shadow ul.sf-shadow-off {
   background: transparent;
 }
 
 /** adding the class sf-navbar in addition to sf-menu creates an all-horizontal nav-bar menu ** */
-/* line 3, ../../stylesheets/partials/_superfish-navbar.sass */
+/* line 3, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish-navbar.sass */
 .sf-navbar {
   background: #a9b2ba;
-  height: 2.5em;
+  height: 45px;
   padding: 0;
   position: relative;
 }
-/* line 8, ../../stylesheets/partials/_superfish-navbar.sass */
+/* line 8, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish-navbar.sass */
 .sf-navbar li {
   background: #f37421;
   position: static;
   font-family: "Dante MT Std" serif;
 }
-/* line 12, ../../stylesheets/partials/_superfish-navbar.sass */
+/* line 12, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish-navbar.sass */
 .sf-navbar a {
   border-top: none;
 }
-/* line 15, ../../stylesheets/partials/_superfish-navbar.sass */
+/* line 15, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish-navbar.sass */
 .sf-navbar li ul {
   width: 44em;
   /*IE6 soils itself without this */
 }
-/* line 18, ../../stylesheets/partials/_superfish-navbar.sass */
+/* line 18, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish-navbar.sass */
 .sf-navbar li li {
   background: #9ba3ab;
   position: relative;
 }
-/* line 21, ../../stylesheets/partials/_superfish-navbar.sass */
+/* line 21, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish-navbar.sass */
 .sf-navbar li li ul {
   width: 13em;
 }
-/* line 23, ../../stylesheets/partials/_superfish-navbar.sass */
+/* line 23, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish-navbar.sass */
 .sf-navbar li li li {
   width: 100%;
 }
-/* line 25, ../../stylesheets/partials/_superfish-navbar.sass */
+/* line 25, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish-navbar.sass */
 .sf-navbar ul li {
   width: auto;
   float: left;
 }
-/* line 28, ../../stylesheets/partials/_superfish-navbar.sass */
+/* line 28, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish-navbar.sass */
 .sf-navbar a {
   border: none;
 }
-/* line 30, ../../stylesheets/partials/_superfish-navbar.sass */
+/* line 30, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish-navbar.sass */
 .sf-navbar a:visited {
   border: none;
 }
-/* line 33, ../../stylesheets/partials/_superfish-navbar.sass */
+/* line 33, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish-navbar.sass */
 .sf-navbar li.current {
   background: #f37421;
 }
-/* line 35, ../../stylesheets/partials/_superfish-navbar.sass */
+/* line 35, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish-navbar.sass */
 .sf-navbar li:hover, .sf-navbar li.sfHover, .sf-navbar li li.current {
   background-color: #f37421;
   color: white;
 }
-/* line 39, ../../stylesheets/partials/_superfish-navbar.sass */
+/* line 39, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish-navbar.sass */
 .sf-navbar a:focus, .sf-navbar a:hover, .sf-navbar a:active {
   background-color: #f37421;
   color: white;
 }
-/* line 42, ../../stylesheets/partials/_superfish-navbar.sass */
+/* line 42, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish-navbar.sass */
 .sf-navbar a:hover {
   background: transparent url("../images/white_nav_icon.png") 50% 0 no-repeat;
 }
-/* line 44, ../../stylesheets/partials/_superfish-navbar.sass */
+/* line 44, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish-navbar.sass */
 .sf-navbar li.active {
   background: #f37421 url("../images/white_nav_icon.png") 50% 0 no-repeat;
 }
-/* line 47, ../../stylesheets/partials/_superfish-navbar.sass */
+/* line 47, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish-navbar.sass */
 .sf-navbar ul li:hover, .sf-navbar ul li.sfHover {
   background-color: #848a91;
 }
 
-/* line 51, ../../stylesheets/partials/_superfish-navbar.sass */
+/* line 51, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish-navbar.sass */
 ul.sf-navbar ul li:hover li, ul.sf-navbar ul li.sfHover li {
   background-color: #848a91;
 }
 
-/* line 55, ../../stylesheets/partials/_superfish-navbar.sass */
+/* line 55, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish-navbar.sass */
 .sf-navbar ul a:focus, .sf-navbar ul a:hover, .sf-navbar ul a:active {
   background-color: #848a91;
 }
 
-/* line 59, ../../stylesheets/partials/_superfish-navbar.sass */
+/* line 59, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish-navbar.sass */
 ul.sf-navbar li li li:hover, ul.sf-navbar li li li.sfHover {
   background: #e6eeff;
 }
 
-/* line 66, ../../stylesheets/partials/_superfish-navbar.sass */
+/* line 66, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish-navbar.sass */
 .sf-navbar li li.current li.current {
   background: #e6eeff;
 }
-/* line 69, ../../stylesheets/partials/_superfish-navbar.sass */
+/* line 69, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish-navbar.sass */
 .sf-navbar ul li li a:focus, .sf-navbar ul li li a:hover, .sf-navbar ul li li a:active {
   background: #e6eeff;
 }
 
-/* line 73, ../../stylesheets/partials/_superfish-navbar.sass */
+/* line 73, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish-navbar.sass */
 ul.sf-navbar .current ul {
   left: 0;
   top: 2.5em;
   /* match top ul list item height */
 }
-/* line 78, ../../stylesheets/partials/_superfish-navbar.sass */
+/* line 78, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish-navbar.sass */
 ul.sf-navbar ul li:hover ul, ul.sf-navbar ul li.sfHover ul {
   left: 0;
   top: 2.5em;
   /* match top ul list item height */
 }
-/* line 82, ../../stylesheets/partials/_superfish-navbar.sass */
+/* line 82, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish-navbar.sass */
 ul.sf-navbar .current ul ul {
   top: -999em;
 }
 
-/* line 86, ../../stylesheets/partials/_superfish-navbar.sass */
+/* line 86, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish-navbar.sass */
 .sf-navbar li li.current > a {
   font-weight: normal;
   color: white;
 }
-/* line 90, ../../stylesheets/partials/_superfish-navbar.sass */
+/* line 90, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish-navbar.sass */
 .sf-navbar ul .sf-sub-indicator {
   background-position: -10px -100px;
 }
-/* line 93, ../../stylesheets/partials/_superfish-navbar.sass */
+/* line 93, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish-navbar.sass */
 .sf-navbar ul a > .sf-sub-indicator {
   background-position: 0 -100px;
 }
-/* line 95, ../../stylesheets/partials/_superfish-navbar.sass */
+/* line 95, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish-navbar.sass */
 .sf-navbar ul a:focus > .sf-sub-indicator, .sf-navbar ul a:hover > .sf-sub-indicator, .sf-navbar ul a:active > .sf-sub-indicator {
   background-position: -10px -100px;
   /* arrow hovers for modern browsers */
 }
-/* line 99, ../../stylesheets/partials/_superfish-navbar.sass */
+/* line 99, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish-navbar.sass */
 .sf-navbar ul li:hover > a > .sf-sub-indicator, .sf-navbar ul li.sfHover > a > .sf-sub-indicator {
   background-position: -10px -100px;
   /* arrow hovers for modern browsers */
 }
-/* line 102, ../../stylesheets/partials/_superfish-navbar.sass */
+/* line 102, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish-navbar.sass */
 .sf-navbar > li > ul {
   background: transparent;
   padding: 20px 0 0 86px;
