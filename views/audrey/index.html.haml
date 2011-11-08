@@ -4,8 +4,10 @@
     #bio
       %h1 Audrey Shuster
       %p “Audrey is thoughtful and measured in her approach. She is methodical and professional and dedicated to her customer’s success.”
-      %h2 Irene Murphy
-      %p Managing Director, Vantage Partners
+      %h2 
+        – a perspective from Irene,
+        %br/
+        a Vantage colleague
   .divider
   
 #biography-content
@@ -18,7 +20,7 @@
           <img src='images/audrey_partner.png'/>            
         #partner-tag
           %h3 Audrey Shuster
-          %h4 Managing Partner
+          %h4 Managing Director
         .clear  
         #icons
           #mail
@@ -26,29 +28,31 @@
           #fax
           %a{:href => "http://www.linkedin.com/in/audreyshuster"}
             #linkedin
-          %a{:href => "/"}
-            #tweet
-          %a{:href => "/"}
-            #podcast
+          -#   
+            %a{:href => "/"}
+              #tweet
+            %a{:href => "/"}
+              #podcast 
         #info
           %h2
             %a{:href => "mailto:audrey@vantagepartners.net"} audrey@.vantagepartners.net
-          %h2 Direct: (650) 579-7300, ext 101
+          %h2 Direct: (650) 579-7300, ext 102
           %h2 Fax: (650) 590-7470
           %h2
             %a{:title => "/", :href => "http://www.linkedin.com/in/audreyshuster"} Audrey On LinkedIn
-          %h2
-            %a{:title => "/", :href => "/"} Audrey's Tweets
-          %h2
-            %a{:title => "/", :href => "/"} Audrey's Podcasts
+          -# 
+            %h2
+              %a{:title => "/", :href => "/"} Audrey's Tweets
+            %h2
+              %a{:title => "/", :href => "/"} Audrey's Podcasts
       .bio-info
         %p Audrey Shuster is a 20+ year veteran of the technology industry and has been an executive search consultant for nearly 15 years. Her experience and expertise includes SVP and VP positions in professional services, marketing, sales, and business development.  
-        %p Her consultative practice has included advising many of the world’s leading public technology  firms as well as numerous private companies – all funded by top-tier venture capital firms. A partial list of public & private clients include: Yahoo!, Symantec / VERITAS, Oracle, SAP,   HP / Mercury, HP / Palm Computing, 3Com, MarkLogic,  Webroot Software, MarkMonitor and Zend Technologies.
+        %p Her consultative practice has included advising many of the world’s leading public technology firms, as well as numerous private companies – all funded by top-tier venture capital firms. A partial list of public & private clients include: Yahoo!, Symantec / VERITAS, Oracle, SAP,   HP / Mercury, HP / Palm Computing, 3Com, MarkLogic,  Webroot Software, MarkMonitor and Zend Technologies.
         %p 
-          Previous to Vantage, Audrey was a founding Partner at Silicon Search Partners, a boutique executive search firm serving the tech sector. Prior to her career in executive search, Audrey has held key leadership and operational roles that span Sales (direct and OEM), Marketing, Strategic Alliances and channels with both domestic and international scope and reach. As an operational lead at Fortune 100 and venture-backed technology firms, she has acquired a knowledge base of the tech sectors’ most
+          Previous to Vantage, Audrey was a founding Partner at Silicon Search Partners, a boutique executive search firm serving the tech sector. Prior to her career in executive search, Audrey has held key leadership and operational roles that span Sales (direct and OEM), Marketing, Strategic Alliances and Channels with both domestic and international scope and reach. As an operational lead at Fortune 100 and venture-backed technology firms, she has acquired a knowledge base of the tech sector’s most
           %br/
           profound needs and requirements for successful outcomes. 
-        %p Audrey received her a Bachelors degree from California Polytechnic State University, San Luis Obispo
+        %p Audrey received her Bachelors degree from California Polytechnic State University, San Luis Obispo.
     #right-content
       %a{:href=>'/',:title=>'Meet Tom'} Tom Callahan
       %br/
@@ -78,14 +82,12 @@
       #domain
         .domain-ct
           %h1 DOMAIN FOCUS:
-          %br/
           %h2
             Enterprise / SaaS
             %br/ 
             Consumer / Internet
             %br/ 
             Mobile / Wireless
-            %br/
             %br/
           #reviews
             %h2 REVIEWS

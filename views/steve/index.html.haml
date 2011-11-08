@@ -3,9 +3,11 @@
     #transparent
     #bio
       %h1 Steve O'Deegan
-      %p “Steve’s strategic and creative disposition allows him to be a role model for other experienced search professionals.  Expect to learn something anytime you interact with him.” 
-      %h2 Tom Callahan
-      %p Managing Director Vantage Partners.
+      %p “Steve’s strategic and creative disposition allows him to be a role model for other experienced search professionals. Expect to learn something anytime you interact with him.” 
+      %h2 
+        – a perspective from Tom,
+        %br/
+        a Vantage colleague
   .divider
   
 #biography-content
@@ -18,7 +20,7 @@
           <img src='images/steve_partner.png'/>
         #partner-tag
           %h3 Steve O'Deegan
-          %h4 Managing Partner
+          %h4 Managing Director
         .clear  
         #icons
           #mail
@@ -26,10 +28,11 @@
           #fax
           %a{:href => "http://www.linkedin.com/in/sodeegan"}
             #linkedin
-          %a{:href => "/"}
-            #tweet
-          %a{:href => "/"}
-            #podcast
+          -#
+            %a{:href => "/"}
+              #tweet
+            %a{:href => "/"}
+              #podcast
         #info
           %h2
             %a{:href => "mailto:steve@vantagepartners.net"} steve@vantagepartners.net
@@ -37,21 +40,22 @@
           %h2 Fax: (650) 590-7470
           %h2
             %a{:title => "/", :href => "http://www.linkedin.com/in/sodeegan"} Steve On LinkedIn
-          %h2
-            %a{:title => "/", :href => "/"} Steve's Tweets
-          %h2
-            %a{:title => "/", :href => "/"} Steve's Podcasts
+          -#
+            %h2
+              %a{:title => "/", :href => "/"} Steve's Tweets
+            %h2
+              %a{:title => "/", :href => "/"} Steve's Podcasts
       .bio-info
-        %p Steve O’Deegan joined Vantage Partners in 2010.   His background combines 16 years in executive search and recent start-up operating experience.  He has started a search firm from scratch (Celerity), served as a Managing Partner of two other firms (Laurel Group, Austin McGregor) and was a key Principal at leading search firms Howard Fischer and Quest Search Associates.  Prior to Vantage Partners, Steve was VP Sales and Marketing of Web 2.0 start-up Fastpencil (ebook self-publishing industry).  Prior to his search career, Steve was a Corporal in the U.S. Army (25th I.D./Ranger) and certified athletic trainer 
-        %p Steve’s own entrepreneurial experience within the SaaS sector coupled with his extensive search work with early stage companies, has shaped Steve’s appreciation for the many challenges a young company faces during its maturation process. Steve’s current focus is in two key market areas; SaaS/Open-Source software and Consumer Internet Services (all things Social).  Within SaaS/Open-Source, his clients have included, Boomi (acquired by Dell), SpringCM, Host Analytics, Helpstream (acq. by Innotas), Daptiv, Xensource (acq. by Citrix) and Splunk.  Within Consumer Services/Social, his clients have included, Get Satisfaction, Oracle (Social Collaboration BU), Inigral (Schools on Facebook) and Medpedia (Consumer healthcare Wikipedia) among many others.  
+        %p Steve O’Deegan joined Vantage Partners in 2010.   His background combines 16 years in executive search and recent start-up operating experience.  He has started a search firm from scratch (Celerity), served as a Managing Partner of two other firms (Laurel Group, Austin McGregor) and was a key Principal at leading search firms Howard Fischer and Quest Search Associates.  Prior to Vantage Partners, Steve was VP Sales and Marketing of Web 2.0 start-up Fastpencil (ebook self-publishing industry).  Prior to his search career, Steve was a Corporal in the U.S. Army (25th I.D./Ranger) and certified athletic trainer. 
+        %p Steve's own entrepreneurial experience within the SaaS sector, coupled with his extensive search work with early-stage companies, has shaped Steve's appreciation for the many challenges a young company faces during its maturation process. Steve focuses on three key areas of the market that are rapidly coming together – SaaS / Cloud, Mobile and Consumer / Internet (all things Social).   His clients have included Boomi (acquired by Dell), SpringCM, Host Analytics, Helpstream (acquired by Innotas), Daptiv, Xensource (acquired by Citrix), Splunk, Get Satisfaction, Oracle, Inigral, and Medpedia, among many others.  
         %p 
-          Steve’s recent Writings: 
+          Steve’s recent writings: 
           %br/ 
-          Whitepaper: Thought Leaders of the SaaS Revolution 
-          %br/ 
-          Whitepaper: Living in the Cloud, Meanings, Myths and Opportunities
+          "Thought Leaders of the SaaS Revolution"
           %br/
-          Podcast Series: Catalyst’s in the Cloud, Changing the Way People, Work, Connect and Collaborate
+          (Whitepaper) 
+          %br/ 
+          "Living in the Cloud, Meanings, Myths and Opportunities" (Whitepaper)
         
     #right-content
       %a{:href=>'/',:title=>'Meet Tom'} Tom Callahan
@@ -82,7 +86,6 @@
       #domain
         .domain-ct
           %h1 DOMAIN FOCUS:
-          %br/
           %h2
             Enterprise / SaaS
             %br/ 
@@ -90,14 +93,16 @@
             %br/ 
             Mobile / Wireless
             %br/
-            %br/
           #reviews
             %h2 REVIEWS
             %p
               “I’ve engaged with Steve on multiple searches over several years—both as a candidate and as a client.  His professionalism, tenacity, attention to detail, and work ethic are unmatched.   
               %br/ 
               Steve (Vantage) has delivered great candidates and results every single time.”
-            %h2 Tony Nemelka, CEO, Helpstream
+            %h2 
+              Tony Nemelka, 
+              %br/
+              (former) CEO, Helpstream
       #recent
         .recent-ct
           %h1 RECENT SEARCHES:
@@ -125,11 +130,6 @@
             %br/
             (Ignition Partners, August Capital, Seven Rosen, JK&B)
             %br/
-          %h2 • VP Sales, Boomi (acq. By Dell)
-          %h3
-            Cloud Integration Software
-            %br/
-            (Firstmark Capital)
   
 #bottom-content
   .container

@@ -50,7 +50,7 @@ Vantage.utils = function () {
         {image: "razoo", alt: "Razoo", grid: 2},
       ],
       bigpic: "April_HomePage_IMG_1472.png",
-      name: "April B. King",
+      name: "April King",
       jobs: ["Specializing in Consumer / Internet","Enterprise / SaaS","Mobile / Wireless"]
     },
     "tom": {
@@ -161,7 +161,7 @@ Vantage.utils = function () {
       ],
       bigpic: "Brynne_HomePage_IMG-1416.png",
       name: "Brynne Pogoncheff",
-      jobs: ["Vantage Team Coordinator"]
+      jobs: ["Vantage Team Executive Assistant"]
     },
   }
   
@@ -415,7 +415,7 @@ $(function(){
     }).appendTo("#chart_2");
     $("<div>", {
         "class": 'chart_label_text',
-        text: "Success Ratio"
+        text: "Repeat Business"
     }).appendTo("#chart_2");
     
     var plot3 = jQuery.jqplot ('chart_3',[[['High Growth Client', 94], ['Other', 6]]], {
@@ -442,12 +442,12 @@ $(function(){
     }).appendTo("#chart_3");
     $("<div>", {
         "class": 'chart_label_text',
-        text: "Success Ratio"
+        text: "High-Growth Client"
     }).appendTo("#chart_3");
     
     
   } else {
-    // load some cheesy image of the pie charts for the wimpy browser without a canvas element
+    // load image of the pie charts for the browser without a canvas element
   }
   
 });

@@ -524,14 +524,14 @@ ul.sf-navbar .current ul ul {
 /* point right for anchors in subs */
 /* apply hovers to modern browsers */
 /** remove shadow on first submenu ** */
-/* line 1, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 1, ../../stylesheets/partials/_style.sass */
 #wrapper {
   margin: 0 auto;
   padding: 0;
   width: 960px;
 }
 
-/* line 6, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 6, ../../stylesheets/partials/_style.sass */
 #footer {
   float: left;
   background: #36434d url("../images/footer.png") repeat-x scroll 0 0;
@@ -542,7 +542,7 @@ ul.sf-navbar .current ul ul {
   position: relative;
 }
 
-/* line 15, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 15, ../../stylesheets/partials/_style.sass */
 #foot {
   background: #a9b2ba url("../images/foot-bkgrng.png") no-repeat scroll 0 16px;
   width: 960px;
@@ -553,7 +553,7 @@ ul.sf-navbar .current ul ul {
   margin-bottom: 0;
   padding: 0;
 }
-/* line 24, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 24, ../../stylesheets/partials/_style.sass */
 #foot #left {
   float: left;
   padding: 0;
@@ -562,7 +562,7 @@ ul.sf-navbar .current ul ul {
   margin: 0;
   padding: 0;
 }
-/* line 31, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 31, ../../stylesheets/partials/_style.sass */
 #foot #right {
   float: right;
   padding: 37px 0 0 27px;
@@ -572,7 +572,7 @@ ul.sf-navbar .current ul ul {
   background-color: white;
   background: white url("../images/foot-right-bkgrnd.png") no-repeat scroll -9px 0;
 }
-/* line 39, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 39, ../../stylesheets/partials/_style.sass */
 #foot #logo {
   float: right;
   padding: 0 20px 0 0;
@@ -582,7 +582,7 @@ ul.sf-navbar .current ul ul {
   background: white url("../images/footer-logo.png") no-repeat scroll 0 0;
 }
 
-/* line 47, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 47, ../../stylesheets/partials/_style.sass */
 #footer h4 {
   font-family: pragmatica-web, sans-serif;
   font-style: normal;
@@ -594,7 +594,7 @@ ul.sf-navbar .current ul ul {
   line-height: 1.3;
   letter-spacing: 0.02em;
 }
-/* line 57, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 57, ../../stylesheets/partials/_style.sass */
 #footer h4 a {
   color: #f37421;
   text-decoration: none;
@@ -604,13 +604,13 @@ ul.sf-navbar .current ul ul {
   font-family: pragmatica-web, sans-serif;
   font-style: normal;
 }
-/* line 65, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 65, ../../stylesheets/partials/_style.sass */
 #footer h4 a:hover {
   color: #2f404c;
   text-decoration: none;
 }
 
-/* line 68, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 68, ../../stylesheets/partials/_style.sass */
 .clear {
   clear: both;
   display: block;
@@ -622,13 +622,13 @@ ul.sf-navbar .current ul ul {
 
 /* Navigation
  *---------------------------------------------------------------------------------------------------- */
-/* line 79, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 79, ../../stylesheets/partials/_style.sass */
 #navigation {
   height: 45px;
   background-color: #f37421;
 }
 
-/* line 85, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 85, ../../stylesheets/partials/_style.sass */
 .nav-top {
   line-height: 1;
   list-style: none outside none;
@@ -637,12 +637,12 @@ ul.sf-navbar .current ul ul {
   z-index: 99;
   float: left;
 }
-/* line 92, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 92, ../../stylesheets/partials/_style.sass */
 .nav-top li {
   float: left;
   width: auto;
 }
-/* line 95, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 95, ../../stylesheets/partials/_style.sass */
 .nav-top li a {
   color: #2f404c !important;
   display: block;
@@ -655,13 +655,13 @@ ul.sf-navbar .current ul ul {
   font: normal 12px Dante MT Std serif;
   letter-spacing: 0.08em;
 }
-/* line 106, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 106, ../../stylesheets/partials/_style.sass */
 .nav-top a:hover {
   color: white !important;
   text-decoration: none !important;
 }
 
-/* line 110, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 110, ../../stylesheets/partials/_style.sass */
 #navigation-footer {
   margin: 0px;
   padding: 10px 0 0 50px;
@@ -670,7 +670,7 @@ ul.sf-navbar .current ul ul {
   width: 500px;
 }
 
-/* line 119, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 119, ../../stylesheets/partials/_style.sass */
 .nav-bottom {
   line-height: 1;
   list-style: none outside none;
@@ -679,12 +679,12 @@ ul.sf-navbar .current ul ul {
   z-index: 99;
   float: left;
 }
-/* line 126, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 126, ../../stylesheets/partials/_style.sass */
 .nav-bottom li {
   float: left;
   width: auto;
 }
-/* line 129, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 129, ../../stylesheets/partials/_style.sass */
 .nav-bottom li a {
   color: #a9b2ba !important;
   display: block;
@@ -697,7 +697,7 @@ ul.sf-navbar .current ul ul {
   font: normal 12px Dante MT Std serif;
   letter-spacing: 0.08em;
 }
-/* line 140, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 140, ../../stylesheets/partials/_style.sass */
 .nav-bottom a:hover {
   color: #f37421 !important;
   text-decoration: none !important;
@@ -706,7 +706,7 @@ ul.sf-navbar .current ul ul {
 /* I'm leaving this up to your discretion */
 /*     Content
  * ---------------------------------------------------------------------------------------------------- */
-/* line 151, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 151, ../../stylesheets/partials/_style.sass */
 #logo {
   margin: 0;
   padding: 0;
@@ -717,7 +717,7 @@ ul.sf-navbar .current ul ul {
 
 /*     Search
  * ---------------------------------------------------------------------------------------------------- */
-/* line 163, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 163, ../../stylesheets/partials/_style.sass */
 .search {
   float: right;
   margin: 40px 44px 0 0;
@@ -729,14 +729,14 @@ ul.sf-navbar .current ul ul {
   display: block;
 }
 
-/* line 173, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 173, ../../stylesheets/partials/_style.sass */
 #search_form {
   float: left;
   margin: 0;
   padding: 0px;
   height: 23px;
 }
-/* line 178, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 178, ../../stylesheets/partials/_style.sass */
 #search_form #q {
   width: 182px;
   height: 17px;
@@ -750,11 +750,11 @@ ul.sf-navbar .current ul ul {
   float: left;
   background: none;
 }
-/* line 190, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 190, ../../stylesheets/partials/_style.sass */
 #search_form #q:hover {
   background-color: #dddddd;
 }
-/* line 192, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 192, ../../stylesheets/partials/_style.sass */
 #search_form input {
   background: white url("../images/magnifying_glass.png") no-repeat 0 0;
   height: 24px;
@@ -766,12 +766,12 @@ ul.sf-navbar .current ul ul {
   margin: 0 0 0 6px;
   border: none;
 }
-/* line 202, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 202, ../../stylesheets/partials/_style.sass */
 #search_form input:hover {
   background-position: -25px 0;
 }
 
-/* line 205, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 205, ../../stylesheets/partials/_style.sass */
 #globalsearch {
   margin: 0;
   padding: 0;
@@ -780,7 +780,7 @@ ul.sf-navbar .current ul ul {
   height: 90px;
 }
 
-/* line 212, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 212, ../../stylesheets/partials/_style.sass */
 #g-search {
   display: block;
   background: white url("../images/search-placeholder.png") no-repeat scroll 0 40px;
@@ -792,154 +792,156 @@ ul.sf-navbar .current ul ul {
 }
 
 /* Contact us page */
-/* line 223, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 223, ../../stylesheets/partials/_style.sass */
 #content-contact-us {
   /*margin:30px 37px 0 36px; */
   margin-top: 40px;
 }
-/* line 226, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 226, ../../stylesheets/partials/_style.sass */
 #content-contact-us .ct {
   background: transparent url("../images/contact-us-bkgrnd_870px.png") no-repeat scroll 0 -25px;
   margin: 0;
   padding: 0;
   height: 314px;
 }
-/* line 231, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 231, ../../stylesheets/partials/_style.sass */
 #content-contact-us .address-info {
   padding-top: 37px;
 }
-/* line 233, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 233, ../../stylesheets/partials/_style.sass */
 #content-contact-us .address-info #category {
   font: normal normal 600 1.3em Arial, sans-serif;
   letter-spacing: 0.11em;
   color: #f37421;
 }
-/* line 237, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 237, ../../stylesheets/partials/_style.sass */
 #content-contact-us .address-info h1 {
   padding-top: 10px;
   font: normal 1.45em Dante MT sans-serif;
   color: #5f6a72;
   line-height: 1.37em;
 }
-/* line 242, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 242, ../../stylesheets/partials/_style.sass */
 #content-contact-us .address-info h2 {
   font: bold 1.1em Arial, sans-serif;
   color: #5f6a72;
   line-height: 2.16em;
 }
-/* line 246, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 246, ../../stylesheets/partials/_style.sass */
 #content-contact-us .info h2 {
   line-height: 34px;
+  color: #5f6a72;
+  font-weight: 600;
 }
-/* line 248, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 250, ../../stylesheets/partials/_style.sass */
 #content-contact-us .address-info h2 a, #content-contact-us .info h2 a {
   font: bold 1.1em Arial, sans-serif;
   color: #5f6a72;
   line-height: 2.05em;
   text-decoration: none;
 }
-/* line 253, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 255, ../../stylesheets/partials/_style.sass */
 #content-contact-us .address-info h2 a:hover {
   font: bold 1.1em Arial, sans-serif;
   color: #f37421;
   line-height: 2.05em;
 }
-/* line 257, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 259, ../../stylesheets/partials/_style.sass */
 #content-contact-us .info {
   padding-top: 30px;
   padding-left: 10px;
 }
-/* line 258, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 260, ../../stylesheets/partials/_style.sass */
 #content-contact-us .info h2 a:hover {
   font: bold 1.1em Arial, sans-serif;
   color: #f37421;
   line-height: 2.05em;
 }
-/* line 264, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 266, ../../stylesheets/partials/_style.sass */
 #content-contact-us .info .icons {
   float: right;
   /*margin:0px;
    *padding: 3px 0 0 0;
    *width:55px; */
 }
-/* line 269, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 271, ../../stylesheets/partials/_style.sass */
 #content-contact-us .info #mail {
   width: 41px;
   height: 34px;
   background: transparent url("../images/contact_icons.png") no-repeat scroll -6px 0;
 }
-/* line 273, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 275, ../../stylesheets/partials/_style.sass */
 #content-contact-us .info #mail:hover {
   width: 41px;
   height: 34px;
   background: transparent url("../images/contact_icons-2.png") no-repeat scroll -6px 0;
 }
-/* line 277, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 279, ../../stylesheets/partials/_style.sass */
 #content-contact-us .info #direct {
   width: 41px;
   height: 34px;
   background: transparent url("../images/contact_icons.png") no-repeat scroll -6px -33px;
 }
-/* line 281, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 283, ../../stylesheets/partials/_style.sass */
 #content-contact-us .info #direct:hover {
   width: 41px;
   height: 34px;
   background: transparent url("../images/contact_icons-2.png") no-repeat scroll -6px -33px;
 }
-/* line 285, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 287, ../../stylesheets/partials/_style.sass */
 #content-contact-us .info #fax {
   width: 41px;
   height: 34px;
   background: transparent url("../images/contact_icons.png") no-repeat scroll -6px -66px;
 }
-/* line 289, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 291, ../../stylesheets/partials/_style.sass */
 #content-contact-us .info #fax:hover {
   width: 41px;
   height: 34px;
   background: transparent url("../images/contact_icons-2.png") no-repeat scroll -6px -66px;
 }
-/* line 293, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 295, ../../stylesheets/partials/_style.sass */
 #content-contact-us .info #tweet {
   width: 39px;
   height: 34px;
   background: transparent url("../images/socialmedia_icons.png") no-repeat scroll 6px 0;
 }
-/* line 297, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 299, ../../stylesheets/partials/_style.sass */
 #content-contact-us .info #tweet:hover {
   width: 39px;
   height: 34px;
   background: transparent url("../images/socialmedia_icons-2.png") no-repeat scroll 6px 0;
 }
-/* line 301, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 303, ../../stylesheets/partials/_style.sass */
 #content-contact-us #facebook {
   width: 39px;
   height: 34px;
   background: transparent url("../images/socialmedia_icons.png") no-repeat scroll 6px -33px;
 }
-/* line 306, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 308, ../../stylesheets/partials/_style.sass */
 #content-contact-us .info #facebook:hover {
   width: 39px;
   height: 34px;
   background: transparent url("../images/socialmedia_icons-2.png") no-repeat scroll 6px -33px;
 }
-/* line 310, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 312, ../../stylesheets/partials/_style.sass */
 #content-contact-us .info #linkedin {
   width: 39px;
   height: 34px;
   background: transparent url("../images/socialmedia_icons.png") no-repeat scroll 6px -65px;
 }
-/* line 314, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 316, ../../stylesheets/partials/_style.sass */
 #content-contact-us .info #linkedin:hover {
   width: 39px;
   height: 34px;
   background: transparent url("../images/socialmedia_icons-2.png") no-repeat scroll 6px -65px;
 }
-/* line 318, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 320, ../../stylesheets/partials/_style.sass */
 #content-contact-us #bottom-content {
   padding-top: 30px;
   margin-bottom: 350px;
 }
-/* line 321, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 323, ../../stylesheets/partials/_style.sass */
 #content-contact-us #bottom-content p {
   background-color: #c1cacf;
   font: normal 1.5em Dante MT sans-serif;
@@ -948,28 +950,28 @@ ul.sf-navbar .current ul ul {
   padding: 20px;
 }
 
-/* line 328, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 330, ../../stylesheets/partials/_style.sass */
 #contact_top_container {
   margin-top: 25px;
   padding-top: 25px;
 }
-/* line 331, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 333, ../../stylesheets/partials/_style.sass */
 #contact_top_container .ct {
   height: 331px;
   background-color: white;
   box-shadow: 0 0 7px 5px rgba(0, 0, 0, 0.3);
 }
-/* line 335, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 337, ../../stylesheets/partials/_style.sass */
 #contact_top_container .contact_content {
   margin: 0;
   padding: 50px 16px 15px 30px;
 }
-/* line 338, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 340, ../../stylesheets/partials/_style.sass */
 #contact_top_container .company_mission {
   margin: 0;
   padding: 0 16px 30px 30px;
 }
-/* line 341, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 343, ../../stylesheets/partials/_style.sass */
 #contact_top_container .contact_content h1 {
   margin: 0;
   padding: 0 0 15px 0;
@@ -979,12 +981,12 @@ ul.sf-navbar .current ul ul {
   line-height: 1.125;
 }
 
-/* line 349, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 351, ../../stylesheets/partials/_style.sass */
 span.highlight_orange {
   color: #f37421;
 }
 
-/* line 353, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 355, ../../stylesheets/partials/_style.sass */
 #contact_top_container .contact_content p {
   margin: 0;
   padding: 0 0 15px 0;
@@ -992,7 +994,7 @@ span.highlight_orange {
   color: #5f6a72;
   line-height: 1.65em;
 }
-/* line 359, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 361, ../../stylesheets/partials/_style.sass */
 #contact_top_container #small-icon {
   width: 70px;
   height: 79px;
@@ -1000,7 +1002,7 @@ span.highlight_orange {
   margin: 0;
   background-image: url("../images/small_icon.png");
 }
-/* line 365, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 367, ../../stylesheets/partials/_style.sass */
 #contact_top_container #side_container {
   margin: 0;
   padding: 0;
@@ -1008,19 +1010,19 @@ span.highlight_orange {
   float: left;
   height: 331px;
 }
-/* line 371, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 373, ../../stylesheets/partials/_style.sass */
 #contact_top_container .divider {
   height: 40px;
   background: white url("../images/slidedeck-home-images/divider-graphic-a.png") no-repeat 0 0;
 }
-/* line 375, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 377, ../../stylesheets/partials/_style.sass */
 #contact_top_container .company_mission h1 {
   font: normal 1.7em Neue Helvetica Arial, sans-serif;
   letter-spacing: 0.05em;
   line-height: 0.7em;
   color: #f37421;
 }
-/* line 380, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 382, ../../stylesheets/partials/_style.sass */
 #contact_top_container .company_mission h2 {
   font: italic 1.1em Georgia, Times sans-serif;
   line-height: 2.25em;
@@ -1028,7 +1030,7 @@ span.highlight_orange {
   color: #5f6a72;
 }
 
-/* line 386, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 388, ../../stylesheets/partials/_style.sass */
 #bigshot {
   margin-left: auto;
   margin-right: auto;
@@ -1039,47 +1041,47 @@ span.highlight_orange {
 }
 
 /****************** TEAM VANTAGE ****************** */
-/* line 396, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 398, ../../stylesheets/partials/_style.sass */
 #team_vantage {
   height: 357px;
 }
-/* line 398, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 400, ../../stylesheets/partials/_style.sass */
 #team_vantage dd {
   background-color: white;
 }
 
-/* line 401, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 403, ../../stylesheets/partials/_style.sass */
 .mini-shot {
   padding: 10px 0 0 0;
   height: 110px;
 }
 
-/* line 405, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 407, ../../stylesheets/partials/_style.sass */
 .color_block {
   margin-top: 10px;
   height: 230px;
   background-color: #f37421;
 }
 
-/* line 410, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 412, ../../stylesheets/partials/_style.sass */
 .mini-shot-light {
   opacity: 0.5;
   background-color: #f37321;
   opacity: 0.5;
 }
 
-/* line 415, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 417, ../../stylesheets/partials/_style.sass */
 .vantage_bio {
   text-align: right;
-  padding-top: 15px;
+  padding-top: 10px;
   padding-right: 5px;
 }
-/* line 419, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 421, ../../stylesheets/partials/_style.sass */
 .vantage_bio h1 {
   font: 100 2.25em Dante MT Std serif;
   color: #f37421;
 }
-/* line 422, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 424, ../../stylesheets/partials/_style.sass */
 .vantage_bio p {
   font: 100 1.2em Dante MT Std serif;
   color: black;
@@ -1088,7 +1090,7 @@ span.highlight_orange {
   line-height: 1em;
 }
 
-/* line 429, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 431, ../../stylesheets/partials/_style.sass */
 h1.meet {
   text-align: right;
   padding-top: 25px;
@@ -1097,7 +1099,7 @@ h1.meet {
   color: #f37421;
 }
 
-/* line 436, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 438, ../../stylesheets/partials/_style.sass */
 h2.master {
   text-align: left;
   padding-top: 42px;
@@ -1105,33 +1107,33 @@ h2.master {
   color: black;
 }
 
-/* line 442, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 444, ../../stylesheets/partials/_style.sass */
 #content_home {
   margin: 40px 0 20px 0;
 }
-/* line 444, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 446, ../../stylesheets/partials/_style.sass */
 #content_home .ct {
   background: #a9b2ba url("../images/main-bkgrnd.png") 0 0 no-repeat;
   height: 700px;
 }
-/* line 447, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 449, ../../stylesheets/partials/_style.sass */
 #content_home .ct h2 {
   font: normal normal 600 1.3em Arial, sans-serif;
   letter-spacing: 0.11em;
   color: #f37421;
 }
-/* line 451, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 453, ../../stylesheets/partials/_style.sass */
 #content_home .ct h3 {
   font: normal normal normal 1.9em Dante MT sans-serif;
   color: #5d87a1;
   margin: 14px 0;
 }
-/* line 455, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 457, ../../stylesheets/partials/_style.sass */
 #content_home .ct p {
   font: normal normal normal 1.35em/1.85em Georgia, Times, serif;
   color: #2f404c;
 }
-/* line 458, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 460, ../../stylesheets/partials/_style.sass */
 #content_home .ct span.average {
   background: url("../images/down-arrow.png") 0 5px no-repeat;
   color: #5f6a72;
@@ -1142,7 +1144,7 @@ h2.master {
   letter-spacing: 0.8px;
   padding-left: 22px;
 }
-/* line 467, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 469, ../../stylesheets/partials/_style.sass */
 #content_home .ct p.industry {
   color: #f37421;
   font-family: franklin-gothic-urw-condensed, sans-serif;
@@ -1152,17 +1154,17 @@ h2.master {
   text-align: right;
 }
 
-/* line 475, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 477, ../../stylesheets/partials/_style.sass */
 #left-content {
   background-color: white;
 }
-/* line 477, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 479, ../../stylesheets/partials/_style.sass */
 #left-content .ct {
   padding: 30px 20px 0 35px;
   height: 325px;
 }
 
-/* line 481, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 483, ../../stylesheets/partials/_style.sass */
 #infographic {
   background: transparent url("../images/infographic-placeholder.png") no-repeat 0 0;
   height: 300px;
@@ -1171,23 +1173,23 @@ h2.master {
   display: block;
 }
 
-/* line 488, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 490, ../../stylesheets/partials/_style.sass */
 #right-content {
   background-color: #f37421;
   height: 100%;
 }
-/* line 491, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 493, ../../stylesheets/partials/_style.sass */
 #right-content .divider-small {
   background: #dddddd url("../images/divider.png") no-repeat scroll 0 0;
   height: 39px;
   width: 230px;
 }
-/* line 495, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 497, ../../stylesheets/partials/_style.sass */
 #right-content #newsfeed {
   margin: 0;
   padding: 10px 0 0 0;
 }
-/* line 498, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 500, ../../stylesheets/partials/_style.sass */
 #right-content #newsfeed h1 {
   font-family: pragmatica-web-n3, pragmatica-web, sans-serif;
   font-style: normal;
@@ -1200,7 +1202,7 @@ h2.master {
   float: left;
   line-height: 0.5em;
 }
-/* line 509, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 511, ../../stylesheets/partials/_style.sass */
 #right-content #newsfeed .rss-icon {
   height: 20px;
   width: 21px;
@@ -1209,25 +1211,25 @@ h2.master {
   background: transparent url("../images/rss-feed.png") no-repeat 0 0;
   float: left;
 }
-/* line 516, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 518, ../../stylesheets/partials/_style.sass */
 #right-content .content-block {
   float: left;
   margin: 0;
   padding: 0 0 0 15px;
 }
-/* line 520, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 522, ../../stylesheets/partials/_style.sass */
 #right-content .content-block .date {
   font: normal normal 300 12px/16px pragmatica-web-n3, pragmatica-web, sans-serif;
   color: white;
   letter-spacing: 0.075em;
   float: left;
 }
-/* line 525, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 527, ../../stylesheets/partials/_style.sass */
 #right-content .content-block span.date-divider {
   font: normal normal 300 18px/16px pragmatica-web-n3, pragmatica-web, sans-serif;
   color: white;
 }
-/* line 528, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 530, ../../stylesheets/partials/_style.sass */
 #right-content .content-block .author {
   font: italic normal 300 12px/20px Georgia, serif;
   color: white;
@@ -1235,7 +1237,7 @@ h2.master {
   padding: 0 0 0 5px;
   float: left;
 }
-/* line 534, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 536, ../../stylesheets/partials/_style.sass */
 #right-content .content-block h3 {
   font: normal normal 300 16px/16px Helvetica, Arial, sans-serif;
   color: #2f404c;
@@ -1244,7 +1246,7 @@ h2.master {
   margin: 0;
   float: left;
 }
-/* line 541, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 543, ../../stylesheets/partials/_style.sass */
 #right-content .content-block .photo-credit {
   font-family: Helvetica, Arial, sans-serif;
   font-style: normal;
@@ -1256,14 +1258,14 @@ h2.master {
   margin: 0;
   float: left;
 }
-/* line 551, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 553, ../../stylesheets/partials/_style.sass */
 #right-content .content-block .photo {
   margin: 0;
   padding: 0;
   width: 76px;
   height: 73px;
 }
-/* line 556, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 558, ../../stylesheets/partials/_style.sass */
 #right-content .content-block p {
   font: normal normal normal 1.17em/1.2em Helvetica, Arial, sans-serif;
   color: white;
@@ -1272,7 +1274,7 @@ h2.master {
   padding: 5px 16px 0 0;
   letter-spacing: 0.07em;
 }
-/* line 563, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 565, ../../stylesheets/partials/_style.sass */
 #right-content .content-block .more {
   font: italic normal 300 12px/20px Georgia, serif;
   color: white;
@@ -1280,18 +1282,18 @@ h2.master {
   padding: 0 5px 0px 142px;
   letter-spacing: 0.2em;
 }
-/* line 569, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 571, ../../stylesheets/partials/_style.sass */
 #right-content .content-block .more a {
   color: white;
   text-decoration: none;
   font-size: 12px;
 }
-/* line 573, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 575, ../../stylesheets/partials/_style.sass */
 #right-content .content-block .more a:hover {
   color: #2f404c;
   text-decoration: none;
 }
-/* line 576, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 578, ../../stylesheets/partials/_style.sass */
 #right-content .content-block .dots {
   background: transparent url("../images/dots.png") no-repeat 0 0;
   float: left;
@@ -1299,7 +1301,7 @@ h2.master {
   height: 3px;
   margin: 5px 0 10px 0;
 }
-/* line 582, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 584, ../../stylesheets/partials/_style.sass */
 #right-content .content-block .arrows {
   float: left;
   background: transparent url("../images/four-arrows.png") no-repeat -11px -10px;
@@ -1307,14 +1309,14 @@ h2.master {
   height: 10px;
   margin: 8px 0 0 0;
 }
-/* line 588, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 590, ../../stylesheets/partials/_style.sass */
 #right-content .social-media h4 {
   font: normal normal 300 14px/14px pragmatica-web-n3, pragmatica-web, sans-serif;
   color: white;
   padding-top: 5px;
   text-align: center;
 }
-/* line 593, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 595, ../../stylesheets/partials/_style.sass */
 #right-content #social-media {
   background: transparent url("../images/social-media.png") no-repeat center center;
   float: left;
@@ -1322,7 +1324,7 @@ h2.master {
   height: 54px;
   padding: 0 55px 5px 55px;
 }
-/* line 599, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 601, ../../stylesheets/partials/_style.sass */
 #right-content #social-media .facebook {
   background: transparent url("../images/facebook.png") no-repeat 0 0;
   float: left;
@@ -1331,11 +1333,11 @@ h2.master {
   margin: 9px 15px 0 18px;
   padding: 12px 0 0 20px;
 }
-/* line 606, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 608, ../../stylesheets/partials/_style.sass */
 #right-content #social-media .facebook:hover {
   background-position: -32px 0;
 }
-/* line 608, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 610, ../../stylesheets/partials/_style.sass */
 #right-content #social-media .twitter {
   background: transparent url("../images/twitter.png") no-repeat 0 0;
   float: left;
@@ -1344,12 +1346,12 @@ h2.master {
   margin: 17px 0 0 0;
   padding: 0;
 }
-/* line 615, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 617, ../../stylesheets/partials/_style.sass */
 #right-content #social-media .twitter:hover {
   background-position: -22px 0;
 }
 
-/* line 619, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_style.sass */
+/* line 621, ../../stylesheets/partials/_style.sass */
 .chart {
   height: 200px;
 }

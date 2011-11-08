@@ -17,18 +17,21 @@
       position: absolute
       right: 50px
       width: 225px
-      padding-top: 20px
+      padding-top: 30px
       h1
         font: normal normal normal 3.25em/1em Dante MT sans-serif
         padding-bottom: 5px
         color: $orange
       h2
-        font: normal normal bold 1.3em Dante MT Std serif
+        font: italic normal normal 1.3em/1.3em Dante MT Std serif 
         color: #000
         padding-top: 10px
+        span.italic
+          font-style: italic
       p
         font: normal normal normal 1.3em Dante MT Std serif
         color: #000
+        padding: 0 5px 0 0 
     #transparent
       background-color: #fff
       +grid(7)
@@ -77,6 +80,8 @@
           font: normal normal 400 1.3em/1.5em Georgia, sans-serif
           padding: 0 0 19px 5px
           text-align: justify
+          span.em
+            font-style: italic
       .ct
         +grid(7)
         +grid_push(1)
@@ -206,7 +211,7 @@
           text-align: left
           letter-spacing: 0.11em
         #reviews
-          padding-top: 0px
+          padding-top: 10px
           p
             margin: 0
             padding-bottom: 5px
@@ -219,7 +224,7 @@
       background-color: $bio-grey
       .recent-ct
         margin: 0
-        padding: 25px 50px 25px 40px
+        padding: 25px 70px 50px 40px
         h1
           color: white
           font: normal normal 400 1.5em/1.3em pragmatica-web-condensed,sans-serif

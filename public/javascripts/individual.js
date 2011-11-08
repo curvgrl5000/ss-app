@@ -199,7 +199,7 @@ Vantage.individual = function () {
       },
       {
         "company": "Infinian",
-        "sector": "Enterprise / SaaS and Mobile / Wireless",
+        "sector": "Enterprise / SaaS :: Mobile / Wireless",
         "position": "CEO"
       },
       {
@@ -674,6 +674,11 @@ Vantage.individual = function () {
     ],
     "irene": [
       {
+        "company": "Tablus",
+        "sector": "Enterprise / SaaS",
+        "position": "Board Member"
+      },
+      {
         "company": "SupportSoft",
         "sector": "Enterprise / SaaS",
         "position": "Board Member"
@@ -841,17 +846,12 @@ Vantage.individual = function () {
         "position": "CEO"
       },
       {
-        "company": "Mokafive",
+        "company": "MokaFive",
         "sector": "Enterprise / SaaS",
         "position": "CEO"
       },
       {
         "company": "Proximic",
-        "sector": "Consumer / Internet",
-        "position": "CEO"
-      },
-      {
-        "company": "VoloMedia",
         "sector": "Consumer / Internet",
         "position": "CEO"
       },
@@ -866,18 +866,13 @@ Vantage.individual = function () {
         "position": "SVP Network Operations"
       },
       {
-        "company": "Teros",
-        "sector": "Enterprise / SaaS",
-        "position": "VP Business Development"
-      },
-      {
         "company": "Zynga",
         "sector": "Consumer / Internet",
         "position": "VP Customer Service"
       },
       {
         "company": "Like.com",
-        "sector": "Consumer / Internet :: Enterprise / SaaS",
+        "sector": "Consumer / Internet",
         "position": "VP Finance"
       },
       {
@@ -910,11 +905,6 @@ Vantage.individual = function () {
         "sector": "Consumer / Internet",
         "position": "VP Product Management"
       },
-      {
-        "company": "Infoblox",
-        "sector": "Enterprise / SaaS",
-        "position": "Sr. Director of Marketing Communications"
-      }
     ],
     "may": [
       {
@@ -1212,7 +1202,7 @@ Vantage.individual = function () {
     ],
     "steve": [
       {
-        "company": "Helpstream",
+        "company": "Helpstream (acq'd by Innotas)",
         "sector": "Enterprise / SaaS",
         "position": "CEO"
       },
@@ -1220,6 +1210,21 @@ Vantage.individual = function () {
         "company": "Inigral",
         "sector": "Enterprise / SaaS",
         "position": "CEO"
+      },
+      {
+        "company": "Pubmatic",
+        "sector": "Consumer / Internet and Enterprise / SaaS",
+        "position": "CFO"
+      },
+      {
+        "company": "Aria Systems",
+        "sector": "Enterprise / SaaS",
+        "position": "CMO"
+      },
+      {
+        "company": "Get Satisfaction",
+        "sector": "Enterprise / SaaS",
+        "position": "Chief Product Officer"
       },
       {
         "company": "Oracle",
@@ -1237,7 +1242,7 @@ Vantage.individual = function () {
         "position": "VP Engineering, Enterprise 2.0"
       },
       {
-        "company": "Helpstream",
+        "company": "Helpstream (acq'd by Innotas)",
         "sector": "Enterprise / SaaS",
         "position": "VP Marketing"
       },
@@ -1252,12 +1257,7 @@ Vantage.individual = function () {
         "position": "VP Marketing"
       },
       {
-        "company": "Get Satisfaction",
-        "sector": "Enterprise / SaaS",
-        "position": "VP Product Management"
-      },
-      {
-        "company": "Boomi",
+        "company": "Boomi, (acq'd by Dell)",
         "sector": "Enterprise / SaaS",
         "position": "VP Sales"
       },
@@ -1269,7 +1269,7 @@ Vantage.individual = function () {
       {
         "company": "Host Analytics",
         "sector": "Enterprise / SaaS",
-        "position": "VP Services"
+        "position": "VP Professional Services"
       }
     ],
     "tom": [
