@@ -228,6 +228,11 @@ Vantage.individual = function () {
         "position": "COO"
       },
       {
+        "company": "Pubmatic",
+        "sector": "Consumer / Internet :: Enterprise / SaaS",
+        "position": "CFO"
+      },
+      {
         "company": "Rhapsody Networks",
         "sector": "Enterprise / SaaS",
         "position": "CFO"
