@@ -418,7 +418,7 @@ $(function(){
         text: "Repeat Business"
     }).appendTo("#chart_2");
     
-    var plot3 = jQuery.jqplot ('chart_3',[[['High Growth Client', 94], ['Other', 6]]], {
+    var plot3 = jQuery.jqplot ('chart_3',[[['High Growth Clients', 94], ['Other', 6]]], {
          grid: {
             background: "#ffffff",
             borderColor: "#ffffff",
@@ -442,7 +442,7 @@ $(function(){
     }).appendTo("#chart_3");
     $("<div>", {
         "class": 'chart_label_text',
-        text: "High-Growth Client"
+        text: "High-Growth Clients"
     }).appendTo("#chart_3");
     
     
