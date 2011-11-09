@@ -1148,8 +1148,31 @@ ul.sf-navbar .current ul ul {
 #biography-content .ct #right-content a:hover {
   color: #f37421;
 }
+/* line 181, ../../stylesheets/partials/_individual.sass */
+#biography-content .ct #right-content-bio {
+  display: inline;
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 150px;
+  margin-right: 0;
+}
+/* line 184, ../../stylesheets/partials/_individual.sass */
+#biography-content .ct #right-content-bio span.orange {
+  color: #f37421;
+}
+/* line 186, ../../stylesheets/partials/_individual.sass */
+#biography-content .ct #right-content-bio a {
+  color: #5d87a1;
+  font: normal 1.4em/1.7em Arial, sans-serif;
+  text-decoration: none;
+}
+/* line 190, ../../stylesheets/partials/_individual.sass */
+#biography-content .ct #right-content-bio a:hover {
+  color: #f37421;
+}
 
-/* line 182, ../../stylesheets/partials/_individual.sass */
+/* line 193, ../../stylesheets/partials/_individual.sass */
 #domain-review {
   display: inline;
   float: left;
@@ -1160,7 +1183,7 @@ ul.sf-navbar .current ul ul {
   padding-right: 40px;
   margin: 0;
 }
-/* line 187, ../../stylesheets/partials/_individual.sass */
+/* line 198, ../../stylesheets/partials/_individual.sass */
 #domain-review .domain-review {
   display: inline;
   float: left;
@@ -1171,7 +1194,7 @@ ul.sf-navbar .current ul ul {
   padding-right: 200px;
   background-color: white;
 }
-/* line 192, ../../stylesheets/partials/_individual.sass */
+/* line 203, ../../stylesheets/partials/_individual.sass */
 #domain-review .domain-review #domain-background {
   display: inline;
   float: left;
@@ -1180,7 +1203,7 @@ ul.sf-navbar .current ul ul {
   width: 630px;
   background-color: #f37421;
 }
-/* line 195, ../../stylesheets/partials/_individual.sass */
+/* line 206, ../../stylesheets/partials/_individual.sass */
 #domain-review .domain-review #domain {
   display: inline;
   float: left;
@@ -1192,29 +1215,29 @@ ul.sf-navbar .current ul ul {
   height: 100%;
   margin-right: 10px;
 }
-/* line 201, ../../stylesheets/partials/_individual.sass */
+/* line 212, ../../stylesheets/partials/_individual.sass */
 #domain-review .domain-review #domain .domain-ct {
   margin-bottom: 15px;
   margin-top: 0;
   padding: 25px 25px 0px 30px;
 }
-/* line 205, ../../stylesheets/partials/_individual.sass */
+/* line 216, ../../stylesheets/partials/_individual.sass */
 #domain-review .domain-review #domain .domain-ct h1 {
   color: white;
   font: normal normal 400 1.5em/1.3em pragmatica-web-condensed, sans-serif;
 }
-/* line 208, ../../stylesheets/partials/_individual.sass */
+/* line 219, ../../stylesheets/partials/_individual.sass */
 #domain-review .domain-review #domain .domain-ct h2 {
   color: #ced5db;
   font: normal normal 400 1.2em/1.35em Arial, sans-serif;
   text-align: left;
   letter-spacing: 0.11em;
 }
-/* line 213, ../../stylesheets/partials/_individual.sass */
+/* line 224, ../../stylesheets/partials/_individual.sass */
 #domain-review .domain-review #domain .domain-ct #reviews {
   padding-top: 10px;
 }
-/* line 215, ../../stylesheets/partials/_individual.sass */
+/* line 226, ../../stylesheets/partials/_individual.sass */
 #domain-review .domain-review #domain .domain-ct #reviews p {
   margin: 0;
   padding-bottom: 5px;
@@ -1222,7 +1245,7 @@ ul.sf-navbar .current ul ul {
   color: white;
   text-align: left;
 }
-/* line 221, ../../stylesheets/partials/_individual.sass */
+/* line 232, ../../stylesheets/partials/_individual.sass */
 #domain-review .domain-review #recent {
   display: inline;
   float: left;
@@ -1232,24 +1255,24 @@ ul.sf-navbar .current ul ul {
   margin: 0;
   background-color: #95a0a9;
 }
-/* line 225, ../../stylesheets/partials/_individual.sass */
+/* line 236, ../../stylesheets/partials/_individual.sass */
 #domain-review .domain-review #recent .recent-ct {
   margin: 0;
   padding: 25px 70px 50px 40px;
 }
-/* line 228, ../../stylesheets/partials/_individual.sass */
+/* line 239, ../../stylesheets/partials/_individual.sass */
 #domain-review .domain-review #recent .recent-ct h1 {
   color: white;
   font: normal normal 400 1.5em/1.3em pragmatica-web-condensed, sans-serif;
 }
-/* line 231, ../../stylesheets/partials/_individual.sass */
+/* line 242, ../../stylesheets/partials/_individual.sass */
 #domain-review .domain-review #recent .recent-ct h2 {
   color: white;
   font: normal normal 400 1.125em Arial, sans-serif;
   text-align: left;
   padding: 0 2px 0 0;
 }
-/* line 236, ../../stylesheets/partials/_individual.sass */
+/* line 247, ../../stylesheets/partials/_individual.sass */
 #domain-review .domain-review #recent .recent-ct h3 {
   color: #ced5db;
   font: normal normal 400 1.125em Arial, sans-serif;
@@ -1257,7 +1280,7 @@ ul.sf-navbar .current ul ul {
   padding: 0 0 10px 0;
 }
 
-/* line 242, ../../stylesheets/partials/_individual.sass */
+/* line 253, ../../stylesheets/partials/_individual.sass */
 #bottom-content {
   display: inline;
   float: left;
@@ -1268,7 +1291,7 @@ ul.sf-navbar .current ul ul {
   padding-right: 40px;
   margin-left: 0;
 }
-/* line 247, ../../stylesheets/partials/_individual.sass */
+/* line 258, ../../stylesheets/partials/_individual.sass */
 #bottom-content .container {
   display: inline;
   float: left;
@@ -1281,11 +1304,11 @@ ul.sf-navbar .current ul ul {
   padding-top: 25px;
   padding-bottom: 25px;
 }
-/* line 254, ../../stylesheets/partials/_individual.sass */
+/* line 265, ../../stylesheets/partials/_individual.sass */
 #bottom-content .container #slideToggle {
   color: #455560;
 }
-/* line 256, ../../stylesheets/partials/_individual.sass */
+/* line 267, ../../stylesheets/partials/_individual.sass */
 #bottom-content .container #slideToggle .more {
   -webkit-border-radius: 8px;
   border-radius: 8px;
@@ -1300,11 +1323,11 @@ ul.sf-navbar .current ul ul {
   letter-spacing: 0px;
   cursor: pointer;
 }
-/* line 269, ../../stylesheets/partials/_individual.sass */
+/* line 280, ../../stylesheets/partials/_individual.sass */
 #bottom-content .container #slideToggle .more:hover {
   color: #f37421;
 }
-/* line 272, ../../stylesheets/partials/_individual.sass */
+/* line 283, ../../stylesheets/partials/_individual.sass */
 #bottom-content .container .slideTogglebox table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -1312,17 +1335,17 @@ ul.sf-navbar .current ul ul {
   margin: 50px 0 20px 0;
   width: 100%;
 }
-/* line 278, ../../stylesheets/partials/_individual.sass */
+/* line 289, ../../stylesheets/partials/_individual.sass */
 #bottom-content .container .slideTogglebox table th {
   color: white;
   font: normal normal bold 1.25em/3em Arial, Helvetica, sans-serif;
   padding-left: 30px;
 }
-/* line 282, ../../stylesheets/partials/_individual.sass */
+/* line 293, ../../stylesheets/partials/_individual.sass */
 #bottom-content .container .slideTogglebox table tr.orange {
   background-color: #f37421;
 }
-/* line 284, ../../stylesheets/partials/_individual.sass */
+/* line 295, ../../stylesheets/partials/_individual.sass */
 #bottom-content .container .slideTogglebox table tr.orange td {
   background-color: #f37421;
   margin-top: 0;
@@ -1330,18 +1353,18 @@ ul.sf-navbar .current ul ul {
   color: white;
   font: normal normal 400 1.25em/1.3em pragmatica-web-condensed, sans-serif;
 }
-/* line 291, ../../stylesheets/partials/_individual.sass */
+/* line 302, ../../stylesheets/partials/_individual.sass */
 #bottom-content .container .slideTogglebox table tr.stripe td.info {
   color: #5f6a72;
   padding: 5px 0 5px 30px;
   font: normal normal normal 1.1em/2.05em Arial, Helvetica, sans-serif;
   letter-spacing: 0.02em;
 }
-/* line 296, ../../stylesheets/partials/_individual.sass */
+/* line 307, ../../stylesheets/partials/_individual.sass */
 #bottom-content .container .slideTogglebox table tr.stripe.even {
   background-color: #a9b2ba;
 }
-/* line 299, ../../stylesheets/partials/_individual.sass */
+/* line 310, ../../stylesheets/partials/_individual.sass */
 #bottom-content .container .slideTogglebox #clickme .close {
   -webkit-border-radius: 8px;
   border-radius: 8px;
@@ -1356,7 +1379,7 @@ ul.sf-navbar .current ul ul {
   letter-spacing: 0px;
   cursor: pointer;
 }
-/* line 312, ../../stylesheets/partials/_individual.sass */
+/* line 323, ../../stylesheets/partials/_individual.sass */
 #bottom-content .container .slideTogglebox #clickme .close:hover {
   color: #f37421;
 }

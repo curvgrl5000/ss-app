@@ -14,7 +14,7 @@
   src: local("../fonts/HelveticaNeueLTW1G-Md"), url(../fonts/HelveticaNeueLTW1G-Md.otf) format("opentype");
 }
 
-/* line 17, /Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, /Users/annamendoza/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -36,55 +36,55 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 20, /Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 20, /Users/annamendoza/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 body {
   line-height: 1;
 }
 
-/* line 22, /Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, /Users/annamendoza/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 24, /Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, /Users/annamendoza/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 26, /Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, /Users/annamendoza/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 28, /Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, /Users/annamendoza/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 101, /Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 101, /Users/annamendoza/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 30, /Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, /Users/annamendoza/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 114, /Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 114, /Users/annamendoza/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
 
-/* line 114, /Users/dlazar/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 114, /Users/annamendoza/.rbenv/versions/1.9.2-p290/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
 
-/* line 67, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_base.sass */
+/* line 67, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_base.sass */
 body {
   background: #a9b2ba url("../images/main_bkgrnd.png") 0 0 repeat-x;
   color: black;
@@ -103,14 +103,14 @@ body {
  * Increase this if your layout is wider.
  *
  * Note: IE6 works fine without this fix. */
-/* line 15, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 15, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 body {
   min-width: 960px;
 }
 
 /* Containers
  *---------------------------------------------------------------------------------------------------- */
-/* line 21, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 21, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 {
   margin-left: auto;
   margin-right: auto;
@@ -119,7 +119,7 @@ body {
 
 /* Grid >> Global
  *---------------------------------------------------------------------------------------------------- */
-/* line 29, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 29, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8, .grid_9, .grid_10, .grid_11, .grid_12, .grid_13, .grid_14, .grid_15, .grid_16, .grid_17, .grid_18, .grid_19, .grid_20, .grid_21, .grid_22, .grid_23, .grid_24 {
   display: inline;
   float: left;
@@ -128,506 +128,506 @@ body {
   margin-right: 5px;
 }
 
-/* line 36, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 36, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .push_1, .pull_1, .push_2, .pull_2, .push_3, .pull_3, .push_4, .pull_4, .push_5, .pull_5, .push_6, .pull_6, .push_7, .pull_7, .push_8, .pull_8, .push_9, .pull_9, .push_10, .pull_10, .push_11, .pull_11, .push_12, .pull_12, .push_13, .pull_13, .push_14, .pull_14, .push_15, .pull_15, .push_16, .pull_16, .push_17, .pull_17, .push_18, .pull_18, .push_19, .pull_19, .push_20, .pull_20, .push_21, .pull_21, .push_22, .pull_22, .push_23, .pull_23, .push_24, .pull_24 {
   position: relative;
 }
 
 /* Grid >> Children (Alpha ~ First, Omega ~ Last)
  *---------------------------------------------------------------------------------------------------- */
-/* line 42, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 42, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .alpha {
   margin-left: 0;
 }
 
-/* line 45, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 45, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .omega {
   margin-right: 0;
 }
 
-/* line 48, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 48, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 #left {
   float: left;
 }
 
-/* line 51, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 51, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 #right {
   float: right;
 }
 
-/* line 54, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 54, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .left {
   float: left;
 }
 
-/* line 57, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 57, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .right {
   float: right;
 }
 
 /* Grid >> 24 Columns
  *---------------------------------------------------------------------------------------------------- */
-/* line 64, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 64, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .grid_1 {
   width: 30px;
 }
-/* line 66, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 66, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .grid_2 {
   width: 70px;
 }
-/* line 68, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 68, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .grid_3 {
   width: 110px;
 }
-/* line 70, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 70, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .grid_4 {
   width: 150px;
 }
-/* line 72, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 72, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .grid_5 {
   width: 190px;
 }
-/* line 74, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 74, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .grid_6 {
   width: 230px;
 }
-/* line 76, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 76, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .grid_7 {
   width: 270px;
 }
-/* line 78, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 78, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .grid_8 {
   width: 310px;
 }
-/* line 80, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 80, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .grid_9 {
   width: 350px;
 }
-/* line 82, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 82, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .grid_10 {
   width: 390px;
 }
-/* line 84, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 84, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .grid_11 {
   width: 430px;
 }
-/* line 86, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 86, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .grid_12 {
   width: 470px;
 }
-/* line 88, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 88, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .grid_13 {
   width: 510px;
 }
-/* line 90, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 90, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .grid_14 {
   width: 550px;
 }
-/* line 92, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 92, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .grid_15 {
   width: 590px;
 }
-/* line 94, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 94, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .grid_16 {
   width: 630px;
 }
-/* line 96, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 96, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .grid_17 {
   width: 670px;
 }
-/* line 98, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 98, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .grid_18 {
   width: 710px;
 }
-/* line 100, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 100, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .grid_19 {
   width: 750px;
 }
-/* line 102, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 102, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .grid_20 {
   width: 790px;
 }
-/* line 104, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 104, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .grid_21 {
   width: 830px;
 }
-/* line 106, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 106, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .grid_22 {
   width: 870px;
 }
-/* line 108, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 108, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .grid_23 {
   width: 910px;
 }
-/* line 110, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 110, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .grid_24 {
   width: 950px;
 }
-/* line 112, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 112, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .prefix_1 {
   padding-left: 40px;
 }
-/* line 114, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 114, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .prefix_2 {
   padding-left: 80px;
 }
-/* line 116, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 116, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .prefix_3 {
   padding-left: 120px;
 }
-/* line 118, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 118, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .prefix_4 {
   padding-left: 160px;
 }
-/* line 120, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 120, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .prefix_5 {
   padding-left: 200px;
 }
-/* line 122, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 122, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .prefix_6 {
   padding-left: 240px;
 }
-/* line 124, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 124, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .prefix_7 {
   padding-left: 280px;
 }
-/* line 126, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 126, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .prefix_8 {
   padding-left: 320px;
 }
-/* line 128, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 128, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .prefix_9 {
   padding-left: 360px;
 }
-/* line 130, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 130, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .prefix_10 {
   padding-left: 400px;
 }
-/* line 132, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 132, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .prefix_11 {
   padding-left: 440px;
 }
-/* line 134, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 134, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .prefix_12 {
   padding-left: 480px;
 }
-/* line 136, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 136, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .prefix_13 {
   padding-left: 520px;
 }
-/* line 138, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 138, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .prefix_14 {
   padding-left: 560px;
 }
-/* line 140, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 140, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .prefix_15 {
   padding-left: 600px;
 }
-/* line 142, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 142, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .prefix_16 {
   padding-left: 640px;
 }
-/* line 144, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 144, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .prefix_17 {
   padding-left: 680px;
 }
-/* line 146, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 146, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .prefix_18 {
   padding-left: 720px;
 }
-/* line 148, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 148, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .prefix_19 {
   padding-left: 760px;
 }
-/* line 150, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 150, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .prefix_20 {
   padding-left: 800px;
 }
-/* line 152, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 152, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .prefix_21 {
   padding-left: 840px;
 }
-/* line 154, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 154, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .prefix_22 {
   padding-left: 880px;
 }
-/* line 156, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 156, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .prefix_23 {
   padding-left: 920px;
 }
-/* line 158, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 158, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .suffix_1 {
   padding-right: 40px;
 }
-/* line 160, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 160, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .suffix_2 {
   padding-right: 80px;
 }
-/* line 162, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 162, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .suffix_3 {
   padding-right: 120px;
 }
-/* line 164, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 164, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .suffix_4 {
   padding-right: 160px;
 }
-/* line 166, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 166, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .suffix_5 {
   padding-right: 200px;
 }
-/* line 168, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 168, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .suffix_6 {
   padding-right: 240px;
 }
-/* line 170, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 170, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .suffix_7 {
   padding-right: 280px;
 }
-/* line 172, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 172, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .suffix_8 {
   padding-right: 320px;
 }
-/* line 174, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 174, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .suffix_9 {
   padding-right: 360px;
 }
-/* line 176, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 176, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .suffix_10 {
   padding-right: 400px;
 }
-/* line 178, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 178, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .suffix_11 {
   padding-right: 440px;
 }
-/* line 180, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 180, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .suffix_12 {
   padding-right: 480px;
 }
-/* line 182, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 182, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .suffix_13 {
   padding-right: 520px;
 }
-/* line 184, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 184, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .suffix_14 {
   padding-right: 560px;
 }
-/* line 186, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 186, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .suffix_15 {
   padding-right: 600px;
 }
-/* line 188, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 188, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .suffix_16 {
   padding-right: 640px;
 }
-/* line 190, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 190, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .suffix_17 {
   padding-right: 680px;
 }
-/* line 192, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 192, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .suffix_18 {
   padding-right: 720px;
 }
-/* line 194, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 194, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .suffix_19 {
   padding-right: 760px;
 }
-/* line 196, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 196, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .suffix_20 {
   padding-right: 800px;
 }
-/* line 198, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 198, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .suffix_21 {
   padding-right: 840px;
 }
-/* line 200, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 200, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .suffix_22 {
   padding-right: 880px;
 }
-/* line 202, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 202, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .suffix_23 {
   padding-right: 920px;
 }
-/* line 204, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 204, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .push_1 {
   left: 40px;
 }
-/* line 206, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 206, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .push_2 {
   left: 80px;
 }
-/* line 208, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 208, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .push_3 {
   left: 120px;
 }
-/* line 210, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 210, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .push_4 {
   left: 160px;
 }
-/* line 212, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 212, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .push_5 {
   left: 200px;
 }
-/* line 214, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 214, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .push_6 {
   left: 240px;
 }
-/* line 216, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 216, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .push_7 {
   left: 280px;
 }
-/* line 218, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 218, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .push_8 {
   left: 320px;
 }
-/* line 220, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 220, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .push_9 {
   left: 360px;
 }
-/* line 222, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 222, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .push_10 {
   left: 400px;
 }
-/* line 224, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 224, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .push_11 {
   left: 440px;
 }
-/* line 226, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 226, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .push_12 {
   left: 480px;
 }
-/* line 228, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 228, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .push_13 {
   left: 520px;
 }
-/* line 230, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 230, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .push_14 {
   left: 560px;
 }
-/* line 232, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 232, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .push_15 {
   left: 600px;
 }
-/* line 234, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 234, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .push_16 {
   left: 640px;
 }
-/* line 236, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 236, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .push_17 {
   left: 680px;
 }
-/* line 238, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 238, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .push_18 {
   left: 720px;
 }
-/* line 240, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 240, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .push_19 {
   left: 760px;
 }
-/* line 242, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 242, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .push_20 {
   left: 800px;
 }
-/* line 244, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 244, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .push_21 {
   left: 840px;
 }
-/* line 246, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 246, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .push_22 {
   left: 880px;
 }
-/* line 248, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 248, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .push_23 {
   left: 920px;
 }
-/* line 250, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 250, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .pull_1 {
   left: -40px;
 }
-/* line 252, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 252, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .pull_2 {
   left: -80px;
 }
-/* line 254, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 254, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .pull_3 {
   left: -120px;
 }
-/* line 256, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 256, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .pull_4 {
   left: -160px;
 }
-/* line 258, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 258, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .pull_5 {
   left: -200px;
 }
-/* line 260, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 260, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .pull_6 {
   left: -240px;
 }
-/* line 262, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 262, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .pull_7 {
   left: -280px;
 }
-/* line 264, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 264, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .pull_8 {
   left: -320px;
 }
-/* line 266, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 266, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .pull_9 {
   left: -360px;
 }
-/* line 268, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 268, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .pull_10 {
   left: -400px;
 }
-/* line 270, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 270, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .pull_11 {
   left: -440px;
 }
-/* line 272, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 272, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .pull_12 {
   left: -480px;
 }
-/* line 274, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 274, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .pull_13 {
   left: -520px;
 }
-/* line 276, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 276, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .pull_14 {
   left: -560px;
 }
-/* line 278, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 278, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .pull_15 {
   left: -600px;
 }
-/* line 280, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 280, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .pull_16 {
   left: -640px;
 }
-/* line 282, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 282, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .pull_17 {
   left: -680px;
 }
-/* line 284, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 284, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .pull_18 {
   left: -720px;
 }
-/* line 286, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 286, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .pull_19 {
   left: -760px;
 }
-/* line 288, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 288, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .pull_20 {
   left: -800px;
 }
-/* line 290, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 290, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .pull_21 {
   left: -840px;
 }
-/* line 292, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 292, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .pull_22 {
   left: -880px;
 }
-/* line 294, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 294, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .container_24 .pull_23 {
   left: -920px;
 }
@@ -643,7 +643,7 @@ body {
 /* `Clear Floated Elements
  *---------------------------------------------------------------------------------------------------- */
 /* http://sonspring.com/journal/clearing-floats */
-/* line 314, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 314, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .clear {
   clear: both;
   display: block;
@@ -654,11 +654,11 @@ body {
 }
 
 /* http://www.yuiblog.com/blog/2010/09/27/clearfix-reloaded-overflowhidden-demystified */
-/* line 324, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 324, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .clearfix {
   zoom: 1;
 }
-/* line 325, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 325, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .clearfix:before {
   content: "\0020";
   display: block;
@@ -667,7 +667,7 @@ body {
   width: 0;
   height: 0;
 }
-/* line 332, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_960.sass */
+/* line 332, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_960.sass */
 .clearfix:after {
   content: "\0020";
   display: block;
@@ -680,24 +680,24 @@ body {
 
 /*The following zoom:1 rule is specifically for IE6 + IE7.
  *Move to separate stylesheet if invalid CSS is a problem. */
-/* line 1, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 1, ../../stylesheets/partials/_slidedeck-homepage.sass */
 #vantage_machine {
   background-color: #ffffcc;
   height: 335px;
 }
 
-/* line 5, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 5, ../../stylesheets/partials/_slidedeck-homepage.sass */
 #slidedeck_total_container {
   height: 500px;
   /*background: url("../images/slidedeck-home-images/sd_background.png") no-repeat 0 0; */
 }
 
-/* line 9, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 9, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .slidedeck {
   height: 335px;
 }
 
-/* line 12, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 12, ../../stylesheets/partials/_slidedeck-homepage.sass */
 #slidedeck_frame {
   position: relative;
   margin: 0;
@@ -705,46 +705,46 @@ body {
   padding-top: 50px;
 }
 
-/* line 18, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 18, ../../stylesheets/partials/_slidedeck-homepage.sass */
 #outer-slidedeck_nav {
   position: relative;
   margin: 0;
   height: 128px;
 }
-/* line 22, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 22, ../../stylesheets/partials/_slidedeck-homepage.sass */
 #outer-slidedeck_nav .divider {
   margin: 0;
   height: 40px;
   background: white url("../images/slidedeck-home-images/divider-graphic-a.png") no-repeat 0 0;
 }
-/* line 26, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 26, ../../stylesheets/partials/_slidedeck-homepage.sass */
 #outer-slidedeck_nav #mission {
   margin: 0;
   background-color: white;
   padding: 30px 0 0 35px;
 }
-/* line 30, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 30, ../../stylesheets/partials/_slidedeck-homepage.sass */
 #outer-slidedeck_nav #mission h2 {
   font: normal 1.7em "Neue Helvetica", Arial, sans-serif;
   letter-spacing: 0.05em;
   /*line-height:.7em; */
   color: #f37421;
 }
-/* line 35, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 35, ../../stylesheets/partials/_slidedeck-homepage.sass */
 #outer-slidedeck_nav #mission p.tagline {
   font: italic 11px Georgia, Times sans-serif;
   line-height: 1.7em;
   letter-spacing: 0.02em;
   color: #5f6a72;
 }
-/* line 40, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 40, ../../stylesheets/partials/_slidedeck-homepage.sass */
 #outer-slidedeck_nav ul {
   display: block;
   margin: 0 auto;
   list-style-image: none;
   list-style-type: none;
 }
-/* line 45, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 45, ../../stylesheets/partials/_slidedeck-homepage.sass */
 #outer-slidedeck_nav ul li {
   float: left;
   margin-right: -15px;
@@ -753,19 +753,19 @@ body {
   line-height: 0.2em;
   padding: 2px 0 0 0;
 }
-/* line 52, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 52, ../../stylesheets/partials/_slidedeck-homepage.sass */
 #outer-slidedeck_nav ul li a {
   font: italic normal 11px Georgia, serif;
   line-height: 10.5em;
 }
 
-/* line 57, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 57, ../../stylesheets/partials/_slidedeck-homepage.sass */
 #outer-slidedeck_nav ul li a:hover, #outer-slidedeck_nav ul li a:active {
   color: #f37421;
   background-position: 0 0;
 }
 
-/* line 61, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 61, ../../stylesheets/partials/_slidedeck-homepage.sass */
 a.nav-bottom-vantage {
   display: block;
   width: 120px;
@@ -775,7 +775,7 @@ a.nav-bottom-vantage {
   color: #6a7870;
 }
 
-/* line 69, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 69, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .nav-bottom-mission {
   display: block;
   width: 114px;
@@ -785,12 +785,12 @@ a.nav-bottom-vantage {
   color: #6a7870;
   line-height: 11.1em;
 }
-/* line 77, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 77, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .nav-bottom-mission:hover {
   background-position: 0 0;
 }
 
-/* line 80, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 80, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .nav-bottom-catalyst {
   display: block;
   width: 108px;
@@ -800,12 +800,12 @@ a.nav-bottom-vantage {
   color: #6a7870;
   line-height: 11.1em;
 }
-/* line 88, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 88, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .nav-bottom-catalyst:hover {
   background-position: 0 0;
 }
 
-/* line 91, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 91, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .nav-bottom-leadership {
   display: block;
   width: 136px;
@@ -815,12 +815,12 @@ a.nav-bottom-vantage {
   color: #6a7870;
   line-height: 11.1em;
 }
-/* line 99, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 99, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .nav-bottom-leadership:hover {
   background-position: 0 0;
 }
 
-/* line 102, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 102, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .close-button {
   position: absolute;
   right: 5px;
@@ -831,7 +831,7 @@ a.nav-bottom-vantage {
   text-decoration: none;
   line-height: 11.1em;
 }
-/* line 111, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 111, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .close-button:hover {
   position: absolute;
   right: 5px;
@@ -843,7 +843,7 @@ a.nav-bottom-vantage {
   line-height: 11.1em;
 }
 
-/* line 121, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 121, ../../stylesheets/partials/_slidedeck-homepage.sass */
 #outer-slidedeck_nav .right {
   float: right;
   height: 87px;
@@ -852,7 +852,7 @@ a.nav-bottom-vantage {
   padding: 0;
   background: url("../images/slidedeck-home-images/dotted-bkgrnd-nav.png") no-repeat 0 0;
 }
-/* line 128, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 128, ../../stylesheets/partials/_slidedeck-homepage.sass */
 #outer-slidedeck_nav .right .prev {
   height: 23px;
   width: 22px;
@@ -863,11 +863,11 @@ a.nav-bottom-vantage {
   position: absolute;
   margin: 32px 3px 0 -22px;
 }
-/* line 137, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 137, ../../stylesheets/partials/_slidedeck-homepage.sass */
 #outer-slidedeck_nav .right .prev:hover {
   background-position: 0 0;
 }
-/* line 139, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 139, ../../stylesheets/partials/_slidedeck-homepage.sass */
 #outer-slidedeck_nav .right .next {
   height: 23px;
   width: 22px;
@@ -879,25 +879,25 @@ a.nav-bottom-vantage {
   margin: 32px 0px 0 5px;
   float: left;
 }
-/* line 149, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 149, ../../stylesheets/partials/_slidedeck-homepage.sass */
 #outer-slidedeck_nav .right .next:hover {
   background-position: -22px 0;
 }
 
-/* line 153, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 153, ../../stylesheets/partials/_slidedeck-homepage.sass */
 #team_mission .slide_2 {
   background: white url("../images/connect-left.png") right 30px no-repeat;
 }
-/* line 155, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 155, ../../stylesheets/partials/_slidedeck-homepage.sass */
 #team_mission .slide_3 {
   background: white url("../images/connect-right.png") 0 25px no-repeat;
 }
 
-/* line 159, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 159, ../../stylesheets/partials/_slidedeck-homepage.sass */
 #slidedeck_frame .slide_17 {
   background: white url("../images/VantageCatalyst.png") no-repeat;
 }
-/* line 161, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 161, ../../stylesheets/partials/_slidedeck-homepage.sass */
 #slidedeck_frame .slide_18 {
   background: white url("../images/ThoughtLeadership.png") no-repeat;
 }
@@ -907,7 +907,7 @@ a.nav-bottom-vantage {
  * This is the container for the vertical slide navigation. You can position
  * this anywhere you want within the containing slide's area. If you try to
  * position it outside of the slide area it will not appear. */
-/* line 172, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 172, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck dd.slide ul.verticalSlideNav {
   top: -1000px;
   right: -1000px;
@@ -916,15 +916,15 @@ a.nav-bottom-vantage {
   list-style: none;
   display: none;
 }
-/* line 179, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 179, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck dd.slide ul.verticalSlideNav li {
   display: none;
 }
-/* line 181, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 181, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck dd.slide ul.verticalSlideNav li.arrow {
   display: none;
 }
-/* line 183, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 183, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck dd.slide ul.verticalSlideNav li a {
   border: 0;
   outline: none;
@@ -950,7 +950,7 @@ a.nav-bottom-vantage {
   -khtml-border-radius: 3px;
   -o-border-radius: 3px;
 }
-/* line 207, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 207, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck dd.slide ul.verticalSlideNav li a:link, .skin-slidedeck dl.slidedeck dd.slide ul.verticalSlideNav li a:visited {
   border: 0;
   outline: none;
@@ -976,7 +976,7 @@ a.nav-bottom-vantage {
   -khtml-border-radius: 3px;
   -o-border-radius: 3px;
 }
-/* line 231, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 231, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck dd.slide ul.verticalSlideNav li a:hover {
   opacity: 0.75;
   -moz-opacity: 0.75;
@@ -985,7 +985,7 @@ a.nav-bottom-vantage {
   -ms-filter: "Alpha(opacity=75)";
   filter: Alpha(opacity=75);
 }
-/* line 238, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 238, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck ul.verticalSlideNav {
   height: 70px;
   width: 25px;
@@ -1005,7 +1005,7 @@ a.nav-bottom-vantage {
   -o-transform: rotate(90deg);
   -o-transform-origin: -7px 0;
 }
-/* line 256, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 256, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck ul.verticalSlideNav li {
   position: relative;
   width: 25px;
@@ -1017,11 +1017,11 @@ a.nav-bottom-vantage {
   float: left;
   clear: left;
 }
-/* line 266, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 266, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck dd.slide ul.verticalSlideNav li.arrow {
   display: none;
 }
-/* line 269, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 269, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck ul.verticalSlideNav li a {
   position: relative;
   display: block;
@@ -1033,23 +1033,23 @@ a.nav-bottom-vantage {
   line-height: 12px;
   background: url("../images/slidedeck-home-images/vertical-nav.png") 0 0 no-repeat;
 }
-/* line 279, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 279, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck ul.verticalSlideNav li.active a {
   background-position: 0 -24px;
 }
-/* line 282, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 282, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck dt.active ul.verticalSlideNav li.active a {
   background-position: 0 -12px;
 }
-/* line 284, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 284, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck dt.spine_2.active .index {
   margin-bottom: 0;
 }
-/* line 287, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 287, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck .activeCorner.spine_2, .skin-slidedeck dl.slidedeck .activeCorner.spine_4 {
   margin-left: -1px;
 }
-/* line 289, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 289, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck .copy {
   position: absolute;
   width: 290px;
@@ -1060,30 +1060,30 @@ a.nav-bottom-vantage {
   font-size: 1.3em;
   line-height: 1.5em;
 }
-/* line 299, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 299, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck ul.slidesVertical .copy {
   left: 40px;
   width: 280px;
 }
-/* line 302, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 302, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck ul.slidesVertical .cardImage {
   left: 340px;
 }
-/* line 304, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 304, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck .copy.wide {
   width: 675px;
 }
-/* line 307, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 307, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck dd.slide .copy h5.small-title {
   color: #666666;
   font: bold italic 13px Georgia, "Times New Roman", Times, serif;
   margin: -10px 0 0;
 }
-/* line 312, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 312, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck dd.slide ul.slidesVertical > li {
   padding: 0;
 }
-/* line 314, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 314, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck dd.slide ul.slidesVertical li.case div.case_text ul {
   color: #333333;
   font: bold 12px Georgia, "Times New Roman", Times, serif;
@@ -1093,7 +1093,7 @@ a.nav-bottom-vantage {
   position: relative;
   line-height: 18px;
 }
-/* line 322, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 322, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck dd.slide .copy ul.no-float {
   color: #333333;
   font: bold 12px Georgia, "Times New Roman", Times, serif;
@@ -1103,13 +1103,13 @@ a.nav-bottom-vantage {
   position: relative;
   line-height: 18px;
 }
-/* line 331, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 331, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck dd.slide ul.slidesVertical li.case div.case_text ul li {
   float: left;
   margin: 0;
   width: 48%;
 }
-/* line 335, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 335, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck dd.slide ul.no-float li {
   float: left;
   margin: 0;
@@ -1117,7 +1117,7 @@ a.nav-bottom-vantage {
   float: none;
   width: 100%;
 }
-/* line 342, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 342, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck .copy.wide a {
   display: block;
   position: absolute;
@@ -1130,12 +1130,12 @@ a.nav-bottom-vantage {
   font-weight: bold;
   font-style: oblique;
 }
-/* line 353, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 353, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck .copy strong {
   color: #333333;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
-/* line 356, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 356, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck .copy h4.title {
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -1145,23 +1145,23 @@ a.nav-bottom-vantage {
   margin: 0 0 10px;
   color: #252525;
 }
-/* line 364, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 364, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck .copy p {
   margin: 0 0 25px;
 }
-/* line 366, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 366, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck .cardImage {
   position: absolute;
   top: 28px;
   left: 380px;
 }
-/* line 370, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 370, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck .wideImage {
   position: absolute;
   top: 160px;
   left: 85px;
 }
-/* line 374, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 374, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck .tagline {
   position: absolute;
   top: 240px;
@@ -1175,11 +1175,11 @@ a.nav-bottom-vantage {
   text-transform: uppercase;
   text-align: center;
 }
-/* line 387, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 387, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck dd.slide_3 {
   background-image: url("../images/slidedeck-home-images/slide-3_bg.png");
 }
-/* line 389, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 389, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck dd.slide_4 {
   background: url("../images/slidedeck-home-images/slide_5-bg.png") 0 0 repeat-x;
   color: white;
@@ -1187,14 +1187,14 @@ a.nav-bottom-vantage {
   padding-right: 35px !important;
   width: 660px !important;
 }
-/* line 396, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 396, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck .slide_4 div.head {
   position: relative;
   overflow: hidden;
   width: 100%;
   padding-top: 10px;
 }
-/* line 401, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 401, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck .slide_4 div.head h2 {
   width: 282px;
   position: relative;
@@ -1206,7 +1206,7 @@ a.nav-bottom-vantage {
   margin: 5px 0 0;
   line-height: 80px;
 }
-/* line 411, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 411, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck .slide_4 div.head a {
   position: relative;
   overflow: hidden;
@@ -1216,7 +1216,7 @@ a.nav-bottom-vantage {
   background: url("slidedeck-home-images/slide_5_btn-download.png") 0 0 no-repeat;
   float: right;
 }
-/* line 419, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 419, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck .slide_4 div.head a:link {
   position: relative;
   overflow: hidden;
@@ -1226,15 +1226,15 @@ a.nav-bottom-vantage {
   background: url("slidedeck-home-images/slide_5_btn-download.png") 0 0 no-repeat;
   float: right;
 }
-/* line 427, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 427, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck .slide_4 div.head a:hover {
   background-position: 0 -46px;
 }
-/* line 429, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 429, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck .slide_4 div.head a:active {
   background-position: 0 -92px;
 }
-/* line 431, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 431, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck .slide_4 div.body {
   width: 609px;
   height: 170px;
@@ -1243,41 +1243,41 @@ a.nav-bottom-vantage {
   bottom: 0;
   padding: 25px;
 }
-/* line 439, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 439, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck .slide_4 div.body div.wordpress {
   width: 290px;
   float: right;
 }
-/* line 442, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 442, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck .slide_4 div.body div.jquery {
   width: 290px;
   float: left;
 }
-/* line 445, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 445, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck .slide_4 div.body h3 {
   position: relative;
   overflow: hidden;
   height: 0;
   margin: 0 0 25px;
 }
-/* line 450, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 450, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck .slide_4 div.body div.wordpress h3 {
   margin: 0 0 18px;
 }
-/* line 452, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 452, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck .slide_4 div.body ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-/* line 456, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 456, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck .slide_4 div.body li {
   background: url("slidedeck-home-images/slide_5_bullet.png") 0 6px no-repeat;
   margin: 0 0 10px 0;
   padding: 0 0 0 15px;
   font-size: 12px;
 }
-/* line 461, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 461, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck .slide_4 div.body p {
   clear: both;
   position: relative;
@@ -1290,19 +1290,19 @@ a.nav-bottom-vantage {
   bottom: 20px;
   left: 65px;
 }
-/* line 473, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 473, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck .slide_4 div.body div.jquery h3 {
   width: 210px;
   padding-top: 29px;
   background: url("slidedeck-home-images/slide_5_javascript.png") 0 0 no-repeat;
 }
-/* line 477, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 477, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck .slide_4 div.body div.wordpress h3 {
   width: 256px;
   padding-top: 36px;
   background: url("slidedeck-home-images/slide_5_wordpress.png") 0 0 no-repeat;
 }
-/* line 481, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 481, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck span.divider {
   display: block;
   height: 0;
@@ -1313,19 +1313,19 @@ a.nav-bottom-vantage {
   background: url("slidedeck-home-images/title-seperator.png") 0 0 repeat-x;
   margin: 0 0 10px;
 }
-/* line 491, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 491, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck > dt.spine_4.active {
   background-image: url("slidedeck-home-images/spine_slide-5.png");
 }
-/* line 493, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 493, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck > dt.spine_4.active:hover {
   background-image: url("slidedeck-home-images/spine_slide-5.png");
 }
-/* line 495, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 495, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck > dt.spine_2.active, .skin-slidedeck dl.slidedeck > dt.spine_4.active:hover {
   background-image: url("slidedeck-home-images/spine_slide-5.png");
 }
-/* line 498, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 498, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck dd.slide_2 div.use-cases {
   width: 374px;
   height: 245px;
@@ -1335,68 +1335,68 @@ a.nav-bottom-vantage {
   top: 28px;
   right: 20px;
 }
-/* line 506, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 506, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck dd.slide_2 div.use-cases img {
   float: left;
   cursor: pointer;
 }
-/* line 511, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 511, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck dd.slide ul.slidesVertical li.verticalSlide_1 {
   background: white;
 }
-/* line 513, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 513, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck dd.slide ul.slidesVertical > li.case {
   background: url("slidedeck-home-images/vertical-slide_bg.png") 0 0 no-repeat;
   position: relative;
   overflow: hidden;
   padding: 25px 0 0;
 }
-/* line 519, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 519, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck dd.slide ul.slidesVertical > li.case div.case_image {
   margin: 0 0 0 20px;
   width: 355px;
   float: left;
   text-align: right;
 }
-/* line 524, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 524, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck dd.slide ul.slidesVertical > li.case div.case_text {
   margin: 25px 20px 0 0;
   width: 330px;
   float: right;
 }
-/* line 529, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 529, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck dd.slide ul.slidesVertical > li.case.verticalSlide_2 div.case_image {
   margin-top: 8px;
 }
-/* line 531, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 531, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck dd.slide ul.slidesVertical > li.case.verticalSlide_2 div.case_text {
   margin-top: 60px;
 }
-/* line 534, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 534, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck dd.slide ul.slidesVertical > li.case.verticalSlide_3 div.case_image {
   margin-top: 2px;
 }
-/* line 536, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 536, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck dd.slide ul.slidesVertical > li.case.verticalSlide_3 div.case_text {
   margin-top: 30px;
 }
-/* line 539, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 539, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck dd.slide ul.slidesVertical > li.case.verticalSlide_4 div.case_image {
   margin-top: 16px;
 }
-/* line 541, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 541, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck dd.slide ul.slidesVertical > li.case.verticalSlide_4 div.case_text {
   margin-top: 30px;
 }
-/* line 544, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 544, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck dd.slide ul.slidesVertical > li.case.verticalSlide_5 div.case_image {
   margin-top: 16px;
 }
-/* line 546, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 546, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck dd.slide ul.slidesVertical > li.case.verticalSlide_5 div.case_text {
   margin-top: 63px;
 }
-/* line 548, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 548, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck dd.slide ul.slidesVertical > li.case div.case_text h5 {
   font-family: Georgia, serif;
   font-size: 13px;
@@ -1404,7 +1404,7 @@ a.nav-bottom-vantage {
   color: #666666;
   margin-top: -10px 0 0;
 }
-/* line 554, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 554, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck dd.slide h5.small-title {
   font-family: Georgia, serif;
   font-size: 13px;
@@ -1412,20 +1412,20 @@ a.nav-bottom-vantage {
   color: #666666;
   margin-top: -10px 0 0;
 }
-/* line 561, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 561, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck ul.slidesVertical li.case h4.title {
   font-size: 18px;
   text-transform: uppercase;
   color: #1e1e1e;
   margin: 0;
 }
-/* line 566, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 566, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck ul.slidesVertical li.case p {
   font-size: 12px;
   line-height: 18px;
   color: #666666;
 }
-/* line 567, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 567, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck ul.slidesVertical li.case p.sub {
   font-size: 16px;
   font-family: Georgia, serif;
@@ -1433,7 +1433,7 @@ a.nav-bottom-vantage {
   color: #858585;
   margin: 5px 0 10px;
 }
-/* line 576, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 576, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck a.vertical-prev-next {
   position: absolute;
   display: none;
@@ -1448,33 +1448,33 @@ a.nav-bottom-vantage {
   margin: 0 0 0 -13px;
   background: url("slidedeck-home-images/vertical-prev-next.png");
 }
-/* line 589, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 589, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck dd.slide:hover a.vertical-prev-next {
   display: block;
 }
-/* line 592, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 592, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck a.vertical-prev-next.next {
   bottom: 6px;
   background-position: -27px 0;
 }
-/* line 595, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 595, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck a.vertical-prev-next.previous {
   top: 6px;
   background-position: 0 0;
 }
-/* line 598, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 598, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck li.case a.next {
   bottom: 31px;
 }
-/* line 601, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 601, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck a.next:hover {
   background-position: -27px -27px;
 }
-/* line 603, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 603, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck a.previous:hover {
   background-position: 0 -27px;
 }
-/* line 605, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 605, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .skin-slidedeck dl.slidedeck:hover a.vertical-nav {
   display: block;
 }
@@ -1521,7 +1521,7 @@ a.nav-bottom-vantage {
  * BEGIN : Vertical slide previous/next button styling. */
 /*
  * END : Vertical slide previous/next button styling. */
-/* line 668, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 668, ../../stylesheets/partials/_slidedeck-homepage.sass */
 #team_mission .trustmark-icon {
   background: transparent url("../images/trustmark-small.png") no-repeat 33px 19px;
   background-color: white;
@@ -1530,7 +1530,7 @@ a.nav-bottom-vantage {
   margin: 86px 0 0 0;
   padding: 0;
 }
-/* line 675, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 675, ../../stylesheets/partials/_slidedeck-homepage.sass */
 #team_mission .mission-top-left {
   background-color: #ced3d9;
   height: 86px;
@@ -1538,7 +1538,7 @@ a.nav-bottom-vantage {
   margin: 0 0 0 -10px;
   padding: 0 20px 0 0;
 }
-/* line 681, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 681, ../../stylesheets/partials/_slidedeck-homepage.sass */
 #team_mission .mission-top-right {
   background: transparent url("../images/mission-top-right.png") no-repeat 0 0;
   background-color: #f4ac7f;
@@ -1549,7 +1549,7 @@ a.nav-bottom-vantage {
   z-index: 0;
   position: relative;
 }
-/* line 690, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 690, ../../stylesheets/partials/_slidedeck-homepage.sass */
 #team_mission h1 {
   font: normal 3.125em Dante MT Std serif;
   color: #455560;
@@ -1558,18 +1558,18 @@ a.nav-bottom-vantage {
   z-index: 1;
   letter-spacing: 0.036em;
 }
-/* line 697, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 697, ../../stylesheets/partials/_slidedeck-homepage.sass */
 #team_mission h1.opener {
   top: -28px;
 }
-/* line 699, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 699, ../../stylesheets/partials/_slidedeck-homepage.sass */
 #team_mission h1.connect_left, #team_mission h1.connect_right {
   padding-top: 55px;
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 15px;
 }
-/* line 705, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 705, ../../stylesheets/partials/_slidedeck-homepage.sass */
 #team_mission h2.connect_left, #team_mission h2.connect_right {
   font: normal 2em Dante MT Std serif;
   color: #455560;
@@ -1578,7 +1578,7 @@ a.nav-bottom-vantage {
   margin-left: 10px;
   margin-right: 10px;
 }
-/* line 712, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 712, ../../stylesheets/partials/_slidedeck-homepage.sass */
 #team_mission h2.right_slide {
   padding-top: 20px;
   font: normal 2.125em Dante MT Std serif;
@@ -1588,34 +1588,34 @@ a.nav-bottom-vantage {
   float: left;
   margin-left: 30px;
 }
-/* line 721, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 721, ../../stylesheets/partials/_slidedeck-homepage.sass */
 #team_mission h1 span.orange {
   color: #f37421;
 }
-/* line 723, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 723, ../../stylesheets/partials/_slidedeck-homepage.sass */
 #team_mission h1 span.white {
   color: white;
   padding-left: 5px;
 }
-/* line 727, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 727, ../../stylesheets/partials/_slidedeck-homepage.sass */
 #team_mission p.connect {
   padding-left: 10px;
 }
-/* line 729, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 729, ../../stylesheets/partials/_slidedeck-homepage.sass */
 #team_mission p.connect_right {
   padding: 0;
   padding-right: 10px;
   text-align: right;
   padding-left: 380px;
 }
-/* line 734, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 734, ../../stylesheets/partials/_slidedeck-homepage.sass */
 #team_mission h2.trailer {
   padding: 10px 0 30px 10px;
   color: #f37421;
   font-weight: 600;
   font-size: 1.3em;
 }
-/* line 739, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 739, ../../stylesheets/partials/_slidedeck-homepage.sass */
 #team_mission p {
   font-family: Georgia;
   font: normal 1.4em Georgia, serif;
@@ -1720,17 +1720,17 @@ a.nav-bottom-vantage {
  *    letter-spacing:.02em;
  *    padding: 0 0 5px 10px;
  *   } */
-/* line 846, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 846, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .clickforward {
   margin: 5px 10px 5px 0;
 }
 
-/* line 849, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 849, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .clickback {
   margin: -5px 0 5px 50px;
 }
 
-/* line 852, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 852, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .clickforward a, .clickback a {
   font: normal 1.35em Helvetica, Arial, sans-serif;
   color: #f37421;
@@ -1740,12 +1740,12 @@ a.nav-bottom-vantage {
   text-decoration: none;
 }
 
-/* line 860, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 860, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .clickforward, .clickback, a:hover {
   color: #455560;
 }
 
-/* line 864, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 864, ../../stylesheets/partials/_slidedeck-homepage.sass */
 #slidedeck_frame .slide_1 .small-icon {
   background: transparent url("../images/small_icon.png") no-repeat 0 0;
   width: 70px;
@@ -1753,7 +1753,7 @@ a.nav-bottom-vantage {
   padding: 0;
   margin: 0;
 }
-/* line 870, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 870, ../../stylesheets/partials/_slidedeck-homepage.sass */
 #slidedeck_frame .slide_16 {
   background: white url("../images/connect-right.png") no-repeat 0 20px;
   width: 327px;
@@ -1761,40 +1761,42 @@ a.nav-bottom-vantage {
   padding: 0;
   margin: 0;
 }
-/* line 876, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 876, ../../stylesheets/partials/_slidedeck-homepage.sass */
 #slidedeck_frame .slide_17 {
   background-color: white;
   margin: 0;
   padding: 0;
 }
 
-/* line 881, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 881, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .chart_label_percentage {
   position: absolute;
   top: 100px;
-  left: 50px;
+  left: 40px;
   color: white;
-  font-size: 18px;
+  font-size: 1.9em;
   font-weight: bold;
 }
 
-/* line 889, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 889, ../../stylesheets/partials/_slidedeck-homepage.sass */
 .chart_label_text {
   position: absolute;
   top: 120px;
-  left: 50px;
-  color: black;
-  font-size: 12px;
+  left: 40px;
+  color: #36434d;
+  font-size: 1.125em;
   font-weight: normal;
+  font-family: franklin-gothic-urw-condensed, sans-serif;
+  font-weight: 600;
 }
 
-/* line 897, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 899, ../../stylesheets/partials/_slidedeck-homepage.sass */
 #vantage_catalyst {
   height: 335px;
   overflow: hidden;
   background-color: white;
 }
-/* line 901, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 903, ../../stylesheets/partials/_slidedeck-homepage.sass */
 #vantage_catalyst h1 {
   padding-top: 30px;
   font-size: 1.25em;
@@ -1803,7 +1805,7 @@ a.nav-bottom-vantage {
   font-weight: 600;
   letter-spacing: 0.02em;
 }
-/* line 908, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 910, ../../stylesheets/partials/_slidedeck-homepage.sass */
 #vantage_catalyst h2 {
   padding-top: 5px;
   padding-bottom: 5px;
@@ -1811,7 +1813,7 @@ a.nav-bottom-vantage {
   color: #455560;
   letter-spacing: 0.036em;
 }
-/* line 914, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 916, ../../stylesheets/partials/_slidedeck-homepage.sass */
 #vantage_catalyst h3 {
   font: normal 1.25em Helvetica, Arial, sans-serif;
   color: #455560;
@@ -1819,25 +1821,25 @@ a.nav-bottom-vantage {
   line-height: 1.4em;
   padding-bottom: 5px;
 }
-/* line 920, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 922, ../../stylesheets/partials/_slidedeck-homepage.sass */
 #vantage_catalyst h4 {
   font: normal 1em Helvetica, Arial, sans-serif;
   color: #455560;
   letter-spacing: 0.036em;
   line-height: 1.4em;
 }
-/* line 925, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 927, ../../stylesheets/partials/_slidedeck-homepage.sass */
 #vantage_catalyst p {
-  font: normal 1.4em Dante MT Std serif;
+  font: normal 1.3em Dante MT Std serif;
   color: #455560;
   line-height: 1.35em;
 }
-/* line 929, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 931, ../../stylesheets/partials/_slidedeck-homepage.sass */
 #vantage_catalyst .name_ct {
   width: 150px;
   float: left;
 }
-/* line 932, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 934, ../../stylesheets/partials/_slidedeck-homepage.sass */
 #vantage_catalyst p.list, #vantage_catalyst span {
   font-style: normal;
   font-size: 1.2em;
@@ -1845,7 +1847,7 @@ a.nav-bottom-vantage {
   line-height: 1.4em;
 }
 
-/* line 938, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 940, ../../stylesheets/partials/_slidedeck-homepage.sass */
 #vimeo-holder {
   position: relative;
   width: 510px;
@@ -1855,7 +1857,7 @@ a.nav-bottom-vantage {
 }
 
 /*Thought Leadership Section */
-/* line 948, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 950, ../../stylesheets/partials/_slidedeck-homepage.sass */
 #thought-leadership h1 {
   -moz-font-feature-settings: normal;
   -moz-font-language-override: normal;
@@ -1871,7 +1873,7 @@ a.nav-bottom-vantage {
   line-height: normal;
   padding-top: 5px;
 }
-/* line 962, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 964, ../../stylesheets/partials/_slidedeck-homepage.sass */
 #thought-leadership h2.agent-title {
   font: 600 1.125em Helvetica, Arial, sans-serif;
   color: #f37421;
@@ -1881,7 +1883,7 @@ a.nav-bottom-vantage {
   margin: 0;
   float: left;
 }
-/* line 970, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 972, ../../stylesheets/partials/_slidedeck-homepage.sass */
 #thought-leadership h2.agent-title a {
   font: 600 1em Helvetica, Arial, sans-serif;
   color: #f37421;
@@ -1892,31 +1894,31 @@ a.nav-bottom-vantage {
   float: left;
   text-decoration: none;
 }
-/* line 979, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 981, ../../stylesheets/partials/_slidedeck-homepage.sass */
 #thought-leadership h2.agent-title a:hover {
   text-decoration: underline;
 }
-/* line 981, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 983, ../../stylesheets/partials/_slidedeck-homepage.sass */
 #thought-leadership .grey {
   font: 600 1em Helvetica, Arial, sans-serif;
   color: #455560;
   display: inline;
 }
-/* line 985, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 987, ../../stylesheets/partials/_slidedeck-homepage.sass */
 #thought-leadership .pointer-icon {
   background: white url("../images/small_arrow_left.png") no-repeat scroll 0 0;
   padding-bottom: 5px;
   height: 17px;
   width: 17px;
 }
-/* line 990, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 992, ../../stylesheets/partials/_slidedeck-homepage.sass */
 #thought-leadership p {
   font-family: Georgia;
   font: normal 1.125em Georgia, serif;
   line-height: 1.35em;
   color: #455560;
 }
-/* line 995, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 997, ../../stylesheets/partials/_slidedeck-homepage.sass */
 #thought-leadership h3.accent {
   font: normal 1.15em Georgia, serif;
   color: #455560;
@@ -1925,7 +1927,7 @@ a.nav-bottom-vantage {
   font-style: italic;
   text-align: right;
 }
-/* line 1002, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 1004, ../../stylesheets/partials/_slidedeck-homepage.sass */
 #thought-leadership .topicon {
   background: white url("../images/smallpie.png") no-repeat scroll 0 0;
   height: 37px;
@@ -1934,7 +1936,7 @@ a.nav-bottom-vantage {
   padding: 30px 10px 7px 170px;
   float: left;
 }
-/* line 1009, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 1011, ../../stylesheets/partials/_slidedeck-homepage.sass */
 #thought-leadership .topquote {
   background: white url("../images/smallpie.png") no-repeat scroll 0 0;
   height: 40px;
@@ -1943,19 +1945,19 @@ a.nav-bottom-vantage {
   width: 157px;
   margin-top: 35px;
 }
-/* line 1016, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 1018, ../../stylesheets/partials/_slidedeck-homepage.sass */
 #thought-leadership h4 {
   font: 600 1em Helvetica, Arial sans-serif;
   color: #455560;
 }
-/* line 1019, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 1021, ../../stylesheets/partials/_slidedeck-homepage.sass */
 #thought-leadership .quote {
   background: white url("../images/quotes.png") no-repeat scroll 0 0;
   width: 50px;
   height: 50px;
   margin: 15px 0 0 60px;
 }
-/* line 1024, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-homepage.sass */
+/* line 1026, ../../stylesheets/partials/_slidedeck-homepage.sass */
 #thought-leadership .quote-right {
   background: white url("../images/quotes.png") no-repeat scroll -50px 0;
   width: 50px;
@@ -1974,7 +1976,7 @@ a.nav-bottom-vantage {
  * 
  * Customize the width, height, padding and background to customize the area 
  * surrounding your SlideDeck. */
-/* line 16, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-skin.sass */
+/* line 16, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_slidedeck-skin.sass */
 .skin-slidedeck {
   position: relative;
   padding: 11px;
@@ -1984,7 +1986,7 @@ a.nav-bottom-vantage {
   -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
-/* line 24, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-skin.sass */
+/* line 24, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_slidedeck-skin.sass */
 .skin-slidedeck dl.slidedeck {
   position: relative;
   width: 100%;
@@ -1992,7 +1994,7 @@ a.nav-bottom-vantage {
   margin: 0;
   padding: 0;
 }
-/* line 31, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-skin.sass */
+/* line 31, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_slidedeck-skin.sass */
 .skin-slidedeck dl.slidedeck > dd {
   position: relative;
   height: 294px;
@@ -2003,13 +2005,13 @@ a.nav-bottom-vantage {
   /* Note: you should position the background with pixel measurements in IE7 as it improperly calculates the height of the DD element when containing vertical slides */
   overflow: hidden;
 }
-/* line 40, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-skin.sass */
+/* line 40, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_slidedeck-skin.sass */
 .skin-slidedeck dl.slidedeck > dd dd {
   position: relative;
   margin: 0;
   padding: 10px 15px;
 }
-/* line 44, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-skin.sass */
+/* line 44, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_slidedeck-skin.sass */
 .skin-slidedeck dl.slidedeck > dt {
   position: relative;
   cursor: pointer;
@@ -2025,24 +2027,24 @@ a.nav-bottom-vantage {
   margin: 0;
   padding: 0;
 }
-/* line 59, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-skin.sass */
+/* line 59, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_slidedeck-skin.sass */
 .skin-slidedeck dl.slidedeck dt.spine:hover {
   color: black;
   background-position: center left;
 }
-/* line 62, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-skin.sass */
+/* line 62, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_slidedeck-skin.sass */
 .skin-slidedeck dl.slidedeck dt.spine.active {
   cursor: default;
   color: white;
   background-position: bottom left;
 }
-/* line 66, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-skin.sass */
+/* line 66, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_slidedeck-skin.sass */
 .skin-slidedeck dl.slidedeck dt.spine.active:hover {
   cursor: default;
   color: white;
   background-position: bottom left;
 }
-/* line 70, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-skin.sass */
+/* line 70, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_slidedeck-skin.sass */
 .skin-slidedeck dl.slidedeck dt.spine .index {
   margin-bottom: 2px;
   font-size: 24px;
@@ -2050,26 +2052,26 @@ a.nav-bottom-vantage {
   font-family: Arial, Helvetica, sans-serif;
   color: #505050;
 }
-/* line 76, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-skin.sass */
+/* line 76, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_slidedeck-skin.sass */
 .skin-slidedeck dl.slidedeck dt.spine.active .index {
   margin-bottom: 0;
 }
-/* line 78, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-skin.sass */
+/* line 78, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_slidedeck-skin.sass */
 .skin-slidedeck dl.slidedeck dt.spine:hover .index {
   color: black;
 }
-/* line 80, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-skin.sass */
+/* line 80, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_slidedeck-skin.sass */
 .skin-slidedeck dl.slidedeck dt.spine.active .index {
   color: white;
 }
-/* line 82, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-skin.sass */
+/* line 82, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_slidedeck-skin.sass */
 .skin-slidedeck dl.slidedeck .activeCorner {
   margin-left: -6px;
   background-image: url("corner.png");
   width: 12px;
   height: 25px;
 }
-/* line 87, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-skin.sass */
+/* line 87, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_slidedeck-skin.sass */
 .skin-slidedeck dl.slidedeck dd.slide ul.slidesVertical > li {
   overflow: hidden;
   padding: 10px;
@@ -2134,7 +2136,7 @@ a.nav-bottom-vantage {
  * This is the container for the vertical slide navigation. You can position
  * this anywhere you want within the containing slide's area. If you try to
  * position it outside of the slide area it will not appear. */
-/* line 172, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-skin.sass */
+/* line 172, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_slidedeck-skin.sass */
 dl.slidedeck dd.slide ul.verticalSlideNav {
   top: -1000px;
   right: -1000px;
@@ -2142,7 +2144,7 @@ dl.slidedeck dd.slide ul.verticalSlideNav {
   padding: 0;
   list-style: none;
 }
-/* line 178, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-skin.sass */
+/* line 178, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_slidedeck-skin.sass */
 dl.slidedeck dd.slide ul.verticalSlideNav li {
   position: relative;
   z-index: 2;
@@ -2156,7 +2158,7 @@ dl.slidedeck dd.slide ul.verticalSlideNav li {
   font-size: 1px;
   /* Stupid IE */
 }
-/* line 190, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-skin.sass */
+/* line 190, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_slidedeck-skin.sass */
 dl.slidedeck dd.slide ul.verticalSlideNav li.arrow {
   position: absolute;
   display: block;
@@ -2179,7 +2181,7 @@ dl.slidedeck dd.slide ul.verticalSlideNav li.arrow {
   -khtml-border-radius: 3px;
   -o-border-radius: 3px;
 }
-/* line 211, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-skin.sass */
+/* line 211, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_slidedeck-skin.sass */
 dl.slidedeck dd.slide ul.verticalSlideNav li a {
   position: relative;
   display: block;
@@ -2203,7 +2205,7 @@ dl.slidedeck dd.slide ul.verticalSlideNav li a {
   -khtml-border-radius: 3px;
   -o-border-radius: 3px;
 }
-/* line 233, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_slidedeck-skin.sass */
+/* line 233, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_slidedeck-skin.sass */
 dl.slidedeck dd.slide ul.verticalSlideNav li a:hover {
   opacity: 0.75;
   -moz-opacity: 0.75;
@@ -2242,46 +2244,46 @@ dl.slidedeck dd.slide ul.verticalSlideNav li a:hover {
  *     etc.... */
 /* The SlideDeck vertical slide navigation link hover state. */
 /** ESSENTIAL STYLES ** */
-/* line 3, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish.sass */
+/* line 3, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_superfish.sass */
 .sf-menu {
   margin: 0;
   padding: 0;
   list-style: none;
   line-height: 1;
 }
-/* line 7, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish.sass */
+/* line 7, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_superfish.sass */
 .sf-menu * {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-/* line 12, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish.sass */
+/* line 12, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_superfish.sass */
 .sf-menu ul {
   position: absolute;
   top: -999em;
   width: 10em;
   /* left offset of submenus need to match (see below) */
 }
-/* line 17, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish.sass */
+/* line 17, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_superfish.sass */
 .sf-menu ul li {
   width: 100%;
 }
-/* line 19, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish.sass */
+/* line 19, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_superfish.sass */
 .sf-menu li {
   float: left;
   position: relative;
 }
-/* line 20, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish.sass */
+/* line 20, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_superfish.sass */
 .sf-menu li:hover {
   visibility: inherit;
   /* fixes IE7 'sticky bug' */
 }
-/* line 25, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish.sass */
+/* line 25, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_superfish.sass */
 .sf-menu a {
   display: block;
   position: relative;
 }
-/* line 29, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish.sass */
+/* line 29, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_superfish.sass */
 .sf-menu li:hover ul, .sf-menu li.sfHover ul {
   left: 0;
   /*top: 2.5em */
@@ -2290,21 +2292,21 @@ dl.slidedeck dd.slide ul.verticalSlideNav li a:hover {
   z-index: 99;
 }
 
-/* line 37, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish.sass */
+/* line 37, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_superfish.sass */
 ul.sf-menu li:hover li ul, ul.sf-menu li.sfHover li ul {
   top: -999em;
 }
-/* line 40, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish.sass */
+/* line 40, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_superfish.sass */
 ul.sf-menu li li:hover ul, ul.sf-menu li li.sfHover ul {
   left: 10em;
   /* match ul width */
   top: 0;
 }
-/* line 44, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish.sass */
+/* line 44, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_superfish.sass */
 ul.sf-menu li li:hover li ul, ul.sf-menu li li.sfHover li ul {
   top: -999em;
 }
-/* line 47, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish.sass */
+/* line 47, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_superfish.sass */
 ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
   left: 10em;
   /* match ul width */
@@ -2312,12 +2314,12 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 }
 
 /** DEMO SKIN ** */
-/* line 54, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish.sass */
+/* line 54, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_superfish.sass */
 .sf-menu {
   float: left;
   margin-bottom: 1em;
 }
-/* line 57, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish.sass */
+/* line 57, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_superfish.sass */
 .sf-menu a {
   border-left: 1px solid white;
   border-top: 1px solid #cfdeff;
@@ -2333,7 +2335,7 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
   font: normal 12px Dante MT Std serif;
   letter-spacing: 0.08em;
 }
-/* line 71, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish.sass */
+/* line 71, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_superfish.sass */
 .sf-menu a:visited {
   /* visited pseudo selector so IE6 applies text colour */
   color: #2f404c !important;
@@ -2345,29 +2347,29 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
   font: normal 12px Dante MT Std serif;
   letter-spacing: 0.08em;
 }
-/* line 81, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish.sass */
+/* line 81, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_superfish.sass */
 .sf-menu li {
   background: #bdd2ff;
 }
-/* line 83, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish.sass */
+/* line 83, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_superfish.sass */
 .sf-menu li li {
   background: #aabde6;
 }
-/* line 85, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish.sass */
+/* line 85, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_superfish.sass */
 .sf-menu li li li {
   background: #9aaedb;
 }
-/* line 87, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish.sass */
+/* line 87, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_superfish.sass */
 .sf-menu li:hover, .sf-menu li.sfHover {
   background: #cfdeff;
   outline: 0;
 }
-/* line 91, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish.sass */
+/* line 91, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_superfish.sass */
 .sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {
   background: #cfdeff;
   outline: 0;
 }
-/* line 94, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish.sass */
+/* line 94, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_superfish.sass */
 .sf-menu a.sf-with-ul {
   /*padding-right: 	2.25em; */
   min-width: 1px;
@@ -2378,7 +2380,7 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
 }
 
 /** arrows */
-/* line 104, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish.sass */
+/* line 104, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_superfish.sass */
 .sf-sub-indicator {
   position: absolute;
   display: block;
@@ -2393,41 +2395,41 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul {
   /* 8-bit indexed alpha png. IE6 gets solid image only */
 }
 
-/* line 118, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish.sass */
+/* line 118, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_superfish.sass */
 a > .sf-sub-indicator {
   /* give all except IE6 the correct values */
   top: 0.8em;
   background-position: 0 -100px;
   /* use translucent arrow for modern browsers */
 }
-/* line 123, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish.sass */
+/* line 123, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_superfish.sass */
 a:focus > .sf-sub-indicator, a:hover > .sf-sub-indicator, a:active > .sf-sub-indicator {
   background-position: -10px -100px;
   /* arrow hovers for modern browsers */
 }
 
 /* apply hovers to modern browsers */
-/* line 130, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish.sass */
+/* line 130, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_superfish.sass */
 li:hover > a > .sf-sub-indicator, li.sfHover > a > .sf-sub-indicator {
   background-position: -10px -100px;
   /* arrow hovers for modern browsers */
 }
 
 /* point right for anchors in subs */
-/* line 137, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish.sass */
+/* line 137, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_superfish.sass */
 .sf-menu ul .sf-sub-indicator {
   background-position: -10px 0;
 }
-/* line 140, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish.sass */
+/* line 140, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_superfish.sass */
 .sf-menu ul a > .sf-sub-indicator {
   background-position: 0 0;
 }
-/* line 142, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish.sass */
+/* line 142, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_superfish.sass */
 .sf-menu ul a:focus > .sf-sub-indicator, .sf-menu ul a:hover > .sf-sub-indicator, .sf-menu ul a:active > .sf-sub-indicator {
   background-position: -10px 0;
   /* arrow hovers for modern browsers */
 }
-/* line 146, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish.sass */
+/* line 146, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_superfish.sass */
 .sf-menu ul li:hover > a > .sf-sub-indicator, .sf-menu ul li.sfHover > a > .sf-sub-indicator {
   background-position: -10px 0;
   /* arrow hovers for modern browsers */
@@ -2435,7 +2437,7 @@ li:hover > a > .sf-sub-indicator, li.sfHover > a > .sf-sub-indicator {
 
 /* apply hovers to modern browsers */
 /** shadows for all but IE6 ** */
-/* line 154, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish.sass */
+/* line 154, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_superfish.sass */
 .sf-shadow ul {
   background: url("../images/shadow.png") no-repeat bottom right;
   padding: 0 8px 9px 0;
@@ -2444,152 +2446,152 @@ li:hover > a > .sf-sub-indicator, li.sfHover > a > .sf-sub-indicator {
   -webkit-border-top-right-radius: 17px;
   -webkit-border-bottom-left-radius: 17px;
 }
-/* line 161, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish.sass */
+/* line 161, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_superfish.sass */
 .sf-shadow ul.sf-shadow-off {
   background: transparent;
 }
 
 /** adding the class sf-navbar in addition to sf-menu creates an all-horizontal nav-bar menu ** */
-/* line 3, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish-navbar.sass */
+/* line 3, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_superfish-navbar.sass */
 .sf-navbar {
   background: #a9b2ba;
   height: 45px;
   padding-bottom: 50px;
   position: relative;
 }
-/* line 8, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish-navbar.sass */
+/* line 8, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_superfish-navbar.sass */
 .sf-navbar li {
   background: #f37421;
   position: static;
   font-family: "Dante MT Std" serif;
 }
-/* line 12, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish-navbar.sass */
+/* line 12, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_superfish-navbar.sass */
 .sf-navbar a {
   border-top: none;
 }
-/* line 15, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish-navbar.sass */
+/* line 15, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_superfish-navbar.sass */
 .sf-navbar li ul {
   width: 44em;
   /*IE6 soils itself without this */
 }
-/* line 18, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish-navbar.sass */
+/* line 18, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_superfish-navbar.sass */
 .sf-navbar li li {
   background: #9ba3ab;
   position: relative;
 }
-/* line 21, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish-navbar.sass */
+/* line 21, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_superfish-navbar.sass */
 .sf-navbar li li ul {
   width: 13em;
 }
-/* line 23, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish-navbar.sass */
+/* line 23, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_superfish-navbar.sass */
 .sf-navbar li li li {
   width: 100%;
 }
-/* line 25, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish-navbar.sass */
+/* line 25, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_superfish-navbar.sass */
 .sf-navbar ul li {
   width: auto;
   float: left;
 }
-/* line 28, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish-navbar.sass */
+/* line 28, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_superfish-navbar.sass */
 .sf-navbar a {
   border: none;
 }
-/* line 30, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish-navbar.sass */
+/* line 30, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_superfish-navbar.sass */
 .sf-navbar a:visited {
   border: none;
 }
-/* line 33, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish-navbar.sass */
+/* line 33, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_superfish-navbar.sass */
 .sf-navbar li.current {
   background: #f37421;
 }
-/* line 35, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish-navbar.sass */
+/* line 35, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_superfish-navbar.sass */
 .sf-navbar li:hover, .sf-navbar li.sfHover, .sf-navbar li li.current {
   background-color: #f37421;
   color: white;
 }
-/* line 39, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish-navbar.sass */
+/* line 39, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_superfish-navbar.sass */
 .sf-navbar a:focus, .sf-navbar a:hover, .sf-navbar a:active {
   background-color: #f37421;
   color: white;
 }
-/* line 42, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish-navbar.sass */
+/* line 42, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_superfish-navbar.sass */
 .sf-navbar a:hover {
   background: transparent url("../images/white_nav_icon.png") 50% 0 no-repeat;
 }
-/* line 44, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish-navbar.sass */
+/* line 44, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_superfish-navbar.sass */
 .sf-navbar li.active {
   background: #f37421 url("../images/white_nav_icon.png") 50% 0 no-repeat;
 }
-/* line 47, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish-navbar.sass */
+/* line 47, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_superfish-navbar.sass */
 .sf-navbar ul li:hover, .sf-navbar ul li.sfHover {
   background-color: #848a91;
 }
 
-/* line 51, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish-navbar.sass */
+/* line 51, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_superfish-navbar.sass */
 ul.sf-navbar ul li:hover li, ul.sf-navbar ul li.sfHover li {
   background-color: #848a91;
 }
 
-/* line 55, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish-navbar.sass */
+/* line 55, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_superfish-navbar.sass */
 .sf-navbar ul a:focus, .sf-navbar ul a:hover, .sf-navbar ul a:active {
   background-color: #848a91;
 }
 
-/* line 59, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish-navbar.sass */
+/* line 59, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_superfish-navbar.sass */
 ul.sf-navbar li li li:hover, ul.sf-navbar li li li.sfHover {
   background: #e6eeff;
 }
 
-/* line 66, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish-navbar.sass */
+/* line 66, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_superfish-navbar.sass */
 .sf-navbar li li.current li.current {
   background: #e6eeff;
 }
-/* line 69, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish-navbar.sass */
+/* line 69, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_superfish-navbar.sass */
 .sf-navbar ul li li a:focus, .sf-navbar ul li li a:hover, .sf-navbar ul li li a:active {
   background: #e6eeff;
 }
 
-/* line 73, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish-navbar.sass */
+/* line 73, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_superfish-navbar.sass */
 ul.sf-navbar .current ul {
   left: 0;
   top: 2.5em;
   /* match top ul list item height */
 }
-/* line 78, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish-navbar.sass */
+/* line 78, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_superfish-navbar.sass */
 ul.sf-navbar ul li:hover ul, ul.sf-navbar ul li.sfHover ul {
   left: 0;
   top: 2.5em;
   /* match top ul list item height */
 }
-/* line 82, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish-navbar.sass */
+/* line 82, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_superfish-navbar.sass */
 ul.sf-navbar .current ul ul {
   top: -999em;
 }
 
-/* line 86, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish-navbar.sass */
+/* line 86, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_superfish-navbar.sass */
 .sf-navbar li li.current > a {
   font-weight: normal;
   color: white;
 }
-/* line 90, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish-navbar.sass */
+/* line 90, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_superfish-navbar.sass */
 .sf-navbar ul .sf-sub-indicator {
   background-position: -10px -100px;
 }
-/* line 93, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish-navbar.sass */
+/* line 93, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_superfish-navbar.sass */
 .sf-navbar ul a > .sf-sub-indicator {
   background-position: 0 -100px;
 }
-/* line 95, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish-navbar.sass */
+/* line 95, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_superfish-navbar.sass */
 .sf-navbar ul a:focus > .sf-sub-indicator, .sf-navbar ul a:hover > .sf-sub-indicator, .sf-navbar ul a:active > .sf-sub-indicator {
   background-position: -10px -100px;
   /* arrow hovers for modern browsers */
 }
-/* line 99, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish-navbar.sass */
+/* line 99, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_superfish-navbar.sass */
 .sf-navbar ul li:hover > a > .sf-sub-indicator, .sf-navbar ul li.sfHover > a > .sf-sub-indicator {
   background-position: -10px -100px;
   /* arrow hovers for modern browsers */
 }
-/* line 102, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_superfish-navbar.sass */
+/* line 102, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_superfish-navbar.sass */
 .sf-navbar > li > ul {
   background: transparent;
   padding: 20px 0 0 86px;
@@ -2603,14 +2605,14 @@ ul.sf-navbar .current ul ul {
 /* point right for anchors in subs */
 /* apply hovers to modern browsers */
 /** remove shadow on first submenu ** */
-/* line 1, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 1, ../../stylesheets/partials/_style.sass */
 #wrapper {
   margin: 0 auto;
   padding: 0;
   width: 960px;
 }
 
-/* line 6, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 6, ../../stylesheets/partials/_style.sass */
 #footer {
   float: left;
   background: #36434d url("../images/footer.png") repeat-x scroll 0 0;
@@ -2621,7 +2623,7 @@ ul.sf-navbar .current ul ul {
   position: relative;
 }
 
-/* line 15, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 15, ../../stylesheets/partials/_style.sass */
 #foot {
   background: #a9b2ba url("../images/foot-bkgrng.png") no-repeat scroll 0 16px;
   width: 960px;
@@ -2632,7 +2634,7 @@ ul.sf-navbar .current ul ul {
   margin-bottom: 0;
   padding: 0;
 }
-/* line 24, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 24, ../../stylesheets/partials/_style.sass */
 #foot #left {
   float: left;
   padding: 0;
@@ -2641,7 +2643,7 @@ ul.sf-navbar .current ul ul {
   margin: 0;
   padding: 0;
 }
-/* line 31, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 31, ../../stylesheets/partials/_style.sass */
 #foot #right {
   float: right;
   padding: 37px 0 0 27px;
@@ -2651,7 +2653,7 @@ ul.sf-navbar .current ul ul {
   background-color: white;
   background: white url("../images/foot-right-bkgrnd.png") no-repeat scroll -9px 0;
 }
-/* line 39, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 39, ../../stylesheets/partials/_style.sass */
 #foot #logo {
   float: right;
   padding: 0 20px 0 0;
@@ -2661,7 +2663,7 @@ ul.sf-navbar .current ul ul {
   background: white url("../images/footer-logo.png") no-repeat scroll 0 0;
 }
 
-/* line 47, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 47, ../../stylesheets/partials/_style.sass */
 #footer h4 {
   font-family: pragmatica-web, sans-serif;
   font-style: normal;
@@ -2673,7 +2675,7 @@ ul.sf-navbar .current ul ul {
   line-height: 1.3;
   letter-spacing: 0.02em;
 }
-/* line 57, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 57, ../../stylesheets/partials/_style.sass */
 #footer h4 a {
   color: #f37421;
   text-decoration: none;
@@ -2683,13 +2685,13 @@ ul.sf-navbar .current ul ul {
   font-family: pragmatica-web, sans-serif;
   font-style: normal;
 }
-/* line 65, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 65, ../../stylesheets/partials/_style.sass */
 #footer h4 a:hover {
   color: #2f404c;
   text-decoration: none;
 }
 
-/* line 68, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 68, ../../stylesheets/partials/_style.sass */
 .clear {
   clear: both;
   display: block;
@@ -2701,13 +2703,13 @@ ul.sf-navbar .current ul ul {
 
 /* Navigation
  *---------------------------------------------------------------------------------------------------- */
-/* line 79, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 79, ../../stylesheets/partials/_style.sass */
 #navigation {
   height: 45px;
   background-color: #f37421;
 }
 
-/* line 85, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 85, ../../stylesheets/partials/_style.sass */
 .nav-top {
   line-height: 1;
   list-style: none outside none;
@@ -2716,12 +2718,12 @@ ul.sf-navbar .current ul ul {
   z-index: 99;
   float: left;
 }
-/* line 92, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 92, ../../stylesheets/partials/_style.sass */
 .nav-top li {
   float: left;
   width: auto;
 }
-/* line 95, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 95, ../../stylesheets/partials/_style.sass */
 .nav-top li a {
   color: #2f404c !important;
   display: block;
@@ -2734,13 +2736,13 @@ ul.sf-navbar .current ul ul {
   font: normal 12px Dante MT Std serif;
   letter-spacing: 0.08em;
 }
-/* line 106, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 106, ../../stylesheets/partials/_style.sass */
 .nav-top a:hover {
   color: white !important;
   text-decoration: none !important;
 }
 
-/* line 110, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 110, ../../stylesheets/partials/_style.sass */
 #navigation-footer {
   margin: 0px;
   padding: 10px 0 0 50px;
@@ -2749,7 +2751,7 @@ ul.sf-navbar .current ul ul {
   width: 500px;
 }
 
-/* line 119, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 119, ../../stylesheets/partials/_style.sass */
 .nav-bottom {
   line-height: 1;
   list-style: none outside none;
@@ -2758,12 +2760,12 @@ ul.sf-navbar .current ul ul {
   z-index: 99;
   float: left;
 }
-/* line 126, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 126, ../../stylesheets/partials/_style.sass */
 .nav-bottom li {
   float: left;
   width: auto;
 }
-/* line 129, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 129, ../../stylesheets/partials/_style.sass */
 .nav-bottom li a {
   color: #a9b2ba !important;
   display: block;
@@ -2776,7 +2778,7 @@ ul.sf-navbar .current ul ul {
   font: normal 12px Dante MT Std serif;
   letter-spacing: 0.08em;
 }
-/* line 140, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 140, ../../stylesheets/partials/_style.sass */
 .nav-bottom a:hover {
   color: #f37421 !important;
   text-decoration: none !important;
@@ -2785,7 +2787,7 @@ ul.sf-navbar .current ul ul {
 /* I'm leaving this up to your discretion */
 /*     Content
  * ---------------------------------------------------------------------------------------------------- */
-/* line 151, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 151, ../../stylesheets/partials/_style.sass */
 #logo {
   margin: 0;
   padding: 0;
@@ -2796,7 +2798,7 @@ ul.sf-navbar .current ul ul {
 
 /*     Search
  * ---------------------------------------------------------------------------------------------------- */
-/* line 163, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 163, ../../stylesheets/partials/_style.sass */
 .search {
   float: right;
   margin: 40px 44px 0 0;
@@ -2808,14 +2810,14 @@ ul.sf-navbar .current ul ul {
   display: block;
 }
 
-/* line 173, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 173, ../../stylesheets/partials/_style.sass */
 #search_form {
   float: left;
   margin: 0;
   padding: 0px;
   height: 23px;
 }
-/* line 178, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 178, ../../stylesheets/partials/_style.sass */
 #search_form #q {
   width: 182px;
   height: 17px;
@@ -2829,11 +2831,11 @@ ul.sf-navbar .current ul ul {
   float: left;
   background: none;
 }
-/* line 190, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 190, ../../stylesheets/partials/_style.sass */
 #search_form #q:hover {
   background-color: #dddddd;
 }
-/* line 192, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 192, ../../stylesheets/partials/_style.sass */
 #search_form input {
   background: white url("../images/magnifying_glass.png") no-repeat 0 0;
   height: 24px;
@@ -2845,12 +2847,12 @@ ul.sf-navbar .current ul ul {
   margin: 0 0 0 6px;
   border: none;
 }
-/* line 202, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 202, ../../stylesheets/partials/_style.sass */
 #search_form input:hover {
   background-position: -25px 0;
 }
 
-/* line 205, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 205, ../../stylesheets/partials/_style.sass */
 #globalsearch {
   margin: 0;
   padding: 0;
@@ -2859,7 +2861,7 @@ ul.sf-navbar .current ul ul {
   height: 90px;
 }
 
-/* line 212, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 212, ../../stylesheets/partials/_style.sass */
 #g-search {
   display: block;
   background: white url("../images/search-placeholder.png") no-repeat scroll 0 40px;
@@ -2871,156 +2873,156 @@ ul.sf-navbar .current ul ul {
 }
 
 /* Contact us page */
-/* line 223, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 223, ../../stylesheets/partials/_style.sass */
 #content-contact-us {
   /*margin:30px 37px 0 36px; */
   margin-top: 40px;
 }
-/* line 226, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 226, ../../stylesheets/partials/_style.sass */
 #content-contact-us .ct {
   background: transparent url("../images/contact-us-bkgrnd_870px.png") no-repeat scroll 0 -25px;
   margin: 0;
   padding: 0;
   height: 314px;
 }
-/* line 231, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 231, ../../stylesheets/partials/_style.sass */
 #content-contact-us .address-info {
   padding-top: 37px;
 }
-/* line 233, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 233, ../../stylesheets/partials/_style.sass */
 #content-contact-us .address-info #category {
   font: normal normal 600 1.3em Arial, sans-serif;
   letter-spacing: 0.11em;
   color: #f37421;
 }
-/* line 237, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 237, ../../stylesheets/partials/_style.sass */
 #content-contact-us .address-info h1 {
   padding-top: 10px;
   font: normal 1.45em Dante MT sans-serif;
   color: #5f6a72;
   line-height: 1.37em;
 }
-/* line 242, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 242, ../../stylesheets/partials/_style.sass */
 #content-contact-us .address-info h2 {
   font: bold 1.1em Arial, sans-serif;
   color: #5f6a72;
   line-height: 2.16em;
 }
-/* line 246, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 246, ../../stylesheets/partials/_style.sass */
 #content-contact-us .info h2 {
   line-height: 34px;
   color: #5f6a72;
   font-weight: 600;
 }
-/* line 250, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 250, ../../stylesheets/partials/_style.sass */
 #content-contact-us .address-info h2 a, #content-contact-us .info h2 a {
   font: bold 1.1em Arial, sans-serif;
   color: #5f6a72;
   line-height: 2.05em;
   text-decoration: none;
 }
-/* line 255, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 255, ../../stylesheets/partials/_style.sass */
 #content-contact-us .address-info h2 a:hover {
   font: bold 1.1em Arial, sans-serif;
   color: #f37421;
   line-height: 2.05em;
 }
-/* line 259, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 259, ../../stylesheets/partials/_style.sass */
 #content-contact-us .info {
   padding-top: 30px;
   padding-left: 10px;
 }
-/* line 260, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 260, ../../stylesheets/partials/_style.sass */
 #content-contact-us .info h2 a:hover {
   font: bold 1.1em Arial, sans-serif;
   color: #f37421;
   line-height: 2.05em;
 }
-/* line 266, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 266, ../../stylesheets/partials/_style.sass */
 #content-contact-us .info .icons {
   float: right;
   /*margin:0px;
    *padding: 3px 0 0 0;
    *width:55px; */
 }
-/* line 271, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 271, ../../stylesheets/partials/_style.sass */
 #content-contact-us .info #mail {
   width: 41px;
   height: 34px;
   background: transparent url("../images/contact_icons.png") no-repeat scroll -6px 0;
 }
-/* line 275, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 275, ../../stylesheets/partials/_style.sass */
 #content-contact-us .info #mail:hover {
   width: 41px;
   height: 34px;
   background: transparent url("../images/contact_icons-2.png") no-repeat scroll -6px 0;
 }
-/* line 279, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 279, ../../stylesheets/partials/_style.sass */
 #content-contact-us .info #direct {
   width: 41px;
   height: 34px;
   background: transparent url("../images/contact_icons.png") no-repeat scroll -6px -33px;
 }
-/* line 283, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 283, ../../stylesheets/partials/_style.sass */
 #content-contact-us .info #direct:hover {
   width: 41px;
   height: 34px;
   background: transparent url("../images/contact_icons-2.png") no-repeat scroll -6px -33px;
 }
-/* line 287, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 287, ../../stylesheets/partials/_style.sass */
 #content-contact-us .info #fax {
   width: 41px;
   height: 34px;
   background: transparent url("../images/contact_icons.png") no-repeat scroll -6px -66px;
 }
-/* line 291, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 291, ../../stylesheets/partials/_style.sass */
 #content-contact-us .info #fax:hover {
   width: 41px;
   height: 34px;
   background: transparent url("../images/contact_icons-2.png") no-repeat scroll -6px -66px;
 }
-/* line 295, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 295, ../../stylesheets/partials/_style.sass */
 #content-contact-us .info #tweet {
   width: 39px;
   height: 34px;
   background: transparent url("../images/socialmedia_icons.png") no-repeat scroll 6px 0;
 }
-/* line 299, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 299, ../../stylesheets/partials/_style.sass */
 #content-contact-us .info #tweet:hover {
   width: 39px;
   height: 34px;
   background: transparent url("../images/socialmedia_icons-2.png") no-repeat scroll 6px 0;
 }
-/* line 303, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 303, ../../stylesheets/partials/_style.sass */
 #content-contact-us #facebook {
   width: 39px;
   height: 34px;
   background: transparent url("../images/socialmedia_icons.png") no-repeat scroll 6px -33px;
 }
-/* line 308, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 308, ../../stylesheets/partials/_style.sass */
 #content-contact-us .info #facebook:hover {
   width: 39px;
   height: 34px;
   background: transparent url("../images/socialmedia_icons-2.png") no-repeat scroll 6px -33px;
 }
-/* line 312, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 312, ../../stylesheets/partials/_style.sass */
 #content-contact-us .info #linkedin {
   width: 39px;
   height: 34px;
   background: transparent url("../images/socialmedia_icons.png") no-repeat scroll 6px -65px;
 }
-/* line 316, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 316, ../../stylesheets/partials/_style.sass */
 #content-contact-us .info #linkedin:hover {
   width: 39px;
   height: 34px;
   background: transparent url("../images/socialmedia_icons-2.png") no-repeat scroll 6px -65px;
 }
-/* line 320, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 320, ../../stylesheets/partials/_style.sass */
 #content-contact-us #bottom-content {
   padding-top: 30px;
   margin-bottom: 350px;
 }
-/* line 323, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 323, ../../stylesheets/partials/_style.sass */
 #content-contact-us #bottom-content p {
   background-color: #c1cacf;
   font: normal 1.5em Dante MT sans-serif;
@@ -3029,28 +3031,28 @@ ul.sf-navbar .current ul ul {
   padding: 20px;
 }
 
-/* line 330, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 330, ../../stylesheets/partials/_style.sass */
 #contact_top_container {
   margin-top: 25px;
   padding-top: 25px;
 }
-/* line 333, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 333, ../../stylesheets/partials/_style.sass */
 #contact_top_container .ct {
   height: 331px;
   background-color: white;
   box-shadow: 0 0 7px 5px rgba(0, 0, 0, 0.3);
 }
-/* line 337, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 337, ../../stylesheets/partials/_style.sass */
 #contact_top_container .contact_content {
   margin: 0;
   padding: 50px 16px 15px 30px;
 }
-/* line 340, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 340, ../../stylesheets/partials/_style.sass */
 #contact_top_container .company_mission {
   margin: 0;
   padding: 0 16px 30px 30px;
 }
-/* line 343, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 343, ../../stylesheets/partials/_style.sass */
 #contact_top_container .contact_content h1 {
   margin: 0;
   padding: 0 0 15px 0;
@@ -3060,12 +3062,12 @@ ul.sf-navbar .current ul ul {
   line-height: 1.125;
 }
 
-/* line 351, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 351, ../../stylesheets/partials/_style.sass */
 span.highlight_orange {
   color: #f37421;
 }
 
-/* line 355, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 355, ../../stylesheets/partials/_style.sass */
 #contact_top_container .contact_content p {
   margin: 0;
   padding: 0 0 15px 0;
@@ -3073,7 +3075,7 @@ span.highlight_orange {
   color: #5f6a72;
   line-height: 1.65em;
 }
-/* line 361, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 361, ../../stylesheets/partials/_style.sass */
 #contact_top_container #small-icon {
   width: 70px;
   height: 79px;
@@ -3081,7 +3083,7 @@ span.highlight_orange {
   margin: 0;
   background-image: url("../images/small_icon.png");
 }
-/* line 367, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 367, ../../stylesheets/partials/_style.sass */
 #contact_top_container #side_container {
   margin: 0;
   padding: 0;
@@ -3089,19 +3091,19 @@ span.highlight_orange {
   float: left;
   height: 331px;
 }
-/* line 373, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 373, ../../stylesheets/partials/_style.sass */
 #contact_top_container .divider {
   height: 40px;
   background: white url("../images/slidedeck-home-images/divider-graphic-a.png") no-repeat 0 0;
 }
-/* line 377, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 377, ../../stylesheets/partials/_style.sass */
 #contact_top_container .company_mission h1 {
   font: normal 1.7em Neue Helvetica Arial, sans-serif;
   letter-spacing: 0.05em;
   line-height: 0.7em;
   color: #f37421;
 }
-/* line 382, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 382, ../../stylesheets/partials/_style.sass */
 #contact_top_container .company_mission h2 {
   font: italic 1.1em Georgia, Times sans-serif;
   line-height: 2.25em;
@@ -3109,7 +3111,7 @@ span.highlight_orange {
   color: #5f6a72;
 }
 
-/* line 388, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 388, ../../stylesheets/partials/_style.sass */
 #bigshot {
   margin-left: auto;
   margin-right: auto;
@@ -3120,47 +3122,47 @@ span.highlight_orange {
 }
 
 /****************** TEAM VANTAGE ****************** */
-/* line 398, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 398, ../../stylesheets/partials/_style.sass */
 #team_vantage {
   height: 357px;
 }
-/* line 400, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 400, ../../stylesheets/partials/_style.sass */
 #team_vantage dd {
   background-color: white;
 }
 
-/* line 403, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 403, ../../stylesheets/partials/_style.sass */
 .mini-shot {
   padding: 10px 0 0 0;
   height: 110px;
 }
 
-/* line 407, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 407, ../../stylesheets/partials/_style.sass */
 .color_block {
   margin-top: 10px;
   height: 230px;
   background-color: #f37421;
 }
 
-/* line 412, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 412, ../../stylesheets/partials/_style.sass */
 .mini-shot-light {
   opacity: 0.5;
   background-color: #f37321;
   opacity: 0.5;
 }
 
-/* line 417, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 417, ../../stylesheets/partials/_style.sass */
 .vantage_bio {
   text-align: right;
   padding-top: 10px;
   padding-right: 5px;
 }
-/* line 421, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 421, ../../stylesheets/partials/_style.sass */
 .vantage_bio h1 {
   font: 100 2.25em Dante MT Std serif;
   color: #f37421;
 }
-/* line 424, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 424, ../../stylesheets/partials/_style.sass */
 .vantage_bio p {
   font: 100 1.2em Dante MT Std serif;
   color: black;
@@ -3169,7 +3171,7 @@ span.highlight_orange {
   line-height: 1em;
 }
 
-/* line 431, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 431, ../../stylesheets/partials/_style.sass */
 h1.meet {
   text-align: right;
   padding-top: 25px;
@@ -3178,7 +3180,7 @@ h1.meet {
   color: #f37421;
 }
 
-/* line 438, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 438, ../../stylesheets/partials/_style.sass */
 h2.master {
   text-align: left;
   padding-top: 42px;
@@ -3186,33 +3188,33 @@ h2.master {
   color: black;
 }
 
-/* line 444, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 444, ../../stylesheets/partials/_style.sass */
 #content_home {
   margin: 40px 0 20px 0;
 }
-/* line 446, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 446, ../../stylesheets/partials/_style.sass */
 #content_home .ct {
   background: #a9b2ba url("../images/main-bkgrnd.png") 0 0 no-repeat;
   height: 700px;
 }
-/* line 449, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 449, ../../stylesheets/partials/_style.sass */
 #content_home .ct h2 {
   font: normal normal 600 1.3em Arial, sans-serif;
   letter-spacing: 0.11em;
   color: #f37421;
 }
-/* line 453, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 453, ../../stylesheets/partials/_style.sass */
 #content_home .ct h3 {
   font: normal normal normal 1.9em Dante MT sans-serif;
   color: #5d87a1;
   margin: 14px 0;
 }
-/* line 457, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 457, ../../stylesheets/partials/_style.sass */
 #content_home .ct p {
   font: normal normal normal 1.35em/1.85em Georgia, Times, serif;
   color: #2f404c;
 }
-/* line 460, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 460, ../../stylesheets/partials/_style.sass */
 #content_home .ct span.average {
   background: url("../images/down-arrow.png") 0 5px no-repeat;
   color: #5f6a72;
@@ -3223,7 +3225,7 @@ h2.master {
   letter-spacing: 0.8px;
   padding-left: 22px;
 }
-/* line 469, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 469, ../../stylesheets/partials/_style.sass */
 #content_home .ct p.industry {
   color: #f37421;
   font-family: franklin-gothic-urw-condensed, sans-serif;
@@ -3233,17 +3235,17 @@ h2.master {
   text-align: right;
 }
 
-/* line 477, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 477, ../../stylesheets/partials/_style.sass */
 #left-content {
   background-color: white;
 }
-/* line 479, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 479, ../../stylesheets/partials/_style.sass */
 #left-content .ct {
   padding: 30px 20px 0 35px;
   height: 325px;
 }
 
-/* line 483, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 483, ../../stylesheets/partials/_style.sass */
 #infographic {
   background: transparent url("../images/infographic-placeholder.png") no-repeat 0 0;
   height: 300px;
@@ -3252,23 +3254,23 @@ h2.master {
   display: block;
 }
 
-/* line 490, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 490, ../../stylesheets/partials/_style.sass */
 #right-content {
   background-color: #f37421;
   height: 100%;
 }
-/* line 493, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 493, ../../stylesheets/partials/_style.sass */
 #right-content .divider-small {
   background: #dddddd url("../images/divider.png") no-repeat scroll 0 0;
   height: 39px;
   width: 230px;
 }
-/* line 497, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 497, ../../stylesheets/partials/_style.sass */
 #right-content #newsfeed {
   margin: 0;
   padding: 10px 0 0 0;
 }
-/* line 500, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 500, ../../stylesheets/partials/_style.sass */
 #right-content #newsfeed h1 {
   font-family: pragmatica-web-n3, pragmatica-web, sans-serif;
   font-style: normal;
@@ -3276,12 +3278,12 @@ h2.master {
   color: white;
   letter-spacing: 4px;
   font-size: 18px;
-  padding: 4px 0 10px 0;
+  padding: 7px 70px 10px 0;
   margin: 0px;
   float: left;
   line-height: 0.5em;
 }
-/* line 511, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 511, ../../stylesheets/partials/_style.sass */
 #right-content #newsfeed .rss-icon {
   height: 20px;
   width: 21px;
@@ -3290,33 +3292,32 @@ h2.master {
   background: transparent url("../images/rss-feed.png") no-repeat 0 0;
   float: left;
 }
-/* line 518, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 518, ../../stylesheets/partials/_style.sass */
 #right-content .content-block {
-  float: left;
   margin: 0;
   padding: 0 0 0 15px;
 }
-/* line 522, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 521, ../../stylesheets/partials/_style.sass */
 #right-content .content-block .date {
   font: normal normal 300 12px/16px pragmatica-web-n3, pragmatica-web, sans-serif;
   color: white;
   letter-spacing: 0.075em;
   float: left;
 }
-/* line 527, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 526, ../../stylesheets/partials/_style.sass */
 #right-content .content-block span.date-divider {
   font: normal normal 300 18px/16px pragmatica-web-n3, pragmatica-web, sans-serif;
   color: white;
 }
-/* line 530, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 529, ../../stylesheets/partials/_style.sass */
 #right-content .content-block .author {
-  font: italic normal 300 12px/20px Georgia, serif;
+  font: italic normal 300 1.2em Georgia, serif;
   color: white;
   letter-spacing: 0.18em;
   padding: 0 0 0 5px;
   float: left;
 }
-/* line 536, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 535, ../../stylesheets/partials/_style.sass */
 #right-content .content-block h3 {
   font: normal normal 300 16px/16px Helvetica, Arial, sans-serif;
   color: #2f404c;
@@ -3325,7 +3326,7 @@ h2.master {
   margin: 0;
   float: left;
 }
-/* line 543, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 542, ../../stylesheets/partials/_style.sass */
 #right-content .content-block .photo-credit {
   font-family: Helvetica, Arial, sans-serif;
   font-style: normal;
@@ -3337,14 +3338,15 @@ h2.master {
   margin: 0;
   float: left;
 }
-/* line 553, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 552, ../../stylesheets/partials/_style.sass */
 #right-content .content-block .photo {
   margin: 0;
-  padding: 0;
+  padding: 0 10px 0 0;
   width: 76px;
-  height: 73px;
+  height: 80px;
+  float: left;
 }
-/* line 558, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 558, ../../stylesheets/partials/_style.sass */
 #right-content .content-block p {
   font: normal normal normal 1.17em/1.2em Helvetica, Arial, sans-serif;
   color: white;
@@ -3353,7 +3355,7 @@ h2.master {
   padding: 5px 16px 0 0;
   letter-spacing: 0.07em;
 }
-/* line 565, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 565, ../../stylesheets/partials/_style.sass */
 #right-content .content-block .more {
   font: italic normal 300 12px/20px Georgia, serif;
   color: white;
@@ -3361,18 +3363,18 @@ h2.master {
   padding: 0 5px 0px 142px;
   letter-spacing: 0.2em;
 }
-/* line 571, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 571, ../../stylesheets/partials/_style.sass */
 #right-content .content-block .more a {
   color: white;
   text-decoration: none;
   font-size: 12px;
 }
-/* line 575, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 575, ../../stylesheets/partials/_style.sass */
 #right-content .content-block .more a:hover {
   color: #2f404c;
   text-decoration: none;
 }
-/* line 578, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 578, ../../stylesheets/partials/_style.sass */
 #right-content .content-block .dots {
   background: transparent url("../images/dots.png") no-repeat 0 0;
   float: left;
@@ -3380,7 +3382,7 @@ h2.master {
   height: 3px;
   margin: 5px 0 10px 0;
 }
-/* line 584, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 584, ../../stylesheets/partials/_style.sass */
 #right-content .content-block .arrows {
   float: left;
   background: transparent url("../images/four-arrows.png") no-repeat -11px -10px;
@@ -3388,14 +3390,14 @@ h2.master {
   height: 10px;
   margin: 8px 0 0 0;
 }
-/* line 590, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 590, ../../stylesheets/partials/_style.sass */
 #right-content .social-media h4 {
   font: normal normal 300 14px/14px pragmatica-web-n3, pragmatica-web, sans-serif;
   color: white;
   padding-top: 5px;
   text-align: center;
 }
-/* line 595, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 595, ../../stylesheets/partials/_style.sass */
 #right-content #social-media {
   background: transparent url("../images/social-media.png") no-repeat center center;
   float: left;
@@ -3403,7 +3405,7 @@ h2.master {
   height: 54px;
   padding: 0 55px 5px 55px;
 }
-/* line 601, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 601, ../../stylesheets/partials/_style.sass */
 #right-content #social-media .facebook {
   background: transparent url("../images/facebook.png") no-repeat 0 0;
   float: left;
@@ -3412,11 +3414,11 @@ h2.master {
   margin: 9px 15px 0 18px;
   padding: 12px 0 0 20px;
 }
-/* line 608, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 608, ../../stylesheets/partials/_style.sass */
 #right-content #social-media .facebook:hover {
   background-position: -32px 0;
 }
-/* line 610, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 610, ../../stylesheets/partials/_style.sass */
 #right-content #social-media .twitter {
   background: transparent url("../images/twitter.png") no-repeat 0 0;
   float: left;
@@ -3425,12 +3427,12 @@ h2.master {
   margin: 17px 0 0 0;
   padding: 0;
 }
-/* line 617, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 617, ../../stylesheets/partials/_style.sass */
 #right-content #social-media .twitter:hover {
   background-position: -22px 0;
 }
 
-/* line 621, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_style.sass */
+/* line 621, ../../stylesheets/partials/_style.sass */
 .chart {
   height: 200px;
 }
