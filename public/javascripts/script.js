@@ -51,7 +51,7 @@ Vantage.utils = function () {
       ],
       bigpic: "April_HomePage_IMG_1472.png",
       name: "April King",
-      jobs: ["Specializing in Consumer / Internet","Enterprise / SaaS","Mobile / Wireless"]
+      jobs: ["Specializing in Enterprise / SaaS","Consumer / Internet","Mobile / Wireless"]
     },
     "tom": {
       logos:[
@@ -62,7 +62,7 @@ Vantage.utils = function () {
       ],
       bigpic: "Tom_HomePage-IMG-284.png",
       name: "Tom Callahan",
-      jobs: ["Specializing in Consumer / Internet","Enterprise / SaaS","Mobile / Wireless"]
+      jobs: ["Specializing in Enterprise / SaaS","Consumer / Internet","Mobile / Wireless"]
     },
     "may": {
       logos:[
@@ -73,7 +73,7 @@ Vantage.utils = function () {
       ],
       bigpic: "May_homepage_1581.png",
       name: "May Young",
-      jobs: ["Specializing in Consumer / Internet","Enterprise / SaaS","Mobile / Wireless"] 
+      jobs: ["Specializing in Enterprise / SaaS","Consumer / Internet","Mobile / Wireless"] 
     },
     "mark": {
       logos:[
@@ -84,7 +84,7 @@ Vantage.utils = function () {
       ],
       bigpic: "Mark_PersonalPage_IMG-1858.png",
       name: "Mark Hubbell",
-      jobs: ["Specializing in Consumer / Internet","Enterprise / SaaS","Mobile / Wireless"]
+      jobs: ["Specializing in Enterprise / SaaS","Consumer / Internet","Mobile / Wireless"]
     },
     "julie": {
       logos:[ 
@@ -95,7 +95,7 @@ Vantage.utils = function () {
       ],
       bigpic: "Julie_HomePage_IMG-0954.png",
       name: "Julie Locke",
-      jobs: ["Specializing in Consumer / Internet","Enterprise / SaaS"]
+      jobs: ["Specializing in Consumer / Internet"]
     },
     "rich": {
       logos:[
@@ -106,7 +106,7 @@ Vantage.utils = function () {
       ],
       bigpic: "Rich_HomePage_IMG-1132.png",
       name: "Richard Lear",
-      jobs: ["Specializing in Consumer / Internet","Enterprise / SaaS"] 
+      jobs: ["Specializing in Enterprise / SaaS","Consumer / Internet"] 
     },
     "gene": {
       logos:[
@@ -117,7 +117,7 @@ Vantage.utils = function () {
       ],
       bigpic: "Gene_HomePg_IMG-1823.png",
       name: "Gene Zaccor",
-      jobs: ["Specializing in Consumer / Internet","Enterprise / SaaS"]
+      jobs: ["Specializing in Enterprise / SaaS","Consumer / Internet"]
     },
     "audrey": {
       logos:[
@@ -128,7 +128,7 @@ Vantage.utils = function () {
       ],
       bigpic: "Audrey_personal_IMG-0988.png",
       name: "Audery Shuster",
-      jobs: ["Specializing in Consumer / Internet","Enterprise / SaaS","Mobile / Wireless"]
+      jobs: ["Specializing in Enterprise / SaaS","Consumer / Internet","Mobile / Wireless"]     
     },
     "steve": {
       logos:[
@@ -139,7 +139,7 @@ Vantage.utils = function () {
       ],
       bigpic: "Steve_HomePage_IMG-0601.png",
       name: "Steve O'Deegan",
-      jobs: ["Specializing in Consumer / Internet","Enterprise / SaaS"] 
+      jobs: ["Specializing in Enterprise / SaaS","Consumer / Internet"] 
     },
     "irene": {
       logos:[
@@ -150,7 +150,7 @@ Vantage.utils = function () {
       ],
       bigpic: "Irene_Home_IMG-0818.png",
       name: "Irene Murphy",
-      jobs: ["Specializing in Consumer / Internet","Enterprise / SaaS","Mobile / Wireless"]
+      jobs: ["Specializing in Enterprise / SaaS","Consumer / Internet","Mobile / Wireless"]
     },
     "brynne":  {
       logos:[

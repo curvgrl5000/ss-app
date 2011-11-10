@@ -397,7 +397,7 @@ Vantage.individual = function () {
       {
         "company": "IP Infusion",
         "sector": "Enterprise / SaaS",
-        "position": "SVP Global Sales & Business Dev"
+        "position": "VP Global Sales & Business Dev"
       },
       {
         "company": "Untangle",
@@ -711,7 +711,7 @@ Vantage.individual = function () {
       {
         "company": "IP Infusion",
         "sector": "Enterprise / SaaS",
-        "position": "SVP Global Sales & Business Dev"
+        "position": "VP Global Sales & Business Dev"
       },
       {
         "company": "Apptera",
