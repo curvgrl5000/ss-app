@@ -162,7 +162,7 @@ Vantage.utils = function () {
       bigpic: "Brynne_HomePage_IMG-1416.png",
       name: "Brynne Pogoncheff",
       jobs: ["Vantage Team Executive Assistant"]
-    },
+    }
   }
   
   // these are the only decks worth keeping track of for the horizontal arrows
