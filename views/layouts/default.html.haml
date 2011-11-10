@@ -31,7 +31,7 @@
   %body
     #container.container_24
       #header.grid_24 
-        #logo.grid_8.alpha
+        %a#logo.grid_8.alpha{:href => "/"}
         #globalsearch.grid_16.omega
           .search
             %form#search_form{:method => "get", :action => ""}
@@ -53,15 +53,15 @@
                 %li
                   %a.sf-with-ul{:href => "/approach-situation"} Situation Analysis
                 %li
-                  %a.sf-with-ul{:title => "Coming Soon!", :href => "#"} Success Factors
+                  %a.sf-with-ul{:title => "Coming Soon!",:href => "#"} Success Factors
             %li
-              %a.sf-with-ul{:title => "Coming Soon!",:href => "/practice-areas"} Practice Areas
+              %a.sf-with-ul{:href => "/practice-areas"} Practice Areas
             %li
               %a.sf-with-ul{:href => "/teams"} Team
             %li
               %a.sf-with-ul{:href => "/contact"} Contact Us
             %li
-              %a.sf-with-ul{:title => "Coming Soon!", :href => "#"} News
+              %a.sf-with-ul{:title => "Coming Soon!",:href => "#"} News
                       
       #main.grid_24{ :role => 'main' }
         = yield

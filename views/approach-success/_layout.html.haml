@@ -23,7 +23,7 @@
   %body
     #container
       #header
-        #logo
+        %a#logo.grid_8.alpha{:href => "/"}
         #globalsearch
           .search
             %form#search_form{:method => "get", :action => ""}
@@ -42,10 +42,10 @@
               %ul{:style => "display: block; visibility: hidden;"}
                 %li
                   %a.sf-with-ul{:href => "/approach-method"} Method
-                %li
+                %li.active
                   %a.sf-with-ul{:href => "/approach-situation"} Situation Analysis
                 %li
-                  %a.sf-with-ul{:title => "Coming Soon!",:href => "#"}  Success Factors
+                  %a.sf-with-ul{:title => "Coming Soon!",:href => "#"} Success Factors
             %li
               %a.sf-with-ul{:href => "/practice-areas"} Practice Areas
             %li.active

@@ -23,7 +23,7 @@
   %body
     #container
       #header
-        #logo
+        %a#logo.grid_8.alpha{:href => "/"}
         #globalsearch
           .search
             %form#search_form{:method => "get", :action => ""}
@@ -35,12 +35,12 @@
           %ul#main-nav.sf-menu.sf-navbar.sf-js-enabled.sf-shadow
             %li
               %a.sf-with-ul{:href => "/"} Home
-            %li.sf-breadcrumb.sfHover
+            %li.sf-breadcrumb.sfHover.active
               %a.sf-with-ul{:href => "/approach-method"}
                 Approach
                 %span
               %ul{:style => "display: block; visibility: hidden;"}
-                %li.active
+                %li
                   %a.sf-with-ul{:href => "/approach-method"} Method
                 %li
                   %a.sf-with-ul{:href => "/approach-situation"} Situation Analysis
