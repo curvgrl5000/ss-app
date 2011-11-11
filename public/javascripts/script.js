@@ -67,7 +67,7 @@ Vantage.utils = function () {
     "may": {
       logos:[
         {image: "tagged", alt: "Tagged", grid: 3},
-        {image: "lynda", alt: "Lynda", grid: 3},
+        {image: "inflection", alt: "inflection", grid: 3},
         {image: "razoo", alt: "Razoo", grid: 2},
         {image: "webroot", alt: "Webroot", grid: 3}
       ],

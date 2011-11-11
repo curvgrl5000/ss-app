@@ -50,7 +50,7 @@ var recent_searches = [
     lead: "Tom Callahan" ,
     recruit: ["May Young"],
     investors: "Matrix Partners. Sutter Hill Ventures",
-    logo: ""
+    logo: "inflection"
   },
   {
     company: "Webroot",
