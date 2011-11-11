@@ -1356,13 +1356,13 @@ h2.master {
   height: 200px;
 }
 
-/* line 1, ../../stylesheets/partials/_practice-area.sass */
+/* line 1, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_practice-area.sass */
 #container {
   margin-left: auto;
   margin-right: auto;
   width: 960px;
 }
-/* line 3, ../../stylesheets/partials/_practice-area.sass */
+/* line 3, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_practice-area.sass */
 #container #header {
   display: inline;
   float: left;
@@ -1370,7 +1370,7 @@ h2.master {
   margin-right: 5px;
   width: 950px;
 }
-/* line 5, ../../stylesheets/partials/_practice-area.sass */
+/* line 5, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_practice-area.sass */
 #container #header #logo {
   display: inline;
   float: left;
@@ -1379,7 +1379,7 @@ h2.master {
   width: 310px;
   margin-left: 0;
 }
-/* line 8, ../../stylesheets/partials/_practice-area.sass */
+/* line 8, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_practice-area.sass */
 #container #header #globalsearch {
   display: inline;
   float: left;
@@ -1388,7 +1388,7 @@ h2.master {
   width: 630px;
   margin-right: 0;
 }
-/* line 11, ../../stylesheets/partials/_practice-area.sass */
+/* line 11, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_practice-area.sass */
 #container #header #navigation {
   display: inline;
   float: left;
@@ -1400,7 +1400,7 @@ h2.master {
   margin-left: 0;
   margin-right: 0;
 }
-/* line 17, ../../stylesheets/partials/_practice-area.sass */
+/* line 17, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_practice-area.sass */
 #container #main {
   display: inline;
   float: left;
@@ -1409,7 +1409,7 @@ h2.master {
   width: 950px;
 }
 
-/* line 21, ../../stylesheets/partials/_practice-area.sass */
+/* line 21, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_practice-area.sass */
 #practice-area {
   display: inline;
   float: left;
@@ -1419,60 +1419,60 @@ h2.master {
   padding-left: 40px;
   padding-right: 40px;
 }
-/* line 25, ../../stylesheets/partials/_practice-area.sass */
+/* line 25, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_practice-area.sass */
 #practice-area .content_setup {
   height: 335px;
   margin-top: 50px;
   margin-bottom: 30px;
 }
-/* line 29, ../../stylesheets/partials/_practice-area.sass */
+/* line 29, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_practice-area.sass */
 #practice-area .content_setup h1 {
   font: normal normal normal 3.125em Dante MT Std serif;
   color: #455560;
   letter-spacing: 0.036em;
 }
-/* line 33, ../../stylesheets/partials/_practice-area.sass */
+/* line 33, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_practice-area.sass */
 #practice-area .content_setup h1 span.orange {
   color: #f37421;
 }
-/* line 35, ../../stylesheets/partials/_practice-area.sass */
+/* line 35, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_practice-area.sass */
 #practice-area .content_setup h2 {
   font: normal 1.7em Neue Helvetica Arial, sans-serif;
   color: #f37421;
   letter-spacing: 0.05em;
   line-height: 0.7em;
 }
-/* line 40, ../../stylesheets/partials/_practice-area.sass */
+/* line 40, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_practice-area.sass */
 #practice-area .content_setup .spotlight {
   margin-top: 50px;
   margin-bottom: 80px;
 }
-/* line 43, ../../stylesheets/partials/_practice-area.sass */
+/* line 43, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_practice-area.sass */
 #practice-area .content_setup .spotlight h2 {
   margin-top: 50px;
 }
-/* line 45, ../../stylesheets/partials/_practice-area.sass */
+/* line 45, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_practice-area.sass */
 #practice-area .content_setup .spotlight p {
   font: normal normal normal 1.4em Georgia;
   color: #5f6a72;
   margin-top: 15px;
 }
-/* line 49, ../../stylesheets/partials/_practice-area.sass */
+/* line 49, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_practice-area.sass */
 #practice-area .content_setup .recent {
   margin-top: 55px;
 }
-/* line 51, ../../stylesheets/partials/_practice-area.sass */
+/* line 51, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_practice-area.sass */
 #practice-area .content_setup .recent h2 {
   margin: 20px 20px 0 30px;
   font: normal 1.3em Neue Helvetica Arial, sans-serif;
   color: #f37421;
 }
-/* line 55, ../../stylesheets/partials/_practice-area.sass */
+/* line 55, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_practice-area.sass */
 #practice-area .content_setup .recent #recent_logo {
   width: 190px;
   height: 85px;
 }
-/* line 58, ../../stylesheets/partials/_practice-area.sass */
+/* line 58, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_practice-area.sass */
 #practice-area .content_setup .divider {
   display: inline;
   float: left;
@@ -1484,13 +1484,13 @@ h2.master {
   height: 39px;
   background: white url("../images/slidedeck-home-images/divider-graphic-a.png") no-repeat 0 0;
 }
-/* line 64, ../../stylesheets/partials/_practice-area.sass */
+/* line 64, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_practice-area.sass */
 #practice-area .content_setup p.insight {
   font: italic normal normal 1.1em/2.25em Georgia, Times sans-serif;
   letter-spacing: 0.06em;
   color: #5f6a72;
 }
-/* line 68, ../../stylesheets/partials/_practice-area.sass */
+/* line 68, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_practice-area.sass */
 #practice-area .content_setup .left-grid {
   display: inline;
   float: left;
@@ -1501,7 +1501,7 @@ h2.master {
   background: #ced3d9 url("../images/small_icon.png") 0 0 no-repeat;
   height: 100%;
 }
-/* line 73, ../../stylesheets/partials/_practice-area.sass */
+/* line 73, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_practice-area.sass */
 #practice-area .content_setup .right-grid {
   display: inline;
   float: left;
@@ -1510,7 +1510,7 @@ h2.master {
   width: 790px;
   margin-right: 0;
 }
-/* line 76, ../../stylesheets/partials/_practice-area.sass */
+/* line 76, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_practice-area.sass */
 #practice-area .content_setup .right-grid .lefthalf {
   display: inline;
   float: left;
@@ -1520,7 +1520,7 @@ h2.master {
   margin-left: 0;
   margin-left: 30px;
 }
-/* line 80, ../../stylesheets/partials/_practice-area.sass */
+/* line 80, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_practice-area.sass */
 #practice-area .content_setup .right-grid .righthalf {
   display: inline;
   float: left;
@@ -1531,13 +1531,13 @@ h2.master {
   margin-left: 20px;
 }
 
-/* line 86, ../../stylesheets/partials/_practice-area.sass */
+/* line 86, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_practice-area.sass */
 #logo_content .content_setup, #practice-area .content_setup {
   background-color: white;
   box-shadow: 0 0 7px 5px rgba(0, 0, 0, 0.3);
 }
 
-/* line 89, ../../stylesheets/partials/_practice-area.sass */
+/* line 89, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_practice-area.sass */
 #logo_content {
   display: inline;
   float: left;
@@ -1548,14 +1548,14 @@ h2.master {
   padding-right: 40px;
   margin-top: 30px;
 }
-/* line 94, ../../stylesheets/partials/_practice-area.sass */
+/* line 94, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_practice-area.sass */
 #logo_content .content_setup {
   margin-bottom: 30px;
   height: 650px;
   background: #a9b2ba url("../images/main-bkgrnd.png") 0 0 no-repeat;
   box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
 }
-/* line 99, ../../stylesheets/partials/_practice-area.sass */
+/* line 99, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_practice-area.sass */
 #logo_content .content_setup .ct {
   display: inline;
   float: left;
@@ -1566,28 +1566,28 @@ h2.master {
   padding-right: 40px;
   margin: 30px 0 0 0;
 }
-/* line 104, ../../stylesheets/partials/_practice-area.sass */
+/* line 104, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_practice-area.sass */
 #logo_content .content_setup .ct h2 {
   font: normal normal 600 1.3em Arial, sans-serif;
   letter-spacing: 0.11em;
   color: #f37421;
 }
-/* line 108, ../../stylesheets/partials/_practice-area.sass */
+/* line 108, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_practice-area.sass */
 #logo_content .content_setup .ct h3 {
   font: normal normal normal 1.9em Dante MT sans-serif;
   color: #5d87a1;
   margin: 14px 0;
 }
-/* line 112, ../../stylesheets/partials/_practice-area.sass */
+/* line 112, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_practice-area.sass */
 #logo_content .content_setup .ct p {
   font: normal normal normal 1.35em/1.5em Georgia, Times, serif;
   color: #2f404c;
 }
-/* line 116, ../../stylesheets/partials/_practice-area.sass */
+/* line 116, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_practice-area.sass */
 #logo_content .content_setup .ct #client-portfolio {
   margin: 20px 0 0 20px;
 }
-/* line 118, ../../stylesheets/partials/_practice-area.sass */
+/* line 118, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_practice-area.sass */
 #logo_content .content_setup .ct #client-portfolio .clients {
   display: inline;
   float: left;
@@ -1596,24 +1596,24 @@ h2.master {
   width: 150px;
   margin-right: 0px;
 }
-/* line 120, ../../stylesheets/partials/_practice-area.sass */
+/* line 120, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_practice-area.sass */
 #logo_content .content_setup .ct #client-portfolio .clients p {
   font: normal normal normal 0.8em/1.5em Arial, Helvetica, sans-serif;
   color: #5d87a1;
 }
-/* line 124, ../../stylesheets/partials/_practice-area.sass */
+/* line 124, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_practice-area.sass */
 #logo_content .content_setup .ct #client-portfolio .alpha {
   margin-left: 0;
 }
-/* line 126, ../../stylesheets/partials/_practice-area.sass */
+/* line 126, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_practice-area.sass */
 #logo_content .content_setup .ct #client-portfolio .omega {
   margin-right: 0;
 }
-/* line 128, ../../stylesheets/partials/_practice-area.sass */
+/* line 128, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_practice-area.sass */
 #logo_content .content_setup .ct #consumer-internet, #logo_content .content_setup .ct #enterprise-saas, #logo_content .content_setup .ct #mobile-wireless {
   margin-top: 20px;
 }
-/* line 130, ../../stylesheets/partials/_practice-area.sass */
+/* line 130, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_practice-area.sass */
 #logo_content .content_setup .ct #consumer-internet .paging, #logo_content .content_setup .ct #enterprise-saas .paging, #logo_content .content_setup .ct #mobile-wireless .paging {
   display: inline;
   float: left;
@@ -1626,19 +1626,19 @@ h2.master {
   margin-top: 20px;
   font: normal normal normal 1.125em Arial, Helvetica, sans-serif;
 }
-/* line 137, ../../stylesheets/partials/_practice-area.sass */
+/* line 137, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_practice-area.sass */
 #logo_content .content_setup .ct #consumer-internet .paging-link a, #logo_content .content_setup .ct #enterprise-saas .paging-link a, #logo_content .content_setup .ct #mobile-wireless .paging-link a {
   color: #f37421;
   border-radius: 50px;
   text-decoration: none;
   padding: 5px 10px;
 }
-/* line 142, ../../stylesheets/partials/_practice-area.sass */
+/* line 142, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_practice-area.sass */
 #logo_content .content_setup .ct #consumer-internet .paging-link a:hover, #logo_content .content_setup .ct #enterprise-saas .paging-link a:hover, #logo_content .content_setup .ct #mobile-wireless .paging-link a:hover {
   text-decoration: none;
   background-color: #ced3d9;
 }
-/* line 145, ../../stylesheets/partials/_practice-area.sass */
+/* line 145, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_practice-area.sass */
 #logo_content .content_setup .ct #consumer-internet .spacer, #logo_content .content_setup .ct #enterprise-saas .spacer, #logo_content .content_setup .ct #mobile-wireless .spacer {
   display: inline;
   float: left;
@@ -1647,7 +1647,7 @@ h2.master {
   width: 790px;
   height: 10px;
 }
-/* line 148, ../../stylesheets/partials/_practice-area.sass */
+/* line 148, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_practice-area.sass */
 #logo_content .content_setup .ct #consumer-internet .logo-background, #logo_content .content_setup .ct #enterprise-saas .logo-background, #logo_content .content_setup .ct #mobile-wireless .logo-background {
   display: inline;
   float: left;
@@ -1658,7 +1658,7 @@ h2.master {
   height: 110px;
   box-shadow: 7px 4px 9px 2px rgba(0, 0, 0, 0.3);
 }
-/* line 153, ../../stylesheets/partials/_practice-area.sass */
+/* line 153, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_practice-area.sass */
 #logo_content .content_setup .ct #consumer-internet .logo-column, #logo_content .content_setup .ct #enterprise-saas .logo-column, #logo_content .content_setup .ct #mobile-wireless .logo-column {
   display: inline;
   float: left;
@@ -1671,32 +1671,23 @@ h2.master {
   margin-top: 10px;
   margin-left: 0;
 }
-/* line 160, ../../stylesheets/partials/_practice-area.sass */
+/* line 160, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_practice-area.sass */
 #logo_content .content_setup .ct #consumer-internet .alpha, #logo_content .content_setup .ct #enterprise-saas .alpha, #logo_content .content_setup .ct #mobile-wireless .alpha {
   margin-left: 0;
 }
-/* line 162, ../../stylesheets/partials/_practice-area.sass */
+/* line 162, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_practice-area.sass */
 #logo_content .content_setup .ct #consumer-internet .omega, #logo_content .content_setup .ct #enterprise-saas .omega, #logo_content .content_setup .ct #mobile-wireless .omega {
   margin-right: 0;
 }
 
-/* line 166, ../../stylesheets/partials/_practice-area.sass */
-a.lightitupbud {
-  text-decoration: none;
-}
-/* line 168, ../../stylesheets/partials/_practice-area.sass */
-a.lightitupbud:hover {
-  text-decoration: none;
-}
-
-/* line 172, ../../stylesheets/partials/_practice-area.sass */
+/* line 167, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_practice-area.sass */
 .fancybox_search .investors {
   color: #a9b2ba;
   font: normal normal normal 1.2em/2em Arial, sans-serif;
   margin: 10px 0 5px 6px;
   font-weight: 600;
 }
-/* line 177, ../../stylesheets/partials/_practice-area.sass */
+/* line 172, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_practice-area.sass */
 .fancybox_search .logo-header {
   margin-left: auto;
   margin-right: auto;
@@ -1709,14 +1700,14 @@ a.lightitupbud:hover {
   height: 40px;
   border-bottom: 3px solid #f37421;
 }
-/* line 182, ../../stylesheets/partials/_practice-area.sass */
+/* line 177, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_practice-area.sass */
 .fancybox_search p {
   color: #5f6a72;
   font: normal normal normal 1.3em/1.3em Arial, sans-serif;
   margin: 0 0 0 5px;
   font-weight: 600;
 }
-/* line 187, ../../stylesheets/partials/_practice-area.sass */
+/* line 182, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_practice-area.sass */
 .fancybox_search a {
   font: normal normal normal 1.2em Arial, sans-serif;
   color: #f37421;
@@ -1725,16 +1716,16 @@ a.lightitupbud:hover {
   color: #f37421;
   text-decoration: none;
 }
-/* line 194, ../../stylesheets/partials/_practice-area.sass */
+/* line 189, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_practice-area.sass */
 .fancybox_search a:hover {
   color: #f37421;
   text-decoration: underline;
 }
-/* line 197, ../../stylesheets/partials/_practice-area.sass */
+/* line 192, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_practice-area.sass */
 .fancybox_search a.lightitupbud {
   text-decoration: none;
 }
-/* line 199, ../../stylesheets/partials/_practice-area.sass */
+/* line 194, /Users/dlazar/Documents/workspace/slidedeck_work/vertical/stylesheets/partials/_practice-area.sass */
 .fancybox_search a.lightitupbud:hover {
   text-decoration: none;
 }
