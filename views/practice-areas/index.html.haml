@@ -56,12 +56,12 @@
             <div class="logo-header"></div>
             <div style="clear:both;"></div>
             {{each details}}
-            <p class="investors">${$value['investors']}</p>
-            <p>${$value['position']}</p>  
-            <p>Vantage Team:</p>
-            <span class="vantage-link">${$value['lead']}</span>
-              {{each $value['recruit'] }}
-                <span class="vantage-link">${$value}</span>
+              <p class="investors">${$value['investors']}</p>
+              <p>${$value['position']}</p>  
+              <p>Vantage Team:</p>
+              <a href="${$value['lead']['url']}" target="_blank" class="vantage-link">${$value['lead']['name']}</span>
+              {{each(i,recruit) recruit}}
+                <a href="${recruit['url']}" target="_blank" class="vantage-link">${recruit['name']}</a>
               {{/each}}
             {{/each}}
           </div>

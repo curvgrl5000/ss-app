@@ -120,14 +120,17 @@ var recent_searches = [
 var assets2 = [
   {
     "company": "10GEN",
-    "name": "ten_gen",                  
+    "name": "ten_gen",
     "categories": [
       2
     ],
     "details": [
       {
         "position": "VP Engineering",
-        "lead": "Tom Callahan",
+        "lead": {
+          "name": "Tom Callahan",
+          "url": "/tom"
+        },
         "recruit": [
 
         ],
@@ -135,9 +138,15 @@ var assets2 = [
       },
       {
         "position": "VP Marketing",
-        "lead": "April King",
+        "lead": {
+          "name": "April King",
+          "url": "/april"
+        },
         "recruit": [
-          "Irene Murphy"
+          {
+            "name": "Irene Murphy",
+            "url": "/irene"
+          }
         ],
         "investors": "Flybridge Capital Partners, Sequoia, Union Square Ventures"
       }
@@ -152,18 +161,33 @@ var assets2 = [
     "details": [
       {
         "position": "VP Marketing",
-        "lead": "Richard Lear",
+        "lead": {
+          "name": "Rich Lear",
+          "url": "/rich"
+        },
         "recruit": [
-          "Julie Locke"
+          {
+            "name": "Julie Locke",
+            "url": "/julie"
+          }
         ],
         "investors": "August Capital, Mayfield Fund, Sandhill Capital"
       },
       {
         "position": "VP Media",
-        "lead": "Richard Lear",
+        "lead": {
+          "name": "Rich Lear",
+          "url": "/rich"
+        },
         "recruit": [
-          "Mark Hubbell",
-          "Gene Zaccor"
+          {
+            "name": "Mark Hubbell",
+            "url": "/mark"
+          },
+          {
+            "name": "Gene Zaccor",
+            "url": "/gene"
+          }
         ],
         "investors": "August Capital, Mayfield Fund, Sandhill Capital"
       }
@@ -178,7 +202,10 @@ var assets2 = [
     "details": [
       {
         "position": "VP Sales",
-        "lead": "Irene Murphy",
+        "lead": {
+          "name": "Irene Murphy",
+          "url": "/irene"
+        },
         "recruit": [
 
         ],
@@ -195,17 +222,29 @@ var assets2 = [
     "details": [
       {
         "position": "VP Marketing",
-        "lead": "Audrey Shuster",
+        "lead": {
+          "name": "Audrey Shuster",
+          "url": "/audrey"
+        },
         "recruit": [
-          "Gene Zaccor"
+          {
+            "name": "Gene Zaccor",
+            "url": "/gene"
+          }
         ],
         "investors": "Logispring, CMEA Ventures"
       },
       {
         "position": "VP Sales",
-        "lead": "Audrey Shuster",
+        "lead": {
+          "name": "Audrey Shuster",
+          "url": "/audrey"
+        },
         "recruit": [
-          "Gene Zaccor"
+          {
+            "name": "Gene Zaccor",
+            "url": "/gene"
+          }
         ],
         "investors": "Logispring, CMEA Ventures"
       }
@@ -221,9 +260,15 @@ var assets2 = [
     "details": [
       {
         "position": "VP Business Development",
-        "lead": "Richard Lear",
+        "lead": {
+          "name": "Rich Lear",
+          "url": "/rich"
+        },
         "recruit": [
-          "Mark Hubbell"
+          {
+            "name": "Mark Hubbell",
+            "url": "/mark"
+          }
         ],
         "investors": "JK&B Capital, Maples Investments, Baseline Ventures"
       }
@@ -238,10 +283,15 @@ var assets2 = [
     "details": [
       {
         "position": "VP Corporate & Business Development",
-        "lead": "Mark Hubbell",
+        "lead": {
+          "name": "Mark Hubbell",
+          "url": "/mark"
+        },
         "recruit": [
-          "Mark Hubbell",
-          "Richard Lear"
+          {
+            "name": "Rich Lear",
+            "url": "/rich"
+          }
         ],
         "investors": "Summit Partners"
       }
@@ -256,9 +306,12 @@ var assets2 = [
     "details": [
       {
         "position": "VP Interactive",
-        "lead": "Richard Lear",
+        "lead": {
+          "name": "Rich Lear",
+          "url": "/rich"
+        },
         "recruit": [
-          ""
+
         ],
         "investors": "Criterion Capital Partners"
       }
@@ -274,7 +327,10 @@ var assets2 = [
     "details": [
       {
         "position": "SVP Sales",
-        "lead": "Irene Murphy",
+        "lead": {
+          "name": "Irene Murphy",
+          "url": "/irene"
+        },
         "recruit": [
 
         ],
@@ -291,15 +347,24 @@ var assets2 = [
     "details": [
       {
         "position": "VP Product Marketing",
-        "lead": "Richard Lear",
+        "lead": {
+          "name": "Rich Lear",
+          "url": "/rich"
+        },
         "recruit": [
-          "Gene Zaccor"
+          {
+            "name": "Gene Zaccor",
+            "url": "/gene"
+          }
         ],
         "investors": "Acquired by Oracle (NASDAQ: ORCL)"
       },
       {
         "position": "VP Business Development",
-        "lead": "Richard Lear",
+        "lead": {
+          "name": "Rich Lear",
+          "url": "/rich"
+        },
         "recruit": [
 
         ],
@@ -316,17 +381,29 @@ var assets2 = [
     "details": [
       {
         "position": "VP Social Media",
-        "lead": "April King",
+        "lead": {
+          "name": "April King",
+          "url": "/april"
+        },
         "recruit": [
-          "Mark Hubbell"
+          {
+            "name": "Mark Hubbell",
+            "url": "/mark"
+          }
         ],
         "investors": "Wholly owned subsidiary of Betfair  Group (UK)"
       },
       {
         "position": "VP Engineering",
-        "lead": "April King",
+        "lead": {
+          "name": "April King",
+          "url": "/april"
+        },
         "recruit": [
-          "Tom Callahan"
+          {
+            "name": "Tom Callahan",
+            "url": "/tom"
+          }
         ],
         "investors": "Wholly owned subsidiary of Betfair  Group (UK)"
       }
@@ -351,7 +428,10 @@ var assets2 = [
     "details": [
       {
         "position": "SVP Engineering & Operations",
-        "lead": "April King",
+        "lead": {
+          "name": "April King",
+          "url": "/april"
+        },
         "recruit": [
 
         ],
@@ -359,7 +439,10 @@ var assets2 = [
       },
       {
         "position": "SVP Marketing & Sales",
-        "lead": "April King",
+        "lead": {
+          "name": "April King",
+          "url": "/april"
+        },
         "recruit": [
 
         ],
@@ -376,7 +459,10 @@ var assets2 = [
     "details": [
       {
         "position": "VP Sales",
-        "lead": "Steve O'Deegan",
+        "lead": {
+          "name": "Steve O'Deegan",
+          "url": "/steve"
+        },
         "recruit": [
 
         ],
@@ -393,9 +479,15 @@ var assets2 = [
     "details": [
       {
         "position": "VP Marketing & Strategy",
-        "lead": "April King",
+        "lead": {
+          "name": "April King",
+          "url": "/april"
+        },
         "recruit": [
-          "Mark Hubbell"
+          {
+            "name": "Mark Hubbell",
+            "url": "/mark"
+          }
         ],
         "investors": "Alsop Louie "
       }
@@ -411,9 +503,15 @@ var assets2 = [
     "details": [
       {
         "position": "VP Sales",
-        "lead": "April King",
+        "lead": {
+          "name": "April King",
+          "url": "/april"
+        },
         "recruit": [
-          "Mark Hubbell"
+          {
+            "name": "Mark Hubbell",
+            "url": "/mark"
+          }
         ],
         "investors": "Austin Ventures, Shasta Ventures, Sierra Ventures"
       }
@@ -438,7 +536,10 @@ var assets2 = [
     "details": [
       {
         "position": "VP Sales",
-        "lead": "Irene Murphy",
+        "lead": {
+          "name": "Irene Murphy",
+          "url": "/irene"
+        },
         "recruit": [
 
         ],
@@ -456,17 +557,29 @@ var assets2 = [
     "details": [
       {
         "position": "CMO",
-        "lead": "April King",
+        "lead": {
+          "name": "April King",
+          "url": "/april"
+        },
         "recruit": [
-          "Richard Lear"
+          {
+            "name": "Rich Lear",
+            "url": "/rich"
+          }
         ],
         "investors": "Joint Venture"
       },
       {
         "position": "SVP Products",
-        "lead": "April King",
+        "lead": {
+          "name": "April King",
+          "url": "/april"
+        },
         "recruit": [
-          "Tom Callahan"
+          {
+            "name": "Tom Callahan",
+            "url": "/tom"
+          }
         ],
         "investors": "Joint Venture"
       }
@@ -491,7 +604,10 @@ var assets2 = [
     "details": [
       {
         "position": "VP Marketing",
-        "lead": "Irene Murphy",
+        "lead": {
+          "name": "Irene Murphy",
+          "url": "/irene"
+        },
         "recruit": [
 
         ],
@@ -509,9 +625,15 @@ var assets2 = [
     "details": [
       {
         "position": "VP Business Development",
-        "lead": "Irene Murphy",
+        "lead": {
+          "name": "Irene Murphy",
+          "url": "/irene"
+        },
         "recruit": [
-          "Tom Callahan"
+          {
+            "name": "Tom Callahan",
+            "url": "/tom"
+          }
         ],
         "investors": "Jolimont Capital"
       }
@@ -526,7 +648,10 @@ var assets2 = [
     "details": [
       {
         "position": "VP Engineering",
-        "lead": "Steve O'Deegan",
+        "lead": {
+          "name": "Steve O'Deegan",
+          "url": "/steve"
+        },
         "recruit": [
 
         ],
@@ -543,9 +668,15 @@ var assets2 = [
     "details": [
       {
         "position": "CEO",
-        "lead": "Richard Lear",
+        "lead": {
+          "name": "Rich Lear",
+          "url": "/rich"
+        },
         "recruit": [
-          "Julie Locke"
+          {
+            "name": "Julie Locke",
+            "url": "/julie"
+          }
         ],
         "investors": "Foundation Capital, August Capital, Cannan Partners, Rembrandt Venture Partners"
       }
@@ -561,25 +692,43 @@ var assets2 = [
     "details": [
       {
         "position": "SVP Sales & Marketing",
-        "lead": "Mark Hubbell",
+        "lead": {
+          "name": "Mark Hubbell",
+          "url": "/mark"
+        },
         "recruit": [
-          "Irene Murphy"
+          {
+            "name": "Irene Murphy",
+            "url": "/irene"
+          }
         ],
         "investors": "The Foundry Group"
       },
       {
         "position": "Regional Vice President",
-        "lead": "Mark Hubbell",
+        "lead": {
+          "name": "Mark Hubbell",
+          "url": "/mark"
+        },
         "recruit": [
-          "Irene Murphy"
+          {
+            "name": "Irene Murphy",
+            "url": "/irene"
+          }
         ],
         "investors": "The Foundry Group"
       },
       {
         "position": "CFO",
-        "lead": "Mark Hubbell",
+        "lead": {
+          "name": "Mark Hubbell",
+          "url": "/mark"
+        },
         "recruit": [
-          "Irene Murphy"
+          {
+            "name": "Irene Murphy",
+            "url": "/irene"
+          }
         ],
         "investors": "The Foundry Group"
       }
@@ -595,7 +744,10 @@ var assets2 = [
     "details": [
       {
         "position": "VP Engineering",
-        "lead": "April King",
+        "lead": {
+          "name": "April King",
+          "url": "/april"
+        },
         "recruit": [
 
         ],
@@ -612,7 +764,10 @@ var assets2 = [
     "details": [
       {
         "position": "VP WW Sales",
-        "lead": "Irene Murphy",
+        "lead": {
+          "name": "Irene Murphy",
+          "url": "/irene"
+        },
         "recruit": [
 
         ],
@@ -620,9 +775,15 @@ var assets2 = [
       },
       {
         "position": "VP Marketing",
-        "lead": "Richard Lear",
+        "lead": {
+          "name": "Rich Lear",
+          "url": "/rich"
+        },
         "recruit": [
-          "Gene Zaccor"
+          {
+            "name": "Gene Zaccor",
+            "url": "/gene"
+          }
         ],
         "investors": "Scale Ventures, Sutter Hill Ventures"
       }
@@ -637,11 +798,17 @@ var assets2 = [
     "details": [
       {
         "position": "VP Products",
-        "lead": "April King",
+        "lead": {
+          "name": "April King",
+          "url": "/april"
+        },
         "recruit": [
-          "Mark Hubbell"
+          {
+            "name": "Mark Hubbell",
+            "url": "/mark"
+          }
         ],
-        "investors": "Gene Zaccorral Catalyst Partners, Highland Capital Partners"
+        "investors": "General Catalyst Partners, Highland Capital Partners"
       }
     ]
   },
@@ -654,7 +821,10 @@ var assets2 = [
     "details": [
       {
         "position": "VP Marketing",
-        "lead": "Richard Lear",
+        "lead": {
+          "name": "Rich Lear",
+          "url": "/rich"
+        },
         "recruit": [
 
         ],
@@ -672,7 +842,10 @@ var assets2 = [
     "details": [
       {
         "position": "VP Marketing",
-        "lead": "Irene Murphy",
+        "lead": {
+          "name": "Irene Murphy",
+          "url": "/irene"
+        },
         "recruit": [
 
         ],
@@ -680,7 +853,10 @@ var assets2 = [
       },
       {
         "position": "VP Sales",
-        "lead": "Irene Murphy",
+        "lead": {
+          "name": "Irene Murphy",
+          "url": "/irene"
+        },
         "recruit": [
 
         ],
@@ -697,7 +873,10 @@ var assets2 = [
     "details": [
       {
         "position": "VP WW Sales",
-        "lead": "Irene Murphy",
+        "lead": {
+          "name": "Irene Murphy",
+          "url": "/irene"
+        },
         "recruit": [
 
         ],
@@ -714,7 +893,10 @@ var assets2 = [
     "details": [
       {
         "position": "VP Product Management",
-        "lead": "Steve O'Deegan",
+        "lead": {
+          "name": "Steve O'Deegan",
+          "url": "/steve"
+        },
         "recruit": [
 
         ],
@@ -731,9 +913,15 @@ var assets2 = [
     "details": [
       {
         "position": "SVP Marketing & Product Management",
-        "lead": "Tom Callahan",
+        "lead": {
+          "name": "Tom Callahan",
+          "url": "/tom"
+        },
         "recruit": [
-          "Mark Hubbell"
+          {
+            "name": "Mark Hubbell",
+            "url": "/mark"
+          }
         ],
         "investors": "Alloy Ventures, True Ventures"
       }
@@ -748,7 +936,10 @@ var assets2 = [
     "details": [
       {
         "position": "Corporate Controller",
-        "lead": "Richard Lear",
+        "lead": {
+          "name": "Rich Lear",
+          "url": "/rich"
+        },
         "recruit": [
 
         ],
@@ -766,19 +957,28 @@ var assets2 = [
     "details": [
       {
         "position": "GM",
-        "lead": "April King",
+        "lead": {
+          "name": "April King",
+          "url": "/april"
+        },
         "recruit": [
-          "Tom Callahan"
+          {
+            "name": "Tom Callahan",
+            "url": "/tom"
+          }
         ],
         "investors": "Benchmark Israel, Virgin Green Fund"
       },
       {
         "position": "SVP Marketing",
-        "lead": "",
+        "lead": {
+          "name": "April King",
+          "url": "/april"
+        },
         "recruit": [
-          "April King"
+
         ],
-        "investors": "Benchmark Israel, Virgin Green Fund "
+        "investors": "Benchmark Israel, Virgin Green Fund"
       }
     ]
   },
@@ -791,7 +991,10 @@ var assets2 = [
     "details": [
       {
         "position": "VP Products",
-        "lead": "Gene Zaccor",
+        "lead": {
+          "name": "Gene Zaccor",
+          "url": "/gene"
+        },
         "recruit": [
 
         ],
@@ -808,7 +1011,10 @@ var assets2 = [
     "details": [
       {
         "position": "CEO",
-        "lead": "Steve O'Deegan",
+        "lead": {
+          "name": "Steve O'Deegan",
+          "url": "/steve"
+        },
         "recruit": [
 
         ],
@@ -816,7 +1022,10 @@ var assets2 = [
       },
       {
         "position": "VP Marketing",
-        "lead": "Steve O'Deegan",
+        "lead": {
+          "name": "Steve O'Deegan",
+          "url": "/steve"
+        },
         "recruit": [
 
         ],
@@ -833,7 +1042,10 @@ var assets2 = [
     "details": [
       {
         "position": "VP Services",
-        "lead": "Steve O'Deegan",
+        "lead": {
+          "name": "Steve O'Deegan",
+          "url": "/steve"
+        },
         "recruit": [
 
         ],
@@ -850,7 +1062,10 @@ var assets2 = [
     "details": [
       {
         "position": "Director of Product Marketing",
-        "lead": "Gene Zaccor",
+        "lead": {
+          "name": "Gene Zaccor",
+          "url": "/gene"
+        },
         "recruit": [
 
         ],
@@ -868,7 +1083,10 @@ var assets2 = [
     "details": [
       {
         "position": "CEO",
-        "lead": "April King",
+        "lead": {
+          "name": "April King",
+          "url": "/april"
+        },
         "recruit": [
 
         ],
@@ -885,7 +1103,10 @@ var assets2 = [
     "details": [
       {
         "position": "Sr. Director of Marketing Communications",
-        "lead": "Julie Locke",
+        "lead": {
+          "name": "Julie Locke",
+          "url": "/julie"
+        },
         "recruit": [
 
         ],
@@ -902,9 +1123,15 @@ var assets2 = [
     "details": [
       {
         "position": "CEO",
-        "lead": "April King",
+        "lead": {
+          "name": "April King",
+          "url": "/april"
+        },
         "recruit": [
-          "Steve O'Deegan"
+          {
+            "name": "Steve O'Deegan",
+            "url": "/steve"
+          }
         ],
         "investors": "Founders Fund, Retro Ventures, Gates Foundation"
       }
@@ -919,7 +1146,10 @@ var assets2 = [
     "details": [
       {
         "position": "Director Business Development",
-        "lead": "Irene Murphy",
+        "lead": {
+          "name": "Irene Murphy",
+          "url": "/irene"
+        },
         "recruit": [
 
         ],
@@ -927,9 +1157,15 @@ var assets2 = [
       },
       {
         "position": "VP Sales, NA",
-        "lead": "Irene Murphy",
+        "lead": {
+          "name": "Irene Murphy",
+          "url": "/irene"
+        },
         "recruit": [
-          "Steve O'Deegan"
+          {
+            "name": "Steve O'Deegan",
+            "url": "/steve"
+          }
         ],
         "investors": "Garnett & Helfrich Capital"
       }
@@ -943,10 +1179,16 @@ var assets2 = [
     ],
     "details": [
       {
-        "position": "VP Global Sales & Business Dev",
-        "lead": "Audrey Shuster",
+        "position": "SVP Global Sales & Business Dev",
+        "lead": {
+          "name": "Audrey Shuster",
+          "url": "/audrey"
+        },
         "recruit": [
-          "Irene Murphy"
+          {
+            "name": "Irene Murphy",
+            "url": "/irene"
+          }
         ],
         "investors": "Privately held"
       }
@@ -961,7 +1203,10 @@ var assets2 = [
     "details": [
       {
         "position": "VP Sales",
-        "lead": "Irene Murphy",
+        "lead": {
+          "name": "Irene Murphy",
+          "url": "/irene"
+        },
         "recruit": [
 
         ],
@@ -969,7 +1214,10 @@ var assets2 = [
       },
       {
         "position": "VP Business Development",
-        "lead": "Tom Callahan",
+        "lead": {
+          "name": "Tom Callahan",
+          "url": "/tom"
+        },
         "recruit": [
 
         ],
@@ -986,9 +1234,15 @@ var assets2 = [
     "details": [
       {
         "position": "COO ",
-        "lead": "Richard Lear",
+        "lead": {
+          "name": "Rich Lear",
+          "url": "/rich"
+        },
         "recruit": [
-          "Mark Hubbell"
+          {
+            "name": "Mark Hubbell",
+            "url": "/mark"
+          }
         ],
         "investors": "Nexus Venture Partners, Helion Venture Partners, Norwest, DFJ"
       }
@@ -1004,7 +1258,10 @@ var assets2 = [
     "details": [
       {
         "position": "VP Finance",
-        "lead": "Julie Locke",
+        "lead": {
+          "name": "Julie Locke",
+          "url": "/julie"
+        },
         "recruit": [
 
         ],
@@ -1012,7 +1269,10 @@ var assets2 = [
       },
       {
         "position": "VP Online Marketing",
-        "lead": "Mark Hubbell",
+        "lead": {
+          "name": "Mark Hubbell",
+          "url": "/mark"
+        },
         "recruit": [
 
         ],
@@ -1030,7 +1290,10 @@ var assets2 = [
     "details": [
       {
         "position": "COO / SVP Product",
-        "lead": "Mark Hubbell ",
+        "lead": {
+          "name": "Mark Hubbell",
+          "url": "/mark "
+        },
         "recruit": [
 
         ],
@@ -1038,10 +1301,15 @@ var assets2 = [
       },
       {
         "position": "CTO/VP Engineering",
-        "lead": "Mark Hubbell ",
+        "lead": {
+          "name": "Mark Hubbell",
+          "url": "/mark "
+        },
         "recruit": [
-          "Mark Hubbell",
-          "Tom Callahan"
+          {
+            "name": "Tom Callahan",
+            "url": "/tom"
+          }
         ],
         "investors": "Rustic Canyon Partners, US Venture Partners, i-Hatch Ventures, Monitor Ventures"
       }
@@ -1056,7 +1324,10 @@ var assets2 = [
     "details": [
       {
         "position": "CEO/VP Marketing",
-        "lead": "April King",
+        "lead": {
+          "name": "April King",
+          "url": "/april"
+        },
         "recruit": [
 
         ],
@@ -1064,9 +1335,15 @@ var assets2 = [
       },
       {
         "position": "VP Sales",
-        "lead": "April King",
+        "lead": {
+          "name": "April King",
+          "url": "/april"
+        },
         "recruit": [
-          "Irene Murphy"
+          {
+            "name": "Irene Murphy",
+            "url": "/irene"
+          }
         ],
         "investors": "Ron Conway, Teleonica Capital, Asset Management Company"
       }
@@ -1081,11 +1358,23 @@ var assets2 = [
     "details": [
       {
         "position": "VP Marketing",
-        "lead": "April King",
+        "lead": {
+          "name": "April King",
+          "url": "/april"
+        },
         "recruit": [
-          "Richard Lear",
-          "Mark Hubbell",
-          "May Young"
+          {
+            "name": "Rich Lear",
+            "url": "/rich"
+          },
+          {
+            "name": "Mark Hubbell",
+            "url": "/mark"
+          },
+          {
+            "name": "May Young",
+            "url": "/may"
+          }
         ],
         "investors": "Self-funded"
       }
@@ -1100,7 +1389,10 @@ var assets2 = [
     "details": [
       {
         "position": "Director of Software Engineering",
-        "lead": "Tom Callahan",
+        "lead": {
+          "name": "Tom Callahan",
+          "url": "/tom"
+        },
         "recruit": [
 
         ],
@@ -1108,9 +1400,15 @@ var assets2 = [
       },
       {
         "position": "VP Professional Services, Media Market",
-        "lead": "Audrey Shuster",
+        "lead": {
+          "name": "Audrey Shuster",
+          "url": "/audrey"
+        },
         "recruit": [
-          "Gene Zaccor"
+          {
+            "name": "Gene Zaccor",
+            "url": "/gene"
+          }
         ],
         "investors": "Sequoia Capital"
       }
@@ -1125,17 +1423,29 @@ var assets2 = [
     "details": [
       {
         "position": "Sr Director Business Development",
-        "lead": "Audrey Shuster",
+        "lead": {
+          "name": "Audrey Shuster",
+          "url": "/audrey"
+        },
         "recruit": [
-          "Gene Zaccor"
+          {
+            "name": "Gene Zaccor",
+            "url": "/gene"
+          }
         ],
         "investors": "Cargill Ventures, Focus Ventures, Foundation Capital, Institutional Venture Partners"
       },
       {
         "position": "VP Human Resources",
-        "lead": "Richard Lear",
+        "lead": {
+          "name": "Rich Lear",
+          "url": "/rich"
+        },
         "recruit": [
-          "Tom Callahan"
+          {
+            "name": "Tom Callahan",
+            "url": "/tom"
+          }
         ],
         "investors": "Cargill Ventures, Focus Ventures, Foundation Capital, Institutional Venture Partners"
       }
@@ -1150,9 +1460,15 @@ var assets2 = [
     "details": [
       {
         "position": "CTO",
-        "lead": "Mark Hubbell ",
+        "lead": {
+          "name": "Mark Hubbell",
+          "url": "/mark"
+        },
         "recruit": [
-          "Tom Callahan"
+          {
+            "name": "Tom Callahan",
+            "url": "/tom"
+          }
         ],
         "investors": "Battery Ventures, Transcosmos"
       }
@@ -1167,7 +1483,10 @@ var assets2 = [
     "details": [
       {
         "position": "CTO",
-        "lead": "Tom Callahan",
+        "lead": {
+          "name": "Tom Callahan",
+          "url": "/tom"
+        },
         "recruit": [
 
         ],
@@ -1184,9 +1503,15 @@ var assets2 = [
     "details": [
       {
         "position": "VP Product",
-        "lead": "Mark Hubbell ",
+        "lead": {
+          "name": "Mark Hubbell",
+          "url": "/mark "
+        },
         "recruit": [
-          "Julie Locke"
+          {
+            "name": "Julie Locke",
+            "url": "/julie"
+          }
         ],
         "investors": "Accel Partners, Benchmark Capital, DAG Ventures, Highland Capital Partners"
       }
@@ -1201,7 +1526,9 @@ var assets2 = [
     "details": [
       {
         "position": "Assistant Controller",
-        "lead": null,
+        "lead": [
+
+        ],
         "recruit": [
 
         ],
@@ -1219,9 +1546,15 @@ var assets2 = [
     "details": [
       {
         "position": "CEO",
-        "lead": "April King",
+        "lead": {
+          "name": "April King",
+          "url": "/april"
+        },
         "recruit": [
-          "Richard Lear"
+          {
+            "name": "Rich Lear",
+            "url": "/rich"
+          }
         ],
         "investors": "IGSB"
       }
@@ -1236,17 +1569,29 @@ var assets2 = [
     "details": [
       {
         "position": "VP WW Sales",
-        "lead": "April King",
+        "lead": {
+          "name": "April King",
+          "url": "/april"
+        },
         "recruit": [
-          "Irene Murphy"
+          {
+            "name": "Irene Murphy",
+            "url": "/irene"
+          }
         ],
         "investors": "Khosla Ventures, Highland Capital Partners "
       },
       {
         "position": "VP Products",
-        "lead": "Richard Lear",
+        "lead": {
+          "name": "Rich Lear",
+          "url": "/rich"
+        },
         "recruit": [
-          "April King"
+          {
+            "name": "April King",
+            "url": "/april"
+          }
         ],
         "investors": "Khosla Ventures, Highland Capital Partners "
       }
@@ -1272,19 +1617,25 @@ var assets2 = [
     "details": [
       {
         "position": "VP Marketing",
-        "lead": null,
+        "lead": {
+          "name": "Rich Lear",
+          "url": "/rich"
+        },
         "recruit": [
-          "Richard Lear"
+
         ],
-        "investors": "Norwest Venture Partners, Draper Fisher Jurvetson, Draper Richard Learards"
+        "investors": "Norwest Venture Partners, Draper Fisher Jurvetson, Draper Richards"
       },
       {
         "position": "BOARD",
-        "lead": null,
+        "lead": {
+          "name": "Rich Lear",
+          "url": "/rich"
+        },
         "recruit": [
-          "Richard Lear"
+
         ],
-        "investors": "Norwest Venture Partners, Draper Fisher Jurvetson, Draper Richard Learards"
+        "investors": "Norwest Venture Partners, Draper Fisher Jurvetson, Draper Richards"
       }
     ]
   },
@@ -1297,7 +1648,10 @@ var assets2 = [
     "details": [
       {
         "position": "VP Sales",
-        "lead": "Richard Lear",
+        "lead": {
+          "name": "Rich Lear",
+          "url": "/rich"
+        },
         "recruit": [
 
         ],
@@ -1314,7 +1668,9 @@ var assets2 = [
     "details": [
       {
         "position": "Board Member",
-        "lead": null,
+        "lead": [
+
+        ],
         "recruit": [
 
         ],
@@ -1331,7 +1687,10 @@ var assets2 = [
     "details": [
       {
         "position": "EVP WW Sales",
-        "lead": "Irene Murphy",
+        "lead": {
+          "name": "Irene Murphy",
+          "url": "/irene"
+        },
         "recruit": [
 
         ],
@@ -1348,7 +1707,10 @@ var assets2 = [
     "details": [
       {
         "position": "VP Sales",
-        "lead": "Irene Murphy",
+        "lead": {
+          "name": "Irene Murphy",
+          "url": "/irene"
+        },
         "recruit": [
 
         ],
@@ -1365,17 +1727,29 @@ var assets2 = [
     "details": [
       {
         "position": "VP Engineering, Enterprise 2.0",
-        "lead": "Tom Callahan",
+        "lead": {
+          "name": "Tom Callahan",
+          "url": "/tom"
+        },
         "recruit": [
-          "Steve O'Deegan"
+          {
+            "name": "Steve O'Deegan",
+            "url": "/steve"
+          }
         ],
         "investors": "NASDAQ:ORCL"
       },
       {
         "position": "SVP (GM) Enterprise 2.0",
-        "lead": "Tom Callahan",
+        "lead": {
+          "name": "Tom Callahan",
+          "url": "/tom"
+        },
         "recruit": [
-          "Steve O'Deegan"
+          {
+            "name": "Steve O'Deegan",
+            "url": "/steve"
+          }
         ],
         "investors": "NASDAQ:ORCL"
       }
@@ -1390,7 +1764,9 @@ var assets2 = [
     "details": [
       {
         "position": "VP Product Management",
-        "lead": null,
+        "lead": [
+
+        ],
         "recruit": [
 
         ],
@@ -1398,9 +1774,15 @@ var assets2 = [
       },
       {
         "position": "VP Engineering",
-        "lead": "Tom Callahan",
+        "lead": {
+          "name": "Tom Callahan",
+          "url": "/tom"
+        },
         "recruit": [
-          "Tom Callahan"
+          {
+            "name": "Tom Callahan",
+            "url": "/tom"
+          }
         ],
         "investors": "eSupport.com"
       }
@@ -1415,9 +1797,15 @@ var assets2 = [
     "details": [
       {
         "position": "VP Engineering",
-        "lead": "Tom Callahan",
+        "lead": {
+          "name": "Tom Callahan",
+          "url": "/tom"
+        },
         "recruit": [
-          "Tom Callahan"
+          {
+            "name": "Tom Callahan",
+            "url": "/tom"
+          }
         ],
         "investors": "Horizon Ventures, Sutter Hill Ventures "
       }
@@ -1442,9 +1830,15 @@ var assets2 = [
     "details": [
       {
         "position": "CEO",
-        "lead": "Richard Lear",
+        "lead": {
+          "name": "Rich Lear",
+          "url": "/rich"
+        },
         "recruit": [
-          "Julie Locke"
+          {
+            "name": "Julie Locke",
+            "url": "/julie"
+          }
         ],
         "investors": "Wellington Partners"
       }
@@ -1459,9 +1853,15 @@ var assets2 = [
     "details": [
       {
         "position": "VP Strategic Sales",
-        "lead": "Richard Lear",
+        "lead": {
+          "name": "Rich Lear",
+          "url": "/rich"
+        },
         "recruit": [
-          "Gene Zaccor"
+          {
+            "name": "Gene Zaccor",
+            "url": "/gene"
+          }
         ],
         "investors": "Azure Capital, Granite Ventures, Cipio Partners, FTVentures, NBC Universal, Hercules Technology Growth Capital"
       }
@@ -1477,17 +1877,29 @@ var assets2 = [
     "details": [
       {
         "position": "VP Business Development",
-        "lead": "Richard Lear",
+        "lead": {
+          "name": "Rich Lear",
+          "url": "/rich"
+        },
         "recruit": [
-          "Gene Zaccor"
+          {
+            "name": "Gene Zaccor",
+            "url": "/gene"
+          }
         ],
         "investors": "Draper Fisher Jurvetson, Nexus India Capital, Helion Ventures"
       },
       {
         "position": "VP Publisher Services",
-        "lead": "April King / Richard Lear",
+        "lead": {
+          "name": "April King",
+          "url": "/rich"
+        },
         "recruit": [
-          "Gene Zaccor"
+          {
+            "name": "Gene Zaccor",
+            "url": "/gene"
+          }
         ],
         "investors": "Draper Fisher Jurvetson, Nexus India Capital, Helion Ventures"
       }
@@ -1502,9 +1914,15 @@ var assets2 = [
     "details": [
       {
         "position": "VP Engineering",
-        "lead": "April King",
+        "lead": {
+          "name": "April King",
+          "url": "/april"
+        },
         "recruit": [
-          "Tom Callahan"
+          {
+            "name": "Tom Callahan",
+            "url": "/tom"
+          }
         ],
         "investors": "Foundation Capital, Partech International "
       }
@@ -1519,10 +1937,19 @@ var assets2 = [
     "details": [
       {
         "position": "CEO",
-        "lead": "April King",
+        "lead": {
+          "name": "April King",
+          "url": "/april"
+        },
         "recruit": [
-          "Gene Zaccor",
-          "May Young"
+          {
+            "name": "Gene Zaccor",
+            "url": "/gene"
+          },
+          {
+            "name": "May Young",
+            "url": "/may"
+          }
         ],
         "investors": "Legatum Capital"
       }
@@ -1537,17 +1964,29 @@ var assets2 = [
     "details": [
       {
         "position": "SVP Sales & Marketing",
-        "lead": "Richard Lear",
+        "lead": {
+          "name": "Rich Lear",
+          "url": "/rich"
+        },
         "recruit": [
-          "Gene Zaccor"
+          {
+            "name": "Gene Zaccor",
+            "url": "/gene"
+          }
         ],
         "investors": "NASDAQ:RNWK"
       },
       {
         "position": "GM Consumer",
-        "lead": "Richard Lear",
+        "lead": {
+          "name": "Rich Lear",
+          "url": "/rich"
+        },
         "recruit": [
-          "Gene Zaccor"
+          {
+            "name": "Gene Zaccor",
+            "url": "/gene"
+          }
         ],
         "investors": "NASDAQ:RNWK"
       }
@@ -1562,35 +2001,56 @@ var assets2 = [
     "details": [
       {
         "position": "VPE",
-        "lead": "Tom Callahan",
+        "lead": {
+          "name": "Tom Callahan",
+          "url": "/tom"
+        },
         "recruit": [
-          "Tom Callahan"
+          {
+            "name": "Hummer Winblad, Sigma Partners, Partech ",
+            "url": "Hummer Winblad, Sigma Partners, Partech "
+          }
         ],
-        "investors": "Hummer Winblad, Sigma Partners, Partech "
+        "investors": null
       }
     ]
   },
   {
     "company": "RETREVO",
-    "name": "retrevo",
+    "name": "retrovo",
     "categories": [
       1
     ],
     "details": [
       {
         "position": "VP Product Management",
-        "lead": "Richard Lear",
+        "lead": {
+          "name": "Rich Lear",
+          "url": "/rich"
+        },
         "recruit": [
-          "Mark Hubbell",
-          "Julie Locke"
+          {
+            "name": "Mark Hubbell",
+            "url": "/mark"
+          },
+          {
+            "name": "Julie Locke",
+            "url": "/julie"
+          }
         ],
         "investors": "Alloy Ventures, Norwest Venture Partners, "
       },
       {
         "position": "VP Business Development",
-        "lead": "Richard Lear",
+        "lead": {
+          "name": "Rich Lear",
+          "url": "/rich"
+        },
         "recruit": [
-          "Mark Hubbell"
+          {
+            "name": "Mark Hubbell",
+            "url": "/mark"
+          }
         ],
         "investors": "Alloy Ventures, Norwest Venture Partners, "
       }
@@ -1605,7 +2065,10 @@ var assets2 = [
     "details": [
       {
         "position": "CFO",
-        "lead": "April King",
+        "lead": {
+          "name": "April King",
+          "url": "/april"
+        },
         "recruit": [
 
         ],
@@ -1621,8 +2084,11 @@ var assets2 = [
     ],
     "details": [
       {
-        "position": "VP Marketing",                              
-        "lead": "Richard Lear",
+        "position": "VP Marketing",
+        "lead": {
+          "name": "Rich Lear",
+          "url": "/rich"
+        },
         "recruit": [
 
         ],
@@ -1639,7 +2105,10 @@ var assets2 = [
     "details": [
       {
         "position": "VP Marketing",
-        "lead": "Irene Murphy",
+        "lead": {
+          "name": "Irene Murphy",
+          "url": "/irene"
+        },
         "recruit": [
 
         ],
@@ -1657,9 +2126,15 @@ var assets2 = [
     "details": [
       {
         "position": "SVP Sales & Strategy",
-        "lead": "April King",
+        "lead": {
+          "name": "April King",
+          "url": "/april"
+        },
         "recruit": [
-          "Mark Hubbell"
+          {
+            "name": "Mark Hubbell",
+            "url": "/mark"
+          }
         ],
         "investors": "Shasta Ventures, Tugboat Ventures, Altos Ventures"
       }
@@ -1674,7 +2149,10 @@ var assets2 = [
     "details": [
       {
         "position": "CMO",
-        "lead": "Richard Lear",
+        "lead": {
+          "name": "Rich Lear",
+          "url": "/rich"
+        },
         "recruit": [
 
         ],
@@ -1701,7 +2179,10 @@ var assets2 = [
     "details": [
       {
         "position": "VP Product",
-        "lead": "Mark Hubbell ",
+        "lead": {
+          "name": "Mark Hubbell",
+          "url": "/mark"
+        },
         "recruit": [
 
         ],
@@ -1718,9 +2199,15 @@ var assets2 = [
     "details": [
       {
         "position": "CRO",
-        "lead": "Mark Hubbell",
+        "lead": {
+          "name": "Mark Hubbell",
+          "url": "/mark "
+        },
         "recruit": [
-          "Gene Zaccor"
+          {
+            "name": "Gene Zaccor",
+            "url": "/gene"
+          }
         ],
         "investors": "Russell Siegelman, DFJ, First Round Capital, Bridgescale Partners"
       }
@@ -1735,17 +2222,29 @@ var assets2 = [
     "details": [
       {
         "position": "VP Sales",
-        "lead": "April King",
+        "lead": {
+          "name": "April King",
+          "url": "/april"
+        },
         "recruit": [
-          "Irene Murphy"
+          {
+            "name": "Irene Murphy",
+            "url": "/irene"
+          }
         ],
         "investors": "Omidyar Network, DFJ, SAP Ventures"
       },
       {
         "position": "CMO",
-        "lead": "April King",
+        "lead": {
+          "name": "April King",
+          "url": "/april"
+        },
         "recruit": [
-          "Irene Murphy"
+          {
+            "name": "Irene Murphy",
+            "url": "/irene"
+          }
         ],
         "investors": "Omidyar Network, DFJ, SAP Ventures"
       }
@@ -1760,9 +2259,15 @@ var assets2 = [
     "details": [
       {
         "position": "VP/GM Business Development",
-        "lead": "Richard Lear",
+        "lead": {
+          "name": "Rich Lear",
+          "url": "/rich"
+        },
         "recruit": [
-          "Mark Hubbell"
+          {
+            "name": "Mark Hubbell",
+            "url": "/mark"
+          }
         ],
         "investors": "Y Combinator, SoftTech VC, Index Ventures"
       }
@@ -1777,7 +2282,10 @@ var assets2 = [
     "details": [
       {
         "position": "VP Marketing",
-        "lead": "Steve O'Deegan",
+        "lead": {
+          "name": "Steve O'Deegan",
+          "url": "/steve"
+        },
         "recruit": [
 
         ],
@@ -1794,7 +2302,10 @@ var assets2 = [
     "details": [
       {
         "position": "VP Marketing",
-        "lead": "Steve O'Deegan",
+        "lead": {
+          "name": "Steve O'Deegan",
+          "url": "/steve"
+        },
         "recruit": [
 
         ],
@@ -1812,7 +2323,10 @@ var assets2 = [
     "details": [
       {
         "position": "SVP Sales & Marketing",
-        "lead": "Irene Murphy",
+        "lead": {
+          "name": "Irene Murphy",
+          "url": "/irene"
+        },
         "recruit": [
 
         ],
@@ -1820,9 +2334,12 @@ var assets2 = [
       },
       {
         "position": "VP Applications",
-        "lead": "Tom Callahan",
+        "lead": {
+          "name": "Tom Callahan",
+          "url": "/tom"
+        },
         "recruit": [
-          "Tom Callahan"
+
         ],
         "investors": "Sutter Hill Ventures"
       }
@@ -1837,7 +2354,10 @@ var assets2 = [
     "details": [
       {
         "position": "Board Member",
-        "lead": "Irene Murphy",
+        "lead": {
+          "name": "Irene Murphy",
+          "url": "/irene"
+        },
         "recruit": [
 
         ],
@@ -1854,17 +2374,29 @@ var assets2 = [
     "details": [
       {
         "position": "VP Product Management",
-        "lead": "Audrey Shuster",
+        "lead": {
+          "name": "Audrey Shuster",
+          "url": "/audrey"
+        },
         "recruit": [
-          "Gene Zaccor"
+          {
+            "name": "Gene Zaccor",
+            "url": "/gene"
+          }
         ],
         "investors": "NASDAQ: SYMC"
       },
       {
         "position": "VP Product Marketing, Consulting Svcs",
-        "lead": "Audrey Shuster",
+        "lead": {
+          "name": "Audrey Shuster",
+          "url": "/audrey"
+        },
         "recruit": [
-          "Gene Zaccor"
+          {
+            "name": "Gene Zaccor",
+            "url": "/gene"
+          }
         ],
         "investors": "NASDAQ: SYMC"
       }
@@ -1879,18 +2411,29 @@ var assets2 = [
     "details": [
       {
         "position": "Chief Customer Officer",
-        "lead": "Mark Hubbell",
+        "lead": {
+          "name": "Mark Hubbell",
+          "url": "/mark"
+        },
         "recruit": [
-          "Julie Locke"
+          {
+            "name": "Julie Locke",
+            "url": "/julie"
+          }
         ],
         "investors": "Mayfield"
       },
       {
         "position": "VP Online Marketing",
-        "lead": "Mark Hubbell",
+        "lead": {
+          "name": "Mark Hubbell",
+          "url": "/mark"
+        },
         "recruit": [
-          "Mark Hubbell",
-          "May Young"
+          {
+            "name": "May Young",
+            "url": "/may"
+          }
         ],
         "investors": "Mayfield"
       }
@@ -1906,9 +2449,15 @@ var assets2 = [
     "details": [
       {
         "position": "VP/GM",
-        "lead": "Richard Lear",
+        "lead": {
+          "name": "Rich Lear",
+          "url": "/rich"
+        },
         "recruit": [
-          "Irene Murphy"
+          {
+            "name": "Irene Murphy",
+            "url": "/irene"
+          }
         ],
         "investors": "Acquired by Nielsen"
       }
@@ -1923,18 +2472,33 @@ var assets2 = [
     "details": [
       {
         "position": "VP Business Development",
-        "lead": "Richard Lear",
+        "lead": {
+          "name": "Rich Lear",
+          "url": "/rich"
+        },
         "recruit": [
-          "Julie Locke",
-          "Gene Zaccor"
+          {
+            "name": "Julie Locke",
+            "url": "/julie"
+          },
+          {
+            "name": "Gene Zaccor",
+            "url": "/gene"
+          }
         ],
         "investors": "Institutional Venture Partners, NEA. CMEA Ventures, Scale Venture Partners, GF Private Equity, Chevron Technology Ventures, Symantec"
       },
       {
         "position": "VP Marketing",
-        "lead": "Richard Lear",
+        "lead": {
+          "name": "Rich Lear",
+          "url": "/rich"
+        },
         "recruit": [
-          "Audrey Shuster"
+          {
+            "name": "Audrey Shuster",
+            "url": "/audrey"
+          }
         ],
         "investors": "Institutional Venture Partners, NEA. CMEA Ventures, Scale Venture Partners, GF Private Equity, Chevron Technology Ventures, Symantec"
       }
@@ -1949,9 +2513,15 @@ var assets2 = [
     "details": [
       {
         "position": "VP Operations",
-        "lead": "Mark Hubbell",
+        "lead": {
+          "name": "Mark Hubbell",
+          "url": "/mark"
+        },
         "recruit": [
-          "Julie Locke"
+          {
+            "name": "Julie Locke",
+            "url": "/julie"
+          }
         ],
         "investors": "BlueRun Ventures, Ignition Partners, The Founders Fund"
       }
@@ -1966,9 +2536,15 @@ var assets2 = [
     "details": [
       {
         "position": "VP Online Marketing",
-        "lead": "Richard Lear",
+        "lead": {
+          "name": "Rich Lear",
+          "url": "/rich"
+        },
         "recruit": [
-          "Julie Locke"
+          {
+            "name": "Julie Locke",
+            "url": "/julie"
+          }
         ],
         "investors": "Privately held"
       }
@@ -1983,7 +2559,10 @@ var assets2 = [
     "details": [
       {
         "position": "Chief Scientist",
-        "lead": "Mark Hubbell ",
+        "lead": {
+          "name": "Mark Hubbell",
+          "url": "/mark"
+        },
         "recruit": [
 
         ],
@@ -1991,9 +2570,15 @@ var assets2 = [
       },
       {
         "position": "VP Product Management",
-        "lead": "Mark Hubbell ",
+        "lead": {
+          "name": "Mark Hubbell",
+          "url": "/mark"
+        },
         "recruit": [
-          "Gene Zaccor"
+          {
+            "name": "Gene Zaccor",
+            "url": "/gene"
+          }
         ],
         "investors": "Norwest Venture Partners, Shasta Ventures, Trident Capital, Focus Ventures"
       }
@@ -2008,15 +2593,24 @@ var assets2 = [
     "details": [
       {
         "position": "SVP Online Sales & Marketing",
-        "lead": "Audrey Shuster",
+        "lead": {
+          "name": "Audrey Shuster",
+          "url": "/audrey"
+        },
         "recruit": [
-          "Gene Zaccor"
+          {
+            "name": "Gene Zaccor",
+            "url": "/gene"
+          }
         ],
         "investors": "CMEA Ventures, Rustic Canyon Ventures"
       },
       {
         "position": "VP Business Development",
-        "lead": "Audrey Shuster",
+        "lead": {
+          "name": "Audrey Shuster",
+          "url": "/audrey"
+        },
         "recruit": [
 
         ],
@@ -2033,9 +2627,15 @@ var assets2 = [
     "details": [
       {
         "position": "VP WW Sales",
-        "lead": "Audrey Shuster",
+        "lead": {
+          "name": "Audrey Shuster",
+          "url": "/audrey"
+        },
         "recruit": [
-          "Irene Murphy"
+          {
+            "name": "Irene Murphy",
+            "url": "/irene"
+          }
         ],
         "investors": "Gemini Israel Funds, Hillsven Capital. Carmel Ventures"
       }
@@ -2050,9 +2650,15 @@ var assets2 = [
     "details": [
       {
         "position": "CEO",
-        "lead": "Richard Lear",
+        "lead": {
+          "name": "Rich Lear",
+          "url": "/rich"
+        },
         "recruit": [
-          "Julie Locke"
+          {
+            "name": "Julie Locke",
+            "url": "/julie"
+          }
         ],
         "investors": "Worldview Technology Partners, Mayfield Fund, Sutter Hill Ventures, Leader Ventures"
       }
@@ -2067,9 +2673,12 @@ var assets2 = [
     "details": [
       {
         "position": "GM/Counrtry Manager",
-        "lead": null,
+        "lead": {
+          "name": "Mark Hubbell",
+          "url": "/mark"
+        },
         "recruit": [
-          "Mark Hubbell"
+
         ],
         "investors": "Wellington Partners, Partech International"
       }
@@ -2084,7 +2693,10 @@ var assets2 = [
     "details": [
       {
         "position": "VP Sales",
-        "lead": "Irene Murphy",
+        "lead": {
+          "name": "Irene Murphy",
+          "url": "/irene"
+        },
         "recruit": [
 
         ],
@@ -2092,7 +2704,10 @@ var assets2 = [
       },
       {
         "position": "VP Engineering",
-        "lead": "Tom Callahan",
+        "lead": {
+          "name": "Tom Callahan",
+          "url": "/tom"
+        },
         "recruit": [
 
         ],
@@ -2110,10 +2725,19 @@ var assets2 = [
     "details": [
       {
         "position": "SVP Global Online",
-        "lead": "Richard Lear",
+        "lead": {
+          "name": "Rich Lear",
+          "url": "/rich"
+        },
         "recruit": [
-          "Audrey Shuster",
-          "May Young"
+          {
+            "name": "Audrey Shuster",
+            "url": "/audrey"
+          },
+          {
+            "name": "May Young",
+            "url": "/may"
+          }
         ],
         "investors": "Accel Partners, Mayfield, Technology Crossover Ventures"
       }
@@ -2128,9 +2752,15 @@ var assets2 = [
     "details": [
       {
         "position": "CTO",
-        "lead": "April King",
+        "lead": {
+          "name": "April King",
+          "url": "/april"
+        },
         "recruit": [
-          "Tom Callahan"
+          {
+            "name": "Tom Callahan",
+            "url": "/tom"
+          }
         ],
         "investors": "Madrona Venture Group, Technology Crossover Ventures "
       }
@@ -2145,17 +2775,29 @@ var assets2 = [
     "details": [
       {
         "position": "SVP Engineering",
-        "lead": "April King",
+        "lead": {
+          "name": "April King",
+          "url": "/april"
+        },
         "recruit": [
-          "Tom Callahan"
+          {
+            "name": "Tom Callahan",
+            "url": "/tom"
+          }
         ],
         "investors": "Khosla Ventures, Mayfield Fund "
       },
       {
         "position": "CMO",
-        "lead": "Richard Lear",
+        "lead": {
+          "name": "Rich Lear",
+          "url": "/rich"
+        },
         "recruit": [
-          "April King"
+          {
+            "name": "April King",
+            "url": "/april"
+          }
         ],
         "investors": "Khosla Ventures, Mayfield Fund "
       }
@@ -2170,7 +2812,10 @@ var assets2 = [
     "details": [
       {
         "position": "VP Business Development",
-        "lead": "Tom Callahan",
+        "lead": {
+          "name": "Tom Callahan",
+          "url": "/tom"
+        },
         "recruit": [
 
         ],
@@ -2187,17 +2832,29 @@ var assets2 = [
     "details": [
       {
         "position": "VP Customer Experience",
-        "lead": "Audrey Shuster",
+        "lead": {
+          "name": "Audrey Shuster",
+          "url": "/audrey"
+        },
         "recruit": [
-          "Gene Zaccor"
+          {
+            "name": "Gene Zaccor",
+            "url": "/gene"
+          }
         ],
         "investors": "NSDQ: YHOO"
       },
       {
         "position": "VP Ad Operations",
-        "lead": "Audrey Shuster",
+        "lead": {
+          "name": "Audrey Shuster",
+          "url": "/audrey"
+        },
         "recruit": [
-          "Gene Zaccor"
+          {
+            "name": "Gene Zaccor",
+            "url": "/gene"
+          }
         ],
         "investors": "NSDQ: YHOO"
       }
@@ -2212,7 +2869,10 @@ var assets2 = [
     "details": [
       {
         "position": "SVP Engineering",
-        "lead": "Tom Callahan",
+        "lead": {
+          "name": "Tom Callahan",
+          "url": "/tom"
+        },
         "recruit": [
 
         ],
@@ -2220,7 +2880,10 @@ var assets2 = [
       },
       {
         "position": "SVP Product Management",
-        "lead": "Tom Callahan",
+        "lead": {
+          "name": "Tom Callahan",
+          "url": "/tom"
+        },
         "recruit": [
 
         ],
@@ -2237,17 +2900,29 @@ var assets2 = [
     "details": [
       {
         "position": "CMO",
-        "lead": "Richard Lear",
+        "lead": {
+          "name": "Rich Lear",
+          "url": "/rich"
+        },
         "recruit": [
-          "Audrey Shuster"
+          {
+            "name": "Audrey Shuster",
+            "url": "/audrey"
+          }
         ],
         "investors": "Azure Capital, Index Ventures, SAP Ventures, Intel Capital, Walden Israel Venture Capital, Greylock Partners, Platinum Neurom Ventures (PNV)"
       },
       {
         "position": "VP Sales",
-        "lead": "Richard Lear",
+        "lead": {
+          "name": "Rich Lear",
+          "url": "/rich"
+        },
         "recruit": [
-          "Audrey Shuster"
+          {
+            "name": "Audrey Shuster",
+            "url": "/audrey"
+          }
         ],
         "investors": "Azure Capital, Index Ventures, SAP Ventures, Intel Capital, Walden Israel Venture Capital, Greylock Partners, Platinum Neurom Ventures (PNV)"
       }
@@ -2263,17 +2938,26 @@ var assets2 = [
     "details": [
       {
         "position": "Head of Professional Services",
-        "lead": "Gene Zaccor",
+        "lead": {
+          "name": "Gene Zaccor",
+          "url": "/gene"
+        },
         "recruit": [
-          "Gene Zaccor"
+
         ],
         "investors": "Acquired by Checkpoint Software NASDAQ: CHKP"
       },
       {
         "position": "VP Sales",
-        "lead": "Richard Lear",
+        "lead": {
+          "name": "Rich Lear",
+          "url": "/rich"
+        },
         "recruit": [
-          "Gene Zaccor"
+          {
+            "name": "Gene Zaccpr",
+            "url": "/gene"
+          }
         ],
         "investors": "Acquired by Checkpoint Software NASDAQ: CHKP"
       }
@@ -2288,23 +2972,37 @@ var assets2 = [
     "details": [
       {
         "position": "VP Customer Service",
-        "lead": "Mark Hubbell",
+        "lead": {
+          "name": "Mark Hubbell",
+          "url": "/mark"
+        },
         "recruit": [
-          "Jule Lock"
+          {
+            "name": "Julie Locke",
+            "url": "/julie"
+          }
         ],
         "investors": "Kleiner Perkins, IVP, Union Square Ventures, Foundry Group, Avalon Ventures, Clarium Capital, Pilot Group, individual Investors"
       },
       {
         "position": "SVP Network Operations",
-        "lead": "Mark Hubbell",
+        "lead": {
+          "name": "Mark Hubbell",
+          "url": "/mark"
+        },
         "recruit": [
-          "Julie Locke"
+          {
+            "name": "Julie Locke",
+            "url": "/julie"
+          }
         ],
         "investors": "Kleiner Perkins, IVP, Union Square Ventures, Foundry Group, Avalon Ventures, Clarium Capital, Pilot Group, individual Investors"
       }
     ]
   }
 ]
+
+
 
   // return some functions that do things like sort, filter, etc. on these things.
   return {
@@ -2404,7 +3102,7 @@ var assets2 = [
         if(!margin){
           margin = (idx == 3)? "omega" : "";  
         }
-        $("#logoTemplate").tmpl({klass: klass, margin: margin, href: "#"+logo.name, title: logo.name, name: logo.company, details: logo.details}).insertBefore("#"+id+" .paging");
+        $("#logoTemplate").tmpl({klass: klass, margin: margin, href: "#"+logo.name, title: logo.name, name: logo.company, details: logo.details, recruit: logo.details.recruit}).insertBefore("#"+id+" .paging");
         $("#search_"+logo.name).find(".logo-header").attr("style", "background: url(/images/recent-searches/"+logo.name+".png) 0 0 no-repeat;height: 85px;margin:0 auto;");
          if(idx == 3) {
            $("<div>",{
@@ -2447,7 +3145,7 @@ $(function(){
         $.renderClientLogos(ref, k.value, "alpha", page);
       }
     });
-    $(".lightitupbud").fancybox(); 
+    $(".lightitupbud").fancybox({hideOnContentClick: false}); 
   });
   
   if($("#tabs")[0]) {
@@ -2462,18 +3160,19 @@ $(function(){
     });
   } 
   
-  $(".vantage-link").each(function(i,v){
-    var name = $(v).text();
-    var anchor = $("<a>",{
-      text: name,
-      href: "#"
-    });
-    $(this).html(anchor);
-  });
+  // $(".vantage-link").each(function(i,v){
+  //     var name = $(v).text();
+  //     var anchor = $("<a>",{
+  //       text: name,
+  //       href: "#"
+  //     });
+  //     $(this).html(anchor);
+  //   }); 
   
   $('#tabs').bind('tabsselect', function(event, ui) {
   });
-  $(".lightitupbud").fancybox();
+
+  $(".lightitupbud").fancybox({hideOnContentClick: false});
   
   // setup a cycling slidedeck on the recent searchs
   var list = Vantage.practice.getRecentSearches();

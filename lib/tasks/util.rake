@@ -66,6 +66,7 @@ module Vantage
   
     def test
       @csv_data.each do |line|
+        puts "Working on line #{line}\n"
         record = get_record(line[0])
         record['categories'] += map_category(line[1])
         record['categories'].uniq!
@@ -81,14 +82,32 @@ module Vantage
           :details => o['details']
         } 
       end
-      File.open("tmp/foo_pretty.json", "w") do |f|
+      File.open("tmp/searches.json", "w") do |f|
         f.puts JSON.pretty_generate(final)
       end
     end
+    
+    def parse_name *args
+      puts "Parsing Name: #{args[0]}, #{args[0].class}"
+      if args[0].is_a?(Array)
+        args[0].map {|name| {:name => name.split("::").first, :url => name.split("::").last}} 
+      elsif args[0].is_a?(String)
+        parts = args[0].split("::")
+        {name: parts.first, url: parts.last}
+      else
+        []
+      end  
+    end
   
     def generate_position *args
-      recruit = args[2] ||= ""
-      {:position => args[0], :lead => args[1], :recruit => recruit.split('/'), :investors => args[3]}
+      # arg[2] is anything... parse it.. otherwise set it to ""
+      unless args[2].nil?
+        recruit = parse_name(args[2].split('|'))
+      else
+        recruit = []
+      end
+      puts "recruit is #{recruit}, #{recruit.class}"
+      {:position => args[0], :lead => parse_name(args[1]), :recruit => recruit, :investors => args[3]}
     end
     
     def map_category (category)
