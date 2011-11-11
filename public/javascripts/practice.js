@@ -73,7 +73,7 @@ var recent_searches = [
   {
     company: "IP Infusion",
     category: "Enterprise / SaaS",
-    position: "SVP Global Sales & Business Dev",
+    position: "VP Global Sales & Business Dev",
     lead: "Audrey Shuster" ,
     recruit: ["Irene Murphy"],
     investors: "Privately Held",
@@ -549,7 +549,7 @@ var assets2 = [
   },
   {
     "company": "COURSESMART",
-    "name": "course_smart",
+    "name": "course_mart",
     "categories": [
       1,
       2
