@@ -16,7 +16,7 @@ Vantage.teams = function () {
 $(function(){
   
   // first deck has no left/right motions.. so hide the left/right arrows
-  $("#slidedeck_nav li.right").hide();
+  $(".control-nav").hide();
   
   var deck = $('#teams_slidedeck').slidedeck({hideSpines:true});
   deck.vertical();  
@@ -26,24 +26,23 @@ $(function(){
   $("a.vertical_menu").click(function(e){
     e.preventDefault();
     var slide = this.href.replace(/.+#/,'');
-    // show/hide the controls here
     if(slide == 1) {
-      $("#slidedeck_nav li.right").hide();
+      $(".control-nav").hide();
     } else if (slide == 2) {
-      $("#slidedeck_nav li.right").show();
+      $(".control-nav").show();
     }
     $('#teams_slidedeck').slidedeck({scroll:true}).goTo(1).vertical().goTo(slide);
     Vantage.utils.setCurrentDeck(slide);
   });
  
-  $("#slidedeck_nav .right .next").click(function() {
+  $("#slidedeck_nav .next").click(function() {
     var currentDeck = Vantage.utils.getCurrentDeck();
     if (currentDeck) {
       $(currentDeck).slidedeck().next();
     }
   });
   
-  $("#slidedeck_nav .right .prev").click(function() {
+  $("#slidedeck_nav .prev").click(function() {
     var currentDeck = Vantage.utils.getCurrentDeck();
     if (currentDeck) {
       $(currentDeck).slidedeck().prev();

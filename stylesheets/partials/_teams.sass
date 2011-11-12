@@ -63,10 +63,10 @@
   .ct
     +grid(22)
     margin: 0
-    height: 128px
+    height: 125px
     background-color: #fff
     .mission
-      +grid(10)
+      +grid(11)
       +alpha
       h2
         font: normal 17px "Neue Helvetica", Arial, sans-serif
@@ -80,58 +80,38 @@
         color: $crisp-grey
         padding-left: 40px
     .controls
-      +grid(12)
+      +grid(11)
       +omega
-      ul
-        display: block
-        margin: 0 auto
-        list-style-image: none
-        list-style-type: none
-        li
-          float: left
-          margin-right: -15px
-          color: #6a7870
-          text-align: center
-          line-height: .2em
-          padding: 2px 0 0 0
-          a
-            font: italic normal 11px Georgia, serif
-            line-height: 10.5em
-            &:hover, &:active
-              color: $orange
-              background-position: 0 0
-            
-        li.right
-          float: right
-          height: 88px
-          width: 107px
-          margin: 0
-          padding: 0
-          background: url("../images/slidedeck-home-images/dotted-bkgrnd-nav.png") no-repeat 0 0
-          .prev
-            height: 23px
-            width: 22px
-            padding: 0
-            background: url("../images/slidedeck-home-images/vertical-prev-next-colors.png") no-repeat 0 -22px
-            background-color: transparent
-            background-size: 45px auto
-            position: absolute
-            margin: 32px 3px 0 -22px
-            &:hover
-              background-position: 0 0
-          .next
-            height: 23px
-            width: 22px
-            padding: 0px
-            background: url("../images/slidedeck-home-images/vertical-prev-next-colors.png") no-repeat -22px -22px
-            background-color: transparent
-            background-size: 45px auto
-            position: absolute
-            margin: 32px 0px 0 5px
-            float: left
-            &:hover
-              background-position: -22px 0  
-
+      .control-icon
+        +grid(4)
+      .control-nav
+        +grid(3)
+        height: 85px 
+        background: $crisp-grey url("../images/slidedeck-home-images/dotted-bkgrnd-nav.png") 0 0 no-repeat
+        .prev
+          position: relative
+          left: 30px
+          top: 30px
+          height: 27px
+          width: 27px
+          border: 0
+          background: transparent url("../images/vertical-prev-next-3.png") 0 0 no-repeat
+          &:hover
+            background: transparent url("../images/vertical-prev-next-1.png") 0 0 no-repeat
+        .next
+          position: relative
+          left: 30px
+          top: 30px
+          height: 27px
+          width: 27px
+          border: 0
+          background: transparent url("../images/vertical-prev-next-4.png") 0 0 no-repeat
+          &:hover
+            background: transparent url("../images/vertical-prev-next-2.png") 0 0 no-repeat  
+      .alpha
+        +alpha
+      .omega
+        +omega
 a.nav-bottom-vantage
   display: block
   width: 120px
@@ -139,7 +119,12 @@ a.nav-bottom-vantage
   background: white url("../images/slidedeck-home-images/nav-vantage-team_2.png") bottom
   text-decoration: none
   color: #6A7870
-
+  font: italic normal 11px Georgia, serif
+  line-height: 10.5em
+  text-align: center
+  &:hover, &:active
+    color: #F37421
+    background-position: 0 0
 a.nav-bottom-mission
   display: block
   width: 114px
@@ -147,10 +132,13 @@ a.nav-bottom-mission
   background: white url("../images/slidedeck-home-images/nav-vantatge_mission_2.png") bottom
   text-decoration: none
   color: #6A7870
-  line-height: 11.1em
-  &:hover
-    background-position: 0 0
-
+  font: italic normal 11px Georgia, serif
+  text-align: center
+  line-height: 10.5em
+  &:hover, &:active
+    color: #F37421
+    background-position: 0 0      
+      
 ul.verticalSlideNav
   display: none
 

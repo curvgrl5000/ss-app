@@ -163,21 +163,17 @@ a.nav-bottom-vantage:hover {
   #outer-slidedeck_nav .right .prev {
     height:23px;
     width:22px;
-    padding:0;
-    background: url("../images/slidedeck-home-images/vertical-prev-next-colors.png") no-repeat 0 -22px;
-    background-color:transparent;
-    background-size: 45px auto;
-    position: absolute;
-    margin: 32px 3px 0 -22px;   
+    background: transparent url("../images/vertical-prev-next-3.png") 0 0 no-repeat;
   }
+  
   #outer-slidedeck_nav .right .prev:hover {
-    background-position: 0 0;
+    background: transparent url("../images/vertical-prev-next-1.png") 0 0 no-repeat;
   }
+  
   #outer-slidedeck_nav .right .next {
-    height:23px ;
+    height: 23px ;
     width:22px ;
-    padding: 0px;
-    background: url("../images/slidedeck-home-images/vertical-prev-next-colors.png") no-repeat -22px -22px;
+    background: transparent url("../images/vertical-prev-next-3.png") 0 0 no-repeat;
     background-color:transparent;
     background-size: 45px auto;
     position: absolute;
