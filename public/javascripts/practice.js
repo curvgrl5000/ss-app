@@ -3145,7 +3145,7 @@ $(function(){
         $.renderClientLogos(ref, k.value, "alpha", page);
       }
     });
-    $(".lightitupbud").fancybox({hideOnContentClick: false}); 
+    $("a.lightitupbud").fancybox(); 
   });
   
   if($("#tabs")[0]) {
@@ -3160,19 +3160,7 @@ $(function(){
     });
   } 
   
-  // $(".vantage-link").each(function(i,v){
-  //     var name = $(v).text();
-  //     var anchor = $("<a>",{
-  //       text: name,
-  //       href: "#"
-  //     });
-  //     $(this).html(anchor);
-  //   }); 
-  
-  $('#tabs').bind('tabsselect', function(event, ui) {
-  });
-
-  $(".lightitupbud").fancybox({hideOnContentClick: false});
+  $("a.lightitupbud").fancybox();
   
   // setup a cycling slidedeck on the recent searchs
   var list = Vantage.practice.getRecentSearches();

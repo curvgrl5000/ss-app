@@ -12,7 +12,7 @@ Vantage.individual = function () {
       },
       {
         "company": "Limelife",
-        "sector": "Consumer / Internet", "Mobile / Wireless",
+        "sector": "Consumer / Internet :: Mobile / Wireless",
         "position": "COO / SVP Product"
       },
       {
@@ -47,12 +47,12 @@ Vantage.individual = function () {
       },
       {
         "company": "Limelife",
-        "sector": "Consumer / Internet", "Mobile / Wireless",
+        "sector": "Consumer / Internet :: Mobile / Wireless",
         "position": "CTO/VP Engineering"
       },
       {
         "company": "EmSense",
-        "sector": "Consumer / Internet", "Enterprise / SaaS",
+        "sector": "Consumer / Internet :: Enterprise / SaaS",
         "position": "Regional Vice President"
       },
       {
@@ -72,12 +72,12 @@ Vantage.individual = function () {
       },
       {
         "company": "EmSense",
-        "sector": "Consumer / Internet", "Enterprise / SaaS",
+        "sector": "Consumer / Internet :: Enterprise / SaaS",
         "position": "SVP Sales & Marketing"
       },
       {
         "company": "SayNow",
-        "sector": "Consumer / Internet", "Mobile / Wireless",
+        "sector": "Consumer / Internet :: Mobile / Wireless",
         "position": "SVP Sales & Strategy"
       },
       {
@@ -92,12 +92,12 @@ Vantage.individual = function () {
       },
       {
         "company": "Anchor Intelligence",
-        "sector": "Consumer / Internet", "Enterprise / SaaS",
+        "sector": "Consumer / Internet :: Enterprise / SaaS",
         "position": "VP Business Development"
       },
       {
         "company": "Like.com",
-        "sector": "Consumer / Internet", "Enterprise / SaaS",
+        "sector": "Consumer / Internet :: Enterprise / SaaS",
         "position": "VP Business Development"
       },
       {
@@ -132,7 +132,7 @@ Vantage.individual = function () {
       },
       {
         "company": "Like.com",
-        "sector": "Consumer / Internet", "Enterprise / SaaS",
+        "sector": "Consumer / Internet :: Enterprise / SaaS",
         "position": "VP Online Marketing"
       },
       {
@@ -142,7 +142,7 @@ Vantage.individual = function () {
       },
       {
         "company": "EmSense",
-        "sector": "Consumer / Internet", "Enterprise / SaaS",
+        "sector": "Consumer / Internet :: Enterprise / SaaS",
         "position": "VP Operations"
       },
       {
@@ -177,7 +177,7 @@ Vantage.individual = function () {
       },
       {
         "company": "ClickForensics",
-        "sector": "Consumer / Internet", "Enterprise / SaaS",
+        "sector": "Consumer / Internet :: Enterprise / SaaS",
         "position": "VP Sales"
       },
       {
@@ -1218,7 +1218,7 @@ Vantage.individual = function () {
       },
       {
         "company": "Pubmatic",
-        "sector": "Consumer / Internet", "Enterprise / SaaS",
+        "sector": "Consumer / Internet :: Enterprise / SaaS",
         "position": "CFO"
       },
       {
