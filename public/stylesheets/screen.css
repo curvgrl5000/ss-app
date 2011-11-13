@@ -2678,7 +2678,7 @@ a:hover {
   width: 200px;
   height: 173px;
   background-color: white;
-  background: white url("../images/foot-right-bkgrnd.png") no-repeat scroll 0 0;
+  background: white url("../images/foot-right-bkgrnd.png") no-repeat scroll -15px 0;
 }
 /* line 45, ../../stylesheets/partials/_style.sass */
 #foot #logo {
