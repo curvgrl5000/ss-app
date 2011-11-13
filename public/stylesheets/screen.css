@@ -1801,7 +1801,7 @@ a.nav-bottom-vantage:hover, a.nav-bottom-vantage:active {
   top: 120px;
   left: 40px;
   color: #36434d;
-  font-size: 1.125em;
+  font-size: 1.25em;
   font-weight: normal;
   font-family: franklin-gothic-urw-condensed, sans-serif;
   font-weight: 600;
@@ -2678,7 +2678,7 @@ a:hover {
   width: 200px;
   height: 173px;
   background-color: white;
-  background: white url("../images/foot-right-bkgrnd.png") no-repeat scroll -15px 0;
+  background: white url("../images/foot-right-bkgrnd.png") no-repeat scroll 0 0;
 }
 /* line 45, ../../stylesheets/partials/_style.sass */
 #foot #logo {
