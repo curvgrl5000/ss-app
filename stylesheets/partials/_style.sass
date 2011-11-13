@@ -3,6 +3,12 @@
   padding: 0
   width: 960px
 
+a 
+  text-decoration: none
+
+a:hover
+  color: #5F6A72
+  
 #footer
   float: left
   background: $dark-blue url("../images/footer.png") repeat-x scroll 0 0
@@ -432,7 +438,7 @@ span.highlight_orange
     color: #000
     margin: 0 0 0 25px
     padding: 0
-    line-height: 1em
+    line-height: 1.2em
 
 h1.meet
   text-align: right
@@ -464,7 +470,7 @@ h2.master
       font: normal normal normal 1.35em/1.85em Georgia, Times, serif
       color: $copy-grey
     span.average
-      background: url("../images/down-arrow.png") 0 5px no-repeat
+      background: url("../images/down-arrow.png") left center no-repeat
       color: #5F6A72
       font-family: franklin-gothic-urw-condensed,sans-serif
       font-size: 23px
@@ -502,7 +508,8 @@ h2.master
     width: 230px
   #newsfeed
     margin: 0
-    padding: 10px 0 0 0
+    padding: 10px 0 10px 0
+    height: 20px
     h1
       font-family: pragmatica-web-n3,pragmatica-web,sans-serif
       font-style: normal
@@ -510,10 +517,10 @@ h2.master
       color: #fff
       letter-spacing: 4px
       font-size: 18px
-      padding: 7px 70px 10px 0
+      padding: 0 70px 0 0
       margin: 0px
       float: left
-      line-height: .5em
+      line-height: normal
     .rss-icon
       height: 20px
       width: 21px
@@ -524,19 +531,20 @@ h2.master
   .content-block
     margin: 0
     padding: 0 0 0 15px
+    float: left
     .date
-      font: normal normal 300 12px/16px pragmatica-web-n3,pragmatica-web,sans-serif
+      font: normal normal 300 12px/18px pragmatica-web-n3,pragmatica-web,sans-serif
       color: #fff
       letter-spacing: .075em
       float: left
     span.date-divider
-      font: normal normal 300 18px/16px pragmatica-web-n3,pragmatica-web,sans-serif
+      font: normal normal 300 18px/10px pragmatica-web-n3,pragmatica-web,sans-serif
       color: #fff
     .author
-      font: italic normal 300 1.2em Georgia, serif
+      font: italic normal 300 12px/14px Georgia, serif
       color: #fff
       letter-spacing: .18em
-      padding: 0 0 0 5px
+      padding: 0 0 5px 5px
       float: left
     h3
       font: normal normal 300 16px/16px Helvetica, Arial, sans-serif
@@ -552,7 +560,7 @@ h2.master
       color: #2F404C
       letter-spacing: .02em
       font-size: 0.15em
-      padding: 20px 0 0 0
+      padding: 30px 0 0 0
       margin: 0
       float: left
     .photo
@@ -562,7 +570,7 @@ h2.master
       height: 80px
       float: left
     p
-      font: normal normal normal 1.17em/1.2em Helvetica, Arial, sans-serif
+      font: normal normal normal 12px/16px Helvetica, Arial, sans-serif
       color: #fff
       float: left
       margin: 0

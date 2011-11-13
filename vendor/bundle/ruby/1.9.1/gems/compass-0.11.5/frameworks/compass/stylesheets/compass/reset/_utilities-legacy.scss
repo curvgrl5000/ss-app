@@ -24,6 +24,8 @@
     @include reset-table-cell; }
   q, blockquote {
     @include reset-quotation; }
+  a {
+     text-decoration: none; }
   a img {
     @include reset-image-anchor-border; } }
 
@@ -44,6 +46,8 @@
     @include reset-table-cell; }
   q, blockquote {
     @include reset-quotation; }
+  a {
+    text-decoration: none; }
   a img {
     @include reset-image-anchor-border; } }
 

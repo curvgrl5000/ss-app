@@ -30,6 +30,8 @@
   a img {
     @include reset-image-anchor-border; }
   @include reset-html5; }
+  a {
+    text-decoration: none; }
 
 // Reset all elements within some selector scope. To reset the selector itself,
 // mixin the appropriate reset mixin for that element type as well. This could be
@@ -58,7 +60,8 @@
     @include reset-quotation; }
   a img {
     @include reset-image-anchor-border; } }
-
+  a {
+    text-decoration: none; }
 // Reset the box model measurements.
 @mixin reset-box-model {
   margin: 0;
