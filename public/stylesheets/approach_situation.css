@@ -69,7 +69,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* $ninesixty-class-separator: "_" !default */
 @font-face {
   font-family: "Neue Helvetica";
-  src: url('../fonts/HelveticaNeueLTW1G-Md.otf') format('opentype');
+  src: url('/public/fonts/HelveticaNeueLTW1G-Md.otf') format('opentype');
 }
 
 @font-face {
@@ -525,13 +525,13 @@ ul.sf-navbar .current ul ul {
 /* apply hovers to modern browsers */
 /** remove shadow on first submenu ** */
 /* This little bit of Sass is used all over the layouts.. .assume we have loaded the grid module before this one... */
-/* line 2, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 2, ../../stylesheets/partials/_general_layout.sass */
 #container {
   margin-left: auto;
   margin-right: auto;
   width: 960px;
 }
-/* line 4, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 4, ../../stylesheets/partials/_general_layout.sass */
 #container #header {
   display: inline;
   float: left;
@@ -539,7 +539,7 @@ ul.sf-navbar .current ul ul {
   margin-right: 5px;
   width: 950px;
 }
-/* line 6, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 6, ../../stylesheets/partials/_general_layout.sass */
 #container #header #logo {
   display: inline;
   float: left;
@@ -548,7 +548,7 @@ ul.sf-navbar .current ul ul {
   width: 310px;
   margin-left: 0;
 }
-/* line 9, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 9, ../../stylesheets/partials/_general_layout.sass */
 #container #header #globalsearch {
   display: inline;
   float: left;
@@ -557,7 +557,7 @@ ul.sf-navbar .current ul ul {
   width: 630px;
   margin-right: 0;
 }
-/* line 12, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 12, ../../stylesheets/partials/_general_layout.sass */
 #container #header #navigation {
   display: inline;
   float: left;
@@ -569,7 +569,7 @@ ul.sf-navbar .current ul ul {
   margin-left: 0;
   margin-right: 0;
 }
-/* line 18, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 18, ../../stylesheets/partials/_general_layout.sass */
 #container #main {
   display: inline;
   float: left;
@@ -578,14 +578,14 @@ ul.sf-navbar .current ul ul {
   width: 950px;
 }
 
-/* line 21, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 21, ../../stylesheets/partials/_general_layout.sass */
 #wrapper {
   margin: 0 auto;
   padding: 0;
   width: 960px;
 }
 
-/* line 26, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 26, ../../stylesheets/partials/_general_layout.sass */
 #footer {
   float: left;
   background: #36434d url("../images/footer.png") repeat-x scroll 0 0;
@@ -596,7 +596,7 @@ ul.sf-navbar .current ul ul {
   position: relative;
 }
 
-/* line 35, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 35, ../../stylesheets/partials/_general_layout.sass */
 #foot {
   background: #a9b2ba url("../images/foot-bkgrng.png") no-repeat scroll 0 16px;
   width: 960px;
@@ -607,7 +607,7 @@ ul.sf-navbar .current ul ul {
   margin-bottom: 0;
   padding: 0;
 }
-/* line 44, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 44, ../../stylesheets/partials/_general_layout.sass */
 #foot #left {
   float: left;
   padding: 0;
@@ -616,7 +616,7 @@ ul.sf-navbar .current ul ul {
   margin: 0;
   padding: 0;
 }
-/* line 51, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 51, ../../stylesheets/partials/_general_layout.sass */
 #foot #right {
   float: right;
   padding: 37px 0 0 27px;
@@ -626,7 +626,7 @@ ul.sf-navbar .current ul ul {
   background-color: white;
   background: white url("../images/foot-right-bkgrnd.png") no-repeat scroll 0 0;
 }
-/* line 59, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 59, ../../stylesheets/partials/_general_layout.sass */
 #foot #logo {
   float: right;
   padding: 0 20px 0 0;
@@ -636,7 +636,7 @@ ul.sf-navbar .current ul ul {
   background: white url("../images/footer-logo.png") no-repeat scroll 0 0;
 }
 
-/* line 67, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 67, ../../stylesheets/partials/_general_layout.sass */
 #footer h4 {
   font-family: pragmatica-web, sans-serif;
   font-style: normal;
@@ -648,7 +648,7 @@ ul.sf-navbar .current ul ul {
   line-height: 1.3;
   letter-spacing: 0.02em;
 }
-/* line 77, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 77, ../../stylesheets/partials/_general_layout.sass */
 #footer h4 a {
   color: #f37421;
   font-weight: 600;
@@ -657,7 +657,7 @@ ul.sf-navbar .current ul ul {
   font-family: pragmatica-web, sans-serif;
   font-style: normal;
 }
-/* line 84, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 84, ../../stylesheets/partials/_general_layout.sass */
 #footer h4 a:hover {
   color: #2f404c;
   text-decoration: none;
@@ -665,13 +665,13 @@ ul.sf-navbar .current ul ul {
 
 /* Navigation
  *---------------------------------------------------------------------------------------------------- */
-/* line 91, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 91, ../../stylesheets/partials/_general_layout.sass */
 #navigation {
   height: 45px;
   background-color: #f37421;
 }
 
-/* line 97, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 97, ../../stylesheets/partials/_general_layout.sass */
 .nav-top {
   line-height: 1;
   list-style: none outside none;
@@ -680,12 +680,12 @@ ul.sf-navbar .current ul ul {
   z-index: 99;
   float: left;
 }
-/* line 104, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 104, ../../stylesheets/partials/_general_layout.sass */
 .nav-top li {
   float: left;
   width: auto;
 }
-/* line 107, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 107, ../../stylesheets/partials/_general_layout.sass */
 .nav-top li a {
   color: #2f404c !important;
   display: block;
@@ -698,13 +698,13 @@ ul.sf-navbar .current ul ul {
   font: normal 12px Dante MT Std serif;
   letter-spacing: 0.08em;
 }
-/* line 118, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 118, ../../stylesheets/partials/_general_layout.sass */
 .nav-top a:hover {
   color: white !important;
   text-decoration: none !important;
 }
 
-/* line 122, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 122, ../../stylesheets/partials/_general_layout.sass */
 #navigation-footer {
   margin: 0px;
   padding: 10px 0 0 50px;
@@ -713,7 +713,7 @@ ul.sf-navbar .current ul ul {
   width: 500px;
 }
 
-/* line 131, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 131, ../../stylesheets/partials/_general_layout.sass */
 .nav-bottom {
   line-height: 1;
   list-style: none outside none;
@@ -722,12 +722,12 @@ ul.sf-navbar .current ul ul {
   z-index: 99;
   float: left;
 }
-/* line 138, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 138, ../../stylesheets/partials/_general_layout.sass */
 .nav-bottom li {
   float: left;
   width: auto;
 }
-/* line 141, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 141, ../../stylesheets/partials/_general_layout.sass */
 .nav-bottom li a {
   color: #a9b2ba !important;
   display: block;
@@ -740,13 +740,18 @@ ul.sf-navbar .current ul ul {
   font: normal 12px Dante MT Std serif;
   letter-spacing: 0.08em;
 }
-/* line 152, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
-.nav-bottom a:hover {
+/* line 153, ../../stylesheets/partials/_general_layout.sass */
+.nav-bottom li a:hover, .nav-bottom li a:active {
+  color: #f37421 !important;
+  text-decoration: none !important;
+}
+/* line 156, ../../stylesheets/partials/_general_layout.sass */
+.nav-bottom li.active a {
   color: #f37421 !important;
   text-decoration: none !important;
 }
 
-/* line 156, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 160, ../../stylesheets/partials/_general_layout.sass */
 #logo {
   margin: 0;
   padding: 0;
@@ -755,7 +760,7 @@ ul.sf-navbar .current ul ul {
   height: 90px;
 }
 
-/* line 165, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 169, ../../stylesheets/partials/_general_layout.sass */
 .search {
   float: right;
   margin: 40px 44px 0 0;
@@ -767,14 +772,14 @@ ul.sf-navbar .current ul ul {
   display: block;
 }
 
-/* line 175, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 179, ../../stylesheets/partials/_general_layout.sass */
 #search_form {
   float: left;
   margin: 0;
   padding: 0px;
   height: 23px;
 }
-/* line 180, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 184, ../../stylesheets/partials/_general_layout.sass */
 #search_form #q {
   width: 182px;
   height: 17px;
@@ -788,11 +793,11 @@ ul.sf-navbar .current ul ul {
   float: left;
   background: none;
 }
-/* line 192, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 196, ../../stylesheets/partials/_general_layout.sass */
 #search_form #q:hover {
   background-color: #dddddd;
 }
-/* line 194, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 198, ../../stylesheets/partials/_general_layout.sass */
 #search_form input {
   background: white url("../images/magnifying_glass.png") no-repeat 0 0;
   height: 24px;
@@ -804,12 +809,12 @@ ul.sf-navbar .current ul ul {
   margin: 0 0 0 6px;
   border: none;
 }
-/* line 204, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 208, ../../stylesheets/partials/_general_layout.sass */
 #search_form input:hover {
   background-position: -25px 0;
 }
 
-/* line 207, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 211, ../../stylesheets/partials/_general_layout.sass */
 #globalsearch {
   margin: 0;
   padding: 0;
@@ -818,7 +823,7 @@ ul.sf-navbar .current ul ul {
   height: 90px;
 }
 
-/* line 214, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 218, ../../stylesheets/partials/_general_layout.sass */
 #g-search {
   display: block;
   background: white url("../images/search-placeholder.png") no-repeat scroll 0 40px;
@@ -829,7 +834,7 @@ ul.sf-navbar .current ul ul {
   float: right;
 }
 
-/* line 223, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 227, ../../stylesheets/partials/_general_layout.sass */
 .clear {
   clear: both;
   display: block;
@@ -1153,7 +1158,7 @@ ul.sf-navbar .current ul ul {
 }
 /* line 168, ../../stylesheets/partials/_approach_situation.sass */
 #slidedeck_nav .ct .mission h2 {
-  font: normal 17px "Neue Helvetica", Arial, sans-serif;
+  font: normal 1.7em "Neue Helvetica", Arial, sans-serif;
   letter-spacing: 0.05em;
   color: #f37421;
   padding-top: 30px;
@@ -1162,11 +1167,12 @@ ul.sf-navbar .current ul ul {
 /* line 174, ../../stylesheets/partials/_approach_situation.sass */
 #slidedeck_nav .ct .mission p.tagline {
   font: italic 11px Georgia, Times sans-serif;
+  line-height: 20px;
   letter-spacing: 0.03em;
   color: #5f6a72;
   padding-left: 40px;
 }
-/* line 179, ../../stylesheets/partials/_approach_situation.sass */
+/* line 180, ../../stylesheets/partials/_approach_situation.sass */
 #slidedeck_nav .ct .controls {
   display: inline;
   float: left;
@@ -1175,14 +1181,14 @@ ul.sf-navbar .current ul ul {
   width: 470px;
   margin-right: 0;
 }
-/* line 182, ../../stylesheets/partials/_approach_situation.sass */
+/* line 183, ../../stylesheets/partials/_approach_situation.sass */
 #slidedeck_nav .ct .controls ul {
   display: block;
   margin: 0 auto;
   list-style-image: none;
   list-style-type: none;
 }
-/* line 187, ../../stylesheets/partials/_approach_situation.sass */
+/* line 188, ../../stylesheets/partials/_approach_situation.sass */
 #slidedeck_nav .ct .controls ul li {
   float: left;
   margin-right: -15px;
@@ -1191,17 +1197,17 @@ ul.sf-navbar .current ul ul {
   line-height: 0.2em;
   padding: 2px 0 0 0;
 }
-/* line 194, ../../stylesheets/partials/_approach_situation.sass */
+/* line 195, ../../stylesheets/partials/_approach_situation.sass */
 #slidedeck_nav .ct .controls ul li a {
   font: italic normal 11px Georgia, serif;
-  line-height: 10.5em;
+  line-height: 117px;
 }
-/* line 197, ../../stylesheets/partials/_approach_situation.sass */
+/* line 198, ../../stylesheets/partials/_approach_situation.sass */
 #slidedeck_nav .ct .controls ul li a:hover, #slidedeck_nav .ct .controls ul li a:active {
   color: #f37421;
   background-position: 0 0;
 }
-/* line 201, ../../stylesheets/partials/_approach_situation.sass */
+/* line 202, ../../stylesheets/partials/_approach_situation.sass */
 #slidedeck_nav .ct .controls ul li.right {
   float: right;
   height: 88px;
@@ -1210,7 +1216,7 @@ ul.sf-navbar .current ul ul {
   padding: 0;
   background: url("../images/slidedeck-home-images/dotted-bkgrnd-nav.png") no-repeat 0 0;
 }
-/* line 208, ../../stylesheets/partials/_approach_situation.sass */
+/* line 209, ../../stylesheets/partials/_approach_situation.sass */
 #slidedeck_nav .ct .controls ul li.right .prev {
   height: 23px;
   width: 22px;
@@ -1221,11 +1227,11 @@ ul.sf-navbar .current ul ul {
   position: absolute;
   margin: 32px 3px 0 -22px;
 }
-/* line 217, ../../stylesheets/partials/_approach_situation.sass */
+/* line 218, ../../stylesheets/partials/_approach_situation.sass */
 #slidedeck_nav .ct .controls ul li.right .prev:hover {
   background-position: 0 0;
 }
-/* line 219, ../../stylesheets/partials/_approach_situation.sass */
+/* line 220, ../../stylesheets/partials/_approach_situation.sass */
 #slidedeck_nav .ct .controls ul li.right .next {
   height: 23px;
   width: 22px;
@@ -1239,7 +1245,7 @@ ul.sf-navbar .current ul ul {
   background-position: -22px 0;
 }
 
-/* line 232, ../../stylesheets/partials/_approach_situation.sass */
+/* line 233, ../../stylesheets/partials/_approach_situation.sass */
 a.nav-bottom-target {
   display: block;
   width: 120px;
@@ -1249,7 +1255,7 @@ a.nav-bottom-target {
   color: #6a7870;
 }
 
-/* line 240, ../../stylesheets/partials/_approach_situation.sass */
+/* line 241, ../../stylesheets/partials/_approach_situation.sass */
 a.nav-bottom-matching {
   display: block;
   width: 114px;
@@ -1259,24 +1265,24 @@ a.nav-bottom-matching {
   color: #6a7870;
   line-height: 11.1em;
 }
-/* line 248, ../../stylesheets/partials/_approach_situation.sass */
+/* line 249, ../../stylesheets/partials/_approach_situation.sass */
 a.nav-bottom-matching:hover {
   background-position: 0 0;
 }
 
-/* line 251, ../../stylesheets/partials/_approach_situation.sass */
+/* line 252, ../../stylesheets/partials/_approach_situation.sass */
 ul.verticalSlideNav {
   display: none;
 }
 
-/* line 254, ../../stylesheets/partials/_approach_situation.sass */
+/* line 255, ../../stylesheets/partials/_approach_situation.sass */
 #content-approach ol, ul {
   list-style-image: none;
   list-style-position: outside;
   list-style-type: none;
 }
 
-/* line 260, ../../stylesheets/partials/_approach_situation.sass */
+/* line 261, ../../stylesheets/partials/_approach_situation.sass */
 #content-approach a img {
   border-bottom-color: -moz-use-text-color;
   border-bottom-style: none;
@@ -1286,7 +1292,7 @@ ul.verticalSlideNav {
   border-top-width: medium;
 }
 
-/* line 268, ../../stylesheets/partials/_approach_situation.sass */
+/* line 269, ../../stylesheets/partials/_approach_situation.sass */
 #slidedeck_mini {
   display: inline;
   float: left;
@@ -1296,11 +1302,14 @@ ul.verticalSlideNav {
   margin-right: 0;
   margin-left: 0;
   border-radius: 8px;
+  border-style: solid;
+  border-color: #ced3d9;
+  border-width: 3px;
   box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
   margin-left: 40px;
   padding: 20px 10px 10px 20px;
 }
-/* line 277, ../../stylesheets/partials/_approach_situation.sass */
+/* line 281, ../../stylesheets/partials/_approach_situation.sass */
 #slidedeck_mini .small-trustmark {
   background: white url("../images/approach-trustmark-1.png") no-repeat 0 0;
   height: 57px;
@@ -1308,31 +1317,32 @@ ul.verticalSlideNav {
   float: left;
   padding-right: 20px;
 }
-/* line 283, ../../stylesheets/partials/_approach_situation.sass */
+/* line 287, ../../stylesheets/partials/_approach_situation.sass */
 #slidedeck_mini .mission {
   display: inline;
   float: left;
   margin-left: 5px;
   margin-right: 5px;
-  width: 590px;
+  width: 670px;
   margin-left: 0;
-  margin-right: 80px;
+  margin-right: 5px;
+  padding: 0;
 }
-/* line 287, ../../stylesheets/partials/_approach_situation.sass */
+/* line 292, ../../stylesheets/partials/_approach_situation.sass */
 #slidedeck_mini .mission h2 {
-  font: normal 17px "Neue Helvetica", Arial, sans-serif;
+  font: normal normal normal 1.7em "Neue Helvetica", Arial, sans-serif;
   letter-spacing: 0.05em;
   color: #f37421;
   padding-top: 5px;
 }
-/* line 292, ../../stylesheets/partials/_approach_situation.sass */
+/* line 297, ../../stylesheets/partials/_approach_situation.sass */
 #slidedeck_mini .mission p.tagline {
-  font: italic 11px Georgia, Times sans-serif;
+  font: italic 11px/1.4em Georgia, Times sans-serif;
   letter-spacing: 0.03em;
   color: #5f6a72;
-  padding: 0 10 0 40px;
+  padding: 0 40px 0 82px;
 }
-/* line 297, ../../stylesheets/partials/_approach_situation.sass */
+/* line 302, ../../stylesheets/partials/_approach_situation.sass */
 #slidedeck_mini .controls {
   display: inline;
   float: left;
@@ -1341,81 +1351,91 @@ ul.verticalSlideNav {
   width: 70px;
   margin-right: 0;
 }
-/* line 300, ../../stylesheets/partials/_approach_situation.sass */
+/* line 305, ../../stylesheets/partials/_approach_situation.sass */
 #slidedeck_mini .controls ul {
   display: block;
   margin: 0 auto;
   list-style-image: none;
   list-style-type: none;
 }
-/* line 305, ../../stylesheets/partials/_approach_situation.sass */
+/* line 310, ../../stylesheets/partials/_approach_situation.sass */
 #slidedeck_mini .controls ul li {
-  float: left;
+  float: right;
   margin-right: -15px;
   color: #6a7870;
   text-align: center;
   line-height: 0.2em;
   padding: 2px 0 0 0;
 }
-/* line 312, ../../stylesheets/partials/_approach_situation.sass */
+/* line 317, ../../stylesheets/partials/_approach_situation.sass */
 #slidedeck_mini .controls ul li a {
   font: italic normal 11px Georgia, serif;
   line-height: 10.5em;
 }
-/* line 315, ../../stylesheets/partials/_approach_situation.sass */
+/* line 320, ../../stylesheets/partials/_approach_situation.sass */
 #slidedeck_mini .controls ul li a:hover, #slidedeck_mini .controls ul li a:active {
   color: #f37421;
   background-position: 0 0;
 }
-/* line 319, ../../stylesheets/partials/_approach_situation.sass */
+/* line 324, ../../stylesheets/partials/_approach_situation.sass */
 #slidedeck_mini .controls li.right {
-  float: right;
   height: 65px;
-  width: 100px;
-  margin: 0;
+  width: 70px;
+  margin: 0 20px 0 0;
   padding: 0;
 }
-/* line 325, ../../stylesheets/partials/_approach_situation.sass */
+/* line 329, ../../stylesheets/partials/_approach_situation.sass */
 #slidedeck_mini .controls li.right .prev {
   height: 23px;
   width: 22px;
   padding: 0;
-  background: url("../images/slidedeck-home-images/vertical-prev-next-colors.png") no-repeat 0 -22px;
+  background: url("../images/slidedeck-home-images/vertical-prev-next-3.png") no-repeat 0 0;
   background-color: transparent;
-  background-size: 45px auto;
+  background-size: 95% 95%;
   position: absolute;
-  margin: 32px 3px 0 -22px;
+  margin: 32px 3px 0px 0px;
   background-position: 0 0;
+  float: left;
 }
-/* line 336, ../../stylesheets/partials/_approach_situation.sass */
+/* line 340, ../../stylesheets/partials/_approach_situation.sass */
+#slidedeck_mini .controls li.right .prev:hover {
+  background: transparent url("../images/vertical-prev-next-1.png") 0 0 no-repeat;
+  background-size: 95%;
+}
+/* line 345, ../../stylesheets/partials/_approach_situation.sass */
 #slidedeck_mini .controls li.right .next {
   height: 23px;
   width: 22px;
   padding: 0px;
-  background: url("../images/slidedeck-home-images/vertical-prev-next-colors.png") no-repeat -22px -22px;
+  background: url("../images/slidedeck-home-images/vertical-prev-next-4.png") no-repeat 0 0;
   background-color: transparent;
-  background-size: 45px auto;
+  background-size: 95% 95%;
   position: absolute;
-  margin: 32px 0px 0 5px;
-  float: left;
-  background-position: -22px 0;
+  margin: 32px 0px 0px 23px;
+  float: right;
+  background-position: 0 0;
+}
+/* line 357, ../../stylesheets/partials/_approach_situation.sass */
+#slidedeck_mini .controls li.right .next:hover {
+  background: transparent url("../images/vertical-prev-next-2.png") 0 0 no-repeat;
+  background-size: 95%;
 }
 
-/* line 349, ../../stylesheets/partials/_approach_situation.sass */
+/* line 362, ../../stylesheets/partials/_approach_situation.sass */
 #slidedeck_box {
   display: inline;
   float: left;
   margin-left: 5px;
   margin-right: 5px;
-  width: 790px;
+  width: 830px;
   padding-right: 40px;
   padding-top: 25px;
 }
-/* line 353, ../../stylesheets/partials/_approach_situation.sass */
+/* line 366, ../../stylesheets/partials/_approach_situation.sass */
 #slidedeck_box #approach_slidedeck {
   height: 407px;
 }
-/* line 355, ../../stylesheets/partials/_approach_situation.sass */
+/* line 368, ../../stylesheets/partials/_approach_situation.sass */
 #slidedeck_box #approach_slidedeck dd {
   display: inline;
   float: left;
@@ -1425,7 +1445,7 @@ ul.verticalSlideNav {
   margin-left: 0;
   margin-right: 0;
 }
-/* line 359, ../../stylesheets/partials/_approach_situation.sass */
+/* line 372, ../../stylesheets/partials/_approach_situation.sass */
 #slidedeck_box #approach_slidedeck dd #middle-content {
   display: inline;
   float: left;
@@ -1438,7 +1458,7 @@ ul.verticalSlideNav {
   height: 435px;
 }
 
-/* line 366, ../../stylesheets/partials/_approach_situation.sass */
+/* line 379, ../../stylesheets/partials/_approach_situation.sass */
 #content-approach {
   display: inline;
   float: left;
@@ -1449,7 +1469,7 @@ ul.verticalSlideNav {
   padding-right: 40px;
   margin: 40px 0 0 0;
 }
-/* line 371, ../../stylesheets/partials/_approach_situation.sass */
+/* line 384, ../../stylesheets/partials/_approach_situation.sass */
 #content-approach .ct {
   display: inline;
   float: left;
@@ -1459,7 +1479,7 @@ ul.verticalSlideNav {
   background-color: white;
   padding-bottom: 20px;
 }
-/* line 375, ../../stylesheets/partials/_approach_situation.sass */
+/* line 388, ../../stylesheets/partials/_approach_situation.sass */
 #content-approach .ct #right-content {
   display: inline;
   float: left;
@@ -1470,23 +1490,23 @@ ul.verticalSlideNav {
   padding: 80px 0 0 0;
   background-color: white;
 }
-/* line 380, ../../stylesheets/partials/_approach_situation.sass */
+/* line 393, ../../stylesheets/partials/_approach_situation.sass */
 #content-approach .ct #right-content h4 {
   font: normal normal 400 1.25em/4.25em Arial, sans-serif;
   text-align: left;
 }
-/* line 383, ../../stylesheets/partials/_approach_situation.sass */
+/* line 396, ../../stylesheets/partials/_approach_situation.sass */
 #content-approach .ct #right-content h4 a {
   color: #5d87a1;
   font: normal normal normal 1.2em Arial, sans-serif;
   text-decoration: none;
 }
-/* line 387, ../../stylesheets/partials/_approach_situation.sass */
+/* line 400, ../../stylesheets/partials/_approach_situation.sass */
 #content-approach .ct #right-content h4 a:hover {
   color: #f37421 !important;
   text-decoration: none !important;
 }
-/* line 390, ../../stylesheets/partials/_approach_situation.sass */
+/* line 403, ../../stylesheets/partials/_approach_situation.sass */
 #content-approach .ct #left-content {
   display: inline;
   float: left;
@@ -1496,7 +1516,7 @@ ul.verticalSlideNav {
   margin-left: 0;
   background-color: white;
 }
-/* line 394, ../../stylesheets/partials/_approach_situation.sass */
+/* line 407, ../../stylesheets/partials/_approach_situation.sass */
 #content-approach .ct #left-content #top-block {
   display: inline;
   float: left;
@@ -1508,26 +1528,26 @@ ul.verticalSlideNav {
   margin-right: 0;
   background: #a9b2ba url("../images/main-bkgrnd.png") no-repeat scroll 0 0;
 }
-/* line 400, ../../stylesheets/partials/_approach_situation.sass */
+/* line 413, ../../stylesheets/partials/_approach_situation.sass */
 #content-approach .ct #left-content #top-block h2 {
   color: #f37421;
   font: normal normal 600 1.3em Arial, sans-serif;
   letter-spacing: 0.11em;
   margin-top: 35px;
 }
-/* line 405, ../../stylesheets/partials/_approach_situation.sass */
+/* line 418, ../../stylesheets/partials/_approach_situation.sass */
 #content-approach .ct #left-content #top-block h3 {
   font: normal normal normal 1.9em Dante MT sans-serif;
   color: #5d87a1;
   margin: 14px 0;
 }
-/* line 409, ../../stylesheets/partials/_approach_situation.sass */
+/* line 422, ../../stylesheets/partials/_approach_situation.sass */
 #content-approach .ct #left-content #top-block p {
   font: normal normal normal 1.45em/1.37em Dante MT Std serif;
   color: #5f6a72;
   margin-top: 10px;
 }
-/* line 413, ../../stylesheets/partials/_approach_situation.sass */
+/* line 426, ../../stylesheets/partials/_approach_situation.sass */
 #content-approach .ct #bottom-content {
   display: inline;
   float: left;
@@ -1536,28 +1556,28 @@ ul.verticalSlideNav {
   width: 790px;
   padding-left: 80px;
 }
-/* line 416, ../../stylesheets/partials/_approach_situation.sass */
+/* line 429, ../../stylesheets/partials/_approach_situation.sass */
 #content-approach .ct #bottom-content h1 {
   font: normal normal 400 4.25em Arial, sans-serif;
   color: #5d87a1;
   color: #ced5db;
 }
-/* line 421, ../../stylesheets/partials/_approach_situation.sass */
+/* line 434, ../../stylesheets/partials/_approach_situation.sass */
 #content-approach .ct #bottom-content h1 a {
   color: #5d87a1;
   text-decoration: none;
 }
-/* line 424, ../../stylesheets/partials/_approach_situation.sass */
+/* line 437, ../../stylesheets/partials/_approach_situation.sass */
 #content-approach .ct #bottom-content h1 a a:hover {
   color: #f37421 !important;
   text-decoration: none !important;
 }
-/* line 427, ../../stylesheets/partials/_approach_situation.sass */
+/* line 440, ../../stylesheets/partials/_approach_situation.sass */
 #content-approach .ct #bottom-content h1 a a:hover {
   color: #f37421 !important;
   text-decoration: underline !important;
 }
-/* line 430, ../../stylesheets/partials/_approach_situation.sass */
+/* line 443, ../../stylesheets/partials/_approach_situation.sass */
 #content-approach .ct #bottom-content h1 a .left {
   display: inline;
   float: left;
@@ -1566,7 +1586,7 @@ ul.verticalSlideNav {
   width: 310px;
   padding-right: 40px;
 }
-/* line 433, ../../stylesheets/partials/_approach_situation.sass */
+/* line 446, ../../stylesheets/partials/_approach_situation.sass */
 #content-approach .ct #bottom-content h1 a .middle {
   display: inline;
   float: left;
@@ -1575,7 +1595,7 @@ ul.verticalSlideNav {
   width: 150px;
   padding-top: 40px;
 }
-/* line 436, ../../stylesheets/partials/_approach_situation.sass */
+/* line 449, ../../stylesheets/partials/_approach_situation.sass */
 #content-approach .ct #bottom-content h1 a .right {
   display: inline;
   float: left;

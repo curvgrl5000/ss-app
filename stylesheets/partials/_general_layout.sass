@@ -149,7 +149,11 @@
       z-index: 100
       font: normal 12px Dante MT Std serif
       letter-spacing: .08em
-  a:hover
+    a
+      &:hover, &:active
+        color: #F37421 !important
+        text-decoration: none !important
+  li.active a
     color: #F37421 !important
     text-decoration: none !important
 

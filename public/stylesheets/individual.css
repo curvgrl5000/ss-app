@@ -525,13 +525,13 @@ ul.sf-navbar .current ul ul {
 /* apply hovers to modern browsers */
 /** remove shadow on first submenu ** */
 /* This little bit of Sass is used all over the layouts.. .assume we have loaded the grid module before this one... */
-/* line 2, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 2, ../../stylesheets/partials/_general_layout.sass */
 #container {
   margin-left: auto;
   margin-right: auto;
   width: 960px;
 }
-/* line 4, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 4, ../../stylesheets/partials/_general_layout.sass */
 #container #header {
   display: inline;
   float: left;
@@ -539,7 +539,7 @@ ul.sf-navbar .current ul ul {
   margin-right: 5px;
   width: 950px;
 }
-/* line 6, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 6, ../../stylesheets/partials/_general_layout.sass */
 #container #header #logo {
   display: inline;
   float: left;
@@ -548,7 +548,7 @@ ul.sf-navbar .current ul ul {
   width: 310px;
   margin-left: 0;
 }
-/* line 9, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 9, ../../stylesheets/partials/_general_layout.sass */
 #container #header #globalsearch {
   display: inline;
   float: left;
@@ -557,7 +557,7 @@ ul.sf-navbar .current ul ul {
   width: 630px;
   margin-right: 0;
 }
-/* line 12, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 12, ../../stylesheets/partials/_general_layout.sass */
 #container #header #navigation {
   display: inline;
   float: left;
@@ -569,7 +569,7 @@ ul.sf-navbar .current ul ul {
   margin-left: 0;
   margin-right: 0;
 }
-/* line 18, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 18, ../../stylesheets/partials/_general_layout.sass */
 #container #main {
   display: inline;
   float: left;
@@ -578,14 +578,14 @@ ul.sf-navbar .current ul ul {
   width: 950px;
 }
 
-/* line 21, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 21, ../../stylesheets/partials/_general_layout.sass */
 #wrapper {
   margin: 0 auto;
   padding: 0;
   width: 960px;
 }
 
-/* line 26, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 26, ../../stylesheets/partials/_general_layout.sass */
 #footer {
   float: left;
   background: #36434d url("../images/footer.png") repeat-x scroll 0 0;
@@ -596,7 +596,7 @@ ul.sf-navbar .current ul ul {
   position: relative;
 }
 
-/* line 35, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 35, ../../stylesheets/partials/_general_layout.sass */
 #foot {
   background: #a9b2ba url("../images/foot-bkgrng.png") no-repeat scroll 0 16px;
   width: 960px;
@@ -607,7 +607,7 @@ ul.sf-navbar .current ul ul {
   margin-bottom: 0;
   padding: 0;
 }
-/* line 44, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 44, ../../stylesheets/partials/_general_layout.sass */
 #foot #left {
   float: left;
   padding: 0;
@@ -616,7 +616,7 @@ ul.sf-navbar .current ul ul {
   margin: 0;
   padding: 0;
 }
-/* line 51, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 51, ../../stylesheets/partials/_general_layout.sass */
 #foot #right {
   float: right;
   padding: 37px 0 0 27px;
@@ -626,7 +626,7 @@ ul.sf-navbar .current ul ul {
   background-color: white;
   background: white url("../images/foot-right-bkgrnd.png") no-repeat scroll 0 0;
 }
-/* line 59, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 59, ../../stylesheets/partials/_general_layout.sass */
 #foot #logo {
   float: right;
   padding: 0 20px 0 0;
@@ -636,7 +636,7 @@ ul.sf-navbar .current ul ul {
   background: white url("../images/footer-logo.png") no-repeat scroll 0 0;
 }
 
-/* line 67, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 67, ../../stylesheets/partials/_general_layout.sass */
 #footer h4 {
   font-family: pragmatica-web, sans-serif;
   font-style: normal;
@@ -648,7 +648,7 @@ ul.sf-navbar .current ul ul {
   line-height: 1.3;
   letter-spacing: 0.02em;
 }
-/* line 77, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 77, ../../stylesheets/partials/_general_layout.sass */
 #footer h4 a {
   color: #f37421;
   font-weight: 600;
@@ -657,7 +657,7 @@ ul.sf-navbar .current ul ul {
   font-family: pragmatica-web, sans-serif;
   font-style: normal;
 }
-/* line 84, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 84, ../../stylesheets/partials/_general_layout.sass */
 #footer h4 a:hover {
   color: #2f404c;
   text-decoration: none;
@@ -665,13 +665,13 @@ ul.sf-navbar .current ul ul {
 
 /* Navigation
  *---------------------------------------------------------------------------------------------------- */
-/* line 91, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 91, ../../stylesheets/partials/_general_layout.sass */
 #navigation {
   height: 45px;
   background-color: #f37421;
 }
 
-/* line 97, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 97, ../../stylesheets/partials/_general_layout.sass */
 .nav-top {
   line-height: 1;
   list-style: none outside none;
@@ -680,12 +680,12 @@ ul.sf-navbar .current ul ul {
   z-index: 99;
   float: left;
 }
-/* line 104, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 104, ../../stylesheets/partials/_general_layout.sass */
 .nav-top li {
   float: left;
   width: auto;
 }
-/* line 107, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 107, ../../stylesheets/partials/_general_layout.sass */
 .nav-top li a {
   color: #2f404c !important;
   display: block;
@@ -698,13 +698,13 @@ ul.sf-navbar .current ul ul {
   font: normal 12px Dante MT Std serif;
   letter-spacing: 0.08em;
 }
-/* line 118, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 118, ../../stylesheets/partials/_general_layout.sass */
 .nav-top a:hover {
   color: white !important;
   text-decoration: none !important;
 }
 
-/* line 122, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 122, ../../stylesheets/partials/_general_layout.sass */
 #navigation-footer {
   margin: 0px;
   padding: 10px 0 0 50px;
@@ -713,7 +713,7 @@ ul.sf-navbar .current ul ul {
   width: 500px;
 }
 
-/* line 131, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 131, ../../stylesheets/partials/_general_layout.sass */
 .nav-bottom {
   line-height: 1;
   list-style: none outside none;
@@ -722,12 +722,12 @@ ul.sf-navbar .current ul ul {
   z-index: 99;
   float: left;
 }
-/* line 138, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 138, ../../stylesheets/partials/_general_layout.sass */
 .nav-bottom li {
   float: left;
   width: auto;
 }
-/* line 141, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 141, ../../stylesheets/partials/_general_layout.sass */
 .nav-bottom li a {
   color: #a9b2ba !important;
   display: block;
@@ -740,13 +740,18 @@ ul.sf-navbar .current ul ul {
   font: normal 12px Dante MT Std serif;
   letter-spacing: 0.08em;
 }
-/* line 152, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
-.nav-bottom a:hover {
+/* line 153, ../../stylesheets/partials/_general_layout.sass */
+.nav-bottom li a:hover, .nav-bottom li a:active {
+  color: #f37421 !important;
+  text-decoration: none !important;
+}
+/* line 156, ../../stylesheets/partials/_general_layout.sass */
+.nav-bottom li.active a {
   color: #f37421 !important;
   text-decoration: none !important;
 }
 
-/* line 156, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 160, ../../stylesheets/partials/_general_layout.sass */
 #logo {
   margin: 0;
   padding: 0;
@@ -755,7 +760,7 @@ ul.sf-navbar .current ul ul {
   height: 90px;
 }
 
-/* line 165, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 169, ../../stylesheets/partials/_general_layout.sass */
 .search {
   float: right;
   margin: 40px 44px 0 0;
@@ -767,14 +772,14 @@ ul.sf-navbar .current ul ul {
   display: block;
 }
 
-/* line 175, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 179, ../../stylesheets/partials/_general_layout.sass */
 #search_form {
   float: left;
   margin: 0;
   padding: 0px;
   height: 23px;
 }
-/* line 180, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 184, ../../stylesheets/partials/_general_layout.sass */
 #search_form #q {
   width: 182px;
   height: 17px;
@@ -788,11 +793,11 @@ ul.sf-navbar .current ul ul {
   float: left;
   background: none;
 }
-/* line 192, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 196, ../../stylesheets/partials/_general_layout.sass */
 #search_form #q:hover {
   background-color: #dddddd;
 }
-/* line 194, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 198, ../../stylesheets/partials/_general_layout.sass */
 #search_form input {
   background: white url("../images/magnifying_glass.png") no-repeat 0 0;
   height: 24px;
@@ -804,12 +809,12 @@ ul.sf-navbar .current ul ul {
   margin: 0 0 0 6px;
   border: none;
 }
-/* line 204, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 208, ../../stylesheets/partials/_general_layout.sass */
 #search_form input:hover {
   background-position: -25px 0;
 }
 
-/* line 207, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 211, ../../stylesheets/partials/_general_layout.sass */
 #globalsearch {
   margin: 0;
   padding: 0;
@@ -818,7 +823,7 @@ ul.sf-navbar .current ul ul {
   height: 90px;
 }
 
-/* line 214, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 218, ../../stylesheets/partials/_general_layout.sass */
 #g-search {
   display: block;
   background: white url("../images/search-placeholder.png") no-repeat scroll 0 40px;
@@ -829,7 +834,7 @@ ul.sf-navbar .current ul ul {
   float: right;
 }
 
-/* line 223, /Users/annamendoza/Documents/teamvantage/stylesheets/partials/_general_layout.sass */
+/* line 227, ../../stylesheets/partials/_general_layout.sass */
 .clear {
   clear: both;
   display: block;

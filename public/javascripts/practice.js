@@ -2017,7 +2017,7 @@ var assets2 = [
   },
   {
     "company": "RETREVO",
-    "name": "retrovo",
+    "name": "retrevo",
     "categories": [
       1
     ],

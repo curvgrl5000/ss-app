@@ -142,7 +142,11 @@ a:hover
       z-index: 100
       font: normal 12px Dante MT Std serif
       letter-spacing: .08em
-  a:hover
+    a
+      &:hover, &:active
+        color: #F37421 !important
+        text-decoration: none !important
+  li.active a
     color: #F37421 !important
     text-decoration: none !important
 
@@ -444,13 +448,13 @@ h1.meet
   text-align: right
   padding-top: 25px
   padding-right: 16px
-  font: normal 45px "Neue Helvetica", Arial, sans-serif
+  font: normal 4.5em "Neue Helvetica", Arial, sans-serif
   color: #F37421
 
 h2.master
   text-align: left
   padding-top: 42px
-  font: italic 13px Georgia
+  font: italic 1.3em Georgia
   color: #000
 
 #content_home
@@ -473,7 +477,7 @@ h2.master
       background: url("../images/down-arrow.png") left center no-repeat
       color: #5F6A72
       font-family: franklin-gothic-urw-condensed,sans-serif
-      font-size: 23px
+      font-size: 2.3em
       font-style: normal
       font-weight: 600
       letter-spacing: 0.8px
@@ -481,7 +485,7 @@ h2.master
     p.industry
       color: $orange
       font-family: franklin-gothic-urw-condensed,sans-serif
-      font-size: 17px
+      font-size: 1.7em
       font-weight: 600
       letter-spacing: 0.3px
       text-align: right
@@ -516,7 +520,7 @@ h2.master
       font-weight: 300
       color: #fff
       letter-spacing: 4px
-      font-size: 18px
+      font-size: 1.8em
       padding: 0 70px 0 0
       margin: 0px
       float: left
@@ -533,7 +537,7 @@ h2.master
     padding: 0 0 0 15px
     float: left
     .date
-      font: normal normal 300 12px/18px pragmatica-web-n3,pragmatica-web,sans-serif
+      font: normal normal 300 1.2em/1.5em pragmatica-web-n3,pragmatica-web,sans-serif
       color: #fff
       letter-spacing: .075em
       float: left
@@ -541,16 +545,17 @@ h2.master
       font: normal normal 300 18px/10px pragmatica-web-n3,pragmatica-web,sans-serif
       color: #fff
     .author
-      font: italic normal 300 12px/14px Georgia, serif
+      font: italic normal 300 1.2em/1.3em Georgia, serif
       color: #fff
       letter-spacing: .18em
       padding: 0 0 5px 5px
       float: left
     h3
-      font: normal normal 300 16px/16px Helvetica, Arial, sans-serif
+      font: normal normal 300 1.6em Helvetica, Arial, sans-serif
+      line-height: normal
       color: $copy-grey
       letter-spacing: .02em
-      padding: 5px 0 0 0
+      padding: 5px 10px 0px 0px
       margin: 0
       float: left
     .photo-credit
@@ -570,7 +575,7 @@ h2.master
       height: 80px
       float: left
     p
-      font: normal normal normal 12px/16px Helvetica, Arial, sans-serif
+      font: normal normal normal 1.2em/1.3em Helvetica, Arial, sans-serif
       color: #fff
       float: left
       margin: 0
@@ -585,7 +590,8 @@ h2.master
       a
         color: #fff
         text-decoration: none
-        font-size: 12px
+        font-size: 1.1em
+        line-height: 1.7em
         &:hover
           color: $copy-grey
           text-decoration: none
@@ -602,7 +608,8 @@ h2.master
       height: 10px
       margin: 8px 0 0 0
   .social-media h4
-    font: normal normal 300 14px/14px pragmatica-web-n3,pragmatica-web,sans-serif
+    font: normal normal 300 1.4em/1.4em pragmatica-web-n3,pragmatica-web,sans-serif
+    letter-spacing: .04em
     color: #fff
     padding-top: 5px
     text-align: center

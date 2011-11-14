@@ -166,13 +166,14 @@
       +grid(10)
       +alpha
       h2
-        font: normal 17px "Neue Helvetica", Arial, sans-serif
+        font: normal 1.7em "Neue Helvetica", Arial, sans-serif
         letter-spacing: .05em
         color: $orange
         padding-top: 30px
         padding-left: 40px
       p.tagline
-        font: italic 11px Georgia, Times sans-serif
+        font: italic 11px Georgia, Times serif
+        line-height: 25px
         letter-spacing: .03em
         color: $crisp-grey
         padding-left: 40px
@@ -193,7 +194,7 @@
           padding: 2px 0 0 0
           a
             font: italic normal 11px Georgia, serif
-            line-height: 10.5em
+            line-height: 117px
             &:hover, &:active
               color: $orange
               background-position: 0 0
@@ -296,7 +297,7 @@ ul.verticalSlideNav
       +alpha
       background-color: #fff
       #top-block
-        +grid(17)
+        +grid(20)
         +grid_prefix(1)
         +alpha
         +omega
@@ -314,17 +315,16 @@ ul.verticalSlideNav
           font: normal normal normal 1.45em/1.37em Dante MT Std serif
           color: $crisp-grey
           margin-top: 10px
+          padding: 0 100px 0 0
         h4
           color: $orange
-          font: normal normal 600 1.2em Arial, sans-serif
+          font: normal normal 600 12px Arial, sans-serif
           letter-spacing: .11em
-          margin-top: 15px  
-      #right-block
-        +grid(4)
-        background: #fff url("../images/approach-trustmark.png") no-repeat scroll 0 0
-        height: 50px
-        margin-top: 157px
-        margin-left: -30px
+          line-height: 46px
+          margin-top: 15px
+          background: #fff url("../images/approach-trustmark.png") no-repeat scroll right top
+          height: 56px
+            
       #middle-content
         +grid(20)
         +grid_prefix(1)

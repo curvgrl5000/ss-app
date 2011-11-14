@@ -34,11 +34,10 @@
     h2
       font: normal 1.7em "Neue Helvetica", Arial, sans-serif
       letter-spacing: .05em
-      /*line-height:.7em;
       color: $orange
     p.tagline
       font: italic 11px Georgia, Times sans-serif
-      line-height: 1.7em
+      line-height: 20px
       letter-spacing: .02em
       color: $crisp-grey
   ul
@@ -70,7 +69,7 @@ a.nav-bottom-vantage
   text-decoration: none
   color: #6A7870
   font: italic normal 11px Georgia, serif
-  line-height: 10.5em
+  line-height: 117px
   text-align: center
   &:hover, &:active
     color: #F37421
@@ -85,7 +84,7 @@ a.nav-bottom-vantage
   color: #6A7870
   font: italic normal 11px Georgia, serif
   text-align: center
-  line-height: 10.5em
+  line-height: 117px
   &:hover, &:active
     color: #F37421
     background-position: 0 0
@@ -99,7 +98,7 @@ a.nav-bottom-vantage
   color: #6A7870
   font: italic normal 11px Georgia, serif
   text-align: center
-  line-height: 10.5em
+  line-height: 117px
   &:hover, &:active
     color: #F37421
     background-position: 0 0
@@ -113,7 +112,7 @@ a.nav-bottom-vantage
   color: #6A7870
   font: italic normal 11px Georgia, serif
   text-align: center
-  line-height: 10.5em
+  line-height: 117px
   &:hover, &:active
     color: #F37421
     background-position: 0 0
@@ -144,13 +143,15 @@ a.nav-bottom-vantage
     .prev
       position: absolute
       top: 30px
-      left: 25px
+      left: 27px
       height: 27px
       width: 27px
       border: 0
       background: transparent url("../images/vertical-prev-next-3.png") 0 0 no-repeat
+      background-size: 90%
       &:hover
         background: transparent url("../images/vertical-prev-next-1.png") 0 0 no-repeat
+        background-size: 90%
     .next
       position: absolute
       top: 30px
@@ -160,9 +161,11 @@ a.nav-bottom-vantage
       border: 0
       padding-top: 20px
       background: transparent url("../images/vertical-prev-next-4.png") 0 0 no-repeat
+      background-size: 87%
       &:hover
         background: transparent url("../images/vertical-prev-next-2.png") 0 0 no-repeat
-      
+        background-size: 87%
+        
 #team_mission
   .slide_2
     background: white url("../images/connect-left.png") right 30px no-repeat
@@ -700,13 +703,15 @@ a.nav-bottom-vantage
     z-index: 0
     position: relative
   h1
-    font: normal 3.125em Dante MT Std serif
+    font: normal 30px Dante MT Std serif
     color: #455560
     left: 0
     position: relative
     z-index: 1
-    letter-spacing: .036em
+    letter-spacing: .032em
     &.opener
+      top: 25px
+    &.reversed
       top: -28px
     &.connect_left, &.connect_right
       padding-top: 55px
@@ -734,7 +739,7 @@ a.nav-bottom-vantage
       color: #F37421
     &.white
       color: #fff
-      padding-left: 5px
+      padding-left: 10px
   p
     &.connect
       padding-left: 10px

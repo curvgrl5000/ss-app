@@ -75,7 +75,8 @@
         padding-top: 30px
         padding-left: 40px
       p.tagline
-        font: italic 11px Georgia, Times sans-serif
+        font: italic 11px Georgia, Times, serif
+        line-height: 20px
         letter-spacing: .03em
         color: $crisp-grey
         padding-left: 40px
@@ -96,8 +97,10 @@
           width: 27px
           border: 0
           background: transparent url("../images/vertical-prev-next-3.png") 0 0 no-repeat
+          background-size: 90%
           &:hover
             background: transparent url("../images/vertical-prev-next-1.png") 0 0 no-repeat
+            background-size: 90%
         .next
           position: relative
           left: 30px
@@ -106,8 +109,10 @@
           width: 27px
           border: 0
           background: transparent url("../images/vertical-prev-next-4.png") 0 0 no-repeat
+          background-size: 90%
           &:hover
-            background: transparent url("../images/vertical-prev-next-2.png") 0 0 no-repeat  
+            background: transparent url("../images/vertical-prev-next-2.png") 0 0 no-repeat
+            background-size: 90%  
       .alpha
         +alpha
       .omega
@@ -120,7 +125,7 @@ a.nav-bottom-vantage
   text-decoration: none
   color: #6A7870
   font: italic normal 11px Georgia, serif
-  line-height: 10.5em
+  line-height: 117px
   text-align: center
   &:hover, &:active
     color: #F37421
@@ -363,6 +368,11 @@ ul.verticalSlideNav
             font: normal normal 400 1.25em/1.35em Arial,sans-serif
             color: #CED5DB
             text-align: left
+          a
+            color: #CED5DB
+            text-decoration: none
+          a:hover
+            color: white
           h1
             font: normal normal 400 1.5em/1.3em pragmatica-web-condensed,sans-serif
             color: #fff

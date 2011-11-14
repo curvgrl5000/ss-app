@@ -166,13 +166,14 @@
       +grid(10)
       +alpha
       h2
-        font: normal 17px "Neue Helvetica", Arial, sans-serif
+        font: normal 1.7em "Neue Helvetica", Arial, sans-serif
         letter-spacing: .05em
         color: $orange
         padding-top: 30px
         padding-left: 40px
       p.tagline
         font: italic 11px Georgia, Times sans-serif
+        line-height: 20px
         letter-spacing: .03em
         color: $crisp-grey
         padding-left: 40px
@@ -193,7 +194,7 @@
           padding: 2px 0 0 0
           a
             font: italic normal 11px Georgia, serif
-            line-height: 10.5em
+            line-height: 117px
             &:hover, &:active
               color: $orange
               background-position: 0 0
@@ -271,6 +272,9 @@ ul.verticalSlideNav
   +alpha
   prefix
   border-radius: 8px
+  border-style: solid
+  border-color: #CED3D9
+  border-width: 3px
   box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2)
   margin-left: 40px
   padding: 20px 10px 10px 20px
@@ -281,19 +285,20 @@ ul.verticalSlideNav
     float: left
     padding-right: 20px 
   .mission
-    +grid(15)
+    +grid(17)
     +alpha
-    margin-right: 80px
+    margin-right: 5px
+    padding: 0
     h2
-      font: normal 17px "Neue Helvetica", Arial, sans-serif
+      font: normal normal normal 1.7em "Neue Helvetica", Arial, sans-serif 
       letter-spacing: .05em
       color: $orange
       padding-top: 5px
     p.tagline
-      font: italic 11px Georgia, Times sans-serif
+      font: italic 11px/1.4em Georgia, Times sans-serif
       letter-spacing: .03em
       color: $crisp-grey
-      padding: 0 10 0 40px
+      padding: 0 40px 0 82px
   .controls
     +grid(2)
     +omega
@@ -303,7 +308,7 @@ ul.verticalSlideNav
       list-style-image: none
       list-style-type: none
       li
-        float: left
+        float: right
         margin-right: -15px
         color: #6a7870
         text-align: center
@@ -317,37 +322,45 @@ ul.verticalSlideNav
             background-position: 0 0
 
     li.right
-      float: right
       height: 65px
-      width: 100px
-      margin: 0
+      width: 70px
+      margin: 0 20px 0 0
       padding: 0
       .prev
         height: 23px
         width: 22px
         padding: 0
-        background: url("../images/slidedeck-home-images/vertical-prev-next-colors.png") no-repeat 0 -22px
+        background: url("../images/slidedeck-home-images/vertical-prev-next-3.png") no-repeat 0 0
         background-color: transparent
-        background-size: 45px auto
+        background-size: 95% 95%
         position: absolute
-        margin: 32px 3px 0 -22px
+        margin: 32px 3px 0px 0px
         &:hover
         background-position: 0 0
+        &:hover
+          background: transparent url("../images/vertical-prev-next-1.png") 0 0 no-repeat
+          background-size: 95%
+        float: left
+        
       .next
         height: 23px
         width: 22px
         padding: 0px
-        background: url("../images/slidedeck-home-images/vertical-prev-next-colors.png") no-repeat -22px -22px
+        background: url("../images/slidedeck-home-images/vertical-prev-next-4.png") no-repeat 0 0
         background-color: transparent
-        background-size: 45px auto
+        background-size: 95% 95%
         position: absolute
-        margin: 32px 0px 0 5px
-        float: left
+        margin: 32px 0px 0px 23px
+        float: right
         &:hover
-        background-position: -22px 0 
+        background-position: 0 0
+        &:hover
+          background: transparent url("../images/vertical-prev-next-2.png") 0 0 no-repeat
+          background-size: 95%
+         
 
 #slidedeck_box
-  +grid(20)
+  +grid(21)
   +grid_suffix(1)
   padding-top: 25px
   #approach_slidedeck
