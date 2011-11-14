@@ -1332,7 +1332,7 @@ ul.verticalSlideNav {
 }
 /* line 299, ../../stylesheets/partials/_teams.sass */
 #content-teams .ct #right-content h4 {
-  font: normal normal 400 1.25em/4.25em Arial, sans-serif;
+  font: normal normal 400 1.25em/3.74em Arial, sans-serif;
   text-align: left;
 }
 /* line 302, ../../stylesheets/partials/_teams.sass */
@@ -1481,7 +1481,7 @@ ul.verticalSlideNav {
   margin-left: 5px;
   margin-right: 5px;
   width: 150px;
-  padding-top: 40px;
+  padding-top: 30px;
 }
 /* line 387, ../../stylesheets/partials/_teams.sass */
 #content-teams .ct #left-content .ct #middle-content .right {
