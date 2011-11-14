@@ -3103,7 +3103,7 @@ var assets2 = [
           margin = (idx == 3)? "omega" : "";  
         }
         $("#logoTemplate").tmpl({klass: klass, margin: margin, href: "#"+logo.name, title: logo.name, name: logo.company, details: logo.details, recruit: logo.details.recruit}).insertBefore("#"+id+" .paging");
-        $("#search_"+logo.name).find(".logo-header").attr("style", "background: url(/images/recent-searches/"+logo.name+".png) 0 0 no-repeat;height: 85px;margin:0 auto;");
+        $("#search_"+logo.name).find(".logo-header").attr("style", "background: url(/images/recent-searches/"+logo.name+".png) 0 0 no-repeat;height: 85px;");
          if(idx == 3) {
            $("<div>",{
               "class": "spacer"
@@ -3127,7 +3127,8 @@ var assets2 = [
     }
     if(num_pages > 1) {
       for(var i = 0, len = num_pages; i < len; i++) {
-        $("#pagingTemplate").tmpl({page: i+1, category: id}).appendTo("#"+id+" .paging");
+        var klass = (page == i+1)? "page-link-active" : "";
+        $("#pagingTemplate").tmpl({page: i+1, category: id, klass: klass}).appendTo("#"+id+" .paging");
       }
     }
   }
@@ -3145,7 +3146,7 @@ $(function(){
         $.renderClientLogos(ref, k.value, "alpha", page);
       }
     });
-    $("a.lightitupbud").fancybox(); 
+    $("a.lightitupbud").fancybox({autoDimensions: false, autoScale: false, type: 'inline', hideOnContentClick: false}); 
   });
   
   if($("#tabs")[0]) {
@@ -3158,9 +3159,10 @@ $(function(){
         $.renderClientPortfolio(); 
       }
     });
+    $("a.lightitupbud").fancybox({autoDimensions: false, autoScale: false, type: 'inline', hideOnContentClick: false}); 
   } 
   
-  $("a.lightitupbud").fancybox();
+  
   
   // setup a cycling slidedeck on the recent searchs
   var list = Vantage.practice.getRecentSearches();
