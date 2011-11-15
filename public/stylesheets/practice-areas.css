@@ -1515,11 +1515,12 @@ h2.master {
 }
 /* line 64, ../../stylesheets/partials/_practice-area.sass */
 #practice-area .content_setup p.insight {
-  font: italic normal normal 11px/30px Georgia, Times sans-serif;
+  font: italic normal normal 11px Georgia, Times sans-serif;
+  line-height: 30px;
   letter-spacing: 0.06em;
   color: #5f6a72;
 }
-/* line 68, ../../stylesheets/partials/_practice-area.sass */
+/* line 69, ../../stylesheets/partials/_practice-area.sass */
 #practice-area .content_setup .left-grid {
   display: inline;
   float: left;
@@ -1530,7 +1531,7 @@ h2.master {
   background: #ced3d9 url("../images/small_icon.png") 0 0 no-repeat;
   height: 100%;
 }
-/* line 73, ../../stylesheets/partials/_practice-area.sass */
+/* line 74, ../../stylesheets/partials/_practice-area.sass */
 #practice-area .content_setup .right-grid {
   display: inline;
   float: left;
@@ -1539,7 +1540,7 @@ h2.master {
   width: 790px;
   margin-right: 0;
 }
-/* line 76, ../../stylesheets/partials/_practice-area.sass */
+/* line 77, ../../stylesheets/partials/_practice-area.sass */
 #practice-area .content_setup .right-grid .lefthalf {
   display: inline;
   float: left;
@@ -1549,7 +1550,7 @@ h2.master {
   margin-left: 0;
   margin-left: 30px;
 }
-/* line 80, ../../stylesheets/partials/_practice-area.sass */
+/* line 81, ../../stylesheets/partials/_practice-area.sass */
 #practice-area .content_setup .right-grid .righthalf {
   display: inline;
   float: left;
@@ -1560,13 +1561,13 @@ h2.master {
   margin-left: 20px;
 }
 
-/* line 86, ../../stylesheets/partials/_practice-area.sass */
+/* line 87, ../../stylesheets/partials/_practice-area.sass */
 #logo_content .content_setup, #practice-area .content_setup {
   background-color: white;
   box-shadow: 0 0 7px 5px rgba(0, 0, 0, 0.3);
 }
 
-/* line 89, ../../stylesheets/partials/_practice-area.sass */
+/* line 90, ../../stylesheets/partials/_practice-area.sass */
 #logo_content {
   display: inline;
   float: left;
@@ -1577,14 +1578,14 @@ h2.master {
   padding-right: 40px;
   margin-top: 30px;
 }
-/* line 94, ../../stylesheets/partials/_practice-area.sass */
+/* line 95, ../../stylesheets/partials/_practice-area.sass */
 #logo_content .content_setup {
   margin-bottom: 30px;
   height: 650px;
   background: #a9b2ba url("../images/main-bkgrnd.png") 0 0 no-repeat;
   box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
 }
-/* line 99, ../../stylesheets/partials/_practice-area.sass */
+/* line 100, ../../stylesheets/partials/_practice-area.sass */
 #logo_content .content_setup .ct {
   display: inline;
   float: left;
@@ -1595,28 +1596,29 @@ h2.master {
   padding-right: 40px;
   margin: 30px 0 0 0;
 }
-/* line 104, ../../stylesheets/partials/_practice-area.sass */
+/* line 105, ../../stylesheets/partials/_practice-area.sass */
 #logo_content .content_setup .ct h2 {
   font: normal normal 600 1.3em Arial, sans-serif;
   letter-spacing: 0.11em;
   color: #f37421;
 }
-/* line 108, ../../stylesheets/partials/_practice-area.sass */
+/* line 109, ../../stylesheets/partials/_practice-area.sass */
 #logo_content .content_setup .ct h3 {
   font: normal normal normal 1.9em Dante MT sans-serif;
   color: #5d87a1;
   margin: 14px 0;
 }
-/* line 112, ../../stylesheets/partials/_practice-area.sass */
+/* line 113, ../../stylesheets/partials/_practice-area.sass */
 #logo_content .content_setup .ct p {
-  font: normal normal normal 1.35em/1.5em Georgia, Times, serif;
+  font: normal normal normal 1.35em Georgia, Times, serif;
+  line-height: 1.5em;
   color: #2f404c;
 }
-/* line 116, ../../stylesheets/partials/_practice-area.sass */
+/* line 118, ../../stylesheets/partials/_practice-area.sass */
 #logo_content .content_setup .ct #client-portfolio {
   margin: 20px 0 0 20px;
 }
-/* line 118, ../../stylesheets/partials/_practice-area.sass */
+/* line 120, ../../stylesheets/partials/_practice-area.sass */
 #logo_content .content_setup .ct #client-portfolio .clients {
   display: inline;
   float: left;
@@ -1625,24 +1627,25 @@ h2.master {
   width: 150px;
   margin-right: 0px;
 }
-/* line 120, ../../stylesheets/partials/_practice-area.sass */
+/* line 122, ../../stylesheets/partials/_practice-area.sass */
 #logo_content .content_setup .ct #client-portfolio .clients p {
-  font: normal normal normal 0.8em/1.5em Arial, Helvetica, sans-serif;
+  font: normal normal normal 0.8em Arial, Helvetica, sans-serif;
+  line-height: 1.5em;
   color: #5d87a1;
 }
-/* line 124, ../../stylesheets/partials/_practice-area.sass */
+/* line 127, ../../stylesheets/partials/_practice-area.sass */
 #logo_content .content_setup .ct #client-portfolio .alpha {
   margin-left: 0;
 }
-/* line 126, ../../stylesheets/partials/_practice-area.sass */
+/* line 129, ../../stylesheets/partials/_practice-area.sass */
 #logo_content .content_setup .ct #client-portfolio .omega {
   margin-right: 0;
 }
-/* line 128, ../../stylesheets/partials/_practice-area.sass */
+/* line 131, ../../stylesheets/partials/_practice-area.sass */
 #logo_content .content_setup .ct #consumer-internet, #logo_content .content_setup .ct #enterprise-saas, #logo_content .content_setup .ct #mobile-wireless {
   margin-top: 20px;
 }
-/* line 130, ../../stylesheets/partials/_practice-area.sass */
+/* line 133, ../../stylesheets/partials/_practice-area.sass */
 #logo_content .content_setup .ct #consumer-internet .paging, #logo_content .content_setup .ct #enterprise-saas .paging, #logo_content .content_setup .ct #mobile-wireless .paging {
   display: inline;
   float: left;
@@ -1655,19 +1658,19 @@ h2.master {
   margin-top: 20px;
   font: normal normal normal 1.125em Arial, Helvetica, sans-serif;
 }
-/* line 137, ../../stylesheets/partials/_practice-area.sass */
+/* line 140, ../../stylesheets/partials/_practice-area.sass */
 #logo_content .content_setup .ct #consumer-internet .paging-link a, #logo_content .content_setup .ct #enterprise-saas .paging-link a, #logo_content .content_setup .ct #mobile-wireless .paging-link a {
   color: #f37421;
   border-radius: 50px;
   text-decoration: none;
   padding: 5px 10px;
 }
-/* line 142, ../../stylesheets/partials/_practice-area.sass */
+/* line 145, ../../stylesheets/partials/_practice-area.sass */
 #logo_content .content_setup .ct #consumer-internet .paging-link a:hover, #logo_content .content_setup .ct #enterprise-saas .paging-link a:hover, #logo_content .content_setup .ct #mobile-wireless .paging-link a:hover {
   text-decoration: none;
   background-color: #ced3d9;
 }
-/* line 145, ../../stylesheets/partials/_practice-area.sass */
+/* line 148, ../../stylesheets/partials/_practice-area.sass */
 #logo_content .content_setup .ct #consumer-internet .spacer, #logo_content .content_setup .ct #enterprise-saas .spacer, #logo_content .content_setup .ct #mobile-wireless .spacer {
   display: inline;
   float: left;
@@ -1676,7 +1679,7 @@ h2.master {
   width: 790px;
   height: 10px;
 }
-/* line 148, ../../stylesheets/partials/_practice-area.sass */
+/* line 151, ../../stylesheets/partials/_practice-area.sass */
 #logo_content .content_setup .ct #consumer-internet .logo-background, #logo_content .content_setup .ct #enterprise-saas .logo-background, #logo_content .content_setup .ct #mobile-wireless .logo-background {
   display: inline;
   float: left;
@@ -1687,7 +1690,7 @@ h2.master {
   height: 110px;
   box-shadow: 7px 4px 9px 2px rgba(0, 0, 0, 0.3);
 }
-/* line 153, ../../stylesheets/partials/_practice-area.sass */
+/* line 156, ../../stylesheets/partials/_practice-area.sass */
 #logo_content .content_setup .ct #consumer-internet .logo-column, #logo_content .content_setup .ct #enterprise-saas .logo-column, #logo_content .content_setup .ct #mobile-wireless .logo-column {
   display: inline;
   float: left;
@@ -1700,27 +1703,28 @@ h2.master {
   margin-top: 10px;
   margin-left: 0;
 }
-/* line 160, ../../stylesheets/partials/_practice-area.sass */
+/* line 163, ../../stylesheets/partials/_practice-area.sass */
 #logo_content .content_setup .ct #consumer-internet .alpha, #logo_content .content_setup .ct #enterprise-saas .alpha, #logo_content .content_setup .ct #mobile-wireless .alpha {
   margin-left: 0;
 }
-/* line 162, ../../stylesheets/partials/_practice-area.sass */
+/* line 165, ../../stylesheets/partials/_practice-area.sass */
 #logo_content .content_setup .ct #consumer-internet .omega, #logo_content .content_setup .ct #enterprise-saas .omega, #logo_content .content_setup .ct #mobile-wireless .omega {
   margin-right: 0;
 }
 
-/* line 165, ../../stylesheets/partials/_practice-area.sass */
+/* line 168, ../../stylesheets/partials/_practice-area.sass */
 .fancybox_search {
   width: 400px;
 }
-/* line 167, ../../stylesheets/partials/_practice-area.sass */
+/* line 170, ../../stylesheets/partials/_practice-area.sass */
 .fancybox_search .investors {
   color: #a9b2ba;
-  font: normal normal normal 1.2em/2em Arial, sans-serif;
+  font: normal normal normal 1.15em Arial, sans-serif;
+  line-height: 1.25em;
   margin: 10px 0 5px 6px;
   font-weight: 600;
 }
-/* line 172, ../../stylesheets/partials/_practice-area.sass */
+/* line 176, ../../stylesheets/partials/_practice-area.sass */
 .fancybox_search .logo-header {
   margin-left: auto;
   margin-right: auto;
@@ -1733,37 +1737,39 @@ h2.master {
   height: 40px;
   border-bottom: 3px solid #f37421;
 }
-/* line 177, ../../stylesheets/partials/_practice-area.sass */
+/* line 181, ../../stylesheets/partials/_practice-area.sass */
 .fancybox_search p {
   color: #5f6a72;
-  font: normal normal normal 1.3em/1.3em Arial, sans-serif;
+  font: normal normal normal 1.125em Arial, sans-serif;
+  line-height: 1.2em;
   margin: 0 0 0 5px;
   font-weight: 600;
 }
-/* line 182, ../../stylesheets/partials/_practice-area.sass */
+/* line 187, ../../stylesheets/partials/_practice-area.sass */
 .fancybox_search a {
-  font: normal normal normal 1.2em Arial, sans-serif;
+  font: normal normal normal 1.35em Arial, sans-serif;
+  line-height: 1.75em;
   color: #f37421;
   font-weight: 600;
   margin: 0 0 0 5px;
   color: #f37421;
   text-decoration: none;
 }
-/* line 189, ../../stylesheets/partials/_practice-area.sass */
+/* line 195, ../../stylesheets/partials/_practice-area.sass */
 .fancybox_search a:hover {
   color: #f37421;
   text-decoration: underline;
 }
-/* line 192, ../../stylesheets/partials/_practice-area.sass */
+/* line 198, ../../stylesheets/partials/_practice-area.sass */
 .fancybox_search a.lightitupbud {
   text-decoration: none;
 }
-/* line 194, ../../stylesheets/partials/_practice-area.sass */
+/* line 200, ../../stylesheets/partials/_practice-area.sass */
 .fancybox_search a.lightitupbud:hover {
   text-decoration: none;
 }
 
-/* line 197, ../../stylesheets/partials/_practice-area.sass */
+/* line 203, ../../stylesheets/partials/_practice-area.sass */
 .page-link-active {
   color: #f37421;
   border-radius: 50px;
