@@ -1,1 +1,0 @@
-require 'growl_notify'
