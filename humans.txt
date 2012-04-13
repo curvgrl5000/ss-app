@@ -1,0 +1,43 @@
+01./* the humans responsible & colophon */
+02./* humanstxt.org */
+03. 
+04. 
+05./* TEAM */
+06.  <Creative Director and Designer>: <Anna Mendoza>
+07.  Site: www.sudoku-sensation.html	
+08.  Twitter: www.sudoku-senations
+09.  Location: The good ol' USA
+10. 
+11./* THANKS */
+12.  Names (& URL): John Ahlquist
+13. 
+14./* SITE */
+15.  Standards: HTML5, CSS3
+16.  Components: Modernizr, jQuery
+17.  Software: Ruby, Ruby on Rails, Compass, Serve and some Ruby Gems
+18.   
+19. 
+20.                                     
+21.                               -o/-                      
+22.                               +oo//-                    
+23.                              :ooo+//:                   
+24.                             -ooooo///-                  
+25.                             /oooooo//:                  
+26.                            :ooooooo+//-                 
+27.                           -+oooooooo///-                
+28.           -://////////////+oooooooooo++////////////::   
+29.            :+ooooooooooooooooooooooooooooooooooooo+:::- 
+30.              -/+ooooooooooooooooooooooooooooooo+/::////:-
+31.                -:+oooooooooooooooooooooooooooo/::///////:-
+32.                  --/+ooooooooooooooooooooo+::://////:-  
+33.                     -:+ooooooooooooooooo+:://////:--    
+34.                       /ooooooooooooooooo+//////:-       
+35.                      -ooooooooooooooooooo////-          
+36.                      /ooooooooo+oooooooooo//:           
+37.                     :ooooooo+/::/+oooooooo+//-          
+38.                    -oooooo/::///////+oooooo///-         
+39.                    /ooo+::://////:---:/+oooo//:         
+40.                   -o+/::///////:-      -:/+o+//-        
+41.                   :-:///////:-            -:/://        
+42.                     -////:-                 --//:       
+43.                       --                       -:        
