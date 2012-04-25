@@ -465,7 +465,7 @@ h3 {
   color: #C9252C;
   font-weight: bold;
   font-size: 1.7em;
-  line-height: 1em;
+  line-height: 1.15em;
   text-align: center;
 }
 
@@ -473,7 +473,7 @@ h3 {
   font-family: Arial, Helvetica, sans-serif;
   color: #A0101B;
   font-weight: bold;
-  font-size: .89em;
+  font-size: 1em;
   line-height: 1.2em;
   text-align: center;
   padding-top: 5px;
@@ -764,3 +764,114 @@ h4 {
     page-break-after: avoid;
   }
 }
+  /* Front page updates to  showcase two feature sets */
+  #features {
+  padding: 34px 30px 0 30px;
+  }
+  
+  #features .nav-tabs {
+  border-bottom: 0px;
+  }
+  
+  #features .nav {
+  margin-left: 0;
+  margin-bottom: 5px;
+  list-style: none;
+  padding: 0 60px;
+  }
+  
+  #features .nav-tabs > li > a {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border: 1px solid transparent;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  font-size: 16px;
+  }
+  
+  #features .nav-tabs > .active > a, .nav-tabs > .active > a:hover {
+  color: #555;
+  background-color: #DACEC4;
+  border: 1px solid #DACEC4;
+  border-bottom-color: transparent;
+  cursor: default;
+  moz-box-shadow: 0px 0px 5px #A7A9AC;
+  -webkit-box-shadow: 0px 5px 5px #A7A9AC;
+  box-shadow: 0px 5px 5px #A7A9AC;
+  }
+  
+  #features .nav-tabs > li > a:hover {
+  border-color: #D66D56;
+  }
+  
+  #features .nav-tabs > li {
+  margin-bottom: 0;
+  padding-right: 10px;
+  }  
+  
+  #features .nav > li > a:hover {
+  text-decoration: none;
+  background-color: #D66D56;
+  color: #DDD;
+  }
+  #features a {
+  color: #603913;
+  }
+  
+  #features a:hover, a:active {
+  outline: none;
+  color: c#005580;;
+  }
+  
+  /* This is for the carousels for both iPads on the front page and the features page */
+  #main .carousel {
+  position: absolute;
+  margin-top: 179px;
+  line-height: 1;
+  z-index: 21;
+  margin-left: 125px;
+  width: 357px;
+  }
+  
+  #main .carousel .item > img {
+  display: block;
+  line-height: 1;
+  width: 100%;
+  }
+  
+  #main .carousel-caption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 10px 15px 5px;
+  background: #333;
+  background: none;
+  }
+  
+ .carousel-control {
+  position: absolute;
+  top: 50%;
+  left: -42px;
+  width: 30px;
+  height: 30px;
+  margin-top: -20px;
+  font-size: 60px;
+  font-weight: 300;
+  line-height: 20px;
+  color: white;
+  text-align: center;
+  background: #333;
+  border: 3px solid white;
+  -webkit-border-radius: 23px;
+  -moz-border-radius: 23px;
+  border-radius: 23px;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  }
+  
+   .carousel-control.right {
+  left: auto;
+  right: -40px;
+  }
