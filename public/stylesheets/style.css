@@ -33,10 +33,18 @@ time, mark, audio, video {
 }
 
 #wrapper {
-  background: url("../images/top-nav-stripe.png") repeat-x top left, url("../images/big-flowers-bkgrnd.png") repeat-x top left;
   height: 850px;
 }
-
+#navstripe {
+  background: url("../images/top-nav-stripe.png") repeat-x top left;
+  z-index: 9999;
+  position:fixed;
+  margin:0;
+  padding:0;
+  display:block;
+  width: 100%;
+  height: 55px;
+}
 #bug-one {
   background: transparent url("../images/bugy-shade-1.png") no-repeat left top;
   background-attachment: scroll;
@@ -44,6 +52,7 @@ time, mark, audio, video {
   height: 292px;
   width: 235px;
   position: absolute;
+  z-index:9999;
 }
 
 #bug-two {
@@ -109,11 +118,22 @@ time, mark, audio, video {
 
 #bottom-wrapper {
   background: #e5e0d2 url("../images/bottom-nav-bkgrnd.png") repeat-x top left;
+  z-index: 9999;
+  position:fixed;
+  background-color:#333;
+  margin:0;
+  padding:0;
+  display:block;
+  width: 100%;
+  height: 245px;
 }
 
 #container {
   min-height: 100%;
   max-width: 85%;
+  z-index: 99999; 
+  display:block;
+  position: relative;
 }
 
 #main {
@@ -549,6 +569,9 @@ h4 {
   padding: 0;
   /*  opacity: .75;*/
   background: #b0c0c9 url("../images/right-bkgrnd-orante-img.png") no-repeat 0 300px;
+  moz-box-shadow: 0px 1px 10px #222;
+  -webkit-box-shadow: 0px 1px 10px #222;         
+  box-shadow: 0px 1px 10px #222;
 }
 
 #right-area .icon {
@@ -586,9 +609,9 @@ h4 {
 
 .commonboxes-sudoku-color-a {
   border-radius: 6px;
-  -moz-box-shadow: 0px 0px 5px #A7A9AC;
-  -webkit-box-shadow: 0px 0px 5px #A7A9AC;
-  box-shadow: 0px 0px 5px #A7A9AC;
+  -moz-box-shadow: 0px 0px 5px #222;
+  -webkit-box-shadow: 0px 0px 5px #222;
+  box-shadow: 0px 0px 5px #222;
   background-color: #D66D56;
   padding: 5px;
   height: 35px;
@@ -598,9 +621,9 @@ h4 {
 
 .commonboxes-sudoku-color-b {
   border-radius: 6px;
-  -moz-box-shadow: 0px 0px 5px #A7A9AC;
-  -webkit-box-shadow: 0px 0px 5px #A7A9AC;
-  box-shadow: 0px 0px 5px #A7A9AC;
+  -moz-box-shadow: 0px 0px 5px #222;
+  -webkit-box-shadow: 0px 0px 5px #222;
+  box-shadow: 0px 0px 5px #222;
   background-color: #fff;
   background-color: #DACEC4;
   padding: 5px;
@@ -796,9 +819,9 @@ h4 {
   border: 1px solid #DACEC4;
   border-bottom-color: transparent;
   cursor: default;
-  moz-box-shadow: 0px 0px 5px #A7A9AC;
-  -webkit-box-shadow: 0px 5px 5px #A7A9AC;
-  box-shadow: 0px 5px 5px #A7A9AC;
+  moz-box-shadow: 0px 1px 10px #222;
+  -webkit-box-shadow: 0px 1px 10px #222;         
+  box-shadow: 0px 1px 10px #222;
   }
   
   #features .nav-tabs > li > a:hover {
@@ -875,3 +898,8 @@ h4 {
   left: auto;
   right: -40px;
   }
+  pre { overflow: auto; padding: 10px; background: #eee; margin: 0 0 10px 0; }
+  #sphere-area { height: 350px; position: absolute; width: 100%; top: -30px; }
+  #sphere-area img { width: 150px; height: 150px; position: absolute; top: 50px; left: 250px; }
+  #sphere-area #butterfly-one { opacity: 0; }
+  #sphere-area #butterfly-two { opacity: 0; }
