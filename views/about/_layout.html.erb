@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title><%= @title %></title>
+    <link rel="stylesheet" href="stylesheets/screen.css">
+    <link rel="stylesheet" href="stylesheets/960_24_col_rtl.css">
+    <link rel="stylesheet" href="stylesheets/bootstrap-2.0.1.css">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="stylesheet" href="stylesheets/reset.css">
+    <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- Uncomment if you are specifically targeting less enabled mobile browsers
+    <link rel="stylesheet" media="handheld" href="css/handheld.css?v=2">  -->
+
+    <script type="text/javascript" src="http://use.typekit.com/sns1iap.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>                                         
+     
+  </head>
+  <body>
+      <div id="wrapper">
+        <div id="container" class="container_24">
+          <header class="grid_24 alpha omega">
+            <nav class="grid_14">
+              <ul>
+                <li class="active"><a href="/">HOME</a></li>
+                <li><a href="enter-to-win">ENTER TO WIN</a></li>                                    
+                <li><a href="sensational-features">SENSATIONAL FEATURES</a></li>
+                <li><a href="about">ABOUT AHLQUIST SOFTWARE</a></li>
+              </ul>
+            </nav>
+          </header>
+        <%= yield %>
+        <div id="bottom-wrapper">
+          <div id="container" class="container_24">
+            <footer class="grid_24 alpha omega">
+              <nav class="grid_14">
+                <ul>
+                  <li class="active"><a href="/">HOME</a></li>
+                  <li><a href="enter-to-win">ENTER TO WIN</a></li>                                    
+                  <li><a href="sensational-features">SENSATIONAL FEATURES</a></li>
+                  <li><a href="about">ABOUT AHLQUIST SOFTWARE</a></li>
+                </ul>
+            </footer>
+          </div>
+        </div>
+      </div>
+    
+    <!-- JavaScript at the bottom for fast page loading -->
+    <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary -->
+    <script src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.2.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/libs/jquery-1.5.1.min.js">\x3C/script>')</script>
+
+
+    <!-- scripts concatenated and minified via ant build script-->
+    <!-- end scripts-->
+
+    <!--[if lt IE 7 ]>
+      <script src="js/libs/dd_belatedpng.js"></script>
+      <script>DD_belatedPNG.fix('img, .png_bg'); // Fix any <img> or .png_bg bg-images. Also, please read goo.gl/mZiyb </script>
+    <![endif]-->
+
+    <!-- mathiasbynens.be/notes/async-analytics-snippet Change UA-XXXXX-X to be your site's ID -->
+    <script>
+      var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
+      g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+      s.parentNode.insertBefore(g,s)}(document,'script'));
+    </script>
+
+    <script type="text/javascript" src="./javascripts/bootstrap.js"></script>
+    <script>  
+          $(document).ready(function(){ 
+             $('#myTab').tab('show'); 
+
+             $('a[data-toggle="tab"]').on('shown', function (e) { 
+                 e.target // activated tab 
+                 e.relatedTarget // previous tab 
+               }); 
+
+               $(function () { 
+              $('.tabs a:last').tab('show') 
+               }); 
+          });  
+        </script>
+   
+  </body>
+</html>
