@@ -266,24 +266,20 @@ header nav ul, nav li, nav li.active {
   z-index: 200000;
 }
 
-header nav li a:active {
-  color: #323e41;
-}
-
 header nav li a:link {
   color: #DFDBC9;
   text-decoration: none;
 }
 
-header nav li a:hover {
+header nav li a:active, header nav li a:hover {
   color: #323e41;
 }
 
-header nav a, nav a:visited {
+header nav li a, nav li a:visited {
   color: #DFDBC9;
 }
 
-header nav a:hover {
+header nav li a:hover {
   color: #323e41;
 }
 
