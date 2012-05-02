@@ -3,11 +3,12 @@
   <head>
     <meta charset="utf-8">
     <title><%= @title %></title>
-    <link rel="stylesheet" href="stylesheets/screen.css">
-    <link rel="stylesheet" href="stylesheets/960_24_col_rtl.css">
-    <link rel="stylesheet" href="stylesheets/bootstrap-2.0.1.css">
-    <link rel="stylesheet" href="stylesheets/style.css">
-    <link rel="stylesheet" href="stylesheets/reset.css">
+    <link rel="stylesheet" href="/stylesheets/screen.css">
+    <link rel="stylesheet" href="/stylesheets/960_24_col_rtl.css">
+    <link rel="stylesheet" href="/stylesheets/bootstrap-2.0.1.css">
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <link rel="stylesheet" href="/stylesheets/fancy-bkgrnd_2.css">
+    <link rel="stylesheet" href="/stylesheets/reset.css">
     <!--[if IE]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -20,6 +21,24 @@
   </head>
   <body>
       <div id="wrapper">
+        <div id="navstripe"></div>
+        <ul class="cb-slideshow">
+          <li>
+            <span>Image 01</span>
+          </li>
+          <li>
+            <span>Image 02</span>
+          </li>
+          <li>
+            <span>Image 03</span>
+          </li>
+          <li>
+            <span>Image 04</span>
+          </li>
+          <li>
+            <span>Image 05</span>
+          </li>
+        </ul>
         <div id="container" class="container_24">
           <header class="grid_24 alpha omega">
             <nav class="grid_14">
@@ -49,9 +68,7 @@
     
     <!-- JavaScript at the bottom for fast page loading -->
     <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary -->
-    <script src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.2.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/libs/jquery-1.5.1.min.js">\x3C/script>')</script>
-
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 
     <!-- scripts concatenated and minified via ant build script-->
     <!-- end scripts-->
@@ -71,6 +88,14 @@
 
     <script type="text/javascript" src="./javascripts/bootstrap.js"></script>
     <script>  
+      $(document).ready(function(){
+         $('.carousel').carousel ({
+            interval: 12000
+           })
+      });  
+    </script>
+    <!-- This is for the tabs revealing the functions of the iPad and iPod -->
+    <script>  
           $(document).ready(function(){ 
              $('#myTab').tab('show'); 
 
@@ -83,7 +108,12 @@
               $('.tabs a:last').tab('show') 
                }); 
           });  
-        </script>
+        </script> 
+     <!-- This is for the rotating insects -->
+     <script type="text/javascript" src="./javascripts/jquery.easing.1.2.js"></script>
+     <script type="text/javascript" src="./javascripts/jquery.circulate.js"></script>
+     <script type="text/javascript" src="./javascripts/circulate.js"></script>
+     
    
   </body>
 </html>
