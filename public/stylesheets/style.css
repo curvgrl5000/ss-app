@@ -263,7 +263,7 @@ header nav ul, nav li, nav li.active {
   font: Arial, Helvetica, sans-serif;
   font-size: 11px;
   position: relative;
-  zip-index: 200000;
+  zs-index: 200000;
 }
 
 header nav li.active {
