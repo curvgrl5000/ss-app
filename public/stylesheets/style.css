@@ -117,7 +117,7 @@ time, mark, audio, video {
 }
 
 #bottom-wrapper {
-  background: #e5e0d2 url("../images/bottom-nav-bkgrnd.png") repeat-x top left;
+  background: #C65843 url("../images/bottom-nav-bkgrnd.png") repeat-x top left;
   z-index: 9999;
   position:fixed;
   background-color:#333;
