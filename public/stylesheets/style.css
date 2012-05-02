@@ -258,9 +258,11 @@ header nav ul, nav li, nav li.active {
   margin: 0px 30px 0 0;
   list-style: none;
   list-style-image: none;
-  display: inline;
+  display: block;
   font: Arial, Helvetica, sans-serif;
   font-size: 11px;
+  z-index: 10000;
+  position: relative;
 }
 
 header nav li.active {
