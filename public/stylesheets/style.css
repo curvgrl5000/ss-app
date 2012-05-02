@@ -599,7 +599,7 @@ h4 {
 #logo-type {
   background: url("../images/graphical-text.png") no-repeat center 0;
   height: 18px;
-  margin: 5px 0 5px 0;
+  margin: 5px 0 15px 0;
 }
 
 .details {
@@ -800,7 +800,7 @@ h4 {
   margin-left: 0;
   margin-bottom: 5px;
   list-style: none;
-  padding: 0 60px;
+  padding: 0 0 0 0 60px;
   }
   
   #features .nav-tabs > li > a {
