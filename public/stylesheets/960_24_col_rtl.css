@@ -619,3 +619,10 @@ body {
 .container_24 {
   zoom: 1;
 }
+
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}

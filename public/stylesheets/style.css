@@ -227,6 +227,7 @@ html {
 /* Accessible focus treatment: people.opera.com/patrickl/experiments/keyboard/test */
 a:hover, a:active {
   outline: none;
+  text-decoration: none;
 }
 
 ul, ol {
@@ -457,19 +458,20 @@ h2 {
 
 h3 {
   font-family: Arial, Helvetica, sans-serif;
-  color: #C9252C;
+  color: #08C;
   font-weight: bold;
-  font-size: 1.7em;
+  font-size: 1.5em;
   line-height: 1.15em;
   text-align: center;
+  text-shadow:1px 1px #DDD;
 }
 
 #right-area p {
   font-family: Arial, Helvetica, sans-serif;
-  color: #A0101B;
+  color: #603913;
   font-weight: bold;
   font-size: 1em;
-  line-height: 1.2em;
+  line-height: 1.3em;
   text-align: center;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -478,7 +480,7 @@ h3 {
 h4 {
   font-family: ltc-bodoni-175;
   font-size: 1.135em;
-  line-height: 1.1em;
+  line-height: 1.25em;
   font-weight: normal;
   text-align: center;
   color: #000;
@@ -540,7 +542,7 @@ h4 {
 
 #right-area {
   height: 100%;
-  margin: 50px 0 0 0;
+  margin: 50px 0 50px 0;
   padding: 0;
   /*  opacity: .75;*/
   background: #b0c0c9 url("../images/right-bkgrnd-orante-img.png") no-repeat 0 300px;
@@ -786,6 +788,7 @@ h4 {
   -moz-border-radius: 4px;
   border-radius: 4px;
   font-size: 16px;
+  font-weight: 600;
   }
   
   #features .nav-tabs > .active > a, .nav-tabs > .active > a:hover {
@@ -814,12 +817,13 @@ h4 {
   color: #DDD;
   }
   #features a {
-  color: #603913;
+  color: #A0101B;
   }
   
   #features a:hover, a:active {
   outline: none;
-  color: c#005580;;
+  color: #005580;
+  text-decoration: none;
   }
   
   /* This is for the carousels for both iPads on the front page and the features page */
@@ -869,7 +873,7 @@ h4 {
   filter: alpha(opacity=50);
   }
   
-   .carousel-control.right {
+  .carousel-control.right {
   left: auto;
   right: -40px;
   }
