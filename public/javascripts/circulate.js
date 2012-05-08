@@ -102,4 +102,41 @@ $(window).load(function() {
     setTimeout(startInsectFive, 0);
     setTimeout(startInsectSix, 0);
     
+    function startInsectSeven() {
+        $("#butterfly-seven").circulate({
+            speed: 5500,
+            height: 280,
+            width: -850,
+            sizeAdjustment: 65,
+            loop: true,
+            zIndexValues: [60, 60, 60, 60]
+        });
+    }
+    
+    function startInsectEight() {
+        $("#butterfly-eight").circulate({
+            speed: 5000,
+            height: 820,
+            width: 1500,
+            sizeAdjustment: 90,
+            loop: true,
+            zIndexValues: [50, 50, 50, 50]
+        })
+    }
+    
+    function startInsectNine() {
+        $("#butterfly-nine").circulate({
+            speed: 6500,
+            height: 1500,
+            width: -3000,
+            sizeAdjustment: 100,
+            loop: true,
+            zIndexValues: [40, 40, 40, 40]
+        }).fadeIn();
+    }
+            
+    startInsectSeven();
+    setTimeout(startInsectEight, 0);
+    setTimeout(startInsectNine, 0);
+    
 });
