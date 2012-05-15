@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="/stylesheets/960_24_col_rtl.css">
     <link rel="stylesheet" href="/stylesheets/bootstrap-2.0.1.css">
     <link rel="stylesheet" href="/stylesheets/style.css">
-    <link rel="stylesheet" href="/stylesheets/fancy-bkgrnd_2.css">
+    <link rel="stylesheet" href="/stylesheets/fancy-bkgrnd_3.css">
     <link rel="stylesheet" href="/stylesheets/reset.css">
     <!--[if IE]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -26,11 +26,6 @@
           <li>
             <span>Image 01</span>
           </li>
-           <li>
-             <div>
-               <h3>sensational!</h3>
-             </div>
-           </li>
           <li>
             <span>Image 02</span>
           </li>
@@ -46,12 +41,12 @@
         </ul>
         <div id="container" class="container_24">
           <header class="grid_24 alpha omega">
-            <nav class="grid_15">
+            <nav class="grid_14">
               <ul>
                 <li><a href="/">HOME</a></li>
-                <li><a href="enter-to-win">ENTER TO WIN</a></li>                                    
+                <li class="active"><a href="enter-to-win">ENTER TO WIN</a></li>                                    
                 <li><a href="sensational-features">SENSATIONAL FEATURES</a></li>
-                <li class="active"><a href="about">ABOUT AHLQUIST SOFTWARE</a></li>
+                <li><a href="about">ABOUT AHLQUIST SOFTWARE</a></li>
               </ul>
             </nav>
           </header>
@@ -59,16 +54,16 @@
         <div id="bottom-wrapper">
           <div id="container" class="container_24">
             <footer class="grid_24 alpha omega">
-              <nav class="grid_15">
+              <nav class="grid_14">
                 <ul>
                   <li><a href="/">HOME</a></li>
-                  <li><a href="enter-to-win">ENTER TO WIN</a></li>                                    
+                  <li class="active"><a href="enter-to-win">ENTER TO WIN</a></li>                                    
                   <li><a href="sensational-features">SENSATIONAL FEATURES</a></li>
-                  <li class="active"><a href="about">ABOUT AHLQUIST SOFTWARE</a></li>
+                  <li><a href="about">ABOUT AHLQUIST SOFTWARE</a></li>
                 </ul>
-              <div class="referenced-box grid_7">
-                <h4>designed by<img src="images/curve_webicon.png" alt:"curve design" style="width: 40px; padding: 0 10px;"><a target="blank" href="#">curve design</a></h4>
-              </div>
+                <div class="referenced-box grid_7">
+                  <h4>designed by<img src="images/curve_webicon.png" alt:"curve design" style="width: 40px; padding: 0 10px;"><a target="blank" href="#">curve design</a></h4>
+                </div>
             </footer>
           </div>
         </div>
@@ -121,7 +116,38 @@
      <script type="text/javascript" src="./javascripts/jquery.easing.1.2.js"></script>
      <script type="text/javascript" src="./javascripts/jquery.circulate.js"></script>
      <script type="text/javascript" src="./javascripts/circulate.js"></script>
-     
+    
+     <!-- This is for the rotating boxes that are activated by clicks -->
+     <script>
+     // DOM Ready
+     $(function() {
+       var current;
+       function rotate() {
+         // This seems like a sucky way to do it, but you can't select by classes because they execute in order
+         if (current == 1) {
+           $("#block-1").removeClass().addClass("active");
+           $("#block-2").removeClass().addClass("non-active-top");
+           $("#block-3").removeClass().addClass("non-active-bottom");
+         } else if (current == 2) {
+           $("#block-1").removeClass().addClass("non-active-bottom");
+           $("#block-2").removeClass().addClass("active");
+           $("#block-3").removeClass().addClass("non-active-top");
+         } else {
+           $("#block-1").removeClass().addClass("non-active-top");
+           $("#block-2").removeClass().addClass("non-active-bottom");
+           $("#block-3").removeClass().addClass("active");
+         }
+
+       }
+
+       $("#rotator div").click(function() {
+
+         // Enables reversing, idea via Andrea Canton: https://twitter.com/andreacanton/status/24954634279849985
+         current = this.id.substr(6);			
+         rotate();
+       });
+     });
+     </script> 
    
   </body>
 </html>

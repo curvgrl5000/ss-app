@@ -117,10 +117,9 @@ time, mark, audio, video {
 }
 
 #bottom-wrapper {
-  background: #e5e0d2 url("../images/bottom-nav-bkgrnd.png") repeat-x top left;
+  background: url("../images/bottom-nav-bkgrnd.png") repeat-x top left;
   z-index: 9999;
   position:fixed;
-  background-color:#333;
   margin:0;
   padding:0;
   display:block;
@@ -438,7 +437,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-family: ltc-bodoni-175;
+  font-family: ff-meta-serif-web-pro;
   font-size: 1.25em;
   font-weight: 600;
   text-align: center;
@@ -446,9 +445,8 @@ h1 {
 }
 
 h2 {
-  font-family: ltc-bodoni-175;
+  font-family: ff-meta-serif-web-pro;
   font-style: normal;
-  font-weight: 400;
   font-size: 2.75em;
   font-weight: 600;
   line-height: .85em;
@@ -457,7 +455,7 @@ h2 {
 }
 
 h3 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: ff-meta-serif-web-pro, Arial, Helvetica, sans-serif;
   color: #08C;
   font-weight: bold;
   font-size: 1.5em;
@@ -467,25 +465,23 @@ h3 {
 }
 
 #right-area p {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: facitweb, Arial, Helvetica, sans-serif;
   color: #603913;
   font-weight: bold;
-  font-size: 1em;
+  font-size: .95em;
   line-height: 1.3em;
   text-align: center;
   padding-top: 5px;
   padding-bottom: 5px;
-}
+  }
 
 h4 {
-  font-family: ltc-bodoni-175;
-  font-size: 1.135em;
-  line-height: 1.25em;
-  font-weight: normal;
+  font-family: ff-meta-serif-web-pro;
+  font-size: 1.35em;
+  line-height: 1.13em;
   text-align: center;
-  color: #000;
-  font-weight: bold;
-  letter-spacing: .04em;
+  color: black;
+  font-weight: 400;
 }
 
 .legal {
@@ -499,6 +495,13 @@ h4 {
 
 .bottom-img {
   background: url("..images/bottom-img.png") no-repeat 0 0;
+}
+.reference h4, .referenced-box h4 {
+  font-family: ff-meta-serif-web-pro, Arial, sans-serif;
+  color: #000;
+  font-weight: 500;
+  font-size: 1.1em;
+  padding: 0;
 }
 
 /**
@@ -541,33 +544,33 @@ margin-top: -85px;
 }
 #main #iphone-1 {
 background: transparent url("../images/phone-1.png") no-repeat -3px 124px;
-width: 348px;
-height: 711px;
+width: 300px;
+height: 590px;
 position: absolute;
 z-index: 20;
 background-size: 90%;
-margin-left: -305px;
+margin-left: -176px;
 margin-top: 0px;
 }
 #main #iphone-2 {
 background: transparent url("../images/phone-2.png") no-repeat -3px 124px;
-width: 348px;
-height: 711px;
+width: 300px;
+height: 590px;
 position: absolute;
 z-index: 20;
 background-size: 90%;
-margin-left: -25px;
+margin-left: 69px;
 margin-top: 0px;
 }
 
 #main #iphone-3 {
 background: transparent url("../images/phone-3.png") no-repeat -3px 124px;
-width: 348px;
-height: 711px;
+width: 300px;
+height: 590px;
 position: absolute;
 z-index: 20;
 background-size: 90%;
-margin-left: 259px;
+margin-left: 320px;
 margin-top: 0px;
 }
 
@@ -591,17 +594,65 @@ margin-top: 0px;
 #left-area-big {
   margin: 0;
   padding: 0;
-  height: 820px;
+  height: 821px;
   float: left;
-  left: 28px;
-  width: 1150px;
+  left: 390px;
+  width: 1075px;
   z-index: -1;
   position: absolute;
 }
 #left-area-big .top-image-sensational {
-  height: 805px;
-  z-index: 10;
+  height: 821px;
   background: transparent url("../images/peony.png") no-repeat -11px 22px;
+  margin: 0;
+  padding: 0;
+  z-index: 10;
+  background-size: 100%;
+}
+
+#left-area-big-one {
+  margin: 0;
+  padding: 0;
+  height: 821px;
+  float: left;
+  left: -500px;
+  width: 1000px;
+  z-index: -1;
+  position: absolute;
+}
+
+#left-area-big-one .enter-sensational {
+  background: transparent url("../images/blossums-two.png") no-repeat 0 0;
+  height: 821px;
+  margin: 0;
+  padding: 0;
+  z-index: 10;
+  background-size: 100%;
+}
+
+#left-area-big-two {
+  margin: 0;
+  padding: 0;
+  height: 821px;
+  float: left;
+  left: 800px;
+  width: 1000px;
+  z-index: -1;
+  position: absolute;
+}
+
+#left-area-big-two .enter-sensational-two {
+  background: transparent url("../images/blossums.png") no-repeat 0 0;
+  height: 821px;
+  margin: 0;
+  padding: 0;
+  z-index: 10;
+  background-size: 100%;
+}
+
+#left-area-big-two .enter-sensational {
+  background: transparent url("../images/blossums.png") no-repeat 0 0;
+  height: 821px;
   margin: 0;
   padding: 0;
   z-index: 10;
@@ -619,14 +670,14 @@ margin-top: 0px;
 }
 
 #right-area {
-  height: 100%;
+  height: auto;
   margin: 50px 0 50px 0;
   padding: 0;
-  /*  opacity: .75;*/
-  background: #b0c0c9 url("../images/right-bkgrnd-orante-img.png") no-repeat 0 300px;
+  background: #B0C0C9 url("../images/top-bkgrnd-orante-img.png") no-repeat -26px 267px;
   moz-box-shadow: 0px 1px 10px #222;
-  -webkit-box-shadow: 0px 1px 10px #222;         
+  -webkit-box-shadow: 0px 1px 10px #222;
   box-shadow: 0px 1px 10px #222;
+  background-size: 115%;
 }
 
 #right-area .icon {
@@ -844,7 +895,7 @@ margin-top: 0px;
 }
   /* Front page updates to  showcase two feature sets */
   #features {
-  padding: 15px 30px 0 30px;
+  padding: 15px 30px 15px 30px;
   }
   
   #features .nav-tabs {
@@ -901,6 +952,30 @@ margin-top: 0px;
   #features a:hover, a:active {
   outline: none;
   color: #005580;
+  text-decoration: none;
+  }
+  
+  .reference, .referenced-box {
+  background-color: #4d7281;
+  height: 50px;
+  margin: 45px 0;
+  padding: 20px 20px 10px 20px;
+  position: relative;
+  }
+  
+  .referenced-box {
+  border-radius: 20px;
+  -webkit-border-radius: 10px;
+  moz-border-radius: 10px;
+  }
+  
+  .reference, .referenced-box a {
+  color: #D66D56;
+  }
+  
+  .reference a:hover, .reference a:active, .referenced-box a:hover, .referenced-box a:active  {
+  outline: none;
+  color: #DACEC4;
   text-decoration: none;
   }
   
@@ -964,15 +1039,15 @@ margin-top: 0px;
   #sphere-area-two { height: 150px; position: absolute; width: 150px; left: 432px; top: 38px; }
   #sphere-area-two img { width: 150px; height: 150px; position: absolute; top: 65px; left: 0px; }
   
-  #sphere-area-three { height: 250px; position: absolute; width: 100%;  left: 400px; top:600px; }
+  #sphere-area-three { height: 200px; position: absolute; width: 600px; left:0px; top: 700px; }
   #sphere-area-three img { width: 170px; height: 170px; position: absolute; top: 20px; left: 5px; }
   #sphere-area-three #butterfly-three { opacity: 0; }
   
-  #sphere-area-four { height: 150px; position: absolute; width: 150px; left: 0px; top: 175px; }
+  #sphere-area-four { height: 150px; position: absolute; width: 150px; left: 100px; top: 175px; }
   #sphere-area-four img { width: 150px; height: 150px; position: absolute; top: 65px; left: 10px; }
   #sphere-area-four #butterfly-four { opacity: 0; }
   
-  #sphere-area-five { height: 150px; position: absolute; width: 150px; left: 0px; top: 175px; }
+  #sphere-area-five { height: 150px; position: absolute; width: 150px; left: 0px; top: 250px; }
   #sphere-area-five img { width: 150px; height: 150px; position: absolute; top: 421px; left: -317px; }
   #sphere-area-five #butterfly-seven { opacity: 0; }
   
@@ -996,9 +1071,9 @@ margin-top: 0px;
   	-moz-transition: all 0.5s ease;
   	-o-transition: all 0.5s ease;
   }
-  #block-1 h1 {
-  font-family: ltc-bodoni-175;
-  font-size: 1.5em;
+  #block-1 h1, #block-2 h1, #block-3 h1 {
+  font-family: ff-meta-serif-web-pro;
+  font-size: 1.45em;
   font-weight: 600;
   text-align: center;
   color: #603913;
@@ -1010,21 +1085,21 @@ margin-top: 0px;
   	float: right;
   	margin: 0 20px 2px 10px;
   }
-  #rotator .active { top: 685px; left: -293px; width: 846px; height: 125px; }
-  #rotator .non-active-top { top: 385px; left: 644px; height: 73px; width: 282px; border-radius: 10px;}
-  #rotator .non-active-bottom { top: 476px; left: 644px; height: 73px; width: 282px; border-radius: 10px; }		
+  #rotator .active { top: 608px; left: -163px; width:740px; height: 140px; }
+  #rotator .non-active-top { top: 394px; left: 660px; height: 73px; width: 250px; border-radius: 10px;}
+  #rotator .non-active-bottom { top: 480px; left: 660px; height: 73px; width: 250px; border-radius: 10px; }		
   #rotator .non-active-top:hover, #rotator .non-active-bottom:hover { 
   	cursor: pointer;
   	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.8); 
   	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.8); 
   	box-shadow: 0 0 10px rgba(0,0,0,0.8); 
   }
-  #rotator h2 {
-  	text-align: center; 
-  	line-height: 80px;
-  	font-size: 1.85em;
-  }
+  #rotator h2 { text-align: center; line-height: 75px; font-size: 1.65em; }
   #rotator .active h2 {
   	display: none;
+  }
+  .twitter-share-button {
+    padding: 5px 0 5px 0;
+    margin-left: -10px;
   }
   

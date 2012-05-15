@@ -14,7 +14,7 @@
 14./* SITE */
 15.  Standards: HTML5, CSS3
 16.  Components: Modernizr, jQuery
-17.  Software: Ruby, Ruby on Rails, Compass, Serve and some Ruby Gems
+17.  Software: Ruby, Ruby on Rails, Compass, Serve and some fabulous Ruby Gems
 18.   
 19. 
 20.                                     
