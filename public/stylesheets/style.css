@@ -741,7 +741,9 @@ h4 {
     width: 35px;
     float: left;
   }
-
+    .commonboxes-sudoku-color-a img {
+    border: 0;
+  }
   .swirly {
     background: transparent url("../images/sudoku-swirl.png") no-repeat center center;
     margin: 5px;
