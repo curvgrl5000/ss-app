@@ -33,12 +33,9 @@ time, mark, audio, video {
 }
 
 #wrapper {
-  background: url("../images/top-nav-stripe.png") repeat-x top left, url("../images/big-flowers-bkgrnd.png") repeat-x top left;
   height: 850px;
 }
 
-<<<<<<< HEAD
-=======
 #navstripe {
   background: url("../images/top-nav-stripe.png") repeat-x top left;
   z-index: 9999;
@@ -50,7 +47,6 @@ time, mark, audio, video {
   height: 55px;
 }
 
->>>>>>> New-Size-for-Website
 #bug-one {
   background: transparent url("../images/bugy-shade-1.png") no-repeat left top;
   background-attachment: scroll;
@@ -58,10 +54,7 @@ time, mark, audio, video {
   height: 292px;
   width: 235px;
   position: absolute;
-<<<<<<< HEAD
-=======
   z-index: 9999;
->>>>>>> New-Size-for-Website
 }
 
 #bug-two {
@@ -126,9 +119,6 @@ time, mark, audio, video {
 }
 
 #bottom-wrapper {
-<<<<<<< HEAD
-  background: #e5e0d2 url("../images/bottom-nav-bkgrnd.png") repeat-x top left;
-=======
   background: #4d7281 url("../images/bottom-nav-bkgrnd.png") repeat-x top left;
   z-index: 9999;
   position: relative;
@@ -137,14 +127,11 @@ time, mark, audio, video {
   display: block;
   width: 100%;
   max-height: 500px;
->>>>>>> New-Size-for-Website
 }
 
 #container {
   min-height: 550px;
   max-width: 85%;
-<<<<<<< HEAD
-=======
   z-index: 99999;
   display: block;
   position: relative;
@@ -157,7 +144,6 @@ time, mark, audio, video {
   z-index: 99999;
   display: block;
   height: 100%;
->>>>>>> New-Size-for-Website
 }
 
 #main {
@@ -251,6 +237,7 @@ html {
 /* Accessible focus treatment: people.opera.com/patrickl/experiments/keyboard/test */
 a:hover, a:active {
   outline: none;
+  text-decoration: none;
 }
 
 ul, ol {
@@ -268,44 +255,27 @@ li {
 /* Remove margins for navigation lists */
 header {
   background: url("../images/textured_top.png") no-repeat 0 0;
+  margin: 0;
+  padding: 0;
+  display: inline;
+  height: auto;
 }
 
 header nav {
   margin-top: 28px;
-}
-
-header nav {
   float: right;
 }
 
-header nav ul, nav li, nav li.active {
-  margin: 0px 30px 0 0;
+header nav ul, header nav li {
+  margin: 3px 30px 0 0;
   list-style: none;
   list-style-image: none;
   display: inline;
-  font: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 11px;
-}
-
-header nav li.active {
-  color: #323e41;
-}
-
-header nav li a:link {
-  color: #DFDBC9;
-  text-decoration: none;
-}
-
-header nav li a:hover {
-  color: #323e41;
-}
-
-header nav a, nav a:active, nav a:visited, nav a:hover {
-  color: #DFDBC9;
-}
-
-header nav a:hover {
-  color: #036;
+  position: relative;
+  z-index: 20;
+  height: 50px;
 }
 
 footer {
@@ -317,11 +287,8 @@ footer {
 }
 
 footer nav {
-  margin-top: 20px;
-}
-
-footer nav {
   float: right;
+  margin-top: 20px;
 }
 
 footer nav ul, nav li, nav li.active {
@@ -329,43 +296,24 @@ footer nav ul, nav li, nav li.active {
   list-style: none;
   list-style-image: none;
   display: inline;
-  font: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 11px;
 }
 
-<<<<<<< HEAD
-footer nav li.active {
-  color: #323e41;
-}
-
-footer nav li a:link {
-  color: #DFDBC9;
-  text-decoration: none;
-=======
 header nav li.active a, footer nav li.active a {
   color: #DFDBC9;
   font-weight: 600;
->>>>>>> New-Size-for-Website
 }
 
-footer nav li a:hover {
+footer nav li a, footer li nav a:visited,
+header nav li a, header li nav a:visited {
   color: #323e41;
-<<<<<<< HEAD
-=======
   text-decoration: none;
->>>>>>> New-Size-for-Website
 }
 
-footer nav a, nav a:active, nav a:visited, nav a:hover {
+header nav li a:hover, footer nav li a:hover {
   color: #DFDBC9;
-<<<<<<< HEAD
-}
-
-footer nav a:hover {
-  color: #036;
-=======
   text-decoration: none;
->>>>>>> New-Size-for-Website
 }
 
 small {
@@ -501,7 +449,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-family: ltc-bodoni-175;
+  font-family: ff-meta-serif-web-pro;
   font-size: 1.25em;
   font-weight: 600;
   text-align: center;
@@ -509,9 +457,8 @@ h1 {
 }
 
 h2 {
-  font-family: ltc-bodoni-175;
+  font-family: ff-meta-serif-web-pro;
   font-style: normal;
-  font-weight: 400;
   font-size: 2.75em;
   font-weight: 600;
   line-height: .85em;
@@ -520,44 +467,33 @@ h2 {
 }
 
 h3 {
-  font-family: Arial, Helvetica, sans-serif;
-  color: #C9252C;
+  font-family: ff-meta-serif-web-pro, Arial, Helvetica, sans-serif;
+  color: #08C;
   font-weight: bold;
-  font-size: 1.7em;
-  line-height: 1em;
+  font-size: 1.5em;
+  line-height: 1.15em;
   text-align: center;
-<<<<<<< HEAD
-=======
   text-shadow: 1px 1px #DDD;
->>>>>>> New-Size-for-Website
 }
 
 #right-area p {
-  font-family: Arial, Helvetica, sans-serif;
-  color: #A0101B;
+  font-family: facitweb, Arial, Helvetica, sans-serif;
+  color: #603913;
   font-weight: bold;
-  font-size: .89em;
-  line-height: 1.2em;
+  font-size: .95em;
+  line-height: 1.3em;
   text-align: center;
   padding-top: 5px;
   padding-bottom: 5px;
 }
 
 h4 {
-<<<<<<< HEAD
-  font-family: ltc-bodoni-175;
-  font-size: 1.135em;
-  line-height: 1.1em;
-  font-weight: normal;
-=======
   font-family: ff-meta-serif-web-pro;
   font-size: 1.25em;
   line-height: 1em;
->>>>>>> New-Size-for-Website
   text-align: center;
-  color: #000;
-  font-weight: bold;
-  letter-spacing: .04em;
+  color: black;
+  font-weight: 400;
 }
 
 .legal {
@@ -578,14 +514,8 @@ h4 {
  *
  * Author: Curve Design
  */
-#main {
+#main, #main-home {
   z-index: 10;
-<<<<<<< HEAD
-  background: transparent url("../images/ornate-graphic.png") no-repeat 0 375px;
-  margin: 45px 0 0 0;
-  padding: 0;
-}
-=======
   margin: 0;
   padding: 0;
 }
@@ -593,7 +523,6 @@ h4 {
 #main-home {
   background: transparent url("../images/ornate-graphic.png") no-repeat 0 375px;
 }
->>>>>>> New-Size-for-Website
 
 #main #main-shot {
   background: transparent url("../images/iPad.png") no-repeat -3px 64px;
@@ -612,9 +541,6 @@ h4 {
   position: absolute;
   z-index: 20;
   background-size: 100%;
-<<<<<<< HEAD
-  margin-left: -23px;
-=======
   margin-left: -55px;
 }
 
@@ -666,103 +592,11 @@ h4 {
   background-size: 90%;
   margin-left: 320px;
   margin-top: 0px;
->>>>>>> New-Size-for-Website
 }
 
 #left-area {
   margin: 0;
   padding: 0;
-<<<<<<< HEAD
-  height: 750px;
-  float: left;
-}
-
-#left-area .top-image {
-  height: 300px;
-  z-index: 10;
-  background: transparent url("../images/vector-insects.png") no-repeat 0 0;
-  margin: 45px 0 0 0;
-  padding: 0;
-  z-index: 10;
-  background-size: 100%;
-}
-
-#right-area {
-  height: 100%;
-  margin: 50px 0 0 0;
-  padding: 0;
-  /*  opacity: .75;*/
-  background: #b0c0c9 url("../images/right-bkgrnd-orante-img.png") no-repeat 0 300px;
-}
-
-#right-area .icon {
-  background: transparent url("../images/sudoku_butterfly.png") no-repeat center 5px;
-  background-size: 45% auto;
-  height: 94px;
-}
-
-#right-area .bottom-image {
-  margin: 10px 0 0 0;
-  padding: 0;
-  height: 63px;
-  float: left;
-  background: url("../images/bottom-img.png") no-repeat 0 0;
-}
-
-#logo {
-  height: 45px;
-}
-
-#logo-type-top {
-  height: 35px;
-}
-
-#logo-type {
-  background: url("../images/graphical-text.png") no-repeat center 0;
-  height: 18px;
-  margin: 5px 0 5px 0;
-}
-
-.details {
-  height: 30px;
-  padding: 0;
-}
-
-.commonboxes-sudoku-color-a {
-  border-radius: 6px;
-  -moz-box-shadow: 0px 0px 5px #A7A9AC;
-  -webkit-box-shadow: 0px 0px 5px #A7A9AC;
-  box-shadow: 0px 0px 5px #A7A9AC;
-  background-color: #D66D56;
-  padding: 5px;
-  height: 35px;
-  width: 35px;
-  float: left;
-}
-
-.commonboxes-sudoku-color-b {
-  border-radius: 6px;
-  -moz-box-shadow: 0px 0px 5px #A7A9AC;
-  -webkit-box-shadow: 0px 0px 5px #A7A9AC;
-  box-shadow: 0px 0px 5px #A7A9AC;
-  background-color: #fff;
-  background-color: #DACEC4;
-  padding: 5px;
-  height: 35px;
-  width: 35px;
-  float: left;
-}
-
-.commonboxes-sudoku-color-a img {
-  border: 0;
-}
-
-.swirly {
-  background: transparent url("../images/sudoku-swirl.png") no-repeat center center;
-  margin: 5px;
-  padding: 0;
-  height: 40px;
-=======
   height: 550px;
   float: left;
 }
@@ -943,7 +777,6 @@ h4 {
   padding: 0;
   height: 29px;
   background-size: 22%;
->>>>>>> New-Size-for-Website
 }
 
 .spacer_1 {
@@ -1094,8 +927,6 @@ h4 {
     page-break-after: avoid;
   }
 }
-<<<<<<< HEAD
-=======
 /* Front page updates to  showcase two feature sets */
 .features {
   padding: 15px 10px 0px 10px;
@@ -2659,4 +2490,3 @@ form li.complex p.error {
 .rtl #errorLi * {
   text-align: center;
 }
->>>>>>> New-Size-for-Website
