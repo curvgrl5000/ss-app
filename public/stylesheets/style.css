@@ -1014,8 +1014,9 @@ h4 {
   color: #000;
   font-weight: 500;
   font-size: .8em;
-  padding: 5px;
+  padding: 5px 0px 0px 12px;
   vertical-align: top;
+  float: left;
 }
 
 .reference, .referenced-box a {
