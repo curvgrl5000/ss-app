@@ -532,7 +532,7 @@ h4 {
   position: absolute;
   z-index: 20;
   background-size: 100%;
-  margin-left: 30px;
+  margin-left: 50px;
 }
 
   #main #enter-shot {
@@ -602,7 +602,7 @@ h4 {
     height: 300px;
     z-index: 10;
     background: transparent url("../images/vector-insects.png") no-repeat 0 0;
-    margin: 45px 0 0 0;
+    margin: 75px 0 0 10px;
     padding: 0;
     z-index: 10;
     background-size: 100%;
@@ -985,7 +985,7 @@ h4 {
   .reference, .referenced-box {
   background-color: #4d7281;
   height: 18px;
-  margin: 22px 0 0 0px;
+  margin: 18px 0 0 0px;
   padding: 8px 10px 15px 0px;
   position: relative;
   box-shadow: 1px 7px 25px #222;
@@ -1002,15 +1002,15 @@ h4 {
     color: #000;
     font-weight: 500;
     font-size: .8em;
-    padding: 0;
+    padding: 5px;
     vertical-align: top;
-    line-height: 2.5em;
+//    line-height: 2.5em;
   }
   
   .reference, .referenced-box a {
   color: #ffffff;
   vertical-align: top;
-  line-height: 2.5em;
+//  line-height: 2.5em;
   }
   
   .reference a:hover, .reference a:active, .referenced-box a:hover, .referenced-box a:active  {
@@ -1025,7 +1025,7 @@ h4 {
   margin-top: 149px;
   line-height: 1;
   z-index: 21;
-  margin-left: 139px;
+  margin-left: 160px;
   width: 267px;
   }
   
