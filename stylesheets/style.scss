@@ -530,19 +530,18 @@ h4 {
   width: 500px;
   height: 602px;
   position: absolute;
-  z-index: 20;
   background-size: 100%;
   margin-left: 50px;
 }
 
   #main #enter-shot {
-    background: transparent url("../images/iPad_side.png") no-repeat -3px 64px;
-    width: 670px;
-    height: 806px;
+    background: transparent url("../images/iPad_side.png") no-repeat 0px 15px;
+    width: 534px;
+    height: 602px;
     position: absolute;
     z-index: 20;
     background-size: 100%;
-    margin-left: -55px;
+    margin-left: -8px;
   }     
   #main-sensational {
     z-index: 10;
@@ -611,7 +610,7 @@ h4 {
   #left-area-big {
     margin: 0;
     padding: 0;
-    height: 821px;
+    height: 550px;
     float: left;
     left: 390px;
     width: 1075px;
@@ -984,7 +983,7 @@ h4 {
   
   .reference, .referenced-box {
   background-color: #4d7281;
-  height: 18px;
+  height: 19px;
   margin: 18px 0 0 0px;
   padding: 8px 10px 15px 0px;
   position: relative;
@@ -1114,9 +1113,9 @@ h4 {
     position: absolute;
     top: 0;
     z-index: 30;
-    width: 400px;
-    margin: 252px 0 0 70px;
-    padding: 30px;
+    width: 350px;
+    margin: 118px 0 0 73px;
+    padding: 26px;
   }
   
   .wufoo {
