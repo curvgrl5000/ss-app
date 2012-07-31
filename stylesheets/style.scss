@@ -119,7 +119,7 @@ time, mark, audio, video {
 #bottom-wrapper {
   background: #4D7281 url("../images/bottom-nav-bkgrnd.png") repeat-x top left;
   z-index: 9999;
-  position: relative;
+  position: fixed;
   margin:0;
   padding:0;
   display:block;
@@ -137,7 +137,6 @@ time, mark, audio, video {
 }
 #bottom-wrapper #bottom-container {
   min-height: 245px;
-  max-width: 85%;
   z-index: 99999; 
   display:block;
   height: 100%;
@@ -276,9 +275,9 @@ header nav ul, header nav li {
 }
 
 footer {
-  background: #c65843 url("../images/bottom-nav-stripe.png") no-repeat 0 60px;
-  margin: 0;
-  padding: 0;
+  background: #c65843 url("../images/bottom-nav-stripe.png") repeat-x 0 60px;
+  margin: 0 auto;
+  padding: 0 auto;
   display: inline;
   height: 245px;
 }
@@ -981,7 +980,7 @@ h4 {
   .reference, .referenced-box {
   background-color: #4d7281;
   height: 18px;
-  margin: 22px 0 0 90px;
+  margin: 22px 0 0 0px;
   padding: 8px 10px 15px 0px;
   position: relative;
   box-shadow: 1px 7px 25px #222;
