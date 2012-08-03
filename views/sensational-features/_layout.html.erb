@@ -42,7 +42,7 @@
         </ul>
         <div id="container" class="container_24">
           <header class="grid_24 alpha omega">
-            <nav class="grid_14">
+            <nav class="grid_17">
               <ul>
                 <li><a href="/">HOME</a></li>
                 <li><a href="enter-to-win">ENTER TO WIN</a></li>                                    
@@ -53,26 +53,28 @@
           </header>
         <%= yield %>
         <div id="bottom-wrapper">
-          <div id="container" class="container_24">
-            <footer class="grid_24 alpha omega">
-              <nav class="grid_14">
+          <div id="bottom-container" class="container_24">
+            <footer class="grid_24">
+              <nav class="grid_16 left">
                 <ul>
                   <li><a href="/">HOME</a></li>
                   <li><a href="enter-to-win">ENTER TO WIN</a></li>                                    
                   <li class="active"><a href="sensational-features">SENSATIONAL FEATURES</a></li>
                   <li><a href="about">ABOUT AHLQUIST SOFTWARE</a></li>
                 </ul>
-                <div class="referenced-box grid_7">
-                  <h4>designed by<img src="images/curve_webicon.png" alt:"curve design" style="width: 40px; padding: 0 10px;"><a target="blank" href="#">curve design</a></h4>
-                </div>
+              </nav>
+              <div class="referenced-box grid_5 left">
+                <h4>designed by</h4>
+                  <a href="http://www.curvecommunications.biz" data-original-title="Curve Design"><img src="images/curve_webicon.png" alt="curve design" style="width: 31px; padding: 0px 0px 0 10px;margin-top: -5px;float: left;"></a>                
+                  <h4><a href="http://www.curvecommunications.biz" data-original-title="Curve Design">curve design</a></h4>
+              </div>
             </footer>
           </div>
         </div>
       </div>
-    
     <!-- JavaScript at the bottom for fast page loading -->
     <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary -->
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="./javascripts/jquery.js"></script>
 
     <!-- scripts concatenated and minified via ant build script-->
     <!-- end scripts-->
@@ -114,14 +116,14 @@
           });  
         </script> 
      <!-- This is for the rotating insects -->
-     <script type="text/javascript" src="./javascripts/jquery.easing.1.2.js"></script>
+     <script type="text/javascript" src="./javascripts/jquery.easing.1.3.js"></script>
      <script type="text/javascript" src="./javascripts/jquery.circulate.js"></script>
      <script type="text/javascript" src="./javascripts/circulate.js"></script>
     
      <!-- This is for the rotating boxes that are activated by clicks -->
      <script>
      // DOM Ready
-     $(function() {
+     $(document).ready(function(){  
        var current;
        function rotate() {
          // This seems like a sucky way to do it, but you can't select by classes because they execute in order

@@ -120,7 +120,7 @@ time, mark, audio, video {
 
 #bottom-wrapper {
   background: #4d7281 url("../images/bottom-nav-bkgrnd.png") repeat-x top left;
-  z-index: 9999;
+  z-index: 500000;
   position: fixed;
   margin: 0;
   padding: 0;
@@ -132,13 +132,13 @@ time, mark, audio, video {
 #container {
   min-height: 550px;
   max-width: 100%;
-  z-index: 99999;
+  z-index: 99998;
   display: block;
   position: relative;
   height: 600px;
 }
 
-#bottom-wrapper #bottom-container {
+#bottom-container {
   min-height: 245px;
   z-index: 99999;
   display: block;
@@ -231,6 +231,7 @@ pre, code, kbd, samp {
 /* Always force a scrollbar in non-IE */
 html {
   overflow-y: scroll;
+  background-color: #4D7281;
 }
 
 /* Accessible focus treatment: people.opera.com/patrickl/experiments/keyboard/test */
@@ -313,11 +314,13 @@ footer nav li a, footer li nav a:visited,
 header nav li a, header li nav a:visited {
   color: #323e41;
   text-decoration: none;
+  font-weight: 600;
 }
 
 header nav li a:hover, footer nav li a:hover {
   color: #DFDBC9;
   text-decoration: none;
+  font-weight: 600;
 }
 
 small {
@@ -474,7 +477,7 @@ h3 {
   font-family: ff-meta-serif-web-pro, Arial, Helvetica, sans-serif;
   color: #08C;
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 1.25em;
   line-height: 1.15em;
   text-align: center;
   text-shadow: 1px 1px #DDD;
@@ -484,17 +487,18 @@ h3 {
   font-family: facitweb, Arial, Helvetica, sans-serif;
   color: #603913;
   font-weight: bold;
-  font-size: .95em;
-  line-height: 1.3em;
+  font-size: .85em;
+  line-height: 1.5em;
   text-align: center;
   padding-top: 5px;
   padding-bottom: 5px;
+  word-spacing: .3em;
 }
 
 h4 {
   font-family: ff-meta-serif-web-pro;
-  font-size: 1.25em;
-  line-height: 1em;
+  font-size: 1.125em;
+  line-height: 1.125em;
   text-align: center;
   color: black;
   font-weight: 400;
@@ -537,14 +541,23 @@ h4 {
   margin-left: 50px;
 }
 
-#main #enter-shot {
-  background: transparent url("../images/iPad_side.png") no-repeat 0px 15px;
-  width: 534px;
+#sensational #sensational-ipad {
+  background: transparent url("../images/iPad.png") no-repeat -3px 64px;
+  width: 500px;
   height: 602px;
   position: absolute;
-  z-index: 20;
+  background-size: 93%;
+  margin-left: 150px;
+  top: -29px;
+}
+
+#main #enter-shot {
+  background: transparent url("../images/iPad_side_2.png") no-repeat -2px 23px;
+  width: 524px;
+  height: 602px;
+  position: absolute;
   background-size: 100%;
-  margin-left: -8px;
+  margin-left: 20px;
 }
 
 #main-sensational {
@@ -564,18 +577,17 @@ h4 {
   margin-top: -85px;
 }
 
-#main #iphone-1 {
+#sensational #iphone-1 {
   background: transparent url("../images/phone-1.png") no-repeat -3px 124px;
   width: 300px;
   height: 590px;
   position: absolute;
-  z-index: 20;
-  background-size: 90%;
-  margin-left: -176px;
+  background-size: 71%;
+  margin-left: 0px;
   margin-top: 0px;
 }
 
-#main #iphone-2 {
+#sensational #iphone-2 {
   background: transparent url("../images/phone-2.png") no-repeat -3px 124px;
   width: 300px;
   height: 590px;
@@ -586,7 +598,7 @@ h4 {
   margin-top: 0px;
 }
 
-#main #iphone-3 {
+#sensational #iphone-3 {
   background: transparent url("../images/phone-3.png") no-repeat -3px 124px;
   width: 300px;
   height: 590px;
@@ -639,7 +651,7 @@ h4 {
   padding: 0;
   height: 821px;
   float: left;
-  left: -500px;
+  left: 300px;
   width: 1000px;
   z-index: -1;
   position: absolute;
@@ -666,7 +678,7 @@ h4 {
 }
 
 #left-area-big-two .enter-sensational-two {
-  background: transparent url("../images/blossums.png") no-repeat 0 0;
+  background: transparent url("../images/blossums.png") no-repeat -19px -12px;
   height: 821px;
   margin: 0;
   padding: 0;
@@ -675,16 +687,16 @@ h4 {
 }
 
 #left-area-big-two .enter-sensational {
-  background: transparent url("../images/blossums.png") no-repeat 0 0;
-  height: 805px;
+  background: transparent url("../images/blossums.png") no-repeat -50px 0;
+  height: 800px;
   margin: 0;
   padding: 0;
-  z-index: 10;
-  background-size: 100%;
+  z-index: 0;
+  background-size: 85%;
 }
 
 #left-area-big .top-image-about {
-  height: 820px;
+  height: 678px;
   z-index: 10;
   background: transparent url("../images/peony.png") no-repeat -11px 22px;
   margin: 0;
@@ -932,7 +944,7 @@ h4 {
 }
 /* Front page updates to  showcase two feature sets */
 .features {
-  padding: 15px 10px 0px 10px;
+  padding: 10px 10px 0px 10px;
 }
 
 .features .nav-tabs {
@@ -1039,13 +1051,22 @@ h4 {
   width: 267px;
 }
 
-#main .carousel .item > img {
+#sensational .carousel {
+  position: absolute;
+  margin-top: 105px;
+  line-height: 1;
+  z-index: 21;
+  margin-left: 243px;
+  width: 267px;
+}
+
+#main .carousel .item > img, #sensational .carousel .item > img {
   display: block;
   line-height: 1;
   width: 100%;
 }
 
-#main .carousel-caption {
+#main .carousel-caption, #sensational .carousel-caption {
   position: absolute;
   left: 0;
   right: 0;
@@ -1229,7 +1250,7 @@ pre {
 
 .twitter-share-button {
   padding: 5px 0 5px 0;
-  margin-left: -10px;
+  margin-left: -12px;
 }
 
  /*================================================================================================================      
@@ -1240,7 +1261,7 @@ pre {
   top: 0;
   z-index: 30;
   width: 350px;
-  margin: 118px 0 0 73px;
+  margin: 124px 0 0 100px;
   padding: 26px;
 }
 
