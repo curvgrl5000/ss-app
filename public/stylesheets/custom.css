@@ -1,0 +1,148 @@
+/* - - - - - - - - - - - - - - - - - - - - -
+
+ Title : Suduoku Sensation!
+ Author : Anna Mendoza
+ URL : http://curvecommunications.biz
+
+ Last Updated : 8/10/2012
+
+- - - - - - - - - - - - - - - - - - - - - */
+/* - - - Default - - - */
+/* Logo */
+* html #logo a {
+  /* IE6 png Support */
+  background-image: none;
+}
+
+/* Backgrounds */
+#form-wrapper {
+  position: absolute;
+  top: 0;
+  z-index: 30;
+  width: 350px;
+  margin: 124px 0 0 100px;
+  padding: 20px;
+}
+
+#form-wrapper #container {
+  background: none;
+}
+
+#container, html.embed {
+  background-color: none;
+}
+
+form.wufoo {
+  margin: 20px 14px 0 14px;
+  padding: 0 0 20px 0;
+  position: relative;
+}
+
+.wufoo {
+  font-family: ff-meta-serif-web-pro, Tahoma, sans-serif;
+  letter-spacing: .01em;
+}
+
+.wufoo li {
+  width: 64%;
+}
+
+.wufoo .info {
+  display: inline-block;
+  clear: both;
+  margin: 0 0 5px 0;
+  padding: 0 1% 1.1em 1%;
+  border-bottom: 1px dotted #ccc;
+}
+
+.info[class] {
+  display: block;
+}
+
+.hideHeader .info, #payment.hideHeader li.first {
+  display: none;
+}
+
+.wufoo input.text, .wufoo textarea.textarea {
+  background: transparent url(/images/fieldbg.gif) repeat-x top;
+}
+
+.wufoo .focused {
+  background: #FFF7C0;
+}
+
+.wufoo .instruct {
+  background-color: #F5F5F5;
+}
+
+/* Borders */
+#container {
+  border: none;
+}
+
+.wufoo .info {
+  border-bottom: none;
+}
+
+.wufoo .instruct {
+  border: none;
+}
+
+/* Typography */
+.wufoo .info h2 {
+  font-weight: normal;
+  font-size: 220%;
+  margin: 0 0 5px 0;
+  clear: left;
+}
+
+.wufoo .info div {
+  font-size: 95%;
+  line-height: 135%;
+  color: #555;
+}
+
+.wufoo .section h3 {
+  font-size: 110%;
+  font-family: inherit;
+  background: none;
+  color: #000000;
+}
+
+.wufoo .section div {
+  font-size: 85%;
+  font-family: inherit;
+  color: #444444;
+}
+
+.wufoo label.desc, .wufoo legend.desc {
+  font-size: 95%;
+  font-family: inherit;
+  color: #444444;
+}
+
+.wufoo li div, .wufoo li div label, .wufoo li span label {
+  font-family: inherit;
+  color: #444444;
+}
+
+.wufoo input.text, .wufoo textarea.textarea, .wufoo select.select, .wufoo label.choice {
+  font-size: 100%;
+  font-family: inherit;
+  color: #333333;
+}
+
+.wufoo label.choice {
+  color: #444444;
+}
+
+.wufoo .instruct {
+  font-size: 70%;
+  font-family: inherit;
+  color: #444444;
+}
+
+/* Drop Shadows */
+#bottom {
+  visibility: visible;
+}
