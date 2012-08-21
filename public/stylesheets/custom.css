@@ -1,6 +1,6 @@
 /* - - - - - - - - - - - - - - - - - - - - -
 
- Title : Suduoku Sensation!
+ Title : Suduoku Sensation!!
  Author : Anna Mendoza
  URL : http://curvecommunications.biz
 
@@ -91,7 +91,8 @@ form.wufoo {
 /* Typography */
 .wufoo .info h2 {
   font-weight: normal;
-  font-size: 220%;
+  font-size: 12px;
+  font-family: ff-meta-serif-web-pro, Arial, Helvetica, sans-serif;
   margin: 0 0 5px 0;
   clear: left;
 }
