@@ -31,7 +31,7 @@
 
 form.wufoo {
   margin: 20px 14px 0 14px;
-  padding: 0 0 20px 0;
+  padding: 10px 0 20px 10px;
   position: relative;
 }
 .wufoo {
@@ -78,7 +78,7 @@ form.wufoo {
 .wufoo .section div{font-size:85%;font-family:inherit;color:#444444}
 .wufoo label.desc, .wufoo legend.desc{font-size:95%;font-family:inherit;color:#444444}
 .wufoo li div, .wufoo li div label, .wufoo li span label{font-family:inherit;color:#444444}
-.wufoo input.text, .wufoo textarea.textarea, .wufoo select.select, .wufoo label.choice{font-size:100%;font-family:inherit;color:#333333}
+.wufoo input.text, .wufoo textarea.textarea, .wufoo select.select, .wufoo label.choice{font-size:100%;font-family:inherit; background-color: #B0C0C9; opacity: 0.5; color:#333333}
 .wufoo label.choice{color:#444444}
 .wufoo .instruct{font-size:70%;font-family:inherit;color:#444444
 }
