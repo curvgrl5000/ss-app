@@ -1,6 +1,6 @@
 /* - - - - - - - - - - - - - - - - - - - - -
 
- Title : Suduoku Sensation
+ Title : Suduoku Sensation!
  Author : Anna Mendoza
  URL : http://curvecommunications.biz
 
@@ -11,9 +11,9 @@
 /* - - - Default - - - */
 
 /* Logo */
-#logo a {background-image:none;}
+
 * html #logo a {/* IE6 png Support */
-	background-image: none;);
+	background-image: none;
 }
 
 /* Backgrounds */
@@ -26,13 +26,18 @@
   padding: 20px;
 }
 
-#form-wrapper #container{background:none}
+#form-wrapper #container{background:none;}
+#container, html.embed {background-color: none;}
 
+form.wufoo {
+  margin: 20px 14px 0 14px;
+  padding: 0 0 20px 0;
+  position: relative;
+}
 .wufoo {
   font-family:ff-meta-serif-web-pro, Tahoma, sans-serif;
   letter-spacing:.01em;
 }
-
 .wufoo li { 
   width:64%;
 }
@@ -67,7 +72,7 @@
   line-height:135%;
   color:#555;
 }
-.wufoo .section h3{font-size:110%;font-family:inherit;background:#FFFFFF;color:#000000}
+.wufoo .section h3{font-size:110%;font-family:inherit;background:none;color:#000000}
 .wufoo .section div{font-size:85%;font-family:inherit;color:#444444}
 .wufoo label.desc, .wufoo legend.desc{font-size:95%;font-family:inherit;color:#444444}
 .wufoo li div, .wufoo li div label, .wufoo li span label{font-family:inherit;color:#444444}

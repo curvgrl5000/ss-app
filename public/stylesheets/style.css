@@ -1256,53 +1256,6 @@ pre {
  /*================================================================================================================      
    The WooFoo Forms 
 ================================================================================================================ */
-#form-wrapper {
-  position: absolute;
-  top: 0;
-  z-index: 30;
-  width: 350px;
-  margin: 124px 0 0 100px;
-  padding: 26px;
-}
-
-.wufoo {
-  font-family: "Lucida Grande","Lucida Sans Unicode", Tahoma, sans-serif;
-  letter-spacing: .01em;
-}
-
-.wufoo li {
-  width: 64%;
-}
-
-.info {
-  display: inline-block;
-  clear: both;
-  margin: 0 0 5px 0;
-  padding: 0 1% 1.1em 1%;
-  border-bottom: 1px dotted #ccc;
-}
-
-.info[class] {
-  display: block;
-}
-
-.hideHeader .info, #payment.hideHeader li.first {
-  display: none;
-}
-
-.info h2 {
-  font-weight: normal;
-  font-size: 220%;
-  margin: 0 0 5px 0;
-  clear: left;
-}
-
-.info div {
-  font-size: 95%;
-  line-height: 135%;
-  color: #555;
-}
-
 form ul {
   margin: 0;
   padding: 0;
@@ -1316,7 +1269,7 @@ form ul {
 
 form li {
   margin: 0;
-  padding: 6px 1% 9px 1%;
+  padding: 10px 1% 9px 1%;
   clear: both;
   background-color: transparent;
   position: relative;
