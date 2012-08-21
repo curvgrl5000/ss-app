@@ -18,7 +18,7 @@ html{
 	background-image:none;	background-color:#DEDEDE;
 }
 #container, html.embed{
-	background-color:none;
+	background-color: transparent;
 }
 .safari .wufoo input.file{
 	background:none;
