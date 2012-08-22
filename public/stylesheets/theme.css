@@ -4,6 +4,7 @@
 	background-image:url('../images/wflogo.png'); 
 	min-height:0;
 	height:40px;
+	visibility: hidden;
 }
 * html #logo a {/* IE6 png Support */
 	background-image: none;
