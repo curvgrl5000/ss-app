@@ -95,9 +95,20 @@ form.wufoo {
 
 /* Confirmations */
 
-embed .confirm h2, .confirm h2 {
+.embed #container {
+  width: 100% !important;
+  border: none !important;
+  background: transparent;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  -o-box-shadow: none !important;
+  box-shadow: none !important;      
+}
+
+.embed .confirm h2, .confirm h2 {
 	font-family:inherit;
 	color:#444444;
 	padding: 15px 0 10px 0;
 }
+
 
