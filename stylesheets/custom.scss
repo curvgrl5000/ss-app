@@ -623,19 +623,34 @@ form li.buttons input {
 }
 
 input.btTxt {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  color: #F5EBF5;
-  padding: 5px 14px 8px 14px;
-  background: -moz-linear-gradient(top, #D66D56 0%, #9C3824);
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
-  border: 3px solid black;
-  -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5), inset 0px 0px 0px rgba(255, 255, 255, 0.7);
-  -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5), inset 0px 0px 0px rgba(255, 255, 255, 0.7);
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5), inset 0px 0px 0px rgba(255, 255, 255, 0.7);
-  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.4), 0px 1px 0px rgba(255, 255, 255, 0.8);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #f5ebf5;
+	padding: 5px 14px 8px 14px;
+	background: -moz-linear-gradient(
+		top,
+		#d66d56 0%,
+		#9c3824);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#d66d56),
+		to(#9c3824));
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 3px solid #000000;
+	-moz-box-shadow:
+		0px 2px 4px rgba(0,0,0,0.5),
+		inset 0px 0px 0px rgba(255,255,255,0.7);
+	-webkit-box-shadow:
+		0px 2px 4px rgba(0,0,0,0.5),
+		inset 0px 0px 0px rgba(255,255,255,0.7);
+	box-shadow:
+		0px 2px 4px rgba(0,0,0,0.5),
+		inset 0px 0px 0px rgba(255,255,255,0.7);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0.4),
+		0px 1px 0px rgba(255,255,255,0.8);
 }
 
 .buttons .marker {
