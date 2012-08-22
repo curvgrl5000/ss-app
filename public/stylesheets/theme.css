@@ -154,6 +154,7 @@ li.leftThird small, li.middleThird small, li.rightThird small,
 .confirm h2{
 	font-family:inherit;
 	color:#444444;
+	padding: 15px 0 10px 0;
 }
 a.powertiny b, a.powertiny em{
 	color:#1a1a1a !important;
