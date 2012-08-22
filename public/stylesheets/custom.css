@@ -45,6 +45,12 @@ form.wufoo {
 
 .wufoo li {
   width: 64%;
+  padding-top: 5px;
+}
+
+.leftLabel li, .rightLabel li {
+  width: 74% !important;
+  padding-top: 0px;
 }
 
 .wufoo .info {
