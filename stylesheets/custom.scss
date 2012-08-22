@@ -76,11 +76,13 @@ form.wufoo {
   margin:0 0 5px 0;
   clear:left;
   text-shadow:1px 1px #DDD;
+  font-weight: 600;
+  color:#4D7281;
 }
 .wufoo .info div{
   font-size:95%;
   line-height:135%;
-  color:#555;
+  color: #555;
 }
 .wufoo .section h3{font-size:110%;font-family:inherit;background:none;color:#000000}
 .wufoo .section div{font-size:85%;font-family:inherit;color:#444444}
@@ -683,7 +685,7 @@ button.link:hover {
 }
 .leftLabel p.instruct,.rightLabel p.instruct{
   width:28%;
-  margin-left:5px;
+  margin-left:5px;                                             
 }
 
 .leftLabel .altInstruct .instruct,.rightLabel .altInstruct .instruct { 

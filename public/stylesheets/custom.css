@@ -103,6 +103,8 @@ form.wufoo {
   margin: 0 0 5px 0;
   clear: left;
   text-shadow: 1px 1px #DDD;
+  font-weight: 600;
+  color: #4D7281;
 }
 
 .wufoo .info div {
