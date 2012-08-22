@@ -156,3 +156,10 @@ form.wufoo {
 #bottom {
   visibility: visible;
 }
+
+/* Confirmations */
+embed .confirm h2 {
+  font-family: inherit;
+  color: #444444;
+  padding: 15px 0 10px 0;
+}
