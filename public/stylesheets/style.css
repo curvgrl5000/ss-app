@@ -1754,7 +1754,7 @@ form li.buttons {
   width: auto !important;
   position: relative;
   clear: both;
-  padding: 10px 1% 10px 1%;
+  padding: 0px 1% 10px 1%;
 }
 
 form li.buttons input {
