@@ -539,14 +539,15 @@ h4 {
 }
 
 #sensational #sensational-ipad {
-  background: transparent url("../images/iPad.png") no-repeat -3px 64px;
+  background: transparent url("../images/iPad.png") no-repeat -7px 64px;
   width: 500px;
   height: 602px;
   position: absolute;
-  background-size: 93%;
+  background-size: 97%;
   margin-left: 150px;
-  top: -29px;
+  top: -33px;    
 }
+
 #main #enter-shot {
     background: transparent url("../images/iPad_side_2.png") no-repeat -2px 23px;
     width: 524px;
@@ -1035,11 +1036,11 @@ h4 {
 }
 #sensational .carousel {
     position: absolute;
-    margin-top: 105px;
+    margin-top: 114px;
     line-height: 1;
     z-index: 21;
-    margin-left: 243px;
-    width: 267px;
+    margin-left: 251px;
+    width: 260px;
 }
 #main .carousel .item > img, #sensational .carousel .item > img {
   display: block;
@@ -1060,7 +1061,7 @@ h4 {
 .carousel-control {
     position: absolute;
     top: 50%;
-    left: -34px;
+    left: -32px;
     width: 24px;
     height: 24px;
     margin-top: -20px;
@@ -1080,7 +1081,7 @@ h4 {
   
 .carousel-control.right {
   left: auto;
-  right: -32px;
+  right: -31px;
 }
 
   pre { overflow: auto; padding: 10px; background: #eee; margin: 0 0 10px 0; }
