@@ -1851,6 +1851,7 @@ button.link:hover {
 
 .noI .leftLabel .buttons, .noI .rightLabel .buttons {
   padding-left: 31%;
+  padding-top: 0px;
 }
 
 .noI .leftLabel .buttons div, .noI .rightLabel .buttons div {
