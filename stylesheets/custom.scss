@@ -657,7 +657,14 @@ input.btTxt {
 }
 
 div .btTxt:hover {
-  background: black;
+  background: -moz-linear-gradient(
+		top,
+		#a14e3d 0%,
+		#9c3824);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#a14e3d),
+		to(#9c3824));
 }
 
 .buttons .marker {
