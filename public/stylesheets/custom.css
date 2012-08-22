@@ -718,11 +718,6 @@ button.link:hover {
   color: green;
 }
 
-.leftLabel li, .rightLabel li {
-  width: 74% !important;
-  padding-top: 0px;
-}
-
 .leftLabel .desc, .rightLabel .desc {
   float: left;
   width: 13%;
