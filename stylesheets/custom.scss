@@ -656,6 +656,10 @@ input.btTxt {
 		0px 1px 0px rgba(255,255,255,0.8);
 }
 
+div .btTxt:hover {
+  background: black;
+}
+
 .buttons .marker {
   position:absolute;
   top:0;
