@@ -15,9 +15,7 @@
 html{
 	background-image:none;	background-color:none;
 }
-#logo{
-	background-image:none;	background-color:#DEDEDE;
-}
+
 #container, html.embed{
 	background-color: transparent;
 }
@@ -35,7 +33,7 @@ html{
 
 /* ----- Borders ----- */
 #container{
-	border:1px solid #CCCCCC;
+	border:none;
 }
 .wufoo .info, .wufoo .paging-context{
 	border-bottom:1px dotted #CCCCCC;
@@ -152,7 +150,7 @@ li.leftThird small, li.middleThird small, li.rightThird small,
 
 /* ----- Confirmation ----- */
 
-.confirm h2{
+embed .confirm h2 {
 	font-family:inherit;
 	color:#444444;
 	padding: 15px 0 10px 0;
