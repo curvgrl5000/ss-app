@@ -709,7 +709,7 @@ input.btTxt {
   text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.4), 0px 1px 0px rgba(255, 255, 255, 0.8);
 }
 
-input.btTxt .hover {
+li.hover input.btTxt {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   color: #fff;
