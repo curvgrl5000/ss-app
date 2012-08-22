@@ -772,7 +772,7 @@ button.link:hover {
 }
 
 .noI .leftLabel .buttons div, .noI .rightLabel .buttons div {
-  margin: 0 0 0 17px;
+  margin: 10px 0 0 17px;
 }
 
 form li.leftHalf, form li.rightHalf {
