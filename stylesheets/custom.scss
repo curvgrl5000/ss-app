@@ -625,7 +625,7 @@ form li.buttons input {
   font-size:100%;
 }
 
-input.btTxt {
+input.btTxt, .noI .leftLabel .buttons div, .noI .rightLabel .buttons div {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	color: #f5ebf5;
@@ -654,22 +654,6 @@ input.btTxt {
 	text-shadow:
 		0px -1px 0px rgba(000,000,000,0.4),
 		0px 1px 0px rgba(255,255,255,0.8);
-}
-
-.noI .leftLabel .buttons div:hover, .noI .rightLabel .buttons div:hover {
-//  font-family: Arial, Helvetica, sans-serif;
-//  font-size: 14px;
-//  color: #fff;
-//  padding: 5px 14px 8px 14px;
-	background: -moz-linear-gradient(
-		top,
-		#b05b4a 0%,
-		#9c3824);
-	background: -webkit-gradient(
-		linear, left top, left bottom, 
-		from(#b05b4a),
-		to(#9c3824));
- 
 }
 
 .buttons .marker {
