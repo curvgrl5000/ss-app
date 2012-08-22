@@ -1269,7 +1269,7 @@ form ul {
 
 form li {
   margin: 0;
-  padding: 10px 1% 9px 1%;
+  padding: 7px 10px 5px 16px;
   clear: both;
   background-color: transparent;
   position: relative;
@@ -1312,7 +1312,7 @@ form li div {
 }
 
 form li span {
-  margin: 0 .3em 0 0;
+  margin: 0 .5em 0 0;
   padding: 0;
   float: left;
   color: #444;
@@ -1798,7 +1798,7 @@ button.link:hover {
 
 .leftLabel li, .rightLabel li {
   width: 74% !important;
-  padding-top: 9px;
+  padding-top: 0px;
 }
 
 .leftLabel .desc, .rightLabel .desc {

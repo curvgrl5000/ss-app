@@ -50,8 +50,8 @@ form.wufoo {
 .wufoo .info {
   display: inline-block;
   clear: both;
-  margin: 0 0 5px 0;
-  padding: 0 1% 1.1em 1%;
+  margin: 0px;
+  padding: 0px 5px 0px 0px;
   border-bottom: 1px dotted #ccc;
 }
 
