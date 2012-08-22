@@ -495,6 +495,18 @@ h3 {
   word-spacing: .3em;
 }
 
+#right-copy p {
+  font-family: facitweb, Arial, Helvetica, sans-serif;
+  color: #603913;
+  font-weight: bold;
+  font-size: .85em;
+  line-height: 1.5em;
+  text-align: left;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  word-spacing: .3em;
+}
+
 h4 {
   font-family: ff-meta-serif-web-pro;
   font-size: 1.125em;
