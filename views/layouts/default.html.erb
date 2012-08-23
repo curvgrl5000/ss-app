@@ -20,28 +20,41 @@
      
   </head>
   <body>
-      <div id="wrapper">
-        <div id="navstripe"></div>
-        <ul class="cb-slideshow">
-          <li>
-            <span>Image 01</span>
-          </li>
-          <li>
-            <span>Image 02</span>
-          </li>
-
-          <li>
-            <span>Image 03</span>
-          </li>
-          <li>
-            <div>
-              <h3>endless fun!</h3>
-            </div>
-          </li>
-        </ul>
-        <div id="container" class="container_24">
-          <header class="grid_24 alpha omega">
-            <nav class="grid_17">
+    <div id="wrapper">
+      <div id="navstripe"></div>
+      <ul class="cb-slideshow">
+        <li>
+          <span>Image 01</span>
+        </li>
+        <li>
+          <span>Image 02</span>
+        </li>
+        <li>
+          <span>Image 03</span>
+        </li>
+        <li>
+          <div>
+            <h3>endless fun!</h3>
+          </div>
+        </li>
+      </ul>
+      <div id="container" class="container_24">
+        <header class="grid_24 alpha omega">
+          <nav class="grid_17">
+            <ul>
+              <li class="active"><a href="/">HOME</a></li>
+              <li><a href="enter-to-win">ENTER TO WIN</a></li>                                    
+              <li><a href="sensational-features">SENSATIONAL FEATURES</a></li>
+              <li><a href="about">ABOUT AHLQUIST SOFTWARE</a></li>
+            </ul>
+          </nav>
+        </header>
+        <%= yield %>
+      </div> <!-- /container class_24 -->  
+      <div id="bottom-wrapper">
+        <div id="bottom-container" class="container_24">
+          <footer class="grid_24">
+            <nav class="grid_16 left">
               <ul>
                 <li class="active"><a href="/">HOME</a></li>
                 <li><a href="enter-to-win">ENTER TO WIN</a></li>                                    
@@ -49,28 +62,17 @@
                 <li><a href="about">ABOUT AHLQUIST SOFTWARE</a></li>
               </ul>
             </nav>
-          </header>
-        <%= yield %>
-        <div id="bottom-wrapper">
-          <div id="bottom-container" class="container_24">
-            <footer class="grid_24">
-              <nav class="grid_16 left">
-                <ul>
-                  <li class="active"><a href="/">HOME</a></li>
-                  <li><a href="enter-to-win">ENTER TO WIN</a></li>                                    
-                  <li><a href="sensational-features">SENSATIONAL FEATURES</a></li>
-                  <li><a href="about">ABOUT AHLQUIST SOFTWARE</a></li>
-                </ul>
-              </nav>
-              <div class="referenced-box grid_5 left">
-                <h4>designed by</h4>
-                  <a href="http://www.curvecommunications.biz" data-original-title="Curve Design"><img src="images/curve_webicon.png" alt="curve design" style="width: 31px; padding: 0px 0px 0 10px;margin-top: -5px;float: left;"></a>                
-                  <h4><a href="http://www.curvecommunications.biz" data-original-title="Curve Design">curve design</a></h4>
-              </div>
-            </footer>
-          </div>
-        </div>
-      </div>
+           <div class="referenced-box grid_5 left">
+              <h4>designed by</h4>
+                <a href="http://www.curvecommunications.biz" data-original-title="Curve Design"><img src="images/curve_webicon.png" alt="curve design" style="width: 31px; padding: 0px 0px 0 10px;margin-top: -5px;float: left;"></a>                
+              <h4>
+                <a href="http://www.curvecommunications.biz" data-original-title="Curve Design">curve design</a>
+              </h4>
+            </div> <!-- /container" class="container_24   -->
+          </footer>
+        </div> <!-- /bottom-container" class="container_24 -->
+      </div> <!-- /bottom-wrapper  -->
+    </div> <!-- /wrapper   -->
     
     <!-- JavaScript at the bottom for fast page loading -->
     <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary -->
