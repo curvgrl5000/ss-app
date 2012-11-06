@@ -33,7 +33,7 @@ time, mark, audio, video {
 }
 
 #wrapper {
-  height: 850px;
+  height: 600px;
 }
 #navstripe {
   background: url("../images/top-nav-stripe.png") repeat-x top left;
@@ -582,13 +582,13 @@ h4 {
   margin-top: -85px;
 }
 #sensational #iphone-1 {
-  background: transparent url("../images/phone-1.png") no-repeat -3px 124px;
-  width: 300px;
-  height: 590px;
+  background: transparent url("../images/phone-1.png") no-repeat 9px 57px;
+  width: 197px;
+  height: 396px;
   position: absolute;
-  background-size: 71%;
+  background-size: 100%;
   margin-left: 0px;
-  margin-top: 0px;
+  margin-top: 64px;
 }
 #sensational #iphone-2 {
   background: transparent url("../images/phone-2.png") no-repeat -3px 124px;
@@ -639,7 +639,7 @@ h4 {
   position: absolute; 
 }
 #left-area-big .top-image-sensational {
-  height: 821px;
+  height: 600px;
   background: transparent url("../images/peony.png") no-repeat -11px 22px;
   margin: 0;
   padding: 0;
@@ -649,17 +649,18 @@ h4 {
 #left-area-big-one {
   margin: 0;
   padding: 0;
-  height: 821px;
+  height: 600px;
   float: left;
-  left: 300px;
-  width: 1000px;
+  left: 590px;
+  width: 550px;
   z-index: -1;
   position: absolute; 
 }
 #left-area-big-one .enter-sensational {
-  background: transparent url("../images/blossums-two.png") no-repeat 0 0;
-  height: 805px;
+  background: transparent url("../images/blossums-three.png") no-repeat 0 0;
+  height: 600px;
   margin: 0;
+  margin-top: 20px;
   padding: 0;
   z-index: 10;
   background-size: 100%;      
@@ -667,31 +668,32 @@ h4 {
 #left-area-big-two {
   margin: 0;
   padding: 0;
-  height: 821px;
+  height: 600px;
   float: left;
   left: 800px;
-  width: 1000px;
+  width: 730px;
   z-index: -1;
   position: absolute;       
 }
 #left-area-big-two .enter-sensational-two {
-    background: transparent url("../images/blossums.png") no-repeat -19px -12px;
-    height: 821px;
+    background: transparent url("../images/blossums.png") no-repeat -14px -12px;
+    height: 600px;
     margin: 0;
     padding: 0;
     z-index: 10;
     background-size: 100%;
 }
 #left-area-big-two .enter-sensational {
-    background: transparent url("../images/blossums.png") no-repeat -50px 0;
-    height: 800px;
+    background: transparent url("../images/blossums.png") no-repeat -14px 0px;
+    height: 600px;
     margin: 0;
+    margin-top: 40px;
     padding: 0;
     z-index: 0;
-    background-size: 85%;
+    background-size: 100%;
   }
 #left-area-big .top-image-about {
-    height: 678px;
+    height: 600px;
     z-index: 10;
     background: transparent url("../images/peony.png") no-repeat -11px 22px;
     margin: 0;
