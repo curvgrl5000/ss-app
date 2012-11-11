@@ -4,11 +4,9 @@
     <meta charset="utf-8">
     <title><%= @title %></title>
     <link rel="stylesheet" href="/stylesheets/reset.css">   
-    <link rel="stylesheet" href="/stylesheets/screen.css">
     <link rel="stylesheet" href="/stylesheets/960_24_col_rtl.css">
     <link rel="stylesheet" href="/stylesheets/bootstrap-2.0.1.css">
     <link rel="stylesheet" href="/stylesheets/style.css">
-    <link rel="stylesheet" href="/stylesheets/rotate_2.css">
     <link rel="stylesheet" href="/stylesheets/fancy-bkgrnd_3.css">
 
     <!--[if IE]>
@@ -84,7 +82,7 @@
     
     <!-- JavaScript at the bottom for fast page loading -->
     <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary -->
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 
     <!-- scripts concatenated and minified via ant build script-->
     <!-- end scripts-->
@@ -105,61 +103,29 @@
     <script type="text/javascript" src="./javascripts/bootstrap.js"></script>
     <script>  
       $(document).ready(function(){
+         
+         //This is for the carousel
          $('.carousel').carousel ({
-            interval: 12000
-           })
+            interval: 10000
+           });
+         
+         //This is for the tooltips
+         $('#facebook').tooltip('show');      
+         $('#facebook').tooltip('hide');
+         
+         //This is for the tabs revealing the functions of the iPad and iPod
+         $('#myTab').tab('show'); 
+
+         $('a[data-toggle="tab"]').on('shown', function (e) { 
+             e.target // activated tab 
+             e.relatedTarget // previous tab 
+           }); 
+
+          $(function () { 
+          $('.tabs a:last').tab('show') 
+           }); 
       });  
     </script>
-    <!-- This is for the tabs revealing the functions of the iPad and iPod -->
-    <script>  
-          $(document).ready(function(){ 
-             $('#myTab').tab('show'); 
-
-             $('a[data-toggle="tab"]').on('shown', function (e) { 
-                 e.target // activated tab 
-                 e.relatedTarget // previous tab 
-               }); 
-
-               $(function () { 
-              $('.tabs a:last').tab('show') 
-               }); 
-          });  
-        </script> 
-     <!-- This is for the rotating insects -->
-     <script type="text/javascript" src="./javascripts/jquery.easing.1.2.js"></script>
-     <script type="text/javascript" src="./javascripts/jquery.circulate.js"></script>
-     <script type="text/javascript" src="./javascripts/circulate.js"></script>
-    
-     <!-- This is for the rotating boxes that are activated by clicks -->
-     <script>
-     // DOM Ready
-     $(function() {
-       var current;
-       function rotate() {
-         // This seems like a sucky way to do it, but you can't select by classes because they execute in order
-         if (current == 1) {
-           $("#block-1").removeClass().addClass("active");
-           $("#block-2").removeClass().addClass("non-active-top");
-           $("#block-3").removeClass().addClass("non-active-bottom");
-         } else if (current == 2) {
-           $("#block-1").removeClass().addClass("non-active-bottom");
-           $("#block-2").removeClass().addClass("active");
-           $("#block-3").removeClass().addClass("non-active-top");
-         } else {
-           $("#block-1").removeClass().addClass("non-active-top");
-           $("#block-2").removeClass().addClass("non-active-bottom");
-           $("#block-3").removeClass().addClass("active");
-         }
-
-       }
-
-       $("#rotator div").click(function() {
-         // Enables reversing, idea via Andrea Canton: https://twitter.com/andreacanton/status/24954634279849985
-         current = this.id.substr(6);			
-         rotate();
-       });
-     });
-     </script> 
-   
+       
   </body>
 </html>

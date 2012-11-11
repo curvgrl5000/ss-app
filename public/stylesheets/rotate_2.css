@@ -1,4 +1,4 @@
-#rotator {
+.rotator {
   width: auto;
   height: auto;
   position: absolute;
@@ -17,7 +17,7 @@
   background: #ffffd8;
 }
 
-#rotator > div {
+.rotator > div {
   position: absolute;
   overflow: hidden;
   -webkit-transition: all 0.5s ease;
@@ -35,23 +35,23 @@
   line-height: 1.5em;
 }
 
-#rotator > div > div {
+.rotator > div > div {
   padding: 10px 15px;
 }
 
-#rotator > div > div img {
+.rotator > div > div img {
   float: right;
   margin: 0 20px 2px 10px;
 }
 
-#rotator .active {
+.rotator .active {
   top: 159px;
   left: -598px;
   width: 556px;
   height: 130px;
 }
 
-#rotator .non-active-top {
+.rotator .non-active-top {
   top: 35px;
   left: 47px;
   height: 35px;
@@ -59,7 +59,7 @@
   border-radius: 10px;
 }
 
-#rotator .non-active-bottom {
+.rotator .non-active-bottom {
   top: 80px;
   left: 47px;
   height: 35px;
@@ -67,19 +67,19 @@
   border-radius: 10px;
 }
 
-#rotator .non-active-top:hover, #rotator .non-active-bottom:hover {
+.rotator .non-active-top:hover, .rotator .non-active-bottom:hover {
   cursor: pointer;
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
   -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 }
 
-#rotator h2 {
+.rotator h2 {
   text-align: center;
   line-height: 38px;
   font-size: 1.35em;
 }
 
-#rotator .active h2 {
+.rotator .active h2 {
   display: none;
 }

@@ -3487,7 +3487,7 @@ input[type="submit"].btn.small {
   display: block;
   visibility: visible;
   padding: 5px;
-  font-size: 11px;
+  font-size: 13px;
   opacity: 0;
   filter: alpha(opacity=0);
 }
