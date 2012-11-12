@@ -483,7 +483,7 @@ h3 {
   text-shadow: 1px 1px #DDD;
 }
 
-#right-area p {
+#right-area p, #right-area-sensation p {
   font-family: facitweb, Arial, Helvetica, sans-serif;
   color: #603913;
   font-weight: bold;
@@ -503,6 +503,7 @@ h3 {
   line-height: 1.5em;
   text-align: left;
   padding: 5px 0 5px 264px;
+  width: 235px;
 }
 
 h4 {
@@ -592,7 +593,7 @@ h4 {
   width: 197px;
   height: 396px;
   position: absolute;
-  background-size: 100%;
+  background-size: 90%;
   margin-left: 0px;
   margin-top: 105px;
 }
@@ -717,10 +718,10 @@ h4 {
   background-size: 100%;
 }
 
-#right-area {
+#right-area-sensation {
   height: auto;
-  margin: 35px 0 30px 0;
-  padding: 0;
+  margin: 35px 0 30px 60px;
+  padding: 0px;
   background: #b0c0c9 url("../images/top-bkgrnd-orante-img.png") no-repeat -26px 267px;
   moz-box-shadow: 0px 1px 10px #222;
   -webkit-box-shadow: 0px 1px 10px #222;
@@ -729,13 +730,25 @@ h4 {
   float: left;
 }
 
-#right-area .icon {
+#right-area {
+  height: auto;
+  margin: 35px 0 30px 0;
+  padding: 0px;
+  background: #b0c0c9 url("../images/top-bkgrnd-orante-img.png") no-repeat -26px 267px;
+  moz-box-shadow: 0px 1px 10px #222;
+  -webkit-box-shadow: 0px 1px 10px #222;
+  box-shadow: 0px 1px 10px #222;
+  background-size: 115%;
+  float: left;
+}
+
+#right-area .icon, #right-area-sensation .icon {
   background: transparent url("../images/sudoku_butterfly.png") no-repeat center 5px;
   background-size: 33% auto;
   height: 65px;
 }
 
-#right-area .bottom-image {
+#right-area .bottom-image, #right-area-sensation .bottom-image {
   margin: 10px 0 0 0;
   padding: 0;
   height: 40px;
@@ -1265,7 +1278,7 @@ pre {
   margin-left: -12px;
 }
 
-#facebook {
+.facebook {
   background: transparent url("/images/facebook.png") no-repeat;
   width: 50px;
   height: 50px;
@@ -1274,7 +1287,7 @@ pre {
   float: left;
 }
 
-#gamecenter {
+.gamecenter {
   background: transparent url("/images/gamecenter.png") no-repeat;
   width: 50px;
   height: 50px;

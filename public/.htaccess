@@ -1,7 +1,8 @@
 Options +MultiViews
 
-ExpiresActive On
-
-<Files ~ "\.(png|jpg|jpeg|gif|css|js|swf|eot|svg|ttf|woff)$">
-    ExpiresDefault "access plus 1 day"
-</Files>    
+# ExpiresActive On
+# 
+# <Files ~ "\.(png|jpg|jpeg|gif|css|js|swf|eot|svg|ttf|woff)$">
+#     ExpiresDefault "access plus 1 day"
+# </Files>    
+#                                      
