@@ -591,6 +591,25 @@ h4 {
   margin-left: 0px;
   margin-top: 105px;
 }
+.carousel-inner-phone {
+  overflow: hidden;
+  width: 118px;
+  margin-top: 128px;
+  margin-left: 51px;
+  position: relative;
+}
+.carousel.carousel-fade .item {
+  -webkit-transition: opacity 2s ease-in-out;
+  -moz-transition: opacity 2s ease-in-out;
+  -ms-transition: opacity 2s ease-in-out;
+  -o-transition: opacity 2s ease-in-out;
+  transition: opacity 2s ease-in-out;
+  opacity: 0;
+}
+.carousel.carousel-fade .active.item {
+    opacity:1;
+}
+
 #sensational #iphone-2 {
   background: transparent url("../images/phone-2.png") no-repeat -3px 124px;
   width: 300px;
