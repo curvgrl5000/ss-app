@@ -591,24 +591,165 @@ h4 {
   margin-left: 0px;
   margin-top: 105px;
 }
-.carousel-inner-phone {
+.fade-inner-phone {
   overflow: hidden;
   width: 118px;
+  height: 170px;
   margin-top: 128px;
   margin-left: 51px;
   position: relative;
 }
-.carousel.carousel-fade .item {
-  -webkit-transition: opacity 2s ease-in-out;
-  -moz-transition: opacity 2s ease-in-out;
-  -ms-transition: opacity 2s ease-in-out;
-  -o-transition: opacity 2s ease-in-out;
-  transition: opacity 2s ease-in-out;
-  opacity: 0;
+
+.carousel-fade img {
+  position: absolute;
+  left: 0;
+  animation-name: carousel-fadeFadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 40s;
+  
+  -webkit-animation-name: carousel-fadeFadeInOut;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 40s;
+  
+  -o-animation-name: carousel-fadeFadeInOut;
+  -o-animation-timing-function: ease-in-out;
+  -o-animation-iteration-count: infinite;
+  -o-animation-duration: 40s;
+  
+  -moz-animation-name: carousel-fadeFadeInOut;
+  -moz-animation-timing-function: ease-in-out;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-duration: 40s;
+  
+} 
+.carousel-fade img.transparent {
+  opacity:0;
 }
-.carousel.carousel-fade .active.item {
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+@-webkit-keyframes carousel-fadeFadeInOut {
+  0% {
     opacity:1;
+  }
+  17% {
+    opacity:1;
+  }
+  25% {
+    opacity:0;
+  }
+  92% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
 }
+@-moz-keyframes carousel-fadeFadeInOut {
+ 0% {
+   opacity:1;
+ }
+ 17% {
+   opacity:1;
+ }
+ 25% {
+   opacity:0;
+ }
+ 92% {
+   opacity:0;
+ }
+ 100% {
+   opacity:1;
+ }
+}
+
+@-o-keyframes carousel-fadeFadeInOut {
+ 0% {
+   opacity:1;
+ }
+ 17% {
+   opacity:1;
+ }
+ 25% {
+   opacity:0;
+ }
+ 92% {
+   opacity:0;
+ }
+ 100% {
+   opacity:1;
+ }
+}
+
+@keyframes carousel-fadeFadeInOut {
+ 0% {
+   opacity:1;
+ }
+ 17% {
+   opacity:1;
+ }
+ 25% {
+   opacity:0;
+ }
+ 92% {
+   opacity:0;
+ }
+ 100% {
+   opacity:1;
+ }
+}
+
+.carousel-fade img:nth-of-type(1) {
+  -webkit-animation-delay: 42s;
+  -moz-animation-delay: 42s;
+  -o-animation-delay: 42s;
+  animation-delay: 42s;
+}
+.carousel-fade img:nth-of-type(2) {
+  -webkit-animation-delay: 36s;
+  -moz-animation-delay: 36s;
+  -o-animation-delay: 36s;
+  animation-delay: 36s;
+}
+.carousel-fade img:nth-of-type(3) {
+  -webkit-animation-delay: 30s;
+  -moz-animation-delay: 30s;
+  -o-animation-delay: 30s;
+  animation-delay: 30s;
+}
+.carousel-fade img:nth-of-type(4) {
+  -webkit-animation-delay: 24s;
+  -moz-animation-delay: 24s;
+  -o-animation-delay: 24s;
+  animation-delay: 24s;
+}
+.carousel-fade img:nth-of-type(5) {
+  -webkit-animation-delay: 18s;
+  -moz-animation-delay: 18s;
+  -o-animation-delay: 18s;
+  animation-delay: 18s;
+}
+.carousel-fade img:nth-of-type(6) {
+  -webkit-animation-delay: 12s;
+  -moz-animation-delay: 12s;
+  -o-animation-delay: 12s;
+  animation-delay: 12s;
+}
+.carousel-fade img:nth-of-type(7) {
+  -webkit-animation-delay: 6s;
+  -moz-animation-delay: 6s;
+  -o-animation-delay: 6s;
+  animation-delay: 6s;
+  
+}
+.carousel-fade img:nth-of-type(8) {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay: 0;
+  animation-delay: 0;
+}
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 #sensational #iphone-2 {
   background: transparent url("../images/phone-2.png") no-repeat -3px 124px;
